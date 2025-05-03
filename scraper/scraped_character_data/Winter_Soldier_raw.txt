@@ -1,0 +1,575 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Winter_Soldier =====
+
+Winter Soldier
+"I'm not anyone's sidekick, what I do best is done alone."
+Real Name
+James Buchanan "Bucky" Barnes
+Aliases
+Bucky
+Biographical Information
+Birthdate
+1920s-1930s
+Birthplace
+Shelbyville, Indiana
+Gender
+Male
+Eye color
+Blue
+Hair color
+Brown
+Powers/Skills
+Enhanced physical conditioning through genetic manipulation
+Bionic left arm that grants superhuman strength, multipurpose weaponry, and extendable tendrils
+Expert marksman
+Expert hand-to-hand combatant
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+275
+Difficulty
+Affiliation
+HYDRA
+(formerly)
+Invaders
+Portrayal
+Voice Actor
+Eliah Mountjoy
+Terrifying experiments turned him into a brainwashed assassin, but now James Buchanan "Bucky" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!
+Official description
+Winter Soldier
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 24th hero introduced to the game's roster.
+He has a team-up ability that work in conjunction with
+Captain America
+.
+Overview
+Strengths
+A combo-based assassin that can quickly shift from mid-range attacks to devastating close-range combos with conditional area-of-effect potential.
+Above-average health compared to other Duelists, which can be brought even higher thanks to his passive.
+His passive, Ceasless Charge, automatically reloads his primary fire whenever he uses any of the bionic-arm-related abilities while also providing bonus health.
+This makes his kit flow in synergy, as players can use bionic-arm abilities instead of manually reloading as the situation demands to connect his combos seamlessly.
+In addition, Winter Soldier gains 30 bonus health when using Bionic Hook and Tainted Voltage, and 50 bonus health when using Trooper's Fist and Kraken Impact.
+This bonus health is granted even if the ability does not connect with an enemy. It also can stack, granting him exceptional longevity.
+His primary fire, Roterstern, not only has fast projectiles and deals high damage, but also has a unique property of dealing splash damage that hits enemies in a small cone directly behind the primary target, granting Winter Soldier a powerful conditional area-of-effect damage.
+His secondary fire, Bionic Hook, which is a charged attack that extends the length of his bionic arm in a straight line to hook and pull the first target caught in its path towards the Winter Soldier.
+This ability is the core of the Winter Soldier's combo-oriented gameplay, allowing him to pull key targets overextending, such as Strategists, to quickly follow-up with his other abilities in order to deal devastating damage.
+Bionic Hook's range increases based on charge time, extending twice as long at maximum charge.
+In addition to dealing direct damage for the first target hit, it also deals damage to enemies in a small cone directly behind the victim.
+Trooper's Fist is a short-ranged forward dash that ends in an uppercut. Enemies caught by it are pushed and launched upwards.
+The dash can hit multiple targets if they're very close to each other, leading them perfectly into the uppercut.
+This ability is an excellent follow-up to Bionic Hook.
+Tainted Voltage is an energy projectile launched in a straight line after a small build-up.
+The projectile has piercing properties, allowing Winter Soldier to hit multiple enemies if they are caught in the line of fire.
+Enemies hit by the blast are slowed by 35% for 2 seconds.
+If this ability hits flying enemies, such as
+Iron Man
+and
+Star-Lord
+(during Rocket Propulsion or Galatic Barrage), it will knock them down to the ground.
+This ability is a great opener for the Winter Soldier, as the slowing effect leaves enemies vulnerable to pull them with Bionic Hook.
+His Ultimate, Kraken Impact, has Winter Soldier leaping high into the air while charging his bionic arm, creating a circular reticle before performing a downward strike at the ground with unleashed tentacles, dealing high damage in a large radius.
+Enemies hit by Kraken Impact are temporarily marked with a debuff called Culling for 5 seconds, displayed as a small dark red bar overlapping the left side of an afflicted target's health bar. This dark red mark represents 20% of a character's max health. If a marked character's health drops below this 15% threshold, they will be killed instantly.
+When Winter Soldier is using Kraken Impact, enemies already below 15% of their maximum health are given a unique icon above their health bars. This icon signals to the player using Winter Soldier that these enemies can be killed with Kraken Impact in one blow, which also regenerates the Ultimate instantly.
+In addition, taking down marked targets will instantly refill Kraken Impact, allowing Winter Soldier to use it again. Winter Soldier can consecutively use Kraken Impact as long as he is able to dispose of marked characters.
+This reset works even against
+Loki
+'s Doppelgangers,
+Hulk
+reverting to Bruce Banner, or when triggering
+Wolverine
+'s Regenerative Healing Factor.
+Weaknesses
+Has limited mobility outside of his Ultimate and a Short dash.
+Winter Soldier is very reliant on his bionic-arm abilities to keep damage going; if he mismanages them, he can be left incredibly vulnerable with his gun relying on them.
+The Culling debuff from Kraken Impact lasts for only 5 seconds, making strong defensive abilities like Barrier and Soul Bond to be effective counters.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+WINTER SOLDIER
+Default
+Navy Trooper
+RARE
+Blood Soldier
+EPIC
+🎨
+WINTER'S WRATH
+Revolution
+EPIC
+Thunderbolts*
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Winter Soldier
+Navy Trooper
+Season 0
+Blood Soldier
+Season 1
+Winter's Wrath
+Season 2
+Revolution
+Captain America: Sentinel
+of Liberty
+(2022) #6
+Thunderbolts*
+Thunderbolts*
+(2025)
+See
+:
+List of MVP Animations
+DEFAULT
+Winter Soldier
+Lone Star's Shine
+Blood Soldier
+Let's Play
+Revolution
+Mission Complete
+Thunderbolts*
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Bat Capture
+Brand New Arm
+Clean Slate
+THUNDERBOLTS*
+See
+:
+List of Sprays
+Winter Soldier
+Blood Soldier
+Revolution
+Thunderbolts*
+See
+:
+List of Nameplates
+Winter Soldier
+Blood Soldier
+Revolution
+Thunderbolts*
+Abilities
+Normal Attack
+ROTERSTERN
+Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+AMMO -
+3
+FIRE RATE -
+2.5 rounds per second
+RANGE -
+Cone-shaped spell field with a 5m radius and an apex angle of 90°
+SPELL FIELD DAMAGE -
+65
+CRITICAL HIT -
+Projectile: Yes; Spell Field: No
+SPECIAL MECHANIC -
+Enemies that take damage from the projectile will no longer receive damage from the spell field
+PROJECTILE SPEED -
+180 m/s
+PROJECTILE DAMAGE -
+75
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 60% at 40m
+SPECIAL EFFECT
+⚬ Enemies that take damage from the projectile will no longer receive damage from the spell field
+Abilities
+Q
+KRAKEN IMPACT
+Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period
+CASTING -
+Spherical Spell Field
+RANGE -
+5m spherical radius
+SPELL FIELD DAMAGE -
+80
+CULLING DURATION -
+5s
+CULLING THRESHOLD -
+15% Health
+NEXT KRAKEN IMPACT AFTER A CULLING -
+8s
+ENERGY COST -
+3100
+SHIFT
+TROOPER'S FIST
+Dash forward, seizing enemies along the path and launching up enemies at the end of the dash
+CASTING -
+Movement-based damage ability
+AVERAGE SPEED -
+30 m/s
+COOLDOWN -
+12s
+RANGE -
+Length: 4.5m, Width: 4.5m, Height: 2m
+KNOCKBACK DAMAGE -
+65
+MAXIMUM DISTANCE -
+9m
+SEIZE DAMAGE -
+25
+E
+TAINTED VOLTAGE
+Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes
+CASTING -
+Projectile that fires in a straight trajectory
+DAMAGE -
+55
+SLOW RATE -
+-35%
+SLOW DURATION -
+2s
+COOLDOWN -
+6s
+PROJECTILE SPEED -
+100 m/s
+SPECIAL EFFECT
+⚬ Projectiles pierce through enemies
+BIONIC HOOK
+Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+COOLDOWN -
+12s
+RANGE -
+The projectile can travel up to 10m with a 0.5s charge. As the charge time increases, it can reach a maximum distance of 20m with a 1s charge
+PROJECTILE DAMAGE -
+15
+RANGE -
+Cone-shaped spell field with a 4.5m radius and an apex angle of 80°
+SPELL FIELD DAMAGE -
+20
+PROJECTILE SPEED -
+80 m/s
+CHARGE TIME -
+0.5s - 4s
+PASSIVE
+CEASELESS CHARGE
+Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier
+BONUS HEALTH (SELF) -
+40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact), 30 (Stellar Impact)
+Team-Up Abilities
+C
+STELLAR IMPACT
+Inspired by
+Captain America
+'s resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies.
+DAMAGE: 70
+RANGE: 8m spherical radius
+CLASH DAMAGE: 80
+CLASH DAMAGE RANGE: 10m spherical range
+COOLDOWN: 15s
+Strategy
+As Winter Soldier is built around continuous brawling around the frontlines, he will typically want to position close to his team's Vanguards and Strategists, weaving abilities between firing to whittle down enemies while looking for opportunities to pull in unaware enemies with Bionic Hook for an easy, isolated kill.
+Winter Soldier excels in 1v1 scenarios, especially against agile, short-range dive heroes like
+Spider-Man
+,
+Black Panther
+,
+Magik
+, or
+Psylocke
+. Not only can his Roterstern punch heavy holes into them with good accuracy, but he has enough health and sustainability to survive most of their dive attempts as well as being able to disrupt or even outright KO them with his powerful CC abilities in Tainted Voltage and Bionic Hook.
+The Roterstern blaster fires explosive projectiles that deal damage to the target and a small AoE behind it. It is best fired into large clusters of enemies or in between ability uses to maximize Winter Soldier's damage output.
+Bionic Hook has Winter Soldier charge up a ranged grab to pull enemies toward. Like his Roterstern, this attack has a small AoE behind, allowing it to hit and pull in multiple targets. Prioritize out-of-position enemies to pull them in for an easy kill.
+Note that Bionic Hook will pull enemies directly in front of where Winter Soldier is facing, meaning that if you are fast enough, you can pivot your view toward your team right after it lands to pull them even further out of position.
+Tainted Voltage fires a large red spark from Winter Soldier's arm. This spark will pierce enemies, hitting anyone it passes through, however it cannot pierce barriers. On top of dealing solid damage, it also slows enemies, making it easier to land follow-up shots or pull in affected enemies.
+This also has an additional property in which it will cause airborne enemies to instantly fall back to earth, making it great for dealing with fliers such as
+Iron Man
+or
+Storm
+.
+Trooper's Fist has Winter Soldier charge forward a short distance, seizing any enemies he hits before dealing a powerful uppercut to them, launching them up. This will leave the opponent floating in the air for a brief moment, allowing for an easy follow-up shot. It can also serve as an impromptu mobility option if need be.
+Since this ability is capable of seizing and forcibly moving enemies, you can use it in conjunction with the previous Bionic Hook tip to push enemies even further into your team, on top of dealing extra damage.
+Winter Soldier's passive, Ceaseless Charge, is the bread and butter of his gameplan. Always make sure to try and weave abilities in between shots in order to maximize your damage output while minimizing your downtime. Take careful note of what abilities you have available at any given time, and be ready to take fewer risks if you see that they are still on cooldown.
+Kraken Impact is one of the game's strongest snowball ultimates. Upon activation, Winter Soldier will leap into the air before displaying a circular reticle on the ground, which will be followed up by him crashing down on top of an enemy, dealing strong damage as well as marking them for Culling. While marked, if the target's health goes under 15% of their maximum HP, indicated by a crimson mark on their health bar, they will instantly be KO'd, as well as refreshing Kraken Impact for another use. He can continue this over and over until he either misses the attack, fails to use it again within 8 seconds, or fails to get a kill on a marked target before the debuff fades.
+Enemies that have 15% of their maximum HP or below have a unique marker above their health bar when Kraken Impact is activated, indicating that they can be KO'd instantly if they are struck by the ultimate. Additionally, the ultimate can be refreshed if a teammate defeats an enemy marked with Culling.
+Because of how devastating the ultimate can be if not planned for, most heroes, especially Strategists, will attempt to save their defensive abilities and ultimates until you decide to use it. Take careful note of which heroes and abilities have been used so you can pull out your ultimate at the most opportune moment.
+Winter Soldier's team-up with Rocket, Infinite Grit, allows Winter Soldier to continuously fire his weapon without needing to reload while he stands within Rocket's Ammo Overload beacon. This allows Winter Soldier to lay down continuous, high-damage fire down range without having to use an ability, allowing him to hold on to them for a more opportune moment.
+Lore
+"I was rebuilt to be a weapon, but now I'm the one who pulls the trigger."
+Captain America's sidekick during World War II, James Buchanan "Bucky" Barnes was thought to have been killed in action. In truth, he had been recovered by enemy forces and rebuilt into their ultimate assassin. But the Winter Soldier eventually broke his conditioning to become a hero once more.
+Captured during an operation to sabotage Charteris Base, the Winter Soldier was subjected to horrific experiments at the hands of Hydra scientists. He was rescued by Hawkeye and a version of Captain America from the year 2099, who gifted an upgraded arm to his former partner.
+—
+Biography
+Hero Story
+"And here I thought the second world war was a nightmare..."
+A Helping Hand
+The news streamed in from all over the world. The people in charge were calling it the Timestream Entanglement — a sudden disruption in the fabric of space and time that had sent chaos rippling across countless realities. The heroes of Earth had assembled to face the crisis head on. Not all of them had survived.
+"...entire world is in a state of mourning for Steve Rogers, the beloved hero known as Captain America, who was struck down earlier this week when..."
+"About damn time," a security officer in a Hydra uniform grunted, cracking a smile as he watched the satellite feed in the monitor station of the hidden Arctic base where he was stationed.
+The officer switched the channel to see another news report discussing the theory that
+Victor von Doom
+, the ruler of the European nation of Latveria, was behind the Timestream Entanglement.
+"Should've been us..." the security officer muttered, looking up at the large, red
+Hydra
+logo hanging proudly on the wall. He shook his head in disappointment. He had devoted his life to helping Hydra destabilize the world. And now, some Super Villain in a metal suit had beaten them to the punch. Still, he thought, there would surely be plenty of opportunities for Hydra to benefit from the world's new status quo. And the top-secret experiments being performed on the lower levels of this base were merely the beginning of what was to come...
+The officer stood and began his patrol, exiting the monitor station and walking across the hangar to an open bay door. He gazed wistfully out at the snow-swept landing apron beyond.
+"Another peaceful night on the edge of nowhere," he said to himself. But he had no idea how soon his words would be proven wrong.
+Without warning, a squad of soldiers clad in white Arctic combat gear emblazoned with Hydra's red and black logo, came running toward the door. Before they could reach the safety of the hangar, they began to drop to the ground, one after another, each one with an arrow in their back.
+The remaining soldiers turned, their weapons raised, as a hooded figure leapt through the snowy night sky toward them. The twin katanas in his hands flashed in the moonlight, shining brighter than the frost-covered landscape.
+In a ballet of flashing steel, the mysterious assailant managed to wipe out the entire Hydra detachment, including the security officer. The first stage of his mission complete, the invader pulled down his hood to reveal the face beneath. It belonged to Clint Barton, the Avenger known as
+Hawkeye
+.
+As he entered the Hydra base, stepping over the unconscious Hydra soldiers, he tried to get a sense of his surroundings as quickly as possible. There was no time to waste. Someone was waiting for him.
+"Hang in there, Bucky," Hawkeye said. "The cavalry's here."
+Soon...
+After navigating his way into the depths of Mount Erebus, Hawkeye entered Hydra's Super-Soldier Lab. Nine cylindrical glass tanks filled with fluid, each connected to a computer terminal via huge conduits, bubbled and glowed ominously. On the wall, screens cycled through human anatomical diagrams, energy equations, and images of decaying, mutated cells.
+Hawkeye stepped closer to the glass tanks, his dual blades in hand, ready for anything. He surveyed the tubes one-by-one, finally stopping at the final tank, which had a label that read "CANARY".
+"Jackpot," he said with a grin.
+Inside, partially concealed by the thick, glowing fluid, was the man that Hawkeye had been sent to retrieve. James "Bucky" Buchanan Barnes. The assassin known as the Winter Soldier. Before he could begin to set his friend free, though, a shadow unexpectedly passed behind one of the other tanks. Hawkeye looked in that direction, sword at the ready... He paused...
+...but nothing...
+"Hmm." he muttered. "Nobody home."
+He began to sheathe the swords, returning his attention to the Winter Soldier's tank... but instead he pivoted at the last second, parrying as an unseen figure nearly took his head off with a steel-gauntleted fist.
+A Hydra Super-Soldier emerged from the shadows. Seven-feet-tall, teeth bared, flesh twisted, madness in his eyes. He bellowed as he charged toward Hawkeye.
+Hawkeye dodged and counterattacked, jamming one of his katan into a joint of the Super-Soldier's mutated arm. Quickly realizing that his swords couldn't penetrate the Super-Soldier's dense flesh, Hawkeye changed tactics, trying to stay out of the Super-Soldier's reach and get enough space to use his weapon of choice: his bow and arrows.
+As Hawkeye acrobatically bounded towards the other side of the lab, the Super-Soldier dislodged the katana jammed in his arm and threw it aside with tremendous force. The spinning blade shattered the glass of one of the holding tanks, sending glowing fluid splashing everywhere. The attached computer began to short out in a shower of sparks.
+Hawkeye was too busy surviving to notice that something in the shattered tank had begun to move. He finally got enough space to raise his bow and notch an arrow, but the Super-Soldier was already on top of him. Hawkeye had nowhere left to go...
+As the Super-Soldier swung his enormous fist down toward the archer, a mass of tentacles entangled the brute's arm. The startled Super-Soldier tried to struggle free, but the tentacles were too strong. With a sudden pull, the Super-Soldier was sent sailing through the air, smashing against the wall. Eldritch energy surged through his massive frame, and he slumped to the floor, a lifeless husk.
+Hawkeye scanned the room for the source of the tentacles. He was thankful for the save, but not entirely sure that he was ready to discover what new horrors had been unleashed.
+There, standing in the shattered tank, dripping with glowing fluid, stood the Winter Soldier. But something had changed about him. Where his cybernetic arm should have been was the same writhing mass of squid-like appendages that had just made quick work of Hydra's experimental enforcer.
+Hawkeye stared in astonishment, for once speechless.
+"You sure make a lot of noise," the Winter Soldier said as he stepped out of the tank.
+"Didn't mean to interrupt your nap," Hawkeye retorted, doing his best to mask his shock and concern with humor. Lowering his bow, Hawkeye retrieved his katana from next to the shattered tank and sheathed it.
+"Come on," he said, clearly uncomfortable as he put a hand on his old friend's shoulder — the one without the mass of squirming limbs extending from it. "We'll find a way to fix this. You'll be okay. We just need to get you out of here."
+"Not yet," the Winter Soldier replied. "There's something I have to do first."
+"What we have to do is go back up to the landing platform," Hawkeye said.
+"Gotta go down before we go up, Clint," the Winter Soldier responded. "And I'm gonna need your help. Please."
+Hawkeye was taken aback. The Winter Soldier wasn't one to say "please." He could tell that this — whatever it was — was important to Bucky. It was enough to make Hawkeye push down his instinct to get the hell out of Hydra Town.
+"Well..." Hawkeye said with a sigh, "I guess if it was easy, anybody could do it..."
+Hawkeye followed the Winter Soldier into a vast space, with lines of giant robot-like vehicles in various stages of construction. As they crossed an elevated catwalk that traversed the room, they heard shouting and the thudding of boot heels rapidly approaching. Hydra was on their trail. Wherever they were going, they would have to move fast.
+Reaching a heavy door, they entered a chamber with a vaulted ceiling supported by pillars at least a hundred feet tall, each carved to look like a horrific monster. A portal yawned on one wall, with ancient energy radiating from it. Something was trying to come through from the other side.. and even though Hawkeye could see it, his brain couldn't process what the hell it was.
+The Winter Soldier approached an altar near the portal and climbed on top of it. Hawkeye followed reluctantly. The Winter Soldier extended his tentacles into the carvings on the altar, each one naturally sliding into the ancient stone grooves, as if they had been carved ages ago for this very moment.
+Fragmented memories flooded the Winter Soldier's already fractured mind. He relived the day he first infiltrated Hydra's secret base, getting as far as the Hive chamber. He had tried to destroy it then, but failed. Hydra soldiers overwhelmed him and tore off his cybernetic arm. Before he knew what was happening, he was sealed inside a glass tank, tiny nubs of tentacles growing from his shoulder socket, his teeth bared in a permanent scream.
+Snapping back to reality, the Winter Soldier steeled himself, realizing what he had to do. Hawkeye glanced nervously from Bucky to the mass of Hydra soldiers that had just forced their way into the chamber.
+"You'd better make this quick, Buck," Hawkeye said.
+"Clint..." the Winter Soldier responded, gazing back at the portal behind him. Tentacles strangely similar to his own had begun to break through the membrane between realities. "How sharp are those swords of yours?"
+"Sharp enough to cut down an entire Hydra army," Hawkeye said proudly. But his face dropped as he realized he had no idea what his friend was about to ask him to do. "Why?"
+"We have to close that portal," the Winter Soldier said. "And let's face it... I can't exactly wear this thing to the next Avengers cookout anyway..."
+Hawkeye glanced at the Winter Soldier's bizarre new arm and took a deep breath. He had come here to save his friend, not to cause him more pain. But this was Bucky's call... and it wasn't like the guy hadn't lost an arm before...
+"Fine," Hawkeye said after a long pause. "Say when."
+As the creature emerging from the portal wrapped its tentacle around the Winter Soldier's waist, the altar began to glow. It was almost as if a circuit had been completed, and the Winter Soldier was the conduit. Mystical power coursed between the altar and the portal, overloading Bucky's body with energy and agony.
+"When!" the Winter Soldier screamed.
+With a single clean slice, Hawkeye's blade severed the entire bunch of tentacles just below Bucky's shoulder, releasing a huge shockwave of energy, knocking both heroes and their Hydra pursuers to the ground.
+A rumble echoed through the chamber, deep cracks forming in the surrounding walls, pillars beginning to topple. Then, for a moment everything fell silent... until the portal surged with energy and the monster coming through it howled in pain, retreating back to the other side.
+When the dust cleared, Hawkeye and the Winter Soldier pulled themselves to their feet. With a quick survey of the room, reality set in. They had succeeded in stopping whatever was happening down here, but they had also cut off any escape routes in the process.
+"Guess you shouldn't have come after me..." the Winter Soldier said.
+"Don't say that," Hawkeye replied. "I was just doing my job."
+"You were a hell of a soldier, Clint..." Bucky said, ready to accept the inevitable as the pillars shifted and rubble began to rain down towards them. The chamber was about to collapse and Hawkeye and the Winter Soldier knew full well that this mission would be their last.
+Suddenly, the ancient portal began to glow again. Bucky and Clint braced for the worst, not knowing what horrors might come through it this time. But neither of them could have possibly prepared for what they saw next.
+A round, metallic object launched through the portal at tremendous speed, ricocheting through the chamber. Chunks of falling debris shattered into tiny pebbles that sprinkled down upon the heroes harmlessly.
+"What the —?!" the Winter Soldier gasped. He was completely shocked, but also moderately annoyed by the fact that, once again, this world wasn't done with him quite yet.
+A figure burst forth from the mystical gateway, lunging forward and catching the metal disc in midair. He used it to effortlessly deflect a huge stone a split second before it could crush the bewildered heroes below. The stone didn't even make a dent in his brightly polished red, white, and blue shield.
+"Bucky,"
+Captain America
+said, landing on the chamber floor and extending his hand to his former partner. "It's been too long."
+Both Hawkeye and the Winter Soldier stared in awe, fighting through the pain and exhaustion to try and process what they were seeing. Wasn't Cap supposed to be... dead...?
+"Sorry I missed your funeral, old timer..." the Winter Soldier said.
+"Sorry I went to your funeral," Hawkeye chimed in. "Clearly, you didn't need one."
+"I'm... not the Steve Rogers you knew..." Cap said, trying to find the words to explain. "It's a long story. One even I don't fully understand yet. And one that we unfortunately don't have time for at the moment. My friends in
+Wakanda
+were able to hijack and redirect this portal's energy signature to open a gateway of their own, but there's no guarantee how long they'll be able to keep it open..."
+Hawkeye and the Winter Soldier looked at each other and shrugged. This was far from the weirdest thing that had happened to them today. And they were willing to wait for the full story if it meant they could get out of Hydra's house right now.
+"I was pretty sure we were gonna die down here," Hawkeye said.
+"Wasn't about to let that happen," Cap said confidently. "Nobody gets left behind."
+"Glad you're not dead, Steve," Bucky said, collapsing into Cap's arms. "Umm... I think I'm gonna need a hand..."
+"Looks like you need more than that, Buck..." Cap said, looking at the oozing stumps on the Winter Soldier's shoulder.
+"You know arms," the Winter Soldier said, forcing a grin. "Easy come, easy go."
+"Can't say the same about partners," Cap said back.
+The Winter Soldier looked over at Hawkeye, nodding at the man who had rescued him. Hawkeye nodded back knowingly.
+"Couldn't agree more..." the Winter Soldier said.
+Moments later, in a crackle of energy, the heroes stepped out of the portal. They weren't anywhere near Hydra's frozen base. That was instantly clear. In fact, it didn't even look like they were on Earth anymore. The strange chronal energies of the Timestream Entanglement ripped across a star-filled sky as they gazed in disbelief at the spaceport of a futuristic city. If this was Wakanda, it certainly wasn't the one that Bucky and Clint knew.
+As the portal closed behind them, the heroes were greeted with a Wakandan salute from the
+Black Panther
+himself. Cap raised his hand to his forehead, offering a salute of his own. Hawkeye and the Winter Soldier remained silent and still, trying to assess their new situation.
+Shuri
+, the sister of the Black Panther and the brilliant mind behind some of Wakanda's most impressive inventions, stepped forward and offered a box to the newly-arrived heroes. Clint took the container and held it with both hands as Bucky flipped open the lid with the one he had left. Inside was a cutting-edge cybernetic arm.
+"I was told you might need this," Cap said, "so I called in a favor."
+Bucky picked up the arm with his good hand and snapped it into place. It was a perfect fit.
+"And now, I'm going to need a favor from you..." Cap said.
+The Winter Soldier didn't know what Captain America was about to ask him, but he wasn't about to say no. Whatever came next, he would be there 'til the end of the line.
+Back to Maveth
+(Coming soon. Stay Tuned!)
+Alone and Helpless
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Brothers in Arms
+As Winter Soldier, land 1 KO with an assist from Rocket Raccoon.
+5
+Arm Race
+As Winter Soldier, land 3 KOs with a single use of Kraken Impact.
+10
+Quotes
+See:
+Winter Soldier/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Winter Soldier
+was released as the 24th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+Navy Trooper
+and
+Revolution
+.
+Added the
+Arm Race
+achievement.
+Added to the
+Ammo Overload
+Team-Up Ability
+with
+Rocket Raccoon
+and
+The Punisher
+.
+24/12/10:
+Version 20241210
+When the target area is ascending or descending, if
+Winter Soldier
+hit an enemy with his Ultimate and they landed right on the target area platform, damage may be lost. This issue has been resolved.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+After using his ultimate, the
+Winter Soldier
+'s movement speed issues upon respawn have been fixed. He's back to full combat readiness!
+25/01/08:
+Fixed occassional incorrect resets of
+Winter Soldier
+'s ultimate ability.
+Fixed an issue where the
+Winter Soldier
+'s ultimate ability would sometimes fail to hit targets within its range.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase the bonus health provided by
+Bionic Hook
+and
+Tainted Voltage
+from 30 to 40.
+Increase
+Roterstern
+'s projectile damage from 70 to 75.
+Reduce the area damage from 70 to 65 and reduce damage decay from 65% at 40 meters to 60%.
+Increase base health from 250 to 275.
+25/01/22:
+Version 20250122
+/
+Fortune & Colors
+Event
+Addressed an issue where if
+Winter Soldier
+used his ultimate ability to defeat a shapeshifted
+Loki
+, it wouldn't count towards the ultimate ability consecutive KO achievement.
+25/01/31:
+Added 1 new costume:
+Blood Soldier
+.
+25/02/20:
+Addressed an issue where
+Winter Soldier
+'s ultimate sometimes visually appeared to hit targets but would actually miss. The sharpshooter's aim is now spot on!
+25/03/14:
+Version 20250314
+Resolved a bug where the
+Winter Soldier
+'s
+Tainted Voltage
+automatic reload could fail to trigger after firing and immediately using his
+Trooper's Fist
+ability. Bucky's firepower is now as relentless as his mission for justice!
+Fixed an issue where if the
+Winter Soldier
+used
+Bionic Hook
+during the slow-motion match over moment, it could cause abnormal arm model display in the next round. Now, Bucky's got his look--and his lethal arm--back on point!
+25/04/08:
+Addressed an issue where Bucky would sometimes descend before ascending while unleashing his Ultimate Ability in unstable network conditions. Now, the
+Winter Soldier
+rises to the occasion without any time-traveling hiccups--no need for a Doctor Strange intervention!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase the cooldown time for
+Bionic Hook
+from 8 seconds to 12 seconds.
+Reduce base damage of
+Kraken Impact
+from 100 to 80 and lower the culling threshold from 20% of maximum health to 15%.
+Added to the
+Stars Aligned
+Team-Up Ability
+with
+Captain America
+, but removed from the
+Ammo Overload
+Team-Up Ability
+with
+Rocket Raccoon
+and
+The Punisher
+.
+25/04/18:
+Added 1 new costume color for
+Blood Soldier
+:
+Winter's Wrath
+.
+25/04/30:
+Version 20250430
+Adjust the
+Tainted Voltage
+ability to have 2 charge levels, while keeping the cooldown time unchanged.
+Upon leaping to a teammate,
+Stellar Impact
+will provide 50 Bonus Health to allies within range.
+25/05/02:
+Added 1 new costume:
+Thunderbolts*
+.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - Stars Aligned - Official Launch Date Announcement Trailer
+Hero Logo
+Prestige artwork
+Hero Story Artwork
+Winter Soldier in the "Hydra's Hymn"
+Gallery
+card.
+"Blood Soldier" Costume Reveal
+"Revolution" costume in
+Captain America: Sentinel of Liberty
+(2022) #6
+Trivia
+His left arm is never more than a prosthetic that is reasonably durable and strong in many adaptations, and he is never depicted doing anything beyond what he is capable of in this game. However, according to the game's lore, his new extendable metallic tendrils came upon him relatively recently, rather than him being innately more capable than his comic or MCU counterpart.

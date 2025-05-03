@@ -1,0 +1,256 @@
+# Game Update - Recent Posts (Fetched 2025-05-03 12:27)
+
+## Marvel Rivals Version 20250430 Patch Notes
+
+Marvel Rivals Version 20250430 Patch Notes
+2025/04/30
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on April 30, 2025, at 09:00:00 (UTC)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+All-New Event - Hellfire Gala: Moments
+Join the party and earn Wolverine's "Patch" series costume rewardsâcompletely FREE!
+Event Duration: 2025/05/02 09:00:00 ~ 2025/05/23 09:00:00 (UTC)
+New In Store
+1. Winter Soldier - Thunderbolts* Bundle
+2. Black Panther - Damisa-Sarki Bundle
+Costume Optimizations
+1. Thor's "Lord of Asgard" costume has been refined to improve visibility and ensure the crosshair isn't obstructed.
+2. Doctor Strange's "Doctor Strange in the Multiverse of Madness" costume now boasts enhanced visual details and voice effects to more accurately capture the essence of the costume theme.
+New Content
+1. You can now switch all costume-specific sound effects back to the default ones via Settings.
+2. Using the latest S2.0 data, we've recalibrated the baseline data for calculating each hero's performance scores.
+3. Locked accounts can now initiate the account deletion process even from a logged-out state.
+Fixes
+All Platforms
+Maps and Modes
+1. Squashed a bug in Competitive where an occasional map glitch incorrectly displayed check point gate statuses.
+2. Reined in some mischief in the final part of the Empire of Eternal Night: Midtown map where Loki's illusions could be placed in unexpected locations.
+3. Fixed an issue in Giant-Size Brain Blast where destroying enemy summons would also count toward enlarging heroes' heads.
+Heroes
+1. Stealth Special Breaker: We've sliced through a glitch where if Wolverine responds to a Fastball Special request while within Invisible Woman's ultimate, it would sometimes result in abnormal invisibility effects.
+2. An Unexpected Thing: We've rocked out a fix for an issue that allowed The Thing's Embattled Leap to target teammates within an enemy Invisible Woman's ultimate. Now, he'll be as clueless as he should be.
+3. Cloak & Dagger's Shield Shenanigans: We've zapped a bug where their ultimate would sneakily still do damage to foes protected by Magneto's Iron Bulwark or Hulk's Indestructible Guardâtalk about an unexpected plot twist!
+4. Wolverine's Aerial Annihilator: Fixed a flaw in the second stage of his ultimate where midair knockbacks lost their bite and dealt no damage. Now, when Wolverine soars into the fray, every strike is felt with the raw power of a true berserker!
+5.Star-Lord's Rocket Revamp: Eliminated an occasional speed decay glitch in his Rocket Propulsion ability, impacting his smooth movement. Now, every blast-off is as snappy and daring as a mixtape drop from the Milano!
+6.Mister Fantastic's Fantastic Flex Fix: We've untangled an issue in his Flexible Elongation ability where hitting targets inside portals caused unexpected displacement. Now, when Mister Fantastic bends the limits of physics, his moves are as smart and precise as his genius!
+7.Ascender's Altitude Assurance: Fixed a network instability-related bug that could sometimes abruptly yank wall-climbing heroes back to the ground after reaching the highest point. Now, every climb is as steady and heroic as your soaring ambitions!
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250429/41548_1231611.html
+---
+
+## Marvel Rivals Version 20250425 Patch Notes
+
+Marvel Rivals Version 20250425 Patch Notes
+2025/04/24
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on April 24, 2025, at 09:00:00 (UTC+0)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+New Mode - GIANT-SIZE BRAIN BLAST
+This all-new mode will ignite the battle big time during the following windows:
+2025/4/25 09:00:00 ~ 2025/4/28 12:00:00 (UTC)
+2025/5/2 09:00:00 ~ 2025/5/5 12:00:00 (UTC)
+Compete on unique leaderboards and unlock colossal rewards that are sure to make your head spin! Get ready to think big, shoot big, and have a big blast!
+New Content
+New In Store:
+1. Loki - Shin Sagi-Shi Bundle
+2. Hela - Yami no Karasu Bundle
+3. A big bunch of Brain Blast Emotes
+Resource Adjustments:
+Luna Snow's Cyber Tunes emote has been revamped to loop continuously, ensuring that she never skips a beat.
+Hero Proficiency Tweaks:
+To better reflect your mastery in the heat of different battles, we're overhauling the hero proficiency system. The missions are now segmented into Quick Match/Competitive and Conquest/Doom Match. Quick Match/Competitive missions have no cap on repetition, while Conquest/Doom Match missions feature a daily repeat limit. Your hero proficiency is about to get as lordly as your feats!
+Fixes
+All Platforms
+General
+1. Fixed a rare issue where players would sometimes find themselves stuck on the round-switch transition screen.
+2. Resolved a glitch on the Krakoa map where the emote wheel occasionally couldn't be used, except for the bottom-right segment.
+3. Fixed a Faction system bug where after a single name change, the name could not be changed again even after the cooldown period.
+4. Resolved an issue in the Faction Recruit interface where non-leaders saw a "Only Leader Can Select" label on the Confirm button.
+5. In Custom Game - Tournament Room settings, coaches now have an option to hide opponent voting displays in Competitive matches.
+6. Fixed an issue where the first time entering a new season's Battle Pass screen or the moment when season-end settlement pops up and rapidly switching to the next page would sometimes cause the navigation bar to vanish.
+Maps and Modes
+1. Fixed several terrain issues that could cause characters to sometimes become stuck or clip into strange areas.
+Heroes
+1. Emma Frost's Diamond Dynamite: Fixed a glitch in Diamond Form where her Carbon Crush would sometimes catapult foes undergroundâor even off the map! Now, when Emma dazzles, every move lands as sharp as a perfectly cut gem!
+2. Mister Fantastic's Fantastic Flex Fix: Resolved an issue when Flexible Elongation aimed at enemies through portals would occasionally twisted his movement trajectory into the wrong direction. Now, when Mr. Fantastic bends the rules of physics, his is as precise as his genius!
+3. Iron Fist's Chaotic Kick: Squashed a bug causing Iron Fist's K'un-Lun Kick to suddenly rollback in high-latency battles. Now, his moves blast forward with the unstoppable momentum of a true warrior!
+4. Psylocke's Wing Shurikens Tweak: Fixed a glitch where Psylocke's Wing Shurikens would sometimes lose damage after striking Loki's arm. Now, with the trickster god kept in check, her psionic shurikens strike with all the precision and brilliance of a ninja!
+5. Star-Lord's Sleepy Swagger: Resolved an issue where Star-Lord's Spartax Slumber emote was missing his signature facial animations when used during a match. Now, when he starts to nod off his playful attitude will shine through, proving that even in chaos, he's the coolest guy in the galaxy!
+6. Squirrel Girl's Animated Antics Revival: Corrected an issued with Squirrel Girl's default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!
+7. Invisible Woman's Shield Surge Update: Fixed an error in the recovery rate of Invisible Woman's Guardian Shield.
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250422/41548_1229365.html
+---
+
+## Marvel Rivals Version 20250415 Patch Notes
+
+Marvel Rivals Version 20250415 Patch Notes
+2025/04/17
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on April 17, 2025, at 09:00:00 (UTC+0)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+CUSTOMIZE: Costume Colors Arrive at the Gala!
+New feature unlocked at
+Apr 17th 9 AM UTC
+! Head to the store to unleash fresh color combos on your beloved costumes! Once bought, color options can be freely switched in the Costumes interface.
+New Content
+New In Store (
+available at
+Apr 18th 2 AM UTC
+):
+1. Doctor Strange - Doctor Strange in the Multiverse of Madness Bundle
+2. Peni Parker - Yatsukahagi Bundle
+Fixes
+All Platforms
+General
+1. Fixed a rare issue where the camera perspective could behave oddly after respawning.
+2. Resolved an error where importing reticle settings would sometimes show an invalid character message.
+Maps and Modes
+1. Fixed several terrain issues that could cause characters to become stuck or clip into strange areas.
+Heroes
+1. Wolverine's Claw-some Comeback: Fixed an issue where Wolverine's Ultimate Ability landing sometimes wouldn't finish properly in poor network conditions. Now, the best there is at what he does can unleash his fury without any hiccups!
+2. Fastball Fumble: Resolved an issue where Wolverine could sometimes be unable to control his direction during the Fastball Special after using it multiple times. Now, every throw will be a claw-some hit!
+3. Banner's Hulk Smash Fix: Resolved a rare model display issue that could sometimes occur when Bruce Banner transformed in terrain kill zones. Now, when the good doctor gets angry, he won't just smash; he'll do it with styleâHULK SMASH, without the visual chaos!
+4. The Thing's Rocky Report: Corrected the ability icon error in the KO Prompt when the Thing's Ultimate Ability causes terrain kills. Now, when he brings the pain, the prompt will accurately reflect the mayhem.
+5. Spider-Island Resurrection Reboot: Fixed an issue where Adam Warlock could accidentally resurrect teammates in the out-of-play area on Spider-Islands. Now, teammates will return to solid ground instead of being stuck in limbo!
+PC
+Support for Razer Chroma RGB lighting technology and Razer Sensa HD Haptics has been added. Take your Marvel Rivals immersion to the next level with Razer Sensa HD Haptics, giving you over 600+ distinct effects that range from character transformations, projectile impact, to the casting of spells, and more.
+You can enable Razer features via experimental feature setting in the Marvel Launcher, and external Razer gear is needed.
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250415/41548_1227470.html
+---
+
+## Marvel Rivals Version 20250411 Patch Notes
+
+Marvel Rivals Version 20250411 Patch Notes
+2025/04/08
+Greetings, Rivals!
+We trust you've received your exclusive invitation to the illustrious Hellfire Gala! The excitement is electric as everyone gears up to head to Krakoa for this extraordinary event! So, don your finest attire, and let's dive into the thrilling new content and captivating surprises that await you!
+**Maintenance will begin on
+April 11 at 2:00 AM PDT
+and is expected to take approximately
+2-3 hours
+. During this time, the servers will be offline, and players will not be able to access the game. Server return times may vary based on progress.
+1. New Content
+1.1 All Platforms
+Heroes and Costumes
+1. Emma Frost makes her dazzling debut in Marvel Rivals!
+2. New Costumes: Emma Frost - X-Revolution & Blue Sapphire!
+Maps and Modes
+1. Get ready for an all-new Domination map - Hellfire Gala: Krakoa.
+2. Map Rotation Update: Hellfire Gala: Krakoa will enter the Competitive pool, while Yggsgard: Royal Palace and Tokyo 2099: Shin-Shibuya will be retired from ranked play. Tournament maps will align with the competitive mode, while Quick Match and Custom Game will still feature all maps without rotation.
+3. Optimized the settlement logic for substitute players in Quick Match battles: victories will count normally, while losses will not affect combat history or scoreboard.
+Battle Pass and Season Events
+1. Unlock a dazzling shiny new Battle Pass featuring 10 brand new sets of heroic costumes!
+2. The season event Cerebro Database has officially launched; participate to earn the free costume Mantis - Flora Maiden.
+3. This season also brings exclusive bonus seasonal rewards: Complete 9 matches to receive the free costume Scarlet Witch - Chaos Gown.
+4. An all-new Twitch Drops event is here! This event will gift players the Namor - Will of Galacta costume, nameplate, spray, and emote. (Stay tuned to official announcements for details!)
+5. The mission system has been revamped: new weekly missions and rewards have been added, and the balance of daily and challenge missions has been adjusted while maintaining the overall Chrono Token distribution. The proportion of hero-specific missions has also been reduced.
+Ranked
+1. Rank Reset: based on your final Season 1.5 rank, ranks will be demoted by 9 divisions. For example, if you ended Season 1.5 at Diamond I, your Season 2 journey begins at Silver I.
+2. New rank rewards are in! A dazzling new costume for reaching Gold â Emma Frost - Golden Diamond, along with new Crests of Honor for Grandmaster, Celestial, Eternity, and Top 500.
+3. The minimum level required for new players to participate in Competitive has been adjusted to 15. (If you have previously completed at least one valid competitive match, you can still join Competitive in Season 2.0 even if you are below level 15.)
+4. Pick/ban will now come into play starting from Gold III rather than Diamond tier.
+5. When a team includes players from Eternity or One Above All, only solo or duo queuing will be allowed.
+6. Currently, the score you earn per Competitive match is determined by both the outcome and your individual performance. After Season 2.0 launches, we will be increasing the weight of individual performances. The better you perform, the more points you will earn in victory, and the fewer points you will lose in defeat.
+Tournament Updates
+1. The second season of the Marvel Rivals Championship is here! The champion, runner-up, and third-place nameplates have been upgraded to dynamic designs, showcasing your hard-earned glory! This season features adjusted rank requirements and a revised sign-up phase. For all the details, please refer to the Marvel Rivals Championship rules.
+2. The global tournament regions have been enhanced! North America (NA), Europe (EU), and Asia (AS) have now transformed into the Americas (AMERICAS), Europe, the Middle East, and Africa (EMEA), and the Pacific (PACIFIC). This upgrade allows for a more compatible and organized classification of server nodes across various regions.
+3. A new faction search function has been added for the Knockout Stage.
+4. The Tournament Overview page has been revamped! Players can now quickly access core tournament information in a visually engaging manner, with detailed explanations of each process and the specific rules for advancement and elimination in various tournament formats.
+5. Introducing a new custom feature for the Marvel Rivals Championship nameplate emblem! Players with a Championship Emblem can now customize its display in Career - Customize.
+6. A new Tournament Room option has been introduced in Custom Game, featuring additional tournament-related functionalities.
+7. In the Custom Game - Tournament Room, we've added a pause function. The room host and authorized players can now initiate a game pause.
+8. In the Custom Game - Tournament Room, an "Away" feature has been added. Non-host players can set their status to away, making it visible to others in the room.
+Faction Updates
+1. Introducing the all-new Faction Recruit and Seeking Factions system! Factions and players can now use this system to form their dream squads and prepare for various in-game tournaments.
+2. A fresh batch of faction emblems has been added! Players can freely switch emblems in the faction details interface.
+3. New reporting functionality for factions has been implemented. Players can report inappropriate custom content for factions, including names, abbreviations, and announcements.
+General Updates
+1. A new gift feature for friends has arrived! Now you can gift cosmetics to your friends.
+2. The Career Overview page now supports the selection of specific hero forms.
+3. Rank leaderboard display has been added to Career.
+4. Real-time voice chat has been optimized! An interface prompt now appears when you activate voice chat using push to talk.
+5. In Custom Games, spectators can now temporarily exit during matches, enabling them to rejoin the action anytime.
+6. A new room host transfer function has been introduced. The current host can right-click on other players to transfer host privileges.
+1.2 PC
+Graphics and Settings
+1. We've introduced an experimental feature: Switch Shader Compilation Mode. When activated, shaders will only compile the first time you launch the game after a new version or graphics driver update. This feature can significantly reduce memory usage and minimize in-game stuttering. âEspecially on systems with 16 GB of RAM or less.
+However, if you're using a CPU with less threads in combination with AMD FSR3 Frame Generation, you may notice occasional additional stutters with this feature enabled.
+*Please note: This is an experimental feature. If you encounter any issues during use, our support team is standing by ready to assist.
+2. We've added support for AMD FSR 4, using an AI-accelerated upscaling algorithm to deliver image quality improvements over AMD FSR 3.1. (Available exclusively on the AMD Radeonâ¢ RX 9000 series graphics cards)
+1.3 Console
+â¦ New Vertical Deadzone Sensitivity Settings: Players can now customize the additional acceleration sensitivity after reaching the vertical deadzone.
+â¦ Additional Sensitivity Acceleration Delay Settings: Players can tailor the delay time for acceleration to kick in after reaching the deadzone.
+â¦ Character Movement Stick Deadzone Settings: Players can set the maximum and minimum deadzone values for the joystick controlling character movement.
+â¦ Trigger Deadzone Settings: Players can now define the trigger depth required for activation.
+â¦ New Player Initial Settings Feature: First-time players will receive a reminder of default sensitivity settings, vibration, and trigger effects upon entering the game, making their introduction as smooth as a Super Hero landing.
+â¦ Focus Memory Optimization: The focus feature has been upgraded to intelligently remember the last position on the screen.
+2. Fixes and Optimizations
+2.1 All Platforms
+General Updates
+â¦ Resolved numerous issues related to notifications.
+â¦ Rectified various text errors.
+â¦ Fixed an issue in Custom Game where spectators would incorrectly exit the room after a match.
+â¦ Fixed a rare occurrence where settings would reset to default upon restarting the game.
+Maps and Modes
+â¦ Fixed terrain issues that could cause characters to become stuck or clip through odd locations.
+â¦ Resolved various issues including floating broken objects, collision errors, etc.
+â¦ Addressed several sound issues on maps.
+â¦ Resolved a rare issue in Custom Quick Match, where on the Empire of Eternal Night: Midtown map, spawn room transfer could sometimes not work correctly.
+Heroes
+â¦ Captain America's Shield Bounce: Resolved an issue where Captain America couldn't ricochet enemy projectiles while moving backward. Now, the Sentinel of Liberty can send those pesky projectiles flying no matter which way he is moving!
+â¦ Spector Sightings: Fixed a glitch that sometimes caused abnormal camera angles after being revived by Adam Warlock's Ultimate Ability. No more wobbly views for our heroesâeveryone deserves to enjoy their epic returns in all their heroic glory!
+â¦ Namor's Super Soldier Shenanigans: In Hydra Charteris Base: Hell's Heaven - Super-Soldier Factory, Namor's Ultimate Ability could occasionally fail to deal damage when targeting the raising pillars. This issue has been resolved, ensuring the Sub-Mariner delivers his Giganto impact!
+â¦ Winter Soldier's Time Warp: Addressed an issue where Bucky would sometimes descend before ascending while unleashing his Ultimate Ability in unstable network conditions. Now, the Winter Soldier rises to the occasion without any time-traveling hiccupsâno need for a Doctor Strange intervention!
+â¦ Cloak & Dagger's Form Flaw: Fixed an issue where Cloak or Dagger sometimes left their character model lingering for a brief moment during form switches. Now, they'll slip into action smoother than a stealthy shadow.
+â¦ Iron Fist's Floating Fumble: Resolved a rare glitch where Iron Fist could end up floating indefinitely. The Immortal Weapon is now back on the ground, delivering justice and martial arts mastery without any unintended levitation!
+â¦ Wolverine's Ferocious Leap: Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!
+â¦ Claws and Consequences: Resolved a rare occurrence where being hit by Wolverine's Feral Leap could render all abilities unusable. No more claw-induced chaosâheroes can now fight on without fear of losing their abilities mid-battle!
+2.2 PC
+Graphics and Settings
+â¦ Fixed an issue where the AMD Radeon RX 9070 XT graphics card renders with excessively low brightness in certain scenarios.
+2.3 Console
+â¦ Fixed a rare issue where raw mouse input settings unexpectedly affected controllers, potentially causing crosshair drift.
+â¦ Fixed an issue in console matches, where there was a chance that button prompts were displayed as keyboard and mouse inputs.
+We will continue to vigilantly monitor game bug issues and fix them as fast as we can. Stay tuned for ongoing content updates and keep an eye on the official channels for the latest news!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250401/41548_1223996.html
+---
+
+## Marvel Rivals Version 20250327 Patch Notes
+
+Marvel Rivals Version 20250327 Patch Notes
+2025/03/26
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on March 27, 2025, at 09:00:00 (UTC+0)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+Galacta's Cosmic Adventure
+We've added a special April Fool's Easter Egg gift! Remember, only those who collect all rewards from Galacta's Cosmic Adventure will unlock this hidden twist surprise.
+The Easter Egg gift can be claimed from April 1, 2025, 00:00:00 (UTC+0) until April 4, 2025, 00:00:00 (UTC+0).
+New Content
+Pick-Up Bundle
+Fixes
+All Platforms
+General
+1. Resolved an issue in Custom Game where a disconnected player's character would still appear on the Like page during match settlement.
+Maps and Modes
+1. Fixed several terrain issues that could cause characters to sometimes become stuck or clip into strange areas.
+2. Squashed a glitch in the Hydra Charteris Base map where Rocket Raccoon's B.R.B. could sometimes revive teammates outside the play area due to terrain changes.
+Heroes
+1. Wolverine's Terrifying Pounce: Resolved an issue where the Hulk could sometimes have abnormal behavior after being catapulted into a terrain KO by Wolverine's Feral Leap. Now, the big guy gets the proper beatdown without any off-script environmental stunts!
+2. Iron Fist's Wall-Climbing Whimsy: Fixed a glitch in Practice Range where Iron Fist wall-climbing was beyond expectations. The master of martial arts can now keep his acrobatic feats on track!
+3. Iron Man's Teleportation Tangle: In Sanctum Sanctorum, Iron Man use of Hyper-Velocity followed immediately by portal entry could occasionally throw a wrench in the worksâresulting in the ability to misfire and some off-color special effects. Now, Iron Man's high-tech strategy is as sleek as ever, letting him jet in and out as he pleases.
+4. Loki-Doctor Strange's Forbidden Tech: Fixed an issue in Doom Match where Loki's transformation into Doctor Strange allowed the use of the forbidden Pentagram of Farallah. This minds-warping mix-up has been vanquished.
+5. Magneto's Magnetic Moments: Resolved an issue in the post-match where Magneto's MVP could sometimes display some bizarre, offbeat visuals. The master of magnetism now commands his moments with true polar precision.
+6. Wolverine's Ultimate with Pinpoint Precision: Fixed a snag in Wolverine's Ultimate Ability where, under high network latency, foes sent flying and slammed into the ground could sometimes end up in the wrong location. Now, every Last Stand lands exactly where it should.
+7. Human Torch's Fiery Focus: Addressed a rare bug where the Human Torch's Primary Attack would sometimes miss its target entirely, leaving his incendiary prowess a little less scorching. With this fix, every burst of flame burns as brilliantly as intendedâensuring his heat is always on target!
+Console
+1. Eliminated a bug that sometimes caused the focus to unpredictably shift to earlier messages when opening the chat window.
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250325/41548_1222027.html
+---

@@ -1,0 +1,274 @@
+{
+  "name": "Squirrel Girl",
+  "role": "Duelist",
+  "stats": {
+    "health": 275,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F97316",
+    "color_theme_secondary": "#EF4444"
+  },
+  "abilities": [
+    {
+      "name": "BURST ACORN",
+      "keybind": "LMB",
+      "type": null,
+      "description": "Shoot bouncing Burst Acorns. Arced projectile that generates a spell field upon impact.",
+      "casting": null,
+      "damage": "110",
+      "damage_falloff": "70% falloff at 3m",
+      "fire_rate_interval": "1.49 acorns per second",
+      "ammo": 10,
+      "critical_hit": false,
+      "cooldown": null,
+      "range": "3m spherical radius",
+      "projectile_speed": "80 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "TAIL BOUNCE",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Rocket upwards with a bounce of her tail.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "9m",
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "MAMMAL BOND",
+      "keybind": "E",
+      "type": null,
+      "description": "Reload Burst Acorns and can use an ability without cooldown once in a short duration.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "SQUIRREL BLOCKADE",
+      "keybind": "RMB",
+      "type": null,
+      "description": "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy. Charged projectile with an arced trajectory.",
+      "casting": null,
+      "damage": "35",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": null,
+      "projectile_speed": "20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)",
+      "charges": null,
+      "duration": "1.33s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Maximum charge time: 1.5s"
+    }
+  ],
+  "ultimate": {
+    "name": "UNBEATABLE SQUIRREL TSUNAMI",
+    "keybind": "Q",
+    "type": null,
+    "description": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures. The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.",
+    "casting": null,
+    "damage": "150",
+    "range": "Length: 3m, Width: 5m, Height: 1.75m",
+    "effect": null,
+    "duration": "10s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": "9 m/s",
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 2800,
+    "details": {
+      "Squirrel Horde Health": "300",
+      "new_effect_description": "the squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly"
+    }
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "WEBBED ACORN",
+      "keybind": "C",
+      "partner": "Spider-Man",
+      "effect": "Spider-Man gives Squirrel Girl a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast",
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "20s",
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Mastering self-defense is crucial, as opponents will try to eliminate you. Practice using Squirrel Blockade to effectively counter high-mobility characters like Spider-Man or Psylock; if you have a Spider-Man on your team, you can use Webbed Acorn. Utilize Squirrel Girl's ultimate frequently, even in 1v1 situations, to gain a tactical advantage, essentially giving your team an extra character on the field for 12 seconds. Exploit environmental awareness by bouncing shots off walls to hit enemies hiding behind cover. When facing flying characters like Storm or Iron Man, use your trap to stun them, bringing them within your attack range. Improve your aim and consistency by practicing in the practice range, focusing on stun-locking flying bots. Provide support to teammates, especially tanks, by firing at their attackers, and coordinate with damage dealers like Iron Fist to secure eliminations. Use Squirrel Blockade or Webbed Acorn to stun enemy tanks that dive into your backline, protecting your team. Prioritize eliminating Loki clones and Anks, as Squirrel Girl can dispatch them quickly, disrupting enemy strategies.",
+    "weaknesses": [
+      "Has no defensive or self-sustain tools.",
+      "Vulnerable to dives and when Tail Bounce is on cooldown.",
+      "Burst Acorn has the lowest damage distance falloff in the game, meaning her damage output vastly decreases the farther she is from her opponents.",
+      "It also cannot deal critical damage.",
+      "Targets rooted by Squirrel Blockade and Webbed Acorn can still attack and use non-mobility abilities.",
+      "Unbeatable Squirrel Tsunami can be easily avoided, as it only hits ground targets; enemies flying or on high ground won't be affected by it.",
+      "In addition, the squirrels have a healthbar and can be taken down."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Stark Fan Club Founder",
+        "description": "As Squirrel Girl, partner with Iron Man to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "\"Ahh, those tiny claws!\"",
+        "description": "As Squirrel Girl, land 3 KOs with a single use of Unbeatable Squirrel Tsunami.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "Eat nuts, and kick butts.",
+    "ingame_bio_text": "Possessing only the powers of a common squirrel, somehow Doreen Green manages to defeat seemingly invincible enemies in the most unexpected ways. Any foe who counts her out is bound to fall at the hands of the Unbeatable Squirrel Girl!",
+    "ingame_story_intro": "Hey, don't ever call Tippy-Toe a pet, okay? She's my best friend.\nDoreen Green is more than just a computer science student at Empire State University. She also happens to have the powers of a squirrel AND the powers of a girl! With her BFFF (Best Furry Friend Forever) Tippy-Toe by her side, Doreen eats nuts and kicks butts as the unbeatable Squirrel-Girl!\nAfter the Timestream Entanglement, things got weirder. With all of New York City under attack by creatures of the night, Squirrel Girl assembled an adorable army to reclaim Central Park from the clutches of Dracula. Here's hoping vampires don't like the taste of squirrel!",
+    "hero_stories": [
+      {
+        "title": "Bushwhack!",
+        "content": "\"Well, that should take care of them!\" the Unbeatable Squirrel Girl said as she stood over a group of freshly-defeated attackers. \"Another horde of vampires down for the count. Good work, everybody!\"\nAs Squirrel Girl praised her army of rodent companions for their efforts, the tiny creatures began to chitter with delight. They would do anything for their human friend, Doreen Green — even risk their lives against the seemingly endless throng of nocturnal nightmares that had emerged after an ancient curse trapped New York City in a state of perpetual night.\n\"You've definitely earned a trip to Mr. Hickory's fresh roasted nut cart on the corner of 55th and — \"\nBefore Squirrel Girl could finish that thought, her BFFF — Best Furry Friend Forever — Tippy-Toe scurried past her fellow squirrels and climbed right onto Doreen's shoulder. As Tippy began to chirp into Squirrel Girls' ear, Doreen's ever-present smile dropped a bit.\n\"Wait... that can't be right...\" Squirrel Girl said. \"A giant squirrel... fell out of the sky...? Here in Central Park...? Are you sure, Tippy?\"\nTippy-Toe leapt from Squirrel Girl's shoulder and bolted back towards the heart of the park. Before she disappeared into the woods, she turned around and beckoned for her friend to come along.\n\"Guess Mr. Hickory is gonna have to keep his nuts warm a little longer,\" Squirrel Girl said, shrugging as she followed Tippy-Toe into the dark forest. The rest of the squirrels stayed close behind Doreen, ready to take on whatever threats might be lurking in the shadows.\nAs soon as they reached a clearing, Squirrel Girl realized that Tippy-Toe hadn't been exaggerating in the slightest. There, int he middle of a small impact crater, was the biggest squirrel Doreen had ever seen. Her furry friends surrounded the creature and stared in awe. But something was clearly wrong. The giant rodent was hurt. Bad.\n\"Excuse me... ma'am...?\" Squirrel Girl said cautiously. \"You look like you could use a friend...\"\n\"Aye...\" the enormous squirrel replied, with pain its voice. \"I am so far from home... Yet the scent of this realm seems oddly familiar... Tell me, to where have I fallen, dear child...?\"",
+        "status": null
+      },
+      {
+        "title": "BFFFS",
+        "content": "\"Can you believe it, Tippy?\" Squirrel Girl asked, her voice rising to a high pitched squeal. \"We got invited to Krakoa for the Hellfire Gala! It's only, like, the most important event of the year... Whatever year this is...\"\nJust a few days ago, Doreen Green — the Unbeatable Squirrel Girl — and her trusty rodent sidekick Tippy-Toe were fighting for their lives in a New York City that had been thrust into eternal darkness and infested with vampires. So getting whisked away through some sort of magic portal to a living Mutant island 75 years in the future wasn't exactly on her Bingo card. But she wasn't complaining. After the fight against Dracula, she and her squirrel friends were in desperate need of a vacation. And there was no better place to kick back and relax than on a tropical island in the middle of the Pacific Ocean!",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Squirrel Girl was released as the 29th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: Arctic Lemmus and Urban Hunter.",
+          "Added the \"Ahh, those tiny claws!\" achievement.",
+          "Added to the ESU Alumnus Team-Up Ability with Spider-Man."
+        ]
+      },
+      {
+        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
+        "changes": [
+          "Enemies defeated by Unbeatable Squirrel Tsunami that get KO’d two seconds after being released now count towards the achievement!"
+        ]
+      },
+      {
+        "date_version": "25/01/03:",
+        "changes": [
+          "Added 1 new costume: Cheerful Dragoness."
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Rectified instances where Squirrel Girl's ultimate ability could get stuck on specific terrain."
+        ]
+      },
+      {
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "changes": [
+          "Addition of a new effect to the Unbeatable Squirrel Tsunami: the squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.",
+          "Reduce the squirrel tsunami health from 600 to 300."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Resolved a sound issue where Squirrel Girl's hit sound effect was occasionally too sharp. Her acorns now land with a perfect pop!"
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Added 1 new costume: Nut Rocker."
+        ]
+      },
+      {
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
+        "changes": [
+          "Corrected an issued with Squirrel Girl's default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!"
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "Squirrel Girl is a Duelist hero in Marvel Rivals, and is the 29th hero introduced to the game's roster.\nShe has team-up abilities that work in conjunction with Spider-Man."
+  },
+  "background": {
+    "real_name": "Doreen Allene Green",
+    "aliases": [
+      "The Unbeatable Squirrel Girl"
+    ],
+    "birthplace": "Los Angeles, California",
+    "birthdate": null,
+    "gender": "Female",
+    "eye_color": "Green",
+    "hair_color": "Ginger",
+    "relatives": [
+      "Tippy-Toe (pet)"
+    ],
+    "affiliation": [
+      "Squirrel Avengers Initiative"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Superhuman strength, speed, reflexes, and agility",
+      "Ability to communicate with squirrels",
+      "Scuirokinesis",
+      "Prehensile tail",
+      "Night vision"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Squirrel+Girl%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "C",
+    "win_rate": "45.02%",
+    "wr_change": "-1.57%",
+    "pick_rate": "10.13%",
+    "pr_change": "-3.01%",
+    "ban_rate": "0.57%",
+    "matches": "151,134"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

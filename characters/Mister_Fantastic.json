@@ -1,0 +1,303 @@
+{
+  "name": "Mister Fantastic",
+  "role": "Duelist",
+  "stats": {
+    "health": 375,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#60A5FA",
+    "color_theme_secondary": "#3B82F6"
+  },
+  "abilities": [
+    {
+      "name": "STRETCH PUNCH",
+      "keybind": null,
+      "type": null,
+      "description": "Stretch out a forward punch to attack enemies.",
+      "casting": "Straight Spell Field",
+      "damage": "65",
+      "damage_falloff": null,
+      "fire_rate_interval": "1.1s per hit",
+      "ammo": "∞",
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "15m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Swinging your arms can attack multiple targets"
+    },
+    {
+      "name": "REFLEXIVE RUBBER",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Stretch body to absorb damage before launching stored damage in the targeted direction.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": "80 m/s",
+      "charges": null,
+      "duration": "3s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Can be canceled prematurely by reactivating the ability.\nThe redirected damage is equal to 60% of all absorbed damage.\nMister Fantastic also becomes immune to all forms of crowd control.\nThis ability can even absorb damage from Ultimates, most notably Iron Man's Invincible Pulse Cannon and Scarlet Witch's Reality Erasure.\nHe also becomes untargetable by the auto-aim from Star-Lord's Galactic Barrage.\nMovement speed is reduced by 35%."
+    },
+    {
+      "name": "FLEXIBLE ELONGATION",
+      "keybind": "E",
+      "type": null,
+      "description": "Gain a shield, select a target, and dash towards them, dealing damage to enemies and granting Shield to allies.",
+      "casting": null,
+      "damage": "30",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "15m",
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "new_effect_description": "Enemies within range now suffer a 35% slow effect."
+      }
+    },
+    {
+      "name": "DISTENDED GRIP",
+      "keybind": null,
+      "type": null,
+      "description": "Extend arms forward to entangle an enemy, then press to pull the hit enemy toward you, or select and yank another enemy, knocking them airborne against each other.",
+      "casting": "Projectile that fires in a straight trajectory",
+      "damage": "20",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s",
+      "range": "20m",
+      "projectile_speed": "60 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "If there is another enemy nearby, the player can target them after gripping the first enemy, which will result in Mister Fantastic yanking both enemies into each other, knocking them up and dealing damage.\nDistended Grip can be used to cancel the endlag of Stretch Punch, increasing its damage-per-second potential."
+    }
+  ],
+  "ultimate": {
+    "name": "BRAINIAC BOUNCE",
+    "keybind": "Q",
+    "type": null,
+    "description": "Leap upward and smash the ground, slowing enemies within range. Can leap again upon landing a hit.",
+    "casting": "Spherical Spell Field",
+    "damage": "Initial 70, Each Additional Leap +14, Max 140",
+    "range": "10m spherical radius",
+    "effect": null,
+    "duration": "3s",
+    "health_upon_revival": null,
+    "slow_rate": "Per Leap -10%, Can Stack, Max -60%",
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 3400,
+    "details": "He will always leap at least three times. After leaping at least three times, he can leap one additional time whenever he hits an enemy, up to a total of six leaps.\nEach leap increases the damage of the next leap by 10, up to 50 extra damage.\nEach leap adds a stacking slow of 10% to enemies hit, up to 60% reduced movement speed.\nUsing this ability on areas with a low ceiling will cause Mister Fantastic to bounce faster.\nAfter entering the inflated state, immediately gain Bonus Health equal to that gained when entering inflated state."
+  },
+  "passives": [
+    {
+      "name": "ELASTIC STRENGTH",
+      "damage": "80",
+      "details": {
+        "bonus_health": "400"
+      }
+    }
+  ],
+  "teamups": [
+    {
+      "name": "Wedded Harmony",
+      "keybind": "C",
+      "partner": [
+        "Invisible Woman",
+        "The Thing",
+        "Human Torch"
+      ],
+      "effect": "Converts 100% of damage taken into bonus health for 5 seconds.",
+      "teamup_bonus": null,
+      "duration": "5s",
+      "cooldown": "20s",
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "To be added",
+    "weaknesses": [
+      "Cannot fully replace an actual Vanguard, especially as a solo frontline.",
+      "Cannot use other abilities while in his inflated state from Elastic Strength, except for his Ultimate.",
+      "In addition, his attack range is reduced almost by half, while his attack speed is slightly reduced.",
+      "Cannot use other abilities while in his stretched state from Reflexive Rubber.",
+      "In addition, his movement speed is reduced by 35%."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "To Solve Everything",
+        "description": "As Mister Fantastic, partner with Iron Man to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Bouncing Ideas",
+        "description": "As Mister Fantastic, bounce 5 times with a single use of Brainiac Bounce.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"There's a solution to every problem if you just look hard enough.\"",
+    "ingame_bio_text": "Reed Richards has one of the universe's most brilliant minds, but even a genius of his magnitude couldn't have predicted the interstellar incident that bombarded his friends and family with cosmic rays, granting them each extraordinary abilities.\nMister Fantastic's cellular elasticity allows him to stretch his body beyond all physical limits. But now he'll have to his stretch his mind further than ever to build the Timestream Reintegration Device and end this cross-dimensional crisis...",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Reality Check",
+        "content": "Dr. Reed Richards — the renowned scientist and adventurer also known as Mister Fantastic — stood in his laboratory in the Baxter Building, closely examining a small crystal that his best friend, Ben Grimm, had recovered on one of his many excursions into lower Manhattan. Reed had his own theories about the strange energy stored within the glowing shard, but even the most brilliant man in the universe needed a second opinion every now and then. And Reed knew exactly who he had to ask for one: The most brilliant woman in any universe — Shuri, the princess of Wakanda.\n\nNot long after the Timestream Entanglement erupted across the Multiverse, causing realities to collide and collapse, Reed had received an unexpected and urgent message from Wakanda. But it was not from the technologically advanced African nation that Reed  and his fellow members of the Fantastic Four had long called their allies. Instead, this was from a Wakanda located in another dimension, one where King T'Challa had taken his people to the edge of the universe and built a society that spanned the stars.\n\nMuch like in Reed's own reality, T'Challa's sister, Shuri, was the driving force behind the Intergalactic Empire of Wakanda's scientific research. So it came to no surprise that she too had been tirelessly searching for a way to undo the damage caused by the Timestream Entanglement. Fortunately, she was not too proud to admit that she could not find the solution alone.\n\nAfter her initial communication was received, Reed and Shuri began to compare notes and hypotheses, bringing other trusted allies like Tony Stark into their fold. Eventually, they were able to build a Timestream Reintegration Device that would theoretically be able to restore the damaged realities to their original state. Of course, finding an energy source potent enough to power the TRD would be nearly impossible, a topic which had since become the source of much debate between the device's creators.\n\nReed knew deep inside that these crystals — which had come to be known as Chronovium by those studying them — were the key. But when compared to the data he had acquired from scanning this shard with recent test results gathered by Shuri, things just weren't adding up. He had to get to the bottom of this... while there was still time left...\n\n\"You wanted to talk, Dr. Richards?\" a voice said from the other side of the computer screen.\n\n\"Ah, Shuri,\" Reed replied, as the screen lit up to reveal the face of his interdimensional ally, \"I'm glad you got my message.\"\n\n\"As always, when the Fantastic Four calls,\" Shuri said, \"Wakanda answers.\"\n\n\"Good. Because answers are what I'm seeking,\" Reed said, getting right to the point. \"We have both previously surmised that Chronovium is a byproduct of the massive fluctuations in energy released by the Timestream Entanglement, correct?\"\n\n\"Indeed,\" Shuri said. \"And it makes me wonder how many other forms may be out there... in whatever universes still remain...\"\n\n\"And that is one of the reasons why I called you,\" Reed said. \"If we could begin to catalog how many other universes—\"\n\n\"Chronoverses,\" Shuri interjected. \"That is what we here in Wakanda are calling the fractured realities created by the Timestream Entanglement.\"\n\n\"Of course,\" Reed continued, \"If we could catalog how many other Chronoverses there are out there, perhaps we could get a better understanding of the current state of the Multiverse, as well as the other types of Chronovium that might be at our disposal.\"\n\n\"I have identified at least one other reality beyond our own,\" Shuri responded without hesitation. \"Recently, Captain America arrived here in Wakanda seeking refuge...\"\n\nReed paused for a moment as Shuri spoke. The Captain America he had known had fallen in battle not long ago, and the entire world was still reeling from the loss. Logically, Reed was well aware that every reality likely had it's own variant of Steve Rogers, but knowing that one was currently residing in Wakanda offered a sense of hope that Reed hadn't felt in far too long.\n\n\"Unlike the Captain America that both my father and my brother proudly fought alongside over the years,\" Shuri said, \"this Steven Rogers claimed that he had been frozen during World War II and had not been reawakened until the year 2099.\"\n\n\"That's not the first time I've heard that date mentioned,\" Reed noted. \"Our Spider-Man told me that he was visited by one of his alternate reality counterparts, a young woman who calls herself Spider-Zero. She claimed to be from the year 2099 as well, and asked for his help to repair a Dimensional nexus point known as the Web of Life and Destiny.\"\n\n\"Fascinating,\" Shuri said, taking notes as she talked. \"Based of Captain America's intel, we also believe that this future timeline may be a gathering point for Mutants whose home realities have ceased to exist. His ally, Wolverine, claimed that he resided on a time-displaced island called Krakoa.\"\n\n\"Curious,\" Reed muttered as he pondered Shuri's words. \"Our Krakoa vanished without a trace when the Timestream Entanglement hit us. Could the living island in that Chronoverse be one and the same?\"\n\n\"I will see if Captain America or his allies can coerce Wolverine into sharing any further information,\" Shuri said.\n\n\"Allies?\" Reed asked. \"Steve brought along friends?\"\n\n\"Not quite,\" Shuri said. \"My own Chronoverse has been facing a number of its own challenges of late, including a growing darkness that is spreading rapidly across the star systems. I had initially sent the Guardians of the Galaxy to investigate its origin point on Klyntar, but I have lost contact with them. In order to prepare for whatever may be coming our way, T'Challa and I asked Steven gather some trusted allies from across time and space. Including a few from your own timeline — Hawkeye and the Winter Soldier.\"\n\n\"Interesting,\" Reed said. \"Tony had told me that they both went missing after an incident at a remote Hydra base. He'll be glad they made it out alive.\"\n\n\"I certainly was,\" Shuri responded. \"I believe they will prove to be valuable allies in the days ahead. I fear this darkness is already tainting Wakanda. Even the gods themselves are not safe from its corruptive influence...\"\n\n\"Speaking of the gods...\" Reed said as Shuri's words trailed off, \"...the Asgard in my timeline had become something entirely new. Their World Tree, Yggdrasil, has grown and merged with the golden realm to create Yggsgard. And, according to reports, Loki is already trying to take advantage of the situation.\"\n\n\"No suprise there,\" Shuri said.\n\nBut the Asgardians aren't the only pantheon in disarray,\" Reed continued. \" Stephen Strange recently returned from a trip through the Astral Plane, where he says he communicated with heroes from yet another dimension — one where powerful deities were locked in an endless war for omnipotent power and total control.\"\n\n\"So that gives us at least four Chronoverses then?\" Shuri said, examining her notes.\n\n\"That we've identified thus far, yes,\" Reed replied. \"And as they continue to collapse and intertwine, I have a feeling that they will start to become ever more dependent upon each other for survival.\"\n\n\"With so few timelines left,\" Shuri said, \"we cannot risk losing any of them. That is exactly why my brother chose to pay a visit your world. I hope his delivery proved useful in your efforts.\"\n\n\"T'Challa... came here...?\" Reed said, clearly puzzled. \"When?\"\n\n\"He left Wakanda a week ago,\" Shuri said, her usual calm and collected expression suddenly giving way to one of deep concern. \"I calibrated our cross-dimensional teleporters myself. I am certain he arrived safely in the New York of your reality.\"\n\n\"Arrived safely, perhaps,\" Reed said, dismayed, \"but anything could have happened after that. Our city isn't exactly as safe as it used to be, after all. The curse that locked us in a permanent nocturnal state allowed certain factions that had formerly been relegated to the shadows the opportunity to seize power.\"\n\n\"Vampires,\" Shuri said, fully aware of the problem. \"T'Challa had hoped to offer you a sample of our own Heart-Shaped Herb as a means of developing a cure to this plague. But if he has fallen victim to it... then...\"\n\n\"Don't you worry your majesty,\" Reed responded. \"Like you said, we're in this together. And when Wakanda calls, the Fantastic Four answers, too.\"\n\n\"I just pray to Orisha that we are not too late...\"Shuri said solemnly, \"...for all of our sakes...\"",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "changes": [
+          "Mister Fantastic was released as the 34th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: First Family and The Maker.",
+          "Added to the Fantastic Four Team-Up Ability with Invisible Woman."
+        ]
+      },
+      {
+        "date_version": "25/01/22: Version 20250122 / Fortune & Colors Event",
+        "changes": [
+          "Addressed a bug where having two Mister Fantastic (like Loki in transformation) sometimes allowed one to reuse the second part of Distended Grip.",
+          "Resolved a bug where if Mister Fantastic was knocked offline while in his inflated state and then rejoined, Mister Fantastic might be unable to use some abilities after reconnecting. He's now back in action and ready to stretch into battle!"
+        ]
+      },
+      {
+        "date_version": "25/02/07: Version 20250207",
+        "changes": [
+          "Addressed a bug where his Reflexive Rubber ability could sometimes fail to end correctly. He's back to being as fantastic as ever!"
+        ]
+      },
+      {
+        "date_version": "25/02/14: Version 20250214",
+        "changes": [
+          "Added 1 new costume: The Life Fantastic."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Fixed an unexpected interaction where Mister Fantastic 's ultimate bounce range preview was affected by Cloak 's Phased state. The stretchy hero's powers are now back on track!",
+          "Fixed an issue where Mister Fantastic 's arm orientation sometimes didn't align with the targeting reticle when using his abilities. Now, the stretchy hero can hit the mark with precision--no more twisted arms!",
+          "Fixed a glitch where Mister Fantastic 's Stretch Punch could be interrupted by Distended Grip during its wind-up phase, yet still erroneously deal damage. Now, the stretchy hero's attacks are consistent--no more bouncing back from unfair hits!"
+        ]
+      },
+      {
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "changes": [
+          "Increase the spell field radius after landing from Flexible Elongation from 2.5 meters to 5 meters. Additionally, Flexible Elongation will now feature a knockback effect, launching enemies outward within the area upon landing.",
+          "The recharge time for a single use of Flexible Elongation will be adjusted from 8s to 10s.",
+          "Increase the spell field damage of Brainiac Bounce from 50 to 70.",
+          "Increase the energy cost from 2800 to 3400.",
+          "Additionally, a new damage decay mechanism has been introduced: spell field damage will begin to decrease starting at 3 meters and will reach a maximum reduction of 50% at 10 meters."
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Increase base health from 350 to 375.",
+          "Boost the damage of Stretch Punch from 60 to 65 and from 75 to 80 while in Inflated state.",
+          "Flexible Elongation New Effect: Enemies within range now suffer a 35% slow effect.",
+          "Reduce Flexible Elongation cooldown time from 10s to 8s.",
+          "Reduce the Elasticity gained from Elastic Strength from 30 to 20, while the Elasticity provided by Stretch Punch is increased from 5 to 8.",
+          "After entering the inflated state, the Bonus Health provided to self has been reduced from 450 to 400.",
+          "New Feature: When Mister Fantastic uses Brainiac Bounce, immediately gain Bonus Health equal to that gained when entering inflated state."
+        ]
+      },
+      {
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
+        "changes": [
+          "Resolved an issue when Flexible Elongation aimed at enemies through portals would occasionally twisted his movement trajectory into the wrong direction. Now, when Mister Fantastic bends the rules of physics, his is as precise as his genius!"
+        ]
+      },
+      {
+        "date_version": "25/04/30:",
+        "changes": [
+          "We've untangled an issue in his Flexible Elongation ability where hitting targets inside portals caused unexpected displacement. Now, when Mister Fantastic bends the limits of physics, his moves are as smart and precise as his genius!"
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "Mister Fantastic\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 34th hero introduced to the game's roster during\nSeason 1: Eternal Night Falls\n.\nHe has a team-up ability that works in conjunction with\nInvisible Woman\n,\nThe Thing\nand\nHuman Torch."
+  },
+  "background": {
+    "real_name": "Dr. Reed Nathaniel Richards",
+    "aliases": [
+      "Big Brain"
+    ],
+    "birthplace": "Central City, California",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Brown",
+    "hair_color": "Brown, Gray",
+    "relatives": [
+      "Sue Storm (wife)",
+      "Franklin Richards (son)",
+      "Valeria Richards (daughter)",
+      "Johnny Storm (brother in law)",
+      "H.E.R.B.I.E. (assistant)"
+    ],
+    "affiliation": [
+      "Fantastic Four",
+      "Illuminati"
+    ],
+    "first_appearance_comic": "Fantastic Four (1961) #3",
+    "recommended_comics": [
+      "Fantastic Four (1961) #3",
+      "Ultimate Comics Ultimates (2011) #2",
+      "Fantastic Four: The Wedding Special (2005) #1"
+    ],
+    "lore_powers_skills": [
+      "Superhuman elasticity, malleability, and durability",
+      "Shape changing",
+      "Super-genius intellect",
+      "Mastery of electrical, mechanical and aerospace engineering, electronics, physics and chemistry"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Mister+Fantastic%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "53.28%",
+    "wr_change": "+0.92%",
+    "pick_rate": "14.45%",
+    "pr_change": "+5.44%",
+    "ban_rate": "1.41%",
+    "matches": "215,580"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

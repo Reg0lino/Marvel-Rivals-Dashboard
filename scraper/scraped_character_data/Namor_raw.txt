@@ -1,0 +1,434 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Namor =====
+
+Namor
+"Those who oppose me shall be left to drown in my wake."
+Real Name
+Namor McKenzie
+Aliases
+The Sub-Mariner
+King of the Seas
+Biographical Information
+Birthplace
+Atlantis
+Gender
+Male
+Eye color
+Blue
+Hair color
+Blond, Green
+Relatives
+Namorita
+(cousin; deceased)
+Powers/Skills
+Hydrokinesis
+Superhuman strength and reflexes
+Aquatic telepathy and healing
+Flight
+Control of oceanic creatures
+Atlantean physiology
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Illuminati
+Portrayal
+Voice Actor
+Daniel Marin
+The unrivaled King of the Seas, Namor surfs into battle on a mighty wave with an army of fierce aquatic creatures in his wake. When ancient horns of war blare, devastation soon follows as deadly waters engulf the arena.
+Official description
+Namor
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 6th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Hulk
+and
+Iron Man
+.
+Overview
+Strengths
+Long-range specialist who can summon sea creatures to attack his enemies.
+Has slightly higher base health compared to other Duelists.
+Neither of Namor's trident attacks are not affected by damage falloff.
+Namor's kit revolves around Aquatic Dominion, which allows him to temporarily summon Monstro Spawns to attack enemies from a distance. This ability has two charges.
+Namor lobs the egg of the Monstro Spawns in an arc in a small distance.
+Monstro Spawns can be attached to any surface, including walls and ceilings.
+Monstro Spawns deal low damage but have high attack speed.
+Monstro Spawns will automatically attack nearby targets and do not need to be aimed.
+This makes Namor an excellent anti-dive Duelist who can protect the backline from flankings.
+His primary fire, Trident of Neptune, has infinite ammo and travels at a slight arc.
+Every successful hit reduces reduce the cooldown of Aquatic Dominion.
+Critical hits temporarily enrage all Monstro Spawns, increasing their attack speed by 150%.
+His secondary fire, Wrath of the Seven Seas, functions similarly to his primary fire, but deals area in a small radius, at a cooldown.
+Using this ability will command all Monstro Spawns to deal an enhanced attack to the nearest enemy, dealing vastly increased damage.
+When the trident hits an enemy, Monstro Spawns are temporarily enraged.
+Deals more damage on a direct hit.
+Unlike Trident of Neptune, cannot critically hit.
+Blessing of the Deep makes Namor temporarily immune to all damage or crowd control while flying upwards.
+His Ultimate, Horn of Proteus, summons Giganto to deal damage in a massive radius around the targeted location, knocking enemies down and stunning them for 1.5 seconds. Enemies nearest to center of the radius take increased damage from Giganto.
+Increases Spawn damage, both in regular and enraged states;
+Increases Spawn health by 100%;
+Causes Spawn attacks to slow enemies by 25% by 1 second; and
+Causes Spawns to last slightly longer than regular Monstro Spawns.
+Weaknesses
+Namor has a relatively slow attack speed.
+Lacks high mobility abilities, and is susceptible to dives.
+Very vulnerable when Blessing of the Deep is on cooldown.
+Damage output falls when out of Aquatic Dominion charges.
+Monstro Spawns can be attacked and destroyed by enemy heroes, and have very low health.
+They only last for 8 seconds.
+Their attack range is limited, and is affected by damage falloff.
+Only two Monstro Spawns may be active at once.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+NAMOR
+Default
+Mauve Sub-Mariner
+RARE
+Will of Galacta
+RARE
+Savage Sub-Mariner
+RARE
+Black Panther: Wakanda Forever
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Namor
+Mauve Sub-Mariner
+Season 0
+Will of Galacta
+Season 2
+S2 Twitch Drop
+Savage Sub-Mariner
+Sub-Mariner
+(1968) #67
+— S1 BattlePass —
+Black Panther: Wakanda Forever
+Black Panther: Wakanda Forever
+(2022)
+See
+:
+List of MVP Animations
+DEFAULT
+Namor
+K'uk'ulkan of Talokan
+Black Panther: Wakanda Forever
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Galactic Gleam
+¡Líik’ik Talokan!
+See
+:
+List of Sprays
+Namor
+Namor Emblem
+Will of Galacta
+X (Namor)
+Black Panther: Wakanda Forever
+See
+:
+List of Nameplates
+Namor
+Will of Galacta
+Black Panther: Wakanda Forever
+Abilities
+Normal Attack
+TRIDENT OF NEPTUNE
+Throw the trident forward, reducing Aquatic Dominion's cooldown upon enemy impact. Critical hits cause Monstro Spawn to enter a berserk state, gaining increased Attack Speed.
+CASTING -
+Projectile with an arced trajectory
+DAMAGE -
+70
+AMMO -
+∞
+FIRE RATE -
+1.09/s
+CRITICAL HIT -
+Yes
+PROJECTILE SPEED -
+120m/s
+SPECIAL EFFECT
+⚬ Each hit charges
+Aquatic Dominion
+by 0.084
+Abilities
+Q
+HORN OF PROTEUS
+Summon Giganto to leap atop enemies within range, disabling their mobility abilities.
+CASTING -
+Cylindrical Spell Field
+DAMAGE -
+500 (inner circle) - 200 (outer circle)
+DURATION -
+1.5s
+RANGE -
+A cylindrical spell field with an inner circle radius of 3m, an outer circle radius of 8m, and a height of 3m
+MAXIMUM DISTANCE -
+30m
+ABILITY DELAY -
+1.5s
+ENERGY COST -
+3100
+SHIFT
+BLESSING OF THE DEEP
+Summon a protective barrier while flying upwards.
+DURATION -
+3s
+COOLDOWN -
+15s
+DASH DISTANCE -
+7m (vertical)
+E
+AQUATIC DOMINION
+Summon a Monstro Spawn that can autonomously attack enemies.
+CASTING -
+Arced Trajectory (Summon Monstro Spawn) - Direct Hit (Monstro Spawn)
+DAMAGE -
+17 (Default) - 11 (Enhanced)
+DURATION -
+8s (Summon Monstro Spawn) - 2s (Enhance Duration)
+CHARGES -
+2
+FIRE RATE -
+2/s (Default) - 5/s (Enhanced)
+RANGE -
+40m
+PROJECTILE SPEED -
+20m/s (Summon Monstro Spawn)
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 30% at 40m
+ABILITY HEALTH -
+100
+WRATH OF THE SEVEN SEAS
+Launch the trident forward to damage nearby enemies, then direct all
+Monstro Spawn
+to perform an enhanced attack on the nearest hit enemy. When the trident hits an enemy,
+Monstro Spawn
+to enter a berserk state, gaining increased Attack Speed.
+CASTING -
+Arced projectile that generates a spell field upon impact
+DAMAGE -
+40 (Default) - 60 (Enhanced)
+RANGE -
+3m spherical radius
+PROJECTILE SPEED -
+120m/s
+SPELL FIELD DAMAGE FALLOFF -
+50% falloff at 3m
+Team-Up Abilities
+C
+GAMMA MONSTRO
+Hulk
+charges
+Iron Man
+and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the ray hits, the higher the damage.
+PROJECTILE SPEED (SUMMON GAMMA MONSTRO) -
+20m/s
+GAMMA MONSTRO MAX DURATION -
+10s
+GAMMA MONSTRO HEALTH -
+200
+COOLDOWN -
+15s
+Strategy
+To be added
+Lore
+"I am the ocean's avenging son. You will get no love from me."
+Born of a union between a human and an Atlantean, Namor has always been a man of two worlds. But while he proudly rules those who dwell beneath the waves, those who live on the surface have long earned Namor's ire.
+After decades of simmering tension, Namor has finally decided that the time is right to strike at the surface world. He has sought the aid of his Mutant allies living in the future on Krakoa to aid him as he sets his sights on a new prize: Jeju Island.
+—
+Biography
+Hero Story
+"You surface dwellers can't resist destroying yourselves, can you?"
+Atlantis Strikes Out
+More than two thirds of the planet's surface is covered in water. One might think that those seemingly endless ocean depths would be far more than any single man could rule. But when that single man is Namor, the sovereign of seven seas, there is always room to expand the empire.
+While his throne sat in the kingdom of Talocan, it was Namor who united the various other undersea civilizations — from Atlantis to Lemuria — under his reign. Millions of sea-breathing soldiers and countless creatures of the deep all bowed in his presence and answered his every command. But still, Namor craved more. And he knew where to find it.
+Most of his people had only known a life beneath the waves, but Namor was a man of two worlds. True, it had been years since he had lived amongst the surface dwellers, but there was no denying that part of him yearned to feel the air in his lungs and the sun on his skin once more. But in order to do so, he would first have to deal with one of the greatest threats that the Earth had ever known: humankind itself.
+Unlike Namor's seafaring subjects, who lived in harmony with their undersea environment, the humans who lived on the land above had proven themselves to be a danger to the planet time and again. Their careless ways were poisoning the water that Namor's people breathed and threatening to bring the oceans themselves to a boil. Their own scientists had warned that it wouldn't be long before the seas began to rise. But if Namor had his way, the people who inhabited those seas would rise even sooner!
+For years, Namor had been planning an all-out assault on the surface world in order to claim it as his own. Now, the time had finally come to act, before it was too late. Plans had been laid, and the first battle for control of the land was set to take place on a gem of the Pacific — Jeju Island. But even with his vast army at his back, Namor knew that there were those on the surface who would stand in his way and prevent him from seizing total dominion. Beings with great power who believed themselves to be the Earth's champions.
+If he truly hoped to stand a chance against these arrogant air breathers, Namor knew he had to make a strategic alliance with a select few of them. Thus, Namor chose to accept the invitation of an old ally and decided to pay a visit to another island before setting foot on Jeju. As the drums of war reverberated through the cold depths, the king of the seas set his course for the island of Krakoa — home of the Mutants.
+Getting to Krakoa was not as easy as simply swimming to shore, though. The sentient island had recently been swept up in a chronal tempest and transported to a distant future. But thanks to the gift of a simple seed that he had planted in the silt at the bottom of the ocean, Namor was able to grow a gateway that delivered him across dimensional barriers and into the shallows off the Krakoan coastline.
+As he emerged from the water, Namor found a group of emissaries awaiting his arrival. Amongst them were two respected Mutant leaders: the weather manipulator called
+Storm
+and the teleporting sorceress known as
+Magik
+. At the front of the group stood the man who had extended the invitation to Namor — the Mutant Master of Magnetism known as
+Magneto
+.
+"I was not sure you would be coming," Magneto said, sweeping his cape aside with a regal motion as he gestured for Namor to come ashore.
+"How could I resist such an exclusive form of travel?" Namor replied. "It is not every day that one can swim through a circle of kelp and arrive almost a century in the future."
+"A journey few will ever have the chance to experience," mused Magneto. "One reserved only for our people. For Mutants."
+"I would think carefully before you choose to claim me as one of your own, old friend," Namor said.
+"Krakoa does not lie," Magneto said, undeterred by Namor's warning. "If you could cross through the gates, you are indeed one of us. Your genetics are unique — an anomaly compared to both races that spawned you. Like each and every one of us who calls Krakoa home, you are something more. Something superior."
+"I have been telling people that for decades," Namor laughed. "If only they had listened..."
+"I know that look in your eyes all too well, Namor," Magneto said, his stoic gaze revealing the slightest hint of concern. "It is the look of a man who is about to make sure his foes start listening… by any means necessary…"
+"If you know me as you claim, then you are fully aware of my longstanding quarrel with humanity," Namor said. "They have plundered the planet's resources and have polluted its splendor. They are a cancer that must be wiped from existence if my people are to survive."
+"As we have established, we are your people as well," Storm chimed in, "and we have always believed that peaceful coexistence is the key to survival."
+"I am well aware of Charles Xavier's grand delusions," Namor said with a smirk. "How are those dreams of his working out for you? Last I checked, isolating your entire race on a secluded island is certainly peaceful, but a far cry from coexistence."
+Storm's eyes began to crackle with lightning at Namor's insolent words. Without a moment's hesitation, Magneto stepped forward, strategically positioning himself between his most trusted ally and their distinguished guest.
+"We have forged a proud Mutant nation here on Krakoa" Magneto calmly retorted. "And while the humans still occasionally prove to be thorns in our sides, we have managed to build relationships with them that have proven to be mutually beneficial."
+"For now," Namor said, "until they find yet another justification for unleashing their killing machines upon your populace."
+"If you're looking for a war," said Magik, extending the blade of her fabled Soulsword in Namor's direction, "I happen to know a few in other dimensions that are worth fighting. There's no need to start one of your own."
+"I did not start this conflict," Namor said, his eyes narrowing, "but the king of the seas shall finish it, with or without your aid. So swears Namor!"
+With that, Namor turned and began to wade back into the shallows lapping at Krakoa's shore. But he stopped for a moment as Magneto offered one last thought.
+"We respect your plight, Namor," Magneto said, "and we will not stand idly by as your people are endangered. You are one of us, and Mutants take care of their own. Should you need us, we will stand by your side."
+Namor smiled. Perhaps a moment too soon.
+"But be wary," Magneto continued. "I have witnessed genocide firsthand and I will not allow it to be perpetrated again. Not even against the humans. And certainly not by one of our own. On Krakoa, we live by a simple rule: Murder no man. You would be wise to heed it…"
+Namor and Magneto locked eyes for a tense moment. Then, the king of the seas dove back into the ocean without a word, swimming with tremendous speed back through the gateway that brought him to the isle of the Mutants.
+As Namor sat on his throne pondering his next move, Magneto's warning echoed in his head, drowning out the cold silence of the ocean floor. It had already been clear that the impending battle against the humans would not be an easy one. Now, Namor would have to be even more cautious if he wished not to add another race of air breathers to his list of enemies.
+But though Namor had always been many things — warrior and Mutant and king — cautious had never been one of them.
+"Gather our greatest warriors," Namor said to his most trusted advisors. "Summon the most ferocious beasts of the sea. Today, we bring humanity to its knees. Today, we claim Jeju Island in the name of Talocan. And tomorrow, if need be, Krakoa shall follow!"
+Serpent Crown
+(Coming soon. Stay Tuned!)
+Ocean of Oceanus
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Getting Chummy
+As Namor, land one KO with an assist from Jeff the Land Shark.
+5
+Aquatic Assault
+As Namor, summon Monstro Spawn to land 10 KOs in a single game.
+10
+Quotes
+See:
+Namor/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Namor
+was released as the 6th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+Mauve Sub-Mariner
+and
+Black Panther: Wakanda Forever
+.
+Added the
+Aquatic Assault
+achievement.
+Added to the
+Chilling Charisma
+Team-Up Ability
+with
+Luna Snow
+and
+Jeff the Land Shark
+.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Adjust the throwing feel of
+Monstro Spawn
+and
+Frozen Spawn
+. Now,
+Namor
+can more accurately throw them to the desired location.
+Increase
+Frozen Spawn
+damage from 25 to 27.
+Increase
+Frozen Spawn
+slowing effect applied to hit enemies from 25% to 30%.
+Increase berserk state
+Frozen Spawn
+damage from 16 to 18.
+Added 1 new costume:
+Savage Sub-Mariner
+.
+25/01/22:
+Version 20250122
+/
+Fortune & Colors
+Event
+Fixed an issue preventing
+Namor
+and
+Invisible Woman
+from unleashing their ultimate abilities at certain door locations--now they can break through any barrier!
+25/03/14:
+Version 20250314
+Fixed a rare issue where if
+Namor
+unleashed his Ultimate Ability while still in the air after being spat out from
+Jeff the Land Shark
+'s Ultimate Ability, there was a small chance that it would do no damage.
+25/04/08:
+In
+Hydra Charteris Base: Hell's Heaven
+- Super-Soldier Factory,
+Na
+mor'
+s Ultimate Ability could occasionally fail to deal damage when targeting the raising pillars. This issue has been resolved, ensuring the Sub-Mariner delivers his Giganto impact!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Added to the
+Gamma Charge
+Team-Up Ability
+with
+Hulk
+and
+Iron Man
+, but removed from the
+Chilling Charisma
+Team-Up Ability
+with
+Luna Snow
+and
+Jeff the Land Shark
+.
+Added 1 new costume:
+Will of Galacta
+.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Hero logo.
+Prestige artwork.
+Hero Story Artwork
+"Savage Sub-Mariner" costume in
+Sub-Mariner
+(1968) #67
+"Black Panther: Wakanda Forever" costume in
+Black Panther: Wakanda Forever
+(2022)
+Trivia
+His design and background in
+Marvel Rivals
+might be a blend of his comic and MCU version.
+Namor's name is only pronounced "Nah-mor" by him and
+Black Panther
+. The entire cast refers to him as "Nay-more".
+This might be a nod to how different cultures tend to pronounce names and recognizing in different ways. Especially this version of Namor has a Mayan background just like the MCU.
+Namor's signature is a Mayan script also known as Maya glyphs.

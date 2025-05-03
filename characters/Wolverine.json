@@ -1,0 +1,323 @@
+{
+  "name": "Wolverine",
+  "role": "Duelist",
+  "stats": {
+    "health": 350,
+    "speed": "7 m/s",
+    "difficulty": null,
+    "color_theme": "#FACC15",
+    "color_theme_secondary": "#3B82F6"
+  },
+  "abilities": [
+    {
+      "name": "SAVAGE CLAW",
+      "keybind": "LMB",
+      "type": "Melee",
+      "description": "Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period.",
+      "casting": null,
+      "damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage",
+      "damage_falloff": null,
+      "fire_rate_interval": "The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "3.5",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "VICIOUS RAMPAGE",
+      "keybind": null,
+      "type": "Movement-based damage ability",
+      "description": "Dash forward and unleash a Claw Strike.",
+      "casting": null,
+      "damage": 15,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s",
+      "range": "3m",
+      "projectile_speed": "44m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "AVERAGE SPEED - 44m/s\nMAXIMUM DISTANCE - 7.5m"
+    },
+    {
+      "name": "FERAL LEAP",
+      "keybind": "SHIFT",
+      "type": "Jump Melee",
+      "description": "Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period.",
+      "casting": null,
+      "damage": "SNATCH DAMAGE- 35\nSMASH DAMAGE- 35",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "new_effect_description": "Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!"
+      }
+    },
+    {
+      "name": "UNDYING ANIMAL",
+      "keybind": "E",
+      "type": "Self",
+      "description": "Unleash a fierce howl to briefly reduce incoming damage.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "16s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "DAMAGE BOOST - 40%"
+    }
+  ],
+  "ultimate": {
+    "name": "LAST STAND",
+    "keybind": "Q",
+    "type": "Area",
+    "description": "Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point.",
+    "casting": null,
+    "damage": "Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage",
+    "range": "8m spherical radius",
+    "effect": null,
+    "duration": null,
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": null,
+    "details": {
+      "KNOCKDOWN TIME": "0.75s"
+    }
+  },
+  "passives": [
+    {
+      "name": "BERSERKER RAGE",
+      "details": {
+        "RAGE PER SAVAGE CLAW HIT": 10,
+        "RAGE PER BERSERK CLAW STRIKE HIT": 5,
+        "RAGE PER FERAL LEAP SNATCH": 10,
+        "RAGE PER VICIOUS RAMPAGE HIT": 15,
+        "RAGE PER HIT TAKEN": 5
+      }
+    }
+  ],
+  "teamups": [
+    {
+      "name": "Metal Cannonball",
+      "keybind": "C",
+      "partner": [
+        "Hulk",
+        "The Thing"
+      ],
+      "effect": "Wolverine, Hulk, and The Thing can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.",
+      "teamup_bonus": null,
+      "duration": "5s Maximum",
+      "cooldown": "3s (when Wolverine is not hurled) and 15s (after hurling Wolverine)",
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Wolverine is a nigh-unstoppable berserker who excels at displacing enemies, shredding large health pools, and brawling for extended periods of time. His high damage, survivability, and mobility makes him extremely tough to kill, all while he finds opportunities to isolate and pick off any enemy unfortunate enough to be in the wrong place at the wrong time.\nBecause all of Wolverine's damage is melee-based, it shouldn't be a surprise that he struggles against fliers or heroes who can reliably stay far away from him. If Wolverine gets spotted before he can close the distance, there isn't much he can do other than run away and try to find a better opportunity. This can make his success somewhat map or team-dependent, however there should usually be at least one viable target for him at any given moment.\nWolverine loves to brawl for extended periods of time or to attack from unexpected angles. Try to stick close to your team during a big fight, as with his innately high health, survival abilities, and support from his team, it is incredibly difficult to burst him down.\nWolverine's main attack is his Savage Claw, where he slashes forward with his claws four times in quick succession. While its base damage may seem low on paper, this attack has a unique percentage-based damage formula, where it deals higher damage the more health his target has. After using Feral Leap, the attack will be upgraded to Berserk Claw Strike, which has him attack at a significantly faster rate for significantly more damage output.\nThis attack's unique damage properties is what makes Wolverine so effective at brawling with tanks. Not only can he deal incredibly high damage to them, but they typically also have lower damage output when compared to a Duelist, meaning they will often lack the means to burst down Wolverine themselves before he does the same to them, especially due to Wolverine's high survivability. As such, when in a fight, always try to focus on taking on Vanguards before all else.\nFeral Leap is arguably Wolverine's most powerful utility barring his tank-shredding. Wolverine will quickly leap forward and snag the first enemy he collides with along the way, stunning them. After slamming them back down to the ground, he deals a small burst of damage and puts them in a hard stun state, leaving them wide open. After exiting the leap, Wolverine's basic attack will be upgraded to Berserk Claw Strike.\nThis ability offers Wolverine an extremely powerful niche that only a select few other characters can replicate: the ability to forcibly isolate a target. Dragging any enemy away from their team and into yours will all but guarantee a pick on said enemy, unless their team is willing to either overextend drastically or expend powerful abilities or ultimates to save them.\nIt may be tempting to use this ability to leap into the enemy and slash wildly. However, if you're using it this way, you're losing out on the isolation utility it offers. Instead, try to get close to the enemy first before using the leap, through either flanking or in the midst of a chaotic fight, as you can not only snag an enemy more easily, but also have more control over where they end up after getting snagged, allowing you to isolate them even further.\nAnother thing to note is that this ability's hitbox actually extends behind Wolverine, allowing him to grab an enemy while his back is turned to them. With that in mind, it is possible to quickly dash at enemy, immediately turn around 180 degrees, and then use leap to quickly displace them in the opposite direction. However, this is a somewhat difficult technique, so it will take time to learn.\nUndying Animal gives Wolverine extra survivability to work with. Wolverine lets out a powerful war cry, briefly reducing all damage he takes by 40%.\nBecause of the way damage resistance and effective health works, a full-health Wolverine's effective health goes from his base 350 to around 583 with the push of a button. This alone can allow you to power through most things that would've easily killed you otherwise, so using this right before engaging the enemy is a great way to survive their onslaught.\nVicious Rampage serves as a solid, low-cooldown mobility option. Wolverine quickly dashes forward and performs a rushing slash, dealing minimal damage.\nDue to the low cooldown, you can use this ability quite often to close the gap on an enemy, quickly reach cover, or reach vantage points as the dash is omni-directional.\nWolverine is one of the few heroes in the game with multiple passives. His first is Regenerative Healing Factor, where he essentially gets a quick second life after reaching 0 health, cleansing debuffs and giving himself overhealth proportional to his rage that is later converted into normal health. While the cooldown is long, KOs and assists will hasten the cooldown. His second passive is Berserker Rage, where he gains a damage buff as he deals damage with his attacks, while also increasing the health he gets from Regenerative Healing Factor\nPlaying around Regenerative Healing Factor can allow Wolverine to stay in the fight far longer than almost any other non-Vanguard, as even a quick one-shot that would've otherwise KO'd any other hero still isn't enough to kill him if he has it available. When the ability is on-cooldown however, you should play significantly safer and only attempt to take fights that you know you can win, such as against a lone Vanguard or an injured target.\nWolverine's ultimate, Last Stand, has Wolverine launch enemies upward and leap into the air before spiraling back down to Earth, snagging any enemies caught in his way and slamming them into the ground for big damage. The higher his rage, the more damage the attack will deal. Like his Savage Claw, this attack has a percentage-based formula and benefits from Berserker Rage's damage bonus.\nBecause of the attack getting boosted by Berserker Rage, you should usually only activate it while at high rage in order to maximize the amount of damage you can do with the ability. When the ultimate is available, play hyper-aggressively to lull enemies into a false sense of security when they think they have you cornered, only for you to immediately turn around and slam them into the ground.\nMetal Cannonball can allow Wolverine to more easily engage an enemy with the help of his team. Wolverine can interact with an allied Hulk or Thing to throw him in whatever direction they desire, and similar to his Feral Leap, Wolverine's basic attack will become Berserk Claw Strike after exiting the fastball.\nWith both Wolverine and his fellow tank engaging at the same time, they can quickly overwhelm anyone unfortunate enough to be in the wrong place at the wrong time, with Wolverine being able to shred a higher-health hero that Hulk or Thing would other wise struggle with and vice versa.",
+    "weaknesses": [
+      "Relies heavily on dealing constant, uninterrupted damage in order to keep his Berserker Rage at high stacks to maximize his damage-per-second.",
+      "Is less effective against team compositions with fewer Vanguards. On his own, Wolverine is not an effective backline diver due to his reliance on percentage-based damage.",
+      "Limited mobility compared to other melee-oriented heroes (no double jumps or wall interactions).",
+      "Savage Claw has a very low melee range, requiring Wolverine to be very close to his targets.",
+      "Feral Leap can sometimes miss targets if they are extremely close to Wolverine when he jumps. This can be somewhat alleviated by aiming downwards while casting Feral Leap.",
+      "The follow-up slam strike of Last Stand may feel counter-intuitive; the player needs to aim directly down and activate the slam manually.",
+      "His team-up with the Hulk relies on Hulk to initiate the throw, meaning that Wolverine has no autonomy over where he is thrown."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Learn THIS, bub!",
+        "description": "As Wolverine, take down an enemy Magneto.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Rage Uncaged",
+        "description": "As Wolverine, land 3 KOs with a single use of LAST STAND.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"Anyone stands in my way, they won't be standing much longer.\"",
+    "ingame_bio_text": "Thanks to his regenerative healing factor and berserker rage, the centuries-old Logan can fight through the worst pain to go claw-to-claw with any foe. The Wolverine stands ready to shred through all obstacles in his way with his Adamantium claws.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Accompanied Envoy",
+        "content": "\"Another one, Freddie. Heavy on the orchid nectar.\"\n\"You got it, Logan,\" said Fred Dukes, the bartender of the Green Lagoon - a secluded watering hole nestled into the heart of Krakoa, the living island that served as a safe haven for Mutants from across time and space.\nThe massive man plucked a beautiful tropical flower from a tiny garden behind the bar. He squeezed it in his oversized hand, causing the strange pink liquid contained within its delicate blossom to trickle into a tall glass. Mixing in a few other natural ingredients, he covered the glass and gave it a quick shake before sliding it across the bar to his most loyal customer.\n\"Not used to you ordering off the organic menu,\" Fred said with a smile, noting that Logan's tastes usually tended to be a bit more traditional.\n\"Yeah, well, I didn't come here to forget anythin' tonight, bub,\" Logan said, gazing at the nectar swirling in his glass. \"For once, I wanna remember every detail.\"\n\"And I would like to hear them as well,\" a voice said as another man approached the bar. \"If you are willing to share, my friend...\"",
+        "status": null
+      },
+      {
+        "title": "Rising Pulse",
+        "content": "\"RRRRRAAAARGGGHHH!\"The Mutant known as Wolverine let out a primal scream as his razor-sharp Adamantium claws sliced through yet another one of Ultron’s robotic drone soldiers.\n”Easy, Logan,” Magik said to her fellow X-Man. “If we’re going to win this battle and save Krakoa, we need your head in the game. Not just your claws.”\n”Thanks for the reminder, snowflake,” Logan said as he took a deep breath. Pulling himself back from the edge of a berserker rage, the cloud of red obscuring Logan’s vision began to fade. He was once again able to survey the battle taking place around him with a clear mind. And despite the devastation sweeping across the nation he called home, he liked some of what he saw.",
+        "status": null
+      },
+      {
+        "title": "Madripoor Memories",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Wolverine was added as the 33rd character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: Lone Wolf and Deadpool & Wolverine",
+          "Added the Rage Uncaged achievement.",
+          "Added to the Fastball Special Team-Up Ability with the Hulk"
+        ]
+      },
+      {
+        "date_version": "24/12/10: Version 20241210",
+        "changes": [
+          "When Wolverine had his Deadpool & Wolverine costume equipped, no ability voice lines other than the Undying Animal ability's line would play. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "25/1/10: Version 20250110",
+        "changes": [
+          "Increase base health from 300 to 350.",
+          "Reduce the damage reduction ratio provided by Undying Animal from 50% to 40%.",
+          "Addressed occasional malfunctions with, or inability to use Wolverine's team-up ability",
+          "Addressed irregularities and occasional failure to end Wolverine's Feral Leap, along with occasional abnormal behavior"
+        ]
+      },
+      {
+        "date_version": "25/1/22: Version 20250122",
+        "changes": [
+          "Wolverine's Unyielding Berserk Claw Strike: Frame rate no longer affects the number of attacks in the enhanced Savage Claw after using Feral Leap.",
+          "Wolverine's Fury Corrected: Fixed an issue where Wolverine's ultimate ability occasionally wouldn't end properly after landing after being pulled back."
+        ]
+      },
+      {
+        "date_version": "25/2/6: Version 20250207",
+        "changes": [
+          "Wolverine's Fastball Bewilderment: Fixed occasional synchronization issues in the Fastball Special Team-Up Ability where on Wolverine's side, he would appear as being held by the Hulk, but others would see Wolverine still in his original place. Now, everyone's in sync to play ball."
+        ]
+      },
+      {
+        "date_version": "Version 20250214",
+        "changes": [
+          "Hulk & Wolverine's Team-Up Trouble: Fixed a little mischief where because of their Team-Up Ability, Wolverine's Berserk Claw Strike could, under certain situations, be activated during Feral Leap. Now, there will be no more mix-ups!"
+        ]
+      },
+      {
+        "date_version": "Version 20250314",
+        "changes": [
+          "Wolverine's Claw Coordination: Resolved a rare discrepancy between his animation and effects when Wolverine executed the dive of his Ultimate Ability from the highest point. Now, when Logan strikes, it's as precise and impactful as his adamantium claws!"
+        ]
+      },
+      {
+        "date_version": "Version 20250327",
+        "changes": [
+          "Wolverine's Terrifying Pounce: Resolved an issue where the Hulk could sometimes have abnormal behavior after being catapulted into a terrain KO by Wolverine's Feral Leap. Now, the big guy gets the proper beatdown without any off-script environmental stunts!"
+        ]
+      },
+      {
+        "date_version": "Version 20250411",
+        "changes": [
+          "Increase Rage gained from Savage Claw hits from 7 to 10",
+          "Rage gained from Berserk Claw Strike has been decreased from 7 to 5.",
+          "Reduce Rage gained from Feral Leap from 20 to 10, and from Vicious Rampage from 20 to 15.",
+          "Rage gained from taking damage has been increased from 3 to 5.",
+          "Reduce the time an enemy is knocked down after impact from Last Stand (Ultimate Ability) from 1 second to 0.75 seconds."
+        ]
+      },
+      {
+        "date_version": "Version 20250411",
+        "changes": [
+          "Wolverine's Ferocious Leap: Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!"
+        ]
+      },
+      {
+        "date_version": "Version 20250415",
+        "changes": [
+          "Wolverine's Claw-some Comeback: Fixed an issue where Wolverine's Ultimate Ability landing sometimes wouldn't finish properly in poor network conditions. Now, the best there is at what he does can unleash his fury without any hiccups!",
+          "Fastball Fumble: Resolved an issue where Wolverine could sometimes be unable to control his direction during the Fastball Special after using it multiple times. Now, every throw will be a claw-some hit!"
+        ]
+      }
+    ],
+    "official_quote": "\"You pick the wrong day to drag me into this mess, bub.\"",
+    "official_description": "Wolverine is a Duelist hero in Marvel Rivals, and is the 33rd hero introduced to the game's roster. He has a team-up ability that works in conjunction with Hulk and The Thing."
+  },
+  "background": {
+    "real_name": "James Howlett",
+    "aliases": [
+      "Logan",
+      "Weapon X"
+    ],
+    "birthplace": "Cold Lake, Alberta",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Brown",
+    "hair_color": "Black",
+    "relatives": [
+      "Elizabeth Howlett (mother; deceased)",
+      "John Howlett (legal father; deceased)",
+      "Thomas Logan (father; deceased)"
+    ],
+    "affiliation": [
+      "X-Men"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Superhuman speed, strength, agility, reflexes, and durability",
+      "Retractable adamantium claws",
+      "Regenerative healing factor",
+      "Indestructible adamantium skeleton",
+      "Enhanced senses"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": null,
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "C",
+    "win_rate": "47.34%",
+    "wr_change": "-2.29%",
+    "pick_rate": "7.77%",
+    "pr_change": "-0.87%",
+    "ban_rate": "4.79%",
+    "matches": "115,915"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

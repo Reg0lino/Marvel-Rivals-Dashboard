@@ -1,0 +1,149 @@
+{
+  "name": "string",
+  "role": "string | null",
+  "stats": {
+    "health": "number | string | null",
+    "speed": "string | null",
+    "difficulty": "string | null",
+    "color_theme": "string | null",
+    "color_theme_secondary": "string | null"
+  },
+  "abilities": [
+    {
+      "name": "string",
+      "keybind": "string | null",
+      "type": "string | null",
+      "description": "string | null",
+      "casting": "string | null",
+      "damage": "string | null",
+      "damage_falloff": "string | null",
+      "fire_rate_interval": "string | null",
+      "ammo": "string | number | null",
+      "critical_hit": "boolean | null",
+      "cooldown": "string | null",
+      "range": "string | null",
+      "projectile_speed": "string | null",
+      "charges": "number | null",
+      "duration": "string | null",
+      "movement_boost": "string | null",
+      "energy_cost_details": "string | null",
+      "details": "string | null"
+    }
+  ],
+  "ultimate": {
+    "name": "string | null",
+    "keybind": "string | null",
+    "type": "string | null",
+    "description": "string | null",
+    "casting": "string | null",
+    "damage": "string | null",
+    "range": "string | null",
+    "effect": "string | null",
+    "duration": "string | null",
+    "health_upon_revival": "string | null",
+    "slow_rate": "string | null",
+    "projectile_speed": "string | null",
+    "movement_boost": "string | null",
+    "bonus_health_details": "string | null",
+    "energy_cost": "string | number | null",
+    "details": "string | null"
+  } | null,
+  "passives": [
+    {
+      "name": "string",
+      "keybind": "string | null",
+      "type": "string | null",
+      "description": "string | null",
+      "cooldown": "string | null",
+      "damage": "string | null",
+      "range": "string | null",
+      "trigger_condition": "string | null",
+      "effect_boost": "string | null",
+      "speed_details": "string | null",
+      "details": "string | null"
+    }
+  ],
+  "teamups": [
+    {
+      "name": "string | null",
+      "keybind": "string | null",
+      "partner": "list[string] | string | null",
+      "effect": "string | null",
+      "teamup_bonus": "string | null",
+      "duration": "string | null",
+      "cooldown": "string | null",
+      "range_target": "string | null",
+      "special_notes": "string | null",
+      "details": "string | null"
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "string | null",
+    "weaknesses": ["string"],
+    "achievements": [
+      {
+        "icon": "string | null",
+        "name": "string",
+        "description": "string",
+        "points": "string | number | null"
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "string | null",
+    "ingame_bio_text": "string | null",
+    "ingame_story_intro": "string | null",
+    "hero_stories": [
+      {
+        "title": "string",
+        "content": "string | null",
+        "status": "string | null"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "string",
+        "changes": ["string"]
+      }
+    ],
+    "official_quote": "string | null",
+    "official_description": "string | null"
+  },
+  "background": {
+    "real_name": "string | null",
+    "aliases": ["string"],
+    "birthplace": "string | null",
+    "birthdate": "string | null",
+    "gender": "string | null",
+    "eye_color": "string | null",
+    "hair_color": "string | null",
+    "relatives": ["string"],
+    "affiliation": ["string"],
+    "first_appearance_comic": "string | null",
+    "recommended_comics": ["string"],
+    "lore_powers_skills": ["string"]
+  },
+  "misc": {
+    "voice_actor": "string | null",
+    "quotes_link": "string | null",
+    "community_buzz": "string | null",
+    "helpful_links": [
+      { "title": "string", "url": "string" }
+    ]
+  },
+  "meta_stats": {
+    "tier": "string | null",
+    "win_rate": "string | null",
+    "wr_change": "string | null",
+    "pick_rate": "string | null",
+    "pr_change": "string | null",
+    "ban_rate": "string | null",
+    "matches": "string | null"
+  },
+  "data_sources": {
+    "wiki": ["string"],
+    "tracker": ["string"],
+    "comic_wiki": ["string"]
+  }
+}
+"""

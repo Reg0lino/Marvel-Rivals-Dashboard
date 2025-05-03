@@ -1,0 +1,617 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Loki =====
+
+Loki
+"I am Loki. God of mischief and the king of Asgard."
+Real Name
+Loki Laufeyson
+(ᛚᛟᚲᛁ ᛚᚨᚢᚠᛖᛃᛊᛟᚾ)
+Aliases
+God of Lies
+God of Mischief
+Trickster God
+Biographical Information
+Birthplace
+Jotunheim
+Gender
+Fluid
+Height
+6’4”
+Weight
+525 lbs
+Eye color
+Green
+Hair color
+Black
+Relatives
+Laufey
+(biological father)
+Bor
+(foster grandfather)
+Odin
+(foster father)
+Frigga
+(foster mother)
+Hela
+(alt. biological older sister)
+[
+1
+]
+Angela
+(older foster sister)
+Thor
+(older foster brother)
+Powers/Skills
+Mastery over Asgardian magic
+Superhuman strength, intellect, reflexes, healing, and longevity
+Master illusionist, sorcerer, and manipulator
+Shapeshifting
+Teleportation
+Telekinesis
+Frost giant physiology
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Strategist
+Health
+250
+Difficulty
+Affiliation
+Gods of Asgard
+Portrayal
+Voice Actor
+Troy Baker
+Character Video
+What greater thrill is there for a God of Mischief than to outsmart his foes? The cunning trickster Loki uses his illusions and shapeshifting abilities to weave in and out of combat, toying with enemies at every turn.
+Official description
+Loki
+is a Strategist
+hero
+in
+Marvel Rivals
+, and is the 7th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Hela
+and
+Thor
+.
+Overview
+Strengths
+Elusive and deceptive Strategist capable of conjuring illusions of himself to distract enemies while healing his allies.
+Loki's core gameplay revolves around his Doppelganger ability, which allows the player to project illusions of Loki in the targeted area. This ability has two charges, and up to two illusions can be placed at once.
+The illusions are stationary and last for 60 seconds upon creation.
+Each illusion will mimic Loki's primary fire, aiming at the same location as him, which vastly increases his damage and healing output.
+The illusions share equal attributes to Loki, having the same health, as well as dealing the same damage and healing.
+His primary fire, Mystical Missile, shoots an energy projectile that deals damage to enemies and heals allies.
+Loki can simultaneously heal and deal damage if his allies and enemies are very close to each other since Mystical Missile creates a small spell field on impact.
+His secondary fire, Deception, creates an illusion where Loki is standing while granting him invisibility.
+While invisible, Loki gains heal-over-time.
+Loki can remain invisible indefinitely until attacking.
+Reloading, using Devious Exchange, or creating a Doppelganger will not break his invisibility.
+Loki's melee, Backstab, has him pulling a knife and performing a quick thrust.
+It is unique as it'll deal extra damage if he hits an enemy from behind.
+Devious Exchange allows Loki to swap places with any of the illusions of his choice within range.
+This ability makes Loki incredibly slippery and hard to pin down if properly used.
+Regeneration Domain conjures a rune stone in the air that creates a magical field around Loki and his illusions that provides high healing-per-second in a radius around them.
+The magical field also converts 30% of all damage taken into direct healing to allies.
+This ability is incredibly powerful and can provide clutch healing against very powerful attacks, including Ultimates.
+His Ultimate, God of Mischief, allows Loki to transform into any hero in the match, either ally or enemy, for 15 seconds.
+When Loki transforms into a hero from the enemy team, his nametag and team color will change to the opposite player and team. If the Loki player attacks this reverses back to the player's actual name and team color.
+While shapeshifted, Loki gains access to all the targeted hero abilities, including their Ultimate, which will be at 100% charge.
+Activating an Ultimate while shapeshifted gives Loki an additional 7 seconds of transformation.
+This duration can be extended if transforming into the
+Winter Soldier
+and repeatedly getting resets on his Kraken Impact.
+Weaknesses
+Requires high skill to play efficiently.
+Has low healing output if his illusions and Regeneration Domain are not available.
+Very vulnerable if his Devious Exchange and Regeneration Domain is on cooldown.
+Mystical Missile cannot deal critical hit.
+Backstab has a low range and is very situational.
+Enemy heroes can destroy Loki's illusions and the runes from his Regeneration Domain. This makes characters with high area-of-effect damage such as
+Iron Man
+effective against Loki.
+In addition, many opponents can take advantage of Loki's illusions for their own benefit:
+Captain America
+can build-up stacks of his Sentinel Strike to fire his shield by attacking the illusions.
+Wolverine
+can build-up his Berserker Rage by attacking the illusions.
+Mister Fantastic
+can build-up Elastic Strength stacks to enter his inflated state by attacking the illusions.
+Moon Knight
+can use his Crescent Dart to bounce between the illusions and other enemies.
+Squirrel Girl
+can shoot the illusions with Burst Acorn to extended the reach of their explosions.
+Winter Soldier
+can reset his Kraken Impact by hitting and destroying illusions marked with the Culling debuff.
+Mantis
+can deal critical hits to the illusions to regain charges of Life Orbs.
+Namor
+can deal critical hits to the illusions to enrage his Monstro Spawns.
+God of Mischief's transformation does not give access to team-up abilities.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+LOKI
+Default
+Frost Giant
+RARE
+Presidential Attire
+EPIC
+Loki Season 2
+EPIC
+Shin Sagi-Shi
+LEGENDARY
+All-Butcher
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Loki
+Frost Giant
+Season 0
+Presidential Attire
+Vote Loki
+(2016) #1
+Loki Season 2
+Loki
+Season 2 (2023)
+Shin Sagi-Shi
+Season 2
+All-Butcher
+Thor
+(2018) #6
+— S1 BattlePass —
+See
+:
+List of MVP Animations
+DEFAULT
+Loki
+Crooked Candidate
+Presidential Attire
+Glorious Purpose
+Loki Season 2
+Divine Mist
+Shin Sagi-Shi
+End of Everything
+All-Butcher
+See
+:
+List of Emotes
+DEFAULT
+Loki
+V for Victory
+Presidential Attire
+Constant Gardener
+Loki Season 2
+Blooming Impact
+Shin Sagi-Shi
+Heed My Call
+All-Butcher
+See
+:
+List of Sprays
+Loki
+Loki Emblem
+Presidential Attire
+Loki Season 2
+Shin Sagi-Shi
+All-Butcher
+See
+:
+List of Nameplates
+Loki
+Presidential Attire
+Loki Season 2
+Shin Sagi-Shi
+All-Butcher
+Abilities
+Normal Attack
+MYSTICAL MISSILE
+Fire Mystical Missiles to heal allies or deal damage to enemies
+ABILITY TYPE -
+Single-cast projectile with delayed impact that also generates a spell field
+DAMAGE -
+The projectile deals no damage, while the spell field inflicts 30 damage per cast
+HEALING -
+The projectile does not provide healing, but the spell field provides 40 Health per cast
+AMMO -
+12
+FIRE RATE -
+1.75/s
+RANGE -
+3m spherical radius
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+100m/s
+DAMAGE FALLOFF -
+Falloff begins at 0.5m, decreasing to 50% at 2.5m
+Abilities
+Q
+GOD OF MISCHIEF
+Shapeshift into a targeted ally or enemy hero and use all their abilities except any of their Team-Up Abilities.
+ABILITY TYPE -
+Targeted
+DURATION -
+15s
+ENERGY COST -
+4000
+SPECIAL EFFECT
+⚬ After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of Devious Exchange until the transformation ability ends.
+SHIFT
+REGENERATION DOMAIN
+Use Rune Stones to create a magical field that provides allies Healing and converts incoming damage into further healing.
+ABILITY TYPE -
+Release a spell field at the location of Loki and the Illusion
+HEALING -
+100/s
+DURATION -
+5s
+COOLDOWN -
+30s
+RANGE -
+A cylindrical spell field with a radius of 5m and a height of 2m
+ABILITY HEALTH -
+100
+CONVERSION RATE -
+30%
+SPECIAL EFFECT
+⚬ The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken
+E
+DOPPELGANGER
+Project an Illusion that can cast some of Loki's abilities.
+ABILITY TYPE -
+Targeted
+CHARGES -
+2
+COOLDOWN -
+12s per charge
+MAXIMUM DISTANCE -
+30m
+F
+DEVIOUS EXCHANGE
+Swap with the selected Illusion.
+ABILITY TYPE -
+Targeted
+COOLDOWN -
+15s
+MAXIMUM DISTANCE -
+30m
+V
+BACKSTAB
+Pull out a dagger to stab enemies, dealing extra damage when attacking an enemy from behind
+ABILITY TYPE -
+Single-cast Spell Field
+DAMAGE -
+30 (Melee) - 45 (Backstab)
+RANGE -
+3m
+DECEPTION
+Become Invisible and conjure an Illusion to deceive enemies.
+ABILITY TYPE -
+Instant Cast
+HEALING -
+20/s whilst invisible
+COOLDOWN -
+15s
+SPECIAL EFFECT
+⚬ Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting
+Devious Exchange
+, reloading, or casting Doppelganger will render him visible
+Team-Up Abilities
+PASSIVE
+LAUFEYSON REBORN
+When
+Hela
+lands a final hit in defeating an enemy, she can instantly resurrect Loki and
+Thor
+in the respawn phase, or grant them bonus health if they are still alive.
+BONUS HEALTH -
+50
+ABILITY DELAY -
+1.5s
+Strategy
+Loki is a slippery, unpredictable Strategist who specializes in nullifying enemy attacks and kiting anyone who attempts to chase him. His varied toolset and plethora of tricks makes him a highly adaptable hero that can support his team, deal solid damage, and keep himself alive all at the same time.
+Loki's lifeline is his illusions and his ability to manage them. They are important both to his general output and as his means of survival, so learning ability management and map knowledge to maximize its placements is crucial to his success. As such, it is not recommended to use him if you are a beginner, as worst case scenario, you could actually end up hurting your own team with poor illusion placement.
+Loki's primary attack is Mystical Missile, which has him fire a magic projectile from his scepter that will damage enemies and heal allies in a radius. Unlike other explosive projectiles, the projectile itself has no effect, with the healing and damage solely coming from its spell field, meaning that there is functionally no difference between landing a direct hit or barely hitting the target with the blast radius.
+The large AoE on this attack makes it excel with or against team comps that like to cluster close together, especially if you have other illusions up. However, it also makes it extremely hard for Loki to hit flying heroes such as
+Iron Man
+,
+Storm
+, or
+Human Torch
+, making him ineffective if those heroes are on the field.
+Regeneration Domain has Loki conjure a rune stone at his location that deals a large amount of healing as well as converting all damage received by an ally within the field into healing. The stone will remain on the field until its timer runs out or until it is destroyed by an enemy.
+This is essentially an immortality field, as any ally within the stone is incapable of taking any damage whatsoever. Timing this effectively can allow you to completely nullify any sort of damage that comes your way, giving Loki some of the best enemy denial potential in the game. However, its extremely long cooldown of 25 seconds means that using it haphazardly will be punished heavily, so always make sure to use it with discretion.
+Doppelganger is undoubtedly Loki's most important ability. Upon activation, Loki conjures an immobile clone of himself onto the field that aims at whatever he is aiming at, provided they both have line of sight to said target. He can have up to two clones active at any given time: if he attempt to conjure a third, the oldest clone will disappear.
+These clones function identically to Loki himself in terms of numbers, dealing the same damage and doling out the same amount of healing with their Mystical Missiles and Regeneration Domains as he does. With these, Loki can essentially double or even triple his field output, allowing him to heal faster, cover more ground with his domains, and deal surprisingly high burst damage to anyone he can land a hit on.
+The clones also excel at forcing enemies to split their attention between his team and his entities, similar to how
+Namor
+does the same with his Monstro Spawn. Enemies will have to choose between either shooting down the clones to cut Loki's output while leaving themselves open to the rest of his team, or ignore the clones and attempt to weather the storm, leaving Loki to his own devices.
+Be warned however, as while the clones are no doubt powerful, they can also be risky to use.  While in most cases them getting targeted or destroyed is only a mild inconvenience, in these two circumstances, poor clone placement can easily become fatal:
+Moon Knight
+can easily target the immobile clones to get easy ricochets with his Crescent Darts and Moon Blades, almost functioning as a pseudo-ankh. This turns what would normally be something allies like to cluster around into a borderline death trap.
+Winter Soldier
+can refresh his Kraken Impact off of a destroyed clone, allowing him more opportunities to continue his rampage during his ultimate.
+Devious Exchange is an incredibly powerful escape tool. Loki will swap places with any illusion within 30 meters of him, even ones out of his line of sight.
+Because of this ability, it may be worthwhile at times to leave a clone behind so you can have an escape route ready to go if things go awry. It can also serve as a quick means of maneuverability if you need to find a better vantage quickly.
+Loki's melee has a unique property where he will get bonus damage if he hits an enemy from behind with it. However, the extra damage he gets with a backstab is extremely minimal, and attempting to seek out opportunities to get said backstab will mean that Loki isn't doing his job, so this property will rarely come into play.
+Deception makes Loki even harder for enemies to keep track of him. Loki immediately goes invisible and leaves an illusion behind, while also bestowing healing over time to himself as long as he remains invisible. He can stay invisible as long as he wants, however doing any actions other than reloading, creating another illusion, or using Devious Exchange will reveal him. Taking any damage will also reveal him.
+Due to the invisibility ending if Loki takes damage, this ability isn't great as an on-demand escape tool as even after going invisible, enemies will likely still be able to hit you out of it if they were already firing at you. Instead, try to use it before you get targeted by an enemy or right after using Devious Exchange in order to give enemies as little time to react to your invisibility as possible, giving you more opportunity to escape.
+Although you can theoretically stay invisible as long as you want, you should not stay in this mode for an extended period of time, as if you're invisible, that means you aren't healing the team or damaging the enemy, significantly hurting your team's overall output. Find the quickest opportunity to safely exit invisibility so you can get back to helping your team ASAP.
+God of Mischief is perhaps the most unorthodox ultimate in the game. Loki can take the form of any hero on the field, from either his team or the enemy's. Upon transformation, their ultimate will automatically be available to him. He can stay in this form for 12 seconds or however long his copied target's ultimate lasts should it also have some sort of timer.
+With this ultimate, Loki has two choices he can make. He can either copy a Duelist or Vanguard so he can get into the enemy and cause chaos with one of their ultimates, or copy a Strategist so he can use one of their ultimates to sustain his team. Both options can be extremely powerful, especially to confuse any enemies attempting to keep track of ultimates, though be wary when using the former, as if you're transformed into a Duelist or Vanguard, that means your team will be down a healer for however long your ultimate lasts.
+Also, be wary that you do not get any sort of second chance if you get KO'd during your transformation, so don't rush in recklessly or attempt to transform while under fire.
+Laufeyson Reborn is Loki's team-up with Hela, which allows him to revive himself or be granted bonus health upon his allied Hela getting a KO. If you have a competent Hela on your team, you can afford to play much more aggressively as her success will feed into yours.
+Lore
+"Everyone loves a trickster, until the trick is played on them."
+Born the son of Laufey, king of the Frost Giants, Loki was adopted by Odin and raised as a prince of Asgard. But his true nature could not be undone, and Loki would come to fully embrace his role as the God of Mischief.
+With his father deep in the Odinsleep, Loki seized his chance to take the throne for himself. After enlisting Hela in his plot and hurling his brother Thor into a distant timeline, Loki now harvests Chronovium sap from the World Tree, Yggdrasill, in an effort to conquer the entire timestream.
+—
+Biography
+Hero Story
+"God of Lies? If you wish. What society can exist without lies?"
+Destined Kingship
+In the immediate aftermath of the reckless mortals' clumsy scrambling of timelines, Loki noticed something quite curious. The sap bleeding from Yggdrasill had a new, particularly magical essence.
+He began to experiment with it. Shape it. Concentrate and intensify it. Time, he discovered, was the core of its essence, and right away, he conceived an intense desire to visit a future Asgard to see what mischief he might make there.
+Quickly, he learned how to do just that, but he came away not only disappointed but frightened and-not that he ever would have admitted it- saddened. For the future Asgard he beheld was a ruin, its throne broken and cast down, its collections looted, its surviving people grubbing in the ruins to survive.
+No, Loki thought. Surely this is not Asgard's only future.
+He brewed the enchantment once more...and discovered an Asgard overrun by Jotun, with Laufey himself grunting on the throne and Asgard's people little more than bones.
+And another Asgard in flames, with Surtur bestride the blazing trunk of Yggdrasill while the fabled towers of the realm collapsed in fiery rubble.
+And another, windswept and empty, the Cask of Eternal Winters broken open in the throne room.
+And another, shattered into drifting fragments against a sea of stars.
+And another, impossibly sunk under an ocean, with vast shadows moving in the moonlit waters above.
+Hundreds more, thousands more. Asgards burned, Asgards frozen, Asgards overrun by Dark Elves or dwarves or enemies from Midgard or the worlds beyond the stars. A Kree- devastated Asgard, an Asgard ravaged by the Eternals, an Asgard ruled by an alien overlord whose minions oozed and sprang like living shadows, hunting down the last of the realm's true subjects. In all of these, Loki did not find the one thing for which he truly searched.
+Himself.
+And then, at last, an Asgard mighty and unbroken. An Asgard overarched by Yggdrasill's branches and underpinned by Yggdrasill's roots. Her towers shining, her people vibrant and untroubled, her wealth untouched...and her throne occupied by Loki.
+He reeled back into his own time, mind aflame with the implications of what he had seen. How many destroyed Asgards had he witnessed? After all that, to see the one surviving realm be ruled by himself…
+Well, Loki thought. The only Asgard that survives this absurd misadventure is one in which my true destiny is at last acknowledged, my primacy accepted, my sovereignty celebrated. As it should be. Now remains the work of bringing this future to pass.
+Immediately the crucial points of the plan presented themselves to him. First, or course, he would have to maneuver the All-Father into the deep enchanted slumber of Odinsleep. Tricky, but he had done it before. The biggest obstacle was making sure that
+Heimdall
+didn't notice until it was too late. Then, Loki would use Thor's desire to help their father against him, guiding him into a certain place where Loki wouldn't have to worry about him for a long time.
+But these were powerful enchantments, even for Loki. He was going to need to bring in a co-conspirator or two. It would be easy enough to betray them and rid himself of them later, but for a brief time they would be useful.
+Karnilla
+, of course. Aligning with the Norns was an absolute necessity if he were to retain rule over Asgard and not see it suffer any of the tragic fates he had witnessed. And while a master of magic, the Queen of the Norns was no great schemer – at least not compared to the God of Lies.
+He also thought of Karnilla's closest ally, Hela. She was family, after all, and these kinds of things should be kept in the family whenever possible. Also, she would be useful because of her vast power and unlimited legions, who would keep the Valkyrior and Crimson Hawks busy, leaving the throne unguarded…
+If Loki could just figure out what to offer Hela in return.
+*
+He manifested in her realm unannounced, just because he could, and he knew it annoyed her. As soon as she sensed his presence, Hela sent an escort. This time, it was a retinue of fallen Asgardian warriors riding skeletal horses and singing the ghostly songs of the Asgardian dead who never made it to Valhalla. To the accompaniment of these mournful, discordant strains, Loki followed his escort to Hela's throne. In this kingdom, bones twisted by dark magic paved the path to her castle while particularly favored souls became feasts for her Nastrond crows. Loki hated the décor even more than he hated the thought of Thor sitting on the throne of Asgard. Well, perhaps not quite that much.
+And speaking of thrones. Hela sat on hers, regarding him with an imperious and icy stare as he approached and the ghostly retinue vanished. "Loki," she said. "Whatever foolish scheme has brought you here, be assured it will not succeed. Return to your realm and disturb me no further."
+"O sister, great queen, it–"
+"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."
+"Oh, I do," he said. "I do very much. Our family rules realms, and we have a responsibility to rule them as well as possible. Unfortunately, we are not currently doing that, because I am not ruling Asgard. I propose to rectify this error, and–"
+"And you want my help."
+"Yes," Loki said. "My plan will succeed with or without you, but as I said, we're family, and-"
+For the third time, she interrupted him. "Why should I?"
+"Why, to be rid of the All-Father, whose time is past and to be rid of our beloved Odinson, who would otherwise succeed to the throne of Asgard."
+"Which is the one thing you cannot stand to see happen."
+Loki did not give her the satisfaction of agreeing.
+"You see, Loki," Hela said, "of all master plotters you are the easiest to predict because all of your plots are ultimately only about one thing."
+Loki inclined his head, again unwilling to make a verbal acknowledgement.
+"You have been working new magic. I smell it on you," Hela said. "Tell me."
+"Ah. The sap of Yggdrasill, Observe." Loki cut a small notch in one of the World-Tree's roots. As the sap oozed out, he captured it and began to work a charm to extract its essence. "As the World-Tree shapes the limits of our realms," he said, "this substance shapes the limits of our time." After a moment he held a small ball of what looked like amber in the palm of his hand. "Take it. It will show you the future of your realm just as it showed me the future of mine."
+"Yours? You speak of Asgard?"
+"Yes," Loki said. "That is why I wanted to see you."
+He placed the ball in Hela's hand and began to describe what he had seen.
+*
+"Ah," she said when they had returned from the visionary voyage.
+"Yes, it is quite deserving of an 'ah," Loki said. "But the real question is, will you help me?"
+"I will," Hela said. "But I have my own vision for this Chronovium - for it has fallen in my realm as well. In return for my help, you will help me bring this vision to fruition."
+"Of course," Loki said, intending it to be a lie but not even he knew when an attempted lie might become an inadvertent truth.
+Journey into Mystery
+(Coming soon. Stay Tuned!)
+Root Erosion
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Brotherly Love
+As Loki, assist Thor in landing 1 KO.
+5
+God of Treachery
+As Loki, land one KO by stabbing from behind.
+10
+Quotes
+See:
+Loki/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Loki
+was released as the 7th character to be introduced to
+Marvel Rivals
+as a
+Strategist
+hero.
+Added 2 new costumes:
+Frost Giant
+and
+Loki Season 2
+.
+Added the
+God of Treachery
+achievement.
+Added to the
+Ragnarok Rebirth
+Team-Up Ability
+with
+Hela
+and
+Thor
+.
+24/12/10:
+Version 20241210
+When the target area is ascending or descending, if
+Thor
+or
+Loki
+were revived by
+Hela
+'s
+team-up ability
+, they would potentially revive and be stuck beneath the terrain if they were right on the target area platform. This issue has been resolved.
+25/01/08:
+Fixed occassional camera irregularities after
+Loki
+transformed into certain characters during his ultimate ability.
+5/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Added 1 new costume:
+All-Butcher
+.
+25/01/22:
+Version 20250122
+/
+Fortune & Colors
+Event
+Resolved a problem where under low frame rate conditions, activating
+Storm
+'s ultimate ability as
+Loki
+after transforming into her would be canceled.
+Resolved a problem where
+Loki
+, after using his ultimate ability to shapeshift into the
+Punisher
+, if
+Warrior's Gaze
+was triggered when the transform was about to end its effects lingered too long. The
+Warrior's Gaze
+effect will now fade as soon as the ultimate concludes--no more lingering vision trickery!
+25/02/07:
+Version 20250207
+Fixed a rare issue where
+Loki
+'s
+Mystical Missiles
+would not refill after reloading during unstable network conditions. He's back to being the trickster with a full arsenal!
+Resolved a rare occurrence where
+Loki
+'s
+Ultimate Ability
+transformation would end immediately after activation in unstable network conditions. His mischief will now last as intended!
+25/02/20:
+Fixed an issue where
+Loki
+would incorrectly indicate he was out of
+Adam Warlock
+'s revival range while transforming within Adam Warlock's ultimate range.
+Resolved an issue where, after transforming into another hero and using their ultimate, the ultimate's effects could remain in the scene if
+Loki
+was defeated during the process. We've ensured that his tricks vanish appropriately--no more ghostly ultimates haunting the battlefield!
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase the energy cost of
+God of Mischief
+from 3400 to 4000.
+Increase
+Mystical Missile
+charges from 10 to 12.
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Fixed an issue where
+Loki
+'s UI would vanish after he transformed. The God of Mischief can now keep his tricks visible!
+Fixed a problem where if
+Loki
+and his doppelganger placed
+Regeneration Domains
+that overlapped and
+Loki
+walked over the overlapped area, then back into his own
+Regeneration Domain
+, it would lose its healing effect. Now, the trickster can heal without a hitch!
+25/03/14:
+Version 20250314
+Resolved an issue where
+Loki
+'s Ultimate Ability transformation could sometimes cause incorrect camera angles during Past Lives replays. The God of Mischief can now enjoy his dramatic exits without a hitch!
+Added 1 new costume:
+Presidential Attire
+.
+25/03/27:
+Version 20250327
+Fixed an issue in
+Doom Match
+where
+Loki
+'s transformation into
+Doctor Strange
+allowed the use of the forbidden
+Pentagram of Farallah
+. This minds-warping mix-up has been vanquished.
+25/04/11:
+Version 20250411
+Increase
+Regeneration Domain
+cooldown from 25 seconds to 30 seconds.
+25/04/25:
+Version 20250425
+/
+Giant-Size Brain Blast
+Event
+Added 1 new costume:
+Shin Sagi-Shi
+.
+Gallery
+Other
+Costume Origins
+In-Game Assets
+Reveal Images
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Loki - King of Yggsgard - Character Reveal - Marvel Rivals
+No One Rivals Doom - Cinematic Trailer - Marvel Rivals
+Loki and
+Thor
+in the No One Rivals Doom Cinematic Trailer.
+Loki's frost giant form in
+Marvel Studios' Thor
+(2011)
+"Loki Season 2" costume in
+Loki
+Season 2 (2023)
+"All-Butcher" costume in
+Thor
+(2018) #6
+"Presidential Attire" costume in
+Vote Loki
+(2016) #1
+Hero logo
+Prestige artwork
+Hero Story Artwork
+Loki Season 2 costume reveal.
+Trivia
+While Loki's "Frost Giant" costume is listed as first appearing in Marvel Rivals Season 0, it appears to be heavily based on Loki's true frost giant appearance in the MCU (first seen in Thor [2011]), where he has blue skin and red eyes. Loki is made to look like an Asgardian by a spell cast by Odin.
+Despite being the father of
+Hela
+in the comics, there is a possibility that Hela is his sister in this game, just like in the MCU. This is further proved in their dialogue in his lore "Destined Kingship":
+Loki:
+"O sister, great queen, it– "
+Hela:
+"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."
+It's not clear whether this version of her is Odin's daughter or Thor's sister.
+Refences
+↑
+Loki:
+"O sister, great queen, it– "
+Hela:
+"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."

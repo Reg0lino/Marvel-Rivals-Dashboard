@@ -1,0 +1,715 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Hulk =====
+
+Hulk
+Hulk
+Bruce Banner
+Real Name
+Dr. Robert Bruce Banner
+Aliases
+The Incredible Hulk
+Big Guy
+Taciturn Terror
+Biographical Information
+Birthplace
+Dayton, Ohio
+Gender
+Male
+Eye color
+Brown
+(Bruce Banner)
+Green
+(Hulk)
+Hair color
+Brown
+(Bruce Banner)
+Black
+(Hulk)
+Relatives
+Brian Banner
+(father)
+Powers/Skills
+Superhuman physical strength, stamina, durability, jumping ability, and regeneration granted by his Hulk transformation
+Enhancements to physical strength according to emotional state, namely stress or rage
+Gamma energy emission and manipulation
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Vanguard
+Health
+200
+(Bruce Banner)
+650
+(Hero Hulk)
+1400
+(Monster Hulk)
+Difficulty
+Affiliation
+Avengers
+Portrayal
+Voice Actor
+Joe Zieja
+(Bruce Banner)
+Fred Tatasciore
+(Hulk)
+Brilliant scientist Dr. Bruce Banner has finally found a way to coexist with his monstrous alter ego, the Hulk. By accumulating gamma energy over multiple transformations, he can become a wise and strong Hero Hulk or a fierce and destructive Monster Hulk – a true force of fury on the battlefield!
+Official description
+Bruce Banner
+, also known by his alter ego, the
+Hulk
+, is a Vanguard
+hero
+in
+Marvel Rivals
+, and is the 2nd hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with,
+Iron Man
+,
+Namor
+,
+Wolverine
+and
+The Thing
+.
+Overview
+Strengths
+A unique Vanguard that has two base forms: Bruce Banner and Hero Hulk.
+As Bruce Banner, he is very frail and has a limited moveset, but has access to ranged attacks and a knockback ability. However, his Ultimate allows him to transform into the Hulk, his main combat form, with an extremely low energy cost, the lowest of any Ultimate in the game.
+As Hulk he serves as a bulky frontliner with high mobility and specialized in melee pressure. If Hulk's health is depleted he reverts back to Bruce Banner, effectively giving him two healthbars.
+Bruce Banner's primary fire is Gamma Ray Gun, which has a high rate of fire but low damage.
+Bruce Banner's Gamma Grenade knocks back enemies, but most importantly creates a spell field on the ground that grants Bruce Gamma Energy, necessary to transform back into Hero Hulk. It also deals knockback to himself, which with a well-timed jump, can be utilized to escape from enemies or to reach high ground (this can be useful for getting out of spawn slightly faster).
+Bruce Banner always starts matches with his Ultimate, Puny Banner, available, which allows him to transform into the Hulk. During his transformation he is completely immune to all damage and crowd control effects.
+The Hulk's primary fire is Heavy Blow, quick swings with a decent range and arc to dish out consistent damage.
+Despite being more suited for melee, the Hulk has access to two projectiles: Gamma Burst, which launches a single projectile that can pierce enemies in a line; and Radioactive Lockdown, a blast of energy that deals minimal damage but stuns enemies for a few seconds.
+Radioactive Lockdown can prevent enemies from capturing objectives as the gauge will not fill if they are stunned.
+Incredible Leap allows the Hulk to jump over larger distances, the height increasing the longer the move is charged. Additionally, if Hulk jumps directly on a wall, he clings onto it. Lastly, if the leap hits a flying enemy, they will be knocked down and dragged with him.
+Indestructible Guard projects an energy shield around the Hulk and all nearby allies, absorbing damage and converting it into Gamma Energy to fuel the Hulk's Ultimate. If the Hulk is damaged while the shield is up, it converts 100% of the damage into Gamma Energy and 10% of the damage from his allies.
+The Hulk's Ultimate, Hulk Smash, temporarily transforms the Hulk into Monster Hulk, which restores and nearly doubles his max health and enhances his abilities:
+Heavy Blow has more range and deals more damage at the expense of being slightly slower.
+Gamma Burst's projectile becomes slower, but deals almost double damage and has a much lower cooldown (1 second down from 8 seconds).
+Radioactive Lockdown's projectile is faster and has a much lower cooldown (5 seconds down from 15 seconds).
+Monster Hulk also instantly gains a new Ultimate, World Breaker, wherein he grabs an enemy and delivers a series of devastating slam attacks for massive damage. During this ability, he gains a 30% damage reduction.
+As of season 0, Bruce Banner has a seasonal bonus, gaining 150 extra max health as both Hero Hulk and Monster Hulk.
+Weaknesses
+Bruce Banner is incredibly frail, having the lowest max health in the game, on top of having no mobility tools other than with Gamma Grenade, and a very limited moveset.
+Despite having projectiles, the Hulk is susceptible to enemies with long-distance attacks that can out-zone him.
+The Hulk often has to rely on grouping up with allies to charge his Ultimate more efficiently, due to Indestructible Guard's mechanics.
+As Monster Hulk, he loses access to Indestructible Guard.
+The Hulk's large frame and average movement speed makes him an easy target, and even more so in his Monster Hulk form.
+The Hulk is vulnerable to crowd control while Indestructible Guard is on cooldown.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+HULK
+Default
+Mighty G-Bomb
+RARE
+Punk Rage
+EPIC
+Joe Fixit
+EPIC
+Green Scar
+LEGENDARY
+Bruce Banner
+Hero Hulk
+Monster Hulk
+See
+:
+All In-Game Models & Descriptions
+Bruce Banner
+Mighty G-Bomb
+Incredible Hulk
+(1962) #1
+Punk Rage
+Edge of Spider-Geddon
+(2018) #1
+Joe Fixit
+Incredible Hulk
+(1962) #347
+— S2 BattlePass —
+Green Scar
+Hulk
+(1999) #92
+See
+:
+All In-Game Models & Descriptions
+Hero Hulk
+Mighty G-Bomb
+Incredible Hulk
+(1962) #1
+Punk Rage
+Edge of Spider-Geddon
+(2018) #1
+Joe Fixit
+Incredible Hulk
+(1962) #347
+— S2 BattlePass —
+Green Scar
+Hulk
+(1999) #92
+See
+:
+All In-Game Models & Descriptions
+Monster Hulk
+Mighty G-Bomb
+Incredible Hulk
+(1962) #1
+Punk Rage
+Edge of Spider-Geddon
+(2018) #1
+Joe Fixit
+Incredible Hulk
+(1962) #347
+— S2 BattlePass —
+Green Scar
+Hulk
+(1999) #92
+See
+:
+List of MVP Animations
+DEFAULT
+Hulk
+Street Artist
+Punk Rage
+Sin City Showcase
+Joe Fixit
+Warbound
+Green Scar
+Bruce Banner
+Hero Hulk
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Air Guitar
+Coin Trick
+World Breaker
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Air Guitar
+Coin Trick
+World Breaker
+See
+:
+List of Sprays
+Hulk
+Hulk Emblem
+Punk Rage
+Joe Fixit
+Green Scar
+See
+:
+List of Nameplates
+Hulk
+Punk Rage
+Joe Fixit
+Green Scar
+Abilities
+Bruce Banner
+Hero Hulk
+Monster Hulk
+Normal Attack
+GAMMA RAY GUN
+Fire with a Gamma Ray Gun.
+CASTING -
+Single-cast projectile with delayed impact
+DAMAGE -
+16
+AMMO -
+25
+FIRE RATE -
+5/s
+CRITICAL HIT -
+Yes
+PROJECTILE SPEED -
+80m/s
+Abilities
+Q
+PUNY BANNER
+Transform from Bruce Banner into Hero Hulk.
+CASTING -
+Transformation
+SPECIAL EFFECT
+⚬ The caster is immobilized during the transformation process and gains Invincibility
+SHIFT
+GAMMA GRENADE
+Launch a Gamma Grenade to inflict damage and Launch Up enemies.
+CASTING -
+Single-cast projectile with a downward delay that creates a spell field upon impact
+DAMAGE -
+40
+COOLDOWN -
+8s
+RANGE -
+3m spherical radius
+SPECIAL EFFECT-
+⚬ When the caster enters the spell field, it restores 50 gamma energy
+Team-Up Abilities
+PASSIVE
+GAMMA BOOST
+Hulk charges
+Doctor Strange
+and
+Iron Man
+with gamma radiation. When Doctor Strange uses
+Maelstrom of Madness
+, he unleashes
+Gamma Maelstrom
+. When Iron Man uses
+Armor Overdrive
+, he will initiate a gamma upgrade.
+TEAM-UP BONUS -
+Hero Hulk and Monster Hulk gain 150 Max Health
+Normal Attack
+HEAVY BLOW
+Swing fists forward to punch enemies.
+CASTING -
+Single-cast Spell Field
+DAMAGE -
+40
+INTERVAL -
+0.467/s
+RANGE -
+4.5m
+Abilities
+Q
+HULK SMASH!
+Unleash stored gamma energy, transforming from Hero Hulk into Monster Hulk for a limited time period.
+CASTING -
+Transformation
+DURATION -
+12s
+ENERGY COST -
+3400
+SPECIAL EFFECT
+⚬ The caster is immobilized during the transformation process and gains Invincibility
+SHIFT
+INDESTRUCTIBLE GUARD
+Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH.
+CASTING -
+Single-cast spell field that surrounds the caster
+DURATION -
+2.5s
+COOLDOWN -
+12s
+RANGE -
+5m spherical radius
+MAXIMUM SHIELD VALUE -
+200 (caster) - 100 (allies)
+SPECIAL EFFECT
+⚬ When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy
+E
+RADIOACTIVE LOCKDOWN
+Emit gamma energy to irradiate enemies and render them immobilized and immune to all ability effects. Using
+Heavy Blow
+or
+Gamma Burst
+will prematurely remove this status.
+CASTING -
+Single-cast projectile
+DAMAGE -
+5
+DURATION -
+2s
+COOLDOWN -
+15s
+PROJECTILE SPEED -
+100m/s
+SPECIAL EFFECT
+⚬ Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status
+SPACE
+INCREDIBLE LEAP
+Hold Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground.
+CASTING -
+Charged Dash
+MINIMUM CHARGE TIME -
+0.7s
+MAXIMUM CHARGE TIME -
+2s
+DASH SPEED -
+19m/s (minimum charge) - 25m/s (maximum charge)
+SPECIAL EFFECT
+⚬ Press Space during the Incredible Leap to cling to the wall you encounter
+GAMMA BURST
+Emit gamma-ray bursts to inflict damage.
+CASTING -
+Single-cast projectile that can pierce through enemies
+DAMAGE -
+70
+COOLDOWN -
+8s
+PROJECTILE SPEED -
+80m/s
+Team-Up Abilities
+PASSIVE
+GAMMA BOOST
+Hulk charges
+Doctor Strange
+and
+Iron Man
+with gamma radiation. When Doctor Strange uses
+Maelstrom of Madness
+, he unleashes
+Gamma Maelstrom
+. When Iron Man uses
+Armor Overdrive
+, he will initiate a gamma upgrade.
+TEAM-UP BONUS -
+Hero Hulk and Monster Hulk gain 150 Max Health
+C
+GAMMA FASTBALL
+Wolverine
+and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.
+TEAM-UP BONUS -
+Hero Hulk and Monster Hulk gain 150 Max Health
+Normal Attack
+HEAVY BLOW
+Swing fists forward to punch enemies.
+CASTING -
+Single-cast Spell Field
+DAMAGE -
+70
+INTERVAL -
+0.52/s
+RANGE -
+5m
+Abilities
+Q
+WORLD BREAKER
+Grab and smash the enemy in front.
+CASTING -
+Targeted
+DAMAGE -
+Delivers 5 hits, each dealing 40 damage
+DURATION -
+5s
+RANGE -
+5m
+SPECIAL EFFECT
+⚬ While performing the smash, Hulk gains a 30% Damage Reduction
+E
+RADIOACTIVE LOCKDOWN
+Emit gamma energy to irradiate enemies and render them immobilized and immune to all ability effects. Using
+Heavy Blow
+or
+Gamma Burst
+will prematurely remove this status.
+CASTING -
+Single-cast projectile
+DAMAGE -
+5
+DURATION -
+2s
+COOLDOWN -
+5s
+PROJECTILE SPEED -
+150m/s
+SPECIAL EFFECT
+⚬ Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status
+SPACE
+INCREDIBLE LEAP
+Hold Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground.
+CASTING -
+Charged Dash
+MINIMUM CHARGE TIME -
+0.7s
+MAXIMUM CHARGE TIME -
+1.5s
+DASH SPEED -
+19.4m/s (minimum charge) - 25m/s (maximum charge)
+SPECIAL EFFECT
+⚬ Press Space during the Incredible Leap to cling to the wall you encounter
+GAMMA BURST
+Emit gamma-ray bursts to inflict damage.
+CASTING -
+Single-cast projectile that can pierce through enemies
+DAMAGE -
+125
+COOLDOWN -
+1s
+PROJECTILE SPEED -
+60m/s
+Team-Up Abilities
+PASSIVE
+GAMMA BOOST
+Hulk charges
+Doctor Strange
+and
+Iron Man
+with gamma radiation. When Doctor Strange uses
+Maelstrom of Madness
+, he unleashes
+Gamma Maelstrom
+. When Iron Man uses
+Armor Overdrive
+, he will initiate a gamma upgrade.
+TEAM-UP BONUS -
+Hero Hulk and Monster Hulk gain 150 Max Health
+C
+GAMMA FASTBALL
+Wolverine
+and Hulk can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.
+TEAM-UP BONUS -
+Hero Hulk and Monster Hulk gain 150 Max Health
+Strategy
+Hulk is a high-risk, high-reward tank who can quickly shift between harassing the enemy's backline and protecting his own on a whim. His high mobility allows him to quickly engage and disengage the enemy, giving him free reign to take or abandon almost any fight with enough foresight.
+Because Hulk lacks the tools to be a frontline wall for his team in the same way that
+Magneto
+or
+Doctor Strange
+can, it is not recommended to run him as a solo tank.
+One of the most important skills to learn as Hulk is learning which fights to take. Your large frame makes you highly susceptible to focus fire if you rush in haphazardly, so you should learn to engage the enemy when they're distracted by the rest of your team so they're forced to divert their attention between you and them. On the flipside, when you feel that a fight is going awry, you should not hesitate to jump out lest you be caught by the enemy.
+As Banner, you have the lowest health in the game at only 200, and both your weapon and sole ability in Gamma Grenade are highly ineffective. You should only be transforming back into this form while in the midst of jumping back to your team, as if you're transforming into Banner in the midst of the enemy, you are almost certainly dead. While in this form, focus on playing as safe as possible, landing as many shots with your gamma gun as you can to build up your gamma energy and transform back into Hulk ASAP.
+Throwing the Gamma Grenade at your feet as Banner will automatically give you 8% of your gamma energy, so try to do so as often as possible to hasten your charge time.
+Note that during all of your transformations, whether it be from Banner to Hero Hulk, Hero Hulk to Monster Hulk, or any Hulk back to Banner, you will be completely invincible, meaning you cannot receive any damage or be affected by crowd control.
+As Hero Hulk, you have two main methods of attack. His primary fire, Heavy Blow, is a series of fast, reliable melee swings with a wide AoE. While each individual hit may not be powerful, it will quickly build up high damage numbers the longer you remain next to the enemy, which, thanks to Hulk's incredible mobility, you can easily do. If the enemy is further away, your secondary fire, Gamma Burst, has you clap your hands to launch a fast projectile that deals solid damage. The projectile has infinite range, allowing Hulk a burst damage option even at far distances.
+Your Gamma Burst is your highest-damaging attack outside of your ultimate, making it great as an engage when jumping to an enemy or as a finisher on someone who is injured.
+Indestructible Guard is your primary means of mitigation. Hulk will create a gamma bubble shield on himself and all allies within five meters of him. Any damage dealt to the shield will charge his ultimate.
+This ability has multiple strong use cases. The first is as a way to engage on top of an enemy safely, protecting you from their initial burst so you can start punching away without worry. The second is as a way to secure your escape, allowing you to mitigate damage and crowd control thrown your way while you try to jump out. The third is as a quick peel option for your teammates, protecting them from big damage ultimates like Iron Man's Invincible Pulse Cannon or a flanker harassing the backline.
+Radioactive Lockdown has the potential for huge denials for the enemy team. Hulk fires a projectile that deals minimal damage but will exile the target for two seconds. While exiled, the target is essentially treated as if they do not exist: they cannot move or receive damage or healing from any outside sources except for Hulk himself. Hitting an exiled enemy as Hulk will prematurely remove the status effect.
+Like his Indestructible Guard, this ability has multiple use cases. First off, it serves as a way to quickly prevent a target from escaping: giving you time to leap toward them and start pummeling them before they can start running. The next is as a way to temporarily disable a target in the midst of a fight, buying you and your team some time to recover before they come back. Finally, you can use it to interrupt or even outright nullify big ultimates or abilities such as Scarlet Witch's Reality Erasure or Spider-Man's Spectacular Spin.
+Due to the ability's long cooldown, take care to not use the ability haphazardly, as it has the potential for huge denials when timed right.
+Incredible Leap is Hulk's primary means of movement. Hulk can charge a leap for up to two seconds before jumping forward a large distance. While leaping, he can cling to a wall by holding his jump button while colliding with one, and if he collides with an airborne enemy mid-leap, he will drag them down to earth, leaving them stunned.
+This is undoubtedly your most important ability as Hulk. It is key to everything you want to do, from engaging to disengaging to even dealing with pesky fliers. There is no cooldown on this ability nor is there a limit to how long you can have a leap charged, so always try to charge this ability even in the midst of fighting so you can have a leap ready to go at a moment's notice to either disengage or continue chasing an enemy.
+Try to get used to the timing it takes to charge up a minimum-power leap (roughly 0.7 seconds) so you can string multiple low-power leaps back to back. This can allow you to maneuver around the map faster than simply walking around or waiting for a fully-charged leap can.
+Hulk's ultimate, Hulk Smash!, transforms Hero Hulk into the towering Monster Hulk. In this form, you gain a massive health boost and stronger versions of your Gamma Burst and Radioactive Lockdown on significantly shorter cooldowns, however you also lose access to your Indestructible Guard. This form can last up to 12 seconds or until Monster Hulk sustains enough damage. If he transforms back with health still remaining, he will transform into Hero Hulk with health proportional to the amount he has left, but if he loses all of it, he will transform back into Banner.
+As Monster Hulk, all of your attacks deal increased damage with shorter cooldowns, and your Heavy Blow deals knockback as well. This allows you to cause immense chaos in the midst of an enemy, and stringing in your melee attack between Gamma Bursts and leaps can lead to deadly combos.
+Monster Hulk's ultimate is World Breaker, which has him grab a nearby enemy to deal high damage and put them in a hard stun state. It is not recommended to use this ability right after transforming as it wastes precious seconds of the transformation: instead, use it as a finisher for the form to squeeze as much value out of the high health pool and innate damage reduction the ultimate offers as possible.
+While transforming into Monster Hulk, you will immediately be healed to the full Monster Hulk health level regardless of how injured you were before activation. As such, when you have your ultimate, don't hesitate to play aggressively so you can lull the enemy into a false sense of security when they think they have you cornered, only for you to transform and turn the tide back against them. Just make sure you don't activate it too late before you sustain too much damage and are forced to transform back into Banner.
+Hulk is currently one of the few characters in the game with multiple team-ups. His first is Gamma Boost, in which he offers gamma-powered boosts to Iron Man's Armor Overdrive and Doctor Strange's Maelstrom of Madness. The second is Gamma Fastball, in which he can throw an allied Wolverine into the enemy to cause chaos.
+In the case of Gamma Fastball, it may be worth it to leap in with your Wolverine before throwing them, as you can then place an Indestructible Guard on yourself and your fellow Wolverine to protect the both of you as you cause chaos to the enemy.
+Lore
+"Never say Hulk is stupid just because Banner is smart."
+Caught in the detonation of a powerful weapon of his own invention, Dr. Bruce Banner absorbed gamma radiation that transforms him into a massive green monster whenever his emotions rage out of control. As Banner, he's still a genius. But as the Hulk, he's the strongest one there is!
+Banner developed a special Gamma Belt to control his transformations and temper the Hulk's fury. But when the Timestream Entanglement transformed Los Diablos Missile Base into a demonic battleground, he realized that the best way to fight monsters was to let out the one within.
+—
+Biography
+Hero Story
+"Hulk is a bigger hero than Banner!"
+Fickle Banner
+Scientific inspiration, mused Bruce Banner, could come from anywhere. There were the famous stories — Newton's apple, Alexander Fleming's mold in the Petri dish — and then there were the thousands of other little revelations that would never be told because they were just part of the everyday work of scientists all over the world. Like him. He had done some important work in the fields of gamma radiation, and he had also learned more about gamma radiation the hard way.
+Now, he was trying to build both on that work and the life-changing accident. Becoming the Hulk had changed his life for better and for worse, and most of the worse aspects had to do with the lack of control he had felt for years when becoming Hulk. Over time, he had gotten more control, but it was still a struggle. Eventually he'd had an insight: What if he could control the infusion of gamma radiation into his body? Would it be possible to decide how much of a Hulk he wanted to be?
+The question had led to a series of experiments, and now Bruce thought he was on the verge of a real working prototype of a device that could absorb, contain, and channel gamma radiation.
+If so, it would be life-changing.
+So here he was, tinkering with the final adjustments to what he was calling the Gamma Belt. The fundamental idea of the belt was that it contained a reservoir of gamma energy that could be channeled into the wearer's body.
+He would never let anyone else use the belt, but if he could get it working, the transformation in Banner's life would be practically unthinkable. To have full control over the Hulk, without worrying about the mindless rages that had occasionally overtaken him for decades now? Banner had always found the Hulk as much a curse as a gift. There were times when it was great to be a super hero, but when you woke up one morning and discovered that the Hulk had leveled part of a city during a fight...
+Something had to change. So now, Banner was changing something.
+It was late at night, and the desert outside Banner's lab was quiet save for the eerie whistle of the breeze in the spines of the saguaro cactuses. It was a strange, lonely sound, perfect to accompany the work of a strange, lonely man. He shut the window and put the belt on, testing it for fit and making sure the gamma conduits were intact and not facing out. The Gamma Belt was designed to channel energy into the wearer's body, without letting it escape anywhere else. Banner had done this by lining the belt with conduits for the energy, and insulating the conduits in every direction except a small seam where the belt was in direct contact with the wearer. In testing, with the belt tightened around a mannikin, the insulation had worked.
+Now, he was going to find out if it worked on a real person.
+He tightened the belt and settled it into place around his waist. Then he tested the gamma detectors he'd placed around the lab, making sure they were active. He'd arranged them to pick up any stray energy released when Banner activated the belt to become the Hulk.
+It was going to feel strange to become the Hulk that way. For so many years, it had been just a sudden internal process. Now, Banner was trying to systematize it, channel it, make it not quite so vulnerable to his emotional states. In a way, putting his transformation under the control of an external object felt like losing control over it, even though the whole point of the Gamma Belt was to have better control over the Hulk.
+And, possibly, to make him stronger. Banner had run the math hundreds of times, and it was possible the Gamma Belt would be able to create a stronger Hulk. What that would mean for him, Banner wasn't sure. But he was about to find out.
+He hadn't told anyone about the Gamma Belt, mostly because he didn't want to have a conversation about why he was building a device to do what he could already do. And the reason for avoiding that conversation was that Banner would have to admit that he wanted the belt to give him a kind of control over the Hulk that he'd never felt he could maintain. In other words, he didn't want to have a conversation about how he couldn't control the Hulk.
+Okay, he thought. Time to see if I've solved that problem.
+He started a video camera set into one wall of the lab. "Banner, Gamma Belt test. First go-round with a full energy reservoir."
+He stepped to the center of the lab, where he'd marked out a spot for the transformation. Earlier that day, he'd moved all the lab furniture and equipment away from it.
+"Commencing..." He tapped a control on the belt. "Now."
+Lights on the belt flared to life as it poured gamma energy into the conduit encircling Bruce's waist.
+He felt the transition like he always did: wrenching, painful, but also filling him with a sense of limitless power. Along with that came something even more important: ease. Where Banner was nearly crippled by anxieties about how other people felt about him, Hulk didn't care what anyone thought. He was Hulk!
+He looked around Banner's lab, then down at the belt around his waist. How did Banner design it so it didn't break?
+"Don't need the belt," Hulk grumbled. But he knew Banner had designed the experiment to help him, so Hulk reluctantly went ahead to do the rest of the steps Banner had planned in advance. At least they sounded like fun.
+First, Hulk went outside the lab, trudging down a dirt road that led into a box canyon. Banner had set up instruments along one wall of the canyon. Hulk was supposed to stand at the other wall and clap. Banner thought he could measure Hulk's strength this way. Hulk just wondered what the belt would do.
+He stood by the canyon wall and looked at the instruments maybe twenty yards away. It was a narrow canyon. He took a deep breath, narrowed his eyes, and spread his arms wide.
+Hulk's clap usually caused a shockwave strong enough to break windows, flip cars, and send Hulk's enemies flying. But when he brought his palms together and heard the ear-shattering CRACK, he knew right away that this clap was different.
+The shock wave crashed against the far canyon wall like a bomb had gone off, collapsing the wall into a rockslide that buried Banner's instruments like they were never there. Then the wave rebounded and knocked Hulk into the wall at his back, hard enough to stun him — and bring thousands of tons of rock slabs crashing down on his head. Dazed, Hulk shook his head and flexed to push the rocks away...only to find that none of the rocks was touching him. A glowing sphere of gamma energy had surrounded him, projected from the belt. When Hulk moved, the sphere moved, shifting the rockfall so he could stand. Then it faded away.
+Hulk looked down at the belt.
+Its reservoir was partly full.
+Hulk looked across to the far wall. One of the instruments had survived the rockslide. Its microphone stuck up between rock slabs, and attached to it was a camera. Hulk walked to the camera and pointed down to the belt. "See that?"
+Then he decided to do another strength test and see what happened. He went outside, looked up to make sure no planes were going overhead, and jumped. He peaked a few thousand feet in the air, coming back down a short distance from his jump point with an impact that shook the windows in the lab. The arms of the saguaro cactuses waved.
+The belt was two-thirds full.
+Hulk grinned. "Heh."
+Now he was going to try something even harder. He picked up a car parked near the lab and threw it into the air in a high arc. Before it could land, he thundered after it, leaping as it fell and smashing a fist into it before it could hit the ground. The car exploded into hundreds of pieces, its gas tank rupturing in a ball of flame that Hulk fell through back to the ground. He roared as he landed, an exultant roar that echoed out over the empty desert.
+This was something Banner hadn't thought of. Becoming the Hulk, he had essentially given off enough gamma radiation to refill the belt...which in turn had fed the new radiation back into him.
+The dose would have killed him...if he hadn't already survived a larger dose of gamma radiation years ago. Instead it made him...well, Hulkier.
+He was a different Hulk. The real Hulk. The pure monster. He didn't care what Banner thought. Banner was weak. Hulk would rub Banner's face in it once and for all.
+"Gonna show Banner," he growled to himself. "Show him how puny he is when Hulk gets bigger!"
+Hulk stomped back into the lab and looked at the camera. Inside he felt Banner's fear and worry, deep inside his mind. He bared his teeth in a grin. "See, Banner? More gamma, more Hulk. Gonna do it again!"
+That's not really a good idea. It was Banner's voice.
+"Shut up, Banner."
+No, you don't understand, if too much gamma radiation builds up, it could —
+"SHUT UP!" Hulk punctuated the roar with a double-fisted blow to the floor, coming down with all his strength.
+The blast wave tore the concrete slab under the lab building to pieces and shattered equipment in every room. Sparks flew and cables tore out of the wall a moment before a row of lab tables smashed into the far side of the lab, breaking the window Banner had carefully shut before beginning the experiment. The roof started to come down, and Hulk roared as it destroyed itself over his head and shoulders.
+Hulk, no—!
+Humiliating Banner felt good. Hulk wasn't done. "Watch, Banner!" he snarled, picking up a steel beam from the ceiling and smashing it to the ground, feeling bolts and fragments of concrete ricochet up from the floor off his invulnerable skin. Yes! He would tear the lab to the ground, and then —
+Banner collapsed to the floor among the smashed remains of his instruments, feeling the Hulk recede like a great tide of rage in his mind. He was breathing hard and saying "no, no, no," until he realized he was saying it. When he stopped, the only sound in the lab was the whistling of the saguaro spines in the night breeze. Out in the desert, pieces of the car were burning slowly down.
+In his hands he held the broken remains of the Gamma Belt. Ricocheting fragments of the lab table had punched through its electronics, returning him instantly to his Banner state. "Interesting," he said. He hadn't considered that possibility.
+He looked from the smashed remains of the Gamma Belt to the smashed remains of the lab, then out to the dirt track leading to the canyon. The remains of the car still burned at the edge of the desert.
+There were a lot of things he hadn't considered. It was time to get back to work.
+Eloquent Banner
+(Coming soon. Stay Tuned!)
+Evolving Banner
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Puny God!
+As Monster Hulk, slam an enemy Loki with World Breaker.
+5
+Smart Is New Smash
+As Bruce Banner, land 1 KO within 3 seconds of calming down from the Hulk to Banner.
+10
+Quotes
+See
+Hulk/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Hulk
+was released as the 2nd character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 2 new costumes:
+Mighty G-Bomb
+and
+Green Scar
+.
+Added the
+Smart Is New Smash
+achievement.
+Added to the
+Gamma Charge
+Team-Up Ability
+with
+Iron Man
+and
+Doctor Strange
+and the
+Fastball Special
+Team-Up Ability
+with
+Wolverine
+.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+The countdown for
+Hulk
+and
+Magik
+'s ultimate transformations is now properly managed. No transformations will go amiss!
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Reduce the
+Indestructible Guard
+gamma shield value for
+Hero Hulk
+from 250 to 200.
+25/02/07:
+Version 20250207
+Addressed a costume issue that occasionally occurred with
+Banner
+after being revived by
+Rocket Raccoon
+'s beacon. He's looking sharp and ready to hulk out!
+25/02/14:
+Version 20250214
+Resolved a
+Team-Up Ability
+bug where if
+Hulk
+was hit by
+Namor
+'s ultimate when charging to throw
+Wolverine
+, he wouldn't be thrown afterward. Now, the power duo can deliver a one-two punch without any interruptions—Hulk smash, Wolverine slash!
+25/02/20:
+Resolved a glitch where
+Hulk
+couldn't be detected by vehicles or mission areas during his transformation back to
+Bruce Banner
+. The big guy's identity shift is now seamless!
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Reduce
+Hulk
+'s
+Team-Up
+Anchor health bonus from 150 to 100.
+25/02/28:
+Added 1 new costume:
+Punk Rage
+.
+25/03/27:
+Version 20250327
+Resolved an issue where the
+Hulk
+could sometimes have abnormal behavior after being catapulted into a terrain KO by
+Wolverine
+'s
+Feral Leap
+. Now, the big guy gets the proper beatdown without any off-script environmental stunts!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase base movement speed from 600 to 650.
+Reduce cooldown time for
+Indestructible Guard
+from 12 seconds to 10 seconds.
+Decrease minimum charge time for
+Incredible Leap
+from 0.7 seconds to 0.5 seconds.
+Added 1 new costume:
+Joe Fixit
+.
+25/04/15:
+Version 20250415
+Resolved a rare model display issue that could sometimes occur when
+Bruce Banner
+transformed in terrain kill zones. Now, when the good doctor gets angry, he won't just smash; he'll do it with style--HULK SMASH, without the visual chaos!
+Gallery
+Promotional
+Costume Origins
+In-Game Assets
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Green Scar costume reveal.
+Hulk and
+Wolverine
+in the Official Launch Trailer.
+"Mighty G-Bomb" costume in
+Incredible Hulk
+(1962) #1
+"Green Scar" costume in
+Hulk
+(1999) #92
+"Punk Rage" costume in
+Edge of Spider-Geddon
+(2018) #1
+"Joe Fixit" costume in
+Incredible Hulk
+(1962) #347
+Hero logo
+Prestige artwork
+Dr. Bruce Banner prestige artwork
+Monster Hulk prestige artwork
+Hero Story Artwork
+Trivia
+Hulk is voiced by Fred Tatasciore, who has portrayed the character for twenty years in various media such as
+The Incredible Hulk: Ultimate Destruction
+,
+The Avengers: Earth’s Mightiest Heroes
+, the
+Hulk vs.
+films, and more.

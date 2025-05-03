@@ -1,0 +1,310 @@
+{
+  "name": "Star-Lord",
+  "role": "Duelist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#1D4ED8",
+    "color_theme_secondary": "#A855F7"
+  },
+  "abilities": [
+    {
+      "name": "ELEMENT GUNS",
+      "keybind": null,
+      "type": null,
+      "description": "Shoot enemies with dual Element Guns",
+      "casting": "Rapid-fire shots with spread.",
+      "damage": "6.5 damage per round",
+      "damage_falloff": "Falloff begins at 10m, decreasing to 60% at 25m",
+      "fire_rate_interval": "40 rounds per second",
+      "ammo": 40,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "This ability has the highest rate-of-fire in the game.\nCROSSHAIR SPREAD RADIUS (AT 10M)\n- After 2 consecutive shots, the spread increases to 0.15m; after 5 consecutive shots, the spread expands to 0.24m"
+    },
+    {
+      "name": "ROCKET PROPULSION",
+      "keybind": "SHIFT",
+      "type": "Movement",
+      "description": "Consume energy to gain a Movement Boost and soar forward.",
+      "casting": "Movement",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "100%",
+      "energy_cost_details": "300/s",
+      "details": "ENERGY RECOVERY SPEED - 100/s",
+      "max_energy": 1800
+    },
+    {
+      "name": "BLASTER BARRAGE",
+      "keybind": "E",
+      "type": "Spherical Spell Field",
+      "description": "Fire a frenzy of shots, causing damage to enemies within range.",
+      "casting": "Spherical Spell Field",
+      "damage": "75 damage per hit",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "8m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "3s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "damage_falloff": "Falloff begins at 4m, decreasing to 80% at 8m"
+      }
+    },
+    {
+      "name": "STELLAR SHIFT",
+      "keybind": null,
+      "type": "Movement",
+      "description": "Dodge in the direction of movement and swiftly reload.",
+      "casting": "Movement",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "5s per charge",
+      "range": null,
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": "0.37",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Using this ability automatically reloads his Element Guns.\nThe dodge can avoid any attack in the game, including Ultimate abilities."
+    }
+  ],
+  "ultimate": {
+    "name": "GALACTIC LEGEND",
+    "keybind": "Q/MS3",
+    "type": "Rapid-fire projectile",
+    "description": "Engage in free-flight and lock onto enemies in sight.",
+    "casting": "Rapid-fire projectile.",
+    "damage": "6.5 per round",
+    "range": null,
+    "effect": null,
+    "duration": "8s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": "20%",
+    "bonus_health_details": null,
+    "energy_cost": 3100,
+    "details": "RELOAD TIME REDUCTION - 80m\nMAXIMUM LOCKING DISTANCE - 70%\nSPECIAL EFFECT\n⚬ During this period, Star-Lord’s reload speed increases significantly."
+  },
+  "passives": [
+    {
+      "name": "LEADER’S SOUL",
+      "keybind": null,
+      "type": null,
+      "description": "Adam Warlock enhances the rebirth power of Star-Lord and Mantis, granting them the power of cocooned revival.",
+      "cooldown": "120s",
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": "SPECIAL EFFECT\n⚬ During this period, Star-Lord enters a Free-flight state."
+    }
+  ],
+  "teamups": [
+    {
+      "name": "Leader's Soul",
+      "keybind": null,
+      "partner": [
+        "Adam Warlock",
+        "Mantis"
+      ],
+      "effect": "grants them the power of cocooned revival",
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "120s",
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Star-Lord excels at constantly harassing his enemies from mid-range and kiting enemies who attempt to give chase to him. He should typically position in places that force enemies to divert attention away from the rest of his team and instead to him, but far enough from the enemy and close enough to his team that he can easily fall back should things go awry. High ground positions that are close to an objective or flank routes that lone enemies are likely to take are where he shines. It may be tempting to play Star-Lord as an aggressive close-range dive character akin to Black Panther or Spider-Man. However, you should avoid this as much as possible, as he lacks the quick, long distance escape potential to be able to escape from the situations that those characters can. As mentioned before, you should learn to strike a balance between taking a position that diverts attention to you and being close enough to your team to secure your escape. Star-Lord's main weapons are his iconic Element Guns. These are essentially fast-firing SMGs, laying down a quick volley of fire that remains effective at close to mid-range, but will need constant reloading due to quickly expending each magazine. As they are sustained fire as opposed to single-fire burst, getting used to tracking will be important to playing the character effectively. Avoid firing at targets at extremely far distances with it unless there is no one else to shoot, as its falloff and spread will make the weapon's damage pitiful at those ranges Stellar Shift is one of Star-Lord's most essential abilities. It essentially serves as a dodge roll, quickly repositioning him a short distance while also offering invincibility frames for its brief duration. It also reloads his guns, making it great for when you need to continue your offense in the midst of a fight. This ability is key to your survival and your ability to take 1v1s. A single well-timed dodge against a high-damaging attack or a quick reload to reduce your downtime is often all you need to come out on top in most fights. You should get used to timing the shift right before a big attack will land in order to drastically increase your survivability. As you have complete invincibility frames, you cannot be damaged at all nor can you be affected by crowd control effects like stuns, seizes, or knockbacks. With enough foresight and quick reactions, Star-Lord can become near-impossible to pin down without severe focus-fire. Blaster Barrage is your primary damaging ability. Star-Lord fires his blasters wildly all around him, dealing damage in a wide AoE around him. This attack can be used even if your Element Guns are out of ammo, making it great as a finisher after expending your magazine. However, note it will not replenish your ammo, meaning that if your magazine was empty before using it, you will still need to reload after it ends. This is also great for warding off enemy flankers and divers, as its auto-hit nature completely nullifies their greatest strength: their ability to dodge. With this ability, Star-Lord is one of the best characters in the game for managing a flank route, as his mere presence will often have flankers thinking twice before attempting to engage. While using this ability, you can still use your Rocket Propulsion or Stellar Shift, or even cancel it early by pressing the ability key again. Rocket Propulsion will allow you to chase a retreating enemy or to keep close to a flier like Iron Man or Storm to continuously damage them, while Stellar Shift will end the barrage early. Cancelling a barrage early either manually or with a shift can allow you to surprise an enemy by hitting them with higher DPS with your main weapons when compared to the low but reliable damage that the barrage offers. Rocket Propulsion allows you to take almost any position you desire while also serving as a decent escape tool with enough foresight. Star-Lord can use his rocket boots to fly around wherever he desires for a short duration, moving at roughly the same speed as Iron Man does during his Hyper Velocity. He can only use this ability while his boots have fuel: if it runs out, he will be forced back down to earth. Galactic Legend is an exceptional ultimate for securing an important fight. Upon activation, Star-Lord will put on a modified helmet and give his rocket boots infinite fuel, allowing him to fly around to his heart's content. With his new helmet, he now has auto-aim on his main weapons that are effective up to 30 meters away, and his weapons' falloff range increases from 10 meters to 25, giving him much more range. He also reloads 70% faster, allowing him to lay down significantly more fire in significantly less time. This ultimate makes Star-Lord a nightmare when in an open area with little cover, as he can easily shoot down squishy enemies who can't be healed or protected in time. Due to the threat this ultimate offers, it is not uncommon for enemies to withhold their defensive abilities or ultimates until you decide to use it, as your ultimate lacks the damage output necessary to break through these abilities by itself. You should keep track of which heroes and ultimates have been used so you can use yours at an opportune moment, however in some cases it may be worth using your ultimate to force out one of the enemy's, making them more vulnerable for the next team fight. Star-Lord's teamup with Adam Warlock, Leader' Soul, gives him access to Warlock's Regenerative Cocoon ability, functioning identically to how it does with Warlock. It is great for giving extra staying power in a fight, but must be used carefully so you don't waste it on a lost battle.",
+    "weaknesses": [
+      "Element Guns have some of the lowest damage distance falloffs in the game.",
+      "The invulnerability from Stellar Shift is less than a second, meaning players need to time it properly to avoid powerful attacks.",
+      "Can be interrupted during Blaster Barrage and Galactic Legend.",
+      "During Galactic Legend Star-Lord is unable to critically hit, even if the player aims directly at the target's head.",
+      "Leader's Soul has a very long cooldown of 120 seconds."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "A Better Plan",
+        "description": "As Starlord, issue the \"Fall back!\" ping 3 times.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Vengeance For The Milano!",
+        "description": "As Star-Lord, land 10 KOs with assists from the Guardians of the Galaxy.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"Someone's gotta guard the galaxy. Might as well be me.\"",
+    "ingame_bio_text": "Peter Quill lives to dazzle his foes on the battlefield with his signature swagger. As his element guns paint arcs of devastation, his acrobatic moves sail through the sky with unrivaled style. With performances this spectacular, it's no wonder that Star-Lord is so legendary!",
+    "ingame_story_intro": "At Shuri's request, Star-Lord led a scouting mission to the surface of the symbiote planet, Klyntar. As the Guardians made their approach, their ship was disabled by a mysterious force, leaving Star-Lord and his crew stranded on a hostile world nearing the brink of annihilation.",
+    "hero_stories": [
+      {
+        "title": "Quantum Slingshot",
+        "content": "If you had to crash, thought Peter Quill, might as well do it in the middle of maybe a thousand other spaceships. Makes it easier to find parts, at least.\nThat's what Rocket was supposed to be doing, and maybe Groot too, but Quill wasn't too sure about Groot. He had kind of wandered off in the direction of the jungle that bordered the ship graveyard. For all Quill knew, he was communing with the local daisies and dahlias.\nQuill hoped Groot wasn't anywhere close to the fire spreading through the ship graveyard. The flames weren't coming close to the Milano thankfully, which had churned up a good furrow of earth and scrap metal during its highly controlled and perfectly executed emergency landing. So, since he had pulled off a perfectly landing after Rocket had screwed something up, Quill thought he should probably congratulate himself for making sure the Milano wasn't going to be burned by creating an excellent firebreak behind it. Not that Rocket would ever give him credit, nor would Groot ever notice.\n\"Man,\" Quill said. \"It's not easy being a leader.\"\nHe said this while sighting down the barrel of one Element Gun at an approaching symbiote. This was the downside of crashing in a spaceship graveyard on the planet\nKlyntar\n. Lots of symbiotes who showed up to the new crash site with an appetite. He was picking them off as fast as he could, but even Star-Lord could only take them down so fast, and more and more of them showed up with each passing second. Quill was starting to resent Rocket for crashing the ship in the first place. On the other hand, what good did that do? Now Rocket was looking for parts, which was the right thing to do if he wanted to make up for his mistake. Accountability, Quill believed, was a big part of successful teamwork.\nHe picked off a trio of symbiotes crawling over the top of a huge amalgam of Skrull ship parts just to the north of the Milano. He had seen some of these critters on Earth and elsewhere in the galaxy, but not like these. Apparently if they bonded to humans, they become sort of human? But these, hoo boy, they were bonded to all kinds of aliens that even Peter Quill, who had been to more planets than he'd had hot meals, could recognize. And none of them seemed to like humans very much, to judge from how they kept trying to claw or chomp or shred him.\nAn alert went off inside the Milano around him. Quill dropped into the ship just in time to catch a symbiote coming up through the hatch. He popped it with both Element Guns, but not before it had gotten all thew ay in and wrapped a barbed tentacle around his leg. Swearing in a every language he knew, he blew the tentacle apart and limped over to slam the hatch shut. His leg hurt like a flerkin's kiss on the way back up to the top of the Milano's hull, but pain had to wait. Quill was going to protect his ship to the end.\nA big explosion lit up the far end of the ship graveyard, over by a cluster of ancient buildings that rose up from the edge of the jungle. Looks like the fire's reached a ship with something combustible on board, Quill thought. Bits of flaming wreckage rained down around the buildings and nearer to the edge of the jungle.\nMost of the symbiotes abandoned their siege of the Milano and took off toward the fire, which suited Quill just fine. It was a whole lot easier to fix a spaceship when you didn't have a horde of monsters trying to eat you, or whatever they were trying to do. He shot at them a little more while they were running off, then tried to get a hold of Rocket on the comm. Interference responded, which could have been background radiation, or some weird emission from the massive Celestial corpse floating around in near-Klyntar orbit, or anything else, really. Rocket was incommuniado, and Groot, well. Quill never knew how to get in touch with Groot.\nGuess I'll keep working until they come back, he thought as he watched the fire for a minute to see whether it was coming his way. When it wasn't, he went below to see what he could do about getting this bucket of bolts back into orbit.\nA couple of hours later, he was putting the finishing touches on his work when he heard noises from a nearby wreck. He scrambled up ot the top of the Milano's hull and pointed Element Guns in that general direction — but instead of more symbiotes, he saw Rocket scrambling over the wrecked ships, with Groot right behind him.\n\"Quill!\" Rocket shouted. \"Give us a hand!?\" Groot was carrying a huge armload of scrap tech just behind the raccoon.\n\"What, you took some time to go scavenging?\" Quill asked. \"What is all this garbage?\"\n\"It's not garbage, you flarkin' dolt,\" Rocket said. \"We fought like a hundred million of those monsters to get it, and now this scut is gonna get us out of here.\"\n\"Oh, I got that figured out already,\" Quill said. \"Everything's all tuned up in the engines, except for —\"\nRocket was already looking. \"Except you don't have any shielding over the plasma exchangers.\"\nQuill pointed out at the wrecks. \"Plenty of shielding out there, genius.\"\n\"And how were you going to get enough thrust to get us off-planet if you diverted all the power to the hyperspace drive?\" Rocket put one hand over his eyes, dropping some of his various bits he collected. Quill was used to Rocket thinking he was dumb. It was part of their relationship now. But this time, he had an answer. He pointed up.\n\"What?\" Rocket demanded.\nQuill stabbed a finger toward the sky.\nRocket looked.\n\"See that?\" Quill prompted him. \"The dead Celestial, orbiting up there?\"\n\"Yeah, I see it,\" Rocket said. \"So what?\"\n\"I am Groot,\" Groot said.\n\"That's right,\" Quill said. \"A way out. Well, sort of. More like a... coordinate switcheroo. See, the reason I routed all the power to the hyperspace drive is that we can pair the Milano with the Celestial's remains into the quantum whatever. The body will get trapped down here, the Milano goes up, then we hyperjump the flark out of here, and we never have to come back to this hellhole ever again!\"\n\"I am Groot?\"\n\"Meh, we can repair the regular thrusters whenever we get around to it.\"\n\"You're kidding,\" Rocket said. \"Quantum swap with the corpse of a Celestial? That won't work, you know how many conditions need to be —.\"\n\"Not since we got that Nega-Eenrgy Replicator from that doozy of a deal on Hala. 'Member how Mar-Vell and Rick Jones did it with the Nega-Bands? Take a look around!\" Quill spread his arms. \"Rocket, old pal, tell me what else we need that we can't find here.\"\nRocket was looking at Quill's work again, this time with a more appraising eye. \"Uh huh,\" he said. \"So you're saying... you're gonna build a temporary pocket of Negative Zone as a... terminal to stabilize the quantum displacement? Quill, you've had a lot of scuzzy ideas in our time, but this one's actually...What was it that you Earth folks said— even a broken clock is correct once a day?\"\n\"Twice.\"\n\"Then it ain't HALF bad.\"\n\"As compliments go, that's pretty weak, but coming from you, I'll take it. Plus, it has the added benefit of smashing the Celestial's corpse down on these symbiotes, who I have to say are not so good with hospitality.\"\n\"I am Groot.\" His massive companion dropped the junk in his arms and put a kind hand on his shoulder.\nQuill nodded at Groot, then shot Rocket a look. \"Now that was a real compliment.\"\n\"Only problem is,\" Rocket said, \"if you don't have some kind of force dampening matrix powered up when we swap, we'll all get to orbit torn into pieces. But that's totally cool, because I just so happen to have — by which I mean Groot just so happened to have dropped —a piece of equipment that will do the job.\"\n\"What?\" Incredulous, Quill looked from Rocket to Groot and back. \"How did you —?\"\nHow did I know? I didn't.\" Rocket guffawed. \"I totally got it for another reason, but it will work here.\"\n\"I am Groot,\" Groot said.\n\"You had help from a friendly vine?\" Quill echoed. \"Sorry, Groot, but that's the most far-fetched thing I've heard since we got here. Nothing about this planet is friendly.\"\n\"I am Groot.\"\nQuill turned to Rocket. \"Seriously?\"\n\"I saw it,\" Rocket said. \"The native flora helped him. Groot's a diplomat, if you didn't know.\"\nQuill chose not to process that idea at this moment, when a horde of symbiotes might show up again at any moment while they were trying to use the orbiting remains of a Celestial as a quantum anchor to swap themselves into orbit.\"\n\"I...okay,\" he said. \"Groot's a diplomat and you just happened to pick up the one piece of equipment I didn't think of that's going to save all our lives while I was busy holding off a hundred thousand million symbiotes to get our ship ready for its possibly final voyage.\" Quill waited, hoping he sounded appropriately frustrated.\nBut either Rocket had missed the sarcasm, or just didn't care, because all he said was, \"Lucky, right? Here, let's get it hooked up.\"\nQuill sighed. For the second time that day, he was thinking about how hard it was to be a leader.\nWith an aligned goal, the remaining hard work went rather smoothly. Quill rushed back into the Milano as Rocket gave the new system a final check.\n\"Time usually flies faster in the Negative Zone, but switching with our dance partner may take what feels like a while.\"\n\"Oh yeah, totally. And that second big button is here because...\" Quill's voice trailed of as his train of thought slowed.\n\"To exit the Negative Zone from the other end, genius. One to get in, one to get out. Like those Nega-Bands. Unless you wanna stay there and watch the timestream collapse from that cosmic backwater.\" Rocket rolled his eyes, then slapped on the first button.\nTHOOM!\nAlmost instantaneously, the Milano disappeared from the dark planet, leaving only a perfect shape of her landing pads and side=wings on the gooey surface.\nAnd just as fast as she disappeared, there she was, against the endless, pitch black of the Negative Zone... and the enormou body of the deceased ancient Celestial. Even with all they had seen across the galaxy, the crew felt they shouldn't be looking upon the vibrant corpse, awestruck by the lifeless form of a god in front of their insignificant speck of a spaceship.\n\"I am Groot...\"\n\"Say, this headless hunk and the big dome of Knowhere, ain't they perfect for each other!\" Rocket decided to light up the cockpit.\n\"Uhh... do we know if decapitation kills these things? Cuz the Milano says it's ALIVE!\" A string of flashing readings on the interface lighted Quill like a ham in the microwave.\nAnd as if in response to him, the corpse made a single twitch.\n\"I am Groot?!!!\" Groot was unsettled.\n\"No it didn't! You're seeing things. Besides, I'm sure it's just the quantum swap having some residual effects, probably because it's so big... yea...\" Rocket's feigned confidence waned.\n\"And I don't want to stick around long enough to find out.\" Peter pressed. \"Hit that second button, Rocket!\"\n\"Not yet. Havta recharge the engine!\"\n\"Just hit it! Something is happening over there!\" Quill tried and failed to ignite the regular thruster out of desperation.\n\"Quit it, Quill, or we'll be stuck in the Negative Zone! There's worse things here than whatever your imagination is thinking you saw!\"\nAnd right on cue, the giant body started to shake violently, a wriggling mass forming within the husk of the Celestial..\n\"I am Groot!\" Groot pointed at corpse, panic in his three words.\n\"Yes I believe you now! Yeah, yeah, something's definitely moving on its chest. Those must be what the scanner picked up!\" On the giant's decayed chest plates, Groot and Rocket spotted a person-shaped symbiote, as well as a glowing cocoon of some sort.\nBut it didn't stop Milano's every single alarm from screaming.\n\"That does it!\" Quill leaned over and smashed on the first button.\n\"No, Quill, you—\"\nTHOOOM!\nThe ship was already back where they started before Rocket could finish, fitting squarely into the impression they left on the ground.\n\"Aggh! You got any more bright ideas to waste our time?\" Rocket seemed down.\n\"I am Groot...\"\n\"All right, all right! As the captain, you have to make unpopular decisions sometimes. And we're all still alive, so you're very welcome!\" Quill stood up, looked around the cockpit. \"Whoever that symbiote was, they're not the same as the natives. And that golden egg thingy! If that's who I think it is, they shouldn't be there... but I think we've got some other friends around!\"\n\"Who cares?! C'mon, Groot. Let's go find some more friendly vines. Maybe THEY can be a better captain of the ship.\" Rocket headed to the hatch door.\n\"You think so?! Then go ahead. When we're back on Knowhere, I'm telling everyone that I saved our lives! Including those two up there!\" Quill yelled to the back of his crewmates, but they didn't stop.\n\"Whatever!\" Quill slapped the arm of his chair. Dude, being the leader is so hard, he thought.\nBut when he looked up to the sky, the Legendary Star-Lord smiled.\nThe giant corpse of the Celestial remained in the sky, with golden light shining from its chest. Like a tight house in a raging black sea.",
+        "status": null
+      },
+      {
+        "title": "Final Annihilation",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "Jason's Legacy",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch",
+          "Star-Lord was released as the 15th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes:\nJovial Star\nand\nGuardians of the Galaxy Vol. 3",
+          "Added the\nVengeance For The Milano!\nachievement.",
+          "Added to the\nGuardian Revival\nTeam-Up Ability\nwith\nAdam Warlock\nand\nMantis."
+        ]
+      },
+      {
+        "date_version": "24/12/10:\nVersion 20241210",
+        "changes": [
+          "After Star-Lord's Guardians of the Galaxy Vol. 3's MVP animation played, sound effects would not be played in the results screen. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "24/12/13:",
+        "changes": [
+          "Added 1 new costume:\nMaster of the Sun."
+        ]
+      },
+      {
+        "date_version": "24/12/19:\nVersion 20241219\n/\nWinter Celebration",
+        "changes": [
+          "Star-Lord's unexpected shaking when using Shift while holding Space in low gravity zones has been fixed. Now he'll rise with style!"
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Fixed a visibility issue that could sometimes occur when Adam Warlock/ Mantis/ Star-Lord were in soul form within the mist on Wakanda maps where they couldn't see or be seen by others."
+        ]
+      },
+      {
+        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "changes": [
+          "Added 1 new costume:\nLion's Mane\n(unlocked from\nFortune & Colors\nevent)"
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5\nLaunch",
+        "changes": [
+          "Increase\nRocket Propulsion's maximum energy from 1200 to 1800."
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala\nLaunch",
+        "changes": [
+          "Reduce\nBlaster Barrage\ndamage from 80 per second to 75.",
+          "Introduce a new damage falloff mechanic, starting at 4 meters and maxing out at 80% reduction at 8 meters.",
+          "Added 1 new costume:\nKing of Spartax."
+        ]
+      },
+      {
+        "date_version": "25/04/25:\nVersion 20250425\n/\nGiant-Size Brain Blast\nLaunch",
+        "changes": [
+          "Resolved an issue where Star-Lord's Spartax Slumber emote was missing his signature facial animations when used during a match. Now, when he starts to nod off his playful attitude will shine through, proving that even in chaos, he's the coolest guy in the galaxy!"
+        ]
+      },
+      {
+        "date_version": "25/04/30:\nVersion 20250430",
+        "changes": [
+          "Eliminated an occasional speed decay glitch in his Rocket Propulsion ability, impacting his smooth movement. Now, every blast-off is as snappy and daring as a mixtape drop from the Milano!"
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "Star-Lord is a Duelist hero in Marvel Rivals, and is the 15th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Mantis and Adam Warlock."
+  },
+  "background": {
+    "real_name": "Peter Jason Quill",
+    "aliases": [
+      "Lord of Stars",
+      "Master of the Sun"
+    ],
+    "birthplace": "Colorado, United States",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Hazel",
+    "hair_color": "Blonde",
+    "relatives": [
+      "J’son (father)",
+      "Meredith Quill (mother; deceased)",
+      "Victoria (paternal younger half-sister)"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Compensates with a pair of blasters and jet boots",
+      "Superhuman Speed",
+      "Expert Combatant, Pilot and Marksman",
+      "Hybrid Physiology"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Star-Lord%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "C",
+    "win_rate": "47.21%",
+    "wr_change": "-1.23%",
+    "pick_rate": "9.56%",
+    "pr_change": "-1.72%",
+    "ban_rate": "0.39%",
+    "matches": "142,653"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

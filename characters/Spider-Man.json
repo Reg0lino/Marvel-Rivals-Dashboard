@@ -1,0 +1,380 @@
+{
+  "name": "Spider-Man",
+  "role": "Duelist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F87171",
+    "color_theme_secondary": "#93C5FD"
+  },
+  "abilities": [
+    {
+      "name": "SPIDER-POWER",
+      "keybind": "LMB",
+      "type": "Melee",
+      "description": "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer.",
+      "casting": "Melee",
+      "damage": "The first two strikes deal 25 damage, while the third strike deals 40 damage (damage increases for one strike when hitting with Spider-Tracer)",
+      "damage_falloff": null,
+      "fire_rate_interval": "The first two strikes have an interval of 0.37s between them, while the third strike has a 0.82s interval from the second strike",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "The first two strikes can hit up to 3m, while the third strike can hit up to 4m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "CYBER-WEB CLUSTER",
+      "keybind": "RMB",
+      "type": "Projectile",
+      "description": "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy.",
+      "casting": "Projectile that fires in a straight trajectory",
+      "damage": "30 (consuming Spider-Tracer with another ability deals a further 45)",
+      "damage_falloff": "Falloff begins at 20m, decreasing to 50% at 40m",
+      "fire_rate_interval": null,
+      "ammo": 5,
+      "critical_hit": false,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": "120 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "WEB-SWING",
+      "keybind": "SHIFT",
+      "type": "Dash",
+      "description": "Shoot a strand of webbing to swing.",
+      "casting": "Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s per charge",
+      "range": "30m",
+      "projectile_speed": null,
+      "charges": 3,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "If the Easy Swing setting is off, the player can perform a Web Zip with this ability by aiming at a surface below them."
+    },
+    {
+      "name": "GET OVER HERE!",
+      "keybind": "E",
+      "type": "Projectile",
+      "description": "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead.",
+      "casting": "Projectile that fires in a straight trajectory",
+      "damage": "Pull: 25\nWeb Strike: 50",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "Pull: 20m\nWeb Strike: 24m",
+      "projectile_speed": "80 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "If the target is marked by a Spider-Tracer, the player can perform a Web Strike that automatically locks onto the enemy."
+    },
+    {
+      "name": "AMAZING COMBO",
+      "keybind": "F",
+      "type": "Melee",
+      "description": "Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer.",
+      "casting": "Melee",
+      "damage": "55 (damage increases for one strike when hitting with Spider-Tracer)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "2s",
+      "range": "4m spherical radius",
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "THWIP AND FLIP",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Perform a double jump.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Can only be cast again after landing"
+    },
+    {
+      "name": "WALL CRAWL",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Press Space to wall crawl, and while crawling, left-click to sprint.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "WALL-CRAWLING SPEED -\n3 m/s\nSPRINTING SPEED -\n9 m/s"
+    },
+    {
+      "name": "SPIDER-SENSE",
+      "keybind": null,
+      "type": "Passive",
+      "description": "Give a warning of enemies that have been around.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "8m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "DISAPPEARANCE TIME TO TRIGGER DETECTION -\n3s"
+    }
+  ],
+  "ultimate": {
+    "name": "SPECTACULAR SPIN",
+    "keybind": "Q",
+    "type": "Spherical Spell Field",
+    "description": "Launch Web-Clusters all around to damage and Stun enemies.",
+    "casting": "Spherical Spell Field",
+    "damage": "12 per hit",
+    "range": "8m spherical radius",
+    "effect": "Striking an enemy applies a stacking -3% Slow effect for 1 second, and after reaching 20 hits, the enemy will be Stunned for 1.5s.",
+    "duration": "2.4s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": "Bonus Health: 250",
+    "energy_cost": 2800,
+    "details": null
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "SUIT EXPULSION",
+      "keybind": "C",
+      "partner": [
+        "Venom",
+        "Peni Parker"
+      ],
+      "effect": "Venom shares a part of his symbiote with Spider-Man and Peni Parker, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.",
+      "teamup_bonus": null,
+      "duration": "4 Seconds",
+      "cooldown": "30s",
+      "range_target": "5m spherical radius",
+      "special_notes": null,
+      "details": null
+    },
+    {
+      "name": "EXTRA WEB FLUID",
+      "keybind": null,
+      "partner": "Squirrel Girl",
+      "effect": "Spider-Man gives Squirrel Girl a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast.",
+      "teamup_bonus": "10% Damage Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Note: Anchor bonuses are currently permanent and do not require team-up partners.",
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Spider-Man is a character that should almost never attempt to fight on the front lines, as he simply lacks the damage output, range, or sustainability to be able to contribute to a drawn-out fight without being quickly dispatched. Instead, he excels at quick, hit-and-run tactics, focused on getting in, dealing a high-burst combo to a priority target, and then getting out. He thrives when constantly harassing the enemy backline, however take care to not linger too long there, because as mentioned before, the longer Spider-Man attempts to sustain a fight, the more vulnerable he becomes.",
+    "weaknesses": [
+      "Despite being very mobile and hard to pin down, Spider-Man is very frail and needs proper skill to be played, since he has no defensive or self-sustain tools. Diving into the enemy backline recklessly can be fatal if his Strategists cannot reach him.",
+      "His damage output is not very high unless he attaches a Web-Tracer to the target.",
+      "The GET OVER HERE! ability can fail if the enemy goes into cover.",
+      "Can be interrupted during Spectacular Spin."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Web, White, and Blue",
+        "description": "As Spider-Man, partner with Captain America to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Spider-Sense Tingling!",
+        "description": "As Spider-Man, detect a enemy with Spider-Sense and land a winning counterattack.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "I'm your friendly neighborhood Spider-Man. Only my neighborhood is now like multiple realities, cool right?",
+    "ingame_bio_text": "Swinging around the arena on his signature weblines, your friendly neighborhood Spider-Man, AKA Peter Parker, catches his rivals by surprise with sneaky, sticky bursts of webbing and unexpected attacks from above. Look out… here comes the Spider-Man!",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Unfriendly Neighborhood",
+        "content": "Every week or so, Peter Parker swung uptown from his usual haunts to the Manhattan side of the Queensboro Bridge, looking across toward home. And every week, there was still no way to get there. There were too many vampires patrolling the bridge, and other horrific monsters flying over it. Dracula had taken Manhattan all for himself, and he wasn't letting any of his human \"playthings\" escape.\nStill Peter came by to look, wishing he could talk to Aunt May, Every Wednesday. That's when he missed Aunt May the most, because ever since he'd moved out of her house, he'd always tried to get back to see her for lunch on Wednesdays.\nToday, he was staying a little farther away from the bridge, watching it from the Midtown Tunnel's ventilation tower, a mile downstream past the U.N. headquarters. It was a quiet place for contemplation, since the huge fans were no longer running. He had cased the area for vampires before letting himself have his weekly moment of regret and longing for a world before the Timestream Entanglement. Before the vampires had taken over New York. Before he had lost track of the days since he'd seen the sun. [rest of story omitted for brevity]",
+        "status": null
+      },
+      {
+        "title": "Liberation of New York",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Spiders are not Insects",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Spider-Man was released as the 4th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 4 new costumes: Chasm, Scarlet Spider, Bag-Man Beyond, and Spider-Man: No Way Home.",
+          "Added the Spider-Sense Tingling! achievement.",
+          "Added to the Symbiote Bond Team-Up Ability with Peni Parker and Venom and the ESU Alumnus Team-Up Ability with Squirrel Girl."
+        ]
+      },
+      {
+        "date_version": "24/12/10: Version 20241210",
+        "changes": [
+          "After equipping the PlayStation bundle's Scarlet Spider costume, restarting the game could cause the costume not display as correctly equipped. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Resolved occassional synchronization issues for Venom and Spider-Man after swinging and wall-crawling.",
+          "Resolved an issue where, while airborne, if Spider-Man used Amazing Combo to interrupt the wind-up of a normal attack, the attack would incorrectly continue and still inflict damage."
+        ]
+      },
+      {
+        "date_version": "25/01/30:",
+        "changes": [
+          "Added 1 new costume: Marvel's Spider-Man 2."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Fixed an issue where Spider-Man sometimes couldn't use abilities while falling from the top of a wall. The web-slinger can now strike without a hitch--no more sticky situations!"
+        ]
+      },
+      {
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "changes": [
+          "Reduce Web-Cluster energize time from 3s to 2.5s.",
+          "Reduce Spider-Man's Suit Expulsion duration from 4s to 1s. Replace the 50% damage reduction effect with a new invincibility effect during the duration."
+        ]
+      },
+      {
+        "date_version": "25/03/21:",
+        "changes": [
+          "Added 1 new costume: Spider-Punk 2099."
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Added 1 new costume: Spider-Oni."
+        ]
+      },
+      {
+        "date_version": "25/04/30: Version 20250430",
+        "changes": [
+          "Decrease the damage range of Amazing Combo from a 5m radius to a 4m radius."
+        ]
+      }
+    ],
+    "official_quote": "Anybody has a chance to be a hero. I believe that.",
+    "official_description": "Spider-Man is a Duelist hero in Marvel Rivals, and is the 4th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Squirrel Girl, Peni Parker, and Venom."
+  },
+  "background": {
+    "real_name": "Peter Benjamin Parker",
+    "aliases": [
+      "The Amazing Spider-Man",
+      "Spidey",
+      "Web-Head",
+      "Wall Crawler"
+    ],
+    "birthplace": "Queens, New York",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Hazel",
+    "hair_color": "Brown",
+    "relatives": [
+      "Ben Parker (uncle; deceased)",
+      "May Parker (aunt)"
+    ],
+    "affiliation": [
+      "Web-Warriors",
+      "The Daily Bugle"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Superhuman strength, senses, reflexes, and agility",
+      "Preternatural precognitive \"Spider-Sense\"",
+      "Skilled hand-to-hand combatant",
+      "Web shooters",
+      "Wallcrawling"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Spider-Man%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "48.41%",
+    "wr_change": "-0.31%",
+    "pick_rate": "17.74%",
+    "pr_change": "+1.66%",
+    "ban_rate": "30.12%",
+    "matches": "264,691"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

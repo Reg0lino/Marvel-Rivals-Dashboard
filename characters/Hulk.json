@@ -1,0 +1,363 @@
+{
+  "name": "Hulk",
+  "role": "Vanguard",
+  "stats": {
+    "health": "1400",
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#15803D",
+    "color_theme_secondary": "#16A34A"
+  },
+  "abilities": [
+    {
+      "name": "GAMMA RAY GUN",
+      "keybind": "LMB",
+      "type": null,
+      "description": "Fire with a Gamma Ray Gun.",
+      "casting": "Single-cast projectile with delayed impact",
+      "damage": "16",
+      "damage_falloff": null,
+      "fire_rate_interval": "5/s",
+      "ammo": 25,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": "80m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "GAMMA GRENADE",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Launch a Gamma Grenade to inflict damage and Launch Up enemies. When the caster enters the spell field, it restores 50 gamma energy. Throwing the Gamma Grenade at your feet as Banner will automatically give you 8% of your gamma energy, so try to do so as often as possible to hasten your charge time.",
+      "casting": "Single-cast projectile with a downward delay that creates a spell field upon impact",
+      "damage": "40",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "3m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "HEAVY BLOW",
+      "keybind": "LMB",
+      "type": null,
+      "description": "Swing fists forward to punch enemies.",
+      "casting": "Single-cast Spell Field",
+      "damage": "70",
+      "damage_falloff": null,
+      "fire_rate_interval": "0.52/s",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "5m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "As Monster Hulk, all of your attacks deal increased damage with shorter cooldowns, and your Heavy Blow deals knockback as well. This allows you to cause immense chaos in the midst of an enemy, and stringing in your melee attack between Gamma Bursts and leaps can lead to deadly combos."
+    },
+    {
+      "name": "INDESTRUCTIBLE GUARD",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Generate gamma shields for Hero Hulk and nearby allies, absorbing and converting damage into energy for HULK SMASH. When the caster's shield takes damage, 100% of the damage is converted into gamma energy. When an ally's shield takes damage, 10% of the damage is converted into gamma energy.",
+      "casting": "Single-cast spell field that surrounds the caster",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "10s",
+      "range": "5m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "2.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM SHIELD VALUE - 200 (caster) - 100 (allies)"
+    },
+    {
+      "name": "RADIOACTIVE LOCKDOWN",
+      "keybind": "E",
+      "type": null,
+      "description": "Emit gamma energy to irradiate enemies and render them immobilized and immune to all ability effects. Using Heavy Blow or Gamma Burst will prematurely remove this status.",
+      "casting": "Single-cast projectile",
+      "damage": "5",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "5s",
+      "range": null,
+      "projectile_speed": "150m/s",
+      "charges": null,
+      "duration": "2s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Heavy Blow and Gamma Burst can detect and damage irradiated enemies, and prematurely remove the status. As Monster Hulk, the projectile is faster and has a much lower cooldown (5 seconds down from 15 seconds)."
+    },
+    {
+      "name": "INCREDIBLE LEAP",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Space to perform a charged leap that allows Hero Hulk to Knock a flying enemy to the ground. Press Space during the Incredible Leap to cling to the wall you encounter.",
+      "casting": "Charged Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "19.4m/s (minimum charge) - 25m/s (maximum charge)",
+      "energy_cost_details": null,
+      "details": {
+        "MINIMUM CHARGE TIME": "0.5s"
+      }
+    },
+    {
+      "name": "GAMMA BURST",
+      "keybind": null,
+      "type": null,
+      "description": "Emit gamma-ray bursts to inflict damage.",
+      "casting": "Single-cast projectile that can pierce through enemies",
+      "damage": "125",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "1s",
+      "range": null,
+      "projectile_speed": "60m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "As Monster Hulk, projectile becomes slower, but deals almost double damage and has a much lower cooldown (1 second down from 8 seconds)."
+    }
+  ],
+  "ultimate": {
+    "name": "WORLD BREAKER",
+    "keybind": "Q",
+    "type": null,
+    "description": "Grab and smash the enemy in front. While performing the smash, Hulk gains a 30% Damage Reduction.",
+    "casting": "Targeted",
+    "damage": "Delivers 5 hits, each dealing 40 damage",
+    "range": "5m",
+    "effect": null,
+    "duration": "5s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": null,
+    "details": null
+  },
+  "passives": [
+    {
+      "name": "GAMMA BOOST",
+      "keybind": null,
+      "type": null,
+      "description": "Hulk charges Doctor Strange and Iron Man with gamma radiation. When Doctor Strange uses Maelstrom of Madness, he unleashes Gamma Maelstrom. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade.",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": "TEAM-UP BONUS - Hero Hulk and Monster Hulk gain 150 Max Health"
+    }
+  ],
+  "teamups": [
+    {
+      "name": "GAMMA FASTBALL",
+      "teamup_bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Hulk is a high-risk, high-reward tank who can quickly shift between harassing the enemy's backline and protecting his own on a whim. His high mobility allows him to quickly engage and disengage the enemy, giving him free reign to take or abandon almost any fight with enough foresight.",
+    "weaknesses": [
+      "Bruce Banner is incredibly frail, having the lowest max health in the game, on top of having no mobility tools other than with Gamma Grenade, and a very limited moveset.",
+      "Despite having projectiles, the Hulk is susceptible to enemies with long-distance attacks that can out-zone him.",
+      "The Hulk often has to rely on grouping up with allies to charge his Ultimate more efficiently, due to Indestructible Guard's mechanics.",
+      "As Monster Hulk, he loses access to Indestructible Guard.",
+      "The Hulk's large frame and average movement speed makes him an easy target, and even more so in his Monster Hulk form.",
+      "The Hulk is vulnerable to crowd control while Indestructible Guard is on cooldown."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Puny God!",
+        "description": "As Monster Hulk, slam an enemy Loki with World Breaker.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Smart Is New Smash",
+        "description": "As Bruce Banner, land 1 KO within 3 seconds of calming down from the Hulk to Banner.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "Never say Hulk is stupid just because Banner is smart.",
+    "ingame_bio_text": "Caught in the detonation of a powerful weapon of his own invention, Dr. Bruce Banner absorbed gamma radiation that transforms him into a massive green monster whenever his emotions rage out of control. As Banner, he's still a genius. But as the Hulk, he's the strongest one there is!\nBanner developed a special Gamma Belt to control his transformations and temper the Hulk's fury. But when the Timestream Entanglement transformed Los Diablos Missile Base into a demonic battleground, he realized that the best way to fight monsters was to let out the one within.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Fickle Banner",
+        "content": "Scientific inspiration, mused Bruce Banner, could come from anywhere. There were the famous stories — Newton's apple, Alexander Fleming's mold in the Petri dish — and then there were the thousands of other little revelations that would never be told because they were just part of the everyday work of scientists all over the world. Like him. He had done some important work in the fields of gamma radiation, and he had also learned more about gamma radiation the hard way.\nNow, he was trying to build both on that work and the life-changing accident. Becoming the Hulk had changed his life for better and for worse, and most of the worse aspects had to do with the lack of control he had felt for years when becoming Hulk. Over time, he had gotten more control, but it was still a struggle. Eventually he'd had an insight: What if he could control the infusion of gamma radiation into his body? Would it be possible to decide how much of a Hulk he wanted to be?\nThe question had led to a series of experiments, and now Bruce thought he was on the verge of a real working prototype of a device that could absorb, contain, and channel gamma radiation.\nIf so, it would be life-changing. (truncated due to length)",
+        "status": null
+      },
+      {
+        "title": "Eloquent Banner",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Evolving Banner",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Hulk was released as the 2nd character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 2 new costumes: Mighty G-Bomb and Green Scar.",
+          "Added the Smart Is New Smash achievement.",
+          "Added to the Gamma Charge Team-Up Ability with Iron Man and Doctor Strange and the Fastball Special Team-Up Ability with Wolverine."
+        ]
+      },
+      {
+        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
+        "changes": [
+          "The countdown for Hulk and Magik's ultimate transformations is now properly managed. No transformations will go amiss!"
+        ]
+      },
+      {
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "changes": [
+          "Reduce the Indestructible Guard gamma shield value for Hero Hulk from 250 to 200."
+        ]
+      },
+      {
+        "date_version": "25/02/07: Version 20250207",
+        "changes": [
+          "Addressed a costume issue that occasionally occurred with Banner after being revived by Rocket Raccoon's beacon. He's looking sharp and ready to hulk out!"
+        ]
+      },
+      {
+        "date_version": "25/02/14: Version 20250214",
+        "changes": [
+          "Resolved a Team-Up Ability bug where if Hulk was hit by Namor's ultimate when charging to throw Wolverine, he wouldn't be thrown afterward. Now, the power duo can deliver a one-two punch without any interruptions--Hulk smash, Wolverine slash!"
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Resolved a glitch where Hulk couldn't be detected by vehicles or mission areas during his transformation back to Bruce Banner. The big guy's identity shift is now seamless!"
+        ]
+      },
+      {
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "changes": [
+          "Reduce Hulk's Team-Up Anchor health bonus from 150 to 100."
+        ]
+      },
+      {
+        "date_version": "25/02/28:",
+        "changes": [
+          "Added 1 new costume: Punk Rage."
+        ]
+      },
+      {
+        "date_version": "25/03/27: Version 20250327",
+        "changes": [
+          "Resolved an issue where the Hulk could sometimes have abnormal behavior after being catapulted into a terrain KO by Wolverine's Feral Leap. Now, the big guy gets the proper beatdown without any off-script environmental stunts!"
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Increase base movement speed from 600 to 650.",
+          "Reduce cooldown time for Indestructible Guard from 12 seconds to 10 seconds.",
+          "Decrease minimum charge time for Incredible Leap from 0.7 seconds to 0.5 seconds.",
+          "Added 1 new costume: Joe Fixit."
+        ]
+      },
+      {
+        "date_version": "25/04/15: Version 20250415",
+        "changes": [
+          "Resolved a rare model display issue that could sometimes occur when Bruce Banner transformed in terrain kill zones. Now, when the good doctor gets angry, he won't just smash; he'll do it with style--HULK SMASH, without the visual chaos!"
+        ]
+      }
+    ],
+    "official_quote": "Brilliant scientist Dr. Bruce Banner has finally found a way to coexist with his monstrous alter ego, the Hulk. By accumulating gamma energy over multiple transformations, he can become a wise and strong Hero Hulk or a fierce and destructive Monster Hulk – a true force of fury on the battlefield!",
+    "official_description": "Bruce Banner, also known by his alter ego, the Hulk, is a Vanguard hero in Marvel Rivals, and is the 2nd hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with, Iron Man, Namor, Wolverine and The Thing."
+  },
+  "background": {
+    "real_name": "Dr. Robert Bruce Banner",
+    "aliases": [
+      "The Incredible Hulk",
+      "Big Guy",
+      "Taciturn Terror"
+    ],
+    "birthplace": "Dayton, Ohio",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Brown (Bruce Banner)\nGreen (Hulk)",
+    "hair_color": "Brown (Bruce Banner)\nBlack (Hulk)",
+    "relatives": [
+      "Brian Banner (father)"
+    ],
+    "affiliation": [
+      "Avengers"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Superhuman physical strength, stamina, durability, jumping ability, and regeneration granted by his Hulk transformation",
+      "Enhancements to physical strength according to emotional state, namely stress or rage",
+      "Gamma energy emission and manipulation"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Hulk%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "A",
+    "win_rate": "52.89%",
+    "wr_change": "+1.34%",
+    "pick_rate": "12.95%",
+    "pr_change": "+2.02%",
+    "ban_rate": "32.29%",
+    "matches": "193,240"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

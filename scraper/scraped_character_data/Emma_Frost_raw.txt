@@ -1,0 +1,446 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Emma_Frost =====
+
+Stub
+This article is a
+stub
+. You can help Marvel Rivals Wiki by
+expanding it
+.
+Emma Frost
+"The higher the pressure, the more dazzling the diamond."
+Real Name
+Emma Grace Frost
+Aliases
+White Queen
+Biographical Information
+Birthplace
+Boston, Massachusetts
+Gender
+Female
+Eye color
+Blue
+Hair color
+Blond
+Relatives
+Stepford Cuckoos
+(daughters)
+Tony Stark
+(alt. husband)
+Powers/Skills
+High-level telepathy
+Psionics
+Mind Control
+Memory Manipulation
+Diamond form transformation granting enhanced strength, stamina, durability and resistance to extreme temperatures.
+Signature
+Status Information
+Role
+Vanguard
+Health
+650
+Difficulty
+Affiliation
+X-Men
+Illuminati
+Hellfire Club
+(formerly)
+Portrayal
+Voice Actor
+Laura Post
+Character Video
+For Emma Frost, war is the purest form of art. With her formidable telepathic abilities, she intricately weaves a deadly mental web that ensnares her foes, while her indestructible diamond form lets her lead her teammates fearlessly into the fray. Forever elegant and composed, Emma reigns as the one true queen of the battlefield!
+Official description
+Emma Frost
+is a Vanguard
+hero
+for
+Marvel Rivals
+,
+and is the 38th hero introduced to the game's roster during
+Season 2: Hellfire Gala
+.
+[
+1
+]
+She has team-up abilities that work in conjunction with
+Magneto
+and
+Psylocke
+.
+Overview
+Strengths
+A striking mid-range vanguard with abilities that can give opportunities to deal significant damage as well as being able to transform into a resistant diamond form that offers stronger close range attacks towards enemies.
+Her primary fire, Telepathic Pulse, is a mid-range beam that deals damage up to 15m. It is a continuous beam of damage that also can deal more damage the more damage dealt with it.
+Telepathic Pulse has a meter that rises when dealing damage, the higher the number the higher the damage and when maxxed out to 100 it deals significant damage.
+Telepathic Pulse has a max usage of 70 ammo but Emma can use this ability for a significant duration before needing to regenerate this attack.
+Her secondary fire, Mind's Aegis, creates a diamond shield in front of Emma and the longer it's held down the more distance the shield can be placed at.
+Mind's Aegis has 500 health and has infinite duration until destroyed or reclaimed.
+Mind's Aegis can be placed at a long distance and thus can be used to defend allies further ahead or be used to block damage coming from a doorway or entrance.
+Mind's Aegis shield is stationary once placed and can also be recalled similar to
+Invisible Woman's
+Guardian Shield ability.
+This shield can block Ultimates such as
+Iron Man's
+Invincible Pulse Cannon and
+Hela's
+blast shots from Goddess of Death.
+Psychic Spear is an ability that allows Emma to shoot a psionic projectile that, once hitting an enemy, creates a crystal formation of the enemy's sentience that projects forward towards Emma. The damage dealt to this formation reflects onto the enemy.
+When the crystal sentience of the enemy is destroyed before it disappears will deal significant damage to the enemy.
+Telepathic Pulse can pierce through the crystal sentience allowing for Emma to deal double damage if the enemy and the crystal sentience are in the same line of fire of her beam.
+Diamond Form is an ability Emma can use to transform her body into diamond which disables her access to her psychic abilities, however, granting her access to strong counter abilities and passives. Diamond Form lasts for 8 seconds.
+In Diamond Form, Emma's primary fire is replaced with Faceted Fury a strong melee attack.
+In Diamond Form, Emma can use Carbon Crush allowing her to dash forward a certain distance and when connected to an enemy she will grab them by the throat and slam them down behind her while dealing damage, turning herself around in the process.
+Carbon Crush stuns enemies and can be used to cancel enemy Ultimates during their start up.
+Carbon Crush allows Emma to dash into the sky and can grapple enemies above if they're within range.
+In Diamond Form, Emma can use Crystal Kick allowing her to knockback an enemy a certain distance away dealing lots of damage.
+If an enemy is hit with the Crystal Kick into a wall or solid surface, they will recieve extra damage hitting the wall.
+In Diamond Form, Emma has strong resistence to all forms of damage, allowing her to survive
+Scarlet Witch's
+Reality Erasure.
+In Diamond Form, Emma is also immune from displacements such as stuns, knockbacks, and
+Jeff the Land Shark's
+Ultimate It's Jeff!.
+Her Ultimate, Psionic Seduction, Emma can project a large cone of psionic waves that deal damage overtime. The longer enemies remain within this psionic wave they will be able to be mind controlled, this is indicated by a diamond meter above each enemy's head.
+When mind controlled via Psionic Seduction, enemies don't have access to their movement and will instead be lured towards Emma until they die or the ultimate ends.
+When mind controlled via Psionic Seduction, enemies within their Ultimate can have their Ultimate cancelled.
+Weaknesses
+Her main attack Telepathic Pulse has a limited range of 15m which requires her to be mid-range to deal damage against enemies.
+Diamond Form also has no ranged attacks so whenever players utilize this form it is advised to do it when in melee range., unless they're within range of her Carbon Crush ability.
+Diamond Form's abilities have  cooldowns allowing only one or two uses of Carbon Crush and Crystal Kick each within this form.
+While Diamond Form grants Emma strong resistence, she still takes damage and can be killed within this state. Emma is still susceptible to be killed by Iron Man's Invincible Pulse Cannon.
+Due to Emma not having any abilities that allow her to move faster outside her Carbon Crush within Diamond Form, she does not have fast mobility and thus can be easily overwhelmed if being chased or surrounded by enemies.
+Because Mind's Aegis has a shield health of 500, if deployed this shield can be immediately destroyed when facing against significant damage and line of fire from multiple enemies.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+EMMA FROST
+Default
+Blue Sapphire
+RARE
+Golden Diamond
+RARE
+X-Revolution
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Emma Frost
+Blue Sapphire
+Season 2
+X-Revolution
+Uncanny X-Men
+(2013) #1
+See
+:
+List of MVP Animations
+DEFAULT
+Emma Frost
+Progress Under Pressure
+X-Revolution
+01
+EMOTES
+DEFAULT
+To Me, My X-Men!
+BRAIN BLAST
+Minor Detail
+See
+:
+List of Sprays
+Emma Frost
+X (Emma Frost)
+Emma Frost Emblem
+X-Revolution
+See
+:
+List of Nameplates
+Emma Frost
+X-Revolution
+Abilities
+Psionics
+Diamond Form
+Normal Attack
+TELEPATHIC PULSE
+Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage.
+CASTING
+-  Channeled
+AMMO
+- 70
+DAMAGE
+- Damage increases with energy: 0 - 70/s, 99 - 120/s, full energy - 150/s
+ATTACK RANGE
+- 15m
+AMMO CONSUMPTION
+- 10/s
+SPECIAL EFFECT
+⚬ Energy gain: Hero hit: 10/s; Sentience hit: 15/s; Common summons hit: 5/s; Shield hit: 10/s. Falloff begins 3s after not hitting an enemy, at a rate of 30/s
+Abilities
+Q
+PSIONIC SEDUCTION
+Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost.
+CASTING
+- Large-ranged Persistent Spell Field
+DURATION
+- 6s
+RANGE
+- Cone shape spell field, angle range: 80°, length: 30m
+DAMAGE
+- Basic damage 80/s; distance falloff: falloff begins at 10m, decreasing to 50% at 30m; angle falloff: falloff begins at 7° from the center of view, decreasing to 80% at 20°
+ENERGY COST
+- 3700
+SPECIAL EFFECT
+⚬ When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation
+SHIFT
+DIAMOND FORM
+Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable.
+CASTING
+- Switch Form
+DURATION
+- 8s
+SPECIAL EFFECT
+⚬ 30% Damage Reduction in Diamond form
+E
+PSYCHIC SPEAR
+Seize control of an enemy's sentience - damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner.
+CASTING
+- Single-cast delayed projectile
+PROJECTILE SPEED
+- 80m/s
+MAXIMUM DISTANCE
+- 24m
+SENTIENCE HEALTH
+- Target's 25% Maximum Health
+DAMAGE
+- Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health
+SPECIAL EFFECT
+⚬ When the distance between the target and its sentience is more than 15m, their linkage can be broken
+MIND'S AEGIS
+Create a levitating barrier at the designated location.
+CASTING
+- Deployable Shield
+MAXIMUM SHIELD VALUE
+- 500
+RECOVERY SPEED
+- 70/s
+DELAYED RECOVERY AFTER RELEASE
+- 2s
+REPOSITION COOLDOWN
+- 3s
+COOLDOWN AFTER DESTROYED
+- 4s
+Team-Up Abilities
+PASSIVE
+MIND LINK
+Emma Frost can form a mental link with
+Magneto
+and
+Psylocke
+, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting ability on its own.
+TEAM-UP BONUS
+- +100 Max Health
+Normal Attack
+FACETED FURY
+In
+Diamond Form
+, deliver a crushing double-fisted strike to enemies.
+CASTING
+- Single-cast Spell Field
+DAMAGE
+- First & second hit: 50; third hit: 70; fourth hit: 80
+ATTACK RANGE
+- 4m
+Abilities
+E
+CARBON CRUSH
+In
+Diamond Form
+, lunge forward to grab an enemy, then execute a back slam to inflict damage.
+CASTING
+- Dash Based Control
+DAMAGE
+- 30
+MAXIMUM DISTANCE
+- 7m
+COOLDOWN
+- 5s
+SPECIAL EFFECT
+⚬ Control effect duration: 1.6s
+CRYSTAL KICK
+In
+Diamond Form
+, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall.
+CASTING
+- Single-cast Spell Field
+HIT RANGE
+- 5m
+DAMAGE
+- Hit damage: 50; damage increases to 100 when the target is knocked into walls
+COOLDOWN
+- 2s
+SPECIAL EFFECT
+⚬ Maximum knockback distance: 10m
+Team-Up Abilities
+PASSIVE
+MIND LINK
+Emma Frost can form a mental link with
+Magneto
+and
+Psylocke
+, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting ability on its own.
+TEAM-UP BONUS
+- +100 Max Health
+Strategy
+To be added
+Lore
+"I'm as flawless as they come, darling."
+Emma Frost is a wealthy socialite, a fashion icon, and a powerful telepath. Though she once used her Mutant abilities to influence others for her own personal, she now devotes her talents to Charles Xavier's dream of coexistence between Mutants and mankind.
+After Krakoa was transported to the year 2099 through a temporal storm, Emma and her Hellfire Trading Company defended the island nation against multiple hostile corporations. She then convinced the Quiet Council to approve a Hellfire Gala to chart her people's future in  this new timeline.
+—
+Biography
+Hero Story
+"Follow my lead. Or don't. I really don't care."
+Forged in Hellfire
+The Grove. Up until recently, this secluded location deep in the heart of the living island known as Krakoa had regularly been filled with the chatter of Mutant leaders heatedly debating the future of their nation and their people. But when the Timestream Entanglement ripped Krakoa from its original timeline and displaced it into the far future, many of Mutantkind’s most prominent voices ended up scattered across the ages. The hush that fell over the Grove in the days that followed was thicker than the island’s humid tropical air. But as the Mutants who still called Krakoa their home had come to learn so many times before, nothing lasts forever...
+”The Quiet Council of Krakoa now summons forth the White Queen of the Hellfire Trading Company,”
+Magneto’s
+powerful voice boomed, cutting through the silence of the Grove like a sword.
+”And so begins the trial of Emma Frost...” the White Queen sighed, stepping forward out of the shadows. Her diamond skin glistened through the countless strategically-placed openings in her fashionable ensemble.
+”No need for drama, Emma”
+Storm
+said, taking her seat at the Quiet Council’s Table of Summer. “You know full well that we have gathered here tonight on your behest to consider your proposal.”
+”And what an impressive turn out...” Emma mused sarcastically, looking at the empty seats in front of her.
+Where once there had been twelve members of the Quiet Council, now only three remained. Storm, Magneto, and Emma herself. And while Emma was convinced that her idea was truly a brilliant one, this time her vote would not be counted. She would have to convince the other two members of the Quiet Council to side with her, and she knew far better than to use her natural-born telepathic abilities in an effort to sway their opinions.
+Luckily, for Emma Frost, persuasion was an art form. Long before she became a crusader for Mutant rights, she had used her skills of seduction and negotiation to rise through the ranks of the Hellfire Club, making her one of the wealthiest and most powerful women in the world. She had learned through experience that there was always a way to get what she wanted. And this night would be no different.
+”As you know, the Hellfire Gala-“ Emma began, before being abruptly cut off by Magneto.
+”-is a waste of time,” the Master of Magnetism finished. “Krakoa is in crisis, Ms. Frost. We have been transported across time and space to an unfamiliar era that seems keen on reminding Mutantkind of just how unwelcome we are in the world of man. We have lost so many of our brethren, tossed to the corners of unknown realities. And yet, you wish to spend our resources to throw one of your garish parties? I think not.”
+“First,” Emma replied, choosing her words carefully as she responded to Mutantkind’s current leader, “my parties are anything but garish, darling. They are the height of extravagance.”
+Emma wasn’t lying. Ever since she first revived the historic Hellfire Gala as an annual event on Krakoa, this no-expenses-sparred celebration had become the hottest ticket on the planet. From super heroes to political heavyweights, if you didn’t make it onto the guest list, then you simply weren’t living up to your full potential. Emma had curated every aspect of past galas - from the food to the fashion - but the plans for her next event had been put on pause after Kraków’s unexpected change of address in space-time. Now was her chance to change that.
+”Second,” she continued, “the Gala is our opportunity to show this new world that Mutants are here an we aren’t going anywhere. A debut ball, of sorts.”
+”I believe
+Wolverine
+has already made everyone well aware of our presence,” Magneto said, the frustration in his voice quite evident.
+”Logan was just doing what he thought was right,” Storm interjected. “He meant no harm.”
+”But Magneto is correct,” Emma admitted. “When Wolverine decided to ally himself with the human Resistance, he got caught up in a series of events that cast all eyes on Krakoa in a less-than favorable way. His little stunt at Alchemax may have saved Captain America’s life, but it branded Logan an outlaw according to the Public Eye and made him an enemy of both Doom and the Mega-Corps that control all aspects of this society. And though they were the actions of just one Mutant, all of our reputations were damaged in the process.”
+”That’s a bit harsh...” Storm responded, desperate to defend one of her closest allies in the eyes of the Council, “...but you’re not wrong. What Logan did was reckless.”
+”Reckless, perhaps,” Emma agreed, “but even the most ill-advised strategies often open up unexpected pathways to victory,”
+”Alchemax has launched countless lawsuits against Krakoa and has imposed unprecedented sanctions,” Magneto argued. “Tell me woman... how does that lead to a victory?”
+”We have something that Alchemax does not,” Emma replied. “Medicines that actually work. As you both know, our Flowers of Krakoa have been proven to work miracles in fighting both human and Mutant diseases. They yield ten times the results of Alchemax’s best performing medications, with none of the nasty side effects. And now, the entire world has full access to them. Just take a look at the report in front of you...”
+”It says here that the Hellfire Trading Company has just signed independent deals with over seventy nations to distribute our biopharmaceuticals ,” Storm said, shocked about what she was reading.
+”And that number will only grow once word gets out about how safe and effective the Flowers of Krakoa actually are,” Emma responded.
+”You’ve directly targeted a sector that accounts for sixty percent of Alchemax’s business,” Magneto said, his temper beginning to flare. “That’s akin to declaring war!”
+”History has proven that this is the kind of war I always win,” Emma responded. “As a result of my deals, Alchemax’s stock has plummeted. Their board has already dropped dozens of lawsuits, and the sanctions won’t be far behind.”
+”The humans will not sit idly by and watch Mutantkind steal away their fortunes,” Magneto warned.
+”Oh, I am well aware of that fact,” Emma laughed. “Alchemax has already hired in outside forces to sabotage our efforts. At the best, they hope to sink our Hellfire Trading Company ships and destroy our precious cargo. At worst, they’re willing to contaminate the waterways and blame Krakoa for the ecological upheaval. But they won’t achieve either of those outcomes.”
+”How can you be so certain of that?” Storm asked.
+”Because I have been on-board the Marauder every time she set sail with a shipment,” Emma said, “and I have fought of their pathetic attempts myself. As it turns out, the mercenaries in this day and age aren’t built nearly as sturdy as they used to be. Physically or mentally. And when I read their minds and discovered that their services were subcontracted through the Public Eye - this era’s all-seeing, all-knowing police force - well, you can only imagine the amount of blackmail material that I suddenly had on our would-be oppressors. I doubt they’ll be making any more moves against us in the foreseeable future.”
+”I’ll admit, Emma...” Storm said, “...I’m impressed. You’ve consistently been a step ahead of those attempting to oppose us.”
+”Then let me be a step ahead of those who would be willing to support us as well,” Emma replied. “The Hellfire Gala is more than just a chance to reward our existing partners with a lavish evening of dancing and dining. It’s a much-needed opportunity to forge new strategic alliances that could strengthen Kraków’s place in this world. This may be our best chance to claim our seat at the table.”
+”And yet,” Magneto said, looking at the vacant chairs in the Quiet Council chamber, “we can barely fill our own...”
+”The Hellfire Gala could change that as well,” Emma insisted. “Raising Krakoa’s visibility, making our island part of the conversation in the world beyond its shores, could serve as a beacon to help bring our missing people back home!”
+”But it could also lead more dangerous factions directly to us as well,” Magneto argued.
+”It certainly could,” Emma admitted. “But with every hero from across reality gathered here for the festivities, I have a feeling we will be able to take on anyone foolish enough to crash the party.”
+”You have never done things in the most orthodox of ways, Emma,” Storm said, “but you have always had the best interests of Mutantkind at heart. If you truly believe another Hellfire Gala could make a difference for our people, I will take you at your word. You have earned my vote.”
+”Then it seems the future of Mutantkind lies in your hands Magneto,” Emma said with a playful smile, “as it  has so often before.”
+”Clearly, I have my reservations, Ms. Frost,” Magneto said, “but your actions thus far have proven that you are ready and willing to face any challenges that may arise. You have the blessing of this Council to proceed with your Gala. Do not make me regret my vote.”
+With that, Magneto and Storm stood and exited the Grove, leaving Emma behind to quietly celebrate her victory. She sat in her chair at the table of Winte- reserved for those members of the Quiet Council with more radical ideologies- and kicked her white, leather, platform-heeled boots onto the table as she leaned back and reveled in the moment. But she knew she didn’t have long to savor the moment. There were so many plans to be made!
+Before Emma departed from the Grove, she heard a sound inside her head - a deep rumbling voice called to her in an unintelligible language. She turned back to gaze upon the giant face of Krakoa itself, which had manifested on the giant tree at the center of the Quiet Council chamber. Emma walked over and put a gentle hand on the tree’s surface.
+”Don’t worry dear,” she said, “I haven’t forgotten about you. I know you’ve been suffering since your trip through the timestream... but if all goes as planned, your pain will come to an end soon enough. I know the perfect person to help you. A very special Doctor. But let’s just keep that fact between you and me for the moment...”
+As Emma Frost began to walk away, she turned back and held an index finger to her lips, signaling for Krakoa to remain silent.
+”...because if the Quiet Council knew our little secret, they would never have voted yes.”
+New Marauders
+(Coming soon. Stay Tuned!)
+Goblin and Cuckoos
+(Coming soon. Stay Tuned!)
+Achievements
+To be added
+Quotes
+See:
+Emma Frost/Quotes
+Balance Changes
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Emma Frost
+was released as the 38th character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 2 new costumes:
+Blue Sapphire
+and
+X-Revolution
+.
+Added to the
+Mental Projection
+Team-Up Ability
+with
+Magneto
+and
+Psylocke
+.
+25/04/25:
+Version 20250425
+/
+Giant-Size Brain Blast
+Event
+Fixed a glitch in
+Diamond Form
+where her
+Carbon Crush
+would sometimes catapult foes underground—or even off the map! Now, when
+Emma
+dazzles, every move lands as sharp as a perfectly cut gem!
+Gallery
+Emma Frost- The White Queen - Character Reveal - Marvel Rivals
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+Emma Frost in the Season 2: Hellfire Gala Official Trailer.
+Trivia
+Emma Frost was datamined from multiple sources around December 2024, along with 15 other characters, including
+Angela
+,
+Blade
+,
+Captain Marvel
+,
+Deadpool
+,
+Hit-Monkey
+,
+Human Torch
+,
+Invisible Woman
+,
+Mister Fantastic
+,
+M.O.D.O.K.
+,
+Phoenix
+,
+The Hood
+,
+The Thing
+,
+Ultron
+, and
+Valkyrie
+.
+[
+2
+]
+References
+↑
+https://x.com/MarvelRivals/status/1907803728595276265/quotes
+↑
+All Marvel Rivals Leaks: All 15 Characters, 5 Maps, Team-Ups, Game Modes, And More
+. The Game Post (December 31, 2024).
+Navigation

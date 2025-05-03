@@ -1,0 +1,903 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Captain_America =====
+
+Captain America
+"Freedom's an idea that will never die."
+Real Name
+Steven Grant "Steve" Rogers
+Aliases
+Cap
+The First Avenger
+The Man Out of Time
+Biographical Information
+Birthdate
+1910s-1920s
+Birthplace
+Manhattan, New York
+Gender
+Male
+Eye color
+Blue
+Hair color
+Blond
+Relatives
+Joseph Rogers
+(father; deceased)
+Sarah Rogers
+(Mother; deceased)
+Ian Rogers
+(adopted son)
+Powers/Skills
+Enhanced physical strength, agility, stamina, and endurance via the Super Soldier Serum
+Skilled hand-to-hand combatant
+Indestructible, magnetic Vibranium shield
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Vanguard
+Health
+675
+Difficulty
+Affiliation
+Avengers
+Portrayal
+Voice Actor
+Brian Bloom
+Enhanced by the Super-Soldier Serum, Steven Rogers uses his Vibranium shield and extensive combat training to confront any threat to justice. When Captain America rallies his troops, a wave of courage sweeps across the battlefield!
+Official description
+Captain America
+is a Vanguard
+hero
+in
+Marvel Rivals
+, and is the 25th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Winter Soldier
+.
+Overview
+[
+]
+Strengths
+[
+]
+A sturdy and mobile diver that can storm the battlefield, specialized in hit & run tactics and capable of shielding himself to protect his allies.
+His primary fire, Sentinel Strike, which can launch his shield every two punches landed.
+This allows Captain America to keep enemies under constant pressure.
+His secondary fire, Living Legend, allows Captain America to block oncoming strikes and projectiles while moving at a slightly slower speed.
+Projectiles can be deflected at 50% damage, including Ultimates, such as
+Iron Man
+'s Invincible Pulse Cannon.
+The shield is able to deflect the enemy team's
+Jeff the Land Shark
+'s Healing Bubbles if they're shot directly at Captain America, which allows them to be picked by him and his allies instead.
+The shield can completely block certain area-of-effect Ultimates, such as
+Namor
+'s Horn of Proteus, if the player aims the shield directly down.
+Vibranium Energy Saw allows him to manually throw his shield, which can ricochet at enemies close to each other, capable of disrupting abilities if timed appropriately.
+In addition to Sentinel Strike's shield throw, this allows Captain America to effectively harass the enemy backline.
+Leading Dash grants him 33% increased movement speed and access to a higher jump called Fearless Leap.
+When jumping with Leading Dash active, Captain gains access to Super-Soldier Slam, a diving attack that knocks enemies up.
+Liberty Rush is a dashing charge with his shield that deals damage and also allows him to quickly reposition in the battlefield.
+His Ultimate, Freedom Charge, grants bonus health and an additional 30% movement speed to Captain America and all nearby allies, making him very resilient and hard to take down.
+Using Living Legend or Leading Dash while this ability is active can knock enemies upwards.
+Weaknesses
+[
+]
+Living Legend has a 1 second cooldown after the player pulls the shield down, which can interrupt the flow of his combat a bit.
+Struggles to block large barrages of ranged damage due to the smaller size of his shield compared to the likes of
+Doctor Strange
+'s Shield of the Seraphim and
+Magneto
+'s Metallic Curtain.
+His shield cannot block splash damage, such as
+Iron Man
+'s Repulsor Blast and
+Jeff the Land Shark
+'s Aqua Burst. He can, however, deflect those moves if they're aimed directly at him.
+The player has no control of where deflected projectiles will ricochet to.
+Abilities
+[
+]
+Normal Attack
+SENTINEL STRIKE
+Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times.
+CASTING -
+Change Form
+DAMAGE -
+40 (Melee) - 45 (Flying Shield)
+CHARGES -
+4
+INTERVAL -
+Melee 1st Hit: 0.4s, Melee 2nd Hit: 0.5s
+Flying Shield 1st Hit: 0.5s, Flying Shield 2nd Hit: 0.57s
+RANGE -
+4m (Melee) - 25m (Flying Shield)
+PROJECTILE SPEED -
+60m/s
+SPECIAL EFFECT
+⚬ Automatically target enemies near the crosshair
+Abilities
+Q
+FREEDOM CHARGE
+Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Using
+Living Legend
+or
+Leading Dash
+while this ability is active can Launch Up enemies.
+CASTING -
+Activation
+DURATION -
+10s (spell field) - 5s (spell area)
+RANGE -
+A spherical spell field with a 4m radius enveloping the caster, and a spell area with a width of 4m along the path
+HEALTH RECOVERY -
+Cast to gain 150 Bonus Health and grant allies 100 Bonus Health. Every second afterward, gain 100 Bonus Health and grant allies 60 Bonus Health
+MOVEMENT BOOST -
+Grant a 30% Movement Boost to both yourself and your allies
+ENERGY COST -
+3100
+SHIFT
+LEADING DASH
+Boost speed and enable
+Fearless Leap
+to leap into the air.
+CASTING -
+Channeled
+MOVEMENT BOOST -
+33.40%
+FEARLESS LEAP HEIGHT -
+5m
+E
+VIBRANIUM ENERGY SAW
+Hurl the energy-charged shield to strike enemies in a path.
+CASTING -
+Single-cast projectile that can ricochet
+DAMAGE -
+Start at 70, with a 20% reduction for each ricochet
+COOLDOWN -
+8s
+MAXIMUM DISTANCE -
+25m
+PROJECTILE SPEED -
+60m/s
+NUMBER OF RICOCHETS -
+3
+F
+LIBERTY RUSH
+Raise the shield and charge forward.
+CASTING -
+Single-cast forward dash
+DAMAGE -
+30
+COOLDOWN -
+10s
+DASH DISTANCE -
+12m
+SUPER-SOLDIER SLAM
+Slam down from the sky onto the targeted area, Launching Up enemies.
+CASTING -
+Targeted
+DAMAGE -
+30
+COOLDOWN -
+12s
+MAXIMUM DISTANCE -
+20m (horizontal)
+LIVING LEGEND
+Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions.
+CASTING -
+Channeled
+COOLDOWN -
+1s - 5s (if destroyed)
+DAMAGE FALLOFF -
+50%
+MAXIMUM SHIELD VALUE -
+400
+RECOVERY SHIELD VALUE -
+50/s
+DELAYED RECOVERY AFTER RELEASE -
+2s
+Team-Up Abilities
+PASSIVE
+CAPTAIN'S SPIRIT
+Inspired by Captain America's resolve,
+Winter Soldier
+can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies
+TEAM-UP BONUS -
++100 Max Health and 5% Damage Boost
+Strategy
+[
+]
+To be added
+Lore
+[
+]
+"I fight for more than a flag, I fight for an idea. One bigger than all of us."
+In hopes of serving his country during World War II, young Steve Rogers volunteered for an experiment that enhanced his strength, speed, and agility, making him America's first super soldier. As Captain America, he proudly fought enemy forces until he became frozen in ice and lost to the ages.'
+Discovered and unthawed in the 2080s, Captain America began battling the threats of tomorrow — including Doom 2099 — until he was displaced into the present by the Timestream Entanglement. Now, he fights alongside the Avengers to prevent the desperate future in which he awoke.
+—
+Biography
+Hero Story
+[
+]
+"Almost everyone knows what's right. Not everyone does it."
+Battlefield Surgery
+[
+]
+Steve Rogers was a man out of time. A man out of space. And, perhaps for the first time ever, a man out of his depth.
+What he had experienced over these last few weeks had made the epic adventures he'd lived through during World War II seem normal and mundane. Steve stood on a balcony, gazing out over the spaceport of the futuristic city in front of him, wondering why the universe had chosen to bring him back here and now after so many years away. He didn't know the answer yet, but he knew deep down there had to be a reason. There always was.
+"A penny for your thoughts, old man?" a voice said, approaching from behind. Steve turned to see Clint Barton, the archer known as
+Hawkeye
+, joining him.
+Steve gazed past Clint and caught a glimpse of his old partner,
+James "Bucky" Barnes
+, lying deathly still inside of a high-tech medical scanner as scientists and physicians tended to his wounds. It was clear that Bucky was no longer the plucky teen sidekick who had never strayed from Captain America's side during the war. He had grown into his own man... but far more than that. He was now a skilled assassin with a cybernetic arm and a tortured past, developments Steve had missed while he was frozen inside a chunk of ice for the last century or so. During that time, Bucky had become the Winter Soldier, and Steve wasn't sure just how much of the boy he once knew still remained. Especially after what
+Hydra
+had just done to him...
+"Just thinking about how much has changed," Steve replied.
+"I hear ya," Clint agreed. "Speaking of which... When are you finally gonna tell me why you brought us to this crazy interstellar version of Wakanda? Or, you know, how you're still alive? Because, as far as I can remember, Captain America fell in the line of duty..."
+"Now's as good a time as any, I suppose," Steve said, realizing that this was the first real downtime he'd had since he'd brought Clint and Bucky into his strange new world. Steve took a deep breath before he began to tell his tale.
+He started by regaling Clint with the story of his final mission during the war, when the plane he was on crashed into the Arctic Ocean. As the plane filled with water, he could feel his muscles freezing, his heartbeat slowing, his vision blurring to white. And then... nothing... for what seemed like an eternity. He didn't know if he was alive or dead until he found himself trapped inside of a glass tube, freshly thawed out of a chunk of ice by a beautiful redhead with the slightest hint of a Russian accent.
+"
+Natasha
+?!" Clint exclaimed.
+Steve could tell by his new friend's reaction that he had history with this mystery woman. He wanted to ask Clint who she was, how he knew her, why she would have rescued him, and where she could be found now. But those questions would have to wait until after his story was done.
+Steve continued, telling how he and Natasha had escaped from the Alchemax lab together, only to be caught in a massive explosion before they could reach safety. Steve protected Natasha from the detonation, but quickly realized that his continued presence would only put a target on her head. So he decided to disappear.
+With the help of a tough-as-nails Resistance soldier named
+Logan
+, Steve found his way to the embassy of a nation whose king he had befriended during the war.  If anyone could provide him a safe haven until he got his bearings, he imagined it would be the isolationist African nation of Wakanda. But when Steve and Logan arrived at the Wakandan Embassy, it looked as though it had been abandoned for years. All that remained were the silent statues of former Black Panthers guarding their nation's proud legacy.
+Examining the statue of Bashenga - the first Black Panther - Steve took note of the inscription on its base: Since the birth of this nation, our people have reached for the stars. At last, we have found them.
+Steve didn't know what that meant, but he would find out when Logan activated the high-tech Kimoyo bead given to them by their Resistance allies. A strange portal opened up next to the sculpture of Bashenga, and Steve stepped through. In the blink of an eye, he arrived on the other side of the universe, finding himself in a city so advanced that it seemed like something straight from one of those science-fiction serials the boys at Camp Lehigh loved to watch on their nights off. This was the
+Intergalactic Empire of Wakanda
+. And its monarch was waiting for him.
+King T'Challa
+and his sister
+Shuri
+welcomed Steve with open arms, offering him a safe place to stay and full access to their technology. T'Challa shared stories that his father had passed down to him about his trusted ally in star-spangled armor. Shuri even crafted a new shield forged from Vibranium alloy, just like the one Steve had carried during the war. With a few perks of course.
+As Steve searched for more answers about this new world - a world where it was no longer 1945, but instead, the year 2099 - what he found was more unsettling than he had originally realized. The future he had awoken in was just one of many - an endless collection of possible timelines that were currently in the process of collapsing on each other due to a phenomenon known as the Timestream Entanglement.
+T'Challa and Shuri had already reached out to scientists and heroes from other realities in hopes of finding a way to repair the timelines, but the process was beginning to lead to conflicts between groups with disparate goals and methods. T'Challa knew that the time would eventually come where the heroes would have to confront not only the darkness that loomed on the horizon, but perhaps each other as well. And so he asked Steve a favor: To gather the very best soldiers from across time and space and bring them into their fold. When Steve agreed, there was no doubt whose name would be first on his list.
+"And I'm flattered, Cap," Clint said with his trademark smirk. "Really."
+"It was Bucky I was after," Steve admitted, missing Clint's sarcasm, "but I'm not complaining that you happened to come along for the ride. He says you're one of the good ones."
+Truthfully, Clint couldn't even dream of being insulted that he wasn't Cap's first pick. After all, this clearly wasn't the same version of Steve Rogers that he'd served alongside on the Avengers for so many years. That Steve had died trying to save the world. The Steve in front of him now didn't even know that Hawkeye existed until a few days ago, when he jumped through time and space to save Clint and Bucky from certain death in the depths of a crumbling Hydra base before bringing them back to this bizarre future.
+"You know who else is one of the good ones?" Hawkeye asked, growing a bit weary of the history lesson. "Nat, If she's still around in this weird world of yours, we probably ought to track her down. I'm sure Bucky would tell you the same if he wasn't currently out cold..."
+As if on cue, Steve and Clint heard a commotion behind them. They turned to see Bucky, who was now standing next to the mad-station that he'd been lying in moments earlier. Wakandan doctors scurried about, not sure how their patient could possibly be on his feet in his condition.
+"Steve..." Bucky said, straining to form words as he leaned against the scanner to steady himself. Something was wrong.
+"What is it, partner?" Steve asked with concern. Even though this wasn't technically the Bucky he had known his whole life, Steve could still see as clear as day that his friend was struggling.
+"Not feeling so good..." Bucky said. "It's like... someone is whispering in my brain..."
+"Oh, no." Clint said. "Some sort of Hydra conditioning?"
+"No... Not Hydra..." Bucky responded, every word dripping with pain. "It's something older... Darker..."
+Steve and Clint glanced over at a nearby statue of Bast, the panther goddess worshipped by the Wakandan people, and realized that its eyes had begun to radiate a deep red.
+"That can't be good," Clint mused.
+"Not at all," Steve agreed.
+As Bucky writhed in pain, his eyes began to glow the same red as the statue's. A cluster of organic tentacles started to rapidly grow from the place where his brand new cybernetic arm met his shoulder. They intertwined with the technology of his artificial limb, seeming to integrate into it as they transformed the arm into something new entirely. Bucky let out a scream as the snake-like limbs extended from the end of the arm and flailed about wildly, striking towards Steve and Clint.
+"I thought I cut those things off!" Clint yelled as he dodged out of the way.
+"It didn't take," Steve said, blocking the whipping appendages with his shield to prevent them from striking a Wakandan scientist. "Innocents are in danger here. Let's take this battle somewhere more open."
+Without another word, Steve and Clint both ran at full speed toward the edge of the balcony and leapt down several floors to the spaceport below. Landing safely, they looked up and saw the Winter Soldier was in hot pursuit, just as they had hoped.
+"We need to get to the palace and alert T'Challa and Shuri," Steve said. "Clint, think you can pilot a Wakandan starship?"
+"I can pilot anything," Clint said with a wide grin. He ran over to one of the Wakandan crafts and leapt into the cockpit with the grace and skill of a circus acrobat. With the flick of a few switches, the ship began to rise into the air. But before it could depart toward the Wakandan palace, it was ensnared by the tentacles extending from Bucky's arm.
+Clint hit the thrusters, but the tentacles held the ship in midair. Bucky didn't even budge, somehow drawing an intense amount of superhuman strength from the dark force possessing him.
+Suddenly, Captain America's shield ricocheted through the spaceport, gaining momentum with each bounce before finally slicing the tentacles in twain and forcing Bucky to release his grip on the ship. As Clint jetted off toward safer skied, Steve heroically leapt up and caught his shield in midair.
+"Snap out of it, Bucky," Steve said as he landed back on the ground, shield at the ready.
+"No," Bucky replied. As he instinctively retracted the wounded tentacles back into his body, they once again seemed to merge with the technology of his cybernetic arm.
+Knowing that there was no other option, Steve raced toward Bucky, ready to face the unexpected threat head on. Bucky matched Steve's sprint and rushed at his former partner, leaping into the air and raising his bionic fist, ready to strike. Steve hoisted his shield, blocking the blow. The impact of Vibranium sent a shockwave through the spaceport that shattered every window in a 100 meter radius.
+The clash that followed felt longer than World War II, at least to Steve. The two soldiers knew each other so well that neither could get a hit in that wasn't instantly blocked and countered. Despite their effort, they were getting nowhere. And while Steve Rogers knew he could do this all day, he wasn't sure how much longer Bucky could survive the dark forced that had taken control of him.
+"Looks like you could use the cavalry, Cap," Clint yelled out as he landed his spacecraft on the nearby launch pad. As he exited the cockpit, Steve realized that his new friend hadn't come alone. With him was Princess Shuri, one of Wakanda's most brilliant scientists and the designer of Bucky's new cybernetic arm.
+"I have good news and bad, Captain," Shuri said, extending her arm to reveal her bracelet made of high-tech Kimoyo beads. As she touched one of the beads, a hologram of Bucky's arm appeared in the air. "The cybernetic limb I created for your friend is made from a number of bleeding-edge materials, including Vibranium, nanotech, and Unstable Molecules.
+"Is that the good news of the bad?" Steve asked, unfamiliar with anything other than Vibranium.
+"It is both," Shuri responded. "These technologies are all extremely adaptable, which may be the reason the limb has so easily accepted the unexpected additions to your friend's physiology."
+"That all sounds like bad news to me," Steve said.
+"Ah, but those technologies also have a memory," Shuri continued. "They work in unison to sync to the host's unique internal energy signature. When that energy becomes corrupted, the limb can be used to recalibrate the internal systems of the person wearing it."
+"in other words, we can restore Bucky to factory settings," Clint added.
+"How do we do that?" asked Steve.
+"The procedure requires a manual reset," Shuri responded. "However, the likelihood that Bucky will allow you to get close enough to perform one seems slim."
+"I don't need to get close," Clint said. "Just keep him busy, Cap, and I'll show you why you made me an Avenger."
+Steve called out to Bucky, getting his partner's full attention. This time, instead of engaging his opponent directly, Steve kept his distance, dodging and weaving along the edge of the spaceport. Bucky frantically lashed out at him, narrowly missing with every strike.
+Meanwhile, Shuri attached a Kimoyo bead to the head of one of Hawkeye's arrows. The bead, programmed with a kill code that would initiate a forced reboot of the arm's operating systems, would have to hit a one millimeter target located on the back of Bucky's shoulder. Clint would only have one shot. Luckily, that's all he ever needed.
+Clint nocked his arrow and watched carefully as Bucky swung at Steve, over and over. He waited patiently until his target was in the perfect position. Then he released the arrow, letting it soar toward Bucky's shoulder - a perfect hit!
+The cybernetic arm instantly shut down and the tentacles, which had been flailing madly, dropped limp to Bucky's side. Bucky staggered for a moment and then fell to his knees. Steve and Clint both raced to their friend's side.
+"Sorry... about that..." Bucky said, regaining his composure. "don't know... what came over me..."
+"Neither do I," Shuri said, joining the trio of heroes, "but I think it would be worth running some tests. I already have some ideas as to how we can get your newfound talents under control and repurpose the strange energy flowing through you..."
+"Great..." Bucky said. "More experiments..."
+"Don't worry, partner," Steve said, leading Bucky toward the spacecraft so that he could be transported back to Shuri's lab. "Whatever this is, you're not going through it alone. Not ever again."
+"I'm glad to have you back, Steve," Bucky said, offering a faint smile as his strength started to return.
+Steve proudly looked at his new allies, the brave soldiers he had gathered. Even after the chaos that had just occured, there still wasn't anyone else he's rather have by his side to face the unexpected challenges ahead.
+"I'm glad to be back," Steve Rogers said. And for the first time since he had awoken in this strange new world, he truly meant it.
+The Free Sentinel
+[
+]
+(Coming soon. Stay Tuned!)
+Ready For War
+[
+]
+(Coming soon. Stay Tuned!)
+Appearance
+[
+]
+A blue helmet with a white "A" on the forehead, which covers the top of his head. The mask leaves his face visible while covering the sides of his head and chin. The upper body is clad in a form-fitting blue suit featuring a large white star in the center of the chest, signifying patriotism. The material appears reinforced, giving it a sleek, armored appearance. His shoulders and upper arms are covered by segmented blue armor plates, providing protection while maintaining flexibility. His arms are muscular and have red gloves that feature glowing elements on the palms, suggesting some advanced or energy-based technology. A utility belt wraps around his waist, with pouches and compartments likely for carrying equipment or tools. He wears tight-fitting dark blue pants with a slightly armored look, emphasizing agility. The thighs and knees have protective padding integrated into the design. Red, armored boots extend up to his calves, matching the gloves. These boots appear durable and practical for combat. The overall color palette includes shades of blue, red, and white, clearly evoking a patriotic theme. On one hand, he’s wearing a glowing gauntlet-like piece that adds a futuristic or high-tech element to his outfit, making it stand out from traditional superhero attire.
+Achievements
+[
+]
+Icon
+Name
+Description
+Like Old Times
+As Captain America, partner with
+Winter Soldier
+to land 1 KO.
+5
+Justice for All!
+As Captain America, land 3 KOs with a single use of Freedom Charge.
+10
+Quotes
+[
+]
+See
+Captain America/Quotes
+Balance Changes
+[
+]
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Captain America
+was released as the 25th character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 3 new costumes:
+Captain A.I.M.erica
+,
+Captain Gladiator
+, and
+Galactic Talon
+(Limited-time store release: 2024/12/06 - 2024/12/27)
+Added the
+Justice For All!
+achievement.
+Added to the
+Voltaic Union
+Team-Up Ability
+with
+Thor
+and
+Storm
+.
+24/12/10:
+Version 20241210
+In certain extreme situations,
+Captain America
+'s Ultimate wouldn't end as intended. This issue has been resolved.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Reduce the delay time for shield restoration after releasing
+Living Legend
+from 3s to 2s.
+Reduce
+Liberty Rush
+cooldown from 12s to 10s.
+Increase base health from 650 to 675.
+Reduce the energy cost for releasing
+Freedom Charge
+from 3400 to 3100.
+Reduce the additional health provided per second to self after releasing
+Freedom Charge
+from 110 to 100.
+25/02/07:
+Version 20250207
+Added 1 new costume:
+Avengers: Infinity War
+.
+25/02/20:
+Corrected an issue where during
+Captain America
+'s ultimate, he couldn't be stunned by
+Spider-Man
+'s ultimate.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+He will be able to shield himself with
+Living Legend
+mid-leap.
+Increase
+Vibranium Energy Saw
+'s projectile speed from 60m/s to 80m/s, with ricochets ramping up from 100m/s to a supercharged 150m/s.
+Reduce the energy cost of
+Freedom Charge
+from 3100 to 2800.
+Enhance
+Captain America
+'s combat experience by separating
+Sentinel Strike
+from melee attacks.
+Captain America
+will be able to use melee attacks while his shield is thrown or during the
+Team-Up Ability
+Charged Aegis
+state to activate the first two hits of
+Sentinel Strike
+. Additionally, while airborne, using melee attacks will no longer trigger the
+Super-Soldier Slam
+ability.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Reduce base health from 675 to 650.
+Reduce the shield value of
+Living Legend
+from 400 to 350.
+Added to the
+Stars Aligned
+Team-Up Ability
+with
+Winter Soldier
+, but removed from the
+Voltaic Union
+Team-Up Ability
+with
+Thor
+and
+Storm
+.
+Added 1 new costume:
+Star Spangled Style
+.
+
+==================== CONTENT FROM: https://rivalstracker.com/heroes ====================
+
+Rivals
+Tracker
+Heroes
+Hero Stats
+Tier List
+Team Comps
+Rank Distribution
+Leaderboard
+Marvel Rivals
+Heroes and Team-Ups List
+Check out the best Marvel Rivals Heroes and team-ups in the current meta in real-time.
+Heroes
+Team-Ups
+Season 0
+Season 1
+Season 1.5
+Season 2
+All Roles
+Vanguard
+Duelist
+Strategist
+Quick Play
+Competitive
+All Ranks
+All Ranks
+Bronze
+Silver
+Gold
+Platinum
+Diamond
+Grandmaster
+Celestial
+Eternity
+One Above All
+Heroes
+Tier
+Win Rate
+WR Change
+Pick Rate
+PR Change
+Ban Rate
+Matches
+Storm
+B
+54.33%
+-1.60%
+4.71%
+-6.21%
+0.38%
+70,125
+Rocket Raccoon
+S
+54.12%
++0.44%
+44.08%
++13.25%
+1.76%
+656,833
+Mister Fantastic
+B
+53.28%
++0.92%
+14.59%
++5.58%
+1.46%
+217,444
+Hulk
+A
+53.12%
++1.57%
+12.76%
++1.83%
+30.51%
+190,102
+Captain America
+B
+52.96%
++2.09%
+13.41%
++3.98%
+2.40%
+199,854
+Iron Man
+B
+52.82%
++3.54%
+13.65%
++4.67%
+0.73%
+203,393
+Magik
+B
+52.75%
+-0.75%
+14.42%
+-0.80%
+2.19%
+214,900
+Mantis
+B
+52.18%
++0.11%
+11.08%
+-2.38%
+0.05%
+165,185
+Peni Parker
+B
+51.94%
+-0.45%
+11.36%
+-4.01%
+0.50%
+169,337
+Thor
+B
+51.93%
+-0.02%
+13.63%
+-6.06%
+0.27%
+203,072
+Loki
+B
+51.64%
++0.56%
+24.45%
++5.94%
+3.22%
+364,409
+Iron Fist
+B
+50.94%
++1.52%
+12.47%
++6.40%
+21.07%
+185,806
+Human Torch
+B
+50.68%
+N/A
+8.35%
+N/A
+17.94%
+124,382
+Emma Frost
+A
+50.35%
+N/A
+43.30%
+N/A
+6.44%
+645,292
+Groot
+B
+49.78%
++0.70%
+10.50%
+-7.54%
+42.97%
+156,444
+Adam Warlock
+B
+49.07%
+-0.56%
+8.72%
++0.73%
+0.13%
+129,970
+Hela
+B
+49.03%
++0.26%
+12.78%
++3.90%
+6.36%
+190,486
+Psylocke
+B
+48.93%
+-0.20%
+13.40%
++0.32%
+0.92%
+199,629
+Doctor Strange
+B
+48.71%
+-2.01%
+16.18%
+-21.94%
+1.10%
+241,086
+Spider Man
+B
+48.64%
+-0.08%
+17.52%
++1.44%
+30.78%
+261,023
+Black Panther
+B
+48.64%
+-1.77%
+10.16%
++0.08%
+3.58%
+151,404
+Scarlet Witch
+B
+48.18%
++0.09%
+15.91%
++3.07%
+1.13%
+237,055
+Venom
+B
+48.17%
++0.25%
+12.04%
+-0.43%
+0.59%
+179,371
+Namor
+B
+47.99%
++0.37%
+15.99%
+-2.71%
+10.21%
+238,296
+The Thing
+B
+47.94%
+N/A
+15.35%
+N/A
+1.34%
+228,772
+Cloak & Dagger
+A
+47.87%
+-1.22%
+46.63%
+-8.38%
+0.73%
+694,933
+Invisible Woman
+B
+47.07%
+-1.00%
+36.15%
+-6.05%
+0.49%
+538,792
+Star Lord
+C
+47.02%
+-1.41%
+9.56%
+-1.72%
+0.43%
+142,496
+Wolverine
+C
+46.98%
+-2.64%
+7.58%
+-1.06%
+5.34%
+112,895
+Hawkeye
+C
+46.57%
++2.83%
+7.95%
++3.57%
+1.46%
+118,417
+Magneto
+B
+46.19%
+-1.67%
+18.73%
+-9.49%
+0.37%
+279,171
+The Punisher
+C
+46.11%
+-1.15%
+9.95%
+-5.80%
+0.29%
+148,333
+Moon Knight
+C
+45.60%
++0.04%
+12.75%
+-7.58%
+0.34%
+190,041
+Luna Snow
+C
+45.22%
+-2.13%
+21.34%
+-9.60%
+0.49%
+317,946
+Squirrel Girl
+C
+44.90%
+-1.69%
+10.15%
+-2.98%
+0.57%
+151,325
+Winter Soldier
+C
+44.23%
+-5.19%
+11.71%
+-17.51%
+0.78%
+174,566
+Jeff The Land Shark
+D
+42.16%
+-1.31%
+12.78%
++0.02%
+0.39%
+190,520
+Black Widow
+D
+39.84%
+-0.45%
+3.92%
++0.47%
+0.30%
+58,415
+Team-Ups
+Tier
+Win Rate
+Pick Rate
+Matches
+A
+62.54%
+2.36%
+3,356
+A
+61.55%
+1.14%
+1,628
+A
+60.81%
+2.20%
+3,126
+A
+59.63%
+2.81%
+3,993
+A
+59.26%
+0.89%
+1,269
+A
+59.03%
+5.41%
+7,694
+A
+57.95%
+14.77%
+21,017
+A
+55.93%
+7.80%
+11,091
+A
+55.67%
+7.65%
+10,888
+A
+55.12%
+13.95%
+19,841
+B
+54.80%
+1.62%
+2,301
+A
+54.55%
+14.46%
+20,576
+B
+54.54%
+4.61%
+6,560
+A
+54.19%
+13.63%
+19,394
+B
+53.50%
+2.74%
+3,903
+A
+53.20%
+14.07%
+20,019
+C
+51.67%
+0.84%
+1,196
+B
+50.16%
+13.77%
+19,588
+B
+49.61%
+15.93%
+22,671
+D
+48.83%
+2.63%
+3,748
+B
+48.13%
+13.75%
+19,566
+D
+47.65%
+5.45%
+7,754
+D
+42.91%
+1.05%
+1,487
+Contact us
+Privacy Policy
+Manage Cookie Settings
+rivalstracker.com is not affiliated with or endorsed by NetEase Games or Marvel Entertainment.

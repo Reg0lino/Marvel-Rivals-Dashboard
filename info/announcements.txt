@@ -1,0 +1,95 @@
+# Announcements - Recent Posts (Fetched 2025-05-03 12:27)
+
+## Dazzle your opponents at the Hellfire Gala in Krakoa on April 11th!
+
+Dazzle your opponents at the Hellfire Gala in Krakoa on April 11th!
+2025/04/05
+Dear Rivals,
+A new map will be added at the coming first half of season 2 -- Hellfire gala: Krakoa. Let's have a full view of it!
+The 2099 Hellfire Gala is underway, and Emma Frost is dazzling in her finery, expertly mingling with the crowd. With guests being properly entertained and the Mutantsâ guards down, the timing is perfect for Ultron to crash this invite-only event! Itâs up to the Quiet Council to get these unruly invaders under control, and their guests safe.
+Move with grace and precision across the Gala to stop the imminent infection being spread by Ultron and his robots.
+Can you keep your cool and elegance in the face of disaster?
+
+Source URL: https://www.marvelrivals.com/announcements/20250401/40955_1223993.html
+---
+
+## Join Emma Frost at Krakoa's most revered event on April 11th UTC!
+
+Join Emma Frost at Krakoa's most revered event on April 11th UTC!
+2025/04/04
+Dear Rivals,
+Itâs the most glamorous night of the year, darling - Emma Frost herself invites you to the Hellfire Gala on Krakoa!
+Emma Frost of Krakoaâs Quiet Council cordially invites you to attend the grand return of the Hellfire Gala! With the timelines in complete disarray and Mutantkind scattered, the White Queen reignites her annual celebration to welcome allies old and new to the living island.
+A wealthy socialite, fashion icon, and powerful telepath, Emma Frost uses her Mutant abilities to dominate her foes while executing on the vision of a protected home for Mutantkind.
+On April 11th UTC, join Emma Frost â The White Queen at Krakoa's most revered event!
+
+Source URL: https://www.marvelrivals.com/announcements/20250401/40955_1223991.html
+---
+
+## AMD FSR 3 Frame Generation Slow Level Loading Fix
+
+AMD FSR 3 Frame Generation Slow Level Loading Fix
+2025/03/11
+Dear Rivals,
+We've detected a potential issue involving AMD FSR 3 Frame Generation. Its default interpolation algorithm requires two threads of execution, which has led to some devices with fewer CPU threads experiencing painfully slow level loading times when this feature is activated. Fear not! Our tech team has swiftly addressed this issue and crafted a fix that will be deployed in our upcoming update on March 13.
+We're committed to ensuring you have an epic gaming experience. Should you encounter any issues after the update, don't hesitate to contact our customer service teamâwe're here to assist you on your heroic journey!
+Thank you for your understanding and support!
+Ignite the Battle!
+
+Source URL: https://www.marvelrivals.com/announcements/20250311/40955_1217836.html
+---
+
+## Twitch Drops Season 1 Second Half
+
+Twitch Drops Season 1 Second Half
+2025/02/21
+Dear Rivals,
+When Human Torch and the Thing officially join the battlefield, the Fantastic Four family successfully assembles in New York! In the eternal darkness, the heroes are never afraid. The highly anticipated second half of Season 1 of Marvel Rivals is arrived, the Fantastic Four is unite and stand against the vampiric threat to save the city.
+Prepare yourself for the challenges ahead by learning from your favorite streamers and earning fantastic drop rewards.
+Event Duration
+Feb 21st 12:00 PM - Mar 6th 23:59, UTC 0
+Drops Rewards
+Watch 30 mins: ãTWO-IN-ONEãSpray
+Watch 2 hour: HelaãGreat GalaxyãEMOTES
+How Do Twitch Drops Work?
+Be sure to follow these steps to make sure you're set up to earn Drops.
+-Connect your Marvel Rivals account with Twitch account on this page.
+-Watch any Marvel Rivals streams enabling Drops.
+-Claim your rewards on Twitch Drop Inventory page and check them in your in-game Inbox!
+FAQ
+1. WHAT ARE TWITCH DROPS?
+Twitch Drops are exclusive rewards for Rivals who tune in to Marvel Rivals Twitch streams. To learn more about ongoing Marvel Rivals Drops, check here.
+2. WHICH STREAMS DO I NEED TO WATCH TO GET DROPS?
+During the event period, watch streams under the "Marvel Rivals" category to participate in the event. You can confirm all information about the event and rewards here.
+3. HOW CAN I TELL IF A STREAM HAS DROPS ENABLED?
+Streams with Drops enabled will have the "Drops Enabled" tag for the broadcast. Additionally, a pop-up will display in Twitch Chat if the streamer has enabled Drops.
+4. WHERE CAN I CHECK MY PROGRESS TOWARDS DROPS?
+You can check your progress towards Drops any time by viewing the Drops Inventory page. If it's not processing, contact Twitch Support or visit the Twitch Viewer FAQ page.
+5. TWITCH SAYS I'VE EARNED DROPS. WHERE CAN I CLAIM THEM?
+Check your Twitch Drop Inventory page, and redeem the rewards before they expire.
+6. I CLAIMED MY DROPS ON TWITCH. WHERE CAN I CHECK MY REWARDS IN GAME?
+Check your in-game email, The emails will expire in 30 days, claim it as soon as possible.
+7. CAN I EARN DROPS FASTER OR EARN MORE REWARDS BY WATCHING MORE THAN ONE CHANNEL AT A TIME?
+No, you will only be eligible to receive a drop for one active channel at a time. Watching more than one channel simultaneously will not result in more drops.
+8. WHERE CAN I GET MORE INFORMATION ABOUT MARVEL RIVALS TWITCH DROPS EVENT?
+For more information, please stay tuned to our official social media or news.
+9. WHAT SHOULD I DO IF I STILL HAVE ISSUES WITH TWITCH DROPS?
+Please provide feedback by contacting Marvel Rivals Support#4674 on our
+official Discord
+.
+
+Source URL: https://www.marvelrivals.com/announcements/20250217/40955_1212338.html
+---
+
+## Take the battle to Dracula's Castle in Central Park on Feb 21st!
+
+Take the battle to Dracula's Castle in Central Park on Feb 21st!
+2025/02/19
+Dear Rivals,
+The new map will be added at the coming second half of season 1 for the Empire of Eternal Night: Central Park. Let's get ready to fight and have a full view of it!
+When the Timestream Entanglement swept over New York City, Dracula seized the opportunity with Doctor Doom's gift, stopping the moon and declaring an eternal night with the power of Chronovium! Now, the heroes are ready to take the battle to his gothic headquarters within Central Park..
+Traverse into complete darkness to discover the imprisoned powers on the path to Dracula's Castle.
+Do you have what it takes to stop Dracula's ritual and put an end ot the Empire of Eternal Night?
+
+Source URL: https://www.marvelrivals.com/announcements/20250217/40955_1212166.html
+---

@@ -1,0 +1,511 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Squirrel_Girl =====
+
+Squirrel Girl
+"Eat nuts, and kick butts."
+Real Name
+Doreen Allene Green
+Aliases
+The Unbeatable Squirrel Girl
+Biographical Information
+Birthplace
+Los Angeles, California
+Gender
+Female
+Eye color
+Green
+Hair color
+Ginger
+Relatives
+Tippy-Toe
+(pet)
+Powers/Skills
+Superhuman strength, speed, reflexes, and agility
+Ability to communicate with squirrels
+Scuirokinesis
+Prehensile tail
+Night vision
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+275
+Difficulty
+Affiliation
+Squirrel Avengers Initiative
+Portrayal
+Voice Actor
+Milana Vayntrub
+Character Video
+Possessing only the powers of a common squirrel, somehow Doreen Green manages to defeat seemingly invincible enemies in the most unexpected ways. Any foe who counts her out is bound to fall at the hands of the Unbeatable Squirrel Girl!
+Official description
+Squirrel Girl
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 29th hero introduced to the game's roster.
+She has team-up abilities that work in conjunction with
+Spider-Man
+.
+Overview
+Strengths
+Long-range specialist who can constantly bombard enemies with area-of-effect damage from safe locations.
+Has slightly higher max health compared to other Duelists.
+Her primary fire, Burst Acorn, is a large projectile in an arc that explodes on contact or after bouncing twice, dealing high damage.
+This projectile is incredibly versatile as it can bounce off the ground, walls and ceiling, giving Squirrel Girls means to dish out damage without putting herself at risk by using terrain advantage.
+Her secondary fire, Squirrel Blockade, launches a large projectile that deals direct damage and briefly imprisons the target.
+This ability can be charged to increase the projectile speed and widen the arc it travels in.
+Tail Bounce is Squirrel Girl's main mobility tool, launching her directly upwards with triple her normal jump height.
+This ability is great to escape focused fire as well to reposition to high ground.
+Squirrel Girl is briefly immune to all crowd control while propelling herself.
+Mammal Bond instantly reloads her Burst Acorn and allows her to use Squirrel Blockade or Tail Bounce once without triggering a cooldown.
+This effectively means the player can either fire two Squirrel Blockades in quick succession or use Tail Bounce twice in a row to reach very high heights.
+Her Ultimate, Unbeatable Squirrel Tsunami, summons a horde of squirrels to charge forward.
+The player can aim the direction they want the stampede to move.
+The horde will bounce of walls and terrains, traveling in a straight line.
+The stampede will seek enemy players within range.
+When paired with
+Spider-Man
+, Squirrel Girl gains access to Webbed Acorn, which can be shot at enemies to deal damage and imprison them.
+This ability can root multiple enemies.
+Enemies don't need to be hit directly; any target caught within the radius if the acorn hits the ground will be ensnared.
+Weaknesses
+Has no defensive or self-sustain tools.
+Vulnerable to dives and when Tail Bounce is on cooldown.
+Burst Acorn has the lowest damage distance falloff in the game, meaning her damage output vastly decreases the farther she is from her opponents.
+It also cannot deal critical damage.
+Targets rooted by Squirrel Blockade and Webbed Acorn can still attack and use non-mobility abilities.
+Unbeatable Squirrel Tsunami can be easily avoided, as it only hits ground targets; enemies flying or on high ground won't be affected by it.
+In addition, the squirrels have a healthbar and can be taken down.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+SQUIRREL GIRL
+Default
+Arctic Lemmus
+RARE
+Cheerful Dragoness
+EPIC
+Nut Rocker
+EPIC
+Urban Hunter
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Squirrel Girl
+Arctic Lemmus
+Season 0
+Cheerful Dragoness
+Season 0
+Nut Rocker
+Season 2
+— S2 BattlePass —
+Urban Hunter
+U.S.Avengers
+(2017) #1
+See
+:
+List of MVP Animations
+DEFAULT
+Squirrel Girl
+Crack Boom Punk!
+Nut Rocker
+Boogie Time!
+Urban Hunter
+Cuju Tackler
+Cheerful Dragoness
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+New Player
+Bubble Popper
+I Can Do It
+See
+:
+List of Sprays
+Squirrel Girl
+Squirrel Girl Emblem
+Happy Squirrel
+Cheerful Dragoness
+Nut Rocker
+Urban Hunter
+See
+:
+List of Nameplates
+Squirrel Girl
+Cheerful Dragoness
+Nut Rocker
+Urban Hunter
+Abilities
+Normal Attack
+BURST ACORN
+Shoot bouncing Burst Acorns
+CASTING -
+Arced projectile that generates a spell field upon impact
+PROJECTILE SPEED -
+80 m/s
+SPELL FIELD RANGE -
+3m spherical radius
+SPELL FIELD DAMAGE -
+110
+DAMAGE FALLOFF -
+70% falloff at 3m
+FIRE RATE -
+1.49 acorns per second
+AMMO -
+10
+CRITICAL HIT -
+No
+Abilities
+Q
+UNBEATABLE SQUIRREL TSUNAMI
+Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures
+DURATION -
+10s
+RANGE -
+Length: 3m, Width: 5m, Height: 1.75m
+DAMAGE -
+150
+SQUIRREL HORDE HEALTH -
+300
+SQUIRREL HORDE MOVEMENT SPEED -
+9 m/s
+ENERGY COST -
+2800
+SPECIAL EFFECT
+⚬ The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly
+SHIFT
+TAIL BOUNCE
+Rocket upwards with a bounce of her tail
+JUMP HEIGHT -
+9m
+COOLDOWN -
+8s
+E
+MAMMAL BOND
+Reload Burst Acorns and can use an ability without cooldown once in a short duration
+MAXIMUM DURATION -
+5s
+COOLDOWN -
+12s
+SQUIRREL BLOCKADE
+Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy
+CASTING -
+Charged projectile with an arced trajectory
+MAXIMUM CHARGE TIME -
+1.5s
+PROJECTILE SPEED -
+20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)
+DAMAGE -
+35
+IMPRISON DURATION -
+1.33s
+COOLDOWN -
+8s
+Team-Up Abilities
+C
+WEBBED ACORN
+Spider-Man
+gives Squirrel Girl a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast
+CASTING -
+Arced projectile that generates a spell field upon impact
+PROJECTILE SPEED -
+50 m/s
+SPELL FIELD RANGE -
+4m spherical radius
+SPELL FIELD DAMAGE -
+80
+IMPRISON DURATION -
+1s
+COOLDOWN -
+20s
+Strategy
+To be added
+Lore
+"Hey, don't ever call Tippy-Toe a pet, okay? She's my best friend."
+Doreen Green is more than just a computer science student at Empire State University. She also happens to have the powers of a squirrel AND the powers of a girl! With her BFFF (Best Furry Friend Forever) Tippy-Toe by her side, Doreen eats nuts and kicks butts as the unbeatable Squirrel-Girl!
+After the Timestream Entanglement, things got weirder. With all of New York City under attack by creatures of the night, Squirrel Girl assembled an adorable army to reclaim Central Park from the clutches of Dracula. Here's hoping vampires don't like the taste of squirrel!
+—
+Biography
+Hero Story
+"When other people first saw my powers. They we're like wait. A squirrel? And now they're like Oh! A squirrel!"
+Bushwhack!
+"Well, that should take care of them!" the Unbeatable Squirrel Girl said as she stood over a group of freshly-defeated attackers. "Another horde of vampires down for the count. Good work, everybody!"
+As Squirrel Girl praised her army of rodent companions for their efforts, the tiny creatures began to chitter with delight. They would do anything for their human friend, Doreen Green — even risk their lives against the seemingly endless throng of nocturnal nightmares that had emerged after an ancient curse trapped New York City in a state of perpetual night.
+"You've definitely earned a trip to Mr. Hickory's fresh roasted nut cart on the corner of 55th and — "
+Before Squirrel Girl could finish that thought, her BFFF — Best Furry Friend Forever — Tippy-Toe scurried past her fellow squirrels and climbed right onto Doreen's shoulder. As Tippy began to chirp into Squirrel Girls' ear, Doreen's ever-present smile dropped a bit.
+"Wait... that can't be right..." Squirrel Girl said. "A giant squirrel... fell out of the sky...? Here in Central Park...? Are you sure, Tippy?"
+Tippy-Toe leapt from Squirrel Girl's shoulder and bolted back towards the heart of the park. Before she disappeared into the woods, she turned around and beckoned for her friend to come along.
+"Guess Mr. Hickory is gonna have to keep his nuts warm a little longer," Squirrel Girl said, shrugging as she followed Tippy-Toe into the dark forest. The rest of the squirrels stayed close behind Doreen, ready to take on whatever threats might be lurking in the shadows.
+As soon as they reached a clearing, Squirrel Girl realized that Tippy-Toe hadn't been exaggerating in the slightest. There, int he middle of a small impact crater, was the biggest squirrel Doreen had ever seen. Her furry friends surrounded the creature and stared in awe. But something was clearly wrong. The giant rodent was hurt. Bad.
+"Excuse me... ma'am...?" Squirrel Girl said cautiously. "You look like you could use a friend..."
+"Aye..." the enormous squirrel replied, with pain its voice. "I am so far from home... Yet the scent of this realm seems oddly familiar... Tell me, to where have I fallen, dear child...?"
+"You're on Earth. New York City to be exact!" Squirrel Girl responded proudly. "Whoa. Hold on. Did you just talk?"
+"Indeed," the creature said, lifting its massive head to get a better look at the curious human girl with a rodent's tail.
+"I mean, I know you can talk to me," Squirrel Girl continued. "I talk to squirrels all the time. It's one of my superpowers. But you weren't just chirping and chittering. You talked in English. Like a person!"
+"The squirrels of Midgard do not have the ability to speak?" the mysterious rodent said. "What a shame."
+"I know, right?!" Squirrel Girl mused. "I'm the only one who gets to enjoy all of their stories. Guess I'm just lucky!"
+"I have a story to tell as well," the oversized squirrel said, "but sadly, there is very little luck in it."
+"Ooh! I wish I had some popcorn!" Squirrel Girl said as she sat cross-legged on the ground next to her new friend, eager to learn more. Her squirrel companions gathered around and listened intently.
+"My name is Ratatoskr," the creature began. "I hail from the golden kingdom once known as Asgard. Though my true home is in the branches of Yggdrasil, the World Tree."
+"Asgard?!" Squirrel Girl exclaimed. "Are you friends with
+Thor
+? Because I totally am!"
+"Aye, I have known the God of Thunder since he was just a boy," Ratatotskr continued. "It was my sworn duty to climb the World Tree, delivering messages across the Ten realms. It was a simple life, but one I took great pride in. I sought no glory and I posed no threat. Or so I believed."
+"Here comes the part where
+Loki
+does something nasty, right?" Squirrel Girl asked excitedly, chomping down on a handful of acorns that she had found scattered on the ground nearby.
+"I have my qualms with the Trickster for his treatment of Yggdrasill," Ratatoskr said, "but according to a vision I had, I do not believe it was Loki who laid me low. In fact, it was two Midgardians who sought to end my days: a mortal sorcerer in a metal mask and the lord of vampires himself."
+"Yikes!" Squirrel Girl yelped.
+"The two must have conjured a spell to rip me from my beloved Yggdrasill..." Ratatoskr said, trailing off as she considered what had occurred.
+"And then you crashed landed here," Squirrel Girl finished, "right in the heart of vampire territory. I bet they were planning to send in an undead army to take you prisoner... or worse. But why? I mean, sure, squirrels are some of the toughest fighters ever, and it's nice to see someone finally realizing that, but there are so many other threats that these jerks are up against. Aside from your obvious awesomeness, what makes you so special?"
+"My horn," Ratatoskr said, motioning to the long wooden tusk protruding from her forehead.
+"Yeah," Squirrel Girl said, "I was gonna ask about that. I just assumed you were some sort of magical squirrel-icorn or something."
+"The horn is made from a branch of Yggdrasill itself," Ratatoskr said. "It is imbued with the World Tree's life-giving power. Should it pierce the vampire king's heart, it would likely end even his eternal reign. In order to remove such a risk, they are undoubtedly seeking to remove me from play."
+"Well, they'll have to go through us first," Squirrel Girl exclaimed, lifting her fist in the air triumphantly. Her squirrel companions all squeaked with joy... but silence quickly fell once more as the leaves around them began to rustle.
+Suddenly, several vampires lunged out from the woods, hissing and bearing their sharp teeth as they rushed towards Ratatoskr.
+"You know the drill, gang!" Squirrel Girl shouted to her tiny squirrel friends. The squirrels jumped into action scampering forward to meet their attackers.
+In a frenzy of teeth and claws, the vampires soon found themselves overpowered by the bushy-tailed battalion. Every time they managed to shake off one rambunctious rodent, three more took its place.
+"I'd bet on buckteeth over fangs any day!" Squirrel Girl cheered as her fearsome foes fled back into the darkness.
+But before the hairy heroes could celebrate another hard-earned victory, the next wave of vampiric villains emerged from the forest, this time nearly doubled in number. At the center of the horde stood a pale-skinned man in a pitch black suit and a blood red cape adorned with gold ornamentation. His commanding presence made it instantly clear that he was the one in charge. The vampires around him eagerly awaited his orders.
+"Stand aside, child," the vampire said to Squirrel Girl, his voice as cold as ice. "This creature belongs to me."
+"I don't know who you think you are, buddy," Squirrel Girl said defiantly, "but Ratatoskr is with us now. You don't get to hurt her."
+"I wouldn't dream of it," the vampire said. "I have far more important plans for that mangy beast. You, however, shall not be as fortunate. So swears
+Dracula
+!"
+"Dracula...?!" a bewildered Squirrel Girl muttered. "No... it can't be..."
+"Oh, it is," Dracula responded with a grin, his fangs glistening in the light of the blood moon. "And you, my dear, shall be the next to join my eternal legion."
+With a wave of his hand, Dracula unleashed his vampire horde upon Squirrel Girl. She dodged and leaped as quick as she could, hoping to prevent them from sinking their sharp teeth into her flesh.
+"Don't let them get to Ratatoskr!" Squirrel Girl yelled, clearly more concerned about her newly-arrived ally than about herself.
+Even though her rodent army vastly outnumbered the vampire, Squirrel Girl quickly realized that her forces were gravely outmatched. These were Dracula's most elite soldiers, and Doreen knew that she and her friends were in over their heads.
+"Tippy! Call in reinforcements!" Squirrel Girl shouted.
+With a loud series of squeaks, Tippy-Toe beckoned forth every animal that called Central Park home — from rats and raccoons to frogs and felines. As they skittered across the ground towards the unsuspecting vampires, another wave of animals swooped down from the skies.
+"I didn't know you could speak bird, Tippy!" Squirrel Girl exclaimed, genuinely surprised to see the large feathered flock furiously pecking at her foes. Tippy-Toe shrugged with confusion.
+"Those creatures are not of this realm," Ratatoskr said. "The ravens serve Loki himself, and the crows belong to
+Hela
+. Apparently, Dracula is not the only one searching for my whereabouts."
+"Hey, we'll take all the help we can get!" Squirrel Girl said, leaping forward to join the flurry of teeth and beaks and claws and talons.
+Squirrel Girl's furry friends continued to do everything in their power to distract the undead warriors from their true prey. But then, without warning, every one of Doreen's beloved squirrels abruptly stopped in their tracks.
+"Uh... guys...?" Squirrel Girl said, "What's going on?"
+"You are not the only one who can speak to rodents..." Dracula mused. "In the past, I have reserved this talent for bats and rats, but I suppose it works on squirrels just as well. And I, for one, shall enjoy the irony of what is about to unfold..."
+Tippy-Toe and her fellow squirrels turned to face Squirrel girl, their eyes glowing a sinister red. Squirrel Girl gasped in horror as she realized that Dracula had somehow pitted her best friends against her. Although she herself was not under the vampire king's thrall, Squirrel Girl still found herself unable to move, completely paralyzed by the shock of the moment.
+"No... please!" Squirrel Girl shouted as the ravenous rodents began to descend upon her.
+But before the tiny terrors could devour Doreen, a powerful blast erupted from the skies, knocking the squirrels back and breaking them free from Dracula's control.
+"Looks like you've got a rodent problem, kid," a semi-robotic voice said. "Lucky for you, I happen to be on pest control duty."
+Iron Man
+descended from above and landed on one side of Squirrel Girl. On her other side,
+Moon Knight
+glided onto the scene. The two heroes had arrived just in the nick of time.
+"I'm so glad you guys are here!" Squirrel Girl gushed with glee. "We were trying to rescue this giant Asgardian squirrel when Dracula and his army attacked us. I don't know how, but he turned my little buddies against me. For a moment there, I really thought it was all over!"
+"It is," Iron Man said as he blasted back a few more vampires with his repulsors. "We're getting you out of here. Now."
+"Not without Ratatoskr," Squirrel Girl said.
+"Yeah, about that..." Moon Knight replied, tossing a few crescent-shaped shuriken at the oncoming attackers. "I don't see any giant squirrels around here. No Dracula either. And they say I'm the crazy one..."
+Squirrel Girl looked towards the site where Ratatoskr had landed earlier and was shocked to find that her new friend had gone missing. And Moon Knight was right about Dracula's disappearance as well.
+"She was just here! I swear!" Squirrel Girl cried. "Dracula must've escaped with her when we weren't looking! We have to go after them!"
+"Not a chance," Iron Man said. "We've barely got the means to fight off a handful of regular fangers. We're definitely not ready to face off against Dracula."
+"Not yet," Moon Knight added, as if he knew something the others did not.
+"But when the time comes," Iron Man continued, "we're going to need every ally we can find. Alive. That includes you. Now, come with me..."
+Iron Man lifted into the air, grabbing Squirrel Girl under the arms and taking her with him.
+"...and consider this your lucky day!"
+"Wait! No!!!" Squirrel Girl pleaded. Not only was she abandoning Ratatoskr, but her squadron of squirrels was being left behind to fend for themselves as well. Only Tippy-Toe had managed to climb aboard the Iron Man express before it took flight.
+Squirrel Girl's gaze stayed fixed on the park below until her tiny allies had faded completely from sight. With a heavy heart, she turned her attention to the blood moon hanging over her beloved city.
+"Trust me, kid," Iron Man said as they flew together towards the safety of
+Avengers
+Tower, "this is for the best."
+The armored Avenger seemed strangely confident about that fact. But for the first time she could remember, Squirrel Girl wasn't feeling quite so optimistic...
+BFFFS
+"Can you believe it, Tippy?" Squirrel Girl asked, her voice rising to a high pitched squeal. "We got invited to
+Krakoa
+for the
+Hellfire Gala
+! It's only, like, the most important event of the year... Whatever year this is..."
+Just a few days ago, Doreen Green — the Unbeatable Squirrel Girl — and her trusty rodent sidekick Tippy-Toe were fighting for their lives in a New York City that had been thrust into eternal darkness and infested with vampires. So getting whisked away through some sort of magic portal to a living Mutant island 75 years in the future wasn't exactly on her Bingo card. But she wasn't complaining. After the fight against Dracula, she and her squirrel friends were in desperate need of a vacation. And there was no better place to kick back and relax than on a tropical island in the middle of the Pacific Ocean!
+"You like the new outfit?" Squirrel Girl asked with a smile, giving a twirl as she showed off her festive beachy look. "I know everyone else is getting all gussied up for the Gala tonight, but I thought some casual wear was more my style."
+Tippy-Toe was about to chirp in agreement, but instead she let out a squeal of horror, skittering up Squirrel Girl's body to perch safely on her best friend's shoulder.
+"What's wrong, Tippy?" Squirrel Girl asked, looking around to find the source of the commotion. Suddenly, she saw it — a strange dog-like creature bounding down the beach toward her at top speed. But this was no normal dog. Its skin was shiny silver and its alien features made it look equal parts menacing and adorable.
+"No!" a voice yelled from afar. "Bad Warwolf!"
+Squirrel Girl looked down the beach further to see her friend
+Rocket Raccoon
+hurriedly chasing after the strange alien dog.
+"Sorry about that," Rocket said as he got closer, "I was takin' Amazing Baby here for a walk and he got away. Didn't mean to scare your bushy-tailed pal."
+"Tippy will be fine," Squirrel Girl said, reaching down to pet Amazing Baby on the top of his smooth silver head. "And this little fella was just a bit overexcited, wasn't he?"
+"Who can blame him?" Rocket said. "With all we've been through, savin' the universe and whatnot, we finally get to reap the rewards in paradise! I think we all needed a getaway like this after that vampire nonsense in New York. It's a nice change of pace not havin' someone constantly tryin' to take a bite outta us!"
+"MRRRRR!" a loud voice exclaimed, right on cue.
+The heroes turned to see a strange creature leaping out of the ocean waves toward them, its giant jaws wide open and its sharp fangs flashing in the summer sun. As Tippy-Toe and Amazing Baby yelped and ran at full speed into the Krakoan jungle, Squirrel Girl and Rocket instinctively got into battle positions, ready to fend off the bounding beast. Fortunately, before any punches could be thrown, they realised that this wasn't some menacing Mutant monster that lurked off the Krakoan coast. It was their new friend,
+Jeff the Land Shark
+!
+"MRRRRRR!' Jeff squealed with joy as he landed on his tiny legs between Rocket and Squirrel Girl.
+"I'm happy to see you too, Jeffy," Squirrel Girl said, "Though you gave Tippy and Rocket's pup quite the scare."
+"We should probably go find 'em before they get into any more trouble," Rocket said.
+"How about you take the lead, Jeff?" Squirrel Girl asked, knowing that the little shark had plenty of experience chasing after her squirrel pals.
+"MRR!" Jeff proudly responded, sniffing the ground as he followed Tippy-Toe's trail into the lush green vegetation just beyond the beach. Squirrel Girl and Rocket stayed close behind their amphibious ally.
+After chasing Jeff through the dense undergrowth for several minutes, Squirrel Girl and Rocket found themselves entering a clearing.
+"There you are, Tippy," Squirrel Girl said as she caught sight of her companion. "I was worried you'd gotten lost, or eaten, or —"
+Squirrel Girl paused as she realised how still and silent Tippy-Toe and Amazing Baby were standing. Her gaze drifted over to the center of the clearing, where she saw a heartbreaking sight. There was her Mutant ally,
+Psylocke
+, kneeling on the ground. In her arms, she gently cradled the body of what looked to be a very old wolf. It was clear the creature was close to the end of its days.
+"Are... are you okay, Sai...?" Squirrel Girl asked, putting a hand on Psylocke's shoulder.
+"I am," Psylocke responded. "But
+Logan
+is not..."
+"Logan...?" Squirrel Girl asked, confused. When she heard that name, she instantly thought of the X-Man known as
+Wolverine
+. But she soon realised that Psylocke was talking about her ancient lupine friend.
+"He was my best friend and most loyal companion," Psylocke said, her gaze still fixed on the poor, old creature wrapped in her embrace. "Back in the world I came from, we hunted Oni side-by-side for many years. When the Collector ripped me from my timeline, I thought I would never see him again. But it seems Logan never gave up on finding me. I can see it in his memories. He found his ways across time and space, chasing some strange man in red who had been sent to find me. Eventually, he picked up my scent again and followed it here to Krakoa."
+"By the shape he's in, it looks like it took the poor thing centuries to find ya," Rocket said.
+"It did," Psylocke confirmed. "His healing factor kept him alive all that time... but even his body has its limits, it seems..."
+"You mean, he's..." Squirrel Girl's voice trembled. She couldn't finish her thought before tears began to roll down her cheeks.
+"Hai," Psylocke said, confirming Squirrel Girl's unspoken fear. "Now that Logan has finally found me, his mission is complete. His journey has come to an end. It is time for him to rest."
+Jeff approached Psylocke and gently nuzzled her, showing his dear friend some much needed support.
+"A little rest is fine and dandy," Rocket said, trying to keep composed, "but I ain't gonna sit here and watch you lose a friend again just as soon as you found him. There's gotta be somethin' we can do."
+"Wait..." Squirrel Girl said, excitement returning to her voice. " I have an idea! When I'm not busy earin' nuts and kickn' butts, I study computer science at Empire State Univercity. And last semester, I wrote a paper on memory storage. But I'm not talking files and folders here. I'm talking about how real memories — like yours and mine — could theoretically be stored in a digital format and downloaded into a new body if something happened to us. And during my research, I found a Daily Bugle article by Ben Urich that claimed the citizens of Krakoa were already applying a similar process to make themselves all-but immortal."
+"The Resurrection Protocols," Psylocke said quietly. "Magneto has spoken of them. But they are reserved only for Mutants."
+"Yeah, well, the computers at ESU are reserved only for students doing homework," Squirrel Girl said with a shrug, "but that never stopped Tippy-Toe from playing solitaire on them."
+"The game you are playing is far beyond your scope of understanding," a voice said from behind the gathered heroes. They turned to see
+Emma Frost
+entering the clearing in a luxurious gown. Her skin dazzled like a million diamonds.
+"Try us," Rocket taunted. "We may not look all sophisticated like you, lady, but when it comes to tech, there ain't no one in the galaxy who can keep up with me."
+"Give us the chance, Ms. Frost," Squirrel Girl said. "You obviously trusted us enough to invite us here tonight. Let us prove to you that it was the right choice by letting us help your friend."
+Emma looked over at Psylocke, whose head was hung low. Logan's breath was growing shallower by the second.
+"Fine," Emma said, showing a rare moment of compassion. "But you'll need to act fast. That mutt doesn't hafve much life left in him. And do me a favor..."
+"Anything!" Squirrel Girl cried, trying to restrain herself from wrapping Emma in a giant hug.
+"Cerebro was designed to store one current copy of each Mutant's memory profile," Emma said. "Now that Krakoa has started to welcome more and more Mutants from other realities, I had
+Forge
+create partitions in Cerebro's memory storage. That way, the alternate versions of our allies won't accidently overwrite each other. All of that to say, if you do manage to bring back Logan, please make sure it's the right one. The last thing I need is a wolf with the personality of Wolverine running loose on the island during my Gala."
+"We'll be careful," Squirrel Girl promised. "You have our word!"
+"Then you have my blessing," Emma responded. A moment of contented silence passed before Emma snapped, "Well...? What are you waiting for? Let's go already...before I change my mind!"
+As Emma turned to excit the clearing, she put a hand to her temple and momentarily switched out of her diamond form so that she could use her telepathic abilities. In a flash, Squirrel Girl, Rocket, and Jeff all knew exactly where they had to go and what they had to do.
+Squirrel Girl and Tippy-Toe would accompany Emma to the Cradle, where Cerebro was stored. From there, Emma would be able to initiate a telepathic upload of Logan's memories into the system's neural network while Squirrel Girl created an algorithm to route the data to the proper partition.
+Meanwhile, Rocket and Amazing Baby would find Groot and lead him to the Grove, where he could have a plant-to-plant chat with Krakoa about using its Seedlings — tiny Krakoan creatures that had absorbed traces of the powers of the many powerful Mutants lost to the Timestream Entanglement — to bend the Resurrection Protocols and grow a special non-Mutant body for the lupine Logan...
+Finally, Jeff would stay with his dear friend Psylocke to comfort her as Logan made his transition from one life to the next.
+As Squirrel Girl, Rocket, and their companions made their way out of the clearing, Psylocke called after them.
+"Where I come from," she said, "there are animal spirits known as Shugorei. I have forged many friendships with these majestic guardians. I am glad to count you among them. We may come from different worlds, but we are like family now."
+"That means Logan is family, too," Squirrel Girl said, "and we won't let him — or you — down."
+With that, the heroes went their separate ways, each equally determined to save Psylocke's furry friend.
+LATER THAT NIGHT
+As the Hellfire Gala's opening ceremonies finally began, Psylocke stood quietly at the edge of the festivities. Her heart was still heavy from the loss of her beloved Logan, who had silently passed away in her arms hours earlier. And while she knew that her new friends had done their best to save her companion, there was still no word on whether or not their attempts had been met with success.
+Suddenly, a ruckus broke out amongst the crowd as Jeff the Land Shark bounded across the dance floor, weaving his way between the legs of partygoers. Jeff was followed closely by Tippy-Toe and Amazing Baby, who both chittered with excitement. Behind them, much to Psylocke's delight and amazement, stood Logan. The old wolf looked as young and spry as he had been back when he and his master were first separated. Logan lunged forward, racing through the crowd and leaping into Psylocke's eager arms. For the first time anyone who knew her could remember, the solemn warrior couldn't help but smile.
+"Well, whaddya know?" Rocket said with a smile. "We did it!"
+"We sure did, buddy," Squirrel Girl replied. "We make a pretty good team, you and me! Too bad we've already got partners!"
+"True..." Rocket said, extending a paw to Squirrel Girl and leading her toward the dance floor, "but I'm sure mine wouldn't mind if I switched things up for just one dance."
+"Not in those outfits," Emma Frost said sternly as she passed by. The two heroes stopped cold in their tracks, looking down at their vacation attire and realizing just how out of place they were amongst the other exquisitely-dressed attendees.
+"How about we just hit the beach instead," Squirrel Girl suggested. "We could grab our BFFFs and have a party of our own."
+"I like how you think, lady," Rocket agreed. "I've never been much for fancy shindigs anyway."
+As they called for Tippy-Toe, Amazing Baby, and Jeff to join them, Squirrel Girl took one last long look around the room.
+"You sure they'll be okay without us?" she asked Rocket.
+"Of course," Rocket replied confidently. "These jerks don't need us. Just look at how many heroes are here..."
+As they exited the Hellfire Gala, Squirrel Girl and Rocket were so excited to get back to the beach that they failed to notice the strange techno-organic patterns that had begun to appear on the foliage bordering one of the Krakoan gateways.
+"...what could possibly go wrong?"
+X-Gene Test: Positive
+(Coming soon, stay tuned)
+Achievements
+Icon
+Name
+Description
+Stark Fan Club Founder
+As Squirrel Girl, partner with Iron Man to land 1 KO.
+5
+"Ahh, those tiny claws!"
+As Squirrel Girl, land 3 KOs with a single use of Unbeatable Squirrel Tsunami.
+10
+Quotes
+See
+Squirrel Girl/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Squirrel Girl
+was released as the 29th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+Arctic Lemmus
+and
+Urban Hunter
+.
+Added the
+"Ahh, those tiny claws!"
+achievement.
+Added to the
+ESU Alumnus
+Team-Up Ability
+with
+Spider-Man
+.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+Enemies defeated by
+Unbeatable Squirrel Tsunami
+that get KO’d two seconds after being released now count towards the achievement!
+25/01/03:
+Added 1 new costume:
+Cheerful Dragoness
+.
+25/01/08:
+Rectified instances where
+Squirrel Girl
+'s ultimate ability could get stuck on specific terrain.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Addition of a new effect to the
+Unbeatable Squirrel Tsunami
+: the squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.
+Reduce the squirrel tsunami health from 600 to 300.
+25/02/20:
+Resolved a sound issue where
+Squirrel Girl
+'s hit sound effect was occasionally too sharp. Her acorns now land with a perfect pop!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Added 1 new costume:
+Nut Rocker
+.
+25/04/25:
+Version 20250425
+/
+Giant-Size Brain Blast
+Event
+Corrected an issued with
+Squirrel Girl
+'s default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!
+Gallery
+Other
+Costume Origins
+In-Game Assets
+Squirrel Girl- The Unbeatable - Character Reveal - Marvel Rivals
+Card
+Launch Countdown
+"Urban Hunter" Costume Reveal
+"Urban Hunter" costume in
+U.S.Avengers
+(2017) #1
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+Trivia
+Squirrel Girl's "Urban Hunter" costume was design by
+Janet van Dyne
+, also known as the superhero Wasp.

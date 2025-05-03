@@ -1,0 +1,418 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Groot =====
+
+Groot
+"I am Groot."
+Real Name
+Groot
+Aliases
+Monster of Planet X
+Seed of Slaughter
+Biographical Information
+Birthplace
+Planet X
+Gender
+Male
+Eye color
+Green
+Relatives
+Scar
+(progeny; deceased)
+Powers/Skills
+Chlorokinesis
+Enhanced regeneration
+Enhanced strength and durability
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Vanguard
+Health
+850
+Difficulty
+Affiliation
+Guardians of the Galaxy
+Portrayal
+Voice Actor
+Adam Harrington
+A flora colossus from Planet X, the alien known as Groot exhibits enhanced vitality and the ability to manipulate all forms of vegetation. As sturdy as a towering tree, Groot forges his own way, serving as the team's silent but reliable pathfinder.
+Official description
+Groot
+is a Vanguard
+hero
+in
+Marvel Rivals
+, and is the 11th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Jeff the Land Shark
+and
+Rocket Raccoon
+.
+Overview
+Strengths
+Mid-range bruiser with powerful area-of-denial abilities, capable of creating obstacles to protect his allies or block enemy fire.
+Has slightly higher health compared to other Vanguards.
+His primary fire, Vine Strike, extends Groot's arms to deal damage from a long range. Despite its appearance, it counts as a projectile.
+His secondary fire, Spore Bomb, launches a projectile which splits itself into six smaller shards upon impact. Can deal very high damage if both the main projectile and its splinters hit the target.
+His melee attack, Furious Flora, is distinct for dealing knockback every two hits. It can be weaved with his Vine Strike for higher damage-per-second.
+Groot is able to build wooden walls that can block enemy view; players can change the direction the walls are built to even serve as platforms. These interact directly with his passive, Flora Colossus, which grants Groot the ability to "awaken" the wooden walls if he's nearby them, which provides extra effects.
+Ironwood Walls have higher health (700) and are longer in width. When awakened they provide Groot with 40 bonus health-per-second (up to 250). Groot can only have one active at a time.
+Thornlash Walls have much lower health (250) and are shorter in width. When awakened they deal damage to enemies nearby that are attacked by Groot and his team. Groot can have up to three active at a time, and can build them continuously by holding the button.
+Throwing Spore Bomb directly at the wall if there is an enemy near it will cause the wall to lash out multiple times, both to the bomb as well to the split spores that spawn from it.
+Both walls can deny plenty of attacks and even Ultimates. In particular, it can block
+Jeff the Land Shark
+'s It's Jeff! if the wall is placed in front of him before he tries to devour the team, as it'll block his line of sight.
+Placing any of Groot's walls over certain hero-spawned obstacles will instantly destroy them, such as
+Peni Parker
+'s Arachno Mines,
+Moon Knight
+'s Ancient Ankhs, and
+Namor
+'s Aquatic Dominions.
+His Ultimate, Strangling Prison, launches vines that pull enemies in and imprison them for a few seconds while dealing damage-over-time. Enemies affected by this ability cannot move but are still able to attack and use non-mobility abilities.
+If the Groot throws the Ultimate at one of his walls, enemies will be pulled and pinned onto it.
+When paired with
+Rocket Raccoon
+and/or
+Jeff the Land Shark
+, they gain the ability to hop on Groot's shoulders, granting them 35% damage reduction.
+Weaknesses
+Requires proper skill to play effectively as the wooden walls can be detrimental to his own team since they can block his allies' own abilities.
+Not very effective in moving objectives since he is forced to constantly reposition his wooden walls and burn his cooldowns.
+Moving objectives will instantly destroy his walls if they are placed in front of them.
+Is vulnerable if both his wooden walls are on cooldown and destroyed.
+No mobility tools, combined with his rather slow speed and tall and large frame make him easy to hit.
+Lower attack range compared to other ranged heroes.
+The team-up ability with Rocket and Jeff can put them at risk since they are more frail and suited for the backline, while Groot needs to be in the frontlines.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+GROOT
+Default
+Abies Algae
+RARE
+Carved Traveler
+RARE
+Holiday Happiness
+EPIC
+Guardians of the Galaxy Vol. 3
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Groot
+Abies Algae
+Season 0
+Carved Traveler
+Rocket Raccoon & Groot
+(2016) #1
+Midnight Features II
+S1 Event
+Holiday Happiness
+Season 0
+Guardians of the Galaxy Vol. 3
+Guardians of the Galaxy Vol. 3
+(2023)
+See
+:
+List of MVP Animations
+DEFAULT
+Groot
+Unplanned Stumbles
+Holiday Happiness
+Next Journey
+Guardians of the Galaxy Vol. 3
+See
+:
+List of Emotes
+DEFAULT
+Groot
+Say Cheese!
+Holiday Happiness
+Awesome Dance
+Guardians of the Galaxy Vol. 3
+See
+:
+List of Sprays
+Groot
+Holiday Happiness
+Guardians of the Galaxy Vol. 3
+See
+:
+List of Nameplates
+Groot
+Holiday Happiness
+Guardians of the Galaxy Vol. 3
+Abilities
+Normal Attack
+VINE STRIKE
+Launch vines to attack enemies.
+CASTING -
+Single-cast projectile with delayed impact
+DAMAGE -
+70
+INTERVAL -
+0.7s
+MAXIMUM DISTANCE -
+20m
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+120m/s
+Abilities
+Q
+STRANGLING PRISON
+Fire a massive vine cluster that pulls nearby enemies to its center and Imprisons them.
+CASTING -
+Single-cast projectile with a downward delay that creates a spell field upon impact
+DAMAGE -
+The projectile deals 10 damage, while the spell field deals 70 damage. While imprisoning enemies, it deals 20 damage every 0.5s
+DURATION -
+3.5s
+RANGE -
+8m spherical radius
+PROJECTILE SPEED -
+60m/s
+ENERGY COST -
+2800
+SHIFT
+THORNLASH WALL
+Target a location and grow a Thornlash Wall. When Awakened, it strikes nearby enemies attacked by Groot and his allies.
+CASTING -
+Targeted
+DAMAGE -
+60/s
+CHARGES -
+2
+COOLDOWN -
+6s per charge
+MAXIMUM DISTANCE -
+18m
+ABILITY HEALTH -
+250
+E
+IRONWOOD WALL
+Target a location and grow an Ironwood Wall. When the wall is Awakened, damage dealt by Groot and nearby allies grants Groot Bonus Health.
+CASTING -
+Targeted
+HEALING -
+40 extra health per second, up to 250
+COOLDOWN -
+8s
+MAXIMUM DISTANCE -
+10m
+ABILITY HEALTH -
+700
+SPORE BOMB
+Throw an explosive Spore Bomb that splits into multiple small explosive spores.
+CASTING -
+Single-cast projectile with a downward delay that creates a spell field upon impact
+DAMAGE -
+The projectile itself deals no damage, while Spore Bomb deals 55 damage and explosive spores deal 10 damage
+COOLDOWN -
+6s
+RANGE -
+Spore Bomb generates a spell field with a 5m spherical radius, while small explosive spores create a spell field with a 1.5m spherical radius
+PROJECTILE SPEED -
+60m/s
+SPECIAL EFFECT
+⚬ Spore Bomb explodes into 6 explosive spores
+PASSIVE
+FLORA COLOSSUS
+Wooden walls near Groot will Awaken, activating an extra effect. Right-click while building a wooden wall to continue building additional walls.
+CASTING -
+Persistent spell field that surrounds the caster
+RANGE -
+A cylindrical spell field with a 20m radius and a height of 40m
+V
+FURIOUS FLORA
+Perform a combo with his arms, and the third strike will slightly Launch Up the hit enemy airborne.
+RANGE -
+The first two strikes can reach 3m, while the third strike can reach 4m.
+Team-Up Abilities
+PASSIVE
+FRIENDLY SHOULDER
+Jeff the Land Shark
+and
+Rocket Raccoon
+can ride on Groot's shoulders, receiving Damage Reduction.
+TEAM-UP BONUS -
++150 Max Health
+Strategy
+To be added
+Lore
+"I am Groot!"
+He is Groot, a flora colossus from the branch world of Planet X capable of manipulating plant matter and regrowing his damaged body from a single splinter. The hero at the heart of the Guardians of the Galaxy, Groot may not have many words to say, but his actions always speak for themselves.
+Groot accompanied Star-Lord and Rocket on a scouting mission to Klyntar, where they became stranded after their ship was shot down. Klyntar's dark king, Knull, now seeks to corrupt Groot's regenerative powers in an effort to cultivate the ultimate symbiote."
+—
+Biography
+Hero Story
+"We are Groot!"
+Groot Always Have Friends
+When the Milano crashed, Groot stood around for awhile watching
+Rocket
+and
+Quill
+argue about whose fault it was, but soon after, he got distracted by the voices from the jungle surrounding the ship graveyard. The strange creeping tones broke through alien foliage, flooding past the caps and reaching him, but Groot was far enough away that he couldn't decipher their language. Eventually, Rocket and Quill got on his nerves enough that he had to get away from them, so he went for a walk. As he walked away, he heard Rocket say, "See? Even Groot can't take your crap, Quill. I'm gonna go find a way out of here while you sit here and pretend you know how to fix the ship!" He heard Rocket stomping away in another direction, but Groot didn't try to meet up with him. Rocket needed time by himself sometimes, and so did Groot. Especially on strange planets that stank of death.
+The ship had come down near one end of the graveyard containing... hundreds of other ships? Maybe more? Groot wasn't good at counting. He wandered away from the fire that burned in the MIlano's crash path, finding himself at the edge of the jungle. The voices of the jungle spoke to him, and Groot stopped and stood still, trying hard to listen now that he was close enough to understand what they were saying.
+Away get away we'll hurt you if you get close
+A chill ran down Groot's branches, straight into his roots. He had never heard plants talk like this. He stayed still, letting his consciousness drift out and collect impressions like a pollinator floating from flower to flower.
+Hurt you hunger survival death prison
+Klyntar
+Hey, Groot thought to them. You don't have to be afraid.
+You don't belong here
+"I am Groot," Groot said. He looked at the edge of the jungle, where it tumbled over the hulks of wrecked ships, grew among them and over them, strove to reclaim them and make it as if they were never there. These were not plants like he had ever encountered. They were part plant and part... something else. Something from Klyntar, made of Klyntar. Beings of some kind, that could only exist when they bonded to something else, creating a new being that was part host and part parasite. Groot was horrified and fascinated.
+I'm new here, Groot thought.
+Go away go back where you came from
+It's all right, Groot emanated peace and kindness. I am Groot.
+None of them had names. They conferred among themselves, snapped at each other, screamed and wailed and whispered in pheromonal registers only they and Groot could understand. They were still afraid. Even more, they were confused by how friendly Groot was. He could feel that in their responses. It was like nobody had ever been friendly to them before.
+This planet must be a hard place to live, Groot communed.
+That idea confused them too, because it had never occurred to any of them that it was possible to live somewhere else, and they had never considered this place a "planet".
+Oh yes, friends, Groot expressed. I've been to dozens of other worlds. this one is... He struggled to find a thought that was honest without being hurtful. Tough, he thought. Not too friendly.
+What is friendly?
+Wow, Groot thought. So that's what he was dealing with.
+He tried to project a feeling of openness. Trust, feeling understood, and knowing you were never alone, surrounded by the people important to you.
+The jungle plants were still confused... but now they were also curious. Weakness was whispered back to Groot.
+No, Groot said. Trust takes strength.
+They considered this. He could feel their conflicting reactions, and Groot could not help but be astonished that none of the jungle plants had ever considered what was trust. It was so fundamental to his relationship with Rocket, and Quill, and the other Guardians...
+Heat seared his branches as a huge explosion bloomed over the junkyard. Groot flinched away from it, stepping into the jungle, and turned to look from the relative safety of the tangled vines and underbrush.
+The fire caused by the Milano's crash had spread, and finally found another ship with a reserve of fuel or ammunition. The mushroom cloud of the explosion still spread over Klyntar's black sky, and the fire was now racing across the graveyard. Towards the jungle.
+Panic and fear spread among the plants. Groot felt fear too, partly for them and partly for himself. Fire was any plant's worst enemy, worse even than drought. At least in a drought, you could hope for rain.
+Also, Groot could move. These plants...they might be part symbiote, but by and large they were still rooted to their spots.
+That meant Groot had to help them.
+He saw the fire approaching, licking along the lines of the crashed ship toward the edges of the graveyard, where the jungle had begun to reclaim the wrecks. Already some plants were forced out of their innate shape — black, slimy liquid dripping between their leaves, but their new symbiote form could not help them confront nor escape their natural enemy. Flowers screamed their pain, but there was no host for them with which to bond, no shelter for them to hide — so Groot got angry.
+In his anger he grew. Thousands of feet of roots dug into Klyntar's soil, spreading along the boundary of the jungle. Groot forced them out, felt them searching for nourishment and finding little, but still he grew them, until he had created an intertwined mat of roots under the soil, overlapping the edge of the jungle and the outermost crashed spaceships.
+Then, he closed his eyes and lifted them up. The earth heaved under those ships, toppling them over away from the jungle with a gargantuan sound of tearing roots and shifting earth. The pain of tearing the plant life from himself was nothing compared to the satisfaction Groot felt when the wall of roots and wrecked spaceships collapsed on the fire, suffocating it immediately where it had been threatening the jungle. Even those few embers that remained would have had to cross a firebreak fifty yards across to reach the jungle.
+Groot let the roots die off into the earth. He stood silently for a moment, recovering his strength as the fire sputtered and crackled among the jumbled wreckage. He was happy. Even better, he heard the voices of the jungle, and he could tell that his new plant friends were grateful.
+Groot save us Groot go save other friend, one of them said.
+What? Which friend? Groot looked back over the ship graveyard. The area around the Milano was still unburned, so unless Quill had gone wandering, he was fine.
+That left Rocket.
+One of the plants — thin leaves clinging to spine-liked stem with a mouth similar to symbiotes on the end of this stem — volunteered that it had seen a smallish mammal headed in the direction of the old complex of buildings.
+Groot didn't know where that was. The plant rustled and tensed some of its leaves. They pointed in a certain direction. When Groot looked that way, he saw two things. One, the fire had spread not just to the edge of the jungle but a complex of buildings he had somehow missed.
+Rocket is in there?
+The plant coiled in a struggling motion. That way.
+Groot thanked the plant and charged across the ship graveyard, giving the fire a wide berth and arriving at a corner of the building complex just as one side of it was catching fire. He punched through a wall on the other side. "I am Groot!" he roared over the sound of the fire.
+"Groot, you idiot! What took you so long? You think I'm in here for my health?"
+Rocket was alive! Groot charged into the building toward the sound of Rocket's voice. Halfway there, he ran straight into a group of tentacled black monsters. They were trying to get at Rocket, who was stuck inside a room with some kind of energy barrier blocking its doorway with turrets ripped out of the walls, strewn upon the floor.
+"I AM GROOT!" he roared, tearing the monsters apart. More came from the darkened halls and rooms. Groot tore them to pieces too, but there was still more, and still more. He knew he might not make it to Rocket, but that wasn't going to stop him from trying. Their fangs and claws stung his bark and tore at his roots. Groot roared and fought back. He heard Rocket calling his name, but he couldn't spare the focus to answer. All he could do at that moment was stay alive as the black monsters overran him.
+Then help came from an unexpected source. Fungi-like plants sprouted from the dark. Groot witnessed the fangs on their caps pierced through the monsters, tearing them apart, and the minor plants under their cover gobbled the pieces all up. We help! The plants called to Groot.
+"I am Groot!" he shouted back, glad to see his new friends — and feeling proud that on this planet where every plant was suspicious and hostile, he had helped them learn how to be friends.
+"Who are you talking to? I'm over here!" Rocket shouted.
+"I am Groot!"
+"What do you mean, it's hard to explain?"
+Groot didn't try to elaborate. He fought through the remaining symbiotes to reach Rocket, who was hunkered down in a small room with an energy barrier across the door.
+"I am Groot."
+"Yeah, I know." Rocket turned off the energy barrier. "How did you know I was here?"
+Groot turned and pointed at the symbiote plant, which was clinging to a corner of the corridor, extending its leaves, pretending to be a casual plant. Not a successful mimicry, obviously, for it was still trying to force the mouth on its stem to smile friendly. "I am Groot."
+"Groot, you moron! You trusted a symbiote to tell you how to help me escape from other symbiotes?"
+Groot looked at Rocket. "I am Groot."
+"I know it worked! Still..." Rocket gave up. "Whatever. Anyway, Quill needs help way worse than I do. Come on, we gotta get back tot he Milano before the symbiotes remember he's there." Rocket powered the energy barrier down and started detaching it from its fixtures in the doorframe. "Here, you gotta carry this. I'm gonna use it to fix the ship." He chuckled to himself. "Quill's gonna feel so dumb when I show him this trick. I love it."
+Groot picked up the energy barrier projection frame and started back toward the Milano. The voices of Klyntar's plants were still in his head. He felt proud of himself for what the symbiote plants had done, not because Groot could take credit for it, but because he had helped them see what they could do on their own, just by being friendly.
+He'd tell Rocket about it one day, but he knew deep down that Rocket already understood the power of friendship.
+Withering Groot
+(Coming soon. Stay Tuned!)
+Starport Seven-Day Adventure
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Tree Talk
+As Groot, issue a ping and receive a response from allies.
+5
+Vicious Vines
+As Groot, imprison four enemies with a single use of Strangling Prison.
+10
+Quotes
+See
+Groot/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Groot
+was released as the 11th character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 2 new costumes:
+Abies Algae
+and
+Guardians of the Galaxy Vol. 3
+.
+Added the
+Vicious Vines
+achievement.
+Added to the
+Planet X Pals
+Team-Up Ability
+with
+Rocket Raccoon
+and
+Jeff the Land Shark
+.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+Added 1 new costume:
+Holiday Happiness
+(Limited time store release: 2024/12/20 - 2025/01/10)
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase
+Thornlash Wall
+placement range from 15 meters to 18 meters.
+Added 1 new costume:
+Carved Traveler
+(unlocked from the
+Midnight Features II
+season missions)
+25/04/30:
+Version 20250430
+Reduce the health of
+Ironwood Wall
+from 700 to 600.
+Gallery
+Promotional
+Costume Origins
+In-Game Assets
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+"Guardians of the Galaxy Vol. 3" costume in
+Guardians of the Galaxy Vol. 3
+(2023)
+"Carved Traveler" costume in
+Rocket Raccoon & Groot
+(2016) #1
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+Groot along with
+Star-Lord
+and
+Rocket Raccoon
+in the "Of Gods and Guardian's"
+Gallery
+card.
+Trivia
+"I am Groot" is all Groot can say out loud. However, when he interacts with
+Emma Frost
+, she can hear his voice communicating normally through telepathy. Frost notes that he is very polite.
+[
+1
+]
+Navigation
+References
+↑
+Groot and Emma Frost Hero Interaction

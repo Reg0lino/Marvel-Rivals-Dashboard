@@ -1,0 +1,466 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Hela =====
+
+Hela
+"No one escapes Hel."
+Real Name
+Hela (ᚺᛖᛚᚨ)
+Aliases
+Goddess of Death
+Queen of Death
+Queen of Hel
+Biographical Information
+Birthplace
+Asgard
+Gender
+Female
+Eye color
+Green
+Hair color
+Black
+Relatives
+Loki
+(alt. younger brother)
+[
+1
+]
+Karnilla
+(wife)
+Powers/Skills
+Command over life and death
+Necromancy
+Weapon summoning
+Black magic
+Superhuman speed and strength
+Asgardian physiology
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Gods of Asgard
+Portrayal
+Voice Actor
+Nika Futterman
+Character Video
+As the Goddess of Death, Hela wields supreme control over the fallen souls residing in Hel. With a haunting whisper and a murder of crows, the queen of the underworld gracefully reaps the souls of her enemies without an ounce of mercy.
+Official description
+Hela
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 19th hero introduced to the game's roster.
+She has team-up abilities that work in conjunction with
+Loki
+and
+Thor
+.
+Overview
+Strengths
+Long-range specialist with decent mobility, high damage output, and potential for conditional area-of-effect explosions.
+Can fall slowly from heights.
+Her passive, Nastrond Crowstorm, creates a small explosion on the target's location when Hela deals the final blow.
+Her primary fire, Nightsword Thorn, is a high-damage hitscan attack.
+Her secondary fire, Piercing Night, throws four blades that explode after a few seconds. These projectiles can latch onto enemies, and each blade deals individual damage in addition to exploding after a brief duration.
+The blades will explode even if they are not attached to enemies.
+Soul Drainer is a lobbed energy sphere that deals minimal damage but can briefly stun multiple enemies in a small radius.
+This ability can even interrupt certain Ultimates.
+Astral Flock transforms Hela into a high-speed crow and allows her to fly forth in any direction, being useful as an escape or repositioning tool. She is completely immune to all damage and crowd-control abilities during flight.
+Her Ultimate, Goddess of Death, sends Hela high into the air. The player's field-of-view changes to first person, and the player can then throw Nastrond Crows that explode on impact in a huge radius and deal heavy damage.
+When activating Goddess of Death, Hela gains a hefty separate health bar of 1000 points. Even if this health bar is depleted, she will not die, but will instead revert to her normal form with the health she previously had before activating her Ultimate.
+When paired with
+Thor
+and/or
+Loki
+, she gains access to Queen of Hel, where she will instantly revive Thor and/or Loki when landing the final hit on an enemy. If either of them are alive, they will instead receive a small amount of bonus health.
+In addition, Queen of Hel also provides a team-up bonus damage of 15% (as of Season 1).
+Weaknesses
+Poor means to deal with divers, especially when Astral Flock is on cooldown.
+Lacks any self-sustaining abilities.
+Hela cannot be healed by teammates during Astral Flock's flight.
+Needs proper awareness to use her Ultimate, as she is completely stationary while in use; if she does it while within the enemy lines, she will return directly to her original position once the ability ends and will be put at risk of death.
+Needs to land the final hit on enemies to trigger her Queen of Hel team-up ability.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+HELA
+Default
+Ultimate
+RARE
+Will of Galacta
+RARE
+Empress of the Cosmos
+EPIC
+Yami no Karasu
+EPIC
+Goddess of Death
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Hela
+Ultimate
+Ultimatum
+(2008) #2
+Will of Galacta
+Season 1
+S1 Twitch Drop
+Empress of the Cosmos
+Season 0
+— S0 BattlePass —
+Yami no Karasu
+Season 2
+Goddess of Death
+Thor
+(1966) #354
+See
+:
+List of MVP Animations
+DEFAULT
+Hela
+Cosmos Domination
+Empress of the Cosmos
+Reaper's Embrace
+Yami no Karasu
+Army of Hel
+Goddess of Death
+See
+:
+List of Emotes
+DEFAULT
+Hela
+Great Galaxy
+Will of Galacta
+Pocket Galaxies
+Empress of the Cosmos
+Cinders of Chaos
+Yami no Karasu
+Soul Servants
+Goddess of Death
+See
+:
+List of Sprays
+Hela
+Hela Emblem
+Will of Galacta
+Empress of the Cosmos
+Yami no Karasu
+Goddess of Death
+See
+:
+List of Nameplates
+Hela
+Will of Galacta
+Empress of the Cosmos
+Yami no Karasu
+Goddess of Death
+Abilities
+Normal Attack
+NIGHTSWORD THORN
+Throw Nightsword thorns.
+CASTING -
+Single-cast hitscan
+DAMAGE -
+70
+AMMO -
+8
+FIRE RATE -
+2/s
+CRITICAL HIT -
+Yes
+DAMAGE FALLOFF -
+Falloff begins at 18m, decreasing to 80% at 30m
+Abilities
+Q
+GODDESS OF DEATH
+Soar into the sky and unleash Nastrond Crows from each hand at will.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+DAMAGE -
+125
+DURATION -
+10s
+FIRE RATE -
+1.79/s
+RANGE -
+6m spherical radius
+PROJECTILE SPEED -
+80m/s
+DAMAGE FALLOFF -
+32% falloff at 4m
+ABILITY HEALTH -
+1000
+ENERGY COST -
+4000
+SHIFT
+ASTRAL FLOCK
+Transform into a Nastrond Crow to glide forth, press again to undo the transformation.
+CASTING -
+Dash
+COOLDOWN -
+12s
+DASH SPEED -
+15m/s
+DASH DISTANCE -
+18m
+SPECIAL EFFECT
+⚬ Invincible while transformed
+E
+SOUL DRAINER
+Project an explosive Hel sphere to Stun nearby enemies.
+CASTING -
+Arced projectile that generates a spell field upon impact
+DAMAGE -
+1 (projectile) - 40 (spell field damage)
+DURATION -
+0.3s
+COOLDOWN -
+12s
+RANGE -
+3m spherical radius
+PROJECTILE SPEED -
+40m/s
+PIERCING NIGHT
+Fire multiple Nightsword thorns that detonate after a delay.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+DAMAGE -
+10 (per projectile) - 30 (spell field damage per round)
+COOLDOWN -
+8s
+PROJECTILE SPEED -
+80m/s
+NUMBER OF PROJECTILES -
+4
+ABILITY DELAY -
+3s
+SPECIAL EFFECT
+⚬ Projectiles stick to enemies on hit
+PASSIVE
+NASTROND CROWSTORM
+Defeating an enemy will generate a Nastrond Crow, exploding after a duration.
+DAMAGE -
+80
+RANGE -
+5m spherical radius
+ABILITY DELAY -
+1.8s
+SPACE
+HEL'S DESCENT
+Hold Space to fall slowly.
+MOVEMENT SPEED -
+6m/s (horizontal movement) - 3.5m/s (descent speed)
+Team-Up Abilities
+PASSIVE
+QUEEN OF HEL
+When Hela lands a final hit in defeating an enemy, she can instantly resurrect
+Loki
+and
+Thor
+in the respawn phase, or grant them Bonus Health if they are still alive.
+TEAM-UP BONUS -
+20% Damage Boost
+Strategy
+To be added
+Lore
+"My domain will one day encompass all souls."
+The Asgardian Goddess of Death, Hela is a powerful sorceress who controls an endless army of undead warriors. She has long sought to expand her domain beyond the nether realms and will make any deal that benefits her goal. Hela will not rest until all souls — living and dead — are hers to command.
+Hela offered to support Loki's coup in exchange for an extension of Hel's territory into the realm of the living. In truth, though, she seeks to claim
+Yggsgard's
+throne — and the temporal power that comes with it — for herself.
+—
+Biography
+Hero Story
+"All the Ten Realms, and much beyond, would lie easily within Niflheim's borders."
+Messenger of the Abyss
+From the throne atop her realm, the Queen of Hel recalled feeling the shattering of worlds, the sundering of realities as unknown forces knit them together again. Differently. She remembered venturing forth into her kingdom, only to discover that in Hel little had changed. However, Hela suspected once she traveled beyond her realm, she would see profound changes - and when she had worked enchantments to gaze upon worlds newly interwoven with the Ten Realms, her suspicions were confirmed. Mortals had done this? Remade time itself? Broken it and rewound different streams into a different braid or worlds?
+What power was this for men to wield?
+Immediately, Hela set about scheming a way to make it hers.
+First, she knew, she must understand Chronovium. One of her thralls, in life a great wizard-king, had brought to her a stone of a sort she had never seen before in Hel. She had paid it little mind until she grasped what the mortal
+Victor von Doom
+had done. Then, she sent the flock. Her crows scouted other realms, all returning bearing samples of Chronovium, the crystallized residue of the monstrous shocks to the space-time continuum. And yet, they all differed slightly from the version in Hel and from one another.
+Whoever learned best to control it, Hela knew, would rule worlds beyond Asgard. Beyond the Ten Realms.
+Hela's intrigue deepened. New lands meant expanding the borders of Hel and welcoming vast numbers of new creatures into her ever-growing legions, perhaps even claiming the souls of the great beings known as Celestials. Only recently had she become aware of them, and then only through a new soul in Hel, cast there from another universe by the - what had he called it? - the Timestream Entanglement. This pitiful mortal, who met their end in the event, spilled forth knowledge of vast realms of space filled with fantastic creatures.
+At a wave of her hand, Hela's crows feasted on the mortal's soul, her mind settling on a goal. The souls, and thus the power, of these great beings would belong to her. And when they did, she would sweep unchallenged through the Ten Realms, uniting them under the banner of Hel. Undoubtedly,
+Loki
+was hatching his own schemes to utilize Chronovium to increase his own power and ensure Asgard never slipped from his grasp, but Loki's schemes never worried Hela. Often, his petty obsessions and caprices benefited her by causing conflicts that added to her legions. At some point, she suspected, he would approach her proposing some sort of arrangement. Perhaps an alliance. Perhaps she would consent, and they would begin the dance of waiting for the right moment to betray each other. The joys of family.
+Until then, she would proceed with her own plans, which led her to the current moment, as a messenger from a distant place she had never heard of before. Her initial response was to annihilate it for the arrogant crime of trespassing in her realm. However, it seemed to her that these disruptions of time and space could be a gift. Had it not opened vast new possibilities for Hel? Surely, she should learn what new worlds - new universes! - now lay within her grasp.
+So, her crows stood perched while the otherworldly emissary trudged into her throne room.
+It was a strange creature, appearing like blobs and tendrils of a tarry black substance bonded with a host. Its liquid flesh mingled aspects of its own nature and that of its host - currently a Jotun priestess. Even though she was no longer alive, enough of the Jotun's soul was still present for Hela to feel her horror at being bound to such a monstrosity. How curious.
+The creature, however - the symbiote - had no such misgivings, or at least did not betray them.
+"Tell me, little creature. What brings you to this place?"
+"You would do well to listen, Queen of Death," it said. "I bring tidings from
+Knull
+, mighty lord of the abyss."
+"And what is a 'Knull'? Is he the god of all creatures such as you?" She made no effort to hide her scorn. This Knull was, in all likelihood, as debased and parasitic as its worshipper who stood before her.
+"His power is eons older than yours, ancient before light existed, and he has his own claims on creatures whose essences he has consumed."
+Ah, Hela thought. Of course. "I take it he means to claim the Celestials as well?"
+The symbiote nodded and flicked out its tongue. "Knull has learned that one of the Celestials is now in this realm. You cannot keep it, Asgardian. It is his to claim and it will be the key to his freedom."
+"I cannot?" Hela stood from her throne. "Bold of you, parasite, to tell me what I can and cannot do in my own realm. What enters Hel is mine, forever. In fact," she said, giving the symbiote a closer look, "perhaps I will even keep you. What manner of soul does a creature like you possess?"
+The symbiote remained still. Hela let it wonder for quite a while, as she pondered what she had already learned. The key to his freedom, the emissary had said. So, this Knull was a god in chains, yet he still possessed the reach to send a message to Hel. He knew the power of Celestials. He knew that the tangled worlds had brought new souls into Hel.
+Therefore, there must now be a way from Hel to... "What is the world you come from, creature?"
+"
+Klyntar
+, O Queen."
+A name she knew vaguely. People from a culture long since annihilated had once come to her realm from there. She considered a little longer.
+"I release you," she said. "Now, release your host."
+The symbiote did,  peeling and secreting and withdrawing from the skeletal form of the Jotun priestess. "Return to your master," Hela went on, "and tell him that he may rule Klyntar, but Hela rules Hel. And if he wishes to fight me..." she smiled. "Then he too will become one of my subjects. Do you have that, messenger?"
+The symbiote mass quivered, but without a host it could not speak. Hela worked a spell, drawing forth knowledge from its mind. She swirled open a gateway to a world of darkness, an impenetrable jungle where no sane mortal would tread. "Go," Hela said, "before I change my mind."
+The symbiote sprang through the gateway and was gone. Hela let the gateway close. Now, Knull knew that she could reach out to his world directly. Let him think on that and consider his next move.
+Hela gathered up a mass of Chronovium, imbued with the essence of Hel. Just as all lives must end, she reflected, all things must move through time. Did it not follow that all time ended in Hel as well? And did it not follow that Hel could grow through this crystallized time, encompassing new realms brought near by the entanglement of worlds?
+The Hel-Chronovium was shot through with black and green. She spoke to it, shaping it into an enchantment, the first of many. "All living beings," she said, "in all realms, in all universes. They shall be thralls of Hel. They need not come to me. I will use you, Chronovium, to expand Hel not through space but through time. Beings more ancient than stars will be mine, and beings not yet born will be mine. This is a powerful magic and will take some time to work. But it shall be done, and then Knull? She smiled. "He will be mine as well."
+She suspected that the symbiote emissary was not Knull's only gambit. Doubtless he was plotting against her, seeking ways to undermine her and the reach of Hel. Let him, she thought. Let him beguile mortals and persuade greedy gods that they can band together against me. That would bring them all the closer - and as she had already told the symbiote emissary, whatever entered Hel was Hela's. Unless she chose to let it go.
+And soon, souls would no longer come to Hel, Hel would come to them. Her realm would grow outward through time, drawing in numberless souls until she had an army so vast not even gods could hope to resist it. The Ten Realms were just the beginning.
+She spun the black and green Chronovium jewel over her palm. "Yield to me your secrets," she commanded. "Bring to me the future, as I already rule the past."
+Sunrise in the Land of Dusk
+(Coming soon. Stay Tuned!)
+Six Magpies
+(Coming soon. Stay Tuned!){
+Achievements
+Icon
+Name
+Description
+Ragnaroked
+As Hela, partner with Loki to take down an enemy Thor.
+5
+Terror of the Ten Realms
+As Hela, land a 3-player KO streak in Yggsgard: Yggdrasill Path.
+10
+Quotes
+See:
+Hela/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Hela
+was released as the 19th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 3 new costumes:
+Ultimate
+,
+Goddess of Death
+, and
+Empress of the Cosmos
+.
+Added the
+Terror of the Ten Realms
+achievement.
+Added to the
+Ragnarok Rebirth
+Team-Up Ability
+with
+Thor
+and
+Loki
+.
+24/12/10:
+Version 20241210
+In the foggy areas of
+Intergalactic Empire of Wakanda: Hall of Djalia
+and
+Intergalactic Empire of Wakanda: Birnin T'Challa
+: Fog would disappear from
+Hela
+and
+Storm
+'s perspectives when they activated their Ultimates. This issue has been resolved.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Reduce base health from 275 to 250.
+Reduce
+Hela
+'s
+season bonus
+from 20% to 15%.
+Added 1 new costume:
+Will of Galacta
+.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+The damage falloff of
+Nightsword Thorn
+at 30 meters will be changed from 70% to 80%.
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Resolved an inconsistency where
+Hela
+would sometimes be launched up after unleashing her Ultimate Ability. The Goddess of Death will now fly firm to rain destruction her foes!
+Fixed an issue where after
+Hela
+releases her Ultimate Ability, sometimes she may not be immediately detected when near the mission vehicle. Now her presence will be felt.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase cooldown time for
+Astral Flock
+from 12 seconds to 15 seconds.
+Increase Spell Field Damage of
+Piercing Night
+from 30 to 35.
+Decrease cooldown time for
+Soul Drainer
+from 12 seconds to 10 seconds.
+25/04/25:
+Version 20250425
+/
+Giant-Size Brain Blast
+Event
+Added 1 new costume:
+Yami no Karasu
+.
+Gallery
+Other
+Costume Origins
+Hela - 'Queen of Hel' - Character Reveal - Marvel Rivals
+Marvel Rivals - Console Announce Trailer
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+"Ultimate" costume in
+Ultimatum
+(2008) #2
+"Goddess of Death" costume in
+Thor
+(1996) #354
+Trivia
+Despite being the daughter of
+Loki
+in the comics, there is a possibility that Loki and
+Thor
+are her brothers in this game,  just like in the MCU. This is further proved in their dialogue in Loki's lore "Destined Kingship":
+Loki:
+"O sister, great queen, it– "
+Hela:
+"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."
+It's not clear whether this version of her is Odin's daughter or Thor's sister.
+↑
+Loki:
+"O sister, great queen, it– "
+Hela:
+"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."

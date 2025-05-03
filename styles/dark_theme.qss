@@ -1,0 +1,173 @@
+/* Stylesheet for Marvel Rivals Dashboard - Fixed Sizes */
+
+QMainWindow, QWidget {
+    background-color: #282828;
+    color: #E5E5E5;
+    font-size: 11pt; /* base_font_size */
+}
+
+QDialog#InfoPopupDialog {
+    background-color: #333333;
+    color: #E5E5E5;
+    border: 2px solid #555555;
+    border-radius: 8px;
+}
+
+QDialog#InfoPopupDialog QLabel#PopupTitleLabel {
+    background-color: transparent;
+    font-weight: bold;
+    color: #E5E5E5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12pt; /* header_font_size */
+}
+
+QDialog#InfoPopupDialog ZoomableTextWidget {
+    background-color: #2F2F2F;
+    color: #E0E0E0;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QDialog#InfoPopupDialog QPushButton#PopupCloseButton {
+    background-color: rgba(200, 30, 30, 0.8);
+    color: #FFFFFF;
+    font-size: 16px; /* Kept fixed */
+    font-weight: bold;
+    border: 1px solid #FF6060;
+    border-radius: 11px;
+    min-width: 22px;
+    max-width: 22px;
+    min-height: 22px;
+    max-height: 22px;
+    padding: 0px;
+    margin: 0px;
+}
+QDialog#InfoPopupDialog QPushButton#PopupCloseButton:hover {
+    background-color: rgba(220, 40, 40, 0.9);
+}
+QDialog#InfoPopupDialog QPushButton#PopupCloseButton:pressed {
+    background-color: rgba(180, 20, 20, 0.9);
+}
+
+QScrollArea {
+    border: none;
+    background-color: #282828;
+}
+QScrollArea#InfoButtonScrollArea {
+    background-color: transparent;
+}
+QScrollArea#InfoButtonScrollArea QWidget {
+    background-color: transparent;
+}
+
+
+QScrollBar:vertical {
+    border: 1px solid #444;
+    background: #3a3a3a;
+    width: 14px;
+    margin: 14px 0 14px 0;
+    border-radius: 2px;
+}
+QScrollBar::handle:vertical {
+    background-color: #6a6a6a;
+    min-height: 25px;
+    border-radius: 7px;
+}
+QScrollBar::handle:vertical:hover {
+    background-color: #7a7a7a;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none; background: none; height: 14px; subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    background: none;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* Horizontal Scrollbar */
+QScrollBar:horizontal {
+    border: 1px solid #444; background: #3a3a3a; height: 10px; margin: 0 14px 0 14px; border-radius: 2px;
+}
+QScrollBar::handle:horizontal {
+    background-color: #6a6a6a; min-width: 25px; border-radius: 5px;
+}
+QScrollBar::handle:horizontal:hover {
+    background-color: #7a7a7a;
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none; background: none; width: 14px; subcontrol-origin: margin;
+}
+QScrollBar::left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    background: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+
+QGroupBox, CollapsibleGroupBox {
+    color: #E5E5E5; border: 1px solid #555555; margin-top: 15px; padding: 5px 5px 5px 5px; border-radius: 5px;
+}
+QGroupBox#StaticInfoBox { padding-top: 20px; }
+QGroupBox#JumpBarGroupBox { padding-top: 20px; margin-top: 5px; }
+
+
+QGroupBox::title, CollapsibleGroupBox::title {
+    subcontrol-origin: margin; subcontrol-position: top left; left: 10px; padding: 0 5px 0 5px; color: #CCCCCC;
+    font-size: 13pt; /* group_title_font_size */
+    font-weight: bold;
+}
+CollapsibleGroupBox[hasToggleButton="true"]::title { left: 28px; top: 0px; }
+
+QLabel {
+    color: #E5E5E5; background-color: transparent; border: none; padding: 1px;
+    font-size: 11pt; /* base_font_size */
+}
+QLabel#CharacterNameLabel {
+    margin-bottom: 6px;
+    font-size: 30pt; /* character_name_font_size */
+}
+QLabel#RoleLabel, QLabel.StatLabel {
+    margin-bottom: 2px;
+    font-size: 12pt; /* header_font_size */
+}
+QLabel#ImageNotFoundLabel { font-style: italic; }
+
+#StaticInfoLabel a, #JumpBarLabel a { color: #77C4FF; text-decoration: none; }
+#StaticInfoLabel a:hover, #JumpBarLabel a:hover { color: #AADDFF; text-decoration: underline; }
+
+QGroupBox ZoomableTextWidget, CollapsibleGroupBox ZoomableTextWidget {
+    color: #E0E0E0; background-color: rgba(0,0,0,0.15); border: none; padding: 4px; border-radius: 3px; margin-bottom: 3px;
+}
+
+QLineEdit { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #555555; border-radius: 4px; padding: 3px 6px; }
+QComboBox { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #555555; border-radius: 4px; padding: 3px 6px; }
+QComboBox::drop-down { border: none; width: 18px; }
+QComboBox QAbstractItemView { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #666666; selection-background-color: #5A5A5A; }
+
+QPushButton { background-color: #505050; color: #E0E0E0; border: 1px solid #656565; padding: 4px 8px; border-radius: 4px; min-height: 18px; }
+QPushButton:hover { background-color: #606060; border: 1px solid #757575; }
+QPushButton:pressed { background-color: #454545; }
+QPushButton#InfoButton {
+    font-size: 10pt; /* info_button_font_size */
+    padding: 4px 9px;
+}
+QPushButton#FavoriteButton { background-color: transparent; border: none; padding: 2px; color: #AAAAAA; font-size: 18px; font-weight: bold; }
+QPushButton#FavoriteButton[favorited="true"] { color: #FFD700; }
+QPushButton#ExitButton { background-color: rgba(200, 30, 30, 0.8); color: #FFFFFF; font-size: 14px; font-weight: bold; border: 1px solid #FF6060; border-radius: 11px; min-width: 22px; max-width: 22px; min-height: 22px; max-height: 22px; padding: 0px; }
+QPushButton#ExitButton:hover { background-color: rgba(220, 40, 40, 0.9); }
+QPushButton#ExitButton:pressed { background-color: rgba(180, 20, 20, 0.9); }
+QPushButton#CollapseButton { background-color: transparent; border: none; color: #B0B0B0;
+    font-size: 12pt; /* collapse_button_font_size */
+    font-weight: bold; padding: 0px 2px; margin: 0px; min-width: 16px; max-width: 16px; min-height: 16px; max-height: 16px;
+}
+ QPushButton#CollapseButton:hover { color: #D0D0D0; }
+
+QLabel#JumpBarLabel { padding: 0px; margin: 1px; border-radius: 3px; }
+QLabel#JumpBarLabel:hover { background-color: rgba(255, 255, 255, 0.1); }
+
+QGroupBox#JumpBarGroupBox > QWidget { background-color: transparent; border: none; padding: 0px; margin: 0px; }

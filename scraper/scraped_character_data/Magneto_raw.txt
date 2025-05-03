@@ -1,0 +1,527 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Magneto =====
+
+Magneto
+"Be wary, no timeline exists where Magneto yields."
+Real Name
+Max Eisenhardt
+Aliases
+Erik Lehnsherr
+Magnus
+Master of Magnetism
+Auschwitz I.D. #24005
+Biographical Information
+Birthplace
+Nuremberg, Germany
+Gender
+Male
+Eye color
+Blue
+Hair color
+White
+Relatives
+Pietro Maximoff
+(alt. son)
+Wanda Maximoff
+(alt. daughter)
+Powers/Skills
+Mastery over all forces of magnetism
+Energy Manipulation
+Magnetic Force Fields
+Electromagnetic Pulse
+Flight
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Vanguard
+Health
+650
+Difficulty
+Affiliation
+X-Men
+Brotherhood of Mutants
+(formerly)
+Portrayal
+Voice Actor
+James Arnold Taylor
+The Master of Magnetism bends even the strongest metal to his whims, shielding his allies and striking at his foes. Whether he calls himself Max Eisenhardt, Erik Lehnsherr, or simply Magneto, the hardships this warrior has endured have made him as unbreakable as the steel he brandishes.
+Official description
+Magneto
+is a Vanguard
+hero
+in
+Marvel Rivals
+, and is the 14th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Emma Frost
+and
+Psylocke
+.
+Overview
+Strengths
+Defensive-oriented yet with a strong offensive power, capable to protecting his allies with on demand shields, as well being able to block projectiles. He shines in defensive objectives. While he cannot fly, he can fall slowly after falling from high heights.
+His primary fire, Iron Volley, shoots relatively slow moving projectile blasts. There is a small delay in-between shots.
+These projectiles explode after traveling 25 meters, or upon impact, generating a spell field that deals damage in a small radius.
+His secondary fire, Mag-Cannon, launches a projectile which damage scales on the iron rings on his back. The number of stacks (up to three) can be seen physically on the character but are also shown on screen by the arrow-shaped icon right below the aiming reticle. At max stacks, Mag-Cannon deals knockback to enemies.
+Magneto can shield his allies and himself using his electromagnetic fields with Metal Bulwark and Iron Bulwark, respectively. Shown as a purple bubble around the target, it expires after 2.5 seconds or after absorbing up to 300 damage.
+Despite being separate abilities, they share the same cooldown.
+All damage dealt while shielded converts into energy for Magneto's iron rings that fuel his Mag-Cannon.
+Metallic Curtain functions similarly to
+Doctor Strange
+'s Shield of the Seraphim, projects a magnetic field shield in front of him that absorbs all incoming projectiles while moving at a slower speed. The shield has no health, but is on a resource meter.
+This ability can even block certain Ultimates, such as the blasts shot by
+Hela
+'s Goddess of Death and
+Iron Man
+'s Invincible Pulse Cannon.
+His Ultimate, Meteor M, has Magneto floating up into the sky and charging-up a magnetic meteor that he can unleash upon will, to strike in a large radius. The damage of the meteor increases over-time before releasing.
+The true power of this Ultimate is when used defensively, as while channeling the meteor, a magnetic field around Magneto absorbs any enemy projectiles shot in his general direction, which adds extra damage for Meteor M.
+This allows Magneto to directly counter other Ultimates, such as
+Star-Lord
+'s Galatic Barrage.
+This Ultimate can potentially be devastating when combining the base damage with added damage from absorbed enemy projectiles.
+Weaknesses
+Limited mobility and unable to fly, despite having slow fall.
+Surprisingly frail if his shields are on cooldown.
+His shields share a cooldown, meaning he requires proper timing to use them.
+Unlike Doctor Strange, he can't hold his Metallic Curtain indefinitely.
+If Magneto absorbs too many projectiles while charging Meteor M (displayed by a gauge when he casts), the Ultimate will be cancelled.
+The overloading is based on the number of projectiles, not their damage output. This means that certain attacks that fire multiple projectiles at once, such as
+The Punisher
+'s Deliverance shotgun, will absorb more projectiles than his Adjucation automatic rifle.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+MAGNETO
+Default
+Uncanny Blacksteel
+RARE
+Will of Galacta
+RARE
+King Magnus
+EPIC
+Master of Magnetism
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Magneto
+Uncanny Blacksteel
+Magneto
+(2014) #1
+Will of Galacta
+Season 0
+S0 Twitch Drop
+Master of Magnetism
+Uncanny X-Men
+(1963) #1
+King Magnus
+House of M
+(2005) #6
+— S1 BattlePass —
+See
+:
+List of MVP Animations
+DEFAULT
+Magneto
+Final Warning
+Master of Magnetism
+For All Mutants
+King Magnus
+See
+:
+List of Emotes
+DEFAULT
+Magneto
+Cosmic Collapse
+Will of Galacta
+Past No More
+King Magnus
+Magnetic Steps
+Master of Magnetism
+See
+:
+List of Sprays
+Magneto
+Magneto Emblem
+Will of Galacta
+Master of Magnetism
+King Magnus
+See
+:
+List of Nameplates
+Magneto
+Will of Galacta
+Master of Magnetism
+King Magnus
+Abilities
+Normal Attack
+IRON VOLLEY
+Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown.
+CASTING -
+Single-cast projectile with delayed impact that also generates a spell field
+DAMAGE -
+Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center
+CHARGES -
+10
+INTERVAL -
+0.8s
+RANGE -
+Initially, it produces a spell field with a 1m spherical radius; when the projectile reaches maximum distance, the explosion radius expands to a spell field with a 3m spherical radius
+MAXIMUM DISTANCE -
+25m
+PROJECTILE SPEED -
+80m/s
+Abilities
+Q
+METEOR M
+Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct.
+CASTING -
+Create a persistent spell field that launches a projectile upon completion, which generates another spell field on impact
+DAMAGE -
+The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 300 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center
+DURATION -
+4s
+PROJECTILE SPEED -
+30m/s
+SPELL FIELD RANGE -
+Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius
+PROJECTILE ABSORPTION RANGE -
+15m spherical radius
+ENERGY COST -
+3100
+SPECIAL EFFECT
+⚬ For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage
+SHIFT
+METALLIC CURTAIN
+Change the magnetic field around to form a metallic curtain, blocking all incoming projectiles.
+CASTING -
+Shield
+COOLDOWN -
+3s
+MAXIMUM ENERGY -
+100
+ENERGY RECOVERY DELAY -
+1s
+ENERGY RECOVERY SPEED -
+11/s
+ENERGY COST -
+65/s
+E
+METAL BULWARK
+Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.
+CASTING -
+Targeted
+DURATION -
+2.5s
+COOLDOWN -
+12s
+MAXIMUM DISTANCE -
+20m
+MAXIMUM SHIELD VALUE -
+300
+SPECIAL EFFECT
+⚬ Cooldown shared with
+Iron Bulwark
+⚬ The shield grants one charge of Iron Ring for every 100 damage it absorbs
+F
+IRON BULWARK
+Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back.
+DURATION -
+2.5s
+COOLDOWN -
+12s
+MAXIMUM SHIELD VALUE -
+300
+SPECIAL EFFECT
+⚬ Cooldown shared with
+Metal Bulwark
+⚬ The shield grants one charge of Iron Ring for every 100 damage it absorbs
+MAG-CANNON
+Convert the iron rings on Magneto's back into a
+Mag-Cannon
+and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies.
+CASTING -
+Single-cast projectile with delayed impact
+DAMAGE -
+40 (Iron Rings first charge)
+65 (Iron Rings second charge)
+90 (Iron Rings third charge)
+COOLDOWN -
+No cooldown, but the ability can only be activated when the Iron Ring has at least one charge
+PROJECTILE SPEED -
+120m/s
+SPECIAL EFFECT
+⚬ When fully charged,
+Mag-Cannon
+has a 6m knockback distance
+SPACE
+MAGNETIC DESCENT
+Hold Space to fall slowly.
+MOVEMENT SPEED -
+6m/s (horizontal) - 3.5m/s (descending)
+Team-Up Abilities
+C
+MAGNETIC RESONANCE
+Emma Frost
+can form a mental link with Magneto and
+Psylocke
+, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.
+INVISIBILITY DURATION -
+1s
+DUPLICATE DAMAGE REDUCTION -
+70%
+DUPLICATE MAX DAMAGE RECEIVED -
+150
+COOLDOWN -
+30s
+SPECIAL EFFECT -
+Upon release, Magneto and his Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage
+Strategy
+To be added
+Lore
+"Perhaps we should give these humans good reason to hate and fear us after all."
+Max Eisenhardt was born with a near-limitless Mutant ability to manipulate magnetic fields. Suffering a lifetime of persecution, Magneto made it his mission to ensure the survival of Mutantkind, no matter the cost. His uncompromising crusade often puts him at odds with other Mutants who seek more peaceful ways to coexist with humanity.
+Magneto led the campaign to gather the planet's Mutant population and transport them decades into the future to a safe haven on the sentient island Krakoa, protecting his brethren from the growing dangers of the wider world.
+—
+Biography
+Hero Story
+"It is in the interest of all Mutants that we succeed this day. And so we shall."
+Trial of Magneto
+As he gazed off into the distance towards the line where the ocean met the sky, Magneto's cape fluttered gently in the calm breeze that was drifting across the coast of the sentient island nation of Krakoa. His was a life far longer than most people ever had the chance to live, and this was one of the few moments of true peace that he could recall. But he knew from experience it would not last for long. It never did.
+"Something on your mind, old man?" a familiar voice asked from above, breaking the silence. As Magneto glanced up, there, hovering on the wind like a majestic goddess, was Ororo Munroe — the Mutant weather manipulator known as
+Storm
+.
+"Funny, isn't it," mused Magneto, "that we fought all those years for a better future for Mutantkind… and now we have finally found it, further in the future than any of us ever imagined."
+Not so long ago, the sovereign nation of Krakoa had been swept up in a chronal storm — a time-twisting anomaly that would have ripped the island to bits if not for Ororo's deft manipulation of its tumultuous currents. Instead of becoming lost in the timestream forever, Krakoa arrived safely on the other side of the tempest in the year 2099. The future that Mutantkind had always dreamed of was finally theirs to claim. And Magneto was never one to let such an auspicious opportunity pass him by.
+"It matters not what century we are in," Storm said. "What matters is that our people have a home here on Krakoa, thanks to you, Erik…"
+Magneto cringed as his old friend called him by his human name. True, he had gone by many of them over the decades — Max Eisenhardt, Erik Lehnsherr, Magnus — but they were monikers he had merely tolerated in order to better fit into a world where Homo Sapiens still believed themselves in control. Here, in this new era, he could choose a name that spoke to who he truly was. Magneto — the Mutant Master of Magnetism.
+"I may be leading the cause to find our fellow Mutants and bring them to this safe harbor, my dear," said Magneto, "but the success of this crusade cannot be attributed to one Mutant alone."
+"You're damn right it can't, bub," a grizzled voice snarled from the edge of the jungle that bordered Krakoa's shore.
+Magneto and Storm both turned to see a familiar figure walking out of a newly-blossomed Krakoan gate. The short, hairy figure looked as though he had just been to hell and back. And knowing
+Wolverine
+, that could very literally be the case. Alongside Wolverine stood a young Mutant, just old enough for her powers to begin manifesting.
+"Found the kid who got sucked through that dimensional rift," Wolverine continued. "She's lucky I went in there after her. Limbo is no place for a new Mutant."
+"I couldn't disagree more," another voice said, this one with a hint of a Russian accent. "This New Mutant has managed just fine there."
+"Illyana? Can it truly be?!" Storm rushed over to the young woman who had just stepped through the gateway, instantly wrapping her in an embrace. For years, Illyana Rasputin, the Mutant teleporter known as
+Magik
+, had been like a daughter to Storm. Before she was claimed by the darkness of Limbo… Before…
+"Nice to see you too, Windrider," said Magik with an uncomfortable smirk. "It's been… longer than I care to remember…"
+Magneto stepped towards the new arrival, not embracing her, but examining her closely instead. There was something strange about her. It was clear that she had walked a far different path than the Illyana Rasputin of his world. This child had been hardened by the horrors of war, something to which Magneto himself could closely relate.
+"You are not the child we once knew," Magneto said. "But you are welcome here on Krakoa. All Mutants are, regardless from where or when they hail."
+"How about people who grew up thinking they were Mutants, only to have their entire world turned upside down when they learned the truth years later…?"
+Magneto audibly gasped as the question was asked by another woman who had just arrived through the Krakoan gateway. His gaze instantly shifted over to her as she walked forward. Her every step stirred ripples across his memory, for he had been there when she had taken her very first ones so many years ago.
+"Wanda…"
+"Hello, father," the
+Scarlet Witch
+said as she approached Magneto with a calm confidence that few had ever shown in his presence. She reached up and began to slowly remove Magneto's helmet, an action that would almost certainly be met with instant retaliation should anyone else attempt it. But Magneto stood as silent as solid steel, simply basking in the magic of his long lost daughter's company. His stoic expression softened as Wanda leaned in and gave him a gentle kiss on the cheek.
+"How… How can you be here?" Magneto managed to say. He could bend Adamantium into any shape with his Mutant power, but these simple words were somehow nearly impossible to form.
+"It took a bit of work," Wanda mused. "I'm not technically a Mutant like you, after all, which means Krakoa wouldn't normally let me through its gates. But a touch of chaos magic did the trick."
+"What I meant to say is…"
+"Oh…" Wanda's playful tone vanished faster than a stage magician's pet rabbit. "Your Wanda… She's gone, isn't she? I'm sorry… This must be difficult…"
+"Quite the opposite," Magneto said, regaining his composure. "To see your face again, to hear your voice, to know that — somewhere in this vast Multiverse a version of you has thrived — is perhaps the least difficult thing I could ever conceive. It is all that any father ever wants."
+"I wouldn't say I've been thriving, exactly," Wanda admitted. "I've been holding my own universe together by its threads for far too long. I truly believed that I was its only hope to survive."
+"Like father, like daughter," chuckled Wolverine.
+"But I've started to see the bigger picture," Wanda continued. "We're all fighting our own wars. The only chance we have of winning them and keeping all of our universes intact is if we start fighting together."
+"Speakin' of fightin', I'm late for a date with
+Natasha
+," Wolverine said. "We've got ourselves a tin-plated dictator that needs overthrowin'."
+Magneto almost chastised Wolverine for entrenching himself in the petty squabbles between the humans of this era, but he paused for a moment and considered his daughter's words. Perhaps she was right. Perhaps his own war to preserve Mutantkind was just one battle of many, all of them equally important.
+"Since Krakoa arrived in this future, my allegiance has been to Mutantkind alone," said Magneto. "I felt it best to isolate our people in order to protect them. But your words inspire me, my dear. It is clear that no Mutant is an island."
+"Except Krakoa, da?" Magik chimed in playfully.
+"In order to commit to such an alliance, however, it must be a mutually beneficial one," Magneto continued. "There are still Mutants out there, lost across space and time, who require our assistance in order to lead them home."
+"That sounds like the perfect task for a Sorceress Supreme," Wanda said. "But I'll require your help. As fond as I am of your classic look, I think we're in need of use a helmet that's a bit more functional."
+"Of course," Magneto said, raising his hand into the air. Within moments, tiny scraps of metal buried beneath the sand of Krakoa's beaches converged and reshaped themselves into a complex yet familiar device once worn by Charles Xavier himself — Cerebro.
+"If I recall, old school Cerebro was capable of tracking down Mutants anywhere in the world," said Wanda. "But a few arcane enhancements should expand the helmet's search area to include adjacent dimensions as well. Like you said, all Mutants are welcome here, regardless from where or when they hail."
+"Well?" said Magik, her eyes burning with anticipation. "Try it on already, old man!"
+The moment Magneto put on the helmet, he saw flashes of powerful Mutants scattered across the Multiverse. A telepathic ninja trapped in a strange world of unholy amusements. A king of the seas preparing to strike at the unsuspecting surface world. A powerful cosmic presence determined to burn the darkness out of the night sky. And thousands more, each yearning to defy fate and to find their place in an ever-shifting cavalcade of timelines and realities.
+"There is much work to be done," Magneto said. "Far more than I expected. When do we begin?"
+"No time better than the present…" said Magik. "Or the future, I guess. Wherever we are."
+"You have given Mutants a gift this day, Wanda," Magneto said proudly. "Your efforts will not be forgotten."
+"I'm going to hold you to that," Wanda replied. "And when the time comes, the army that you're about to gather may very well be the one that tips the balance in our favor."
+"Then let this be a call to all Mutants across time and space," Magneto continued. "The gates of Krakoa are open to them. In the words of a dear old friend…"
+"…to me, my X-Men."
+The Battle Within
+Magneto hovered high above the nation of Krakoa. He had lived through more than his share of wars, but as he gazed down at the Mutant homeland below, he could barely begin to comprehend the full scope of the horrors unfolding on his own sovereign soil. Still, it was not as if he hadn’t seen this coming...
+When
+Emma Frost
+had first approached the Quiet Council with the idea of reviving her Hellfire Gala in the futuristic era that Mutantkind now called home, Magneto immediately voiced his reservations. He feared that some unknown force might try to take advantage of his people’s hospitality to further their anti-Mutant agenda. With all eyes on their emerging nation, he knew they would have to tread extremely carefully. Still, he gave Emma his vote and let plans move forward, holding onto faith that he and his fellow X-Men would be able to take on any threat this new world could throw at them. What he failed to realize was that the biggest threat to Krakoa wouldn’t come from Earth... at least not directly...
+After the Gala began, the Krakoan gateways - which offered Mutants instant access to the island from various strategic points across the universe - were somehow hijacked by an invading army of artificial life forms led by the antagonistic android
+Ultron
+. As far as  Magneto could tell from the mechanical madman’s rantings, this version of Ultron had been built on Earth decades ago, but had subsequently been banished to the stars by the
+Avengers
+. Now, something had summoned Ultron back home, and he was determined to assimilate Earth into his growing cosmic empire during his visit. Krakoa was just another stop on his world domination tour. But if Magneto and his allies banded together and stopped Ultron now, it could very well be his last.
+Chaos and carnage quickly erupted across the island as seemingly endless waves of Ultron’s armed automatons arrived on the scene. As most of the Mutant and human heroes who had assembled on Krakoa worked to fend off the streams of synthetic soldiers, Magneto turned his focus on finding the on true Ultron and ending his existence. And how, he had finally found his foe, who was currently distracted by the brutal attacks of a very angry
+Hulk
+dressed in tatteres of a suit. Magneto saw the opportunity to strike and seized it.
+”No more, Ultron!” Magneto shouted as he rose into the air on a wave of magnetic force. “Krakoa is a free nation... and you shall not take it from us!”
+Ultron didn’t even bother to turn and look at Magneto. Instead, he dispatched dozens of drones to attack the Mutant leader. But with just a wave of his hand, Magneto crumpled the legion of robotic soldiers into tiny spheres of scrap that rained down upon Krakoa’s lush surface.
+Magneto would not be insulted further by entertaining Ultron’s puppet soldiers. He wished to face the true threat head on. He generated a massive sphere of magnetic energy between his hands, ready to unleash it at Ultron.
+”Consider this battle-“
+Before the Mutant Master of Magnetism could release his energy wave and complete his declaration of victory, he was unexpectedly hit with a powerful blast that seared a hole straight through his reinforced armor. It seemed that Ultron knew the threat that Magneto posed after all, swiftly and silently removing his foe from the game board. As his body plummeted to the ground below, Magneto knew his battle was nearly over.
+”Magneto!”
+Captain America
+yelled, racing over to aid his fallen Mutant ally. “Hang on, soldier. We didn’t both survive World War II only to be taken down by some rusty pile of-“
+The Captain stopped himself suddenly. He had seen countless allies fall on the field of battle over his years in service, so he knew a fatal wound when he saw one. Magneto wouldn’t last much longer.
+”Do not fret, Captain,” Magneto said, a strangely reassuring tone in his voice. “I have died... many times before... and this... won’t be the last...”
+As Captain America held Magneto in his arms, the Mutant Leader’s vision began to fade from red, white and blue to a deep black.
+Many humans believe that a person’s entire life flashes before their eyes in the seconds before their death. But the Mutants of Krakoa know otherwise. For them, their entire lives - every memory and every moment - flashes before their eyes in the seconds before their rebirth. This is a side effect of the Resurrection Protocols, a process in which a full scan of their minds is downloaded from Cerebro into a brand new body grown in the Krakoan Hatchery. It is a delicate process, but one that has given countless Mutants another chance at life. And today, that chance belonged to Magneto.
+After what somehow seemed like both a split second and an eternity, the black void gave way to a blinding display of memories. Magneto saw his life as a young boy in Europe. His days as a prisoner in a concentration camp. The unexpected discovery of his Mutant powers. His first meeting with Xavier. The countless battles he fought for Mutant supremacy, and eventually, equality. And when his memories finally raced to the point where Ultron struck him down, Magneto emerged from his pod in the Hatchery, gasping for air, alive and whole once more.
+Without a word or moment of hesitation, Magneto used his powers to call forth the metallic elements buried in the Krakoan soil, fashioning himself a new suit of armor far more durable than his last. He then exited the Hatchery and headed to find Ultron. It would be easier to locate the villain this time, as Magneto had sensed a strange, otherworldly element in the alloy that covered the exterior of Ultron’s frame. He honed in on that unique metallic signature and followed it to the heart of Krakoa, where he found Ultron swiftly approaching.
+”Curious,” Ultron said upon seeing Magneto alive and well. “I thought your life signs had been extinguished. When I detected your bio-signature suddenly return at another location, I had to investigate the anomaly.”
+”I am no anomaly,” Magneto replied, hurling long spears of reshaped scrap metal toward Ultron at a furious speed. “Like so many of my Mutant brethren, I have simply been reborn.”
+”And you will be reborn once more,” Ultron said, his devilish grin glowing in the darkness of the Krakoan jungle. “This time in my image.”
+Expecting a physical attack, Magneto erected an enormous metal shield in front of his body to protect himself from harm. But this time, Ultron released a cloud of techno-organic nano-bots that swiftly navigated past Magneto’s shield and surrounded the Mutant’s helmeted head. Magneto had already inhaled thousands of the microscopic machines before he could even think to repel them. Mere moments later, Magneto could already hear Ultron’s voice buzzing inside of his head.
+”Could this be...?” Ultron said, as his mind linked with Magneto’s via the nano-bots neural network. “Do you Mutants truly have a machine capable of resurrection? A way of growing powerful new bodies and downloading your consciousness into them? I simply must give this a test run!”
+Magneto fought past the pain of his body’s techno-organic invaders and reached out toward Ultron with all of his magnetic might. That much force should have instantly ripped Ultron asunder, but the sinister synthezoid’s body barely bent.
+”The techno-organic virus I infected you with is programmed to prevent you from doing any harm to me,” Ultron gloated. “But even if it weren’t, your powers would have little effect. My current form is forged out of Mysterium. I’ve found it to be nearly immune to this planet’s basic laws of nature and physics. Still, as impressive as that is, I can’t help but wonder what my next body will be capable of. I have a feeling we’ll find out soon enough...”
+With that, Ultron departed, heading towards the Cradle where Cerebro was stored. Magneto tried to give chase, but found himself locked in a new war- one with his very own body. The machines in his bloodstream were swiftly replicating and seizing control. Because of their unique alien techno-organic composition, they contained almost no traces of magnetic metals, which meant that Magneto could not expel them from his body... a body they were claiming more and more of with each passing second.
+For a moment, Magneto decided to forge ahead, struggling to make his way out of the dense jungle. Eventually, he found himself at the foot of a statue built in honor of Charles Xavier- the founder of the X-Men and one of driving forces behind the great nation of Krakoa. Magneto caught a glimpse of his reflection in the plaque at the statue’s base. Nearly half of his body had already been converted into techno-organic matter by the virus, and it was spreading fast. Magneto gazed up at the larger-than-life  figure of his old friend and thought back to the many years they had spent together, both as enemies and as allies.
+”Charles...” Magneto struggled to say “...is this... how the dream dies...?”
+No. A familiar voice responded inside of Magneto’s brain. Not like this. Not today.
+Magneto didn’t know if he was hallucinating, relieving a distant memory, or actually communicating with his long lost friend. But it didn’t matter. Hearing Charles’ voice in his head once more gave him the strength he needed to turn the tide of battle within himself.
+Magneto knew he couldn’t take control of the nano-bots that had flooded his bloodstream, but he could take control of the bloodstream itself, thanks to the iron in the hemoglobin of his red blood cells. If he could consciously slow his blood flow, he could halt the techno-organic virus’ advance. Magneto focused all his power inward and, within moments, he could feel the pain beginning to cease and the control over his body returning.
+”Not like this, Ultron,” Magneto said, echoing the words of his oldest ally as he returned to his feet and prepared to head back into the fray. “Not today.”
+The Messiah of Mutants
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+House of M
+As Magneto, partner with Scarlet Witch to land 1 KO.
+5
+Homo Superior
+As Magneto, assist Mutant allies 10 times.
+10
+Quotes
+See:
+Magneto/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Magneto
+was released as the 14th character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 3 new costumes:
+Uncanny Blacksteel
+,
+Will of Galacta
+, and
+Master of Magnetism
+.
+Added the
+Homo Superior
+achievement.
+Added to the
+Metallic Chaos
+Team-Up Ability
+with
+Scarlet Witch
+.
+25/01/10
+:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase
+Metallic Fusion
+projectile damage from 55 to 60 and
+Metallic Fusion
+spell field damage from 30 to 35.
+Added 1 new costume:
+King Magnus
+.
+25/02/20:
+Addressed an issue where
+Magneto
+'s ultimate could pass through characters without dealing damage due to discrepancies between collision models and visual effects. The collision body is now properly optimized to better suit the visual presentation.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase
+Iron Volley
+projectile damage from 35 to 40.
+Increase
+Metallic Curtain
+'s energy consumption from 50/s to 65/s and reduce its maximum duration from 2s to 1.5s.
+25/03/27:
+Version 20250327
+Resolved an issue in the post-match where
+Magneto
+'s
+MVP
+could sometimes display some bizarre, offbeat visuals. The master of magnetism now commands his moments with true polar precision.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase energy cost for
+Meteor M
+from 3100 to 3400.
+Added to the
+Mental Projection
+Team-Up Ability
+with
+Emma Frost
+and
+Psylocke
+, but removed from the
+Metallic Chaos
+Team-Up Ability
+with
+Scarlet Witch
+.
+Gallery
+Promotional
+Costume Origins
+In-Game Assets
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Marvel Rivals - Console Announce Trailer
+No One Rivals Doom - Cinematic Trailer - Marvel Rivals
+Master of magnetism costume reveal.
+Magneto in the No One Rivals Doom Cinematic Trailer.
+"Uncanny Blacksteel" costume in
+Magneto
+(2014) #1
+"Master of Magnetism" costume in
+Uncanny X-Men
+(1963) #1
+"King Magnus" costume in
+House of M
+(2005) #6
+Hero Logo
+Prestige artwork
+Hero Story Artwork
+Trivia
+Magneto is voiced by James Arnold Taylor, reprising his role from other Marvel video games such as
+Marvel Avengers: Battle for Earth
+,
+Marvel Heroes
+, and
+Marvel Powers United VR
+.
+Taylor is also known for his work in the
+Ratchet & Clank
+video game series, voicing the eponymous Ratchet from the second game,
+Ratchet & Clank: Going Commando,
+and in all subsequent entries to date.
+Magneto's magnetic great sword is a possible reference to the Cerebro Sword. In the comics, this sword was created by Magneto from the destroyed Cerebro device that Charles Xavier was wearing when he died as a reminder of what the mutant nation of Krakoa is facing.
+Magneto’s signature is written in Krakoan languange.
+Magneto's cape and belt in his default costume has a letter M in Krakoan language.
+His Ultimate ability, Meteor M, might be a reference to Asteroid M. This is Magneto's orbital base of operations in a hollowed-out asteroid in the comics.

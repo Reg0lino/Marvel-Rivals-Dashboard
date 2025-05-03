@@ -1,0 +1,333 @@
+{
+  "name": "Captain America",
+  "role": "Vanguard",
+  "stats": {
+    "health": 600,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#93C5FD",
+    "color_theme_secondary": "#F87171"
+  },
+  "abilities": [
+    {
+      "name": "SENTINEL STRIKE",
+      "keybind": null,
+      "type": "Normal Attack",
+      "description": "Get up close to strike enemies. Landing the second hit enables a shield throw that can ricochet four times.",
+      "casting": null,
+      "damage": "40 (Melee) - 45 (Flying Shield)",
+      "damage_falloff": null,
+      "fire_rate_interval": "Melee 1st Hit: 0.4s, Melee 2nd Hit: 0.5s\nFlying Shield 1st Hit: 0.5s, Flying Shield 2nd Hit: 0.57s",
+      "ammo": 4,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "4m (Melee) - 25m (Flying Shield)",
+      "projectile_speed": "60m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Automatically target enemies near the crosshair"
+    },
+    {
+      "name": "LEADING DASH",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Boost speed and enable Fearless Leap to leap into the air.",
+      "casting": "Channeled",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "33.40%",
+      "energy_cost_details": null,
+      "details": "FEARLESS LEAP HEIGHT - 5m"
+    },
+    {
+      "name": "VIBRANIUM ENERGY SAW",
+      "keybind": "E",
+      "type": null,
+      "description": "Hurl the energy-charged shield to strike enemies in a path.",
+      "casting": "Single-cast projectile that can ricochet",
+      "damage": "Start at 70, with a 20% reduction for each ricochet",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": null,
+      "projectile_speed": "60m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM DISTANCE - 25m\nNUMBER OF RICOCHETS - 3"
+    },
+    {
+      "name": "LIBERTY RUSH",
+      "keybind": "F",
+      "type": null,
+      "description": "Raise the shield and charge forward.",
+      "casting": "Single-cast forward dash",
+      "damage": 30,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "10s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "DASH DISTANCE - 12m"
+    },
+    {
+      "name": "SUPER-SOLDIER SLAM",
+      "keybind": null,
+      "type": null,
+      "description": "Slam down from the sky onto the targeted area, Launching Up enemies.",
+      "casting": "Targeted",
+      "damage": 30,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM DISTANCE - 20m (horizontal)"
+    },
+    {
+      "name": "LIVING LEGEND",
+      "keybind": null,
+      "type": null,
+      "description": "Raise the shield to deflect incoming projectiles, sending them ricocheting in random directions.",
+      "casting": "Channeled",
+      "damage": null,
+      "damage_falloff": "50%",
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "1s - 5s (if destroyed)",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM SHIELD VALUE - 400\nRECOVERY SHIELD VALUE - 50/s\nDELAYED RECOVERY AFTER RELEASE - 2s"
+    }
+  ],
+  "ultimate": {
+    "name": "FREEDOM CHARGE",
+    "keybind": "Q",
+    "type": null,
+    "description": "Shield held high, carve a path forward, granting both himself and allies along the path continuous Bonus Health and Movement Boosts. Using\nLiving Legend\nor\nLeading Dash\nwhile this ability is active can Launch Up enemies.",
+    "casting": "Activation",
+    "damage": null,
+    "range": "A spherical spell field with a 4m radius enveloping the caster, and a spell area with a width of 4m along the path",
+    "effect": null,
+    "duration": "10s (spell field) - 5s (spell area)",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": "Grant a 30% Movement Boost to both yourself and your allies",
+    "bonus_health_details": "Cast to gain 150 Bonus Health and grant allies 100 Bonus Health. Every second afterward, gain 100 Bonus Health and grant allies 60 Bonus Health",
+    "energy_cost": 3100,
+    "details": null
+  },
+  "passives": [
+    {
+      "name": "CAPTAIN'S SPIRIT",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": null
+    }
+  ],
+  "teamups": [],
+  "gameplay": {
+    "strategy_overview": "To be added",
+    "weaknesses": [
+      "Living Legend has a 1 second cooldown after the player pulls the shield down, which can interrupt the flow of his combat a bit.",
+      "Struggles to block large barrages of ranged damage due to the smaller size of his shield compared to the likes of Doctor Strange's Shield of the Seraphim and Magneto's Metallic Curtain.",
+      "His shield cannot block splash damage, such as Iron Man's Repulsor Blast and Jeff the Land Shark's Aqua Burst. He can, however, deflect those moves if they're aimed directly at him.",
+      "The player has no control of where deflected projectiles will ricochet to."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Like Old Times",
+        "description": "As Captain America, partner with Winter Soldier to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Justice for All!",
+        "description": "As Captain America, land 3 KOs with a single use of Freedom Charge.",
+        "points": 10
+      }
+    ],
+    "official_description": "Captain America is a Vanguard hero in Marvel Rivals, and is the 25th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Winter Soldier."
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"I fight for more than a flag, I fight for an idea. One bigger than all of us.\"",
+    "ingame_bio_text": "In hopes of serving his country during World War II, young Steve Rogers volunteered for an experiment that enhanced his strength, speed, and agility, making him America's first super soldier. As Captain America, he proudly fought enemy forces until he became frozen in ice and lost to the ages.'\nDiscovered and unthawed in the 2080s, Captain America began battling the threats of tomorrow — including Doom 2099 — until he was displaced into the present by the Timestream Entanglement. Now, he fights alongside the Avengers to prevent the desperate future in which he awoke.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Battlefield Surgery",
+        "content": "Steve Rogers was a man out of time. A man out of space. And, perhaps for the first time ever, a man out of his depth.\nWhat he had experienced over these last few weeks had made the epic adventures he'd lived through during World War II seem normal and mundane. Steve stood on a balcony, gazing out over the spaceport of the futuristic city in front of him, wondering why the universe had chosen to bring him back here and now after so many years away. He didn't know the answer yet, but he knew deep down there had to be a reason. There always was.\n\"A penny for your thoughts, old man?\" a voice said, approaching from behind. Steve turned to see Clint Barton, the archer known as Hawkeye, joining him.\nSteve gazed past Clint and caught a glimpse of his old partner, James \"Bucky\" Barnes, lying deathly still inside of a high-tech medical scanner as scientists and physicians tended to his wounds. It was clear that Bucky was no longer the plucky teen sidekick who had never strayed from Captain America's side during the war. He had grown into his own man... but far more than that. He was now a skilled assassin with a cybernetic arm and a tortured past, developments Steve had missed while he was frozen inside a chunk of ice for the last century or so. During that time, Bucky had become the Winter Soldier, and Steve wasn't sure just how much of the boy he once knew still remained. Especially after what Hydra had just done to him...\n\"Just thinking about how much has changed,\" Steve replied.\n\"I hear ya,\" Clint agreed. \"Speaking of which... When are you finally gonna tell me why you brought us to this crazy interstellar version of Wakanda? Or, you know, how you're still alive? Because, as far as I can remember, Captain America fell in the line of duty...\"\n\"Now's as good a time as any, I suppose,\" Steve said, realizing that this was the first real downtime he'd had since he'd brought Clint and Bucky into his strange new world. Steve took a deep breath before he began to tell his tale.\nHe started by regaling Clint with the story of his final mission during the war, when the plane he was on crashed into the Arctic Ocean. As the plane filled with water, he could feel his muscles freezing, his heartbeat slowing, his vision blurring to white. And then... nothing... for what seemed like an eternity. He didn't know if he was alive or dead until he found himself trapped inside of a glass tube, freshly thawed out of a chunk of ice by a beautiful redhead with the slightest hint of a Russian accent.\n\"",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06",
+        "changes": [
+          "Launch",
+          "Captain America was released as the 25th character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 3 new costumes:\nCaptain A.I.M.erica, Captain Gladiator, and Galactic Talon\n(Limited-time store release: 2024/12/06 - 2024/12/27)",
+          "Added the Justice For All! achievement.",
+          "Added to the Voltaic Union Team-Up Ability with Thor and Storm."
+        ]
+      },
+      {
+        "date_version": "24/12/10",
+        "changes": [
+          "Version 20241210",
+          "In certain extreme situations, Captain America's Ultimate wouldn't end as intended. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "25/01/10",
+        "changes": [
+          "Version 20250110 / Season 1: Eternal Night Falls",
+          "Launch",
+          "Reduce the delay time for shield restoration after releasing Living Legend from 3s to 2s.",
+          "Reduce Liberty Rush cooldown from 12s to 10s.",
+          "Increase base health from 650 to 675.",
+          "Reduce the energy cost for releasing Freedom Charge from 3400 to 3100.",
+          "Reduce the additional health provided per second to self after releasing Freedom Charge from 110 to 100."
+        ]
+      },
+      {
+        "date_version": "25/02/07",
+        "changes": [
+          "Version 20250207",
+          "Added 1 new costume:\nAvengers: Infinity War."
+        ]
+      },
+      {
+        "date_version": "25/02/20",
+        "changes": [
+          "Corrected an issue where during Captain America's ultimate, he couldn't be stunned by Spider-Man's ultimate."
+        ]
+      },
+      {
+        "date_version": "25/02/21",
+        "changes": [
+          "Version 20250221 / Season 1.5",
+          "Launch",
+          "He will be able to shield himself with Living Legend mid-leap.",
+          "Increase Vibranium Energy Saw's projectile speed from 60m/s to 80m/s, with ricochets ramping up from 100m/s to a supercharged 150m/s.",
+          "Reduce the energy cost of Freedom Charge from 3100 to 2800.",
+          "Enhance Captain America's combat experience by separating Sentinel Strike from melee attacks.",
+          "Captain America will be able to use melee attacks while his shield is thrown or during the Team-Up Ability Charged Aegis state to activate the first two hits of Sentinel Strike. Additionally, while airborne, using melee attacks will no longer trigger the Super-Soldier Slam ability."
+        ]
+      },
+      {
+        "date_version": "25/04/08",
+        "changes": [
+          "Resolved an issue where Captain America couldn't ricochet enemy projectiles while moving backward. Now, the Sentinel of Liberty can send those pesky projectiles flying no matter which way he is moving!"
+        ]
+      },
+      {
+        "date_version": "25/04/11",
+        "changes": [
+          "Version 20250411 / Season 2: Hellfire Gala",
+          "Launch",
+          "Reduce base health from 675 to 650.",
+          "Reduce the shield value of Living Legend from 400 to 350.",
+          "Added to the Stars Aligned Team-Up Ability with Winter Soldier, but removed from the Voltaic Union Team-Up Ability with Thor and Storm.",
+          "Added 1 new costume:\nStar Spangled Style."
+        ]
+      },
+      {
+        "date_version": "25/04/30",
+        "changes": [
+          "Version 20250430",
+          "Reduce base health from 650 to 600."
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "Enhanced by the Super-Soldier Serum, Steven Rogers uses his Vibranium shield and extensive combat training to confront any threat to justice. When Captain America rallies his troops, a wave of courage sweeps across the battlefield!"
+  },
+  "background": {
+    "real_name": "Steven Grant \"Steve\" Rogers",
+    "aliases": [
+      "Cap",
+      "The First Avenger",
+      "The Man Out of Time"
+    ],
+    "birthplace": "Manhattan, New York",
+    "birthdate": "1910s-1920s",
+    "gender": "Male",
+    "eye_color": "Blue",
+    "hair_color": "Blond",
+    "relatives": [
+      "Joseph Rogers (father; deceased)",
+      "Sarah Rogers (Mother; deceased)",
+      "Ian Rogers (adopted son)"
+    ],
+    "affiliation": [
+      "Avengers"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Enhanced physical strength, agility, stamina, and endurance via the Super Soldier Serum",
+      "Skilled hand-to-hand combatant",
+      "Indestructible, magnetic Vibranium shield"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Captain+America%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "52.60%",
+    "wr_change": "+1.73%",
+    "pick_rate": "13.62%",
+    "pr_change": "+4.19%",
+    "ban_rate": "2.73%",
+    "matches": "203,239"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

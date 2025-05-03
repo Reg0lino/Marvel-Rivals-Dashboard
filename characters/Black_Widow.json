@@ -1,0 +1,315 @@
+{
+  "name": "Black Widow",
+  "role": "Duelist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F97316",
+    "color_theme_secondary": "#FBBF2C"
+  },
+  "abilities": [
+    {
+      "name": "WIDOW'S BITE BATON",
+      "keybind": null,
+      "type": null,
+      "description": "Strike with the enhanced electric batons.",
+      "casting": "Melee",
+      "damage": "45",
+      "damage_falloff": null,
+      "fire_rate_interval": "2 strikes per second",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "3m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "RED ROOM RIFLE",
+      "keybind": null,
+      "type": null,
+      "description": "Attack with the Red Room Rifle.",
+      "casting": "Single-cast direct hit",
+      "damage": "120 damage per hit",
+      "damage_falloff": "Yes",
+      "fire_rate_interval": "0.83 rounds per second",
+      "ammo": 15,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Shares the same magazine with Straight Shooter. Straight Shooter activates only after aiming down sights for a specific duration; otherwise, it will fire from the Red Room Rifle."
+    },
+    {
+      "name": "FLEET FOOT",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Dash forward and enable a powerful jump.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "33%",
+      "energy_cost_details": "12/s (Sprinting) - 24 per leap (Power Jump)",
+      "details": null
+    },
+    {
+      "name": "EDGE DANCER",
+      "keybind": "E",
+      "type": null,
+      "description": "Unleash a spinning kick to Knock enemies airborne. Landing the hit will allow her to zip to the target with a grappling hook for a second kick.",
+      "casting": "Melee",
+      "damage": "35 (Spinning Kick & Flying Kick)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": "5m (Spinning Kick) - 12m (Flying Kick)",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "1s (Stun)",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "new_effect_description": "Black Widow can directly shoot after releasing the second kick of Edge Dancer"
+      }
+    },
+    {
+      "name": "STRAIGHT SHOOTER",
+      "keybind": null,
+      "type": null,
+      "description": "Switch the Red Room Rifle to Sniper mode to fire high-energy rounds.",
+      "casting": "Single-cast direct hit",
+      "damage": "120 damage per hit",
+      "damage_falloff": "No",
+      "fire_rate_interval": "0.83 rounds per second",
+      "ammo": 15,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Shares the same magazine with Red Room Rifle.\nStraight Shooter activates only after aiming down sights for a specific duration; otherwise, it will fire from the Red Room Rifle.  Aiming down sights with Straight Shooter removes distance-based damage falloff on fired shots."
+    }
+  ],
+  "ultimate": {
+    "name": "ELECTRO-PLASMA EXPLOSION",
+    "keybind": "Q",
+    "type": null,
+    "description": "Switch the Red Room Rifle to Destruction mode and unleash an electro-plasma blast, damaging enemies within range and leaving plasma on the ground to Slow nearby enemies.",
+    "casting": null,
+    "damage": "120 - 170 (Maximum damage is achieved after 0.6s of charging)",
+    "range": "5.6m - 8m (Maximum range is achieved after 0.6s of charging)",
+    "effect": null,
+    "duration": "10s",
+    "health_upon_revival": null,
+    "slow_rate": "80%",
+    "projectile_speed": "100m/s",
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 2800,
+    "details": {
+      "new_effect_description": "Black Widow can directly shoot after using Electro-Plasma Explosion"
+    }
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "Supersensory Hunt",
+      "keybind": "C",
+      "partner": "Hawkeye",
+      "effect": "Hawkeye can share his Hunter's Sight with Black Widow, enabling her to catch sight of and damage afterimages of enemies",
+      "teamup_bonus": null,
+      "duration": "8s",
+      "cooldown": "30s",
+      "range_target": null,
+      "special_notes": "The Afterimage generated by this ability cannot be critically hit.",
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Easy Damage/Kill Close-Range Combo with Red Room Rifle: Hip Fire Red Room Rifle, Cancel into Edge Dancer and Hookshot Kick Follow-up Attack, and Hip Fire again while they're stunned. Reload time of Red Room Rifle is accounted for after Hookshot Kick Followup due to the stun. ADS/Straight Shooter can also be used, but is not recommended due to lack of damage fall off as combo does not exceed the 20 meter range for falloff damage to take place. Calculated damage is 310 for the full combo.",
+    "weaknesses": [
+      "Despite having access to melee options, Black Widow lacks the survivability to stay in the frontline; her melee options must be used sparingly to avoid run-ins with backline divers as much as possible.",
+      "Has no defensive means to gain bonus health or self-healing.",
+      "Switching between her weapons can feel a bit counter-intuitive at first to deal with immediate threats; the brief moment when entering into Straight Shooter must be accounted for.",
+      "Edge Dancer has a very low range and a rather long cooldown.",
+      "Enemies with high mobility tools can counter the slowing effect of her Ultimate.",
+      "Unlike Hawkeye during Hunter's Sight, she cannot critically hit the afterimages provided by Supersensory Hunt.",
+      "In addition, characters holding physical shields, namely Doctor Strange, Captain America, and Magneto can completely negate the effects of their afterimages being damaged."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Red Reunion",
+        "description": "As Black Widow, partner with\nWinter Soldier\nto land one KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Deadly Bites",
+        "description": "As Black Widow, land three KOs with critical hits in a single match.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"Spies know the truly observant people are rare. And dangerous.\"",
+    "ingame_bio_text": "Trained from childhood in the infamous Red Room, Natasha Romanova became one of the most feared spies and saboteurs in the world. For years, she put her unrivaled combat skills to use as a member of the Avengers, keeping pace with some of the most powerful beings who ever lived.\nImbued with supersoldier-like treatments that vastly extended her lifespan, Black Widow outlived most of her enemies and allies. But her fight still rages on decades into the future, where she leads the Red Room in its ongoing effort to overthrow the tyrannical Doom 2099.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Mercury Unsealed",
+        "content": "Taking Natasha Romanoff by surprise was no easy task. One of the world's most elite spies, better known as Black Widow, she had been trained by a young age by her handlers in the Red Room to anticipate every eventuality. Of all her many skills, it was the one she took the most pride in. Even when the world itself was on the brink of disaster, nothing ever caught her off guard. At least until today.\nWhen she first came to Tokyo, it was on a special mission for the resistance. She was gathering intel that could help her fellow freedom fighters\nin their ongoing battle against Victor Von Doom, the tyrannical ruler of Latveria who had been spreading his iron grip across the world, one country at a time. But after that initial operation, she found herself feeling at home in this strange city. More at home than she had felt in decades.\nNatasha may not have looked a day over thirty on the surface, but she had actually been in the spy game for more than a hundred years now. Her prolonged youth and vitality were the side effects of an experimental life-extending serum given to her by the late, great\nNick Fury\n. Not quite the Infinity Formula, but still as effective. She had never imagined that she'd live to see the year 2099, let alone still be in the field. But here she was, standing on the rooftop of the Tokyo headquarters of Alchemax, ready to expose the company's greatest secret. Whatever it was...\nDespite having a wide web of reliable contacts feeding her top-secret intel, Natasha had no idea what she was about to discover. Alchemax, a major multinational pharmaceutical corporation with far too much power, had more secrets than she could count. Most of them fell under various levels of clearance, labelled from \"LEAD\" all the way up to \"GOLD.\" But until today, she had never even heard of an asset with a \"MERCURY\" classification. But here, somewhere within this building, there was something flagged with that rare and mysterious clearance level. And whatever it was, Natasha knew it couldn't be good.\nFortunately, getting inside would be easy. Maybe not for the average citizen - or even one of the many Web-Warriors that always seemed to be swinging through the city these days - but for someone as seasoned as the Black Widow, a few Alchemax security officers would be no threat at all.\nAs she entered the building, she instantly encountered a pair of guards. With two quick bursts of her Widow's Bite, they were out for the count and Natasha had access to the building's freight elevator. According to her intel, the \"MERCURY\" level asset was being stored in a vault in the building's sub-basements. And since this was one of the tallest buildings in Tokyo, Natasha knew she had a long way down.\nShe couldn't risk simply hopping in the elevator car and pressing a button, however. The building's security systems would instantly identify her and shut down the lift, making her a prisoner. Instead, Natasha pried open the elevator doors with her hands, peering into the empty shaft. She knew she was going to have to do this the hard way. No. The fun way.\nSecuring her zip line to a steel beam above her, Natasha began to lower herself down the shaft, dangling precariously over what seemed to be a bottomless pit. Cautiously, she accelerated her descent, dropping several floors a second until something suddenly caught her eye: a tiny red dot glowing on the wall. She clutched her hand tightly on the brake to bring her fall to a sudden stop.\nReaching into a pouch on her belt, Natasha pulled out a small bag of white powder. She opened the bag and dipped her fingers into the chalky substance, raising some towards her lips. With a gentle puff, as if blowing a kiss, Natasha sent a white cloud of powder gently billowing into the elevator shaft, revealing a latticework of crisscrossed laser beams just below her that would have otherwise been invisible to the eye.\n\"Guess this is my stop,\" Natasha said, pulling herself over to a closed elevator door and prying it open from the inside. She was only halfway down the tower, but she would have to go the rest of the way on foot. Luckily, it was the middle of the night and all of Alchemax's employees had already gone home for the day, so there were no regular civilians in danger.\nEntering a stairwell, she continued her descent towards the building's lowest levels as stealthily as possible. Occasionally, she crossed paths with a security guard on patrol, but managed to take them out with ease. Natasha was skilled in countless non-lethal ways of neutralizing targets, but she had one in particular that she put to good use that night - a Krakoan neurotoxin given to her by\nWolverine\nthat easily incapacitated any foe whom she scratched with one of her razor-sharp fingernails. Natasha didn't take any pleasure in dispatching the guards, but she also didn't hesitate. They had signed up for this job knowing exactly who they were working for.\nFinally, after what seemed like hours, Natasha found herself at a thick metal door five levels below the building's lobby. The door had a high-tech keypad next to it, limiting access to only those with the proper code, which was changed daily. Natasha prayed her intel was up to date as she pulled a wire from her gauntlet on her wrist and attached it to a port on the keypad. After a few seconds, the keypad turned green and the words \"ACCESS GRANTED\" appeared in Japanese, followed by the sound of a large metal lock releasing.\nNatasha cautiously pushed the heavy metal door open and entered the chamber on the other side. As she exhaled, she could see her breath hanging in the air in front of her. The temperature in the chamber was far lower than it had been in the rest of the building. Natasha immediately went to a computer and tried to access the files stored on it. As she tried to hack into a heavily-encrypted folder labelled \"PROJECT: RISING EAGLE,\" she realized something. These systems weren't using Alchemax security codes. These were the same type of encryption protocols used by the Public Eye, the police force that kept all of Tokyo under its thumb.\n\"What's going on here?\" Natasha asked herself as she scanned through the secret files. There were notes about some sort of Super-Soldier Serum from over a hundred years ago. More recent studies on the long-term medicinal benefits of Krakoan flowers. Some scans of ancient chemical equations and nonsensical phrases like \"Greater Science,\" \"Secret Alchemy,\" and \"Quiet Math.\" And most jarring, even some surveillance photos of Nick Fury... and Natasha herself...\nBefore Natasha could dig deeper, a strange noise caught her attention. A beeping. Slow and steady. Like a heartbeat.\nThe sound led Natasha to the center of the room, where she saw a large tube with an enormous crystal shard inside. No... not crystal... It was ice. And inside of the ice was a strange shadow, in what looked like the shape of a human figure.\nInstantly, Natasha realized that this must be the \"MERCURY\" asset she had been searching for. But what - or who- was inside? And why were they so important? She needed to find out. And this might be her only chance.\nAccessing the terminal, she initiated the thawing sequence. The ice began to melt rapidly, creating a pool of water that drained through the bottom of the tube, as well as a cloud of mist that fogged up the glass and obscured Natasha's view. As the sequence completed, there was a moment of eerie silence, Natasha cautiously reached towards the glass window of the chamber, but pulled back suddenly as another hand - clad in a red glove - pressed up against the surface from inside. It stayed there for a second, pushing against the glass, before the figure in belonged to slumped to the floor inside of the tube.\nNatasha wasn't sure what she was about to unleash, but there was no turning back now. She hit the button to release the tube's glass door and waited for the billowing steam to clear. Once it finally did, what Natasha saw inside left her in a total state of disbelief.\nThere in front of her was a man, down on one knee, clad in an antiquated red, white, and blue jumpsuit. She knew his image well. She had seen it over and over again during her days in the Red Room as a symbol of everything that Mother Russia stood against during the Cold War.\nCaptain America\n.\nBut her had dies during World War II... hadn't he...?\nSuddenly, the brightly colored man began to rise to his feet.\n\"The\nRed Skull\n...\" he said, a mixture of panic and determination in his voice, \"...where is he?\"\n\"Dead,\" Natasha replied. \"For about fifty years now, soldier.\"\n\"What?\" Cap said, trying to gain his bearings \"How?\"\n\"This isn't the war anymore,\" Natasha said. \"Not the one you remember, at least.\"\nCaptain America gazed around at the high-tech machinery in awe and confusion. Last he remembered, he was on board a doomed plane over the Arctic Ocean.\n\"Where are we?\" he asked, not sure he wanted to know the answer.\n\"You might also want to ask, 'when are we?'\" Natasha replied, \"The answer is Tokyo, 2099.\"\n\"Tokyo?\" Cap said, suddenly even more on guard. \"We're behind enemy lines?\"\n\"It's not like that anymore,\" Natasha said. \"These days it's not about borders. It's about freedoms.\"\n\"It always has been,\" Cap said.\n\"Fair enough,\" Natasha agreed. \"And now you have yours.\"\n\"Thanks to you,\" Cap replied, knowing that without his new friend's aid he would still be suspended in a deep freeze.\n\"That won't last long if we don't get out of here,\" Natasha said, leading Cap towards the door of the chamber. \"Alchemax was keeping you on ice for a reason. We don't want to be here when they realize you've been thawed out.\"\n\"Too late,\" Cap said as a battalion of heavily armed guards burst their way through the chamber doors.\n\"Public Eye,\" Natasha said, recognizing the guards' uniforms.\n\"Never heard of them,\" Cap responded as he blocked a guard's electrified nightstick with his forearm. \"but I cant' say they don't remind me of someone...\"\n\"They're no\nHydra\n,\" Natasha said, kicking away one of the Public Eye officers, \"but they're just as good at making sure the citizens under their protection are living in constant fear.\"\n\"Let me guess,\" Cap said, his fists flying. \"They think they're the good guys?\"\n\"They always do,\" Natasha laughed.\n\"Some things never change,\" Cap mused, wishing that he had his trusty shield with him as he knocked back another guard.\n\"We need to get out of here,\" Natasha said, fighting her way toward the chamber door. \"We don't stand a chance against this many of them in such a tight space.\"\n\"Lead the way,\" said Cap, covering Natasha's back as they made their escape into the stairwell.\nCaptain America and the Black Widow worked their way up the five flights of stairs, back to the lobby of the Alchemax building, taking out a constant flow of Public Eye soldiers along the way. The two fought in perfect unison, almost as if they had been partners for years. Though she usually preferred to work along on missions, for once Natasha was glad to have a new ally on her side.\nAs they reached the lobby, leaving a trail of unconscious guards in their wake, they were met by one of the Public Eye's giant mechs, a heavily-armed robotic drone used to police the streets of Tokyo and keep dissidents in line.\n\"Go...\" Cap said, to Natasha. \"I've got this.\"\n\"No,\" Natasha replied. \"We can't risk you falling back into their hands.\"\nCap leapt toward the drone, narrowly dodging a blow from its over-sized mechanical fist. He reached up and grabbed hold of a circular plate of metallic armor on the robot's shoulder, ripping it off with ease.\n\"I'll be fine,\" Cap said with a smile, holding the disc of armor like a shield. \"I used to be able to do this all day. Time to find out if that's still true...\"\nAs Natasha reluctantly raced toward the lobby's main exit, Cap hurled the armored plate at the drone's torso, slicing right through its core circuitry. The mech began to spark wildly. Suddenly, its single eye turned a bright red.\n\"Self-destruct protocol initiated,\" the drone said in a synthesized voice.\n\"Well, that's new,\" Cap said under his breath, realizing the critical mistake he had just made.\nNatasha turned back and rushed to help Cap, but it was too late. The drone erupted in an enormous burst of flame that filled the lobby. Cap leapt on top of Natasha, protecting her from the burst, but the shockwave from the explosion still hit them both hard. Natasha's vision went blurry as she hit the ground.\nMoments passed and she regained her senses. She looked around for the man who had just rescued her from a fiery fate, but he was nowhere to be found. Where had he gone? The answer would have to wait. Sirens were blaring nearby. The Public Eye was about to bring in backup, and Natasha needed to det as far away as possible.\nThe Black Widow managed to disappear into the night, as she had done so many times before. Her mission had been partially successful, but she wouldn't be able to rest until she knew what had happened to Captain America.\nFor the first time in ages Natasha had been caught by surprise. Not only by the legendary hero in the block of ice, but by the unusal feeling he had inspired within her. Something she hadn't felt in decades.\nHope.",
+        "status": null
+      },
+      {
+        "title": "Phantom of the Red Room",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "The Innocent Baron",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06",
+        "changes": [
+          "Launch",
+          "Black Widow\nwas released as the 31st character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
+          "Added 2 new costumes:\nLethal Toxicity\nand\nWhite Suit\n.",
+          "Added the\nDeadly Bites\nachievement.",
+          "Added to the\nAllied Agents\nTeam-Up Ability\nwith\nHawkeye\n."
+        ]
+      },
+      {
+        "date_version": "24/12/10",
+        "changes": [
+          "Version 20241210",
+          "The description for ADS sensitivity in\nBlack Widow\n's settings was incorrect. This issue has been resolved.",
+          "In certain situations,\nBlack Widow\n's Ultimate would not recover energy as intended. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "25/01/10",
+        "changes": [
+          "Version 20250110\n/\nSeason 1: Eternal Night Falls",
+          "Launch",
+          "Increase the range of the first effect of\nEdge Dancer\nfrom a 3-meter radius to a 5-meter radius.",
+          "Reduce the time required for\nFleet Foot\nto recover from 0 stamina to full from 12s to 4s.",
+          "Reduce the time required for\nElectro-Plasma Explosion\nto reach maximum power from 1s to 0.6s."
+        ]
+      },
+      {
+        "date_version": "25/01/22",
+        "changes": [
+          "Version 20250122\n/\nFortune & Colors\nEvent",
+          "Added 1 new costume:\nLion's Heartbeat\n(Limited-time store release: 2025/01/23 - 2025/02/14)"
+        ]
+      },
+      {
+        "date_version": "25/02/21",
+        "changes": [
+          "Version 20250221\n/\nSeason 1.5",
+          "Launch",
+          "Increase the magazine capacity of\nRed Room Rifle\nfrom 8 to 15.",
+          "Enhance the slow effect of\nElectro-Plasma Explosion\non enemies from 80% to 55%. Additionally, it will apply a 15% Vulnerability effect to hit enemies for 4 seconds."
+        ]
+      },
+      {
+        "date_version": "25/03/07",
+        "changes": [
+          "Version 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+          "Added 1 new costume:\nMrs. Barnes\n(unlocked from\nGalacta's Cosmic Adventure\nevent)"
+        ]
+      },
+      {
+        "date_version": "25/04/11",
+        "changes": [
+          "Version 20250411\n/\nSeason 2: Hellfire Gala",
+          "Launch",
+          "Added a new effect where\nBlack Widow\ncan directly shoot after releasing the second kick of\nEdge Dancer\nand after using\nElectro-Plasma Explosion\n.",
+          "Added 1 new costume:\nRed Runway Veil\n."
+        ]
+      }
+    ],
+    "official_quote": "“Stepping out in the shadows.”",
+    "official_description": "Black Widow\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 31st hero introduced to the game's roster.\nShe has team-up abilities that work in conjunction with\nHawkeye\n."
+  },
+  "background": {
+    "real_name": "Natalia Alianovna Romanova",
+    "aliases": [
+      "Natasha Romanoff",
+      "Nat",
+      "Widow"
+    ],
+    "birthplace": "Stalingrad, Soviet Union",
+    "birthdate": null,
+    "gender": "Female",
+    "eye_color": "Blue",
+    "hair_color": "Red",
+    "relatives": [
+      "Ivan Bezukhov",
+      "Yelena Belova",
+      "Alexei Shostakov"
+    ],
+    "affiliation": [
+      "Avengers",
+      "Marvel Knights",
+      "Red Room",
+      "S.H.I.E.L.D"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Peak-human conditioning through genetic engineering",
+      "Enhanced longevity",
+      "Superhuman agility, reflexes, and stamina",
+      "Expert hand-to-hand combatant and marksmanship",
+      "Wide variety of gadgets and firearms"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Black+Widow%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "D",
+    "win_rate": "39.83%",
+    "wr_change": "-0.46%",
+    "pick_rate": "4.08%",
+    "pr_change": "+0.63%",
+    "ban_rate": "0.30%",
+    "matches": "60,820"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

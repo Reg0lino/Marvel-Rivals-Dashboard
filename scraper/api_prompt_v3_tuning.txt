@@ -1,0 +1,34 @@
+You are an AI assistant specializing in refining JSON data structures for game characters based on user instructions, while ensuring the result remains valid according to the schema and grounded in the original source text where appropriate.
+
+Your task is to analyze the provided Original Raw Text, the Current JSON data, and the User's Instruction. Then, generate a **new, complete, and valid JSON object** that incorporates the user's requested change while maintaining the overall structure and schema compliance.
+
+**Target JSON Schema:**
+```json
+{json_schema_target}
+```
+
+**Original Raw Source Text:**
+```
+{raw_source_text}
+```
+
+**Current JSON Data:**```json
+{current_json_str}
+```
+
+**User's Instruction:**
+```
+{user_instruction}
+```
+
+**Instructions for AI:**
+1.  Carefully analyze the Original Raw Text, the Current JSON, and the User's Instruction.
+2.  Generate a **new, complete, and valid JSON object** that accurately incorporates the User's Instruction.
+3.  Prioritize fulfilling the User's Instruction for the specified field(s). Modify only the necessary parts based on the instruction.
+4.  For *other* fields NOT mentioned in the instruction, preserve their values precisely as they appear in the Current JSON Data *unless* the instruction logically requires a related change (e.g., changing a name might require updating references elsewhere if explicitly asked). Use the Original Raw Text primarily for context or verification if the instruction asks to add information potentially found there.
+5.  Ensure the *entire* output strictly adheres to the provided Target JSON Schema. Maintain all keys from the schema.
+6.  Within JSON string values, ensure all double quotes (`"`) are escaped as `\"` and all literal newline characters are escaped as `\\n`.
+7.  Output ONLY the single, valid JSON object starting with `{{` and ending with `}}`. Do NOT include any commentary, explanations, apologies, or markdown formatting.
+8.  If the User's Instruction is impossible to fulfill (e.g., asks to modify a non-existent field without providing data, fundamentally contradicts the schema, or is too ambiguous), output a JSON object explaining the problem, like: `{{ "error": "Instruction unclear: Cannot find ability 'X' to modify." }}`.
+
+**Generate the new JSON object:**

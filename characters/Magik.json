@@ -1,0 +1,329 @@
+{
+  "name": "Magik",
+  "role": "Duelist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#FDE047",
+    "color_theme_secondary": "#FBBF2C"
+  },
+  "abilities": [
+    {
+      "name": "SOULSWORD",
+      "keybind": null,
+      "type": "Normal Attack",
+      "description": "Slash forward with the Soulsword.",
+      "casting": "Melee",
+      "damage": "65",
+      "damage_falloff": "4.5m, decreasing to 50% at 6.5m",
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "6.5m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "STEPPING DISCS",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Jump through a Stepping Disc, teleporting a short distance in the direction of movement.",
+      "casting": "Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s",
+      "range": "10m",
+      "projectile_speed": "12m/s",
+      "charges": 2,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Magik is invincible while moving\n⚬ Magik can perform a combo ability within a certain time frame, choosing between\nEldritch Whirl\nor\nDemon's Rage."
+    },
+    {
+      "name": "UMBRAL INCURSION",
+      "keybind": "E",
+      "type": "Movement-Based Damage Ability",
+      "description": "Dash forward and launch up enemies",
+      "casting": "Movement-Based Damage Ability",
+      "damage": "85",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "16m",
+      "projectile_speed": "46m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "ELDRITCH WHIRL",
+      "keybind": null,
+      "type": null,
+      "description": "Spin while swinging the Soulsword after exiting a Stepping Disc.",
+      "casting": "A cylindrical spell field in melee range",
+      "damage": "45",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "A cylindrical spell field with a radius of 6m and a height of 5m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "MAGIK SLASH",
+      "keybind": null,
+      "type": null,
+      "description": "Strike forward an air slash.",
+      "casting": "Charged projectile that travels in a straight trajectory",
+      "damage": "45 - 90 (Maximum damage is achieved after 1.8s of charging)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s",
+      "range": null,
+      "projectile_speed": "80m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "DEMON'S RAGE",
+      "keybind": null,
+      "type": null,
+      "description": "Summon a Limbo demon that attacks enemies after exiting a Stepping Disc.",
+      "casting": "A cuboid spell field in melee range",
+      "damage": "72 damage per hit",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "Length: 6.5m, Width: 3m, Height: 3m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "4s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "ABILITY HEALTH -\n100"
+    }
+  ],
+  "ultimate": {
+    "name": "DARKCHILD",
+    "keybind": "Q",
+    "type": null,
+    "description": "Transform into Darkchild, gaining enhancements to all her abilities.",
+    "casting": "Transformation",
+    "damage": null,
+    "range": null,
+    "effect": "When in the Darkchild state, all of Magik's abilities are enhanced.",
+    "duration": null,
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 3400,
+    "details": null
+  },
+  "passives": [
+    {
+      "name": "LIMBO'S MIGHT",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Convert damage inflicted on enemies into Bonus Health to herself.",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": "CONVERSION RATE -\n30%\nBONUS MAX HEALTH -\n150"
+    }
+  ],
+  "teamups": [],
+  "gameplay": {
+    "strategy_overview": "Magik is a highly versatile Duelist, and her ideal role will vary depending on the structure of the team. In a team with two vanguards, Magik is ideally utilised as a flanker, to take out the backline of healers as quickly as possible. However, if there is less than two vanguards, Magik can also be used to fill this role, given her high mobility, AoE attacks, and passive bonus health boost.\\nIt's important to note that Magik's basic swing combo is extremely slow and ineffective. It is recommended to follow each swing with a melee jab entirely regardless of your situation, as this cancels the animation, allowing you a significantly higher damage output over time.\\nIn a scenario in which two tanks already exist on your team, Magik performs exceedingly well in targeting healers. It is generally best to flank the enemy team and attempt to reach their backline through alternative routes to prevent being noticed; however if this fails you can always use her Stepping Discs to grant brief invincibility, allowing you a moment to escape or reach the backline. Once there, use the Umbral Incursion dash ability to begin an extremely effective combo. If landed, the dash will launch the enemy Strategist into the air. While aloft, perform a basic attack quickly followed by a melee for the animation cancel, then another basic attack plus a second melee if necessary. This combo is enough to eliminate every Strategist, provided they are receiving no healing/have no buffs in general. Once completed, use the Stepping Discs to teleport away, ideally using the demon ability to provide cover and delay pursuit. This combo is extremely effective for shattering an enemy team's backline quickly.\\nIf there is one or no Vanguards in your team, Magik can be, though not preferably, used as a semi-tank. Her AoE ability after Stepping Discs allows you to jump into the center of a team and inflict damage in a huge radius, though this does leave you vulnerable afterwards. If undertaking this role, ensure there are at least one healer on you at all times.\\nMagik's long range attack has no fall-off damage, and a relatively short wind up time for the damage generated, making it especially useful for opening combos. Consider chaining a long-range attack into the dash-swing-melee combo mentioned before, as this is usually enough to kill any non-tank character (heals excluded).\\nMagik's Stepping Discs and Umbral Incursion can be chained to generate up to 30m of almost instantaneous movement, effective for escapes or chase. Begin by teleporting, following with the dash. Stepping Discs provide a 3s window to use either ability, so after dashing, quickly use the swing. This will perform an animation which combines both the swing and the dash, moving Magik up to 30 metres in under a second, while also dealing damage the whole way.",
+    "weaknesses": [
+      "Magik is the only melee-oriented character whose normal attacks are affected by damage distance falloff.",
+      "This means she needs to be very close to her opponents in order to maximize her damage.",
+      "Her survivability is very conditional, as it depends on her dealing constant damage to trigger Limbo's Might and gain bonus health.",
+      "Has no ranged attacks aside from Magik Slash, which has a cooldown."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Master and Apprentice",
+        "description": "As Magik, partner with Doctor Strange to land one KO.",
+        "points": "5"
+      },
+      {
+        "icon": null,
+        "name": "Demon’s Roar",
+        "description": "As Magik, land 3 KOs within a single transformation into Darkchild.",
+        "points": "10"
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "I have mutant powers, and a little demonic magic too.",
+    "ingame_bio_text": "Trained in the dark arts and wielding her mighty Soulsword, Magik leaps through portals to navigate the arena with ease. Once Illyana transforms into the demonic Darkchylde, all who dare stand against her will fall before her merciless blade.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Limbo Border",
+        "content": "The flames rose high in the netherworld known as Limbo, and the sinister demons who dwelled in the accursed realm bowed in reverence. After all, it wasn't every day that two of the most powerful magicians in the Multiverse graced this dimension with their presence.\nWanda Maximoff\nmay have been the Sorceress Supreme in her home reality, but despite her power and status, she was merely an honored guest. For in Limbo, none were as powerful or respected as the queen of the realm - Illyana Rasputin, the Mutant known as Magik.\nMagik had recently returned from the battlefront of a timeline-spanning war against malevolent gods and demons that showed no signs of stopping. Limbo may have been no more than a scorched wasteland, but she had to admit, she was glad to be home. At least until the moment a portal opened and Wanda walked through. Because, in any reality, when the Scarlet Witch turned her eyes upon Mutants, there was no predicting what might happen next.\n\"What brings you to my kingdom, Witch?\" Magik asked, her Russian accent sharpening her every word like tiny daggers. It was clear she was not thrilled to be called upon during her brief moment of respite. Illyana's cold gaze would likely have sent a chill down the spine of even the fieriest of her subjects. But Wanda Maximoff had seen far worse in her time defending her own collapsing reality and remained undeterred.\n\"I have come to gather allies for a great war beyond the ones here,\" responded Wanda.\n\"I already have plenty of allies,\" Magik said with a smile, motioning to the horde of demons kneeling nearby awaiting her command. \"And as for wars, are we not already facing too many here?\"\n\"None like this,\" Wanda said. \"Countless timestreams have become entangled. At first I thought it was merely my own dimension that was in peril, but Stephen showed me otherwise.\"\n\"Stephen...?\" Magik paused. It had been ages since she had heard that name. Could it be that her former mentor in the mystic arts,\nDoctor Strange\n, was still alive?\n\"Yes,\" said Wanda. \"Doctor Strange showed me that there are battles on the horizon far greater than any I could have comprehended.\"\n\"I can hardly imagine a conflict bigger than the one I've been facing,\" mused Magik. \"But Stephen always taught me that the problems I can see are often meant to distract from the ones I can't.\"\n\"Indeed,\" Wanda concurred. \"We have all become so embroiled in our own conflicts that we have been missing the bigger picture.\"\nWith that, the Scarlet Witch opened her palm and conjured up a swirl of red chaos magic. Inside the frenzied wisps of energy, an image coalesced, showing the greatest heroes from every reality clashing against one another.\n\"That... doesn't look good at all,\" Magik said, her confident smirk disappearing from her face for the first time since this meeting of mighty mystics began. \"But if Stephen has you on his side, why would he need me? Clearly, your skills as a sorceress far surpass my own.\"\n\"I deal in chaos magic,\" Wanda replied. \"But you... your magic taps into the soul. And when so many souls across so many dimensions are in peril, that kind of power may be just what we need.\"\n\"True, the soul is a powerful thing...\" Magik said, as she reached her arm out to her side, clenching her hand into a fist. Within her grip, the hilt of a sword began to materialize, manifesting from energy drawn directly from Illyana's own essence. As the sword's blade - longer and wider than a young woman her size should have been able to comfortably wield - took form, Illyana raised it to point directly at the Scarlet Witch's throat.\n\"... but even a soul as pure as a snowflake can be corrupted.\" In a burst of hellfire, Magik herself began to transform. A pair of twisted horns emerged from her forehead as a pointed tail slithered out from the base of her spine. As eldritch armor wrapped her now demonic figure, Illyana gave a wicked smile that exposed her freshly-sharpened fangs. The denizens of Limbo hollered as their queen took her most majestic form, leaving Magik behind to become the Darkchild.\nWanda paused for a moment, wondering if perhaps she should have called upon a different version of Magik from another reality instead. One who had not yet fully embraced her place on Limbo's throne. But as she considered her next move, an unexpected voice broke the tense moment.\n\"Put down the sword, darlin',\" the gruff voice said. \"Wanda ain't lyin'. Not this time, at least. We're all on the same side here. And I don't care how big those horns of yours are these days...\"\nThrough the towering spires of flame stepped a Mutant that Illyana knew well- the man called Logan. The\nWolverine\n.\n\"...you'll always be that little girl I used to know\"\nIt was clear that the creatures of Limbo knee Wolverine as well. Mere moments before, they had been building to a frenzy as they cheered their demon queen towards wanton violence. Now, their silence was tangible as they quaked with fear.\nLogan's claws were fully extended, already dripping with the blood of demons foolish enough to stand in his way. They may have been her loyal subjects, but Magik felt no remorse for those who had fallen at Logan's hand. They should have known better than to cross his path.\n\"Logan? What brings you to this place?\" Wanda inquired.\n\"Search and rescue mission,\" Logan replied. \"We've been gatherin' lost Mutants. Bringin' 'em back home to Krakoa. In case ya didn't notice, the timestream is a bit of a mess. Krakoa's one of the few places that's still safe, in any timeline. At least for the moment.\"\n\"I hate to disappoint,\" Magik said, \"but I am not in need of sanctuary. I have things under control.\"\n\"Uh huh. Sure ya do, sweetheart,\" Wolverine replied, his sarcasm palpable. \"But I never said I came to get you.\"\n\"Then who?\" asked Wanda curiously.\n\"Just a kid,\" Wolverine said. \"Doesn't even have a codename yet. But she does have some sorta dimensional warpin' ability. Made a portal and got sucked into it. Lucky for her, the thing stayed open just long enough for me to jump through after her.\"\n\"She's probably terrified being lost in a realm like this,\" Wanda said. \"Imagine the trauma...\"\n\"I don't have to imagine it,\" mused Magik. \"I lived it myself. And I wont let another Mutant go through what I did. Follow me.\"\nAs Magik began to run, her Darkchild form receded, and her true self took control once more.\n\"Shouldn't I be the one int he lead, darlin'?\" asked Wolverine. \"I'm the expert tracker here.\"\n\"And I am the queen of this dimension,\" replied Magik. \"You will always have my respect, Logan... but in this place, I am in charge. Now be a good boy and try not to disembowel any more of my subjects along the way, would you?\"\n\"No promises,\" Wolverine muttered under his breath as the three heroes rushed across the rocky, fire strewn landscape in search of the missing Mutant. Although they each came to this place for different reasons, the queen, the witch, and the hunter, all managed to set aside their personal desires to serve the needs of one missing child. There was no doubt that, despite hailing from disparate realities, they all shared the same heroic spirit.\n\"I can sense her presence, just ahead,\" Wanda said as they reached the mouth of a small cave. \"Reality is bending around her. But a simple hex can set that right...\"\nThe Scarlet Witch moved her hands like an expert surgeon, weaving a complex spell to stabilize time and space. But chaos magic is not always predictable, and while reality itself may have stopped shifting, the rocks surrounding the caves mouth had suddenly become dangerously displaced.\n\"Rockslide\" barked Logan as he raced forward, towards the hole in the cliff wall. But he was a split second too late. Debris blocked his path, and his efforts to slash through the dense boulders with his Adamantium claws yielded little progress. Undeterred, the Queen of Limbo stepped forward towards the pile of rubble, casually opening a small circle in the sky in front of her with her own mutant power. These stepping discs, as she called them, usually allowed her to traverse across distances and dimensions. This time, however, it provided a safe exit for a very frightened young girl.\n\"Nothin' to worry about now, kiddo,\" Logan said as the young Mutant child wrapped her arms around her hero tightly. \"I'll get ya home, safe and sound.\"\n\"How will you do that?\" asked Magik. \"Her powers are too unpredictable. And, to be honest, my stepping discs haven't been much better for cross-dimensional travel since the timestream got turned upside down.\"\n\"This old dog's got a few new tricks,\" Logan grinned. He silently knelt down, pulling a small seed from one of the pouches on his belt. Popping a single claw to carve a hold in Limbo's rocky soil, he planted the seed in the ground- and within moments it began to sprout. A vine took form, growing and twisting into a shape that resembled a large doorway. Once the vine began to flower, the open, empty space it had encircled began to crackle with a strange energy. And suddenly, the flames of Limbo were no longer visible on the other side, but rather, the sin-kissed shores of the Mutant island Krakoa.\n\"Well,\" Logan said as he took his young ward by the hand and glanced back at Magik, \"you comin' or not, Rasputin?\"\nMagik hesitated for a moment. She wished to witness firsthand the safe haven for her people that her old friend had spoken of. Yet she still had a way to fight in another dimension. And, more importantly, a critical discussion to finish with the Scarlet Witch. But perhaps this was the very opportunity that Wanda had spoken of. A chance to bring together a mix of forces from across realities to combat the dangers ahead. A chance to make a new kind of magic together. Not magic born from chaos or even from the soul... but from the heart.\n\"I will join you,\" Magik finally replied. \"But only if Wanda can come as well.\"\n\"Sorry,\" Wolverine responded, \"but Krakoa only lets Mutants pass through its gates. And last I checked, Wanda here was only Mutant adjacent.\"\n\"Nothing a little chaos magic can't fix,\" Wanda said with a smile. With a gentle touch, the arcane energy of a hex danced across the organic edge of the Krakoan gateway. The white flowers on the vine turned to a deep crimson, surely a sign that Wanda was now welcome to pass through.\n\"You want chaos, Wanda?\" muttered Wolverine as he led his new friends through the portal. \"Just wait til'\nMagneto\ngets a look at you...\"",
+        "status": null
+      },
+      {
+        "title": "Chandilar Three Day Tour",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "Sword of X",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch\nMagik\nwas released as the 9th character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
+          "Added 2 new costumes:\nAmethyst Armor\nand\nEldritch Armor\n.",
+          "Added the\nDemon's Roar\nachievement.",
+          "Added to the\nDimensional Shortcut\nTeam-Up Ability\nwith\nBlack Panther\nand\nPsylocke\n."
+        ]
+      },
+      {
+        "date_version": "24/12/19:\nVersion 20241219\n/\nWinter Celebration\nEvent",
+        "changes": [
+          "The countdown for\nHulk\nand\nMa\ngik\n's ultimate transformations is now properly managed. No transformations will go amiss!",
+          "Ma\ngik'\ns ultimate can no longer be interrupted prematurely. She's ready to unleash her full power!",
+          "Added 1 new costume:\nFrozen Demon\n(Limited time store release: 2024/12/20 - 2025/01/10)"
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Corrected minor movement ability discrepancies for certain heroes (like\nDoctor Strange\nand\nMagik\n) at both low and high frame rates."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls\nLaunch",
+        "changes": [
+          "Increase\nUmbral Incursion\ndamage in\nDarkchild\nform from 115 to 135."
+        ]
+      },
+      {
+        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "changes": [
+          "Addressed a bug where\nMagik\ncould not use\nStepping Discs\nafter activating her ultimate ability in certain situations."
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5\nLaunch",
+        "changes": [
+          "Decrease the damage dealt by\nDemon's Rage\n(regular state) from 80/s to 72/s.",
+          "Reduce the energy cost of\nDarkchild\nfrom 3700 to 3400."
+        ]
+      },
+      {
+        "date_version": "25/02/28:",
+        "changes": [
+          "Added 1 new costume:\nPunkchild\n."
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala\nLaunch",
+        "changes": [
+          "Added 1 new costume:\nRetro X-Uniform\n."
+        ]
+      },
+      {
+        "date_version": "25/04/18:",
+        "changes": [
+          "Added 1 new costume color for\nPunkchild\n:\nRosy Resilience\n."
+        ]
+      }
+    ],
+    "official_quote": "I have mutant powers, and a little demonic magic too.",
+    "official_description": "Trained in the dark arts and wielding her mighty Soulsword, Magik leaps through portals to navigate the arena with ease. Once Illyana transforms into the demonic Darkchylde, all who dare stand against her will fall before her merciless blade."
+  },
+  "background": {
+    "real_name": "Illyana Nikolaievna Rasputina",
+    "aliases": [
+      "Darkchylde"
+    ],
+    "birthplace": "Ust-Ordynsky, Russia",
+    "birthdate": null,
+    "gender": "Female",
+    "eye_color": "Blue",
+    "hair_color": "Blond",
+    "relatives": [
+      "Piotr Rasputin"
+    ],
+    "affiliation": [
+      "X-Men"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Superhuman strength and durability",
+      "Resistance against physical and magical attacks",
+      "Expert swordswoman and sorcerer",
+      "Transdimensional teleportation and summoning via stepping discs",
+      "Enhanced physical and magical strength via her Soulsword",
+      "\"Darkchild\" semi-demonic transformation"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Magik%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "52.73%",
+    "wr_change": "-0.77%",
+    "pick_rate": "14.18%",
+    "pr_change": "-1.04%",
+    "ban_rate": "2.01%",
+    "matches": "211,629"
+  },
+  "data_sources": {
+    "wiki": [
+      "https://en.wikipedia.org/wiki/Magik"
+    ],
+    "tracker": [
+      "https://rivalstracker.com/heroes/magik"
+    ],
+    "comic_wiki": [
+      "https://marvel.fandom.com/wiki/Illyana_Rasputina_(Earth-616)"
+    ]
+  }
+}

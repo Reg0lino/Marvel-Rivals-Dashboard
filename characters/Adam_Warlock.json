@@ -1,0 +1,344 @@
+{
+  "name": "Adam Warlock",
+  "role": "Strategist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#FCD34D",
+    "color_theme_secondary": "#FDE047"
+  },
+  "abilities": [
+    {
+      "name": "QUANTUM MAGIC",
+      "keybind": null,
+      "type": null,
+      "description": "Launch quantum energy to deal damage.",
+      "casting": "Single-cast direct hit",
+      "damage": "60 per round",
+      "damage_falloff": "20m, decreasing to 60% at 40m",
+      "fire_rate_interval": "2/s",
+      "ammo": 15,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "critical_hit_effect": "When a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s."
+      }
+    },
+    {
+      "name": "SOUL BOND",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Forge a soul bond with allies, granting Healing Over Time and distributing damage taken across the bond.",
+      "casting": "Instant Cast",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "40s",
+      "range": "15m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "6s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Adam Warlock will share a portion of the damage sustained by linked allies. If Adam Warlock sustains damage that would KO him due to the link, then the link will be broken, and he will retain 1 Health. The link will also break once enough damage is sustained, if Adam Warlock or the linked ally leave the link's range, or after a certain length of time has passed"
+    },
+    {
+      "name": "AVATAR LIFE STREAM",
+      "keybind": "E",
+      "type": null,
+      "description": "Target an ally for a bouncing stream of healing energy, which also heals himself upon casting; self-targets if no ally is selected.",
+      "casting": "Targeted",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s per charge",
+      "range": "20m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Bouncing target does not include Adam Warlock"
+    },
+    {
+      "name": "COSMIC CLUSTER",
+      "keybind": null,
+      "type": null,
+      "description": "Gather quantum energy into a cluster and then swiftly launch it at the enemy.",
+      "casting": "Charged release with multiple delayed projectiles",
+      "damage": "38",
+      "damage_falloff": null,
+      "fire_rate_interval": "The firing interval for a single charged shot is 0.3s, while the interval for multiple shots is 0.07s",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": "100m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Shares ammo with Quantum Magic."
+    }
+  ],
+  "ultimate": {
+    "name": "KARMIC REVIVAL",
+    "keybind": "Q",
+    "type": null,
+    "description": "Awaken the karma of allies to revive them. Allies revived have lower health but enjoy a brief period of Invincibility.",
+    "casting": "Persistent spell field that surrounds the caster",
+    "damage": null,
+    "range": "30m spherical radius",
+    "effect": null,
+    "duration": "10s",
+    "health_upon_revival": "30% of the fallen ally's maximum health",
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 5000,
+    "details": "Revive allies within range, centered on Adam. Continuously monitor for fallen allies within this range; if they enter the area, they can be revived at the casting location."
+  },
+  "passives": [
+    {
+      "name": "REGENERATIVE COCOON",
+      "keybind": null,
+      "type": null,
+      "description": "Once his body perishes, Adam Warlock can freely move as a soul and reforge his body at a chosen spot.",
+      "cooldown": "105s",
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": null
+    },
+    {
+      "name": "SOUL PERSEVERANCE",
+      "keybind": null,
+      "type": null,
+      "description": "Adam Warlock enhances the rebirth power of Star-Lord and Mantis, granting them the power of cocooned revival",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": null
+    }
+  ],
+  "teamups": [
+    {
+      "name": "SOUL PERSEVERANCE",
+      "keybind": null,
+      "partner": [
+        "Star-Lord",
+        "Mantis"
+      ],
+      "effect": "Adam Warlock enhances the rebirth power of Star-Lord and Mantis, granting them the power of cocooned revival",
+      "teamup_bonus": "- 15% Healing Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "While capable of dishing out significant damage, remember Adam Warlock's unique ability to weave in team support. Utilize 'Soul Bond' proactively to mitigate damage for vulnerable allies and don't underestimate the impact of timely 'Avatar Liveream' casts to sustain your team. Position yourself to take advantage of your hitscan primary fire against mobile threats, and always be mindful of your ultimate to swing team fights back in your favor with well-timed revives.",
+    "weaknesses": [
+      "Lacks any mobility tools, making him more susceptible to dives and flanking.",
+      "Regenerative Cocoon has a very long cooldown of 105 seconds.",
+      "Cosmic Cluster shares ammo with Quantum Magic.",
+      "Despite his high burst healing, he lacks sustained healing due to the longer cooldown of his Avatar Life Stream.",
+      "In addition, he relies heavily on the positioning of his allies in order to maximize the bouncing healing of this ability.",
+      "Adam cannot be far away from his teammates if he wants to heal them.",
+      "Karmic Revival's range is not very high, meaning allies that are too far away from it won't be revived.",
+      "In addition, the player must be careful when using this ability to avoid reviving characters only for them to be taken down again in succession.",
+      "Adam cannot be far away from his teammates if he wants to heal them.",
+      "Adam is completely vulnerable while channeling this ability, and if executed before creating the quantum zone, the ability will go on a cooldown before activating.",
+      "Characters revive with only 30% of their max health."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "King In Gold",
+        "description": "As Adam Warlock, take down an enemy Venom.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Family Ties",
+        "description": "As Adam Warlock, forge a soul bond with 3 allies from the Guardians of the Galaxy.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"I will bring peace to this universe, no matter the cost.\"",
+    "ingame_bio_text": "The genetically-engineered Adam Warlock wields mighty Quantum Magic, allowing him to connect and heal souls with a gentle touch. When the time comes for his allies to unite, Warlock emerges as the unwavering epicenter of cosmic justice!",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Golden Sail",
+        "content": "In the beginning, there was darkness.\nThe universe was no more than an endless void — a vast expanse of silent nothingness — until celestial forces shaped the stars and nurtured life into being.\nJust as the universe began in darkness, so did I. Created within a protective cocoon from which I burst forth, fully-formed. A golden guardian designed to bring peace to the galaxy with my vast cosmic might. But there is a cycle to life. And just as I was born from this cocoon, now I have returned to it, much sooner than I could have anticipated.\nMy cosmic awareness sensed that something was amiss — a great disturbance in the fabric of time and space itself. As multiple realities and timelines became entangled, I reflexively shielded myself within this protective shell. If I truly hoped to fulfill my ultimate purpose, then I would have to bide my time and build my strength for the trials ahead. But what would they be? Even with my deep connection to the primal forces of the universe, I was both literally and figuratively in the dark once more.\nAs I slumbered within my restorative sheath, it became a wayward vessel floating through the cosmos. I was no longer in control of my own destiny, merely a passenger adrift on the currents of fate. The silence out among the stars brought a sense of tranquility I had not experienced since before my birth. The serenity would not last long.\n\"Adam.\"\nA voice called my name, echoing not in my ears, but inside of my mind. Whoever was calling me was reaching out across the void with a psyche even more powerfully attuned than my own.\n\"We are not so different, you and I,\" the voice continued. \"We both slumber while the Multiverse burns around us. Some gods we are...\"\nAs the powerful words pulsed within my brain, an image began to form in my mind's eye. A man confined to a sacred chamber. Not quite a cocoon like my own — his was nearly as old as time itself — yet similar in many ways. The bearded man within was frail and weak, devoid of power. But he was not always so. As my mind was flooded with brief glimpses of his storied past, it became clear that he was once mighty king that ruled a glorious realm for centuries on end.\n\"Time is something I have never feared,\" he said inside of my mind. \"Not until now. Time and space are twisting around us, and I am trapped here within the Odinsleep, unable to do a Bor-damned thing about it.\"\nThe Odinsleep? Of course! I knew the voice was familiar, even if the man himself no longer was. It belonged to the All-Father of Asgard, Mighty Odin. Had he fallen to the same forces that had caused me to reflexively retreat into my cocoon?\n\"Nay,\" Odin replied, reading my own thoughts, \"I was brought low by the machinations of my own son-the trickster known as Loki. The foul child has usurped the throne of Yggsgard and is set to destroy our proud legacy for his own selfish ends yet again.\"\nDid he say... Yggsgard? How curious. But the proper name of his realm was the least of my concerns. While the rage that the All-Father felt about his son's actions was palpable, there was something more beneath it. A deep concern that spanned far beyond the realm he once ruled.\n\"You too are preparing for a battle when you awaken, golden one,\" Odin said. \"And while my son may indeed test your mettle, he is naught but a distraction from your true enemy. There is a darkness in the cosmos, Adam — one far deeper than that of our slumbers. I have felt it trying to creep its way into my realm. Even into my own dreams. Should it be set loose, I fear that it will corrupt all it touches, snuffing out the starts themselves until nothing remains.\"\nWhat could he be speaking of? I called out to Odin for an answer, but his voice had muted to nothing more than a distant echo. As my cocoon drifted far past the embattled realm of Yggsgard, I left a small fraction of my soul's energy behind with the sleeping Odin — a hint of light to keep the darkness he spoke of at bay. I prayed it would be enough.\nNow that my cosmic awareness had been fully awakened, I could sense another empire on the horizon. This one was not nearly as ancient as Odin's realm, yet its own god seemed just as eager to call my name.\n\"Warlock,\" she said with a growl of disdain. \"You have come a long way to die.\"\nWas I being threatened merely for passing through this space? How rude.\n\"The Intergalactic Empire of Wakanda shall not harm you, traveler,\" the voice continued. \"But those beyond our borders will not be nearly as kind. Of that, you have Bast's word.\"\nBast. The panther goddess. A member of the Orisha, a pantheon of deities worshipped by the people of Wakanda. But last I recalled, Wakanda was merely a nation on the planet Earth, not an interstellar civilization. Could I have drifted into another reality?\n\"More precisely,\" Bast interrupted, \"other realities have drifted to you. This Timestream Entanglement has brought us together from across a multitude of plains. What is left of each universe is converging into one, as if we have been gathered...\"\nGathered? For what...?\n\"For the feast.\"\nAs Bast snarled her final words into my mind, it became clear that her divine presence had somehow been corrupted. Could she have been tainted by the very same darkness that Odin had warned me of? I had no way of knowing, as my journey across the spaceways had already continued deeper into the heart of this strange patchwork galaxy.\n\"Child of the light,\" a third voice suddenly echoed within me.\nThis one I could identify without hesitation. It spoke with such raw power that it could only belong to a Celestial — an ancient being spawned at the dawn of time. But yet, even though its words passed through my consciousness with tremendous force, they were softer than other Celestials I had encountered. Muted. Faded. Like distant memories.\n\"You would be wise to listen, lest my fate end up being yours as well,\" the Celestial implored, though I had little choice to give it anything less than my undivided attention.\n\"As you know, we Celestials were born at the beginning of all that is,\" it continued, \"but we were not the first. There was a primordial force that came before us. A creature of pure darkness, so powerful that he could strike down any who threatened to shed light upon the endless oblivion he ruled.\"\nEven the Celestials themselves? I struggled to imagine a foe so formidable...\n\"Few can wrap their minds around his nihility. And yet, here I am, slain by his sword, with nothing left of me but an empty husk and the echoes of consciousness.\"\nBut there was more than just the remains of a fallen Celestial in the void beyond my cocoon. I could sense that now. There was also a hint of corruption, not unlike the one that had tainted Bast. But this was not found in the disembodied mind of the slaughtered Celestial. Rather, it lingered on the great being's lifeless body, like an infected sore that had been festering for millennia.\n\"You feel him, too,\" the voice echoed. \"His tainted touch has stained my corpse for eons. But now, as time collapses around us, he has awoken once more, eager to revel in the oncoming oblivion. I have called out to others like you — great cosmic forces, ancient warriors, even the gods themselves — for help in containing his eternal blackness, but they have either retreated... or succumbed to his poison. Perhaps you will fare better...\"\nHoping the Celestial was right, I reached out with my mind, desperate to identify the source of this cosmic impurity. But my thoughts became clouded as I heard the Celestial scream a final warning.\n\"Beware, child of light! He has found you!\"\nWho? Who has found me? The Celestial did not answer. But another voice did, with a tone a thousand times darker than the blackness within my cocoon.\n\"Knull.\"\nAs he spoke his own name, I could feel his dark tendrils digging into my mind. This ruler of the void — this King in Black — had awakened somewhere and was dragging me towards him. Try as I might, I could not escape his grip.\n\"Do not give up hope, child,\" the Celestial said, its voice rapidly fading. \"You will not be alone...\"\nSuddenly, a burst of cosmic fire erupted through the heavens, producing a flash so brilliant that it permeated the walls of my cocoon. The light lasted only a second, but its unusual shape forever burned itself into my mind — a majestic bird, its flaming wings spanning across the cosmos. Before I could process what had happened, the vessel that was meant to protect me now hurtled through space towards a destination unknown.\nMy body was still confined, but my mind was in a heightened state. Where there had once been blinding light, now darkness and despair had slithered their way in. I was overcome with images of the horrors that Knull had once committed, and those he had yet to unleash upon the universe. I could see his past and his future... but what of his present? That, it seemed, was shrouded in mystery — a void greater than Knull himself.\nSuddenly, my journey across the galaxy came to a violent end as my vessel made impact against a most unusual surface. Was this a planet? No... I could feel it writhing around me, as if it were alive. And more, I could feel Knull's sinister presence, closer than ever. Wherever I was, he was as well.\nBefore my cocoon could be dragged beneath the churning sea of oblivion surrounding it, a single crack appeared above me. Where before there was nothing, now there was the faintest glow. The faintest hope. I pushed through, emerging from my cocoon to gaze upon the surface of a world teeming with alien life.\nAnd as my mind touched their hivemind, it all became clear. This was Klyntar, the planet of the symbiotes. It was here that Knull was once worshipped as a god. It was here that his own followers imprisoned him eons ago. And it was here that he was biding his time, regaining his strength, in hopes to break free and claim his prize once more.\nPerhaps he had dragged me here to snuff out my light before it could drown out his shadows. But he made a grave miscalculation:\nI broke free first. And as I stood upon Knull's planet-sized prison, I made a solemn vow to do anything in my power to make sure that his infinite blackness would not go unchecked.\nIn the beginning, there was darkness.\nBut in the end, there will be light.\nAnd I shall be the one to help it shine.",
+        "status": null
+      },
+      {
+        "title": "Infinity Watch",
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
+      },
+      {
+        "title": "Experiment 79 of the Enclave",
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Adam Warlock was released as the 21st character to be introduced to Marvel Rivals as a Strategist hero.",
+          "Added 2 new costumes: Cosmic Jade and Guardians of the Galaxy Vol. 3.",
+          "Added the Family Ties achievement.",
+          "Added to the Guardian Revival Team-Up Ability with Star-Lord and Mantis."
+        ]
+      },
+      {
+        "date_version": "24/12/10:\nVersion 20241210",
+        "changes": [
+          "When the target area is ascending or descending, if Adam Warlock used his Ultimate, his teammates would potentially revive and be stuck beneath the terrain if they were right on the target area platform. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Fixed a visibility issue that could sometimes occur when Adam Warlock / Mantis / Star-Lord were in soul form within the mist on Wakanda maps where they couldn't see or be seen by others."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "changes": [
+          "Added 1 new costume: Blood Soul."
+        ]
+      },
+      {
+        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "changes": [
+          "Fixed a camera misalignment issue that could occur while KO'd and revived by Adam Warlock while spectating Hela just as she rises up to launch her Ultimate Ability."
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5\nLaunch",
+        "changes": [
+          "Increase the damage of Quantum Magic from 55 to 60. Additionally, the Damage Falloff at 40 meters will be changed from 50% to 60%.",
+          "Increase the healing amount provided by Soul Bond to linked allies from 10/s to 15/s."
+        ]
+      },
+      {
+        "date_version": "25/03/07:\nVersion 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+        "changes": [
+          "Resolved a problem where if Adam Warlock 's Ultimate Ability failed in certain areas (like cliff edges), 50% energy wouldn't be returned. The hero's energy is now properly restored!"
+        ]
+      },
+      {
+        "date_version": "25/03/14:\nVersion 20250314",
+        "changes": [
+          "Added 1 new costume: Will of Galacta."
+        ]
+      },
+      {
+        "date_version": "25/04/08:",
+        "changes": [
+          "Fixed a glitch that sometimes caused abnormal camera angles after being revived by Adam Warlock 's Ultimate Ability. No more wobbly views for our heroes—everyone deserves to enjoy their epic returns in all their heroic glory!"
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala\nLauch",
+        "changes": [
+          "Increase the cooldown of Soul Bond from 30s to 40s.",
+          "Karmic Revival now restores 30% of a fallen ally's maximum health instead of a fixed 100 Health."
+        ]
+      },
+      {
+        "date_version": "25/04/15:\nVersion 20250415",
+        "changes": [
+          "Fixed an issue where Adam Warlock could accidentally resurrect teammates in the out-of-play area on Spider-Islands. Now, teammates will return to solid ground instead of being stuck in limbo!"
+        ]
+      },
+      {
+        "date_version": "25/04/30:\nVersion 20250430",
+        "changes": [
+          "Add a new effect to Quantum Magic : When a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s."
+        ]
+      }
+    ],
+    "official_quote": "“I will bring peace to this universe, no matter the cost.”",
+    "official_description": "Adam Warlock\nis a Strategist\nhero\nin\nMarvel Rivals\n, and is the 21st hero introduced to the game's roster during\nSeason 0: Dooms' Rise\n.\nHe has team-up abilities that work in conjunction with\nMantis\nand\nStar-Lord\n."
+  },
+  "background": {
+    "real_name": "Adam Warlock",
+    "aliases": [
+      "Child of Light",
+      "Him",
+      "Magus"
+    ],
+    "birthplace": "The Beehive, Shard Island, Atlantic Ocean",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "White",
+    "hair_color": "Gold",
+    "relatives": [
+      "Enclave",
+      "Eve Warlock",
+      "Magus"
+    ],
+    "affiliation": [
+      "Guardians of the Galaxy"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Mastery over Quantum Magic via Karmic Staff",
+      "Superhuman strength, senses, agility, and stamina",
+      "Superhuman healing factor",
+      "Soul manipulation",
+      "Regeneration via regenerative cocoon",
+      "Telepathy",
+      "Flight",
+      "Energy manipulation"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Adam+Warlock%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "49.15%",
+    "wr_change": "-0.47%",
+    "pick_rate": "10.26%",
+    "pr_change": "+2.27%",
+    "ban_rate": "0.21%",
+    "matches": "153,118"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

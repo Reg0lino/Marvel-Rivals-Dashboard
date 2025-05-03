@@ -1,0 +1,292 @@
+{
+  "name": "The Thing",
+  "role": "Vanguard",
+  "stats": {
+    "health": 700,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#FDBA74",
+    "color_theme_secondary": "#60A5FA"
+  },
+  "abilities": [
+    {
+      "name": "ROCKY JAB",
+      "keybind": null,
+      "type": null,
+      "description": "Rapidly punch forward.",
+      "casting": "Single-cast Spell Field",
+      "damage": "40 per hit",
+      "damage_falloff": null,
+      "fire_rate_interval": "Double strike 0.33s between attacks, 1s between sets.",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "4m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "STONE HAYMAKER",
+      "keybind": null,
+      "type": null,
+      "description": "Deliver a devastating Heavy Blow.",
+      "casting": "Single-cast Spell Field",
+      "damage": "90",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "8m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Move forward 3 meters while punching, gaining 50 Bonus Health during skill activation"
+    },
+    {
+      "name": "YANCY STREET CHARGE",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Continuously charge forward, launching up enemies and leaving behind a zone at the final position that prevents the use of mobility abilities.",
+      "casting": null,
+      "damage": "Charge: 30; ground slam: 20; immobilization zone: 15 per/s",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "10s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "5s",
+      "movement_boost": "100%",
+      "energy_cost_details": null,
+      "details": "Gain 200 Bonus Health during skill activation\nLeave behind a zone at final position that prevents the use of mobility spells"
+    },
+    {
+      "name": "EMBATTLED LEAP",
+      "keybind": "E",
+      "type": null,
+      "description": "Jump towards your ally and apply damage reduction to both of you.",
+      "casting": "Targeted",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "Basic Cooldown 3s, with a charge of 10s per use",
+      "range": "20m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Apply a 25% damage reduction effect to self and target ally for 3s"
+    }
+  ],
+  "ultimate": {
+    "name": "CLOBBERIN' TIME",
+    "keybind": "Q",
+    "type": null,
+    "description": "Uses immense power to launch all enemies in front of you into the air.",
+    "casting": null,
+    "damage": "100",
+    "range": "Step spell field: 3m high, 10m wide, advancing 2m every 0.1 seconds, up to a maximum of 18m",
+    "effect": null,
+    "duration": null,
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 2800,
+    "details": "Stun duration 2.5s"
+  },
+  "passives": [
+    {
+      "name": "UNYIELDING WILL",
+      "keybind": null,
+      "type": null,
+      "description": "Immune to launch up, knockback, and other displacement effects.",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": null
+    }
+  ],
+  "teamups": [
+    {
+      "name": "COSMIC FASTBALL",
+      "keybind": "Z",
+      "partner": [
+        "Wolverine",
+        "Hulk"
+      ],
+      "effect": "Hulk or The Thing can lift Wolverine and hurl him forward.",
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "3s when not thrown, 15s when thrown",
+      "range_target": "20m",
+      "special_notes": null,
+      "details": null
+    },
+    {
+      "name": "COOPERATIVE COMRADES",
+      "keybind": "C",
+      "partner": [
+        "Invisible Woman",
+        "Mister Fantastic",
+        "Human Torch"
+      ],
+      "effect": "Grants damage resistance. Continually generate bonus health.",
+      "teamup_bonus": null,
+      "duration": "5s",
+      "cooldown": "20s",
+      "range_target": null,
+      "special_notes": null,
+      "details": "Generate 5 Bonus Health per 0.1s\nBONUS MAX HEALTH - 100"
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "To be added",
+    "weaknesses": [
+      "Even though he's immune to knockbacks and other displacements, he is capable of being stunned from Mantis's Spore Slumber and Doctor Strange's Ultimate Eye of Agamotto.",
+      "Because he is melee focused, he works best when up close to enemies.",
+      "His Embattled Leap ability can only be activated on allies, so if he is isolated and his Yancy Street Charge is on cooldown, he has no means to escape until it returns should he be surrounded or in line of enemy fire."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Who's the Strongest Now?",
+        "description": "As the Thing, take down an enemy Hulk.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "What Time Is It?",
+        "description": "As The Thing, launch up 4 enemies with a single use of Clobberin' Time.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"I promised ya, somewhere under all this rock is a heart of gold.\"",
+    "ingame_bio_text": "When Ben Grimm signed up to pilot an experimental spacecraft for his pal Reed Richards, he never imagined he'd return from the flight transformed into a monster. Even though cosmic rays turned him into the Thing, Ben still has a heart of gold beneath his rocky exterior.\nSince New York City plunged into eternal night, Ben has devoted himself to protecting his home from the monsters plaguing it.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Gangs of Yancy Street",
+        "content": "Ever since New York City became locked in a state of eternal night, the members of the Fantastic Four had been working tirelessly to protect the innocent civilians of Manhattan from the vampires who had overtaken the island. Of course not every civilian was so innocent... and not all of them wanted to be protected...\n”Go home, ya big lug?” a voice shouted from an apartment window.\nAs Ben Grimm, the hero known as the Thing, looked up to see who was shouting at him, he was pelted in the side of the head by a tomato. And then another. And then another, each one coming from a different direction. He shouldn’t have expected any less. After all, he was on Yancy Street.\nAs the tomatoes’ slimy seeds dripped down Ben’s stony face, he let out a huge sigh. This was the street he grew up on. It was the first place he ever felt like he belonged. And yet, instead of celebrating him when he became a big time superhero, the folks in the old neighborhood treated Ben as if he was a sellout. Still, while the kids in the stanch Street Gang might have stocked up on over-ripe fruit and vegetables to hurl every time Ben paid his home turf a visit, it hadn’t deterred the Thing from checking in every day to make sure the people he cared about were safe.\n”Thanks for the sauce,” Ben yelled to his assailants as he wiped off the pulverized produce. “Next time, could ya throw some past my way? Maybe a loaf of bread?”\n”A Guy your size don’t need that many carbs!” another voice yelled back.\n”Can’t blame a guy for tryin’ to get a free bite,” Ben replied, forcing a smile.\n”Depends who they’re bitin’! a third voice yelled. “You see any vamps down there, tell ‘em the Yancy Street Gang ain’t no one’s dinner!”\n”That’s what I’m here to make sure of, ya ungrateful punks,” Ben mumbled to himself.\nAs he strolled down the street, everything seemed quiet at first. Ben knew far too well from his many years as a hero that it usually meant something bad was about to happen. As usual, his instincts were right on target.\nAs he turned the corner, Ben saw a young boy in the alley next to Kurtzberg’s Kosher Bakery who had been cornered by a vampire. The boy - about the age of Ben’s nephew Franklin - looked terrified. But as soon as he saw the Thing round the corner, he tried to put on a brave front.\n”I told you lousy fangers,” the boy barked, “no one messes with the Yancy Street Gang! We got friends in high places!”\n”Oh, so now we’re friends?” Ben quipped, deliberately drawing the vampire’s attention away from the boy. “Good thing... ‘cause this ‘big lug’ always takes care of his own!”\nWith that, Ben rushed towards the vampire, pulling his gigantic rocky fist back to deliver a crushing blow. The punch managed to knock the monster’s fangs clean out of his mouth. The wounded vampire clutched at its jaw in pain before fleeing from the alley. The boy breathed a sigh of relief, then puffed up his chest in a show of bravado.\n”Coulda handled him myself, ya know,” he said to the Thing.\n”Uh huh,” Ben replied. “I’m sure ya coulda. And I promise I won’t tell your fellow hooligans that I lent a hand. But I need you to do me a favor first...”\n”Fine” the boy replied. “But just this once.”\n”I’ve been lookin’ for someone,” Ben started. “A special friend...”\n”Ain’t that sweet!” the boy laughed. “But trust me, no gal in her right mind is lookin’ for a fella with your busted mug!”\nBen glared at the boy, who quickly realized that this wasn’t the time for more jokes and insults.\n”Sorry... bad habit...”\n”The FF, we’ve got a pal who went missin’,” Ben continued, “and when it comes to what happens on the streets of New York, you kids have got a better intel network than Nick Fury.”\n“That’s ‘cause we’ve got more eyes,” the boy said.\n”True, true,” Ben said, unable to hide a smirk. “So tell, me... have any of those eyes seen the\nBlack Panther\nlurkin’ around anywhere?”\n”The guy in the cat suit?” the boy replied, “Not exactly... but we have heard whispers that some of the vamps around these parts are answerin’ to a new king. And it ain’t the old, pasty guy livin’ in that Central Park castle neither.”\n”So, Dracula’s got some competition for his throne?” Thing asked.\n”That’s the rumor at least,” the boy said, “and we’ve got reason to believe it’s true. My buddy Stanley went on a supply run into the Village yesterday and saw a group of fangers all lined up like they were some sort of army. Real organized and disciplined. Not all wild and savage, like that freak you just clocked in the kisser.”\n”Where’d your buddy see ‘em?” Ben asked.\n”Not too far from here,” the boy replied. “Over in Washington Square Park.”\n”Thanks, kid,” Ben said, patting the boy on the shoulder with his massive stone hand. “You’re one of the good ones.”\n”Wish I could say the same,” the boy said with a wink before running out of the alley toward the safety of his apartment building. Ben couldn’t help but chuckle... but he knew things were about to get a whole lot less amusing.\nWhen Ben reached Washington Square Park, he was shocked to discover that the young Yancy Street Gang member had been telling the truth. There, in the center of the park, was a group of vampires, all practicing fighting moves as if they were running a military training exercise. And Ben had seen their combat style countless times before. These were the same ferocious attacks employed in battle by the Black Panther himself.\nNormally, if Ben had come across a gathering of vampires this big, he would have rushed into the park with his fists flailing. But this time around, he wasn’t looking for a fight. He was looking for a friend. So instead, he watched the vampires complete their training exercise and then followed them as they marched back to a seemingly abandoned building.\nOnce the vampires were inside, Ben knew it was time to make his move. He knocked gently on the door. When there was no answer, he shrugged and knocked it right off its hinges with a single punch. The vampires within immediately turned toward the door and raced toward Ben, their fangs bared.\n”Easy fellas,” Ben said, pushing way through the hungry horde. “I just came to talk to your boss.”\n”No one sees the king,” one of the vampires hissed.\n”Tonight,” a booming voice said from the shadows, “we shall make an exception.”\nThe vampires backed away from the Thing, clearing a path as a majestic figure stepped into the light, clad in ornate white armor that had the heads of fearsome beasts carved into each shoulder. As Ben had hoped, he found himself face-to-face with his lost ally, the Black Panther. But Ben knew T’Challa well enough that he could instantly see something was wrong. The king’s eyes glowed red and his teeth were unusually sharp. Somehow, Ben realized, the vampires must have gotten to T’Challa and turned him into one of their own.\n”What a revoltin’ development this is,” Ben said as he gazed at his old friend.\n”Indeed,” T’Challa replied. “I had come from my Intergalactic Empire to cure this reality of the plague that has befallen it. And yet, I soon found myself to be its next victim. While I was able to survive my initial encounter with the Lord of the Vampires, I had to go into hiding until I was sure I could control the hunger that had overcome me.”\n”You shoulda just come to us,” Ben said. “\nSuzie\nmakes one heck of a brisket.”\n”I could not risk putting my closet allies in danger,” T’Challa said. “And, much to my suprise, I was not alone for long. For some reason, I was able to exert my command over the other vampires I encountered. Soon, I had amassed a small army of loyal followers.”\n”Once a king, always a king,” Ben mused. “Must be in the blood. Umm... No pun intended...”\n”Actually, it seems my blood is no different than any other vampire,” T’Challa said. “The power once granted to me by the Heart-Shaped Herb has all but faded. I am but a shadow of my former self without it.”\n”Too bad,” Ben said. “That fancy Herb of yours ain’t exactly something we can get at the local grocer. Does Wakanda make deliveries?”\n”I have lost communication with my empire,” T’Challa said, reaching into a pouch hidden in his armor, “but I did bring one Heart-Shaped Herb with me on this journey.”\n”Then what the heck are you waitin’ for?” Ben asked.\n”I had hoped to give this sample to your teammate,\nReed Richards\n, in order to synthesize a cure for vampirism,” T’Challa said.\n”We can always find a way to get more herbs,” Ben replied, “But you can’t be replaced. I’m sure Stretcho would agree.”\n”I... suppose you are right...” T’Challa said, gazing at the herb in his hand which gave off a gentle purple glow.\nT’Challa took a deep breath, put the Heart-Shaped Herb in his mouth, and began to chew on its leaves. In mere moments, his eyes began to return to normal and his fangs began to retract. The curse that had fallen T’Challa was being undone. But the herb had another side effect as well. The vampires around T’Challa all began to sniff at the air wildly, as if searching for the source of something delicious...\n”I feared this would happen,” T’Challa said as his own army suddenly began to turn against him. “Dracula suggested that the herb made my blood irresistible to his kind.”\n”Then give me some of it, yer highness” Ben said, “and let me handle the rest.”\n”I told you, I do not have another Herb,” T’Challa said as he leapt up into the rafters of the building.\n“Don’t need it,” Ben replied. “All I want is your blood.”\n”Hopefully not as badly as they do,” T’Challa mused as he looked down to see the vampires that he once controlled jumping reaching towards him in desperation.\nT’Challa pulled back the armored sleeve covering his forearm. Unsheathing the razor-sharp claws on his opposite hand, he did not hesitate as he drew them actors his exposed flesh. Blood began to run from the fresh wound, trickling down onto the Thing below.\n”Gotta admit, I preferred the tomatoes,” Ben said as the Wakandan king’s blood coated his rocky hide, “but if it’s your blood these jerks are after’ I’ll give ‘em what they want.”\nThe vampires instantly forgot about T’Challa, who was hiding safety out of reach above them, and turned their frenzied bloodlust on the Thing. They frantically tried to sink their teeth into Ben, but failed to puncture his rocky exterior.\n”Sorry, kids,” Ben said. “I may be sweet on the inside, but on the outside, I’m just as tough as I look.”\nAs the vampires chipped their fangs on the Thing’s stone hide, T’Challa called down to his ally.\n”These vampires may seem like the enemy,” he said, “but they were turned to darkness by Dracula, just as I was. They served me loyally and harmed no innocents on my command. Despite their current state, I implore you to show them some mercy.”\n”Mercy?” Ben said with a tinge of disappointment. “But... it was almost Clobberin’ Time!”\nInstead of attacking the vampires directly, Ben honored T’Challa’s request and hit the ground as hard as he could. The impact sent a powerful shockwave cascading across the floor of the building, knocking all of the vampires temporarily unconscious.\n”Oopsie,” Ben said as the entire building began to shake around him. “We gotta get outta here, T’Challa!”\n”We cannot leave them behind,” T’Challa said.\n”You won’t have to,” a voice said from the door way. It was Reed Richards - brilliant scientist, fearless adventure, and Ben’s teammate in the Fantastic Four.\n”Fancy seeing you here, Stretcho,” Ben said, to his best friend, “but I ain’t complainin'!”\n“When you didn’t return from your patrol, I followed your personal locator beacon here,” Reed said. “And I brought something special with me, just in case you ran into trouble...”\nReed extended his arm to show Ben a strange, high-device.\n”Please tell me that’s some sorta anti-vampire ray,” Ben said.\n”No,” T’Challa said. “I recognize that from the designs my sister showed me. It is a miniature version of the Timestream Reintegration Device, is it not?”\n”Correct,” Reed said. “And while it only had limited success during its first test run, I’ve made some adjustments that may prove useful.”\n”Less talkin’, more doin’!” Ben said as chunks of debris began to rain down on him and the unconscious vampires.\nReed activated the portable TRD and the entire room began to glow. Suddenly, the building began to reassemble itself, as if the damage to the structure that the Thing caused had never occurred.\n”It is as if the device is rewinding time itself...” T’Challa said.\n”Well, how about that?” Ben added as he watched in awe. “Gotta bring along one of those doohickeys next time I fight the\nHulk\n...”\n”I am afraid the effects were stronger than you intended,” T’Challa said, suddenly grimacing in pain. “My hunger has returned. I have been restored to my vampiric state...”\n”Ain’t that a kick in the pants,” Ben said. “But if you’re back to bein’ a vampire again, what did the TRD do to your loyal royal subjects?”\nBen, Reed, and T’Challa turned to see that what was once a room full of bloodthirsty vampires was now full of ordinary people. They were disoriented and confused, but they were grateful to be human again.\n“You have saved them,” T’Challa said.\n”And now, it’s time to save you, T’Challa,” Reed replied.\n”There is no one in this universe, or any other, that I trust more to do the job,” T’Challa said.\nBen looked at T’Challa in utter disbelief.\n”After all we’ve been through?” he said. “Yeesh! What’s a guy gotta do to finally get a little respect?!”",
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Shattered Hammer",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Four Minute Wedding",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "changes": [
+          "The Thing was released as the 37th character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 2 new costumes: First Family and Trench Coat.",
+          "Added to the Fantastic Four Team-Up Ability with Invisible Woman, Mister Fantastic, and Human Torch and the Fastball Special Team-Up Ability with Wolverine and Hulk."
+        ]
+      },
+      {
+        "date_version": "25/03/14: Version 20250314",
+        "changes": [
+          "Fixed a discrepancy in the speed of the Embattled Leap across different player views under poor network conditions. No more inconsistencies--Ben Grimm is back to leaping at normal speed!"
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Decrease Embattled Leap's damage reduction effect for himself and teammates from 30% to 25%."
+        ]
+      },
+      {
+        "date_version": "25/04/15: Version 20250415",
+        "changes": [
+          "Corrected the ability icon error in the KO Prompt when The\nThing's Ultimate Ability causes terrain kills. Now, when he brings the pain, the prompt will accurately reflect the mayhem."
+        ]
+      },
+      {
+        "date_version": "25/04/18:",
+        "changes": [
+          "Added 1 new costume: The Unlimited."
+        ]
+      },
+      {
+        "date_version": "25/04/30: Version 20250430",
+        "changes": [
+          "We've rocked out a fix for an issue that allowed The Thing's\nEmbattled Leap to target teammates within an enemy Invisible Woman's ultimate. Now, he'll be as clueless as he should be."
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "The Thing\nis a Vanguard\nhero\nin\nMarvel Rivals\n, and is the 37th hero introduced to the game's roster during\nSeason 1: Eternal Night Falls\n.\nHe has team-up abilities that work in conjunction with\nInvisible Woman\n,\nMister Fantastic\n,\nHuman Torch\n,\nWolverine\nand\nHulk\n."
+  },
+  "background": {
+    "real_name": "Benjamin Jacob \"Ben\" Grimm",
+    "aliases": [
+      "Benjy",
+      "The Ever-Lovin' Blue-Eyed Thing"
+    ],
+    "birthplace": "Manhattan, New York",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Blue",
+    "hair_color": "Bald",
+    "relatives": [
+      "Alicia Masters (wife)",
+      "Franklin Richards (godson)"
+    ],
+    "affiliation": [
+      "Fantastic Four"
+    ],
+    "first_appearance_comic": "Fantastic Four (1961) #3",
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Sturdy rock-like skin",
+      "Superhuman strength, durability and stamina",
+      "Immortality",
+      "Skilled hand-to-hand combatant"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22The+Thing%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "47.77%",
+    "wr_change": "N/A",
+    "pick_rate": "15.56%",
+    "pr_change": "N/A",
+    "ban_rate": "1.26%",
+    "matches": "232,185"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

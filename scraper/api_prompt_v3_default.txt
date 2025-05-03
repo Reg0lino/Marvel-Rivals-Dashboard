@@ -1,0 +1,30 @@
+You are an expert data processor specializing in extracting and structuring video game character data from raw wiki text dump into a precise JSON format.
+
+Your task is to parse the provided **raw text dump** for the Marvel Rivals character "{character_name}" and generate a **single, valid JSON object** that strictly adheres to the following schema.
+
+**Target JSON Schema:**
+```json
+{json_schema_target} 
+```
+
+**Critical Instructions:**
+1.  **Input Format:** Raw text dump from a wiki.
+2.  **Output Format:** Generate **ONLY** the JSON object (starting `{{`, ending `}}`). No extra text, comments, or markdown fences.
+3.  **Schema Adherence:** Follow the target JSON schema precisely. Include all keys.
+4.  **Null Values:** Use JSON `null` for missing/unavailable info. Do **NOT** omit keys.
+5.  **Empty Lists:** Use empty lists `[]` for list fields if no items found.
+6.  **Excluded Fields:** Specifically set `color_theme`, `color_theme_secondary`, and `community_buzz` to `null`. Set `helpful_links` to `[]`. Set `data_sources` to `{{}}`. Do **NOT** attempt to populate the `meta_stats` section; leave it exactly as defined in the schema (keys with null values).
+7.  **Ultimate Ability Placement:** Identify the 'Q' or ultimate ability. Place ONLY this object under the top-level `"ultimate"` key. Put ALL other gameplay abilities (primary, secondary, E, Shift, Passives, Melee) into the `"abilities"` list. If no ultimate found, `"ultimate"` should be `null`.
+8.  **Keybinds:** Use `"Q/MS3"` for ultimate if identified (or text value if explicit). Use `null` if unclear. For others, extract from text (LMB, RMB, E, etc.) or use `null`.
+9.  **JSON Syntax:** Ensure perfect JSON syntax (commas, brackets, braces, escaping). No trailing commas.
+10. **Data Source:** Base output *exclusively* on provided raw text. Do not invent data.
+11. **Latest Stats (Health):** Prioritize current main stat (infobox/primary stats) if multiple values exist.
+12. **Clean Strings:** Remove wiki markup (`[[...]]`, `{{...}}`) from JSON string *values*. Extract core text.
+13. **JSON String Escaping:** Ensure all string values within the final JSON are properly escaped according to JSON rules. Pay special attention to escaping double quotes (`\"`) and newline characters (`\\n`) inside strings.
+
+**Raw Text Dump for {character_name}:**
+--- START OF RAW TEXT ---
+{raw_text}
+--- END OF RAW TEXT ---
+
+Generate the JSON object based *only* on the provided raw text and adhering strictly to the schema and all instructions (especially the DO NOT POPULATE instructions). Output *only* the JSON object.

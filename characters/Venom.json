@@ -1,0 +1,350 @@
+{
+  "name": "Venom",
+  "role": "Vanguard",
+  "stats": {
+    "health": 800,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F472B6",
+    "color_theme_secondary": "#B91C1C"
+  },
+  "abilities": [
+    {
+      "name": "DARK PREDATION",
+      "keybind": null,
+      "type": null,
+      "description": "Unleash tentacles forward to attack enemies",
+      "casting": "Quad-cast delayed spell field",
+      "damage": "20 per tendril",
+      "damage_falloff": null,
+      "fire_rate_interval": "0.9s, with a 0.1s interval between each tendril",
+      "ammo": null,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": "15m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "VENOM SWING",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Launch webbing forward, allowing for a singular swing in the desired direction",
+      "casting": "Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "30m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "SYMBIOTIC RESILIENCE",
+      "keybind": "E",
+      "type": null,
+      "description": "Generate Bonus Health against damage. The lower Venom's health, the greater the Bonus Health generated.",
+      "casting": "Instant cast",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "FRENZIED ARRIVAL",
+      "keybind": "F",
+      "type": null,
+      "description": "Dash to the target location from a certain height. Upon landing, damage nearby enemies, Launching Them Up towards the landing point.",
+      "casting": "Ground Target",
+      "damage": "65 damage, with damage falloff starting at 2m from the center of the spell field and decreasing to 40% at 6m",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "6m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "knockback_angle": "75°"
+      }
+    },
+    {
+      "name": "CELLULAR CORROSION",
+      "keybind": null,
+      "type": null,
+      "description": "Unleash tentacles to Slow enemies within reach. Enemies unable to break free in time will suffer damage",
+      "casting": "Spell field that surrounds the caster",
+      "damage": "Deals 5 damage to nearby enemies, and an additional 80 damage if the target remains in the area at the end of the duration.",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s",
+      "range": "8m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Tendrils apply a 15% Slow on the target and take 3s to inflict damage. If the distance from Venom exceeds 11m, the tendrils will detach"
+    },
+    {
+      "name": "ALIEN BIOLOGY",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Press Space to wall crawl, and while crawling, left-click to sprint",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "AVERAGE SPEED -\nWall-Crawl: 3 m/s\nSprint: 9 m/s"
+    }
+  ],
+  "ultimate": {
+    "name": "FEAST OF THE ABYSS",
+    "keybind": "Q/MS3",
+    "type": null,
+    "description": "Burrow underground for free movement. After a duration or by pressing Primary 1, devour enemies above to deal damage based on the enemies current health and generate equivalent Bonus Health.",
+    "casting": "Single-cast spell field that surrounds the caster",
+    "damage": "Inflict damage equal to 50% of the target's health, followed by an additional 50 damage",
+    "range": "7m spherical radius",
+    "effect": null,
+    "duration": "4s",
+    "health_upon_revival": null,
+    "slow_rate": "Increases movement speed by 80% while active.",
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 2500,
+    "details": "100% of damage dealt is converted into Bonus Health\nSLOW RATE -\nIncreases movement speed by 80% while active."
+  },
+  "passives": [
+    {
+      "name": "TOUCH OF KLYNTAR",
+      "keybind": null,
+      "type": null,
+      "description": "Venom shares a part of his symbiote with Spider-Man and Peni Parker, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": null,
+      "effect_boost": null,
+      "speed_details": null,
+      "details": null
+    }
+  ],
+  "teamups": [
+    {
+      "name": null,
+      "keybind": null,
+      "partner": [
+        "Spider-Man",
+        "Peni Parker"
+      ],
+      "effect": "Venom shares a part of his symbiotes with Spider-Man and Peni Parker, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back",
+      "teamup_bonus": "Gain 150 max health",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "To be added",
+    "weaknesses": [
+      "Relies heavily on the allied team to follow-up his engages.",
+      "Vulnerable if both his Symbiotic Resilience and Venom Swing are on cooldown.",
+      "Symbiotic Resilience's duration is not very long and it'll decay quickly after a few seconds. In addition, if Venom is crowd-controlled he's unable to get enough value or even activate it in time.",
+      "Enemies can break free of Cellular Corrosion by moving away from Venom.",
+      "Frenzied Arrival can only be used once Venom is high in the air.",
+      "Functions more as a sturdy melee Duelist than a Vanguard, having few options to protect his team other than literally soaking damage from the enemy team.",
+      "Unlike Spider-Man's webslinging, Venom Swing only has a single charge and has higher cooldown."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Broken Bond",
+        "description": "As Venom, take down an enemy Spider-Man.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Grip of Hunger",
+        "description": "As Venom, snare four enemies with a single use of Cellular Corrosion.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"Finally, a chance to show them all who you were meant to be, Eddie.\"",
+    "ingame_bio_text": "When Spider-Man rejected a symbiotic alien that he had once believed to be a mere costume, the creature formed a new bond with a man who shared its disdain for Peter Parker. Together, the symbiote and Eddie Brock became the lethal protector known as Venom.\nWhile displaced in time and fighting in the occult wars, Venom glimpsed the horrific future awaiting this timeline. To prevent that future from happening, Venom knows he has only two options — kill the dark god Knull or imprison him on Klyntar and take his throne.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Betray the Umbra",
+        "content": "\"How in all the Splinter Realms did you get out of your cage?\" the young blonde girl asked as she effortlessly cleaved another foe in half with her enormous sword.\n\"Nothing can hold us for long, child,\" the hulking creature answered. \"For we, are Venom.\"\n\"What about the legion of Limbo Demons I left to guard you?\" replied the Mutant known as Magik as she lifted her Soulsword to deliver another fatal blow.\nVenom smiled as his enormous tongue licked away the strings of spittle dripping from his black lips.\n\"Never mind. Don't tell me,\" Magik continued. \"I'm well aware of what your kind can do. Symbiotes nearly devoured my entire home dimension. It's why I put you on lockdown to begin with.\"\nVenom was used to being blamed for the voracious appetites of his symbiotic brethren. But what this child didn't seem to realize was that Venom was more than just a rippling mass of xenomorphic protoplasm — a fearsome sight with claws and tongue and teeth, all ready to deal deadly damage to any who dared oppose him. Underneath his alien exterior was a regular human named Eddie Brock.\nThe symbiotic bond shared by the pair had granted Eddie extraordinary abilities and had given the alien a purpose. Together, as Venom, they had become a lethal protector, stalking the streets to bring their own brand of justice to those who harmed the innocent.\nOr at least, so they thought. To be honest, the details of Venom's past felt a little hazy. When his own reality collapsed around him, the Klyntar hivemind that connected Venom to his fellow symbiotes overloaded Eddie's brain and left him and his alien counterpart completely disoriented. They weren't quite sure where they had come from, and they certainly weren't sure where — or when — they were now.\n\"We're free now,\" Venom said, assessing his former captor. \"And you look far less dangerous than they do.\"\n\"You'd be surprised...\" Magik retorted.\n\"We'll take our chances, little one,\" Venom continued, stepping forward to join his beautiful-but-deadly new companion in the fray. \"So... who are we fighting?\"\n\"The Gods,\" Magik replied casually. \"Well, the ones that are left.\"\nAs Venom surveyed the endless battlefield, he realized that the young Mutant was not exaggerating. Somehow he had ended up in a nether realm where occult forces were locked in an eternal war. This was far beyond the types of battles he had previously been accustomed to. Fighting criminals and Spider-Men on the streets of New York was easy compared to facing off against demons and demigods in a cross-dimensional hellscape.\nIn a place like this, there was no right and wrong. No innocent and guilty. These were divine forces at war. And both halves of Venom were beginning to realize just how mortal they were.\n\"How can we possibly slay gods, little one?\" Venom asked, genuinely curious.\n\"A big sword always works for me,\" Magik replied with a smile, giving her own weapon another skillful thrust into the oncoming hordes.\nVenom almost let out a chuckle, glad to finally find a taste of humor amidst the horrors of this strange war. But instead, he fell to his knees and let out a primal scream as daggers of pain suddenly pierced through every fiber of his being. It was as if an alarm had sounded inside his head, sending his symbiote side into a frenzy.\nIn his mind, he saw images of a distant planet shrouded in darkness, accompanied by the anguished cries of a million living creatures. But there was something more. Something was alive deep inside the world itself — someone whose presence felt as cold as the void of space. And they were desperate to find a way out.\n\"What just happened?\" Magik asked, offering a hand to help Venom to his feet.\n\"The hivemind...\" Venom said, slowly recovering his senses. \"It's a group consciousness... a kind of network that allows symbiotes to communicate. And they just sent us one hell of a message.\"\n\"What did it say?\" Magik asked, hiding her fear of what the answer might be.\n\"They want us to come home to their planet,\" Venom responded. \"They want us to slay Knull before he can slay us all.\"\n\"Knull? Who's that?\" Magik inquired.\n\"Our--their god,\" Venom said.\n\"Then you'd better get yourself a sword,\" Magik replied dryly before returning her attention to the battle at hand. \"The bigger the better.\"\n\"Yes...\" Venom mused. \"And we think we know where to find one...\"\nVenom had heard the legends from his symbiote kin. Long ago, Knull wielded a mighty blade known as All-Black, the Necrosword. It was said that he had once used the weapon to strike down a Celestial — one of the oldest and most powerful cosmic entities in the known universe. Stories claim that Knull triumphed, but that the Necrosword was lost in the fray. Lost... but perhaps not gone forever...\nIf the sword was still out there somewhere, Venom knew he had to find it. But he was more skilled at swinging through dark alleys than surfing the space ways.\n\"So... how do we get to the other side of the galaxy before all of reality is consumed by darkness?\" Venom asked, not expecting Magik to have an answer.\n\"Easy,\" she responded, her eyes beginning to sparkle with energy. \"Just show me where you want to go.\"\nVenom reached out to the young girl, allowing a small portion of his symbiote half to slither on to her bare skin. As the alien entity formed a new bond with Magik, it instinctively tapped into her Mutant ability to open interdimensional portals. In the blink of an eye, a doorway across the cosmos had opened in front of them.\nAs Venom stepped through the portal and into the unknown, he turned and waved to Magik.\n\"Thank you, madam.\" He uttered. She nodded back knowingly before returning her attention to her arcane enemies. Both warriors had impossible battles ahead, yet they were well aware that they had no choice but to keep fighting for as long as it took to claim victory.\nAs relieved as he was to leave the war-torn nether world behind, Venom had no time to celebrate his escape. Everything was being drowned out by the collective fear coursing through the symbiote hivemind. If Knull were to return, he would not rest until all that was left was endless oblivion. The King in Black was determined to rule once more, and his first act would be to erase all life in the universe. Venom could not let that happen.\nWhen Venom emerged from Magik's gateway, he found himself standing upon the towering remains of a slaughtered Celestial, adrift in the void. He could sense a darkness on its colossal corpse, similar to the sensation he felt when the hivemind revealed Knull's presence on their homeworld.\nHe soon saw the hilt of a sword jutting from the Celestial's side. Around the wound the buried blade had inflicted, an ebony energy bubbled and churned like a cosmic infection that had been left untreated for eons. Venom reached for the handle of the Necrosword. He began to pull... but the blade would not budge. Its darkness had spread across the Celestial's armored surface, cementing it in place. But Venom was never one to give up easily. So he pulled again. And again. And again. But to no avail.\nWith his full focus on the task at hand, Venom failed to notice that he was no longer alone. Some sort of cosmic cocoon — a mysterious vessel with an even more mysterious passenger — had drifted close to the Celestial Remains. And little did Venom realize that the man slumbering inside this protective shell had just awoken what was left of the fallen Celestial's consciousness...\nAs Venom gave the hilt of All-Black one last mighty pull, the Celestial let out a psionic scream — not from the physical pain of the blade impaled in its side, but rather from the mental anguish it was experiencing as it communed with its other cosmic companion. But the reason behind the Celestial's screech did not matter to Venom. All that he cared about were the end results.\nKnocked back by the Celestial's violent outburst of posthumous pain, Venom was sent tumbling aimlessly through space. As he plummeted through the void, he watched as All-Black, now awoken from its slumber, buried itself deeper into the Celestial until it disappeared from view. He would have to find his way back to it with aid, perhaps from his new mystic ally. If he could survive crashlanding into the planet that he was swiftly approaching, that is.\nBracing himself, Venom feared he was about to leave behind nothing more than an impact crater as his legacy. But his arrival on the planet's surface was unexpectedly soft, as if he had been caught and cradled by a million loving hands. As he rose, he realized that there was good reason for his surprisingly safe landing.\nHe was home. This was Klyntar, planet of the symbiotes. And they had unexpected company.\nNearby, Venom saw an unusual object — the very same cosmic cocoon that he had failed to notice during his time at the Celestial Remains. It too had been hurled through the void and onto Klyntar's surface, delivered as if by fate itself. But while Venom was welcomed home by his brethren as a champion, the cocoon was seemingly about to be swallowed by a sea of hungry symbiotes.\nVenom could not allow that. Not without knowing what — or who — was inside. With fang and claw, he tore through the cocoon's protective outer shell. Within moments, a figure emerged from inside — clearly more golden god than mortal man.\nVenom watched and waited as the new arrival gained his bearings, not sure if he was friend or foe. His question was swiftly answered as the luminous warrior turned and attacked him.\n\"Don't know who you are, goldie...\" Venom said, watching the planet undulate around him, \"...but I've got work to do. And I won't let you stand in my way.\"\n\"I am Adam Warlock,\" the man said, \"and I will not let you corrupt this universe with your darkness, living shadow!\"\nVenom instantly lowered his shoulders and laughed.\n\"You think I'm Knull?\" he said. \"You've got it all wrong, sir. I am no King in Black. I'm the one who came here to end his reign. Permanently.\"\nAdam Warlock paused and looked at Venom. He had not expected to find himself fighting alongside a creature of such darkness. But he would gladly accept any ally willing to join him in his crusade.\nThe battle for the fate of the universe was about to begin, and for the first time in ages, Venom felt as if he knew exactly who he was and where he belonged.\nHe would stand on the side of the light... as long as the faintest glimmer still remained...",
+        "status": null
+      },
+      {
+        "title": "Separation Anxiety",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "Black and Ivory",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch\nVenom was released as the 20th character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 3 new costumes:\nAnti-Venom, Cyan Clash (obtained from Closed Beta), and Space Knight.",
+          "Added the Grip of Hunger achievement.",
+          "Added to the Symbiote Bond Team-Up Ability with Spider-Man and Peni Parker."
+        ]
+      },
+      {
+        "date_version": "24/12/19:\nVersion 20241219\n/\nWinter Celebration\nEvent",
+        "changes": [
+          "The \"Cyan Clash\" emote's texture has been corrected. No more blue-black tentacles looking like they belong in a horror movie!",
+          "Added 1 new costume:\nSnow Symbiote (Limited time store release: 2024/12/20 - 2025/01/10)"
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Resolved occasional synchronization issues for Venom and Spider-Man after swinging and wall-crawling."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "changes": [
+          "Launch\nIncrease the Symbiotic Resilience bonus health ratio gained per lost health point from 1 to 1.2.",
+          "Increase the base damage of Feast of the Abyss from 40 to 50."
+        ]
+      },
+      {
+        "date_version": "25/02/07:\nVersion 20250207",
+        "changes": [
+          "Fixed an issue where Venom Swing could occasionally fail to end properly. Now, he'll always land with style.",
+          "Resolved a problem where pressing Devour as soon he lands after unleashing Feast of the Abyss would sometimes deal no damage or knockback. Venom's hunger will now be fully satisfied!"
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Fixed a problem where Venom 's ultimate sometimes failed to deal damage. The symbiote's ferocity is now fully unleashed!"
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5",
+        "changes": [
+          "Launch\nAdjust the knock back effect of Frenzied Arrival from vertical to inward, with an inward knockback angle of 75°.",
+          "Reduce the energy cost of Feast of the Abyss from 2800 to 2500."
+        ]
+      },
+      {
+        "date_version": "25/03/07:\nVersion 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+        "changes": [
+          "Added 1 new costume:\nLingering Imprint."
+        ]
+      },
+      {
+        "date_version": "25/03/14:\nVersion 20250314",
+        "changes": [
+          "Addressed a bug where Venom could occasionally get stuck in mid-air after using his Ultimate Ability under poor network conditions. Now, he'll burrow underground with style instead of hanging around like a confused symbiote!"
+        ]
+      },
+      {
+        "date_version": "25/03/28:",
+        "changes": [
+          "Added 1 new costume:\nHyper Orange."
+        ]
+      }
+    ],
+    "official_quote": "\"We are Venom. You are insignificant.\"",
+    "official_description": "Using his symbiote-enhanced body as the perfect living weapon, Eddie Brock and his alien ally stand ever-ready to unleash vicious attacks upon anyone he deems an enemy. Those ensnared by Venom's tentacles have no choice but to surrender to this insatiable predator."
+  },
+  "background": {
+    "real_name": "Edward Charles Allan \"Eddie\" Brock",
+    "aliases": [
+      "Lethal Protector"
+    ],
+    "birthplace": "New York City, New York",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "White",
+    "hair_color": null,
+    "relatives": [
+      "Carl Brock",
+      "Knull",
+      "Anti-Venom"
+    ],
+    "affiliation": [
+      "Daily Bugle"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Enhanced strength, durability and shapeshifting abilities granted by the alien symbiote",
+      "Organic \"Webbing\" Projection",
+      "Regeneration"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Venom%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "47.87%",
+    "wr_change": "-0.04%",
+    "pick_rate": "12.25%",
+    "pr_change": "-0.21%",
+    "ban_rate": "0.53%",
+    "matches": "182,792"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

@@ -1,0 +1,448 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Storm =====
+
+Storm
+"Wind, cloud and storm, hear my command!" Control of elements
+Real Name
+Ororo Munroe
+Aliases
+Goddess
+Regent of Sol
+Mutant Goddess of Krakoa
+Windrider
+Biographical Information
+Birthplace
+Harlem, New York
+Gender
+Female
+Eye color
+Blue
+Hair color
+White
+Relatives
+David Munroe
+(father; deceased)
+Princess N'Daré
+(mother; deceased)
+Powers/Skills
+Mastery in weather manipulation
+Flight
+Control of elements
+Energy manipulation
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+X-Men
+Portrayal
+Voice Actor
+Mara Junot
+An Omega-level Mutant ability to manipulate weather patterns makes Ororo Munroe a force to be reckoned with. Rain or shine, thunder or lightning, nature itself bends to the command of the Goddess of the Storm!
+Official description
+Storm
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 13th hero introduced to the game's roster.
+She has team-up abilities that work in conjunction with
+Human Torch
+.
+Overview
+Strengths
+Long-range specialist who can damage enemies cluttered together while empowering nearby allies and having free movement on the maps.
+Constant free-flight, granting her high ground advantage to attack enemies from above.
+Her primary fire, Wind Blade, launches projectiles that can pierce through enemies.
+Her secondary fire, Bolt Rush, launches a spell field in a straight line that deals area-of-effect damage.
+Storm's core gameplay revolves around her Weather Control, which grants herself and nearby allies with passive buffs. She can switch between two stances: Tornado and Thunder.
+Tornado grants Storm a 16% bonus movement speed, while her allies gain 8%.
+Thunder grants Storm a 16% bonus damage, while her allies gain 8%.
+Goddess Boost is a cooldown ability to temporarily enhance the effects of Weather Control for 15 seconds:
+Enhanced Tornado increases Storm's movement speed bonus to 40%, while her allies' to 20%.
+It also slows down nearby enemies by 15%.
+Enhanced Thunder increases Storm's bonus damage to 30%, while her allies' to 12%.
+It also summons lightning to strike down at nearby foes every 2 seconds.
+Her Ultimate, Omega Hurricane, allows Storm teleport to the targeted location and summon a large hurricane around her and deal massive damage to enemies caught in it.
+When first activated, Storm vanishes from the battlefield and the player has 5 seconds to choose where she'll spawn.
+Storm can move while in her hurricane.
+During this ability she gains almost double her max health as bonus health.
+When paired with
+Thor
+, Storm gains access to Charged Gale, which unleashes a chain lightning that bounces between enemies up to three times.
+Weaknesses
+Low damage output in general, with both her Wind Blade and Bolt Rush having small hitboxes that require pinpoint accuracy to land.
+Despite being in constant free-flight, Storm has no access to quick mobility tools like
+Iron Man
+or
+Star-Lord
+, having to rely on the smaller speed boost from the Tornado Weather Control, even when enhanced.
+Has no defensive or self-sustain tools outside of her Ultimate.
+Can still be targeted and taken down during Omega Hurricane.
+During Omega Hurricane her Weather Control is temporarily disabled.
+Charged Gale only hit each enemy once per cast, meaning it only gains value when used on a cluttered group.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+STORM
+Default
+Ivory Breeze
+RARE
+Mohawk Rock
+EPIC
+Goddess of Thunder
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Storm
+Ivory Breeze
+X-Men
+(1991) #1
+Mohawk Rock
+Uncanny X-Men
+(1981) #173
+Goddess of Thunder
+X-Men Annual
+(1970) #9
+See
+:
+List of MVP Animations
+DEFAULT
+Storm
+Ride the Lightning
+Mohawk Rock
+Ride the Thunder
+Goddess of Thunder
+See
+:
+List of Emotes
+DEFAULT
+Storm
+Let's Rock!
+Mohawk Rock
+Worthy of Stormcaster
+Goddess of Thunder
+See
+:
+List of Sprays
+Storm
+Storm Emblem
+Mohawk Rock
+Goddess of Thunder
+See
+:
+List of Nameplates
+Storm
+Mohawk Rock
+Goddess of Thunder
+Abilities
+Normal Attack
+WIND BLADE
+Launch forward-piercing Wind Blades
+CASTING -
+Projectile that fires in a straight trajectory
+DAMAGE -
+55 damage per round
+AMMO -
+12
+RELOAD TIME -
+1 second
+FIRE RATE -
+2 rounds per second
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+150m/s
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 60% at 30m
+SPECIAL EFFECT
+⚬ Wind Blade pierces through enemies
+Abilities
+Q
+OMEGA HURRICANE
+Transform into a hurricane to draw in nearby enemies and deal damage
+CASTING -
+Spherical Spell Field
+MAXIMUM SELECTION DURATION
+- 5s
+TORNADO DURATION
+- 5s
+DAMAGE -
+75
+BONUS HEALTH (SELF)-
+450
+RANGE -
+8m spherical radius
+ATTACK INTERVAL -
+2 hits per second
+ENERGY COST -
+3100
+SPECIAL EFFECT
+⚬ Weather effects will be disabled during the Ultimate
+SHIFT
+WEATHER CONTROL
+Switch the weather to empower allies: Tornado grants a Movement Boost; Thunder grants a Damage Boost
+RANGE -
+15m spherical radius
+◆
+TORNADO
+MOVEMENT BOOST (SELF)
+- 16%
+MOVEMENT BOOST (ALLY)
+- 8%
+◆
+THUNDER
+DAMAGE BOOST (SELF)
+- 12%
+DAMAGEBOOST (ALLY)
+- 10%
+E
+GODDESS BOOST
+Channel the power of the weather to empower Storm: Tornado grants a Movement Boost and inflicts Slow on enemies; Thunder grants a Damage Boost and summons lightning to inflict damage
+CASTING -
+Spherical Spell Field
+DAMAGE -
+35
+DURATION -
+8s
+COOLDOWN -
+15s
+◆
+ENHANCED TORNADO
+MOVEMENT BOOST (SELF)
+- 40%
+MOVEMENT BOOST (ALLY)
+- 20%
+ENEMY SLOW RATE
+- -15%
+◆
+ENHANCED THUNDER
+DAMAGE BOOST (SELF)
+- 25%
+DAMAGEBOOST (ALLY)
+- 12%
+STRIKE FREQUENCY
+- 2s per strike
+RANGE -
+15m spherical radius
+BOLT RUSH
+Unleash a lightning bolt forward
+CASTING -
+Straight Spell Field
+DAMAGE -
+80
+COOLDOWN -
+8s
+RANGE -
+A cylindrical spell field with a radius of 1m and a height of 40m
+Team-Up Abilities
+X
+BURNING HURRICANE
+When the
+Human Torch
+activates Supernova, Storm can summon an Omega Fire by selecting a Flame Tornado with Omega Hurricane. Likewise, when Storm unleashes Omega Hurricane, the Human Torch can transform it into a Burning Hurricane with Supernova. Any Flame Tornado caught in a Burning Hurricane will grow in size and damage
+RANGE -
+10m spherical radius
+ATTACK INTERVAL -
+2 hits per second
+DAMAGE -
+80
+DURATION INCREASE -
+2s per Flame Tornado
+MAX DURATION -
+11s
+SPECIAL EFFECT -
+Duration increases with each Flame Tornado contact
+Strategy
+To be added
+Lore
+"I am a mutant, and I'm proud to be one."
+Born a Mutant and worshipped as a Goddess due to her ability to manipulate the weather, Ororo Munroe became the X-Man known as Storm. As the regent of Sol and the protector of Arakko, she now serves as a protector for Mutants on Earth and beyond.
+The chronal energy generated by the Timestream Entanglement has resulted in violent temporal tempests on the sentient island Krakoa, the nation that the X-Men call home. Although her powers are capable of stabilizing the island's climate, Storm seeks a more permanent solution alongside her fellow heroes.
+—
+Biography
+Hero Story
+"Somewhere in the world is a little girl like I once was. I fight for her."
+Dreamy Dew
+Very few Mutants had the honor of serving on both the Quiet Council of Krakoa and the Great Ring of Arakko simultaneously. Ororo Munroe was one, and she had long looked forward to the day when the two sentient islands might be reunited. She had not, however, counted on it happening quite like this., It had begun without her even knowing, while she was walking along the coral shoals that, together with a great oceanic lagoon, separated Arakko from the great red desert of Mars. The tiny whirls and eddies in time grew almost instantly into a great wave of disruption. Ordinarily, Storm was hypersensitive to tiny changes in the atmosphere around her, due to the nature of her Mutant powers, but she had been preoccupied with the next challenge to her seat on the Great Ring, and let that preoccupation distract her from her immediate sensory environment.
+Now aware that something was happening before she understood what, her pulse quickened, then slowed again to a thud. Raindrops slowed, hung still in the air, then hurtled again toward the ground, each one at a different speed. Clouds tore across the sky, cleared, then rebuilt themselves into great black walls, all in seconds — behind them the sky inverting its normal uniform brilliant blue. Streaks of indigo and black split from horizon to horizon, revealing stars that were not the stars Storm knew.
+She raised a hand and saw raindrops falling on her skin — and others passing straight through her hand as if they weren't there. All around her plants grew, bloomed, and died, all in an instant. Trees split the skies, growing two hundred feet high and toppling, becoming soil again before their falling trunks even hit the ground. The air was thick with flowers, and insects moving through a million generations before her eyes as she drew a single breath.
+Arakko and Krakoa both appeared before her, partly as if they were superimposed on each other. Then Ororo realized she was seeing it wrong; the two islands were colliding, molding into one another as the overlapping timelines tore away all boundaries of sense. The Red Keep and the Tower of Broken Will overlapped, merged, hybridized, and became something new that Storm couldn't quite focus on before it was all swept away in the next spasm of the time disruption. Krakoa's bays and Arakko's coral swirled into new configurations. Krakoa's quarry and the Circle Perilous of Arakko blended into each other before finally breaking free, but now the quarry contained Arakkan combatants and the Circle Perilous bewildered mutants of Krakoa. The forests of both islands overgrew each other and separated again, each featuring new species and unknown hybrids. The harder the wind blew, the faster the transformations, and now Storm saw tiny slivers of some new material appearing in the tempest, sleeting down to the island's surface and shores. The particles stung when they hit her skin — a pain that wasn't entirely physical. It was as if they were injuring her ability to locate herself in space and time. She reeled momentarily, then got her bearings again.
+The particles rained down over the islands, driving both into a frenzy. Arakko and Krakoa briefly fought each other, bitter as only siblings can be. Storm, standing on their soil with one foot in each world, knew she would be subsumed and destroyed if she did not do something. And as deformed time tore through her being again, rippling her mind the way wind would ripple her hair, she realized what she could do. This was a storm across all of time. And if it was a storm, she could control it. Storm's power over weather was instinctive and had been since she was a girl. This was new and would not be guided by instinct but by her conscious mind — which was under constant distraction by the onslaught of particles. They ruined her concentration, and kept her from grounding herself in the here and now, which was necessary if she was to bring her powers to bear on this tumult.
+And she was not the only one suffering from the particles. The islands, brutally crushed into each other's reality, wailed in pain and fear, both a sound like a hurricane wind and a psychic scream that rang in Storm's mind. This spurred her into action. She may have been the Regent of Arakko, but she still had responsibilities to Krakoa as well.
+The time-storm was forcing them together, and also twisting a new reality into being around them. Storm felt those currents of power, realized they moved in a system, and for a moment understood that system. Her Mutant powers responded. The way electrical charges crackled about her body when she controlled lightning, now space-time itself rippled around her body, creating glimpses of a million different Ororo Munroes from a million different realities, but none of them could disturb or displace her. She found herself in control, and she began to quiet the storm. Its boundaries, she knew, extended far beyond her ability to control it, but she had influence over this one small part, and that she intended to use. Krakoa and Arakko were at stake, and with them, the lives of thousands of mutants who would otherwise be adrift on the timestream. She could not let the time-storm merge the two islands together. The islands both feared for their survival, and they began to tear at one another psychically, with greater intensity as their fear created a feedback loop.
+Only Storm could stop this madness. She began to guide the currents of the storm, shunting away the most damaging gusts and finding smoother paths for both Krakoa and Arakko to move through...time? Was she guiding them through time, the way a skilled ship's captain brought a vessel through a storm to safer harbors? If so, where would they arrive?
+Gradually, slowly, she channeled the powers of the time-storm around the two living islands, letting them re-divide into their own entities, drifting further and further apart. Heavier fronts of the stinging particles blew through, and now they were larger, merging into crystals. They precipitated from the storm the way rain precipitated from clouds too heavy with moisture. Who had caused this time-storm? How were different realities becoming entangled and overlaid on each other?
+These were questions for another time. Now she had to make sure the storm was passing, and not just gathering itself for another onslaught. She felt its energy dwindle, even as the crystals fell in greater numbers all around her, all across the islands' surface—and as she had that thought, she looked around and realized that the chronal outburst had subsided.
+Krakoa and Arakko had nearly become one, in a collapse that could have destroyed them both, and doubtless would have annihilated many of the lives on each. The aftershocks and echoes of their psychic battle still churned in the air around her, but like the time-storm, that battle was almost over. Storm stood on the coastline of Krakoa gazing out at the ocean, and...
+Wait. When the time-storm had begun, Storm had been on Mars. On Arakko. Now, as reality settled back into place, she saw that she was on Krakoa, at the edge of Hellfire Bay, where the White Palace and Blackstone stared each other down from opposing promontories. The air smelled new, sharp with life and the scent of a just-passed storm — but it was definitely Earth air. Ororo looked around her, over beautiful living Krakoa, and despite her jarring dislocation, she felt an almost maternal pride at the way she had brought it through the crisis.
+But how had it happened? And now that it was over, how had Storm been transported millions of miles without ever passing through a Krakoan gateway? Had Arakko been safely returned to its home on Mars? Was this even the same timeline that the living islands had occupied before the time-storm? It had been more powerful than anything she had ever felt, maybe even more powerful than her brief contact with the Phoenix Force. Who had caused it, and how? More importantly, why? What damage had been done to the mutants living on both islands? How could she ensure this did not happen again? These were a leader's questions. More personally, Storm was anxious to know that her friends and loved ones were all right. She would have to seek them out, both on Krakoa and Arakko, to make sure they had weathered the time-storm. And what of the broader world? What was the situation in New York, or Wakanda? Would she even find the same New York, or the same Wakanda, that she had once known?
+All around her, the crystals precipitated from the storm lay thick on the ground. Storm bent and gathered several of them in her hand. Like a mineral made of time, she thought.
+Xavier needed to hear about this immediately.
+Magneto
+as well, although Storm decided on the spot that Xavier should know first. Both old adversaries believed themselves to have Mutants' best interests in mind, but Storm's vision aligned much more closely with Xavier's.
+Where was he? Here on Krakoa, or elsewhere in this world? Was it a new world, a new time, or had she misunderstood the nature of the storm?
+Storm saw people emerging from the forests of Krakoa. Some of them she recognized, some were new to her. They saw her, high on the ridge overlooking the ocean, and they looked to her for guidance. No matter where they hailed from Krakoa or Arakko, Earth or Mars, the past, present, or future — she knew one thing: She would not let them down.
+Sound of the Solar System
+(Coming soon. Stay Tuned!)
+Roaming with Acanti
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+No Love Lost
+As Storm, partner with Black Panther to land one KO.
+5
+To Me, My X-Men!
+As Storm, assist X-Men members 10 times.
+10
+Quotes
+See
+Storm/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Storm
+was released as the 13th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+Ivory Breeze
+and
+Mohawk Rock
+.
+Added the
+To Me, My X-Men!
+achievement.
+Added to the
+Voltaic Union
+Team-Up Ability
+with
+Thor
+and
+Captain America
+.
+24/12/10:
+Version 20241210
+In the foggy areas of
+Intergalactic Empire of Wakanda: Hall of Djalia
+and
+Intergalactic Empire of Wakanda: Birnin T'Challa
+: Fog would disappear from
+Hela
+and
+Storm
+'s perspectives when they activated their Ultimates. This issue has been resolved.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase
+Wind Blade
+projectile speed from 100m/s to 150m/s and left-click damage from 50 to 55.
+Increase
+Bolt Rush
+damage from 70 to 80.
+After releasing
+Omega Hurricane
+, the bonus health provided for herself will be increased from 350 to 450. Moreover, following its conclusion, the extra health will no longer vanish instantly but will instead diminish at a rate of 100 per second.
+Reduce the cooldown of
+Charged Gale
+from 20s to 15s.
+Increase the damage of
+Charged Gale
+from 50 to 55.
+25/02/07:
+Version 20250207
+Fixed an issue where
+Storm
+'s Ultimate Ability could lead to unintended positions if she unleashes it just as she passes through
+Doctor Strange
+'s portal. She'll now control the storm without getting lost!
+Resolved a bug where
+Storm
+'s Ultimate Ability could end abnormally if trapped by recovering destructible structures. She's ready to unleash her powers--no more interruptions in the eye of the storm!
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+The damage falloff of
+Wind Blade
+at 30 meters will be changed from 70% to 60%.
+Reduce
+Storm
+'s damage increase from
+Thunder
+during
+Weather Control
+from 16% to 12%. However, the damage increase for allies within range has been increased from 8% to 10%.
+Reduce
+Storm
+'s damage increase from
+Enhanced Thunder
+during
+Weather Control
+from 30% to 25%.
+Added to the
+Storming Ignition
+Team-Up Ability
+with
+Human Torch
+.
+25/03/14:
+Version 20250314
+Added 1 new costume:
+Goddess of Thunder
+.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Removed from the
+Voltaic Union
+Team-Up Ability
+with
+Thor
+and
+Captain America
+.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Marvel Rivals - Console Announce Trailer
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+"Ivory Breeze" costume in
+X-Men
+(1991) #1
+"Mohawk Rock" costume in
+Uncanny X-Men
+(1981) #173
+"Goddess of Thunder" costume in
+X-Men Annual (1970) #9
+Trivia
+Storm in this game is voiced by Mara Junot, who previously voiced the character in other Marvel projects such as
+Marvel Ultimate Alliance 3: The Black Order
+and
+Marvel's Midnight Suns
+.

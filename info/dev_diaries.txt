@@ -1,0 +1,67 @@
+# Dev Diaries - Recent Posts (Fetched 2025-05-03 12:27)
+
+## Dev Talk Vol.13 | Seasonal Balance & Competitive Performance
+
+Dev Talk Vol.13 | Seasonal Balance & Competitive Performance
+2025/04/25
+Hey, Rivals!
+With the launch of Season 2.0, we've been closely monitoring the game environment and feedback from the community. Lately, we've noticed two hot topics generating a lot of discussion: the impact of balance adjustments and the performance ratings of various classes in ranked play. As such, we want to take a moment to clarify and communicate about these two points.
+1. Season Changes and Mid-Season Balance Adjustments
+In previous seasons, the focus was on key abilities and energy management for ultimate abilities, resulting in a more stable combat pace. However, Season 2.0 shifts the spotlight to coordinated attacks and focused targets, along with the necessary collective protective strategies and counterattacks which has led to a more intense combat rhythm. In this fierce environment, Strategists face increased pressure, needing to monitor teammates' health closely while carefully using their key abilities and being mindful of their positioning on the map. Meanwhile, Vanguards and Duelists must not only attack effectively but also provide better protection for their Strategists to achieve victory.
+In the upcoming patch, we will enhance the damage capabilities of certain Strategists to elevate their threat levels, which in turn, will increase team composition possibilities. Additionally, we will make minor adjustments to a few heroes. For example, Groot and Captain America will see slight reductions in survivability. Spider-Man's Amazing Combo damage range will be slightly decreased, Doctor Strange will require less energy for his ultimate, and Winter Soldier's Tainted Voltage and Team-Up Ability will be slightly buffed.
+Since this is a mid-season balance adjustment, we aim to be cautious, keeping changes minimal to enhance the experience of certain heroes without drastically altering the overall meta. As we move into S2.5, with Ultron's arrival and new Team-Up Ability adjustments, we'll consider broader, more comprehensive balance changes.
+2. Competitive Performance Points
+In each match, hero performance rating is calculated based on the average key combat data for that hero at the player's current rank. The more a hero's key combat data exceeds the baseline for their rank during the match, the better their performance rating; and vice versa for poor performance. Of course, these stats are adjusted based on hero usage time to ensure they aren't skewed by playtime. If a player uses multiple heroes in a match, performance rating will be weighted according to their usage time.
+We've noticed that, compared to previous seasons, a small number of Duelists have a slight advantage in performance ratings in Season 2.0, while some Vanguards and Strategists face a slight disadvantage. However, most heroes remain balanced. In the upcoming patch, we will optimize the performance rating calculations based on the latest data to ensure fairness across all heroes.
+Balancing the game and rank adjustments is a challenging endeavor, and we can't guarantee perfection 100% of the time. However, we remain humble and attentive, striving to address issues promptly and enhance your experience. Stay tuned for official patch announcements for more updates. Thank you for your support and patience!
+Ignite the Battle!
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250426/40954_1230856.html
+---
+
+## Marvel Rivals | Behind the Music - Path to Rivals
+
+Marvel Rivals | Behind the Music - Path to Rivals
+2025/04/22
+Dear Rivals,
+Today, we're taking you behind the scenes to admire the amazing performance of talented and passionate musicians performing the original soundtrack 'Path to Rivals'.
+Let the music transport you and experience this incredible composition that we all love and enjoy.
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250421/40954_1229011.html
+---
+
+## Art Vision Vol. 01 | The Genesis of Style: GUI & Video
+
+Art Vision Vol. 01 | The Genesis of Style: GUI & Video
+2025/04/22
+Dear Rivals,
+In our first-ever Art Vision Vol. 01, our visual team dives into their inspirations and foundations for designing the world of Marvel Rivals!
+Go behind the scenes with our Art Director, Dino, and our talented Design Experts to get the inside scoop on the processes for creating the interface design, artistic styles, animation, and so much more!
+We're so thrilled to finally share our artistic journey with you, Rivals!
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250421/40954_1228989.html
+---
+
+## Marvel Rivals: Dev Vision Vol. 5 | Season 2 Hellfire Gala
+
+Marvel Rivals: Dev Vision Vol. 5 | Season 2 Hellfire Gala
+2025/04/04
+Dear Rivals,
+In Dev Vision Vol. 05, Creative Director Guangguang and Lead Combat Designer Zhiyong unveil what's new for Season 2!
+New heroes, new maps, team-up updates and ranked adjustments are just a few of the things to look forward to as the Hellfire Gala begins! Watch the full video to see what's coming next in Marvel Rivals!
+Dive into Season 2 on April 11th UTC for epic battles and nonstop fun!
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250402/40954_1224468.html
+---
+
+## Marvel Rivals: Dev Vision Vol. 4 | Season 1.5 Update!
+
+Marvel Rivals: Dev Vision Vol. 4 | Season 1.5 Update!
+2025/02/19
+Dear Rivals,
+In Dev Vision Vol. 04, Creative Director Guangguang and Lead Combat Designer Zhiyong unveil exciting updates for the second half of Season 1: Eternal Night Falls!
+New heroes, balance changes, competitive updates, and thrilling tournaments awaitâwatch the full video to see whatâs coming next in Marvel Rivals!
+Thank you for your unwavering support, Rivals! We can't wait to see you harness the powers of the complete Fantastic Four and stand against the dark forces of Dracula! Ignite the battle!
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250217/40954_1212302.html
+---

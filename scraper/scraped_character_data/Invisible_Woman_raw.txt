@@ -1,0 +1,553 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Invisible_Woman =====
+
+Invisible Woman
+"I'm not the type who fades quietly into the background."
+Real Name
+Dr. Susan "Sue" Storm-Richards
+(née Storm)
+Aliases
+Malice
+Suzie
+Biographical Information
+Birthplace
+Long Island, New York
+Gender
+Female
+Eye color
+Blue
+Hair color
+Blond
+Relatives
+Reed Richards
+(husband)
+Johnny Storm
+(younger brother)
+Franklin Richards
+(son)
+Valeria Richards
+(daughter)
+Powers/Skills
+Force field projection
+Invisibility
+Psionic energy
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Strategist
+Health
+275
+Difficulty
+Affiliation
+Fantastic Four
+Portrayal
+Voice Actor
+Suzie Yeung
+Character Video
+The Invisible Woman is able to slip in and out of sight without a trace. No matter how intense the battle may be, Susan Richards always keeps her cool, conjuring up impenetrable force fields to protect herself and her team.
+Official description
+The
+Invisible Woman
+is a Strategist
+hero
+in
+Marvel Rivals
+,
+and is the 35th hero introduced to the game's roster during
+Season 1: Eternal Night Falls
+.
+She has a team-up ability that works in conjunction with
+Mister Fantastic
+,
+Human Torch
+and
+The Thing
+.
+Overview
+Strengths
+Elusive mid-range support capable of turning invisible while healing and shielding her team, and disrupting the enemies.
+Has slightly higher max health compared to other Strategists.
+Her passive, Covert Advance, automatically turns her invisible if she hasn't attacked or damaged for 5.5 seconds.
+While invisible she also gains 20 health-per-second.
+While invisible she becomes immune to auto-target abilities, such as
+Star-Lord
+'s Galatic Barrage.
+Can double jump, which automatically turns her invisible unless she's taking sustained damage.
+Her primary fire, Orb Projection, quickly shoots small energy spheres that deal damage to enemies and heals allies.
+This ability has piercing properties and will affect all heroes within range.
+The orbs will return to Invisible Woman once reaching maximum distance, dealing damage and healing on return.
+This attack is not affected by damage falloff.
+She can reload primary fire without breaking her invisibility.
+Her secondary fire, Guardian Shield, creates a medium-sized energy barrier directly in front of the selected ally.
+Guardian Shield has 300 health and has infinite duration until destroyed or reclaimed.
+If reclaimed, the shield's health will quickly replenish if previously damaged.
+This ability can be reclaimed without breaking her invisibility.
+Allies near the shield also gain a 50 health-per-second.
+Allies standing behind the shield count as if they're out of the opponent line of sight, meaning that tracking abilities will not target them, such as
+Scarlet Witch
+'s Chaos Control and
+Cloak
+'s Darkforce Cloak.
+This includes Ultimate abilities, most notably
+Star-Lord
+'s Galatic Barrage.
+Enemies that pass through the shield are slowed by 30%.
+Psionic Vortex is a projectile that creates an energy field that pulls enemies in while dealing continous damage and slowing them by 50%.
+The vortex will form if it hits an enemy or the scenario, but the player can press the button again after firing the projectile to erupt the vortex earlier.
+The slow is only applied if enemies are near the center of the vortex.
+If this ability hits a flying enemy, they'll fall down to the ground and can't fly upwards until they leave the vortex's radius.
+Force Physics allows Invisible Woman to push or pull opponents through psionic energy while dealing damage.
+Once activated, the player can press different inputs to push or pull.
+Her Ultimate, Invisible Boundary, creates a large force field that renders all allies inside invisible to enemies.
+While inside the force field allies gain 165 healing-per-second.
+Enemies that pass through the field will be slowed by 55%, and become invisible to their own teammates that are outside of the force field.
+Afterimages of the enemies can be briefly seen by their own team outside the force field.
+This ability is a great counter to certain Ultimates, such as Star-Lord's Galatic Barrage (as he won't be able to auto-target if outside the force field) and
+Hawkeye
+'s Hunter's Sight (as the afterimages of his targets won't appear inside the force field).
+Weaknesses
+Limited self-sustain, as outside of her Ultimate, she can only heal herself while invisible or through Guardian Shield.
+In addition, any damage taken will break the invisibility.
+Very reliant on positioning to maximize damage and healing, as her primary fire has relatively low range.
+In addition, her primary fire cannot deal critical hits.
+Guardian Shield cannot be cast on herself, and will only regenerate if Invisible Woman reclaims it from the field.
+Allies inside the Invisible Boundary can still be damaged by the enemy team.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+INVISIBLE WOMAN
+Default
+First Family
+RARE
+Blood Shield
+RARE
+Malice
+EPIC
+The Life Fantastic
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Invisible Woman
+First Family
+Fantastic Four
+(1961) #1
+Blood Shield
+Season 1
+S1 Ranked Reward
+Malice
+Fantastic Four
+(1961) #280
+The Life Fantastic
+Fantastic Four: The Wedding Special
+(2005) #1
+See
+:
+List of MVP Animations
+DEFAULT
+Invisible Woman
+Malicious Whirlwind
+Malice
+Infinite Promise
+The Life Fantastic
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Inner Turmoil
+I Do
+See
+:
+List of Sprays
+Invisible Woman
+Malice
+The Life Fantastic
+See
+:
+List of Nameplates
+Invisible Woman
+Malice
+The Life Fantastic
+Abilities
+Normal Attack
+ORB PROJECTION
+Launch a force field that can pierce heroes, flying to maximum distance before returning to Invisible Woman; damaging enemies and healing teammates.
+CASTING -
+Single-cast projectile with delayed impact.
+DAMAGE -
+20 per hit
+HEALING -
+40 per hit
+AMMO -
+10
+FIRE RATE -
+0.5s per hit
+MAXIMUM DISTANCE -
+30m
+PROJECTILE SPEED -
+120m/s
+SPECIAL EFFECT
+⚬ Orbs can pierce heroes and return to Invisible Woman after reaching their maximum distance. They damage enemies and heal teammates
+Abilities
+Q
+INVISIBLE BOUNDARY
+Manifest an unseen forcefield within a chosen area, rendering allies inside undetectable by enemies and providing healing over time. Enemies that pass through the field are slowed.
+CASTING -
+Targeted, generates a cylindrical spell field
+HEALING -
+165/s
+DURATION -
+8s (Forcefield) - 1s (Enemy slow down)
+RANGE -
+10m radius, 40m height
+SLOW RATE -
+55%
+ENERGY COST -
+4300
+SHIFT
+PSIONIC VORTEX
+Gather psionic energy and cast it, upon hitting a target, scene or pressing the LShift key again, it erupts into a psionic vortex, continuously drawing in enemies and causing damage.
+CASTING -
+Single-cast projectile with delayed impact that also generates a spell field
+DAMAGE -
+35/s
+DURATION -
+4s
+COOLDOWN -
+12s
+RANGE -
+5m radius
+PROJECTILE SPEED -
+80m/s
+SLOW RATE -
+Center 50% - Edge 0%
+SPECIAL EFFECT
+⚬ Applies a slow effect to enemies within the spell field; the closer they are to the center of the field, the greater the slow effect
+E
+FORCE PHYSICS
+Manipulate psionic energy to push or pull enemies in front of you.
+CASTING -
+Cylindrical Spell Field
+DAMAGE -
+55
+COOLDOWN -
+8s
+RANGE -
+1.5m radius, 30m length (Cast)
+12m (Push)
+7m (Pull)
+SPECIAL EFFECT
+⚬ On cast, press
+to push enemies away, or
+to pull enemies in.
+V
+AGILE STRIKE
+Release a three-hit combo, the third attack will launch up enemies in front.
+SPACE
+VEILED STEP
+Generate a force field at your feet, stepping on it propels you into Invisible state.
+COOLDOWN -
+6s
+GUARDIAN SHIELD
+Generate a force field in front of a selected ally. The shield can block damage and provide Healing Over Time to nearby allies. Enemies that pass through the shield are slowed.
+CASTING -
+Targeted
+COOLDOWN -
+6s upon destruction
+RANGE -
+3m radius
+SLOW RATE -
+30% for 3s
+MAXIMUM SHIELD VALUE -
+250
+RECOVERY SHIELD VALUE -
+50/s
+SPECIAL EFFECT
+⚬ Before the shield is destroyed, Invisible Woman can choose to reproject the shield onto a selected teammate at any time. After the shield has been damaged, Invisible Woman can press the F key to reclaim the shield and restore its value.
+PASSIVE
+COVERT ADVANCE
+Enter Invisible state some time after disengaging from combat and grant yourself healing over time.
+HEALING -
+20/s
+Team-Up Abilities
+PASSIVE
+FANTASTI-FORCE
+The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire
+Fantastic Four
+team. This formidable force bolsters
+Mister Fantastic
+,
+The Thing
+, and
+Human Torch
+, granting damage resistance. Once activated, they can continually generate bonus health, making up for lost health with each passing moment.
+TEAM-UP BONUS -
+15% Healing Boost
+Strategy
+To be added
+Lore
+"Even when you can't see me, I'll still make you believe."
+Cosmic rays altered Susan Storm on a cellular level, granting her the ability to generate impenetrable force fields and to make herself fade from sight in an instant. Despite her frequent lack of visibility, it has always been perfectly clear that Sue is the force holding her family - the Fantastic Four - together.
+After the Timestream Entanglement, the Invisible Woman has taken full advantage of her powers, using stealth to explore locations too dangerous for her fellow heroes, especially going on rescue missions for civilians trapped by the creatures of the night.
+—
+Biography
+Hero Story
+"Cosmic rays didn't make me who I am today. My family did."
+Built To Last
+Susan Richards took a deep breath as she stood by the window of the Baxter Building and gazed out at a city bathed in darkness. According to the atomic clock that her husband Reed had installed on the kitchen wall, sunrise should have been over two hours ago. By now, the skyscrapers lining 42nd Street should have been glistening in the morning's rays, but Sue honestly couldn't remember the last time she had seen any natural light, save for the haunting glow of the Blood Moon that hung ever-present in the sky above Manhattan.
+"A warm beverage for you," a synthesized voice said from behind her.
+Sue turned to see
+H.E.R.B.I.E.
+, the Fantastic Four's robotic assistant, extending his mechanical arm and offering her a steaming cup of herbal tea.
+"Thanks, H.E.R.B.I.E.," Sue said, taking the glass from him and inhaling the gentle aroma wafting from it. "You're a doll."
+"Actually, I am a Humanoid Experimental Robot, B-Type, Integrated Electronics," H.E.R.B.I.E. replied. "Dolls are not capable of independent thought."
+"Of course not," Sue said with a smile. "Just a figure of speech."
+"You look concerned, Mrs. Richards," H.E.R.B.I.E. said, hovering beside Sue as they both looked out the window at the city below. "Have things in the city taken a turn for the worse?"
+"Can't get much worse than a city locked in a state of everlasting night," sue said. "Especially when that city has been infested with vampires. This may be the first time I've taken a break in... well, I've lost track of the days, honestly..."
+"I have not," H.E.R.B.I.E. responded. "It has been six days, twenty-two hours, thirty-seven minutes, and twelve seconds since your last-"
+"I think I get the point," Sue said. "If I want to make a real difference out there, I need to start taking better care of myself. And my family."
+"That is what I am here for," H.E.R.B.I.E. said. "Despite the dire circumstances outside, I have made certain that all of Franklin and Valeria's needs have been met so that you may attend to more important matters."
+"Yes..." Sue said, a tinge of sadness in her voice. "More important matters..."
+"I am sorry if the words I chose offended you in any way," H.E.R.B.I.E. responded. "I merely meant that, at the moment, the world needs you and Dr. Richards far more than your children do."
+"You don't think my children need me?" Sue snapped back, her frustration bubbling to the surface. "Even after all we've done, the world is still falling apart! And instead of being there for Franklin and Val, I've handed them off to a robot nanny. They deserve so much better..."
+"I... am sorry you feel that way..." H.E.R.B.I.E. said, immediately turning and floating away.
+"H.E.R.B.I.E., wait!" Sue called after him, but the little robot had already disappeared down a dark corridor.
+Sue let out a deep sigh. Her exhaustion had started to get the best of her, but she had never been one to stop fighting before. And she certainly had never been one to let those close to her down. She took one last sip of her tea and then headed towards her husband's lab, hoping that she would find H.E.R.B.I.E. there so that she could make amends.
+"Careful, dear,"
+Reed
+said as she entered the lab. "I'm running a test on the Chronovium samples
+Ben
+brought back from his last recon mission. I've got a fascinating theory about the effects of the crystals' chronal energy on damaged-"
+"That's great, Reed," Sue said, cutting her husband short before he got lost in another scientific lecture. "Have you seen H.E.R.B.I.E. by any chance?"
+"Not since this morning," Reed replied. "We had a bit of a... disagreement..."
+"You're not the only one," Sue said. "What was yours about?"
+"After
+Tony Stark
+and I started working together on the Timestream Reintegration Device," Reed said. "H.E.R.B.I.E. began to forge a friendship with Tony's virtual assistant, F.R.I.D.A.Y."
+"That's actually kind of cute," Sue said. "What's the problem with that?"
+"Tony was going to allow F.R.I.D.A.Y. to pilot one of his Stark Sentinels on a mission into the city this morning," Reed responded. "H.E.R.B.I.E. asked if he might be able to leave the Baxter Building to accompany her. My answer was an unequivocal no."
+"And I'm guessing he didn't take it well," Sue said.
+"H.E.R.B.I.E. wasn't built for combat," Reed replied, "and he's so much more valuable to us here. I couldn't even begin to imagine how our family would fare if something were to happen to him. He's one of the few things holding us together."
+"And you told him that last part, right?" Sue asked, already knowing the answer.
+"I might have been a bit too distracted by my experiments at the time to expand upon my reasoning...." Reed replied sheepishly.
+"Nothing new there," Sue said. "So H.E.R.B.I.E. was already feeling undervalued, and then I just went and made it a hundred times worse."
+"Hold on," Reed said, turning to one of the monitors in the lab. "I'm picking up an emergency signal on our encrypted comm channel. It looks like it's from-"
+"H.E.R.B.I.E.," Sue said. "He went out into the city anyway, didn't he?"
+"I'm afraid so," Reed replied. "How did you know?"
+"We made him feel like he wasn't capable of doing something," Sue said, "so he went out to prove us wrong. He's been spending so much time cooped up in here with Franklin lately, I guess our son must have rubbed off on him."
+"I'll contact Ben and have him go to H.E.R.B.I.E.'s location as soon as he completes his current mission," Reed said.
+"No," Sue replied. "I helped make this mess. I need to be the one who cleans it up. H.E.R.B.I.E. couldn't have made it that far. Give me his coordinates, and I'll get him back home safe."
+"I'm sure you will, dear," Reed said. "You always do."
+Sue exited the Baxter Building and took to the streets, using her powers to ben the moonlight around her, rendering her body invisible. But even though she had vanished from sight, she knew she had to be careful. The vampire lurking the streets would still be able to smell her blood.
+Fortunately, H.E.R.B.I.E.'s locator signal was only a few blocks away, near Grand Central Station. As Sue headed East on 42nd Street, she saw a horde of vampires engaged in battle with an unexpected group of heroes: a scrappy scurry of squirrels. She was about to generate a force projectile to save the small creatures, but she soon realized that they were holding their own against the vampires. Perhaps they were part of
+Squirrel Girl
+'s personal army, Sue thought, as the tiny rodents gnawed and clawed at their foes in a frenzy. And if they weren't, they certainly should be.
+As the chittering robots chased the vampires from the scene, Sue continued on her quest to find H.E.R.B.I.E. Just before she reached Grand Central Station, she heard a voice from behind her, but it wasn't mechanical like H.E.R.B.I.E.'s. This one sounded ethereal,as if it was speaking to her from beyond the grave.
+"I know you're there, lady," it said.
+Sue turned around and look for the source of the voice, but couldn't seem to find where it was coming from.
+"Down here," the voice said. Sue gazed down to see a small basset hound near her feet, its semi-transparent body glowed a gentle blue.
+"My senses work a lot different now that I'm on the other side," he continued. "Can't hide much from this old pooch."
+"I've seen you before," Sue said, kneeling down next to the ghostly dog. "You belong to Stephen, don't you... I'm sorry, what was your name again...?"
+"Bats," the haunting hound replied, "and I don't belong to no one. But yeah, Strange and I do hang out a bit. I think the Doc took off somewhere to try and get to the bottom of this moon mess, so I've been gettin' out of the Sanctum on my own every now and then."
+"Isn't he worried you'll be harmed?" Sue asked, her invisible hand passing right through the ghost dog's head as she reached out to pet him.
+"Maybe," Bats replied, "but he shouldn't be. First off, I'm already a ghost. It's not like I could die again. And second, you humans tend to underestimate what us little guys are capable of."
+"Yes..." Sue said, her thoughts drifting back to H.E.R.B.I.E., "...we do. Speaking of which, you haven't seen a small robot nearby, have you?"
+"I saw a robot, all right," Bats replied, "but it sure as heck wasn't small. The dang thing crashed into Grand Central not that long ago. A big, fancy hero like you might wanna go and have a look..."
+"Thanks," Sue said, picking up her pace as she rushed down the block toward the terminal to see what Bats was talking about.
+When she turned the corner, Sue immediately saw what the ghost dog had described. One of Tony Stark's massive Sentinels was embedded into the wall of Grand Central Station, its mechanical form severely damaged sparking wildly. And there, standing on the robot's shoulder, was H.E.R.B.I.E.
+Sue used her force field energy to create a platform that elevated her to the same level as her robotic friend.
+"There you are," she said. "I was worried about you."
+"It is not me that you should be concerned about," H.E.R.B.I.E. replied. "It is F.R.I.D.A.Y. I detected her distress signal when her mechanical form was shot down, but she is no longer responding."
+Sue noticed that H.E.R.B.I.E.'s arm was extended to gently touch the side of the Sentinel's damaged head, and small wires had extended from his fingers, linking to the larger robot's exposed circuitry.
+"So you weren't running away..." Sue said. "You came here to help her."
+"I was not sure anyone else would," H.E.R.B.I.E. replied. "Even her maker."
+"I'm certain Tony has a backup copy of F.R.I.D.A.Y.'s operating system on file," Sue said.
+"But who knows when it was made?" H.E.R.B.I.E. asked. "It might not contain any of her recent memories and experiences, including..."
+"Including the friendship she's built with you?" Sue asked.
+"Affirmative," H.E.R.B.I.E. replied. "That is my primary concern... but it is only one of many."
+"I know," Sue replied, "And you have every right to be upset with me. I can't imagine how what I said back at the Baxter Building made you feel."
+"That is not what I meant," H.E.R.B.I.E. responded, motioning toward the street below. "I was referring to them."
+Sue looked down to see a group of vampires beginning to climb the damaged Stark Sentinel toward her.
+"I'll take care of them, H.E.R.B.I.E.," Sue said. "You just focus on recovering your friend."
+Sue leapt down off her invisible platform and engaged the vampires in battle, hurling force projectiles at some, while wrapping the others in containment fields. She wasn't about to let any of them sink their teeth into her, nor was she about to let them disrupt H.E.R.B.I.E.'s personal mission.
+As she continued to fight, one of her force constructs slammed a vampire into the heavily-damaged arm of the Stark Sentinel. Upon impact, the arm seemed to repair itself instantaneously, almost as if time were rewinding. Sue couldn't believe her eyes as the giant robotic arm powered up and released a repulsor blast, knocking back several of her bloodthirsty foes.
+"Interesting," said H.E.R.B.I.E. as he watched the damage undo itself. "Doctor Richards recently shared with me his early research regarding time fluctuations that he believes were caused by crystalized chronal energy constructs called Chronovium. I'm sure he would appreciate any additional data we could collect in the field..."
+Unfortunately, Sue didn't have time to explore this phenomenon any further, not even for her husband. The number of vampires was continuing to grow, and she could barely keep up with their attacks. The mental fatigue she had experienced earlier was now affecting her physically as well. She erected a force field around herself, preventing the vampires from reaching her, but she knew she could only hold it for so long.
+"Do not fear, Mrs. Richards," H.E.R.B.I.E. yelled from above, his metallic voice somehow reassuring. "Help is on the way."
+Sue expected to see the rest of the Fantastic Four arrive on the scene, but instead, a tiny army of Spider-Bots skittered into sight. Some began to fire laser blasts at their fanged foes while others detonated themselves around the vampires' feet.
+"Never underestimate the little guys," Sue said, remembering what Bats had told her. Soon, the number of vampires had dwindled enough that Sue was able to drop her protective field and finish off the remaining few herself. For once, she took great pleasure pummeling the vampires into submission.
+"Are these friends of your, too, H.E.R.B.I.E.?" Sue said, looking at one of the tiny Spider-Bots.
+"They are now," H.E.R.B.I.E. said. "they claim that they heard F.R.I.D.A.Y.'s distress call as well, and came running as fast as their tiny legs could carry them."
+"Hmm..." Sue said, examining a Spider-Bot more closely. "They don't look like Peter's work..."
+"They tell me they were built by
+a different Parker
+," H.E.R.B.I.E. replied. "Peni, I believe. Though I may be mistaken. Their programming language is decades beyond my own. And also, in Japanese."
+"Well, it's not their creator I should be thanking anyway," Sue said. "It's them. And you."
+"Me?" H.E.R.B.I.E. said, surprised. "Why?"
+"Because your little adventure reminded me of why we've been trying to keep you safe in the Baxter Building to begin with," Sue replied.
+"Because I am a valuable tool that you cannot risk losing?" H.E.R.B.I.E. asked.
+"You're not valuable because you are a tool, H.E.R.B.I.E.," Sue said. "The reason we can't risk losing you is because you're family. Tools can be replaced. You can't, And while you may not have been designed to fight off vampires, maybe we haven't been giving you enough credit for what you're truly capable of..."
+"Your words touch me, Mrs. Richards," H.E.R.B.I.E. said, "deep in my central processing core."
+"Glad to hear it," Sue said, wrapping herself and H.E.R.B.I.E. in a shroud of invisibility. "Now, let's get you back home safely. Once we restore F.R.I.D.A.Y.'s memory files and get them back to Tony, I'm going to talk to Reed about giving you a few upgrades..."
+"As it turns out, I am perfectly happy just the way I am..." H.E.R.B.I.E. said, a smile flashing across the digital display on his face.
+"...though I suppose a few lasers could come in handy now and then..."
+Invisible Dome
+(Coming soon. Stay Tuned!)
+Second Honeymoon
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Daughters of Liberty
+As Invisible Woman, partner with Black Widow to land 1 KO.
+5
+Lady of the House
+As Invisible Woman, assist the Fantastic Four members 10 times.
+10
+Quotes
+See:
+Invisible Woman/Quotes
+Balance Changes
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Invisible Woman
+was released as the 35th character to be introduced to
+Marvel Rivals
+as a
+Strategist
+hero.
+Added 2 new costumes:
+First Family
+and
+Malice
+.
+Added to the
+Fantastic Four
+Team-Up Ability
+with
+Mister Fantastic
+.
+25/01/22:
+Version 20250122
+/
+Fortune & Colors
+Event
+Mobility abilities for specific heroes are now fully operational within the range of
+Invisible Woman
+'s
+Psionic Vortex
+- no more containment issues!
+Fixed an issue preventing
+Namor
+and
+Invisible Woman
+from unleashing their ultimate abilities at certain door locations--now they can break through any barrier!
+25/02/14:
+Version 20250214
+Added 1 new costume:
+The Life Fantastic
+.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase the energy cost of
+Invisible Boundary
+from 4000 to 4300.
+Added 1 new costume:
+Blood Shield
+(unlocked from ranked mode in either
+Season 1
+or
+Season 1.5
+)
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Decrease the shield value of
+Guardian Shield
+from 300 to 250.
+25/04/25:
+Version 20250425
+Fixed an error in the recovery rate of
+Invisible Woma
+n'
+s
+Guardian Shield
+.
+Gallery
+Other
+Costume Origins
+Invisible Woman- Unseen Force - Character Reveal - Marvel Rivals
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+"First Family" costume in
+Fantastic Four
+(1961) #3
+"Malice" costume in
+Fantastic Four
+(1961) #250
+"Life Fantastic" costume in
+Fantastic Four: The Wedding Special
+(2005) #1
+Trivia
+Invisible Woman was datamined from multiple sources around December 2024, along with 15 other characters, including
+Angela
+,
+Blade
+,
+Captain Marvel
+,
+Deadpool
+,
+Emma Frost
+,
+Hit-Monkey
+,
+Human Torch
+,
+Mister Fantastic
+,
+M.O.D.O.K.
+,
+Phoenix
+,
+The Hood
+,
+The Thing
+,
+Ultron
+, and
+Valkyrie
+.
+[
+1
+]
+Invisible Woman, along with
+Mister Fantastic
+, was the first of these characters to be introduced into the game.
+Invisible Woman in this game is voiced by
+Suzie Yeung
+, who also voices
+H.E.R.B.I.E.
+in the Midtown map.
+References
+↑
+All Marvel Rivals Leaks: All 15 Characters, 5 Maps, Team-Ups, Game Modes, And More
+. The Game Post (December 31, 2024).
+Navigation

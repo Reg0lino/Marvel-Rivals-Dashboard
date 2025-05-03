@@ -1,0 +1,523 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Punisher =====
+
+The Punisher
+"I'm not a hero, I'm the Punisher."
+Real Name
+Francis David "Frank" Castle
+(born Castiglione)
+Aliases
+Frankie
+Skull Guy
+Johnny Tower
+Biographical Information
+Birthplace
+Queens, New York
+Gender
+Male
+Eye color
+Blue
+Hair color
+Brown
+Relatives
+Maria Castle
+(wife; deceased)
+Lisa Castle
+(daughter; deceased)
+Frank Castle Jr.
+(son; deceased)
+Powers/Skills
+Immense pain tolerance
+Expert in military, criminal, and law enforcement strategies and tactics
+Expert armed and hand-to-hand combatant
+Equipped with extensive arsenal of firearms and advanced weaponry
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+300
+Difficulty
+Affiliation
+Marvel Knights
+Thunderbolts
+Portrayal
+Voice Actor
+Bill Millsap
+Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won't cease in his mission until every last round is fired!
+Official description
+The Punisher
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 17th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Rocket Raccoon
+.
+Overview
+Strengths
+A fairly simplistic but very powerful and resilient living arsenal, specialized at dealing damage at any range by swapping between his weapons while on the move.
+Has higher maximum health compared to other Duelists.
+His passive, Warrior's Gaze, briefly grants the Punisher vision of enemies who disappear out of his line of sight for 3 seconds.
+This means that players using the Punisher will still see the highlighted silhouette of opponents even if they are behind walls and obstacles.
+Punisher is able to switch between two primary fire weaponry at will:
+Adjucation is a long-range automatic rifle that deals consistent rapid-fire damage at a long range.
+Deliverance is a mid-to-short-range shotgun that packs incredible power at closer targets.
+It deals higher damage the closer the Punisher is to his targets, and can reliably one or two-shot most standard-health enemies if all shots deal critical hits.
+His secondary fire, Scourge Grenade, has the Punisher lobbing a smoke grenade that deals a small amount of damage on impact but creates a large smoke cloud that obscures enemy vision.
+The Punisher leaps backwards when throwing the grenade, making it an effective dodging or spacing tool to widen the gap between him and his opponents, as well as to temporarily disorient them.
+Combined with his passive, this gives the Punisher a combat advantage as he can still see his enemies even while they are obscured by the smoke screen.
+Culling Turret deploys a stationary armored skull-shaped turret that causes the player to enter first-person view. The turret allows the Punisher to rapidly fire explosive bullets that both deal direct damage as well as explosive damage in a small radius.
+The bullets fired by the turret are not affected by damage falloff, meaning they will deal full damage no matter how far the Punisher is from his targets.
+The turret has no duration, and the Punisher will remain on it until the ability is canceled, upon running out of bullets (200 in total), or if the turret is destroyed.
+The turret has 600 health and effectively counts as a second healthbar for the Punisher; even if the turret is attacked and destroyed by the enemy team, he will not be taken down.
+The Punisher can still be healed while mounted on the turret.
+While mounted on the turret, the Punisher becomes unstoppable and completely immune to all forms of crowd control. This also applies during the transformation.
+This even includes certain displacement Ultimates, most notably
+Jeff the Land Shark
+'s It's Jeff!
+Vantage Connection launches a hook with a cable that can attach to any surface, enabling the Punisher to move rapidly through it like a zipline.
+This ability provides the Punisher with incredible flexibility. It can be used to gain terrain advantage and high ground over his opponents, as well as to perform evasive maneuvers to reposition in combat.
+The cable persists after fired, allowing players to use it again freely.
+By manually exiting the zipline earlier by pressing the jump button, players can keep the Punisher's momentum and be slingshot forward and high in the air, granting him excellent mobility to travel very long distances.
+His Ultimate, Final Judgement, temporarily equips the Punisher with two massive Gatling guns and a shoulder-mounted missile launcher, both with infinite ammo.
+The gatling gun have one of the highest rate-of-fire in the game, after
+Star-Lord
+'s Element Guns.
+The missiles automatically lock onto the nearest characters, up to three at once.
+While under the effects of Final Judgement, Punisher becomes unstoppable, completely immune to all forms of crowd control. This also applies during the transformation.
+This even includes certain displacement Ultimates, most notably
+Jeff the Land Shark
+'s It's Jeff!
+Rocket Raccoon
+can use Ammo Overload when paired with the Punisher, providing him with Infinite Punishment, a temporary effect that grants both his Adjucation and Deliverance with infinite ammo and 67% increased rate of fire.
+Weaknesses
+Despite his higher health, he is still significantly frail, being susceptible to dives and flanking.
+Vulnerable if both his Scourge Grenade and Vantage Connection are on cooldown.
+Punisher cannot enter and exit his Culling Turret at will; if the player exits the turret by pressing the assigned button, the turret will disappear and trigger its cooldown.
+Punisher moves 20% slower (40% while shooting) during Final Judgement.
+Punisher has no control over his team-up with Rocket Raccoon; the player controlling Rocket has to manually place the Ammo Overload device on the ground.
+The device has a limited radius and short duration.
+It cannot affect the ammo of the Culling Turret.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+THE PUNISHER
+Default
+Camo
+RARE
+Thunderbolts
+RARE
+Punisher 2099
+EPIC
+See
+:
+All In-Game Models & Descriptions
+The Punisher
+Camo
+Season 0
+Thunderbolts
+Thunderbolts
+(2012) #1
+— S0 BattlePass —
+Punisher 2099
+Punisher 2099
+(1993) #1
+See
+:
+List of MVP Animations
+DEFAULT
+The Punisher
+Wall Buster
+Punisher 2099
+See
+:
+List of Emotes
+DEFAULT
+The Punisher
+Love & War
+Punisher 2099
+See
+:
+List of Sprays
+The Punisher
+The Punisher Emblem
+Punisher 2099
+See
+:
+List of Nameplates
+The Punisher
+Punisher 2099
+Abilities
+Normal Attack
+ADJUDICATION
+Fire at enemies with Adjudication, his Automatic Rifle.
+CASTING -
+Rapid-fire projectile
+DAMAGE -
+18 damage per round
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 70% at 40m
+CROSSHAIR SPREAD RADIUS (AT 10M) -
+Up to a 0.09m radius.
+FIRE RATE -
+10 rounds per second
+AMMO -
+30
+CRITICAL HIT -
+Yes
+DELIVERANCE
+Fire at enemies with Deliverance, his Shotgun.
+CASTING -
+Shotgun projectiles that hit instantly
+DAMAGE -
+10 damage per round
+DAMAGE FALLOFF -
+Falloff begins at 8m, decreasing to 40% at 15m
+BULLETS FIRED EACH CAST -
+14
+CROSSHAIR SPREAD RADIUS (AT 10M) -
+0.6m
+FIRE RATE -
+1.43 rounds per second
+AMMO -
+8
+CRITICAL HIT -
+Yes
+Abilities
+Q
+FINAL JUDGEMENT
+Unleash two Gatling guns and missiles to attack enemies.
+CASTING -
+Rapid-fire projectiles that hit instantly and have a tracking trajectory
+DURATION -
+10s
+SLOW RATE WHILE IDLING -
+-20%
+SLOW RATE WHILE SHOOTING -
+-40%
+ENERGY COST -
+3400
+◆
+GATLING GUN
+DAMAGE -
+8 damage per round
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 70% at 40m
+CROSSHAIR SPREAD RADIUS (AT 10M) -
+Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots
+FIRE RATE -
+33.33 rounds per second
+AMMO -
+∞
+CRITICAL HIT -
+Yes
+◆
+SHOULDER-MOUNTED MISSILES
+PROJECTILE SPEED -
+60 m/s
+DAMAGE -
+50
+INTERVAL BETWEEN VOLLEYS -
+3s
+INTERVAL BETWEEN MISSILES -
+0.3s
+MAXIMUM NUMBER OF MISSILES PER VOLLEY -
+8
+MAXIMUM NUMBER OF LOCKED-ON MISSILES PER TARGET -
+3
+MAXIMUM LOCKING DISTANCE -
+40m
+SHIFT
+VANTAGE CONNECTION
+Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F.
+CASTING -
+Dash
+CABLE ATTACHMENT ANGLE -
+20° - 160°
+CABLE LENGTH -
+5m - 35m
+DASH SPEED -
+25 m/s
+COOLDOWN -
+20s
+E
+CULLING TURRET
+Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage.
+CASTING -
+Rapid-fire projectiles that create a spell field upon impact
+DAMAGE -
+12 damage per round
+EXPLOSION DAMAGE -
+12 damage per round
+EXPLOSION RANGE -
+3m spherical radius
+CROSSHAIR SPREAD RADIUS (AT 10M) -
+Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots
+FIRE RATE -
+12.5 rounds per second
+AMMO -
+200
+TURRET HEALTH -
+600
+COOLDOWN -
+20s
+SCOURGE GRENADE
+Throw a smoke grenade forward to obscure enemy vision and leap backward.
+CASTING -
+Projectile with an arced trajectory
+PROJECTILE SPEED -
+40 m/s
+RANGE -
+5m spherical radius
+DAMAGE -
+45
+BACKWARD JUMP DISTANCE -
+9m
+COOLDOWN -
+8s
+SPECIAL EFFECT
+⚬ Create a temporary smokescreen that obstructs vision
+PASSIVE
+WARRIOR'S GAZE
+Retain vision of enemies that disappear from view for a short duration.
+DURATION -
+3s
+RANGE -
+30m spherical radius
+SPECIAL EFFECT
+⚬ Retain vision of enemies that disappear from view for a short duration.
+Team-Up Abilities
+INFINITE PUNISHMENT
+Rocket Raccoon
+throws an Ammo Overload device in the target direction. Upon entering the device's range, the Punisher receives the buffs of Infinite Ammo and Faster Firing.
+CASTING -
+Single-cast spell field that surrounds the caster
+ADJUDICATION FIRE RATE -
+67%
+DELIVERANCE FIRE RATE -
+67%
+Strategy
+Punisher serves as the game's premier starter damage dealer, with all of his weapons and abilities being very simple but effective. He is a great character for anyone familiar with conventional shooter games like Call of Duty or Counter Strike.
+Due to his lack of on-demand mobility, Punisher is best played near his team, sticking close to his Vanguards and Strategists so he can lay down continuous damage while staying nice and protected.
+Adjudication serves as Punisher's primary means of damage. It is a simple but effective assault rifle, being useful at basically any range for getting in damage, however it shines at mid-range.
+When at a close distance or against a large target, his Deliverance shotgun is often a better choice. As with any shotgun, it excels at shredding up-close enemies, and it especially shines against Vanguards, as their large hitboxes will guarantee that most, if not all, of the gun's pellets will connect.
+While the gun has a standard reload if done from an empty chamber, it can also individually reload shells if there are still shots left. In prolonged combat with the weapon, try to reload in between shots in order to minimize downtime.
+Scourge Grenade serves as Punisher's primary "get-off-me" tool. Not only does it fire a smoke bomb that briefly obscures enemy vision, but it also causes Punisher to leap backwards, putting some distance between him and the target. This is a great tool for disorienting enemy flankers and taking their favorable engage away from them.
+If need be, it can also serve as a ranged finisher against an injured target when Punisher is out of ammo, the enemy is behind cover, or if he is otherwise unable to hit them with other means.
+Culling Turret offers Punisher even more firepower to work with. After a brief set-up animation, Punisher will man a powerful HMG emplacement that fires explosive rounds, giving him incredible DPS and AoE crowd control. While in the turret, he is completely immobile, but is also immune to all CC effects such as stuns, knockbacks, or seizes, and can block up to 600 damage from the front. The turret will disappear if Punisher either manually exits it, expends all of its ammo, sustains too much frontal damage, or stays in it for 20 seconds.
+This ability is best used as either a deterrent for a push or as a way to punish a team who has committed to a fight. When trying to position the turret, avoid constantly using the same spot over and over. Instead, constantly reposition between vantage points to keep opponents guessing from exactly where the turret's fire will be coming from.
+While the turret can block all means of damage from the front, Punisher is still completely vulnerable to attacks from behind, making him easy pickings for a flanker when in this state. If the enemy has flankers, make sure to keep an eye and ear open for them.
+Vantage Connection is Punisher's primary means of mobility. He will fire a grapple line that he can zip along at breakneck speeds to quickly reach alternate positions. After exiting the grapple, Punisher will always leap vertically, allowing him to clear any ledges.
+Due to its long cooldown and slow start-up, it is unreliable as an on-demand escape option. However, setting up near a grapple can allow you to use it as a quick escape.
+This ability can only be used when grounded.
+Setting up grapples near spawn is also a solid choice, as it can allow you to quickly return to a fight after respawning.
+Punisher's Ultimate, Final Judgement, has him pull out two powerful gatling guns and a set of shoulder-mounted rocket launchers, turning himself into a one-man army. In this form, he has one of the highest damage outputs in the game, shredding through tank and squishy alike, however he cannot use any of his abilities and can instead only move and shoot.
+It is best to think of this ultimate as a stronger Culling Turret, punishing an enemy team for committing to a push by bombarding them with relentless damage.
+Keep in mind that Punisher himself does not become any more durable in this form, so be wary of activating this when out in the open, as you will be painting a huge target on your back once the enemy sees you coming.
+Similar to Culling Turret, Punisher is completely CC-immune during his ultimate, so feel free to challenge anyone who attempts to stun, displace, or otherwise disorient you.
+Punisher's team-up with Rocket, Infinite Punishment, gives Punisher one of the highest non-ultimate damage outputs in the game, allowing him to turn any sightline into a hailstorm of death. Coordinate with your team's Rocket to punish an enemy team for attempting to push through a sightline without a plan.
+Lore
+"Right is right and wrong is wrong"
+Caught in the crossfire of a mob hit that killed his family, Frank Castle clung to life through sheer force of will and his unquenchable thirst for vengeance. Unwilling to let more innocents suffer at the hands of criminals, Castle took the law into his own hands as the Punisher.
+Thanks to an experimental serum that vastly extended his lifespan, the Punisher's war has continued into the far-flung future. As a member of the New Marvel Knights, his impressive arsenal has become a vital part of Black Widow's crusade against Doom 2099.
+—
+Biography
+Hero Story
+"A bad guy is a bad guy. No real difference between any of ' em."
+Initiation Ceremony
+The year 2099. The future had seen countless advancements in technology and pharmaceuticals thanks to companies like Stark-Fujikawa and Alchemax. Safety and security were at an all-time high as well, due in large part to the proactive police force known as the
+Public Eye
+. At a glance, everything seemed perfect. A little too perfect.
+But a closer look revealed another story. Even though the quality of life had improved dramatically for everyday citizens, there were still those who lurked in the shadows, searching for ways to use that miraculous progress for their own personal gain. In every utopia, there was always someone desperate to turn the brave new world upside down. Fortunately, there were also those who had dedicated their long lives to stopping them… at any cost…
+Those forces were destined to collide in a warehouse on the lowest levels of a forgotten district of Tokyo, far below the strange webs that had woven themselves through the night sky. There, the Yashida Corporation -- once one of Japan’s greatest crime families and now a multinational manufacturing powerhouse -- was set to meet with a mysterious new syndicate rumored to be making a move for power in New York City: the Castigliones.
+While the Yashida Corp. had gone legit decades ago, they still had a number of illicit operations hidden in their books, dealing in everything from narcotics to weapons. Tonight, the focus was on the latter.
+Led by Shiru Yashida, a direct descendant of Lord Shingen himself, the Yashida Corp.’s delegation numbered over twenty armed men. They were trained to remain cold and confident, but they couldn’t help but snicker when the door to the warehouse slid open and a single figure in a long dark coat walked into the darkness.
+“Let’s get down to business, shall we?” the man representing the Castigliones said in a gruff voice.
+“Bold,” Shiru said with a smile. “I already like you, Mr…?”
+“Tower,” the man replied coldly. “Johnny Tower. Now what’ve you got for me?”
+The Yashida Corp. crew wasted no time, unveiling a table covered in a wide array of high-tech weaponry unlike anything that had been seen on the streets of Tokyo or any other city. Plasma cannons, EMP grenades, vibro-knives, and countless other innovations designed solely to cause their targets the most damage and pain possible. These were weapons of war, and the Yashidas had no qualms about unleashing them on the innocent people of New York. For the right price, of course.
+After the Yashidas finished their presentation, Tower paused for what seemed like ages, scanning over the table of weapons in silence. The tension that filled the warehouse escalated until he finally spoke.
+“I’ll take all of ‘em,” Tower said, his cold expression never changing.
+“Surely, a young syndicate such as yours cannot yet afford --” Shiru began in astonishment, unable to finish his thought before Tower interjected.
+“Didn’t say I would pay for ‘em,” Tower interrupted. “Said I’d take ‘em.”
+Shiru Yashida began to laugh as he reached for the sword dangling from his belt. It was a family heirloom, once belonging to an esteemed ancestor of his, the Mutant known as the Silver Samurai. While Shiru did not possess any powers himself, he had trained in swordsmanship since he was a boy. And he knew he could best anyone -- especially some petty New York mobster who didn’t seem to know his station.
+“I’ll take that sword off your hands, too,” Tower said, his grim face finally softening into a smirk.
+“What is it you Americans say?” asked Shiru, signaling to his men to draw their weapons. “Ah, yes… Over my dead body.”
+Johnny Tower reached into his long coat and drew out a pistol that looked as though it had been manufactured a century ago. Before anyone could react, there was a bang and Shiru Yashida fell to the ground in motionless heap.
+“Deal,” Tower sneered at him.
+A split second later Johnny Tower was bombarded by a firestorm of bullets from the weapons of the other members of the Yashida delegation. Tower tried to stand strong, but he stumbled backwards as the projectiles hit his chest over and over again, the force of the impacts eventually driving him to his knees. When the barrage ended, Tower stood up and dusted himself off as if nothing had happened.
+“Shoulda aimed for the head like I did,” Tower grunted, lunging forward and grabbing a cutting-edge plasma cannon from the table of weapons.
+He opened fire on the Yashidas, who could only stare in utter disbelief. It wasn’t the fact that Tower had survived their merciless attack that made them freeze in their tracks. It was what they saw peering out from beneath Tower’s tattered black shirt:
+A stark white skull gazing back at them from the front of a bulletproof vest.
+The mark of the Punisher.
+For many of them, stories of the Punisher were like fairy tales. The vigilante who hunted criminals in the night. The real Punisher, a man named Frank Castle, had lived -- and died -- ages ago. So who was this man opening fire at them now? Someone who had styled himself after the legend? Or a ghost of the past seeking vengeance?
+If Johnny Tower had his way, none of them would live to find out. With their leader on ice, he planned to use the tight quarters of the warehouse to methodically pick off each Yashida Corp. goon one-by-one. But there was one thing he hadn’t planned for. Company.
+“That’s enough,” a woman’s voice yelled as Tower spewed a volley of plasma bursts toward the cowering Yashida guards. “Let them go.”
+Tower looked up and saw a woman perched up in the rafters of the warehouse, as if she was ready to pounce down on him.
+“Not a chance, doll,” Tower responded, snarling in her direction.
+“Don’t call me, doll…” the woman said, leaping down to land next to Tower, “…Frank.”
+“What’d you call me?” Tower said, caught off guard by the woman using his real name. No one had called him that in decades. As he looked closer, he couldn’t believe his eyes. He knew exactly who she was… and he was just as shocked to see her as the Yashida clan had been to see him.
+“What’s the matter, Castle?” the red-haired woman said with a smirk. “You look like you’ve seen a ghost.”
+“Natasha $%@in’ Romanoff,” Castle grunted in disbelief. “The
+Black Widow
+herself. You look pretty good for… What…? 140 years old now?”
+“I could say the same about you,” Natasha replied, quickly dispatching the remaining Yashida guards with a torrent of non-lethal blasts of her Widow’s Bite. “What’s your secret?”
+“Clean living,” Johnny Tower -- or rather, Frank Castle -- said. “That and some back alley treatments with a knock-off Super-Soldier Serum. You?”
+“Same,” Natasha replied. “Well, almost. I got my life-enhancing formula from Nick Fury.”
+“That old bastard always did have a thing for dames in cat suits…” Castle mused. “So what the hell are you doing here? Other than blowing my cover?”
+“Pretty sure you’d already done that yourself way before I jumped in,” Natasha said. “But if you really want to know, I’ve been on the run.”
+“From who?” Castle asked. “Most people have no idea you still exist. Same as me.”
+“That may have changed…” Natasha said, careful about how much she chose to reveal to the vigilante by her side. “I found out that Alchemax was hiding a top-secret asset, something at a level of classification I’d never even heard of.”
+“So naturally you couldn’t resist stickin’ your pretty little head into their business,” Castle said.
+“What I found there…” Natasha continued. “It could change everything…”
+“Well, what was it?” Castle asked impatiently.
+“Not what…” Natasha said. “Who.”
+“No more games, woman,” Castle barked. “If you’ve got somethin’ to say, spit it out already!”
+“It was
+Captain America
+, Frank,” Natasha said.
+“That… That ain’t possible…” Castle stammered, caught entirely off guard for the first time in ages. Cap was the reason he had signed up to be a soldier in the first place, long, long ago. But the Sentinel of Liberty had disappeared at the end of World War II, never to be found.
+“I barely believed it myself,” Natasha said as she played back the recent rescue operation in her mind’s eye. “But it was him. Steve Rogers. In the flesh.”
+“So where’s old stars and stripes now?” Castle asked, a tinge of hope in his voice.
+“He saved my life…” Natasha said, “…and then he vanished.”
+“And you’re tellin’ me the most elite spy who ever lived hasn’t managed to track a guy in star-spangled armor down yet?” Castle was starting to see some holes in her story.
+“I’ve been a bit distracted,” Natasha admitted. “After all, I just took your place at the top of the Public Eye’s most wanted list.”
+“Aww, come on!” Castle groaned. “Do you know how hard I worked to earn that spot?”
+“You’re welcome to have it back,” Natasha said. “Since that mission, I had to go underground, cut all ties with my network. It’s been a mess.”
+“So why’d you come out of the woodwork tonight?” Castle asked.
+“Because I need your help,” Natasha said earnestly.
+“Those aren’t words I hear very often,” Castle replied. “Especially from a hero like you. I don’t usually walk with the angels.”
+“Well, you’d better decide whose side you’re on fast,” Natasha said, raising her gauntlets and aiming them toward the warehouse door. “They’re here.”
+Right on cue, a squad of Public Eye soldiers burst into the warehouse, ordering the Black Widow and the Punisher to freeze. Natasha looked at Castle, who let out a sigh and nodded his head in mild annoyance. Without a word he grabbed two high-tech guns off the table, tossing one to his new partner.
+“Hit to wound, not to kill,” Natasha said as the two opened fire on the advancing officers.
+“Or what?” asked Castle snidely as he wrapped his arm around an officer’s throat and pressed his weapon against the side of the gasping man’s head.
+“Or I save my last round for you,” Natasha said, shooting several Public Eye soldiers in the kneecaps.
+Castle released the officer from his grip, letting him slump to the ground unconscious.
+“Death’s been on my heels for ages,” Castle said. “But it’s gonna have to wait a bit longer. At least until after I meet Cap. So let’s get this over with already…”
+Castle leapt forward and grabbed a tiny metal disc from the table and pressed a glowing button on its surface. As he tossed it onto the ground in front of them, Natasha instinctively began to run for cover, assuming it was an explosive.
+“You’re gonna wanna stay and watch this,” Castle said with a smile, running toward the device as it began to unfold. Within moments, a high-tech turret stood in its place. Frank jumped into the center of the giant gun and grabbed the handles.
+“Frank! No!” Natasha called as the Punisher gleefully opened fire on the Public Eye’s forces, raining destruction down upon them.
+“Don’t get all worked up,” he said. “I set it to stun. I think.”
+When the dust settled, Natasha raced over to one of the fallen officers and took his pulse. Castle wasn’t lying. He had held back from using lethal force. She was impressed. Maybe she had made the right choice coming to him after all.
+“See… you can trust me…” Castle said. “The problem is…”
+He raised a gun and pointed it at Natasha.
+“…I’m not sure I can trust you. I know that the Yashidas paid off the Public Eye. So there’s no way the cops would’ve come here to bust our deal tonight. And like I said, you’re the best spy in the world. So they wouldn’t have been able to find you either…”
+Castle grabbed Natasha’s wrist and gave it a squeeze, forcing her hand open. In her palm was a small tracking device, giving off a locator signal.
+“…unless you wanted them to.”
+“I had to find a way to make sure you’d have my back,” Natasha said, realizing her gambit could have severely damaged the trust she had hoped to establish with her new ally.
+“And now I’ve gotta make sure you’re not gonna stab mine,” Castle said.
+“Trust has never been something either of us have had much of,” Natasha said. “But if we want to find Steve… if we want to stop the Public Eye… to beat Doom… I’m starting to realize it’s something we’re going to need.”
+Castle sighed as he lowered his weapon.
+“Must be goin’ soft in my old age,” he said.
+“Yeah,” Natasha laughed. “You’re a regular
+Peni Parker
+.”
+“Got any leads on where Cap ran off to?” Castle asked as the pair exited the warehouse and stepped out into the crisp Tokyo night.
+“Just one…” Natasha said, looking up at the starry sky above them, “…and I’ve got a feeling you’re not going to believe it.”
+My Friend is a Criminal
+(Coming soon. Stay Tuned!)
+A Detonated Fizzle
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Vengeance & Glory
+As the Punisher, partner with Captain America to land 1 KO.
+5
+Smoke Screen
+As the Punisher, land 3 KOs amidst the smoke of Scourge Grenade in a single game.
+10
+Quotes
+See:
+The Punisher/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+The Punisher
+was released as the 17th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 3 new costumes:
+Camo
+,
+Thunderbolts
+, and
+Punisher 2099
+.
+Added the
+Smoke Screen
+achievement.
+Added to the
+Ammo Overload
+Team-Up Ability
+with
+Rocket Raccoon
+and
+Winter Soldier
+.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+Fixed the occasional damage issue with
+Punisher
+'s ultimate caused by intense fluctuations in network conditions. His firepower will be felt!
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Slightly reduce the spread of
+Deliverance
+and
+Adjudication
+.
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Addressed a rare issue where T
+he
+Punisher
+'s Ultimate Ability would sometimes continue to detect enemies and fire missiles during network disruptions. The Punisher's firepower is now accurate, even in chaos!
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Marvel Rivals - Console Announce Trailer
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+"Thunderbolts" costume in
+Thunderbolts
+(2012) #2
+(first appears in #1)
+"Punisher 2099" costume in
+Punisher 2099
+(1993) #1
+Trivia
+The Punisher's logo in Marvel Rivals seems to take inspiration from the
+"demon skull" logo
+used in The Punisher (2022-2023) while Frank Castle leads
+The Hand
+.
+Some of his voice lines mentions his war journal, which he uses it to record his missions and experiences. It also a reference to its first appearance (
+Punisher War Journal #1
+) and title of his comic series.
+This version of Frank has taken a serum that has significantly extended his prime and lifespan, thus he is active in 2099, effectively replacing Jacob Gallows as The Punisher 2099.
+Frank’s alternate 2099 costume in this game is also based on Gallows' second armor.

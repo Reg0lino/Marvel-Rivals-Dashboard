@@ -1,0 +1,304 @@
+{
+  "name": "Magneto",
+  "role": "Vanguard",
+  "stats": {
+    "health": 650,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#FCA5A5",
+    "color_theme_secondary": "#F472B6"
+  },
+  "abilities": [
+    {
+      "name": "IRON VOLLEY",
+      "keybind": "LMB",
+      "type": "Projectile",
+      "description": "Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown. Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center.",
+      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
+      "damage": "Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center",
+      "damage_falloff": null,
+      "fire_rate_interval": "0.8s",
+      "ammo": 10,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "Initially, it produces a spell field with a 1m spherical radius; when the projectile reaches maximum distance, the explosion radius expands to a spell field with a 3m spherical radius",
+      "projectile_speed": "80m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM DISTANCE - 25m"
+    },
+    {
+      "name": "MAG-CANNON",
+      "keybind": "RMB",
+      "type": "Projectile",
+      "description": "Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies.",
+      "casting": "Single-cast projectile with delayed impact",
+      "damage": "40 (Iron Rings first charge)\n65 (Iron Rings second charge)\n90 (Iron Rings third charge)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "No cooldown, but the ability can only be activated when the Iron Ring has at least one charge",
+      "range": null,
+      "projectile_speed": "120m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "When fully charged, Mag-Cannon has a 6m knockback distance"
+    },
+    {
+      "name": "METALLIC CURTAIN",
+      "keybind": "SHIFT",
+      "type": "Shield",
+      "description": "Change the magnetic field around to form a metallic curtain, blocking all incoming projectiles.",
+      "casting": "Shield",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": "65/s",
+      "details": "MAXIMUM ENERGY - 100\nENERGY RECOVERY DELAY - 1s\nENERGY RECOVERY SPEED - 11/s"
+    },
+    {
+      "name": "METAL BULWARK",
+      "keybind": "E",
+      "type": "Shield",
+      "description": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.",
+      "casting": "Targeted",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "20m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "2.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM SHIELD VALUE - 300\nCooldown shared with Iron Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
+    },
+    {
+      "name": "IRON BULWARK",
+      "keybind": "F",
+      "type": "Shield",
+      "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "2.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM SHIELD VALUE - 300\nCooldown shared with Metal Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
+    },
+    {
+      "name": "MAGNETIC DESCENT",
+      "keybind": "SPACE",
+      "type": "Movement",
+      "description": "Hold Space to fall slowly.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "6m/s (horizontal) - 3.5m/s (descending)",
+      "energy_cost_details": null,
+      "details": null
+    }
+  ],
+  "ultimate": {
+    "name": "METEOR M",
+    "keybind": "Q",
+    "type": "Projectile",
+    "description": "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct.",
+    "casting": "Create a persistent spell field that launches a projectile upon completion, which generates another spell field on impact",
+    "damage": "The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 300 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center",
+    "range": "Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius\nPROJECTILE ABSORPTION RANGE -\n15m spherical radius",
+    "effect": null,
+    "duration": "4s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": "30m/s",
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 3400,
+    "details": "For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage"
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "MAGNETIC RESONANCE",
+      "partner": [
+        "Emma Frost",
+        "Psylocke"
+      ]
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "To truly master Magneto, cultivate a proactive and commanding presence on the battlefield. Begin by consistently applying pressure to the enemy backline, prioritizing supports and damage dealers to disrupt their composition and create openings for your team. Skillfully weave together your primary and alternate fire, using the charged knockback of Mad Cannon not only for damage but also for tactical repositioning and isolating key targets for elimination with Iron Valley's burst potential. Employ Metal Bullwork judiciously, not just as a reactive shield, but as a proactive tool to protect diving allies, deny crucial enemy ultimates, and generate charges for aggressive alternate fire follow-ups. Recognize the predictive power of Metallic Curtain, deploying it to nullify specific enemy projectiles and abilities, turning the tide of engagements in tight corridors or chokepoints. Understand the nuanced charging mechanic of Meteor M, absorbing damage and time to unleash a devastating blow that can single-handedly secure objectives or counter impactful enemy ultimates. Compensate for Magneto's limited vertical mobility by excelling at controlling key angles and leveraging synergistic pairings with dive-oriented heroes to capitalize on the chaos you create. Avoid the pitfall of passive shielding; instead, embrace an aggressive mindset, constantly seeking opportunities to apply pressure, manage your cooldowns effectively, and read the flow of battle to deploy your ultimate with decisive impact, turning potential losses into resounding victories.",
+    "weaknesses": [
+      "Limited mobility and unable to fly, despite having slow fall.",
+      "Surprisingly frail if his shields are on cooldown.",
+      "His shields share a cooldown, meaning he requires proper timing to use them.",
+      "Unlike Doctor Strange, he can't hold his Metallic Curtain indefinitely.",
+      "If Magneto absorbs too many projectiles while charging Meteor M (displayed by a gauge when he casts), the Ultimate will be cancelled.",
+      "The overloading is based on the number of projectiles, not their damage output. This means that certain attacks that fire multiple projectiles at once, such as The Punisher's Deliverance shotgun, will absorb more projectiles than his Adjucation automatic rifle."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "House of M",
+        "description": "As Magneto, partner with Scarlet Witch to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Homo Superior",
+        "description": "As Magneto, assist Mutant allies 10 times.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "Be wary, no timeline exists where Magneto yields.",
+    "ingame_bio_text": "The Master of Magnetism bends even the strongest metal to his whims, shielding his allies and striking at his foes. Whether he calls himself Max Eisenhardt, Erik Lehnsherr, or simply Magneto, the hardships this warrior has endured have made him as unbreakable as the steel he brandishes.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Trial of Magneto",
+        "content": "As he gazed off into the distance towards the line where the ocean met the sky, Magneto's cape fluttered gently in the calm breeze that was drifting across the coast of the sentient island nation of Krakoa. His was a life far longer than most people ever had the chance to live, and this was one of the few moments of true peace that he could recall. But he knew from experience it would not last for long. It never did.\n\"Something on your mind, old man?\" a familiar voice asked from above, breaking the silence. As Magneto glanced up, there, hovering on the wind like a majestic goddess, was Ororo Munroe — the Mutant weather manipulator known as Storm.\n\"Funny, isn't it,\" mused Magneto, \"that we fought all those years for a better future for Mutantkind… and now we have finally found it, further in the future than any of us ever imagined.\"\nNot so long ago, the sovereign nation of Krakoa had been swept up in a chronal storm — a time-twisting anomaly that would have ripped the island to bits if not for Ororo's deft manipulation of its tumultuous currents. Instead of becoming lost in the timestream forever, Krakoa arrived safely on the other side of the tempest in the year 2099. The future that Mutantkind had always dreamed of was finally theirs to claim. And Magneto was never one to let such an auspicious opportunity pass him by.",
+        "status": null
+      },
+      {
+        "title": "The Battle Within",
+        "content": "Magneto hovered high above the nation of Krakoa. He had lived through more than his share of wars, but as he gazed down at the Mutant homeland below, he could barely begin to comprehend the full scope of the horrors unfolding on his own sovereign soil. Still, it was not as if he hadn’t seen this coming...",
+        "status": null
+      },
+      {
+        "title": "The Messiah of Mutants",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Magneto was released as the 14th character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 3 new costumes: Uncanny Blacksteel, Will of Galacta, and Master of Magnetism.",
+          "Added the Homo Superior achievement.",
+          "Added to the Metallic Chaos Team-Up Ability with Scarlet Witch."
+        ]
+      },
+      {
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "changes": [
+          "Increase Metallic Fusion projectile damage from 55 to 60 and Metallic Fusion spell field damage from 30 to 35.",
+          "Added 1 new costume: King Magnus."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Addressed an issue where Magneto's ultimate could pass through characters without dealing damage due to discrepancies between collision models and visual effects. The collision body is now properly optimized to better suit the visual presentation."
+        ]
+      },
+      {
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "changes": [
+          "Increase Iron Volley projectile damage from 35 to 40.",
+          "Increase Metallic Curtain's energy consumption from 50/s to 65/s and reduce its maximum duration from 2s to 1.5s."
+        ]
+      },
+      {
+        "date_version": "25/03/27: Version 20250327",
+        "changes": [
+          "Resolved an issue in the post-match where Magneto's MVP could sometimes display some bizarre, offbeat visuals. The master of magnetism now commands his moments with true polar precision."
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Increase energy cost for Meteor M from 3100 to 3400.",
+          "Added to the Mental Projection Team-Up Ability with Emma Frost and Psylocke, but removed from the Metallic Chaos Team-Up Ability with Scarlet Witch."
+        ]
+      }
+    ],
+    "official_quote": "Perhaps we should give these humans good reason to hate and fear us after all.",
+    "official_description": "Magneto is a Vanguard hero in Marvel Rivals, and is the 14th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Emma Frost and Psylocke."
+  },
+  "background": {
+    "real_name": "Max Eisenhardt",
+    "aliases": [
+      "Erik Lehnsherr",
+      "Magnus",
+      "Master of Magnetism"
+    ],
+    "birthplace": "Nuremberg, Germany",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Blue",
+    "hair_color": "White",
+    "relatives": [
+      "Pietro Maximoff",
+      "Wanda Maximoff"
+    ],
+    "affiliation": [
+      "X-Men",
+      "Brotherhood of Mutants"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Mastery over all forces of magnetism",
+      "Energy Manipulation",
+      "Magnetic Force Fields",
+      "Electromagnetic Pulse",
+      "Flight"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Magneto%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "46.21%",
+    "wr_change": "-1.65%",
+    "pick_rate": "18.37%",
+    "pr_change": "-9.86%",
+    "ban_rate": "0.34%",
+    "matches": "274,042"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

@@ -1,0 +1,547 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Jeff_the_Land_Shark =====
+
+Jeff the Land Shark
+"Mmmm..."
+Real Name
+Jeffrey the First of His Name of the Former Staten Island
+Aliases
+Jeff the Baby Land Shark
+Biographical Information
+Birthplace
+A.I.M. base, Pacific Ocean
+Gender
+Male
+Eye color
+Black
+Relatives
+Gwen Poole
+(owner)
+Kate Bishop
+(owner)
+Powers/Skills
+Water manipulation
+Size-shifting via Pym Particles
+Shark physiology
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Strategist
+Health
+250
+Difficulty
+Affiliation
+West Coast Avengers
+Portrayal
+Voice Actor
+Jon Bailey
+Character Video
+Most landsharks are vicious creatures of the deep... but not Jeff! This adorable and mischievous little landshark brings splashes of joy and healing to every battle. But if the tide turns, Jeff can morph into a voracious beast, swallowing an army of foes in one giant gulp!
+Official description
+Jeff the Land Shark
+is a Strategist
+hero
+in
+Marvel Rivals
+, and is the 22nd hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Luna Snow
+,
+Groot
+, and
+Rocket Raccoon
+.
+Overview
+Strengths
+Versatile support with high healing output for both single target and area-of-effect healing and also has high mobility, with a simple-to-use kit that makes him fit in any team composition.
+His passive, Oblivious Cuteness, gives him 50% damage reduction against critical hits.
+His primary fire, Joyful Splash is a continuous long-range stream of water that heals allies.
+This ability has infinite range and can hit multiple allies that are in its path.
+This ability has the highest healing-per-second in the game.
+His secondary fire, Aqua Burst, is a projectile that deals damage in a radius, being effective to hit multiple enemies clustered together.
+The projectile creates a spell field that deals area-of-effect damage when hitting an enemy or a surface.
+When paired with
+Luna Snow
+, Jeff gains access to Frozen Spitball, which temporarily replaces Aqua Burst, dealing increased damage while also slowing enemies by 15% in a radius around the projectile's impact for 3 seconds, visualized by temporary ice patches on the ground.
+Healing Bubble is a spherical projectile that travels in an arc, healing allies in a small area around its radius.
+This ability can be shot from long distances, and will bounce once when hitting walls or ceilings, allowing Jeff's healing to reach allies out of his line of sight.
+The bubbles persist on the map for 180 seconds until picked. Up to 5 bubbles can be placed on the map at once.
+This allows the bubbles to be placed strategically around the map, especially around objectives, and serve as on-demand "healing packs" for the allied team.
+This ability also provides a 15% healing bonus from all sources for 4 seconds when hitting allies.
+Hide and Seek is a mobility tool that has Jeff diving underground, with only his fin exposed, vastly decreasing the size of his hurtbox.
+While submerged, Jeff gains 60% increased movement speed, self healing-over-time, immunity to all forms of crowd control, and can climb walls.
+His Ultimate, It's Jeff!, allows him to swallow both enemies and allies in a massive radius. While inside Jeff, enemies take damage-over-time while allies heal-over-time.
+When first activated, Jeff vanishes from the battlefield and the player has 6 seconds to choose where he will attack.
+After eating the enemies and/or allies, Jeff is automatically put in his Hide and Seek, and can move around for 6 seconds. After this duration has passed, he'll automatically spit anyone he swallowed.
+Players can manually spit enemies and allies earlier and separately with different inputs.
+If Jeff falls off a ledge before spitting out, both him and anyone he swallowed will also be taken down with him.
+This ability grants Jeff one of the most powerful crowd-controls in the game, and allows him to single-handedly change the course of matches when capturing objectives.
+When paired with
+Groot
+, Jeff gains access to New Friends, allowing him to hop on Groot's shoulders, granting him 35% damage reduction from all sources.
+Weaknesses
+While Jeff's passive decreases his damage taken from headshots, he has a very large hurtbox, especially his head, which makes it easy to deal critical hits to him. Additionally, even with the damage reduction he can still be easily taken down by enemies with high burst damage, such as
+Hawkeye
+and
+Hela
+.
+Despite his high healing output, Jeff can struggle to heal when the team spreads out.
+Joyful Splash can be difficult to aim at heroes with high mobility such as
+Spider-Man
+and
+Venom
+.
+Aqua Burst cannot deal critical hits.
+Jeff cannot capture objectives while in Hide and Seek.
+Jeff can put himself in dangerous situations if he misses his Ultimate, allowing the enemy team to retaliate.
+Peni Parker
+can directly counter Jeff's Ultimate directly if he uses it while inside the area of her Bionic Spider-Nest, which will result in all the nearby Arachno Mines swarming Jeff, likely taking him out.
+Abilities that provide invulnerability and/or immunity to crowd control can completely negate Jeff's Ultimate, such as
+Cloak
+'s Dark Teleportation,
+Punisher
+'s Culling Turret and Final Judgement,
+Star-Lord
+'s Stellar Shift, among others.
+Hoping on
+Groot
+'s shoulders can leave Jeff vulnerable, as Groot usually fights in the frontlines. Even with the damage reduction, he can still be focused and taken down easily, or be plucked off Groot with abilities that pull him towards enemies.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+JEFF THE LAND SHARK
+Default
+Adopted Avenger
+RARE
+Cuddly Fuzzlefin
+EPIC
+Incognito Dolphin
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Jeff the Land Shark
+Adopted Avenger
+West Coast Avengers
+(2018) #7
+Cuddly Fuzzlefin
+Season 0
+Winter Celebration
+S0 Event
+Incognito Dolphin
+It's Jeff Infinity Comic
+(2021) #3
+See
+:
+List of MVP Animations
+DEFAULT
+Jeff the Land Shark
+How Ice Sculpting Works
+Cuddly Fuzzlefin
+Not A Shark
+Incognito Dolphin
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+All-You-Can-Eat
+Keep It Up
+See
+:
+List of Sprays
+Jeff the Land Shark
+Unlimited Appetite
+Tooth and Hammer
+Cuddly Fuzzlefin
+Incognito Dolphin
+See
+:
+List of Nameplates
+Jeff the Land Shark
+Cuddly Fuzzlefin
+Incognito Dolphin
+Abilities
+Normal Attack
+JOYFUL SPLASH
+Unleash a healing splash.
+CASTING -
+Rapid-fire, delayed projectile
+HEALING -
+150/s
+AMMO -
+100
+FIRE RATE -
+20/s
+PROJECTILE SPEED -
+100m/s
+AQUA BURST
+Launch a high-speed water sphere that bursts upon impact, dealing damage to enemies within range.
+CASTING -
+Single-cast projectile with delayed impact that also generates a spell field
+DAMAGE -
+25
+AMMO -
+12
+FIRE RATE -
+1.75/s
+RANGE -
+3m spherical radius
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+100m/s
+DAMAGE FALLOFF -
+Falloff begins at 1m, decreasing to 50% at 3m (projectile damage has no falloff)
+SPELL FIELD DAMAGE -
+40
+Abilities
+Q
+IT'S JEFF!
+Deep dive into the scene and resurface to swallow both enemies and allies within range, activating Hide and Seek for a brief duration before ejecting the swallowed heroes forward.
+CASTING -
+Targeted
+DAMAGE -
+25/s
+HEALING -
+225/s
+DURATION -
+6s
+RANGE -
+5m high cylinder with a 20m diameter
+ENERGY COST -
+4000
+SPECIAL EFFECT
+⚬ After swallowing allies and enemies, Jeff will deal damage to enemies and heal allies for the duration of the effect, during which they will also benefit from Hide and Seek
+SHIFT
+HIDE AND SEEK
+Dive into the scene with only his dorsal fin exposed, granting himself a Movement Boost. Jeff can heal while submerged and gains the wall-crawl ability.
+CASTING -
+Instant Cast
+HEALING -
+35/s
+MOVEMENT BOOST -
+60%
+SPECIAL EFFECT
+⚬ During the dive, gain Unstoppable, healing over time, and a Movement Boost, while Jeff's hitbox is reduced
+E
+HEALING BUBBLE
+Spit a bubble that heals the ally who collects it, granting them Healing Boost and Movement Boost while also launching up nearby enemies.
+CASTING -
+Summons
+HEALING -
+85
+HEALING BOOST -
+15% for 4s
+DURATION -
+180s
+CHARGES -
+6
+COOLDOWN -
+6s per charge
+MOVEMENT BOOST -
+60%
+SPECIAL EFFECT
+⚬ Touching the bubble will immediately activate its effect and will knock back nearby enemies
+PASSIVE
+OBLIVIOUS CUTENESS
+Reduce damage taken from critical hits.
+CRITICAL DAMAGE REDUCTION -
+50%
+Team-Up Abilities
+X
+FROZEN SPITBALL
+Luna Snow
+infuses ice energy into
+Namor
+and Jeff the Land Shark, who then can tap into the ice energy to power up abilities at will.
+CASTING -
+Single-cast projectile with delayed impact that also generates a spell field
+DAMAGE -
+30
+DURATION -
+3s
+AMMO -
+12
+FIRE RATE -
+1.75/s
+RANGE -
+5m spherical radius
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+100m/s
+SPELL FIELD DAMAGE -
+40
+SPECIAL EFFECT
+⚬
+Aqua Burst
+will be replaced by
+Frozen Spitball
+. When
+Frozen Spitball
+hits an enemy or the environment, it will create an area that slows down enemies. Enemies within this area will experience a slowing effect
+C
+NEW FRIENDS
+Jeff the Land Shark and
+Rocket Raccoon
+can ride on
+Groot
+'s shoulders, receiving Damage Reduction.
+CASTING -
+Targeted
+RANGE -
+12m
+DAMAGE REDUCTION -
+35%
+Strategy
+Jeff is a very situational hero in Competitive play. The lack of a "Defensive Ultimate Ability" makes him quite undesirable in most team compositions. If you DO want to make Jeff work here are a few strategic tips to help you maximize your utility and abilities as Jeff The Land Shark!
+I said that Jeff is a very situational hero and that mainly has to do with his ultimate. Since Jeff doesn't have a "Support Ultimate Ability", he relies heavily on the map topography to include ledges and pitfalls to confirm kills with his ultimate. The ult is very powerful if used correctly, but is a lot less effective on some maps and a lot more effective on others. Example: He is very good on Hells Haven Super-Soldier Factory because of the easy access to a ledge with a high "kill zone" right next to the capture point, but very bad on Klyntar Symbiotic Surface because of the lack of easily accessible ledges to get environmental KO's from. The only one on the map being in the very beginning.
+If you choose to play Jeff regardless of map you need to know what strategies to implement with his main playmaking tools. His ultimate is the most impactful, but can be hard to use on a bad map for Jeff (as stated previously), but there are still ways to use your ultimate effectively. If there isn't a ledge nearby try to use Jeff's ultimate at the end of a fight your team is winning. "Staggering" opponents can be highly effective when defending a point, convoy or corner (staggering refers to delaying the death of a hero to make the enemy take longer to regroup). If you wait until the end of the fight when your team kills 3-4 enemies, staggering can be incredibly valuable to waste the enemies time. This is also relevant when you're on a map with a ledge! Just hold them in your mouth for as long as possible before spitting enemies out or jumping of the map with them. His other main playmaking tools include: his raw damage potential, his mobility and his self sustain. Jeff can almost play like an "extra" dps at times and can be VERY annoying for the enemy to deal with. This is a good strategy, but I'd recommend learning how to use Jeff's ultimate properly before attempting to swim into the enemy backline and "solo carry" as a "dps".
+Another way of using Jeff's ultimate is to counter/nullify the effects of the enemy Strategist's ultimates. With most Strategist ultimates encouraging teams to play grouped up, Jeff's ultimate can easily capitalize from this and remove an enemy team from the AoE of Strategist ultimates, denying the enemy Strategists' ultimate value and allows for other Duelists/Vanguards to make plays that were otherwise impossible in the radius of a Strategist ultimate. This is especially useful against Cloak & Dagger (easily captured when you time it at the end of their ultimate, a terrain kill removes their ultimate from the field), Invisible Woman (Jeff's ultimate has the exact same radius as hers) and Mantis (not CC immune during her ultimate, and lacks escape tools). Watch out for enemy Vanguard abilities that protects their teammates from CC effects and sometimes this can also be used on a Vanguard's ultimate (e.g. Doctor Strange).
+Jeff's damage is not to be underestimated (look at "Abilities" above for the exact numbers)! A good Jeff player can very easily out sustain ANY dps (other than one-shot heroes like Hawkeye) kill them and even do the same with most tanks if you have all your bubbles. Speaking of bubbles, using your bubbles well is integral for any Jeff player. The bubble gives you a speed boost and heals you a considerable amount (see above in "Abilities"). Add that to your HIDE AND SEEK ability and Jeff can become practically unkillable while moving quickly across the map. If you take a big burst of damage as Jeff, place bubble at the ground infront of you and instantly dive down to avoid further damage and heal to full hp. You can also use your bubbles other effect witch allows you to "boop" enemies that stand too close when you use it. All this can be used in 1v1 scenarios or in general to maximize your survivability as Jeff regardless of playstyle. It would also better for you to practice aiming on Jeff despite the AoE nature of his attacks, as not only does it have damage falloff but a direct hit would also yield 25 more damage per shot (which is a bonus 62.5% of the maximum splash damage of 40).
+Keeping in mind that Jeff can defeat pretty much any hero in a 1v1 situation (with exceptions, of course), it helps greatly to split up the enemy team, making it a 4v5 or maybe even a 3v5. Though, make sure you can still survive, as if you die (or if the enemy gives up and leaves) suddenly, your team is the only once that's down a hero. A good way to prevent this from happening is diving underground and dodging the enemies. Whilst you annoy them (they'll stay, trust me) your team can go and get the point. Once you see that happen, you can simply run and let your team do the 2v6.
+It is also worth mentioning that HIDE AND SEEK gives Jeff immunity to all CC effects, always keep this in mind as it is an integral part to Jeff's survival and gives him the ability to evade the effects of many ultimates and abilities, whether you are trying to duel a Luna Snow/Mantis or save yourself from a Doctor Strange ultimate to continue helping your teammates and make a play to turn the tides around.
+Prematurely placing down your bubbles is a great way of helping out your team when you are out on a mission to flank the enemies. They are especially great for bailing divers/brawlers out of the enemy team when placed/shot into the enemy team. With up to 5 bubbles able to exist on the map simultaneously, you can have a total of 11 bubbles at your disposal if you manage your cool-downs correctly, as you will continue to gain charge after expending and placing them. Correctly predicting the flow of the fight and the usage cases for your bubbles, as well as learning to directly hit/assist allies with bubbles from afar are both important things to learn in becoming better at Jeff.
+The reason I haven't mentioned Jeff's healing is because it isn't his most powerful tool. If you want to "heal" your team why not just kill the enemies who are dealing damage to your team in the first place. If you do want to get a lot of healing as Jeff you have to avoid dealing damage for most of the game and if you do that the enemy strategists (unless they play Jeff as well) are going to output more objective "value" than you 90% of the time.  It's worth noting that your ultimate also heals allies swallowed in it, but this is pretty situational (just spit them out right away in most situations). That doesn't mean that you should go into the enemy backline and play "dps Jeff", but try to take off angels when you're setting up an engagement and use your Luna team-up Frozen Spitball (if you have it) to get extra poke damage before the fight starts so you can use it during the fight as well. A final tip/strategy for Jeff is to use your ultimate to cut off the enemies escape route in a choke point close to the ledge (make sure you have time to reach the ledge). This is to avoid getting teammates in your ult as well and should be used in combination with Jeff's staggering strategy I mentioned above.
+It is also important to mention that while Jeff's healing beam has great healing stats on paper (150/s), you need to land the ENTIRETY of your beam to achieve that amount of healing, most of the time you can assume you will miss 30%(assuming you are quite capable at tracking allies with the beam) of it on your moving teammates that might also be knocked around by the enemies, since it also has travel time. Combined with his secondary fire and HIDE AND SEEK mode locking him out of his healing beam, Jeff is usually a low healing Strategist and is more focused on his utility and survivability. Regardless, improving your aim will benefit your healing output and in general, allows you to contribute more to your team.
+I hope these strategies can help you become the best Land Shark Boi there ever was!
+GLHF!
+Characters to fight (1v1 only)
+Adam Warlock - Distract
+Black Panther - Fight, but expect to use a lot of bubbles
+Black Widow - Fight at close range, run at long range
+Capt. America - Fight
+Cloak and Dagger - Fight, but you're gonna use at least 4 bubbles
+Doctor Strange - Run
+Groot - Fight
+Hawkeye - Fight, but turn around before he shoots
+Hela - Fight at close range, run at long range
+Hulk - Run
+Human torch - Run
+Invis. Woman - Fight
+Iron Fist - Fight, but don't expect a free win
+Iron Man - Fight, you're going to die anyway, might as well try
+Jeff the Landshark - Don't fight, he's a friend, but if you have to, fight
+Loki - Run
+Luna Snow - Fight
+Magik - Run just to be safe, but winnable if needed
+Magneto - Fight
+Mantis - Fight, but make sure to dodge the sleep
+Mister Fantastic - Fight, just stop shooting when he does his deflect
+Moon Knight - Fight, but not worth the effort
+Namor - Run
+Peni Parker - Fight, but destroy her generator first
+Psylock - Fight
+The Punisher - Run
+The Thing - Run
+Rocket Racoon - Fight, he'll run before you win, though
+Scarlet Witch - Fight
+Squirrel Girl - Fight, but expect to use a lot of bubble
+Spider Man - Fight, but expect to use a lot of bubbles
+Star Lord - RUN. RUN AS FAST AS YOU CAN.
+Storm - Fight
+Thor - Fight
+Venom - Run, simply because of his shield
+Winter Soldier (Bucky) - Fight
+Wolverine - Fight
+Lore
+"Mrrrr... [growling]"
+What's more huggable than a puppy, but hungrier than a great white? It's Jeff! This baby landshark may be one of the most unusual and adorable creatures to ever waddle his way out of the ocean. But anyone who's crossed Jeff's path can tell you that behind his sweet little bark is one nasty bite!
+After getting captured and displayed as a curiosity at the Collector's Theme Park, Jeff broke free when the Timestream Entanglement scrambled reality. Now's his chance to prove he's a hero, one chomp at a time!
+—
+Biography
+Hero Story
+"Mrrrrr?" [Curious]
+Sharknado
+As Jeff the Land Shark swam another lap around his small glass enclosure, frustration finally began to settle in. He had tried so hard to stay his usual optimistic self, even after he lost track of how long he had been held captive here inside this strange Theme Park created by the enigmatic Elder of the Universe known as the Collector.
+Jeff didn't really know how he got here in the first place. One second, he was frolicking in the endless waves lapping at the California coast with his BFF Gwen. The next, he was here, trapped within a tiny tank that he couldn't seem to chomp his way out of, no matter how wide he opened his powerful, little jaws.
+But since his unexpected arrival, Jeff had pieced together why he was here. Surrounding his own enclosure were countless other holding cells, each containing unique specimens of lifeforms he had never seen before. Some almost looked like the human friends he had made back home, but others were so bizarre and alien that they couldn't possibly have lived on the land or beneath the waves of his native world. Jeff had visited a zoo before with another of his friends, the archer called Kate. And now, he thought that he was probably in one — just another exhibit on display in an intergalactic menagerie on the edge of the known universe.
+Jeff didn't love being confined in his tank, but he had taken some comfort in the fact that he wasn't here alone. And while none of the other creatures around him seemed to be fluent in landshark, there was one fellow captive whose thoughts Jeff could hear in his own head. She said her name was
+Mantis
+and that she was a friend. And if there's one thing that Jeff loved — other than devouring everything in his path — it was new friends!
+But one thing that Jeff hated was when those friends were in trouble... which brings us back to why Jeff had suddenly lost his cheerful demeanor in the first place. Jeff had felt Mantis's psionic scream as she was removed from her cell and dragged away. He had heard the guards talking about taking her to some sort of arena where the Collector's prisoners were forced to fight for their lives against multi-dimensional variants of themselves. Jeff had no idea what any of that meant. But he did know that Mantis was in trouble. He couldn't hear her voice in his head anymore. He couldn't feel her calming presence. He couldn't see where she was or if she was safe. And that made Jeff mad!
+Jeff began to swim frenzied circles in his tank, increasing his speed by swishing his tail and paddling his tiny legs as fast as he could. When he had built up enough momentum, he propelled himself toward the wall that separated him from freedom. But the only result was sharp pain as his sweet little face smooshed against the crystal clear wall. Not even the slightest chip or crack could be seen in the glass... though a few may have been left behind in his teeth. It was clear that Jeff would need another plan if he wanted to escape.
+As he floated there, dazed from the impact, Jeff wondered what his friends back home would do if they were in his situation. Kate would probably use an explosive arrow. Gwen would find an unexpected way to break through a wall (probably the fourth one). Elsa would have hidden some ancient enchanted blade in her ponytail to slice through the impenetrable glass. And Wade would simply sweet talk the guards into letting him out, winning their favor with false promises of money and tacos. None of those options would work for Jeff. He was stuck here, and the thoughts of his lost friends — including Mantis — left him feeling more and more alone with every second that passed.
+But then he sensed it. A familiar tingle in his brain. Mantis was alive! And she was coming back... for him! Jeff couldn't help but grin as his friend approached, flashing several rows of serrated teeth in her direction. This was the first time he had seen Mantis in person, but while he may not have known her face, he immediately recognized her mind. Now that mind was clearly focused on one thing only — escaping from captivity once and for all.
+"MMMRRRRR!!!!"
+"He's going to draw the guards,"
+another voice
+said.
+In all his excitement, Jeff hadn't even noticed that Mantis was not alone. She had another humanoid with her, this one far more dark and brooding in demeanor. She did not look nearly as happy to see Jeff as Mantis did. And, to be honest, Jeff wasn't convinced that he liked her much either.
+"Mrrr?" Jeff grunted quizzically, noticing the way the second woman was looking at him. He felt as though she was sizing him up, preparing to strike him down the second there was no longer any glass between them.
+"Don't mind her," Mantis said as she started to activate the release mechanism on the side of Jeff's enclosure. "She wants to get out of here as badly as we do. And she knows the only way we can make that happen is if we work together."
+Jeff smiled at Mantis, and she smiled back. Despite the fact that they were attempting to break out of the Collector's exhibition, with no real idea how to escape or where they would go if they did get free, there was something about this humanoid that made Jeff feel like everything was going to be all right. And it was clear he had the same effect on her.
+Mantis continued to fiddle with the latch on Jeff's tank just as a squadron of armed guards came into view. As the guards shouted something in an alien language, Jeff could sense that Mantis was already reaching out with her mind in hopes of diverting them. But as quick as Mantis's thoughts were, somehow their new friend managed to get to the Collector's crew first. Her blades flashed in a glittering dance, and in seconds, the guards were down for the count. Jeff couldn't have been more impressed.
+"Mrrr," Jeff said, trying to express his appreciation to the purple-haired warrior. Her cold gaze never softened. Jeff could sense that her mind was powerful, just like Mantis's, but her thoughts and emotions were heavily guarded. Jeff wanted his newest friend to like him as much as Mantis did, but for now he would simply have to accept that she no longer seemed to want to kill him or leave him behind.
+Mantis finally managed to swing open the door of Jeff's tank, releasing a flood of water into the hallway. Jeff emerged from the miniature wave it created, propping himself up on his stubby legs and giving his body a quick shake to expel the excess moisture from his skin. Mantis laughed with pure delight as a deluge of droplets rained down on her. The other woman was not nearly as amused.
+"Let's go," Mantis said, beckoning to her unlikely pair of partners. She began to run through the Collector's menagerie with a determination that made Jeff believe she knew where she was going. The warrior woman stayed close at Mantis's side, so Jeff felt the best thing to do was bound along right behind them.
+As Mantis and her companion forged ahead, Jeff suddenly found himself distracted by an unusual smell. It was unlike anything he had ever encountered before, either on land or in the sea. It smelled delicious... and powerful...
+Before he realized what he was doing, Jeff had veered off from his companions, entering the Collector's private gallery. Here, the Elder of the Universe had gathered some of the most powerful items and artifacts in all of existence and was displaying them for his wealthiest patrons to gaze upon. Jeff didn't know what any of these strange things were. Not the six colorful stones, nor the glowing cube, nor the otherworldly crimson gem, nor the flaming demonic scroll. But he did know one thing. He hadn't eaten in a very long time...
+Jeff's instincts took control. He opened his tiny jaws wide and started to swallow down almost everything in the gallery as quickly as he could. Alarms began to blare, but it didn't stop Jeff from consuming one object of power after another!
+"There you are, Jeff!" Mantis cried as she and her mysterious ally entered the now-empty gallery. "We thought we had lost you. Are you... okay...?"
+"Mrrr...URP!" Jeff belched in response. His tiny tummy had started to rumble after he had gulped down a little metal vial marked PYM.
+As Jeff blushed with embarrassment, Mantis chuckled. Even the steel-willed stranger couldn't help but smirk. But all levity instantly faded as another group of guards arrived in the gallery.
+"Tivan is going to have our heads!" one guard shouted, as he realized that all of the artifacts in the private gallery had somehow vanished.
+"Not if we bring him theirs first," another guard responded, aiming his weapon directly at Mantis and pulling the trigger.
+"MRRRRR!"
+Without a second of hesitation, Jeff leapt between the guard and Mantis, instinctively shielding his friend from the oncoming blast. But as he intercepted the attack, something extraordinary happened. Jeff grew to ten times his regular size!
+"Hmm," mused the warrior woman. "Must've been something he ate..."
+The enlarged Jeff let out a delighted squeal as he charged toward the guards, all of whom dropped their weapons and retreated as swiftly as possible.
+As soon as they were in the clear, Jeff beckoned Mantis and her friend to follow him.
+"That's not the right way, friend," Mantis said. "We found the hangar. It's in the other direction. That hall will just lead you back to your cell."
+"Mrrr," Jeff said confidently, fully aware of what he was doing.
+"Oh, I see," Mantis said with a smile. "Good boy, Jeff."
+The women raced after the giant Jeff, back into the heart of the menagerie.
+"Stand back, everyone," Mantis cried out directly into the minds of all the captive creatures.
+As the alien assemblage took cover within their cells, the massive land shark gave a mighty twirl, swinging his tail with tremendous force and shattering through the outer glass walls of countless enclosures. The lifeforms once trapped within suddenly emerged from holding and scattered in all directions, each seeking their own way out of the Collector's custody.
+"Mrrr?" Jeff asked as he began to shrink back down to his normal size.
+"I know, Jeff," Mantis responded. "But we don't have time to save them all. At least not yet."
+"Come on," their curious companion said, leading Jeff and Mantis through the chaos and back toward the hangar. "This may be our only chance."
+Together, they entered the hangar, and Mantis located a spacecraft similar to the one she had flown during her time with the Guardians of the Galaxy. Relief washed over her as she led her new teammates onto the ship and powered it up.
+"We're finally free," the other woman said with relief. "We can go home now..."
+But the stoic warrior paused. She didn't need Mantis's empathic abilities to sense the sadness radiating through Jeff's mind as he looked back toward the creatures rampaging through the Theme Park below them.
+"And they will be free, too," Mantis said reassuringly, placing a hand on Jeff's smooth fin and giving it a gentle rub. "We will find help and come back for them. We will free every single one of them. And we will make sure the Collector pays for what he has done. How does that sound, little one?"
+As the ship lifted off, Jeff responded as only he could. With a toothy grin and an emphatic:
+"MMMRRRRRR!!!"
+Hydrophilic Group
+(Coming soon. Stay Tuned!)
+Dolphin Bay
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Wanna Make a Snow Shark?
+As Jeff the Land Shark, partner with Luna Snow to land 1 KO.
+5
+Snack Attack!
+As Jeff the Land Shark, swallow 4 enemies with a single use of It's Jeff!
+10
+Quotes
+See:
+Jeff the Land Shark/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Jeff the Land Shark
+was added as the 22nd character to be introduced to
+Marvel Rivals
+as a
+Strategist
+hero.
+Added 2 new costumes:
+Adopted Avenger
+and
+Incognito Dolphin
+.
+Added the
+Snack Attack!
+achievement.
+Added to the
+Chilling Charisma
+Team-Up Ability
+with
+Luna Snow
+and
+Namor
+and the
+Planet X Pals
+Team-Up Ability
+with
+Groot
+and
+Rocket Raccoon
+.
+24/12/10:
+Version 20241210
+After
+Jeff the Land Shark
+was revived while in the fog, his teammates and enemies would not be able to see the special effects of
+Joyful Splash
+. This issue has been resolved.
+When the target area is ascending or descending, if
+Jeff the Land Shark
+used his Ultimate to devour characters, they would potentially become stuck beneath the terrain if they were right on the target area platform. This issue has been resolved.
+24/12/19:
+Version 20241219
+/
+Winter Celebration
+Event
+Added 1 new costume:
+Cuddly Fuzzlefin
+(unlocked from
+Winter Celebration
+event)
+25/01/08:
+Fixed occasional sound irregularities that could occur after being consumed by the
+Jeff the Land Shark
+'s ultimate ability.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Adjust
+It's Jeff!
+range from a 10m sphere to a 10m radius, 5m high cylindrical spell field.
+Increase the healing of
+Joyful Splash
+from 140/s to 150/s.
+25/02/07:
+Version 20250207
+Fixed an issue where if
+Jeff the Land Shark
+spit out others just as his Ultimate Ability was about to end, it would be interrupted and automatically spit them out when the ultimate ended, causing it to look like the animation played twice. He'll now eject everyone in one smooth motion!
+25/02/14:
+Version 20250214
+Resolved a quirky situation where
+Jeff
+'s bubbles could, in rare instances, sneak past enemy healing gates into the spawn room. No more bubble bath break-ins!
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Corrected a bug where when the
+Team-Up Ability
+is active,
+Jeff the Land Shark
+could launch
+Frozen Spitballs
+that exceed expectations via certain actions. The aquatic cutie's attacks are now as intended!
+Gallery
+Other
+Costume Origins
+In-Game Assets
+Reveal Images
+Jeff the Land Shark- Four-Legged Friend - Character Reveal Teaser - Marvel Rivals
+"Adopted Avenger" costume in
+West Coast Avengers
+(2018) #7
+"Incognito Dolphin" costume in
+It's Jeff Infinity Comic
+(2021) #3
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+Igconitio Dolphin Profile
+Trivia
+When Jeff dives into the ground using Hide and Seek, he sometimes sings the
+Jaws
+(1975) theme song for one of his voicelines.
+The name of Jeff's ultimate is a reference to the Marvel comic of the same name,
+"It's Jeff!"
+Jeff The Land Shark is one of the few characters in the game to be released after the first closed alpha playtest, but before the public launch of Marvel Rivals.
+Incognito Dolphin is reference to his appearance in one of the
+It's Jeff!
+#3. The pink color is stated to be added in order to match Gwenpool's outfit.
+Gwenpool was formely the adoptive owner of Jeff The Land Shark, but due to her realizing the release of her solo comics was being put to an end, she handed Jeff over to Deadpool.
+Despite being handed off to Deadpool, Jeff's title would be promptly cancelled as well. Elsa Bloodstone was stated to be his next caretaker in canonical comic series.

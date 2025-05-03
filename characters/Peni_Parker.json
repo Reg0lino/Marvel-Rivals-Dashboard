@@ -1,0 +1,324 @@
+{
+  "name": "Peni Parker",
+  "role": "Vanguard",
+  "stats": {
+    "health": 750,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F87171",
+    "color_theme_secondary": "#F472B6"
+  },
+  "abilities": [
+    {
+      "name": "CYBER-WEB CLUSTER",
+      "keybind": null,
+      "type": null,
+      "description": "Launch forward a Cyber-Web Cluster",
+      "casting": "Rapid-fire, delayed projectile that is accompanied by a spell field.",
+      "damage": "15 (projectile & spell field)",
+      "damage_falloff": null,
+      "fire_rate_interval": "3.33 rounds/s",
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "1.5m spherical radius",
+      "projectile_speed": "120m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "movement_speed_penalty": "Reduce movement speed penalty while firing Cyber-Web Cluster from 40% to 20%."
+      }
+    },
+    {
+      "name": "BIONIC SPIDER-NEST",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Generate a Spider-Nest at a targeted area, periodically spawning Spider-Drones and creating Cyber-Webs. While in the Cyber-Web, gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health.",
+      "casting": "Targeted",
+      "damage": "40 per Spider-Drone",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": "12m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MAXIMUM DISTANCE - 10m\nABILITY HEALTH - 350\nINTERVAL - Two Spider-Drones every 3s\nFixed an issue where Peni's Bionic Spider-Nest would be unintentionally lifted along with the Klyntar device when raised--now, her tech remains grounded and ready for action!\nResolved an issue where the self-destructing Spider-Drones from Peni Parker's Bionic Spider-Nest would penetrate the floor to seek out foes when webs were present above and below. Now, these little guys know their place--no more sneaky escapes!"
+    },
+    {
+      "name": "ARACHNO-MINE",
+      "keybind": "E",
+      "type": null,
+      "description": "Deploy Arachno-Mines that can be concealed within the confines of a Cyber-Web.",
+      "casting": "Single-cast Spell Field",
+      "damage": "100",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "4s per charge",
+      "range": "3m spherical radius",
+      "projectile_speed": null,
+      "charges": 4,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Fixed an issue where Peni's Arachno-Mines would become invisible when brushing over Cyber-Webs but landing outside of them. Now, her traps beyond webs remain visible, ensuring enemies are aware of the sticky situation!"
+    },
+    {
+      "name": "CYBER-BOND",
+      "keybind": "F",
+      "type": null,
+      "description": "Shoot a web strand that links to the targeted area or Cyber-Web. If stretched too far, it will trigger a pullback.",
+      "casting": "Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s",
+      "range": null,
+      "projectile_speed": "100m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "RANGE - 10m pullback range\nMAXIMUM DISTANCE - 19m\nDASH DISTANCE - Min. 10m - Max. 30m\nFixed a quirky situation where if Peni Parker was defeated while using Cyber-Bond and resurrected by Rocket Raccoon's beacon, she would be stuck in her Cyber-Bond animation. She will now be revived without any lingering effects!"
+    },
+    {
+      "name": "WALL CRAWL",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Jump to crawl on vertical surfaces.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "MOVEMENT SPEED - 7.2m/s"
+    },
+    {
+      "name": "CYBER-WEB SNARE",
+      "keybind": null,
+      "type": null,
+      "description": "Cast futuristic webbing that Immobilizes enemies or creates a Cyber-Web. While in the Cyber-Web, gain Healing Over Time and a Movement Boost. Excess healing converts into Bonus Health.",
+      "casting": "Single-cast projectile with delayed impact",
+      "damage": "5",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s",
+      "range": "3m spherical radius",
+      "projectile_speed": "60m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "SPECIAL EFFECT\n⚬ Enemies hit are ensnared for 0.7s. While in the Cyber-Web, Peni Parker receives 25 healing per second. Any excess healing is converted into Bonus Health, up to a maximum of 150 Health, and grants a 25% Movement Boost\nFixed an issue where, in certain situations in Convoy Mode, if Peni Parker fired a Cyber-Web below the vehicle, her web would move with the vehicle. Now, her webbing sticks like it should.\nCorrected an issue where Peni Parker's web being pulled back could be blocked by enemy heroes, leading to positional anomalies. Now, her webbing will behave as intended."
+    }
+  ],
+  "ultimate": {
+    "name": "SPIDER-SWEEPER",
+    "keybind": "Q",
+    "type": null,
+    "description": "Enhance the SP//dr suit, launching up enemies in its path and deploying Arachno-Mines, Spider-Drones, and Cyber-Webs repeatedly.",
+    "casting": "Enhancement",
+    "damage": "60 per sweep",
+    "range": "5m (sweep)",
+    "effect": null,
+    "duration": null,
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": "70%",
+    "bonus_health_details": "Gain 450 Bonus Health",
+    "energy_cost": null,
+    "details": "AMMO - 7 (Arachno-Mines)\nINTERVAL - 1s (sweep)\n0.7s (Arachno-Mines)\n0.7s (Spider-Drones)\nRANGE - 4m spherical radius"
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "ARMOR EXPULSION",
+      "duration": "2s",
+      "special_notes": "Gain a 50% Damage Reduction while the ability is active"
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": " Penny involves understanding and utilizing her diverse abilities to suit different playstyles. Adjusting settings like cyberbond sensitivity is recommended for optimal control. Penny can be played in bunker, dive, or peel styles, adapting to various game modes. Team composition is crucial, with a main tank being highly beneficial. Matchup and map knowledge is also important, with the video providing tier lists for both. Ultimately, a successful Penny player will master her abilities, adapt her playstyle to the situation, and work effectively within a team.",
+    "weaknesses": [
+      "Not very effective in objectives that require the team to advance in the offensive, as the player has to constantly reposition her Bionic Spider-Nest to maximize its value.",
+      "Moving objectives will instantly destroy her Bionic Spider-Nest if it's place in front of the objective.",
+      "Limited mobility tools.",
+      "Cyber-Bond doesn't actually allows her to websling like Spider-Man and Venom.",
+      "Can't freely wall crawl like Spider-Man and Venom.",
+      "Very frail outside of her Cyber-Webs, as she no defensive options compared to other Vanguards.",
+      "Bionic Spider-Nest goes into a relatively long cooldown if destroyed by the enemy team.",
+      "Once her Spider-Sweeper ends, all the Cyber-Webs spawned from it disappear."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Spider-Fighters",
+        "description": "As Peni Parker, partner with Spider-Man to land 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Watch Your Step!",
+        "description": "As Peni Parker, blast 3 enemies with a single use of Arachno-Mine.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"I'm here to finish the fight that my father began. I hope I make him proud.\"",
+    "ingame_bio_text": "Peni Parker may be young, but she bravely stands on the frontlines to protect the Web of Life and Destiny. Together, this teen prodigy and her state-of-the-art mech, the sensational SP//dr, make for the most thrilling duo on the battlefield!",
+    "ingame_story_intro": "After the death of her father, Peni Parker inherited the experimental mech-suit known as SP//dr. In order to control the suit, Peni had to allow herself to be bitten by the irradiated arachnid that controls its CPU, forming a psychic bond between them.\nNow, Peni and SP//dr keep the people of Tokyo Webworld safe, just like her father did before her. But their mission is bigger than just one city. Since the Timestream Entanglement, Peni and SP//dr have devoted themselves to the protection of the Web of Life and Destiny and the countless realities it connects.",
+    "hero_stories": [
+      {
+        "title": "Tokyo by Night",
+        "content": "\"It sure would be easy to be sad,\" thought Peni Parker as she climbed out of the hot springs and got ready for her next patrol. She'd lost her parents, the world had been completely turned upside down because some guy named Doom had scrambled all of time, ruining the \"Web of Life and Destiny\" or whatever, and if that wasn't bad enough, she was in Tokyo and was set to miss every high school event in New York for the next forever. Seriously heavy stuff, but at least she would get to skip finals.\nShe'd also had a lot of time to put her Dad's SP//dr mech through its paces and work in his old lab. It wasn't easy letting herself be bitten by a radioactive spider, but Peni would have done it a hundred times over to be able to follow in her Dad's footsteps. Now, she is linked to SP//dr, fighting bad guys and protecting not just Tokyo, but the entirety of time and space!\nPlus there's this Chronovium stuff everywhere? What even is that? She knew people were after it, but what did it do exactly? She'd run some experiments that suggested it was, like, crystallized time, but that didn't explain much. Next time Peni took SP//dr in for maintenance and upgrades, she planned to spend a little more time figuring out exactly what Chronovium could do.\nLife was a lot better when you focused on the positive. She needed to remind herself of that from time to time, because she spent a lot of her time fighting a whole slew of weirdos from other timelines that probably didn't even know they were threatening the collapse of all of time and space. Or were they? Those details weren't always clear to Peni, but she loved hearing the Master Weaver and his apprentice, Spider-Zero, argue about it. And she knew that when push came to shove — as it often had since the Timestream Entanglement — she and SP//dr would defend the Web, even on mundane patrol missions like the one she was starting just now.\nThat meant defending both the Master Weaver and Spider-Zero, who were always so preoccupied with mending and weaving that they pretty much never noticed when they were about to be attacked.\nLike right now.\nA single Doombot angled toward the Nexus at the heart of the Web of Life and Destiny. The Master Weaver never noticed it. Peni did, though, and she had a plan. \"SP//dr, are you thinking what I'm thinking?\"\nSP//dr was.\nPeni tensed, and SP//dr leapt away from the Web strand she'd been sitting on, falling toward the Doombot. She had to time this just right, or it would be a long fall to the ground somewhere in Shinjuku. SP//dr might be able to handle the fall, but the shock of landing wouldn't do Peni any good.\nBut her timing, as it turned out, was perfect. The Doombot noticed her far too late, just as she had shot her own webs out from SP//dr's spinnerets and used a Web strand to snap her around in a long arc. The Doombot barely turned around when SP//dr slammed into it feet-first. Sparks shot from its chassis and bits of armor plating stuck to nearby stands of the Web as the Doombot tumbled away into the neon-speckled darkness below.\nPeni finished off the maneuver with a perfect, thruster-assisted double somersault that landed her on an upper strand of the Web, close enough to the Nexus where she could see both the Master Weaver and Spider-Zero. They were talking, and Peni didn't want to interrupt, so she hung upside down, just because, until Spider-Zero headed out onto one of the Web's strands, making little repairs as she went. Peni noticed Spider-Zero removing stuck bits of Doombot armor on her way, and felt a little guilty — but hey, she'd done what a hero had to do. Protect the Web!\nStill, did Doom — either Doom — ever run out of those things?\n\"I suspect not,\" a familiar voice said by her side, and Peni jumped. It was the Master Weaver.\n\"Hey,\" Peni said. \"Did you just read my mind?\"\n\"Not exactly. I sensed certain vibrations in the Web, and they suggested to me what you were thinking.\"\n\"Right.\" Peni said. \"Same diff. Hey, I've been meaning to ask you. I've been doing some experiments in my Dad's lab — my lab now — and Chronovium, wow, what is that stuff, anyway?\"\n\"Here, it has become part of the Web,\" the Master Weaver replied. \"But all things are ultimately part of the Web.\"\nWhich was a super Master Weaver-like thing to say, but didn't really bring a lot of clarity to the situation?\nBefore Peni could rephrase the question, the Master Weaver had passed on to another part of the Web. She decided to take the same question to Spider-Zero.\nAlso, she wanted to know if anybody knew when Doom was going to attack the Web himself. That seemed like a near-certainty, since there were just about always Doombots around, but nobody ever wanted to talk about it. Peni didn't know whether that was because they didn't know, or didn't want to tell her because she was a kid, or some other stupid reason, but she felt pretty strongly that Doom attacking the Web was a logical next step for him. Either of them. They had to be ready!\nAs she approached Spider-Zero, Peni was baffled to see the Weaver's apprentice doing something with...paper? At this distance it was hard to tell. She vaulted over onto another strand, then another, zigzagging until she got close enough to Spider-Zero that she could see Spider-Zero dropping little pieces of Chronovium into some of the portals that existed around the Nexus. The Chronovium in the Web was kind of sticky, and it looked like Spider-Zero was...yeah, she was writing something on pieces of paper and then sticking those pieces of paper to Chronovium?\n\"Hey!\" Peni called when she was close enough. \"What are you writing?\"\n\"A message to another version of myself,\" Spider-Zero said.\n\"How do you know where to find other versions of yourself?\"\n\"That's part of what the Master Weaver is teaching me,\" Spider-Zero said. \"I can listen in on an infinite number of other worlds and futures. Sometimes I can even...\" She made a conducting motion with both hands. \"Influence them a little.\"\n\"So you could do something about Doom? Or the Timestream Entanglement!\" Peni's thoughts drifted to maybe even saving her father, but she couldn't bring herself to say it. Was it even possible? And if he came back, would Peni just be a regular person again? It would be worth it.\nSpider-Zero was watching her, as if she could see the emotional tug-of-war going on inside Peni's mind. \"Well...possibly. But that is, if you'll forgive the expression, a very tangled web. Tugging on one strand will have all kinds of unpredictable effects. I wouldn't take any action until I've had more time to trace the path of each strand.\"\n\"How much time?\"\n\"Dunno, more than we've got with so much happening.\"\n\"Okay, so anyway, there are more Doombots climbing the Web to get you and the Master Weaver.\" Peni had just spotted them, jetting upward from the ground.\nSpider-Zero looked down. \"Uh huh,\" she said. She scribbled something on a piece of paper and stuck it to a bit of Chronovium. Then she pushed that through a tiny portal that opened briefly, like a soap bubble, by her hand. The minute she pushed the message through, the portal was gone.\nA split second after that, all three Doombots were gone too, swallowed up by a larger version of that portal that appeared around them and then blinked out of existence.\n\"Whoa,\" Peni said. \"That's definitely cooler than what I did.\"\n\"Oh, it's not a competition.\" Spider-Zero said. \"We all protect the Web in our own ways.\"\n\"Speaking of that,\" Peni said, \"you guys know that sooner or later Doom is going to get sick of sending Doombots and when he does, he'll show up to finish the job himself?\"\n\"Wouldn't surprise me,\" Spider-Zero said.\n\"So should we, like, maybe be doing something about it?\"\n\"What makes you think we aren't?\"\nPeni groaned. \"You sound more and more like the Weaver every day.\"\nSpider-Zero smiled. \"He's teaching me a lot. You too, I think. You've grown a lot since you started protecting the Web.\"\nThis had Peni feeling pretty good about herself until she looked up and saw Spider-Zero right there next to her. \"I have to repair that,\" Spider-Zero said, pointing at the dangling strands of the Web Peni had accidentally snapped while fighting the Doombot.\n\"I had to!\" Peni protested.\n\"I know,\" Spider-Zero said. \"I'm not angry. I just have to repair the Web. That's what I do. That's who I am. And without the Web —\"\nIt was Peni's turn to say, \"I know.\" After the Timestream Entanglement, the Web was more important than ever. It wasn't just the Dooms they had to worry about, but any other dimension-hopping villain or creature might appear at any moment to destroy the Web or the Weaver — or they might try to destroy Tokyo, or Japan, or the world, or all worlds!\nBut none of that was going to happen while Peni Parker was on patrol. That should be a banner, she thought: PENI PARKER ON PATROL! How cool would it be to have her own banner that followed her around, and maybe her own sound effects. A synthesized soundtrack! Even better. She started composing the tune in her head as SP//dr leapt and climbed among the endless strands of the Web. Soon enough, she had Spider-Zero back where she belonged.\nShe looked down on the city, then up at the vastness of the Web and the universes beyond it. \"I wish my father could have seen this.\"\n\"My father is also dead,\" Spider-Zero said, pausing for a moment in her work. \"But I think he would be proud of the work I do. Same for you.\"\nWell, that gave Peni a little twinkle in her heart. This hero business wasn't just about the fights. It could make you feel good sometimes too.",
+        "status": null
+      },
+      {
+        "title": "Zero Day Attack",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "The Revenge of Spiderbots",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch\nPeni Parker was released as the 12th character to be introduced to Marvel Rivals as a Vanguard hero.",
+          "Added 2 new costumes:\nOlive Skimmer and VEN0m.",
+          "Added the Watch Your Step! achievement.",
+          "Added to the Symbiote Bond Team-Up Ability with Venom and Spider-Man."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "changes": [
+          "Launch\nAdded 1 new costume:\nBlue Tarantula."
+        ]
+      },
+      {
+        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "changes": [
+          "Fixed an issue where Peni's Bionic Spider-Nest would be unintentionally lifted along with the Klyntar device when raised--now, her tech remains grounded and ready for action!",
+          "Fixed an issue where, in certain situations in Convoy Mode, if Peni Parker fired a Cyber-Web below the vehicle, her web would move with the vehicle. Now, her webbing sticks like it should.",
+          "Corrected an issue where Peni Parker's web being pulled back could be blocked by enemy heroes, leading to positional anomalies. Now, her webbing will behave as intended."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Fixed a quirky situation where if Peni Parker was defeated while using Cyber-Bond and resurrected by Rocket Raccoon's beacon, she would be stuck in her Cyber-Bond animation. She will now be revived without any lingering effects!"
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5",
+        "changes": [
+          "Launch\nReduce Peni Parker's Armor Expulsion duration from 4s to 2s. Replace the 50% damage reduction effect with a new invincibility effect during the duration."
+        ]
+      },
+      {
+        "date_version": "25/03/07:\nVersion 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+        "changes": [
+          "Fixed a positioning issue that could sometimes occur when Peni was hit by Namor's Ultimate Ability. The mech pilot is now perfectly aligned for battle!"
+        ]
+      },
+      {
+        "date_version": "25/03/14:\nVersion 20250314",
+        "changes": [
+          "Fixed an issue where Peni's Arachno-Mines would become invisible when brushing over Cyber-Webs but landing outside of them. Now, her traps beyond webs remain visible, ensuring enemies are aware of the sticky situation!",
+          "Resolved an issue where the self-destructing Spider-Drones from Peni Parker's Bionic Spider-Nest would penetrate the floor to seek out foes when webs were present above and below. Now, these little guys know their place--no more sneaky escapes!"
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala",
+        "changes": [
+          "Launch\nCyber-Web Cluster now has a chance to crit.",
+          "Reduce movement speed penalty while firing Cyber-Web Cluster from 40% to 20%.",
+          "Increase base health from 650 to 750."
+        ]
+      },
+      {
+        "date_version": "25/04/18:",
+        "changes": [
+          "Added 1 new costume:\nYatsukahagi."
+        ]
+      }
+    ],
+    "official_quote": null,
+    "official_description": "Peni Parker is a Vanguard hero in Marvel Rivals, and is the 12th hero introduced to the game's roster.\nShe has team-up abilities that work in conjunction with Spider-Man and Venom."
+  },
+  "background": {
+    "real_name": "Peni Parker (ペニ・パーカー)",
+    "aliases": [
+      "SP//dr"
+    ],
+    "birthplace": "New York City, New York",
+    "birthdate": null,
+    "gender": "Female",
+    "eye_color": "Blue",
+    "hair_color": "Black",
+    "relatives": [
+      "SP//dr (father; deceased)"
+    ],
+    "affiliation": [
+      "Oscorp",
+      "Parker Industries",
+      "Spider-Society",
+      "Spider-Army (formerly)"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "SP//dr psychic link from an irradiated spider",
+      "Preternatural \"Spider-Sense\"",
+      "Enhanced Strength, durability and agility via SP//dr suit",
+      "Futuristic weaponry from SP//dr suit"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Peni+Parker%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "51.93%",
+    "wr_change": "-0.46%",
+    "pick_rate": "11.70%",
+    "pr_change": "-3.68%",
+    "ban_rate": "0.50%",
+    "matches": "174,511"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

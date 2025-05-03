@@ -1,0 +1,159 @@
+# News - Recent Posts (Fetched 2025-05-03 12:27)
+
+## Marvel Rivals Version 20250430 Patch Notes
+
+Marvel Rivals Version 20250430 Patch Notes
+2025/04/30
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on April 30, 2025, at 09:00:00 (UTC)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+All-New Event - Hellfire Gala: Moments
+Join the party and earn Wolverine's "Patch" series costume rewardsâcompletely FREE!
+Event Duration: 2025/05/02 09:00:00 ~ 2025/05/23 09:00:00 (UTC)
+New In Store
+1. Winter Soldier - Thunderbolts* Bundle
+2. Black Panther - Damisa-Sarki Bundle
+Costume Optimizations
+1. Thor's "Lord of Asgard" costume has been refined to improve visibility and ensure the crosshair isn't obstructed.
+2. Doctor Strange's "Doctor Strange in the Multiverse of Madness" costume now boasts enhanced visual details and voice effects to more accurately capture the essence of the costume theme.
+New Content
+1. You can now switch all costume-specific sound effects back to the default ones via Settings.
+2. Using the latest S2.0 data, we've recalibrated the baseline data for calculating each hero's performance scores.
+3. Locked accounts can now initiate the account deletion process even from a logged-out state.
+Fixes
+All Platforms
+Maps and Modes
+1. Squashed a bug in Competitive where an occasional map glitch incorrectly displayed check point gate statuses.
+2. Reined in some mischief in the final part of the Empire of Eternal Night: Midtown map where Loki's illusions could be placed in unexpected locations.
+3. Fixed an issue in Giant-Size Brain Blast where destroying enemy summons would also count toward enlarging heroes' heads.
+Heroes
+1. Stealth Special Breaker: We've sliced through a glitch where if Wolverine responds to a Fastball Special request while within Invisible Woman's ultimate, it would sometimes result in abnormal invisibility effects.
+2. An Unexpected Thing: We've rocked out a fix for an issue that allowed The Thing's Embattled Leap to target teammates within an enemy Invisible Woman's ultimate. Now, he'll be as clueless as he should be.
+3. Cloak & Dagger's Shield Shenanigans: We've zapped a bug where their ultimate would sneakily still do damage to foes protected by Magneto's Iron Bulwark or Hulk's Indestructible Guardâtalk about an unexpected plot twist!
+4. Wolverine's Aerial Annihilator: Fixed a flaw in the second stage of his ultimate where midair knockbacks lost their bite and dealt no damage. Now, when Wolverine soars into the fray, every strike is felt with the raw power of a true berserker!
+5.Star-Lord's Rocket Revamp: Eliminated an occasional speed decay glitch in his Rocket Propulsion ability, impacting his smooth movement. Now, every blast-off is as snappy and daring as a mixtape drop from the Milano!
+6.Mister Fantastic's Fantastic Flex Fix: We've untangled an issue in his Flexible Elongation ability where hitting targets inside portals caused unexpected displacement. Now, when Mister Fantastic bends the limits of physics, his moves are as smart and precise as his genius!
+7.Ascender's Altitude Assurance: Fixed a network instability-related bug that could sometimes abruptly yank wall-climbing heroes back to the ground after reaching the highest point. Now, every climb is as steady and heroic as your soaring ambitions!
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250429/41548_1231611.html
+---
+
+## Marvel Rivals Version 20250430 Balance Post
+
+Marvel Rivals Version 20250430 Balance Post
+2025/04/30
+Greetings, Rivals!
+Turns out even super heroes need to hit the gym (or occasionally the nerf bat), just some tweaks to keep those super-squads "perfectly balanced, as all things should be".  Let's dive in!
+VANGUARD
+Captain America
+The Sentinel of Liberty will see some reduction to his survivability.
+- Reduce base health from 650 to 600.
+Doctor Strange
+Stephen will experience a reduction in the Energy Cost of his Ultimate Ability, amplifying his mystical menace on the battlefield.
+- Decrease the energy cost to unleash the Eye of Agamotto (Ultimate Ability) from 3400 to 3100.
+Groot
+The Flora Colossi's ability to isolate enemies and block damage will take a minor hit.
+- Reduce the health of Ironwood Wall from 700 to 600.
+DUELIST
+Spider-Man
+We're tightening the webbing on Spider-Man's hit detection range.
+- Decrease the damage range of Amazing Combo from a 5m radius to a 4m radius.
+Winter Soldier
+Bucky is getting a combat upgrade, ramping up his threat level and firepower on the field.
+- Adjust the Tainted Voltage ability to have 2 charge levels, while keeping the cooldown time unchanged.
+STRATEGIST
+Adam Warlock
+We're enhancing Avatar of Life's sustainability to keep him fighting for cosmic justice.
+- Add a new effect to Quantum Magic: When a critical hit lands on an enemy, reduce the cooldown time of Avatar Life Stream by 1s.
+Cloak & Dagger
+Ty and Tandy are sharpening their blades and cloaks for more impactful strikes.
+- As Cloak, increase the damage of the Darkforce Cloak from 75/s to 80/s; As Dagger, increase the damage of the Lightforce Dagger on hit from 15 to 18.
+Luna Snow
+We're ramping up this K-Pop sensation's damage output when she strikes enemies from a distance.
+- Adjust the Damage Falloff of Light & Dark Ice from 60% at 40m to 75%.
+Mantis
+We're empowering Mantis' damage output to reflect her true fighting spirit.
+- Increase the hit damage of Life Energy Blast from 50 to 55.
+TEAM-UP ABILITIES
+Stars Aligned (Captain America - Winter Soldier)
+A legendary alliance gets an even mightier boost!
+- Upon leaping to a teammate, Stellar Impact will provide 50 Bonus Health to allies within range.
+
+Source URL: https://www.marvelrivals.com/balancepost/20250428/41667_1231266.html
+---
+
+## Dev Talk Vol.13 | Seasonal Balance & Competitive Performance
+
+Dev Talk Vol.13 | Seasonal Balance & Competitive Performance
+2025/04/25
+Hey, Rivals!
+With the launch of Season 2.0, we've been closely monitoring the game environment and feedback from the community. Lately, we've noticed two hot topics generating a lot of discussion: the impact of balance adjustments and the performance ratings of various classes in ranked play. As such, we want to take a moment to clarify and communicate about these two points.
+1. Season Changes and Mid-Season Balance Adjustments
+In previous seasons, the focus was on key abilities and energy management for ultimate abilities, resulting in a more stable combat pace. However, Season 2.0 shifts the spotlight to coordinated attacks and focused targets, along with the necessary collective protective strategies and counterattacks which has led to a more intense combat rhythm. In this fierce environment, Strategists face increased pressure, needing to monitor teammates' health closely while carefully using their key abilities and being mindful of their positioning on the map. Meanwhile, Vanguards and Duelists must not only attack effectively but also provide better protection for their Strategists to achieve victory.
+In the upcoming patch, we will enhance the damage capabilities of certain Strategists to elevate their threat levels, which in turn, will increase team composition possibilities. Additionally, we will make minor adjustments to a few heroes. For example, Groot and Captain America will see slight reductions in survivability. Spider-Man's Amazing Combo damage range will be slightly decreased, Doctor Strange will require less energy for his ultimate, and Winter Soldier's Tainted Voltage and Team-Up Ability will be slightly buffed.
+Since this is a mid-season balance adjustment, we aim to be cautious, keeping changes minimal to enhance the experience of certain heroes without drastically altering the overall meta. As we move into S2.5, with Ultron's arrival and new Team-Up Ability adjustments, we'll consider broader, more comprehensive balance changes.
+2. Competitive Performance Points
+In each match, hero performance rating is calculated based on the average key combat data for that hero at the player's current rank. The more a hero's key combat data exceeds the baseline for their rank during the match, the better their performance rating; and vice versa for poor performance. Of course, these stats are adjusted based on hero usage time to ensure they aren't skewed by playtime. If a player uses multiple heroes in a match, performance rating will be weighted according to their usage time.
+We've noticed that, compared to previous seasons, a small number of Duelists have a slight advantage in performance ratings in Season 2.0, while some Vanguards and Strategists face a slight disadvantage. However, most heroes remain balanced. In the upcoming patch, we will optimize the performance rating calculations based on the latest data to ensure fairness across all heroes.
+Balancing the game and rank adjustments is a challenging endeavor, and we can't guarantee perfection 100% of the time. However, we remain humble and attentive, striving to address issues promptly and enhance your experience. Stay tuned for official patch announcements for more updates. Thank you for your support and patience!
+Ignite the Battle!
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250426/40954_1230856.html
+---
+
+## Marvel Rivals Version 20250425 Patch Notes
+
+Marvel Rivals Version 20250425 Patch Notes
+2025/04/24
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on April 24, 2025, at 09:00:00 (UTC+0)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
+Here's a look at what's coming in this patch:
+New Mode - GIANT-SIZE BRAIN BLAST
+This all-new mode will ignite the battle big time during the following windows:
+2025/4/25 09:00:00 ~ 2025/4/28 12:00:00 (UTC)
+2025/5/2 09:00:00 ~ 2025/5/5 12:00:00 (UTC)
+Compete on unique leaderboards and unlock colossal rewards that are sure to make your head spin! Get ready to think big, shoot big, and have a big blast!
+New Content
+New In Store:
+1. Loki - Shin Sagi-Shi Bundle
+2. Hela - Yami no Karasu Bundle
+3. A big bunch of Brain Blast Emotes
+Resource Adjustments:
+Luna Snow's Cyber Tunes emote has been revamped to loop continuously, ensuring that she never skips a beat.
+Hero Proficiency Tweaks:
+To better reflect your mastery in the heat of different battles, we're overhauling the hero proficiency system. The missions are now segmented into Quick Match/Competitive and Conquest/Doom Match. Quick Match/Competitive missions have no cap on repetition, while Conquest/Doom Match missions feature a daily repeat limit. Your hero proficiency is about to get as lordly as your feats!
+Fixes
+All Platforms
+General
+1. Fixed a rare issue where players would sometimes find themselves stuck on the round-switch transition screen.
+2. Resolved a glitch on the Krakoa map where the emote wheel occasionally couldn't be used, except for the bottom-right segment.
+3. Fixed a Faction system bug where after a single name change, the name could not be changed again even after the cooldown period.
+4. Resolved an issue in the Faction Recruit interface where non-leaders saw a "Only Leader Can Select" label on the Confirm button.
+5. In Custom Game - Tournament Room settings, coaches now have an option to hide opponent voting displays in Competitive matches.
+6. Fixed an issue where the first time entering a new season's Battle Pass screen or the moment when season-end settlement pops up and rapidly switching to the next page would sometimes cause the navigation bar to vanish.
+Maps and Modes
+1. Fixed several terrain issues that could cause characters to sometimes become stuck or clip into strange areas.
+Heroes
+1. Emma Frost's Diamond Dynamite: Fixed a glitch in Diamond Form where her Carbon Crush would sometimes catapult foes undergroundâor even off the map! Now, when Emma dazzles, every move lands as sharp as a perfectly cut gem!
+2. Mister Fantastic's Fantastic Flex Fix: Resolved an issue when Flexible Elongation aimed at enemies through portals would occasionally twisted his movement trajectory into the wrong direction. Now, when Mr. Fantastic bends the rules of physics, his is as precise as his genius!
+3. Iron Fist's Chaotic Kick: Squashed a bug causing Iron Fist's K'un-Lun Kick to suddenly rollback in high-latency battles. Now, his moves blast forward with the unstoppable momentum of a true warrior!
+4. Psylocke's Wing Shurikens Tweak: Fixed a glitch where Psylocke's Wing Shurikens would sometimes lose damage after striking Loki's arm. Now, with the trickster god kept in check, her psionic shurikens strike with all the precision and brilliance of a ninja!
+5. Star-Lord's Sleepy Swagger: Resolved an issue where Star-Lord's Spartax Slumber emote was missing his signature facial animations when used during a match. Now, when he starts to nod off his playful attitude will shine through, proving that even in chaos, he's the coolest guy in the galaxy!
+6. Squirrel Girl's Animated Antics Revival: Corrected an issued with Squirrel Girl's default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!
+7. Invisible Woman's Shield Surge Update: Fixed an error in the recovery rate of Invisible Woman's Guardian Shield.
+Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250422/41548_1229365.html
+---
+
+## Marvel Rivals | Behind the Music - Path to Rivals
+
+Marvel Rivals | Behind the Music - Path to Rivals
+2025/04/22
+Dear Rivals,
+Today, we're taking you behind the scenes to admire the amazing performance of talented and passionate musicians performing the original soundtrack 'Path to Rivals'.
+Let the music transport you and experience this incredible composition that we all love and enjoy.
+
+Source URL: https://www.marvelrivals.com/devdiaries/20250421/40954_1229011.html
+---

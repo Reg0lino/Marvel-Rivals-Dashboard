@@ -1,0 +1,497 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Human_Torch =====
+
+Human Torch
+"I'm the brightest in the sky!"
+Real Name
+Jonathan Lowell Spencer "Johnny" Storm
+Aliases
+Torch
+Biographical Information
+Birthplace
+Long Island, New York
+Gender
+Male
+Eye color
+Blue
+Hair color
+Blond
+Relatives
+Sue Storm
+(older sister)
+Franklin Richards
+(nephew)
+Valeria Richards
+(niece)
+Reed Richards
+(brother-in-law)
+Powers/Skills
+Pyrokinesis
+Plasma fire generation
+Heat energy manipulation and absorption
+Flight
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Fantastic Four
+Portrayal
+Voice Actor
+Scott Whyte
+Character Video
+The Fantastic Four's heartthrob, Johnny Storm, adds an intense  flare to every battle he fights. Shrouded  in  roaring flames, the Human Torch always manages to look cool while turning up the heat!
+Official Description
+The
+Human Torch
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 36th hero introduced to the game's roster during
+Season 1: Eternal Night Falls
+.
+He has team-up abilities that work in conjunction with
+Invisible Woman
+,
+Mister Fantastic
+,
+The Thing
+and
+Storm
+.
+Overview
+Strengths
+Mid-range duelist who can deal lots of damage and create AOE damage zones that can also act as effective area denial for defending objective points or attacking enemies surrounding a certain area.
+Constant free-flight giving him advantage on attacking enemies from the skies.
+His primary fire, Fire Cluster, launches a scattershot of fireballs that can do lots of damage mid to close range.
+Each shot consumes one fire cluster out of 6.
+Regenerating fire clusters is extremely fast as it takes 2 seconds to load from 1 cluster to all 6 of them.
+This can be used indefinitely without stopping as when he reaches 0, the regeneration of his fire clusters is constant and thus can effectively keep launching them.
+It should be noted that while attacking when there are 1 or no fire clusters, his attack speed will be lowered somewhat.
+His secondary fire, Blazing Blast, creates a small AOE field that damages overtime.
+Human Torch has a limit of 3 Blazing Blasts he can create at any time, each Blazing Blast takes 3 seconds to regenerate.
+Each blazing blast field lasts up to 6 seconds before disappearing.
+Enemies take the most damage if hit with the blazing blast directly, but will take continuous damage if they stand within its field.
+Plasma Body allows for Human Torch to fly at a faster rate.
+This ability cannot be used at the same time as using his other abilities.
+Pyro-Prison can be activated when two or more Blazing Blasts are active, when 2 are active and are within range of each other can create a firewall which will damage enemies who walk over it.
+When this ability is used when 3 or more Blazing Blasts are active, it will create a geometric shape with the Blazing Blasts acting as connected dots.
+When making a shape like a triangle, rectangle, etc. the area inside also acts as a flame field to which any enemies caught within will take overtime damage.
+Flaming Meteor is an ability that allows the Human Torch to dive down rapidly and cause explosive damage which also knocks back enemies caught within the blast.
+This ability will also destroy any Blazing Blasts caught within it's damage field, dealing extra damage with the blast radius of Flaming Meteor.
+His Ultimate. Supernova, causes the Human Torch to explode with fire causing damage to enemies around him.
+While in this state his Blazing Blasts will turn into Flame Tornadoes in which deal significantly more damage to enemies within it's radius.
+While in this state his Plasma Body and Blazing Blasts do not have a cooldown and thus can be used infinitely while the ultimate is active. This comes at the expense of Pyro-Prison being unusable for Supernova's duration.
+When paired with
+Invisible Woman
+, Human Torch gains access to United Siblings, which when activated converts 100% of damage taken into bonus health for 5 seconds.
+When paired with
+Storm
+, Human Torch gains access to Omega Fire, which when Human Torch is in his Ultimate and creates a Fire Tornado, Storm's Ultimate Omega Hurricane can pass through the Fire Tornado, dealing significantly more damage as well as lasting longer.
+This can only activate when both Storm and Human Torch are using their ultimates at the same time.
+When either the Human Torch or Storm is using their ultimate while the other is not, but has their ultimate ready, they can use their team up ability button to instantly activate their ultimate as well as activate Burning Hurricane without creating a Fire Tornado.
+Weaknesses
+His main attack has a slow projectile speed and does less damage at long range that it does mid range.
+While he can infinitely throw fire clusters at enemies, when he depletes to 0-1 clusters he has a slower fire rate.
+Pyro-prison cannot create fire walls between Blazing Blasts if they each are on different elevations.
+Human Torch's Blazing Blasts and Pyro-prison are stationary when placed and thus cannot do active damage to enemies outside their range.
+His team up with Storm can only be active if both Human Torch and Storm have their ultimate abilities ready.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+HUMAN TORCH
+Default
+First Family
+RARE
+Blood Blaze
+RARE
+Negative Zone Gladiator
+EPIC
+See
+:
+All In-Game Models & Descriptions
+Human Torch
+First Family
+Fantastic Four
+(1961) #3
+Blood Blaze
+Season 1
+S1.5 Ranked Reward
+Negative Zone Gladiator
+Fantastic Four
+(1998) #600
+See
+:
+List of MVP Animations
+DEFAULT
+Human Torch
+Light Brigade Leader
+Negative Zone Gladiator
+See
+:
+List of Emotes
+DEFAULT
+Human Torch
+Insect Killer
+Negative Zone Gladiator
+See
+:
+List of Sprays
+Human Torch
+2 in 1
+Negative Zone Gladiator
+See
+:
+List of Nameplates
+Human Torch
+Negative Zone Gladiator
+Abilities
+Normal Attack
+FIRE CLUSTER
+Launch forward a splittable fireball
+CASTING -
+Burst Projectile
+CHARGES -
+6
+CHARGE SPEED -
+0.33s per use
+FIRE RATE -
+0.6s per round
+PROJECTILE SPEED -
+150m/s
+SHOT DAMAGE -
+7 per round
+DAMAGE FALLOFF -
+Falloff begins at 15m, decreasing to 60% at 40m.
+CROSSHAIR SPREAD RADIUS (AT 10M) -
+0.33m
+CRITICAL HIT -
+Yes
+Abilities
+Q
+SUPERNOVA
+Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage
+ENERGY COST -
+3400
+DURATION -
+8s
+ACTIVATION SHOCK WAVE RANGE -
+20m spherical radius
+ACTIVATION WAVE DAMAGE -
+70
+FLAME TORNADO UNLEASH SPEED -
+0.7s per use
+FLAME TORNADO RANGE -
+3m spherical radius; 8m high capsule-shaped spell field.
+FLAME TORNADO CONTINUOUS DAMAGE -
+100/s
+SUPERNOVA DAMAGE REDUCTION -
+-30%
+BLAZING BLAST
+Launch a fireball to create a Flame Field at the targeted area
+CASTING -
+Straight-line projectile that generates a spherical spell field upon impact.
+CHARGES -
+3
+CHARGE SPEED -
+2s per strike
+BLAZING BLAST PROJECTILE SPEED -
+80m/s
+BLAZING BLAST DAMAGE -
+40
+FLAME FIELD RANGE -
+3m spherical radius
+FLAME FIELD DURATION -
+6s
+FLAME FIELD CONTINUOUS DAMAGE -
+25/s
+F
+FLAMING METEOR
+Dive towards the ground, dealing damage to enemies and detonating any Flame Fields hit
+MAX DASH SPEED -
+80m/s
+RANGE -
+5m spherical radius
+DAMAGE -
+40
+FLAME FIELD DETONATION RANGE -
+3m spherical radius
+FLAME FIELD DETONATION DAMAGE -
+55
+COOLDOWN -
+12s
+SHIFT
+PLASMA BODY
+Enter a state of accelerated ascent
+MOVEMENT BOOST -
+50%
+MAXIMUM ENERGY -
+120
+ENERGY COST -
+15/s
+ENERGY RECOVERY SPEED -
+20/s
+E
+PYRO-PRISON
+Form a fire wall between Fire Fields to burn enemies
+MAX LINK DISTANCE -
+40m
+MAX LINK HEIGHT -
+2m
+FIRE WALL DURATION -
+5s
+FIRE WALL DAMAGE -
+65
+PYRO-PRISON CONTINUOUS DAMAGE -
+50/s
+COOLDOWN -
+15s
+Team-Up Abilities
+C
+STORM SIBLINGS
+The
+Invisible Woman
+taps into her powers, channeling Psionic Might to fortify the entire
+Fantastic Four
+team, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health
+DURATION -
+5s
+COOLDOWN -
+20s
+BONUS HEALTH GROWTH -
+Generate 5 Bonus Health per 0.1s
+BONUS MAX HEALTH -
+100
+X
+OMEGA FIRE
+When the Human Torch activates Supernova,
+Storm
+can summon an Omega Fire by selecting a Flame Tornado with Omega Hurricane. Likewise, when Storm unleashes Omega Hurricane, the Human Torch can transform it into a Burning Hurricane with Supernova. Any Flame Tornado caught in a Burning Hurricane will grow in size and damage
+STRENGTHENED FLAME TORNADO RANGE -
+5m spherical radius; 10m high capsule-shaped spell field.
+STRENGTHENED FLAME TORNADO CONTINUOUS DAMAGE -
+110/s
+Strategy
+Human Torch can create a large area of Pyro Prison by connecting up to 5 Flame Fields to continually provide area damage to enemies per second. If the enemies have a low health, use Flaming Meteor to detonate the Flame Fields and provide the KO punch to the enemies.
+Human Torch can escape Vanguards and non-flying characters by activating Plasma Body to quickly ascend upwards just after hitting a Flaming Meteor.
+Human Torch's abilities are unlikely to provide quick KOs to Vanguards due to their large pool of health but since Vanguards can't engage with flying heroes (Hulk being an exception), Torch can set Pyro Prison around them to deplete as much health as possible allowing other team members to take Vanguards down. When Supernova is activated, Human Torch should focus on concentrating its Flame Tornadoes on non-Vanguards to knock them out quickly allowing the entire team to take on the lone Vanguards.
+Human Torch can easily counter when Punisher sets up his Culling Turret by throwing Flame Fields around him providing rapid damage per second to him which can further be depleted by activating Pyro Prison or hitting a Flaming Meteor when the health is very low.
+Lore
+"Is it hot in here or is it just me? Oh right. It's totally me!"
+Teenager Johnny Storm joined his sister on the crew of an experimental space mission in hopes of visiting the stars. Instead, he became one, gaining power and popularity as a member of the world famous Fantastic Four. Able to generate scorching flames, Johnny is the hottest hero in town - the Human Torch.
+Since darkness fell on New York City, Johnny has been busy burning Dracula's legions with flames brighter that the sun.
+—
+Biography
+Hero Story
+"Gotta try to keep my cool. Which, for me, is NOT easy…"
+Fire Exemption Test
+Johnny Storm saw a vampire sulking along the edge of Bryant Park, and did what he always did on such an occasion: Lit it up like a Roman candle. Then he saw another one, trying to get away around the corner onto Fifth Avenue. Boom, that one was gone too. He did this every night - or every day, it was hard to tell what time it was in Dracula’s New York, because the sun never came up and the moon always hung low and red seemingly right over Grand Central. Either way, the Human Torch kept the area near Baxter Building as free of vampires as he could. That meant a lot of vampires had gone up in smoke because of him, and that in turn meant that Johnny Storm was currently Number One on Dracula’s hit list. The vampire-in-chief had sent some of his top lieutenants after Johnny, veterans of the Cult of the Darkholders, but either Johnny had lit them up too, or he’d gotten away before they could get a bite on him.
+Vampires couldn’t bite you when you were made of superheated plasma.
+That was one reason why he went out on these patrols every day. He was safer than more New Yorkers from the threat of vampires, which made him especially well suited to vampire population control, especially in the area around the Baxter Building, which was uncomfortably close to Dracula’s castle. Johnny did this because he didn’t want vampires around the Baxter Building, but also because he knew that smoking so many vampires right around the castle - where Dracula would watch - was like waving a big old middle finger at the vampire lord. He might have stopped time and imprisoned New York in a weird eternal blood moon night, but that didn’t mean New Yorkers were just going to give up.
+Johnny stayed in the air, heading south on Madison to make sure no masses of undead monsters were gathering in that direction. Also he thought
+Ben Grimm
+was doing his own sweeps of the section of Park Avenue south of Dracula’s castle. Probably vampires couldn’t bite Ben either, but Johnny wanted to make sure. They couldn’t afford to lose him. There were so many vampires, so many monsters, and not nearly enough super heroes left to defend the innocent from them.
+Blade
+was around,
+Moon Knight
+, the
+Scarlet Witch
+...pretty quickly, Johnny ran out of names.
+Oh. There was also
+Spider-Man
+, of course. One of Johnny’s oldest friends, he stayed to fight vampires, but he also was dying to get back across the East River and see about Aunt May in Queens. New York wouldn’t be New York without him.
+Johnny decided to angle over to Park and see if Ben was staying out of trouble. He hadn’t seen any vampires in a few blocks. As he swooped diagonally over the shadowed buildings lining Park Avenue, he heard an echoing boom and saw a column of smoke blast upward from the center of the street. As it cleared, Johnny saw something so crazy  that it took him a minute to convince himself it was actually real.
+The creature that tore its way up through the street was a midnight blue in color, maybe ten times the size of an elephant, had three-digit pincers instead of hands, and moved like a dinosaur in an old stop-motion monster movie. It was one of the Deviant Mutates the FF had run into on their first mission together, way back when. Mole Man had a whole stable of bizarre creatures ready to unleash on the world. Johnny remembered this one because it was made of stone, but somehow still moved. Kind of like Ben Grimm, now that he thought about it. And now here it was tearing a huge hole in Park Avenue, revealing a destroyed subway tunnel below, and a cavern below that.
+As he got a better look at it, Johnny realized that something was different about it, and its surprise appearance suddenly makes a lot more sense.
+Its eyes, he saw, burned with the empty glow you saw in lower-level vampires, the minions Dracula and the other more powerful vampires created at will.
+So not only was it a giant rock monster, Johnny thought; it was a giant vampire rock monster. Clearly Dracula was sick of just throwing more and more humanoid vampires at Johnny. He’d decided to take a different track.
+This was a problem. Johnny couldn’t burn it, so he wasn’t sure at first how to fight back as the creature smashed its way up Madison Avenue toward the Baxter Building.
+It bared stony fangs and snapped at Johnny, who veered out of the way, streaking its side with fire to no effect. Holy smokes, he thought, was it a vampire now too?
+”How did they even bite this thing?” Johnny wondered out loud. It was made of stone. If he couldn’t burn it, how could a vampire bite it?
+The creature swiped at Johnny, missed, and brought its gigantic pincers down on the street hard enough that manhole covers up and down Madison Avenue flew up into the air like giant spinning coins.
+From the corner of 33rd, Ben Grimm charged into view. “Torch, ya just draw trouble wherever ya go,” he growled. “Vampires ain’t bad enough?”
+”This one’s a vampire too!” Johnny called back as the creature bared stone fangs and snapped at Ben. The Thing swatted its jaws to the side and tried to stomp it back into the hole it had made.
+”Crazy!” he shouted. “This town’s gone ta heck in a handbasket since Dracula came along.”
+The monster shook Ben off and tried to spring on him, but for a guy made out of rocks, Ben Grimm was fairly nimble. He got out of the way. “What are we gonna do about it?”
+This was a good question. Johnny couldn’t burn it, so the best thing they could do was what Ben was trying to do: Put it back in its hole and make sure it didn’t come out again.
+The monster snapped at Johnny again as he swooped close, harrying it - and it might have gotten him, too, if a taut cable of spider-webbing hadn’t thwipped out of nowhere and pulled its head to the side.
+”Hey, Torch!” Spider-Man called out as he swung into view. “My Spidey-Sense has been tingling like crazy for the last ten minutes. Now I know why.”
+”You’re just in time,” Johnny answered l, as he distracted the monster again by swooping close to its snapping jaws - and then narrowly avoiding its pincers, which stabbed through the air where he’d been just a second before. “Get some webs on it, Pete! I’m going to dive under it.”
+”You’re gonna what?” the Thing echoed incredulously.
+”Easy,” Johnny said. “Pete gets it hanging over the hole, I get underneath it, then break the webs and I’ll help it down the hole.”
+”From underneath?” the Thing echoed again.
+”Trust me!” Johnny said as he dodged another pincer.
+”I can’t break my webs,” Spider-Man said. “They’re too strong.”
+”Can I?” the Thing asked. “Don’t remember even trying.”
+”Maybe?” Spider-Man wondered. “I’d hate to plan on it, you know?”
+”Yeah.” Johnny had a thought. “Ben, if you can’t break the webs, you can just tear off the part of the building they’re stuck to, right?”
+“Sure,” Ben said. “But you forgot one thing. I can’t climb like him,” jutting a rocky thumb at Spider-Man, “and I can’t fly like you.”
+Johnny glanced over at Spider-Man, and saw that Pete was reaching the same conclusion he was. “I think we can work around that,” he said.
+”Aw, no,” Ben said. “I don’t wanna-“
+But Spider-Man had already snapped a web onto his back and started swinging him up into the air. More webs followed, binding the monster to the upper corners of buildings on both sides of Park Avenue, so it hung in the middle, half-in and half-out of the hole it had made.
+Here was the part part, Johnny thought. He had to get the monster to stay in one place, and the best way to do that was to offer himself up as bait. So he dove underneath it, and the monster pounced. Both of its pincers clamped down on Johnny, not hurting him much but keeping him pinned as the monster bared its fangs. Here’s where he would find out if he was right that vampires couldn’t bite superheated plasma, Johnny thought.
+He focused and felt his temperature get hotter. Then hitter still. Then so hot that the subway tracks and the concrete pillars inside the ruined station started to buckle. “Now, Ben!” he shouted again.
+Up above, Ben Grimm tore Spider-Man’s web away from its anchor on the corner of the office tower. Maybe a cubic yard of brick and concrete came with it, tumbling down to crash onto the monster’s stone carapace.
+And Johnny Storm went nova.
+The vast mass of the stone monster blocked most of the nova blast from surfing upward and out onto the street. The blast wave radiated downward into the tunnel carved by the stone Deviant on its way up from the deep caves where it originated, melting stone along with the reinforced concrete of the subway tunnel.
+The monster couldn’t burn, but the shock of the nova blast stunned it and let Johnny break free. He streaked up out of the hole as it collapsed over the monster, which tumbled into the bottomless cavern it had crawled out of just a few minutes before. Molten asphalt, steel, and stone sealed the hole, cooling quickly into a huge pit in the middle of Park Avenue.
+Whew, Johnny thought. “Flame off,” he said, and dropped to the street. Ben lowered into view on the end of one of Spider-Man’s webs.
+”This is humiliatin’,” he said.
+”Couldn’t have done it without you, Benjy,” Johnny grinned.
+As the Thing’s feet hit the pavement, Spider-Man swung down and landed next to him. “Pretty neat trick,” he said.
+”Yeah, not bad,” Johnny said. “All about the teamwork.”
+”Who ever heard of a vampire rock monster?” Ben was looking at the pit. Then his wonderment was replaced by his typical pessimism. “It might come up again, ya know.”
+Johnny looked down at the wreckage, the up Park Avenue towards Dracula’s castle. “Yeah,” he said. “I know. This isn’t a war we’re going to win tonight. But it is a war we’re going to win.”
+The longer he looked at Dracula’s castle, the more Johnny imagined he could see Dracula looking back at him, cold and angry at the failure of his latest scheme to extinguish the Human Torch once and for all.
+He loved it. “Come and get me,” he dared the distant vampire lord. “If you’ve got the guts.”
+Delayed Fireball
+(Coming soon. Stay Tuned!)
+Sofa in the White Hot Room
+(Coming soon. Stay Tuned!)
+Achievements
+To be added
+Quotes
+See
+Human Torch/Quotes
+Balance Changes
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Human Torch
+was added as the 36th hero to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+First Family
+and
+Negative Zone Gladiator
+.
+Added to the
+Fantastic Four
+Team-Up Ability
+with
+Invisible Woman
+,
+Mister Fantastic
+, and
+The Thing
+and the
+Storming Ignition
+Team-Up Ability
+with
+Storm
+.
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Resolved a glitch where the
+Human Torch
+'s
+Flaming Meteor
+ability could sometimes trap hit enemies inside walls. Now, foes will feel the burn, not the barrier!
+Fixed an issue that the
+Human Torch
+'s
+Pyro-Prison
+wouldn't promptly disappear upon his defeat. No more lingering flames!
+25/03/14:
+Version 20250314
+Increase
+Fire Cluster
+projectile speed from 120m/s to 150m/s and projectile count from 12 to 14.
+Increase the energy cost of
+Supernova
+from 3400 to 4000.
+Increase activation wave damage from 70 to 80 and
+Flame Tornado
+damage from 100 per/s to 120 per/s.
+25/03/27:
+Version 20250327
+Addressed a rare bug where the
+Human Torch
+'s Primary Attack would sometimes miss its target entirely, leaving his incendiary prowess a little less scorching. With this fix, every burst of flame burns as brilliantly as intended--ensuring his heat is always on target!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Reduce attack interval for
+Fire Cluster
+from 0.6 seconds to 0.5 seconds; the launch timing of the primary attack projectile has been advanced.
+Increase the cooldown for
+Flaming Meteor
+from 12 seconds to 15 seconds, but add a new effect: After releasing
+Flaming Meteor
+, immediately gain 75 Bonus Health, which will start to falloff 3 seconds later at a rate of 30 per second.
+Added 1 new costume:
+Blood Blaze
+(unlocked from ranked mode in
+Season 1.5
+)
+Gallery
+Other
+Costume Origins
+Human Torch- Hottest Hero In Town - Character Reveal - Marvel Rivals
+Prestige Artwork
+Hero Logo
+Hero Story Artwork
+"First Family" costume in
+Fantastic Four
+(1961) #3
+"Negative Zone Gladiator" costume in
+Fantastic Four
+(1998) #600
+Trivia
+Human Torch was datamined from multiple sources around December 2024, along with 15 other characters, including
+Angela
+,
+Blade
+,
+Captain Marvel
+,
+Deadpool
+,
+Emma Frost
+,
+Hit-Monkey
+,
+Invisible Woman
+,
+Mister Fantastic
+,
+M.O.D.O.K.
+,
+Phoenix
+,
+The Hood
+,
+The Thing
+,
+Ultron
+, and
+Valkyrie
+.
+[
+1
+]
+References
+↑
+All Marvel Rivals Leaks: All 15 Characters, 5 Maps, Team-Ups, Game Modes, And More
+. The Game Post (December 31, 2024).

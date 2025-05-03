@@ -1,0 +1,351 @@
+{
+  "name": "Winter Soldier",
+  "role": "Duelist",
+  "stats": {
+    "health": 275,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F87171",
+    "color_theme_secondary": "#CA8A04"
+  },
+  "abilities": [
+    {
+      "name": "ROTERSTERN",
+      "keybind": "LMB",
+      "type": null,
+      "description": "Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": "75",
+      "damage_falloff": "Falloff begins at 20m, decreasing to 60% at 40m",
+      "fire_rate_interval": "2.5 rounds per second",
+      "ammo": 3,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": "Cone-shaped spell field with a 5m radius and an apex angle of 90°",
+      "projectile_speed": "180 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Enemies that take damage from the projectile will no longer receive damage from the spell field"
+    },
+    {
+      "name": "TROOPER'S FIST",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Dash forward, seizing enemies along the path and launching up enemies at the end of the dash",
+      "casting": "Movement-based damage ability",
+      "damage": "65",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "Length: 4.5m, Width: 4.5m, Height: 2m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "30 m/s",
+      "energy_cost_details": null,
+      "details": "Maximum distance: 9m\\nSeize damage: 25"
+    },
+    {
+      "name": "TAINTED VOLTAGE",
+      "keybind": "E",
+      "type": null,
+      "description": "Charge up and launch a powerful electrical punch with the bionic arm in the target direction, dealing damage to enemies within range and Slowing them. This ability can Knock Down flying heroes",
+      "casting": "Projectile that fires in a straight trajectory",
+      "damage": "55",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "6s",
+      "range": null,
+      "projectile_speed": "100 m/s",
+      "charges": null,
+      "duration": "2s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "charges": 2
+      }
+    },
+    {
+      "name": "BIONIC HOOK",
+      "keybind": "RMB",
+      "type": null,
+      "description": "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": "15",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "The projectile can travel up to 10m with a 0.5s charge. As the charge time increases, it can reach a maximum distance of 20m with a 1s charge\\nCone-shaped spell field with a 4.5m radius and an apex angle of 80°",
+      "projectile_speed": "80 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Spell field damage: 20\\nCharge time: 0.5s - 4s"
+    },
+    {
+      "name": "CEASELESS CHARGE",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Bonus health (self): 40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact), 30 (Stellar Impact)"
+    },
+    {
+      "name": "STELLAR IMPACT",
+      "keybind": "C",
+      "type": "Team-Up",
+      "description": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies.",
+      "casting": null,
+      "damage": "70",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": "8m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "bonus_health_allies": 50
+      }
+    }
+  ],
+  "ultimate": {
+    "name": "KRAKEN IMPACT",
+    "keybind": "Q/MS3",
+    "type": null,
+    "description": "Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period",
+    "casting": "Spherical Spell Field",
+    "damage": "80",
+    "range": "5m spherical radius",
+    "effect": "Culling",
+    "duration": "5s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": null,
+    "energy_cost": 3100,
+    "details": "Culling threshold: 15% Health\\nNext Kraken Impact after a Culling: 8s"
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "Stellar Impact",
+      "details": {
+        "bonus_health": 50
+      }
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "As Winter Soldier is built around continuous brawling around the frontlines, he will typically want to position close to his team's Vanguards and Strategists, weaving abilities between firing to whittle down enemies while looking for opportunities to pull in unaware enemies with Bionic Hook for an easy, isolated kill. --- Winter Soldier in Marvel Rivals revolves around aggressive mid-range engagements, capitalizing on his burst damage and ability to manipulate enemy positioning. Players should focus on utilizing cover to safely deliver accurate shots with his powerful exploding round pistol, aiming for headshots to quickly eliminate key threats like duelists and strategists. The Bionic Hook serves as a crucial tool for initiating fights, pulling vulnerable enemies out of position for easy elimination, or disrupting overextended vanguards. Weaving in his abilities is essential not only for their direct effects, such as the slow and anti-air capabilities of Tainted Voltage and the disruptive dash of Trooper's Fist, but also for the passive health and ammo reload they provide, enhancing his survivability and sustained damage output in prolonged skirmishes. The ultimate ability, Kraken Impact, should be reserved for finishing off marked targets, allowing for a potential reset and chain of devastating area-of-effect damage. Effective Winter Soldier players will constantly look for opportunities to isolate enemies, exploit their positioning with the Bionic Hook, and maintain a high tempo of attacks, leveraging his passive to stay in the fight longer.",
+    "weaknesses": [
+      "Has limited mobility outside of his Ultimate and a Short dash.",
+      "Winter Soldier is very reliant on his bionic-arm abilities to keep damage going; if he mismanages them, he can be left incredibly vulnerable with his gun relying on them.",
+      "The Culling debuff from Kraken Impact lasts for only 5 seconds, making strong defensive abilities like Barrier and Soul Bond to be effective counters."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Brothers in Arms",
+        "description": "As Winter Soldier, land 1 KO with an assist from Rocket Raccoon.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Arm Race",
+        "description": "As Winter Soldier, land 3 KOs with a single use of Kraken Impact.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "I'm not anyone's sidekick, what I do best is done alone.",
+    "ingame_bio_text": "Terrifying experiments turned him into a brainwashed assassin, but now James Buchanan \"Bucky\" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!",
+    "ingame_story_intro": "I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.",
+    "hero_stories": [
+      {
+        "title": "A Helping Hand",
+        "content": "The news streamed in from all over the world. The people in charge were calling it the Timestream Entanglement — a sudden disruption in the fabric of space and time that had sent chaos rippling across countless realities. The heroes of Earth had assembled to face the crisis head on. Not all of them had survived.\\n\\n\"...entire world is in a state of mourning for Steve Rogers, the beloved hero known as Captain America, who was struck down earlier this week when...\"\\n\\n\"About damn time,\" a security officer in a Hydra uniform grunted, cracking a smile as he watched the satellite feed in the monitor station of the hidden Arctic base where he was stationed. (Rest of story omitted for brevity)",
+        "status": null
+      },
+      {
+        "title": "Back to Maveth",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Alone and Helpless",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "changes": [
+          "Winter Soldier was released as the 24th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: Navy Trooper and Revolution.",
+          "Added the Arm Race achievement.",
+          "Added to the Ammo Overload Team-Up Ability with Rocket Raccoon and The Punisher."
+        ]
+      },
+      {
+        "date_version": "24/12/10: Version 20241210",
+        "changes": [
+          "When the target area is ascending or descending, if Winter Soldier hit an enemy with his Ultimate and they landed right on the target area platform, damage may be lost. This issue has been resolved."
+        ]
+      },
+      {
+        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
+        "changes": [
+          "After using his ultimate, the Winter Soldier's movement speed issues upon respawn have been fixed. He's back to full combat readiness!"
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Fixed occassional incorrect resets of Winter Soldier's ultimate ability.",
+          "Fixed an issue where the Winter Soldier's ultimate ability would sometimes fail to hit targets within its range."
+        ]
+      },
+      {
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "changes": [
+          "Increase the bonus health provided by Bionic Hook and Tainted Voltage from 30 to 40.",
+          "Increase Roterstern's projectile damage from 70 to 75.",
+          "Reduce the area damage from 70 to 65 and reduce damage decay from 65% at 40 meters to 60%.",
+          "Increase base health from 250 to 275."
+        ]
+      },
+      {
+        "date_version": "25/01/22: Version 20250122 / Fortune & Colors Event",
+        "changes": [
+          "Addressed an issue where if Winter Soldier used his ultimate ability to defeat a shapeshifted Loki, it wouldn't count towards the ultimate ability consecutive KO achievement."
+        ]
+      },
+      {
+        "date_version": "25/01/31:",
+        "changes": [
+          "Added 1 new costume: Blood Soldier."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Addressed an issue where Winter Soldier's ultimate sometimes visually appeared to hit targets but would actually miss. The sharpshooter's aim is now spot on!"
+        ]
+      },
+      {
+        "date_version": "25/03/14: Version 20250314",
+        "changes": [
+          "Resolved a bug where the Winter Soldier's Tainted Voltage automatic reload could fail to trigger after firing and immediately using his Trooper's Fist ability. Bucky's firepower is now as relentless as his mission for justice!",
+          "Fixed an issue where if the Winter Soldier used Bionic Hook during the slow-motion match over moment, it could cause abnormal arm model display in the next round. Now, Bucky's got his look--and his lethal arm--back on point!"
+        ]
+      },
+      {
+        "date_version": "25/04/08:",
+        "changes": [
+          "Addressed an issue where Bucky would sometimes descend before ascending while unleashing his Ultimate Ability in unstable network conditions. Now, the Winter Soldier rises to the occasion without any time-traveling hiccups--no need for a Doctor Strange intervention!"
+        ]
+      },
+      {
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "changes": [
+          "Increase the cooldown time for Bionic Hook from 8 seconds to 12 seconds.",
+          "Reduce base damage of Kraken Impact from 100 to 80 and lower the culling threshold from 20% of maximum health to 15%.",
+          "Added to the Stars Aligned Team-Up Ability with Captain America, but removed from the Ammo Overload Team-Up Ability with Rocket Raccoon and The Punisher."
+        ]
+      },
+      {
+        "date_version": "25/04/18:",
+        "changes": [
+          "Added 1 new costume color for Blood Soldier: Winter's Wrath."
+        ]
+      },
+      {
+        "date_version": "25/04/30: Version 20250430",
+        "changes": [
+          "Adjust the Tainted Voltage ability to have 2 charge levels, while keeping the cooldown time unchanged.",
+          "Upon leaping to a teammate, Stellar Impact will provide 50 Bonus Health to allies within range."
+        ]
+      },
+      {
+        "date_version": "25/05/02:",
+        "changes": [
+          "Added 1 new costume: Thunderbolts*."
+        ]
+      }
+    ],
+    "official_quote": "I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.",
+    "official_description": "Winter Soldier is a Duelist hero in Marvel Rivals, and is the 24th hero introduced to the game's roster.\nHe has a team-up ability that work in conjunction with Captain America."
+  },
+  "background": {
+    "real_name": "James Buchanan \"Bucky\" Barnes",
+    "aliases": [
+      "Bucky"
+    ],
+    "birthplace": "Shelbyville, Indiana",
+    "birthdate": "1920s-1930s",
+    "gender": "Male",
+    "eye_color": "Blue",
+    "hair_color": "Brown",
+    "relatives": [],
+    "affiliation": [
+      "HYDRA (formerly)",
+      "Invaders"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Enhanced physical conditioning through genetic manipulation",
+      "Bionic left arm that grants superhuman strength, multipurpose weaponry, and extendable tendrils",
+      "Expert marksman",
+      "Expert hand-to-hand combatant"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Winter+Soldier%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "C",
+    "win_rate": "44.97%",
+    "wr_change": "-4.45%",
+    "pick_rate": "13.25%",
+    "pr_change": "-15.97%",
+    "ban_rate": "0.69%",
+    "matches": "197,678"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

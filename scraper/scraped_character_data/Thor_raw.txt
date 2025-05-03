@@ -1,0 +1,501 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Thor =====
+
+Thor
+"I am the god of thunder and the mightiest Avenger."
+Real Name
+Thor Odinson (ᛏᚺᛟᚱ ᛟᛞᛁᚾᛊᛟᚾ)
+Aliases
+God of Thunder
+Prince of Asgard
+Son of Odin
+Biographical Information
+Birthplace
+Asgard
+Gender
+Male
+Eye color
+Blue
+Hair color
+Blond
+Relatives
+Bor
+(grandfather)
+Odin
+(father)
+Frigga
+(mother)
+Angela
+(older sister)
+Loki
+(younger foster brother)
+Thori
+(pet)
+Powers/Skills
+Superhuman strength, durability, stamina, reflexes, and longetivity
+Flight and enhanced weather and lightning manipulation via Mjolnir
+Master hand-to-hand combatant
+Electrokinesis
+Asgardian physiology
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Vanguard
+Health
+525
+Difficulty
+Affiliation
+Avengers
+Gods of Asgard
+Portrayal
+Voice Actor
+Travis Willingham
+The son of Odin taps into his divine power to call forth thunder and lightning, raining down relentless fury upon his enemies. With his mighty hammer Mjolnir in hand, Thor effortlessly asserts his dominance on the field of combat.
+Official description
+Thor
+is a Vanguard
+hero
+in
+Marvel Rivals
+, and is the 23rd hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Hela
+and
+Loki
+.
+Overview
+Strengths
+A bulky bruiser who excels at constantly bullying his enemies at close-range, while gaining bonus health to keep him constantly in action.
+Thor's gameplay revolves around his passive, Thorforce, which grants him bonus health depending on what type of ability he uses. Thorforce is displayed as icons underneath the aiming reticle.
+His primary fire, Mjolnir Bash, deals a small amount of damage but has the added effect of instantly replenishing a single charge of Thorforce per successful hit.
+His secondary fire, Hammer Throw, is a ranged attack of relatively low limited distance that can deal damage when hurled and also when the hammer returns to Thor. It costs one charge of Thorforce.
+Storm Surge is Thor's main mobility tool. It allows him to perform a quick lunge with his hammer in any direction, with the distance and damage increasing the longer it is charged (from 10 meters to up to 20 meters when fully charged). If Thor hits an enemy, they're pushed back and carried alongside the attack. This move is versatile and allows Thor to get in and out of combat easily. It costs one charge of Thorforce.
+This ability makes Thor formidable to dive at the backline to get Strategists out of position and ensure the team takes them down.
+It also makes Thor an exceptional peeler, as he can also push away enemy team divers attacking his team's own backline.
+Awakening Rune temporarily enhances Thor's Mjolnir Bash, turning it into a ranged attack, being his best tool for zoning from a safe distance. This ability lasts for 5 seconds and costs three charges of Thorforce.
+In addition, Thor deals damage-over-time to all nearby enemies.
+Thor also gains a larger amount of bonus health than usual.
+Lightning Realm creates a spell field that deals damage and slows down enemies by 30%. It also restores Thorforce based on the number of enemies hit.
+It's the only normal ability that doesn't consume Thorforce charges.
+Enemies will take damage whenever they cross through the spell field.
+His Ultimate, God of Thunder, has Thor leaping into the air while charging Mjolnir, which creates a spell field in a large radius around him that deals a small amount of damage. It's followed by Thor slamming the hammer down to the ground and dealing high damage.
+When paired with
+Hela
+, he gains access to Odinson Reborn, where Hela instantly revives Thor if she lands the final hit on an enemy. If Thor is alive, he receives a small amount of bonus health instead.
+When paired with
+Storm
+, he gains access to Thunderous Deity, which gives him extra 100 max health.
+Weaknesses
+Relatively slow moving and with limited melee range outside of his Awakened Rune.
+Slightly lower max health compared to other Vanguards.
+Relies on constantly hitting opponents to keep his charges of Thorforce up to gain bonus health.
+Functions more as a melee Duelist than a Vanguard, having few options to actually protect his team.
+Thor cannot use other abilities while Awakening Rune is active, except for his Ultimate.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+THOR
+Default
+Midgard Umber
+RARE
+Reborn from Ragnarok
+RARE
+Herald of Thunder
+EPIC
+Lord of Asgard
+EPIC
+Thor: Love and Thunder
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Thor
+Midgard Umber
+Season 0
+Reborn from Ragnarok
+Thor
+(2007) #1
+Midnight Features
+S1 Event
+Herald of Thunder
+Thor
+(2020) #1
+Lord of Asgard
+Thor
+(1998) #60
+Thor: Love and Thunder
+Thor: Love and Thunder
+(2022)
+See
+:
+List of MVP Animations
+DEFAULT
+Thor
+Darkness No More
+Herald of Thunder
+Beyond Limits
+Lord of Asgard
+Love and Thunder
+Thor: Love and Thunder
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Thunder Shines On Me
+Well of Mimir
+Please Don't Go
+See
+:
+List of Sprays
+Thor
+Tooth and Hammer
+Thor Emblem
+Herald of Thunder
+Lord of Asgard
+Thor: Love and Thunder
+See
+:
+List of Nameplates
+Thor
+Herald of Thunder
+Lord of Asgard
+Thor: Love and Thunder
+Abilities
+Normal Attack
+MJOLNIR BASH
+Wield Mjolnir to strike enemies. When Awakened, Thor can launch lightning arc waves to deal damage
+CASTING -
+Single-cast Spell Field
+DAMAGE -
+45
+INTERVAL -
+0.6s
+RANGE -
+4m
+Abilities
+Q
+GOD OF THUNDER
+Soar upwards and smite the ground after charging for a duration, inflicting damage on enemies within range
+CASTING -
+A persistent spell field that generates a one-time spell field upon expiration.
+DAMAGE -
+While charging, create a sustained spell field that deals 40 damage every 0.5 seconds, followed by a one-time spell field that deals 220 damage.
+DURATION -
+1.5s
+RANGE -
+The sustained spell field is cylindrical, measuring 8m in radius and 20m in height, whereas the one-time spell field has an 8m spherical radius
+HEIGHT-
+9m
+ENERGY COST -
+3100
+SHIFT
+STORM SURGE
+Hold to spin Mjolnir before dashing forward and knocking back enemies
+CASTING -
+Charged Dash
+MAXIMUM CHARGE TIME-
+2s
+DASH DISTANCE-
+No charge: 10m; Full charge: 20m. When carrying an enemy, the ranges are 6m with no charge and 13m with full
+DAMAGE -
+No Charge Damage: 40; Full Charge Damage: 60
+THORFORCE COST-
+1
+E
+LIGHTNING REALM
+Summon lightning that restores Thorforce based on the number of hit enemies
+CASTING -
+Persistent Spell Field
+DAMAGE -
+Deal 40 damage when enemies cross the boundaries
+COOLDOWN -
+12s
+RANGE -
+5m spherical radius
+MAXIMUM CHARGE TIME-
+4s
+SPECIAL EFFECT
+⚬ For each enemy within the spell area, 1 point of Thorforce is restored. Enemies that cross the boundary will be Slowed by 30%
+F
+AWAKENING RUNE
+Consume Thorforce to enter the Awakened state, granting Bonus Health and enhancing Mjolnir Bash
+CASTING -
+Ability Enhancement
+DAMAGE -
+Projectile Damage: 70, Spell Field Damage: 30 per second
+MAX SHIELD DURATION-
+2.5s
+THORFORCE COST-
+3
+DURATION -
+5s
+RANGE -
+3m spherical radius
+PROJECTILE SPEED -
+60 m/s
+ATTACK INTERVAL -
+The first three stages last for 0.4s each, while the fourth stage lasts for 0.8s
+SPECIAL EFFECT
+⚬ Inflict damage over time on nearby enemies
+PASSIVE
+THORFORCE
+Consume Thorforce to gain Bonus Health. Landing Mjolnir Bash on an enemy instantly recharges Thorforce
+MAXIMUM THORFORCE-
+3
+THORFORCE RECOVERY SPEED-
+5s per Thorforce
+BONUS HEALTH PER THORFORCE-
+Each point of Thorforce consumed grants 100 Bonus Health, while abilities that consume 3 points of Thorforce grant 200 Bonus Health
+BONUS MAX HEALTH-
+200
+MJOLNIR BASH ENERGY RECOVERY PER THORFORCE-
+5s
+THORFORCE CONSUMPTION COOLDOWN-
+1.5s
+Team-Up Abilities
+PASSIVE
+ODINSON REBORN
+When
+Hela
+lands a final hit in defeating an enemy, she can instantly resurrect
+Loki
+and Thor in the respawn phase, or grant them bonus health if they are still alive
+RESPAWN HEALTH PERCENTAGE-
+80%
+BONUS HEALTH-
+50
+RESPAWN DELAY-
+1.5s
+PASSIVE
+THUNDEROUS DEITY
+Thor infuses Thorforce into
+Storm
+and
+Captain America
+, granting them an electrifying enhancement. With an electrifying enhancement, Storm can unleash a lightning barrage. With an electrifying enhancement, Captain America gains a Movement Boost, and his shield is imbued with thunder power, electrocuting nearby enemies
+TEAM-UP BONUS -
+Gain 100 Max Health
+Strategy
+To be added
+Lore
+"Though I be a god, I would rather inspire mortals than be worshiped."
+Prince of Asgard and God of Thunder, Thor Odinson is one of the bravest warriors the cosmos has ever known. With his enchanted hammer in hand, Thor summons the full fury of the storm to smite his foes... but only if he proves himself worthy of Mjolnir's might.
+Alas, Thor has suffered greatly since the Timestream Entanglement. When the All-Father was forced to enter his regenerative Odinsleep, Thor and his brother Loki battled for the throne. Through deceit and trickery, Loki bested his brother, exiling Thor to a distant and dangerous timeline.
+—
+Biography
+Hero Story
+"Mjölnir, let Heven and Hel hear thy soar!"
+Gone With the Thunder
+Boom.
+Thor sat in the Tower of Solitude, the library-prison once used by All-Father
+Odin
+. Hunched over a stone bench in a stone room, the Tower's sole prisoner on the orders of his brother, he fumed silently, waiting for the chance to act, and fearing what fate might befall Asgard if he could not act soon.
+Boom.
+From outside came rhythmic impacts, as something powerful hurled itself against the tower's walls. Thor could only wait.
+Loki
+had outwitted him, duping him into entering the Tower and imprisoning him there. As one might expect of a clever usurper such as Loki, the room was enchanted to stifle any sound he might utter.
+Boom.
+Dust and mortar drifted from one wall of Thor's cell. He stood. It was almost time. Loki might have betrayed him and made his devious play for the throne of Asgard, but even Loki could not think of everything.
+Boom.
+It had not occurred to him, for example, that Thor could call Mjölnir without making a sound.
+BOOM
+Mjölnir exploded through the wall of the Tower of Solitude and met Thor's extended hand. He gave a shout, relieved to hear the sound of his voice again.
+"Brother!" With its walls shattered, the Tower of Solitude no longer held its enchantments. More quietly than his initial challenge, Thor added, "You have a surprise in store."
+He flew through the hole, over the city of Asgard and toward the palace. Yggdrasil's roots arched far overhead. Loki had crews at hard labor tapping the World-Tree's sap, which was rich in Chronovium. Thor had no doubt that Loki would cut a deal with the dwarves or anyone else who could use the rich sap to create magical weapons or instruments. If he hadn't already. Chronovium had also transformed Loki's magic, making him even more powerful — but Thor felt it too. It glimmered in the carvings on Mjölnir's Uru head. He felt it even in the Odinforce.
+Now Loki would feel it, too.
+He shouted out his brother's name, letting the challenge echo across the city. "Your plan didn't work, brother! You see I'm free!"
+And Loki was there, manifesting in the air just out of Thor's reach. "On the contrary, brother, my plan is working perfectly. Do you not think I anticipated you would solve this problem the only way you ever solve any problem?" He smirked. "That is to say, with brute force?"
+The smirk was the opening Thor needed, the single moment of inattention that always got Loki in trouble. He seized Loki and dropped to the ground, smashing his brother into the stones of Asgard's palace plaza. He raised Mjölnir, but Loki stung Thor's hand with a short knife and twisted away.
+How long had they been inexorably moving toward this moment? Centuries. Tens of centuries. I have tried, Thor thought. I tried to make him feel like one of us. But Loki only ever looks out for Loki, and now — again — Asgard's future hangs in the balance.
+"I knew you had escaped the Tower before you were all the way through the hole," Loki sneered. "It's always makes me chuckle when you scream ‘Brother' like when we were children."
+"And yet you have answered my call," Thor shot back. "If you could have stopped me, why the charade?"
+"Oh, brother," Loki said, twisting the word, "you know I love a charade. And by escaping, you have helped settle a little dispute I was having. You see, a certain someone who may shortly be joining our conversation did not believe you would escape. And now that you have, she will doubtless see the wisdom of my proposed course of action."
+As if he had summoned it, a portal opened. Through it, Thor saw the unmistakable landscape of Hel, bleak and dark and endless. Hela's legions of dead were on the march, Chronovium glittering in their empty eyes,
+Hela
+herself leading them on. Space bent around her, and in the next instant, she had stepped through the portal.
+"Loki," she said. "I see you let your brother escape."
+"He is more resourceful then he seems," Loki said, keeping a wary eye on Thor.
+"Or you were overconfident?" Hela countered.
+"Hardly," Loki snapped. "I have anticipated everything thus far. Of course he would break down the Tower's walls and come to find me. If I were a creature of muscle and rage, with just enough brain to speak, that is what I would do. And of course at the moment he was seeking his revenge, what he thinks of as protecting Asgard from me, you would make your grand entrace, because even more than me, Hela, you love to be the center of attention." Loki spread his arms, taking in the situation. "Where was I wrong?"
+"You betraryed Asgard to Hela?" Rage nearly blinded Thor. Lighting crackled from Mjölnir, and from Thor's eyes, as the Odinforce rose within him. This was unforgivable treason — again! How many times had Loki done this, or tried to? And now, with the mortal Doctor Doom upending time and space, he was doing it again?
+"Asgard was always destined to be mine," Loki said. "The All-Father sleeps while the Realms are torn apart by scheming mortals. We do nothing as so-called Heroes blunder through their failed solutions to the problem. I intend to change that. But I cannot do that while you lumber around getting in the way. So." He gestured toward the portal.
+When Thor looked that way, he saw that the portal had enlarged a hundredfold, and the legions of the dead were upon him.
+They came in seemingly endless waves, eyes empty and mouths open in snarls of mindless hate. Thor tore great swathes through them Mjölnir, lightning breaking apart Hela's armies. Asgardians, Dark Elves, trolls of Jotunheim... the denizens of all the Ten Realms came together in Hela's legions, since death alone united every race connected to the World Tree. Thor fought them alone, while Hela and Loki watched, as if he was a gladiator whole life was their entertainment. He shattered them with Mjölnir, annihilated them with lighting, but cawing over Hela's legions were an endless flock of the Nastrond Crows, hellish creatures that Thor's blows could not destroy. They swooped and pecked and clawed, and no matter how Thor struck at them, they reformed from clouds of black feathers and came at him again.
+No help was coming. Asgard was crippled by fear of Loki. The Valkyrior and the Crimson Hawks were away from the city fighting pointless wars in other realms, another maneuver by Loki to leave the city defenseless. All that stood between Asgard and Hela's legions was Thor himself. So be it, he thought. He would strike them down until he could no longer raise his arm.
+That time was coming. He slew crows by the thousand and yet their numbers were undimished. He was still the Odinson, god of thunder... but even gods grew old, and Thor felt the centuries in his bones as he shattered the lava-crusted skeleton of a Muspelheim fire demon and unleashed a blast of lighting that tore a great hole in Hela's ranks reaching across the plaza into the portal itself. If he could only close it... but no, he had not the magic. He would fight until he fell and earn his passage to Valhalla.
+Then, just as Thor had abandoned hope, Hela prolonged his misery. "I tire of this game," she said. With a gesture, she dispelled her armies.
+The sudden silence in the plaza was jarring, broken only by the cawing of Hela's crows, who remained fluttering and squawking over the broad plaza before the Palace of Asgard. One alit on Hela's shoulder as Thor calmed his battle frenzy and turned to face her. If she wanted single combat, he would offer it, but he was tired and Hela's magic was mighty. He had no faith that he would survive, or that Loki would intervene on his behalf.
+But she did not strike him down. "thor," she said, "the die is cast. Asgard is Loki's. Your father abadoned it and you could not protect it. Now Loki will." With a diabolical smile she added, "And of course I will offer my own guidance."
+"None of the Realms will survive if you destroy the balance among them," Thor said. "You will bring Ragnorak."
+"No," Hela said. "The universes and the Realms are torn asunder and remade, doomed by those meddling mortals whose names for once speak true. The old ways, the old balances, they no longer apply. And you, Thor Odinson, are but a stumbling block, interfering with a new vision of the Ten Realms and beyond."
+Thor flexed his arms to strike at her, but a powerful enchantment held fast. Such aws her power that he had not seen her make a motion or speak a spell.
+"The old must make way for the new," Hela said. "And sooner or later, everyone will make way for the dead."
+Thor could see Loki just behind Hela, looking smug and completely in control as he created a portal from his newly tapped Chronovium. But how long before the trickster understood that Hela was playing her own tricks? The brothers locked eyes. Thor knew Loki could read his expression, even though he could not speak. This not over, brother. I am coming for you, and when I do, no god or magic in the Ten Realms will save you.
+"Goodbye, Odinson," Hela  sneered, her dark power ensnaring him. And with a toss of her glorious hand, Thor was flung on a journey into mystery.
+He fell from the sky trailing fire, and his impact left a ring of scorched ground a thousand feet across. When Thor stood, the echoes of his landing were still sounding in the dry hills that surrounding him. He was in a desert, with those hills receding in all directions under a sky that glowed a infernal red. He had never seen this place before. It was Midgard, certainly, but not the Earth he knew. Loki's sorcery had flung him very far from home indeed.
+Thinking of his brother got Thor moving. Whatever Earth this was, he needed to find allies to accompany him back to Asgard and remove Loki from the throne before Loki's scheming backfired and Hela ruled all the Ten Realms.
+But where to go...?
+On the horizon, he could see what might be a small city. Lights blazed around a tall tower. He would start there.
+Then he saw something rise up into the sky from near the tower. It grew rapidly, silhoutetted against a red sun, and Thor realized it was moving.
+Toward him. And very fast.
+He had just gotten Mjölnir up in front of him when a giant came screaming down out of the sky, smashing Thor into the bottom of a new impact crater. Thor felt his power rebuilding withing him, along with his battle fury. He released both in a blow from Mjölnir that knocked the giant back out of the crater. Thor leaped up after him, Mjölnir poised for another blow — and he saw his opponent was none other then the Hulk. But a different Hulk, crackling with vivid green energy and even bigger than the last time Thor had seen him, wearing a belt featuring various lights and devices. "Banner!" Thor cried out, dodging a swipe of Hulk's massive fist. "What  sorcery is this?"
+Hulk roared and smashed Thor into the ground again.
+Very well, Thor thought. He knew his one-time ally was prone to unthinking rages when in battle. Sometimes he had to be brought out of them another  way.
+Hulk's next punch met the head of Mjölnir, swung with all Thor's might. The blast wave from that collision knocked them both sprawling. Thor was up first. He leaped in a high arc over Hulk, coming down to deliver a mighty hammer blow to Hulk's belt. Gamma energy exploded out, searing Thor's eyes and knocking him flat. Dazed, he tried to get to his feet. When he could see again, the monstrous Hulk was gone and Banner sat in the shreds of his clothes and shattered pieces of his belt.
+"Oh," he said. "Thor." He rubbed his face as he stood, and his expression swiftly changed as he registered that it was actually Thor who stood before him. "Thor! Do you know how long we've been looking for you?"
+Thor didn't know. He didn't know where they were or what Banner was talking about, and he didn't care. All that mattered was Asgard. "Banner," he said, "I need your help."
+Everything Burns
+(Coming soon. Stay Tuned!)
+Frigga, Gaea and Firehair
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+The Odinson Returns!
+As Thor, take down an enemy Loki.
+5
+Divine Justice
+As Thor, strike down 4 enemies with a single use of God of Thunder.
+10
+Quotes
+See:
+Thor/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Thor
+was released as the 23rd character to be introduced to
+Marvel Rivals
+as a
+Vanguard
+hero.
+Added 2 new costumes:
+Midgard Umber
+and
+Herald of Thunder
+.
+Added the
+Divine Justice
+achievement.
+Added to the
+Voltaic Union
+Team-Up Ability
+with
+Captain America
+and
+Storm
+and the
+Ragnarok Rebirth
+Team-Up Ability
+with
+Hela
+and
+Loki
+.
+24/12/10:
+Version 20241210
+When the target area is ascending or descending, if
+Thor
+or
+Loki
+were revived by
+Hela
+'s
+team-up ability
+, they would potentially revive and be stuck beneath the terrain if they were right on the target area platform. This issue has been resolved.
+24/12/13:
+Added 1 new costume:
+Thor: Love and Thunder
+.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase base health from 500 to 525.
+Added immunity to control effects during
+God of Thunder
+.
+Added 1 new costume:
+Reborn from Ragnarok
+(unlocked from the
+Midnight Features
+season missions)
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Remove the shared cooldown time after the duration of
+Awakening Rune
+ends.
+25/04/04:
+Added 1 new costume:
+Lord of Asgard
+.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase base health from 525 to 600.
+Increase base movement speed from 600 to 650.
+Removed from the
+Voltaic Union
+Team-Up Ability
+with
+Captain America
+and
+Storm
+.
+Gallery
+Promotional
+Costume Origins
+In-Game Assets
+No One Rivals Doom - Cinematic Trailer - Marvel Rivals
+Thor: Love and Thunder costume reveal.
+Thor and
+Loki
+in the No One Rivals Doom Cinematic Trailer.
+"Reborn from Ragnarok" costume in
+Thor
+(2007) #1
+"Herald of Thunder" costume in
+Thor
+(2020) #1
+"Lord of Asgard" costume in
+Thor
+(1998) #60
+"Thor: Love and Thunder" costume in promotional image for
+Thor: Love and Thunder
+(2022)
+Hero logo.
+Prestige artwork.
+Hero Story Artwork
+Trivia
+Thor is voiced by Travis Willingham, who has been voicing the character in different Marvel projects since 2012.
+Travis is best known for being one of the cast members and player of the web series
+Critical Role
+, as well numerous roles in video-games, animes and cartoons, most notably Gazlowe in
+World of Warcraft
+, Knuckles the Echidna in various
+Sonic the Hedgehog
+games, and Roy Mustang in
+Fullmetal Alchemist
+.
+He also provides the voice of
+Doctor Doom
+.
+Using certain abilities while equipped with the "Thor: Love and Thunder" skin, a distinct guitar riff will play.
+Storm Surge while charging up and releasing the hammer.
+Awakening Rune during each enhanced Mjolnir Bash.
+Thor's gauntlets resemble his iron gloves, Jarngreipnr.

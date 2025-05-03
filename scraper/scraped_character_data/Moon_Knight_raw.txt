@@ -1,0 +1,546 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Moon_Knight =====
+
+Moon Knight
+"I tear through the cloudless night, just like the moon."
+Real Name
+Marc Spector
+Aliases
+Fist of Khonshu
+Mr. Knight
+Steven Grant
+Jake Lockley
+Biographical Information
+Birthplace
+Chicago, Illinois
+Gender
+Male
+Eye color
+Brown
+Blue
+(as Moon Knight)
+Hair color
+Brown
+Relatives
+Randall Spector
+(younger brother)
+Khonshu
+(idol)
+Powers/Skills
+Superhuman strength and agility
+Enhanced spiritual and mystical abilities via blessing of the god Khonshu
+Equipped with conventional and mystical weaponry
+Expert detective and martial artist
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Marvel Knights
+Portrayal
+Voice Actor
+Erik Braa
+Character Video
+As the avatar of the Egyptian God of Vengeance, Marc Spector's body has been enhanced by Khonshu himself. Bathed in a luminous aura that pierces the darkness, Moon Knight glides through the night, ready to sear his enemies with his master's sacred Ankhs.
+Official description
+Moon Knight
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 27th hero introduced to the game's roster.
+He has a team-up ability that works in conjunction with
+Cloak & Dagger
+.
+Overview
+Strengths
+A long-ranged, area-of-effect specialist with high mobility who excels at dealing conditional damage to multiple enemies grouped together.
+Has access to a double jump.
+Can glide upon reaching a certain height.
+Has access to a grappling hook, which pulls Moon Knight towards the location.
+If the player aims it directly downwards while on the ground, Moon Knight will be slingshotted upwards instead.
+His primary fire, Crescent Dart, is the core of his gameplay, being unique as it can bounce between enemies close to each other, up to three times.
+Crescent Dart will also bounce between the doppelganger illusions spawned by
+Loki
+.
+It can also bounce between his Ancient Ankh.
+His secondary fire, Moon Blade, launches a projectile in a straight line that deals higher damage than his Crescent Dart, but is limited by a cooldown.
+Much like Crescent Dart, it can also ricochet between enemies and Ancient Ankhs.
+Moon Blade can be fired immediately after using primary fire. It can be used to cancel primary fire's recovery frames.
+Ancient Ankh is a tool that further enables Moon Knight's kit and makes his projectile ricocheting even stronger. Both his Crescent Dart and Moon Blade will ricochet from it to any enemy within the Ankh's spell field range. This gives his ricochets an exceptional area-of-effect and allows the player to strategically deal quick burst damage to isolated enemies.
+When thrown, the Ankh briefly pulls enemies towards it while dealing a small amount of damage.
+The Ankh can be attached to any surface, and will remain there indefinitely until destroyed.
+Ankhs persist even if the surfaces they are placed on are destroyed.
+A maximum of two Ankhs may be active at any time.
+His melee attack, Triple Eclipse, is a three-hit combo with his truncheons. The third strike briefly knocks enemies up. It may be used to provide space between an attacker when Moon Knight is attacked in close range.
+His Ultimate, Hand of Konshu, creates a large radial portal in the location, creating a spell field that deals high multi-hit damage.
+It is most effective when used in choke points and areas where enemies are grouped together.
+When paired with
+Cloak & Dagger
+, Moon Knight gains access to Full Moon, granting him the ability to turn invisible by creating a small spell field around himself.
+The field lasts for a few seconds; only Moon Knight gains invisibility while within it.
+Weaknesses
+Relies heavily on grouped enemy positioning to achieve the most damage.
+Relatively poor single target damage compared to other Duelists unless an Ankh is used.
+His Crescent Dart and Moon Blade have a damage falloff of -20% per bounce.
+Not as useful in larger maps where the enemy team is less likely to stay close to each other.
+His effectiveness falls significantly when Ancient Ankh is in cooldown.
+Hand of Konshu is relatively easy to avoid unless the enemies are under some crowd control effect.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+MOON KNIGHT
+Default
+Golden Moonlight
+RARE
+Blood Moon Knight
+RARE
+Mister Knight
+EPIC
+Fist Of Vengeance
+EPIC
+Lunar General
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Moon Knight
+Golden Moonlight
+Season 0
+S0 Ranked Reward
+Blood Moon Knight
+Season 1
+— S1 BattlePass —
+Mister Knight
+Secret Avengers
+(2010) #19
+Fist Of Vengeance
+Moon Knight
+(2022)
+Lunar General
+Season 0
+See
+:
+List of MVP Animations
+DEFAULT
+Moon Knight
+It's Showtime!
+Mister Knight
+Like the Moon
+Fist Of Vengeance
+General From the Heavens
+Lunar General
+See
+:
+List of Emotes
+DEFAULT
+Moon Knight
+Dashing, Daring, and Debonair
+Mister Knight
+Khonshu's Avatar
+Fist Of Vengeance
+Lunar Blessing
+Lunar General
+See
+:
+List of Sprays
+Moon Knight
+Moon Knight Emblem
+Holy Ankh
+Mr. Knight
+Fist Of Vengeance
+Lunar General
+See
+:
+List of Nameplates
+Moon Knight
+Mr. Knight
+Fist Of Vengeance
+Lunar General
+Abilities
+Normal Attack
+CRESCENT DART
+Unleash Crescent Darts forward that can bounce between enemies and Ankhs, dealing damage to enemies.
+CASTING -
+Triple shot that fires in a straight trajectory
+DAMAGE -
+25 per round
+AMMO -
+30
+FIRE RATE -
+0.05s between shots - 0.57s between rounds of shooting
+CRITICAL HIT -
+Yes
+DAMAGE FALLOFF -
+Falloff begins at 30m, decreasing to 50% at 50m
+-20% per bounce
+MAXIMUM BOUNCE DISTANCE -
+7m
+NUMBER OF BOUNCES -
+3
+Abilities
+Q
+HAND OF KHONSHU
+Open a portal that allows Khonshu to bombard enemies with his talons.
+CASTING -
+Delayed Spherical Spell Field
+DAMAGE -
+75 per hit
+DURATION -
+3s
+RANGE -
+8m radius (area of effect) - 5m (projectile explosion)
+NUMBER OF HITS -
+14
+ABILITY DELAY -
+1.5s
+ENERGY COST -
+2800
+SHIFT
+NIGHT GLIDER
+Hold SHIFT to glide.
+MOVEMENT SPEED -
+8.7m/s (horizontal) - 1.5m/s (descending)
+E
+ANCIENT ANKH
+Fire an Ankh to launch up enemies within its radius towards the center.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+COOLDOWN -
+12s
+PROJECTILE SPEED -
+60m/s
+BOUNCING RANGE -
+7m
+PULL-IN RANGE -
+5m spherical radius
+PULL-IN DAMAGE -
+20
+F
+MOONLIGHT HOOK
+Launch a frontal grappling hook that pulls Moon Knight towards it.
+CASTING -
+Dash
+COOLDOWN -
+15s
+RANGE -
+25m
+MAXIMUM DISTANCE -
+21.5m/s
+MOVEMENT SPEED -
+120m/s
+SPACE
+RISING LEAP
+Perform a double jump.
+COOLDOWN -
+6s
+MOON BLADE
+Launch forward a Moon Blade that can bounce between enemies and Ankhs, dealing damage to enemies.
+CASTING -
+Projectile that fires in a straight trajectory
+DAMAGE -
+80
+COOLDOWN -
+6s
+CRITICAL HIT -
+Yes
+PROJECTILE SPEED -
+120m/s
+DAMAGE FALLOFF -
+Falloff begins at 30m, decreasing to 50% at 50m
+-20% per bounce
+MAXIMUM BOUNCE DISTANCE -
+7m
+NUMBER OF BOUNCES -
+3
+V
+TRIPLE ECLIPSE
+Perform a combo with his truncheon, and the third strike will launch up the enemy hit slightly.
+CASTING -
+Melee
+RANGE -
+3m
+Team-Up Abilities
+C
+FULL MOON
+Cloak & Dagger
+can inject light and dark energy into Moon Knight to create a Light & Dark Realm where Moon Knight can become Invisible.
+DURATION -
+6s
+COOLDOWN -
+30s
+RANGE -
+4m spherical radius
+Strategy
+Moon Knight is a lethal crowd-controlling Duelist with high damaging potential and decent mobility options. His main gimmick is that his primary attack can damage multiple nearby enemies with each shot, requiring little to no precision for swiftly eliminating opponents. Moon Knight also proves to be dominant in holding chokepoints and blocking off tight areas.
+He plays as a long-range character similar to that of
+Hawkeye
+,
+Black Widow
+,
+The Punisher
+, and
+Hela
+. His projectiles have a slow travel speed, so always try to attack the enemy team once they begin to crowd together to maximize your damage output. However, Moon Knight does not have many options for dealing with flanking brawler characters like
+Iron Fist
+or
+Wolverine
+. Your best choice in surviving an encounter with flanking opponents is sticking by your team so they can either heal you or assist you in taking down the enemy.
+Moon Knight features two abilities that can help him escape from fights, but they can be very slow and clunky. Only resort to them to getting closer towards your team so they can help you ward off the flanking opponent.
+Moon Knight's primary fire is his Crescent Dart. He throws three projectiles that deal 25 damage each (75 total) and can bounce onto other nearby opponents. However, your attack deals 20% less damage each time it bounces (meaning you will only deal 60 damage if your shot bounces a single time). The damage may seem low, but when enemies are packed together, Moon Knight becomes one of the most deadly characters in the game.
+Shooting at a large group of enemies can be an easy way to rapidly charge your Ultimate with how many times your shots can bounce between opponents before they can't deal any more damage.
+Vanguards that typically stay to close to their team such as
+Magneto
+and
+Doctor Strange
+make for great targets to fire at because of their large hitboxes, allowing you to bounce your shots more efficiently.
+Moon Blade is another one of your damage sources. It acts as one large projectile that bounces to nearby opponents but deals more damage than your regular primary fire. It has an extremely short casting animation, so use it when in need of damage to either finish off an enemy or catch an approaching enemy by surprise.
+Just like your darts, this ability will deal 20% less damage each time it bounces to a target (meaning you will onyl deal 64 damage if the blade bounces a single time). Pick a primary target that you know you should focus on the most.
+Ancient Ankh throws down an ankh that you can bounce your
+Crescent Dart
+and
+Moon Blade
+off. There will be a glowing radius around the ankh, which is the range that enemies must be in for your attacks to bounce onto them. This is a very powerful ability for Moon Knight, considering his attacks can be hard to hit with their slow projectile speed. You can also have up to two ankhs at a single time.
+Do note that the damage reduction for your attacks does apply when you shoot at an ankh. Still, Moon Knight is best played when he is able to deal reliable damage with the help of his ankhs.
+Upon throwing down an ankh, nearby enemies will quickly be pulled to the center of it. This makes your ability a decent tool for creating distance between you and a flanking opponent.
+Despite that, enemies with high mobility and survivability can quickly walk out of range of your ankh and chase you down. Try to throw your ankh slightly away from your feet to knock back your opponent, but stay near it so you can still chain your shots onto the enemy as they attack you.
+An effective strategy for opening a game on defense is placing an ankh directly above the attackers' main spawn door. This will allow you to fire at the enemy team as they come out and catch them by surprise.
+Rising Leap is an additional air jump with a short cooldown. Use it to gain elevation or as an attempt to escape from flanking characters.
+Moonlight Hook is a grapple ability that can cover a reliable distance. However, it has a long casting animation and relatively short range, so use it primarily for rejoining the fight after a death or maneuvering to a better position.
+If you aim your grapple at the ground, you'll get launched a high distance into the air. This adds on to your potential to reach higher elevations. But try to not use this as an escape tool, as it is clunky, has a long cooldown, and takes time to fully use.
+Night Glider slows your descent speed so you can cover distances midair without falling to the ground. Use it to position yourself in a spot where you can effectively chip away at the enemy team.
+Hand of Khonshu is an area denial Ultimate that punishes opponents with heavy amounts of damage. Select an area to rain down explosive talons for a brief period. The talons begin to fall almost instantly after you cast the Ultimate, making it very easy to catch the enemy off guard, whether you are flanking from behind or not. It has the potential to completely shut down certain healing Ultimates such as
+Mantis
+'s Soul Resurgence and
+Cloak & Dagger
+'s Inseperable Bond (because the healing no longer stacks), but is unlikely to do so.
+Use your ankh to pull enemies into the center of the Ultimate to maximize your damage output. This tip becomes even the more useful when you are taking a flanking approach when using this Ultimate.
+Moon's Knight
+Team-Up Ability
+with
+Cloak & Dagger
+, Full Moon, grants Moon Knight an ability that places down a small spherical area for a short duration that makes him invisible when inside of it. It has only a 30 second cooldown, so use it to avoid enemy fire and focus on your offensive power. Additionally, it grants a moderate healing over time effect, allowing Moon Knight to have a higher chance of survival when separated from his team or attacked by a flanker. Iron Fist notably has the most trouble with this, as the invisibility granted prevents him from locking on to Moon Knight.
+Lore
+"Camouflage is stupid, I want the enemy to see me, ...and be afraid."
+Mercenary Marc Spector was given a second chance at life when he became the avatar of the Egyptian moon god, Khonshu. As Moon Knight, he doles out righteous vengeance, locked in a never-ending battle with both the criminals on the streets and the voices in his head.
+He's been fighting for so long he can barely remember how he got there. All he knows is that he can't stop until he claims victory in his master's name.
+—
+Biography
+Hero Story
+"I do hear voices in my head. You would too, if you listened."
+The Dusk of the New Moon
+"Come to me, my Moon Knight!"
+The ancient voice boomed in the back of Marc Spector's brain, momentarily throwing him off his game. It wasn't as if hearing someone else's words in his head was something new. He'd been sharing the space with multiple personalities for years now. But this wasn't even the enigmatic Mr. Knight. This was the boss.
+"I'm a bit busy..." Spector replied out loud, as he thrust his white boot into the face of yet another garishly super-villain, "...trying to keep the
+Zodiac
+from ransacking one of your temples. You sent me here, remember? So, you'll need to call back another -"
+"NOW," the voice commanded.
+A sudden burst of pain coursed through Spector's skull. He closed his eyes for a moment to try to clear his head. And when he opened them again, he was no longer at the heart of an epic battle between good and evil. In fact, he was nowhere.
+Okay, so "nowhere" might be a bit dramatic. But it's the best that Spector could come up with to describe the blank white space between planes of reality that he had unexpectedly been transported to. A deafening silence hung in the void. For once, even the other voices in Marc Spector's head had nothing to say. For a moment, he felt as though he was the only being that existed. But he knew better. If he had been summoned here, he was well aware who had done the summoning.
+Marc Spector turned to see an enormous figure towering over him, draped in white Egyptian robes. Where his head should have been, instead there sat the skull of a long-beaked bird. Its empty sockets peered into Marc Spector's soul, judging him, Always judging him.
+"Hey, Khonshu," Spector replied casually to his patron, the Egyptian God of the Moon. "Fancy seeing you here."
+"This Divine Space is where I dwell," Khonshu replied, not seeing any humor in Spector's words. "It is from that I watch the realms beyond and find those who have earned my vengeance..."
+"Yeah," Spector chimed in, "and from here that you sit pretty while I do your dirty work in the real world."
+"This has been our arrangement since your untimely demise years ago," Khonshu reminded Spector, "a gruesome fate you were spread by my  intervention alone. Do you wish to alter our agreement?"
+"No.." Spector replied. But I would like to finish one mission before you toss me into the next one. Maybe that's just the mercenary in me..."
+"I have always appreciated your dedication to a task," Khonshu said, "but more pressing matters have arisen that require your special attention."
+Something about Khonshu seemed different. He was more confident. More powerful. Less scattered than usual. It was almost like all of the fragmented personas that the Moon God had presented over the years were suddenly fused into one. Spector didn't know what had caused the change... he thought it must be nice...
+"Fine," Spector replied, beginning to grow impatient. "Just tell me whose head I need to bust open already."
+Spector's unfinished encounter with the Zodiac had pushed his level of aggression to the boiling point.  He didn't want to just stand there and talk anymore. He wanted to get back into the fight. Any fight.
+"What do you know of vampires?" Khonshu asked curiously.
+"That they suck," Spector responded with a chuckle. "And that Dracula owes me money."
+"As you know, Khonshu said, once again ignoring Spector's attempt to infuse some levity into the situation, "I have long served as a protector for travelers in the night."
+"Vicariously, through me and the other Fists of Khonshu before me," Spector mumbled under his breath, "but sure... go on..."
+"Ever since they first crawled from the darkness ages ago, vampires have imperiled my people and my purpose," Khonshu continued, "And now, I have had a vision that warns of their threat becoming far more permanent."
+"I though yes," Khonshu said, "but bound by their curse to the cycle of day and night. They cannot walk in the sun, so their atrocities are limted to the hours under my watch, when the moon hangs high in the sky."
+"So, what's the problem?" Spector asked. "Is Daylight Savings Time about to end or something?"
+"No," another voice answered, "Daylight itself is about to end."
+Spector turned to see that someone else had unexpectedly entered the Divine Space - an imposing figure in iron armor, wrapped by a dark green cloak. Spector instantly recognized the king of Latveria, Victor von Doom.
+"This is sacred!" Khonshu yelled. "You shall not foul it with your presence! Banish him, my Moon Knight!"
+"Yeah, yeah..." Spector said, reluctantly rushing towards Doctor Doom, "...I'm on it."
+As he ran in his enemy's direction, Spector reached into a pouch on his belt and grabbed a hand full  of crescent-shaped darts. He hurled them in Doom's direction, but the metal- clad monarch raised his gauntlet and deflected the projectile as if they were no more than cheap toys.
+"I did not come here for a battle, Khonshu," Doom said, beginning to move his hands in a strange series of gestures. "But if you must turn your champion against me as a matter of honor, so be it."
+As Doom finished his series of hand motions, his armored fists began to glow with mystical flames. Soon, two curved, burning blades materialized in his grip.
+"The Daggers of Dormammu should end this Knight before he even begins..." Doom said, with a smirk that you could almost feel behind his faceplate.
+"Good luck with that," Spector, swinging his flaming daggers at the white-clad warrior. Spector dodged the thrusts easily at first, but it wasn't long before his reactions started to slow.  He'd barely had time to recover from his battle against the Zodiac, and a twelve- on- one battle tends to take a toll on even the mightiest of heroes.
+Doom could see his opponent beginning to falter. He started to attack even more relentlessly, eventually gaining the upper hand. A kick to the chest sent Moon Knight stumbling back. Raising the enchanted blades above his head,  Doom thrust hem down at Spector, narrowly missing his target's  body. Instead, the blades pierced through Moon Knight's cape, pinning him to the floor - one Spector didn't even realize existed in the emptiness of the Divine Space.
+"Enough," Khonshu said, "You have won the right to speak."
+"And when Doom speaks," the victorious villain responded, casually gesturing for the mystical daggers to vanish, "all had best listen. For he only speaks once."
+Moon Knight pulled himself back to his feet, standing between Doom and Khonshu, just in case Doom had any other tricks up his iron sleeve.
+"Few recall the real origin of vampires," Doom said, "but you and I know the truth, Khonshu. Their race was born from an ancient curse inscribed in the pages of Darkhold, written in the blood of Varnae, the first of their kind.  It was these Vampiric Verses that granted them immortal life, and, if my calculations are correct - which they always are- that same spell may hold the key to unlocking the very nature of time itself. I wish to study it further..."
+"You know not what you tamper with, foolish mortal," Khonshu warned.
+"I would know full well," Doom said, "had the Sorcerer Supreme not denied me access to the Darkhold. I have good reason to believe he has stashed it away on another plane of reality for safekeeping."
+"Sounds like Strange made the right choice.." Spector said. "The last thing we need is you to accidentally unleash more vamps on the world!"
+"Not the world.." Doom said. "All I want is a small portion of it. And that's where yo come in. If Khonshu were simply to hold his beloved moon in the sky and shroud a single city in eternal night, it would allow me all the time I need to unlock the secrets of the vampires, even without access to the Vampiric Verses themselves."
+"You're crazy!" Spector said, "That city would instantly become a nesting ground for the creatures of the night!"
+"Such an act would endanger countless innocents," Khonshu added.
+"Please," Doom laughed. "Since when  have the gods cared about the lives of a few million measly mortals? Together, we could use the vampires however we wish, then dispose of them completely when we-"
+"I will not allow this discussion to continue any further," Khonshu said sternly, raising a bony hand to silence Doom. "There is far more at stake here than you could ever hope to know. A coming darkness lurking among the gods... a shadow even I may not be able to defeat.."
+"And by I, he means me," Spector mumbled.
+"My avatar may have lacked the skill required to remove you from this plane," Khonshu said, "but I have no such limits..."
+"You fool!" Doom cried out as he began to fade from the Divine Space. "You're making a terrible mistake! Doom will have what he wishes, one way or another!"
+As Doom's voice disappeared, a hunting silence returned to the empty whiteness surrounding Marc Spector. Khonshu was still there, but for once, it seemed the God of the Moon had nothing to say.
+"So what now?" Spector finally asked.
+"I must locate the Darkhold at once," Khonshu replied.
+"The book with the spell that make vampires?" Spector asked, confused. "Isn't it better off stowed away wherever Strange hid it?"
+"Just as the Vampiric Verses created our true enemies," Khonshu said, "There is another spell within the Book of Sins - the Montesi Formula  - that could take their gift way. Permanently."
+"So while you're cruising the Astral Plane looking for a lost library book," Spector pondered, "what on Earth am I gonna be doing?"
+"Protecting the night and delivering my vengeance," Khonshu replied, "as you always have."
+"And when Doom lives up to his promise and finds a way to unleash the bloodsucking hordes?" Spector asked.
+"Then you must be ready," Khonshu said. "And so must I."
+"I'm no vampire slayer," Spector responded. "Isn't that Blade's gig? Why not call him?"
+"Because the Daywalker is not my Fist of Vengeance!" Khonshu replied defiantly, clearly angered that his own servant would dare question him.
+"Also, he is currently unavailable..." Khonshu added quitely.
+"All right then," Spector said, grinning behind his featureless mask. "But those fangers are about to find out that they aren't the only ones who want blood."
+"I expected no less. Now, go, my Moon Knight..." Khnoshu said, his voice once again booming in Marc Spector's head. "...and serve me."
+Spector blinked for a split second, opening eyes to discover that he was no longer in the Divine Space. Now, he was standing on a New York City rooftop. The silence was replaced by a symphony of sounds, including a scream emanating from a nearby alleyway. He was glad to be home.
+As Moon Knight leapt off the edge of the building and swung across the night sky on a grappling cable, his bright white cape billowed out behind him, luminous light of the full moon.
+It must've been a glorious sight to behold, he thought... but if Khonshu and Doom were right about what was to come, Marc Spector knew his costume wouldn't stay while much longer...
+The Night of the Full Moon
+(Coming soon. Stay Tuned!)
+The Dawn of the Waning Moon
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Moonlit Hel
+As Moon Knight, partner with Hela to land 1 KO.
+5
+Punishment of the Moon
+As Moon Knight, hit 4 enemies with a single use of Hand of Khonshu.
+10
+Quotes
+See
+Moon Knight/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Moon Knight
+was released as the 27th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 1 new costume:
+Mister Knight
+.
+Added the
+Punishment of the Moon
+achievement.
+Added to the
+Lunar Force
+Team-Up Ability
+with
+Cloak & Dagger
+.
+25/01/03:
+Added 1 new costume:
+Lunar General
+.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase the number of talons generated by
+Hand of Khonshu
+from 10 to 14.
+Increase the explosion radius of each talon from 4 meters to 5 meters.
+Added 2 new costumes:
+Blood Moon Knight
+and
+Golden Moonlight
+(unlocked from ranked mode in
+Season 0
+)
+25/02/07:
+Version 20250207
+Corrected the issue where the ground visual cue for
+Moon Knight
+'s Ultimate Ability would prematurely disappear--no more being caught unaware about incoming talons.
+25/02/20:
+Resolved an issue where
+Moon Knight
+'s bounce attack would occasionally fail to deal damage. Now, his strikes hit true.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Reduced the
+Hand of Khonshu
+talons falling speed.
+Correct the damage trigger logic for
+Hand of Khonshu
+. The previous mechanism that dealt 75 damage when positioned at the center of the spell field has been removed.
+Increase the damage of each hit from 75 to 100.
+Full Moon
+now continously heals
+Moon Knight
+for 25 health per/s while within the effect area.
+25/03/28:
+Added 1 new costume:
+Fist Of Vengeance
+.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase
+Crescent Dart
+projectile speed from 120m/s to 150m/s.
+Gain 25 Bonus Health with each enemy hit with
+Moon Blade
+, up to a max of 100. 3 seconds after the Bonus Health stops increasing, it will start to falloff at a rate of 20 per second.
+Speed up
+Moonlight Hook
+pull startup time after hit from 0.4 seconds to 0.15 seconds.
+Extend the duration of the
+Hand of Khonshu
+from 3.5 seconds to 4.5 seconds, and increase the number of talons generated during this period from 14 to 18. Additionally, the fall speed of the talons has been slightly enhanced. A new damage falloff mechanic for the spell field has been added, beginning at 1.5 meters from the center and reaching a maximum reduction of 70% at 5 meters.
+Gallery
+Other
+Costume Origins
+Moon Knight- Fist of Khonshu - Character Reveal - Marvel Rivals
+Moon Knight screenshot reveal.
+Mister Knight costume reveal.
+Hero Logo
+Prestige artwork
+Hero Story Artwork
+Moon Knight in the Official Launch Trailer.
+"Mister Knight" costume in
+Secret Avengers
+(2010) #19
+"Fist Of Vengeance" costume in
+Moon Knight
+(2022)
+Trivia
+The
+Moon Knight
+spray features gold accents not seen on his gameplay model, or on any other official artwork of Moon Knight.
+Some of these gold accents do reappear on the
+Golden Moonlight
+costume, though it also introduces new gold accents of its own.
+Quotes from Moon Knight, as well as from other heroes, seem to refer to unused functions of his Ancient Ankh ability.
+Moon Knight, Khonshu, and Thor have quotes that imply the Ancient Ankhs were intended to siphon power from Moon Knight's enemies.
+Magik and Spider-Man have quotes that imply the Ancient Ankhs were intended to hover, and possibly to even become more dangerous while hovering.
+Moon Knight's line about Dracula owing him money in the
+The Dusk of the New Moon
+Lore entry, as well as his quotes on the
+Empire of Eternal Night: Central Park
+map, are in reference to
+a popular meme that originated in 2018
+.

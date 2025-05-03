@@ -1,0 +1,605 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Spider-Man =====
+
+Spider-Man
+"I'm your friendly neighborhood Spider-Man. Only my neighborhood is now like multiple realities, cool right?"
+Real Name
+Peter Benjamin Parker
+Aliases
+The Amazing Spider-Man
+Spidey
+Web-Head
+Wall Crawler
+Biographical Information
+Birthplace
+Queens, New York
+Gender
+Male
+Eye color
+Hazel
+Hair color
+Brown
+Relatives
+Ben Parker
+(uncle; deceased)
+May Parker
+(aunt)
+Powers/Skills
+Superhuman strength, senses, reflexes, and agility
+Preternatural precognitive "Spider-Sense"
+Skilled hand-to-hand combatant
+Web shooters
+Wallcrawling
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Web-Warriors
+The Daily Bugle
+Portrayal
+Voice Actor
+Yuri Lowenthal
+Character Video
+Swinging around the arena on his signature weblines, your friendly neighborhood Spider-Man, AKA Peter Parker, catches his rivals by surprise with sneaky, sticky bursts of webbing and unexpected attacks from above. Look out… here comes the Spider-Man!
+Official description
+Spider-Man
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 4th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Squirrel Girl
+,
+Peni Parker
+, and
+Venom
+.
+Overview
+Strengths
+An incredibly agile and complex hit-and-run fighter capable of assaulting and eliminating enemies from the air with his combos, and then swiftly leaves the scene.
+His exceptional mobility allows him to reach advantageous positions for both offensive and defensive maneuvers, making it very hard for enemies to pin him down.
+Capable of webslinging, and, unlike
+Venom
+'s Venom Swing, Spider-Man has three charges of Web-Swing.
+Capable of wallcrawling and sprinting while on walls.
+Capable of double jumping.
+The core gameplay of Spider-Man is attaching enemies with his Spider-Tracers, which enables his kit and even changes the properties of certain abilities.
+His passive, Spider-Sense, alerts players of nearby enemies in the form of an icon above Spider-Man's head.
+His primary fire, Spider Power, is a three-hit melee combo, being two punches and a kick.
+This deals extra damage if an enemy has a Spider-Tracer attached to them.
+His secondary fire, Cyber-Web Cluster, launches a web that deals damage and attaches a Spider-Tracer on his target for a few seconds. This ability has five charges.
+Get Over Here! shoots a web-string that pulls enemies towards Spider-Man's location; if the target is attached with a Spider-Tracer, Spider-Man will launch himself towards the enemy instead and perform a flying kick.
+Amazing Combo is a rising uppercut that launches enemies upwards. It deals extra damage if the target is attached with a Spider-Tracer. This ability has two charges.
+His Ultimate, Spectacular Spin, is a multi-hit barrage of web clusters that deals consistent damage in a radius around him.
+Each hit adds a stacking effect to the enemy of -3% slow; once it reaches a certain number of stacks, enemies become stuck in webs and stunned briefly.
+Spider-Man gains bonus health equal to his max health during the execution of this ability.
+When paired with
+Venom
+, Spider-Man gains access to Suit Expulsion, an ability that creates a large circular field of symbiotic spikes that deals damage-per-second to enemies in a small radius around him while knocking them back.
+When paired with
+Squirrel Girl
+, Spider-Man gains access to Extra Web Fluid, granting a team-up damage bonus of 10% (Note: Anchor bonuses are currently permanent and do not require team-up partners).
+Weaknesses
+Despite being very mobile and hard to pin down, Spider-Man is very frail and needs proper skill to be played, since he has no defensive or self-sustain tools. Diving into the enemy backline recklessly can be fatal if his Strategists cannot reach him.
+His damage output is not very high unless he attaches a Web-Tracer to the target.
+The GET OVER HERE! ability can fail if the enemy goes into cover.
+Can be interrupted during Spectacular Spin.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+SPIDER-MAN
+Default
+Chasm
+RARE
+Scarlet Spider
+RARE
+Bag-Man Beyond
+EPIC
+Marvel's Spider-Man 2
+EPIC
+Spider-Punk 2099
+LEGENDARY
+Spider-Oni
+LEGENDARY
+Spider-Man: No Way Home
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Spider-Man
+Chasm
+Amazing Spider-Man
+(2018) #93
+Scarlet Spider
+Scarlet Spider
+(2011) #1
+Marvel's Spider-Man 2
+Marvel's Spider-Man 2
+(2023)
+Bag-Man Beyond
+Amazing Spider-Man
+(2018) #87
+Spider-Punk 2099
+Season 1
+Spider-Oni
+Season 2
+— S2 BattlePass —
+Spider-Man: No Way Home
+Spider-Man: No Way Home
+(2021)
+See
+:
+List of MVP Animations
+DEFAULT
+Spider-Man
+No Other Choice
+Bag-Man Beyond
+Street Performance
+Spider-Punk 2099
+Ninjutsu: Veil of the Snow Spider
+Spider-Oni
+Three Generations
+Spider-Man: No Way Home
+01
+02
+EMOTES
+DEFAULT
+BRAIN BLAST
+Spider-Yoyo
+Once Bonded, Twice Shy
+Guitar Smashing
+Dancing Petals
+EMOTES
+Wrong Spell
+See
+:
+List of Sprays
+Spider-Man
+Spider-Man Emblem
+Marvel's Spider-Man 2
+Ultimate Bag-Man
+Spider-Punk 2099
+Spider-Oni
+Spider-Man: No Way Home
+See
+:
+List of Nameplates
+Spider-Man
+Marvel's Spider-Man 2
+Ultimate Bag-Man
+Spider-Punk 2099
+Spider-Oni
+Spider-Man: No Way Home
+Abilities
+Normal Attack
+SPIDER-POWER
+Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer.
+CASTING -
+Melee
+DAMAGE -
+The first two strikes deal 25 damage, while the third strike deals 40 damage (damage increases for one strike when hitting with Spider-Tracer)
+INTERVAL -
+The first two strikes have an interval of 0.37s between them, while the third strike has a 0.82s interval from the second strike
+MAXIMUM DISTANCE -
+The first two strikes can hit up to 3m, while the third strike can hit up to 4m
+CYBER-WEB CLUSTER
+Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy.
+CASTING -
+Projectile that fires in a straight trajectory
+DAMAGE -
+30 (consuming Spider-Tracer with another ability deals a further 45)
+AMMO -
+5
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+120 m/s
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 50% at 40m
+Abilities
+Q
+SPECTACULAR SPIN
+Launch Web-Clusters all around to damage and Stun enemies.
+CASTING -
+Spherical Spell Field
+DAMAGE -
+12 per hit
+DURATION -
+2.4s
+FIRE RATE -
+0.08s per shot
+RANGE -
+8m spherical radius
+ABILITY HEALTH -
+Bonus Health: 250
+ENERGY COST -
+2800
+SPECIAL EFFECT
+⚬ Striking an enemy applies a stacking -3% Slow effect for 1 second, and after reaching 20 hits, the enemy will be Stunned for 1.5s.
+SHIFT
+WEB-SWING
+Shoot a strand of webbing to swing.
+CASTING -
+Dash
+CHARGES -
+3
+COOLDOWN -
+6s per charge
+RANGE -
+30m
+SPECIAL EFFECT
+⚬ If the Easy Swing setting is off, the player can perform a Web Zip with this ability by aiming at a surface below them.
+E
+GET OVER HERE!
+Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead.
+CASTING -
+Projectile that fires in a straight trajectory
+DAMAGE -
+Pull: 25
+Web Strike: 50
+COOLDOWN -
+8s
+MAXIMUM DISTANCE -
+Pull: 20m
+Web Strike: 24m
+PROJECTILE SPEED -
+80 m/s
+SPECIAL EFFECT
+⚬ If the target is marked by a Spider-Tracer, the player can perform a Web Strike that automatically locks onto the enemy.
+F
+AMAZING COMBO
+Launch an enemy upward, dealing extra damage to the enemy with a Spider-Tracer.
+CASTING -
+Melee
+DAMAGE -
+55 (damage increases for one strike when hitting with Spider-Tracer)
+CHARGES -
+2
+COOLDOWN -
+2s
+RANGE -
+5m spherical radius
+SPACE
+THWIP AND FLIP
+Perform a double jump.
+SPECIAL EFFECT
+⚬ Can only be cast again after landing
+SPACE
+WALL CRAWL
+Press Space to wall crawl, and while crawling, left-click to sprint.
+WALL-CRAWLING SPEED -
+3 m/s
+SPRINTING SPEED -
+9 m/s
+PASSIVE
+SPIDER-SENSE
+Give a warning of enemies that have been around.
+RANGE -
+8m spherical radius
+DISAPPEARANCE TIME TO TRIGGER DETECTION -
+3s
+Team-Up Abilties
+C
+SUIT EXPULSION
+Venom
+shares a part of his symbiote with Spider-Man and
+Peni Parker
+, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.
+CASTING -
+Spherical Spell Field
+DAMAGE -
+50 per strike
+DURATION -
+4 Seconds
+COOLDOWN -
+30s
+FIRE RATE -
+1 hit per second
+RANGE -
+5m spherical radius
+PASSIVE
+EXTRA WEB FLUID
+Spider-Man gives
+Squirrel Girl
+a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast.
+TEAM-UP BONUS -
+10% Damage Boost
+Strategy
+Spider-Man is a character that should almost never attempt to fight on the front lines, as he simply lacks the damage output, range, or sustainability to be able to contribute to a drawn-out fight without being quickly dispatched. Instead, he excels at quick, hit-and-run tactics, focused on getting in, dealing a high-burst combo to a priority target, and then getting out. He thrives when constantly harassing the enemy backline, however take care to not linger too long there, because as mentioned before, the longer Spider-Man attempts to sustain a fight, the more vulnerable he becomes.
+Spider-Man should always prioritize lone squishy heroes who prefer to stay in the backline, such as Strategists or ranged heroes like
+Black Widow
+,
+Hawkeye
+,
+Storm
+,
+Moon Knight
+, or
+Iron Man
+. In contrast, he should generally avoid targeting Vanguards unless he is with his team and there is no one else to fight, as he does not have the sustained damage output necessary to take them out by himself without being overwhelmed.
+It is highly recommended to turn off Automatic Swing in the game's settings if you wish to play Spider-Man seriously. This gives you far more control over where you can swing from, and also gives you the ability to quickly web-zip if you fire a web line at a surface more level to your current height. This tip is also shared with Venom.
+Spider-Man's primary attack is Spider-Power, which functions similarly to the quick melee attacks shared by all heroes. It has a three-hit combo with the third hit dealing extra damage, and benefits from Spider-Tracer's bonus damage.
+Spider-Man can also perform a downwards hammer slam in midair if he performs a double jump, which deals decent damage. Additionally, it can also be performed if he momentarily fires his Web Sling at a surface beforehand, which also counts as a double jump. However, this strategy should not be overused due to the Web Sling's limited charges.
+While it is powerful in the middle of a burst combo, his primary attack is unreliable in a sustained fight due to its low damage per hit without a Tracer and incredibly short range of only 3-4 meters.
+Spider-Man's secondary attack is Cyber-Web Cluster, which has him fire up to five web shots at an enemy. These shots will reload automatically, however they can only do so one at a time. Upon a successful hit, they will tag the target with a Spider-Tracer for a few seconds, which not only allows Spidey to track the target through walls, but also empowers the next attack that hits them.
+This ability is the bread and butter of Spider-Man's damage. Always try to weave it in between normal attacks and his uppercut to maximize the damage his attacks can deal, and if it runs out, you should attempt to disengage and reengage after they are fully recharged.
+As expected of the Wall-Crawler, he can use his Web-Swing to cover large distances at breakneck speed. Unlike Venom, Spidey can hold up to three charges of the ability, allowing him to far more easily engage and disengage when compared to the symbiote.
+This ability is the key to your survival and your ability to engage the enemy, and must be used cautiously. Keep an eye on how many swings you have so you can adequately plan around whether or not you can make an escape or reach the enemy before they can react.
+Get Over Here! is a ranged grab that has Spider-Man fire out a web line that can pull a target directly to him. As it counts as a stun, it can interrupt certain abilities and open them up to certain abilities. In contrast, if used on an enemy tagged with a Spider-Tracer, the attack will automatically target the enemy akin to other auto-target abilities like
+Adam Warlock's
+Avatar Lifestream, but instead of stunning and pulling the enemy to him, Spider-Man himself zips over to them and hits them with a kick, dealing some extra damage. Unlike Spider-Power or Amazing Combo, hitting a tagged enemy with this attack does not remove the Tracer.
+This ability can be used in one of two ways: to forcefully reposition an enemy into your team to make them easy pickings, or as a follow-up to a tagged enemy to instantly get in range to start hitting them. The latter is primarily effective against flying characters like Storm or Iron Man, as they would otherwise be quite difficult to hit for anyone without sufficient range to them. If Spider-Man is in front of a pit, this ability can be used to grab and drop enemies with lacking mobility options into them.
+Amazing Combo has Spidey dole out a devastating uppercut that deals strong damage and launches the opponent up for an easy follow-up. Like Spider-Power, it benefits from the Spider-Tracer damage bonus.
+After the target is launched up, they will generally be right in your face to start hitting them with your basic attacks without needing to use an additional jump.
+Along with his Web-Swing, Spider-Man can also double-jump and crawl or run on walls for extra movement options.
+Spider-Man's Spider-Sense passive allows him to detect when an enemy is nearby even when he cannot see them. When an enemy enters an 8-meter radius of him but is not within his line of sight or his screen, he will receive a warning that someone is nearby.
+Use this to know when enemies are attempting to get the jump on you or to know when enemies are closing in so you can alert your team.
+Spider-Man's Ultimate, Spectacular Spin, turns him into a spinning tornado of webs while also granting him bonus health for its duration. If the enemy stays within the Ultimate long enough without dying, they gradually slow down before becoming completely immobilized after it ends.
+This Ultimate turns the character with otherwise poor crowd control into a character who can almost instantly decimate or, at the very least, severely debilitate any team that attempts to cluster up.
+All of Spidey's abilities work in unison with each other and rely on stringing them back-to-back in order to effectively utilize them. Always try to weave Web Clusters in between basic attacks and uppercuts to maximize the damage those attacks deal, and keep an eye on how many shots/web swings you have at any given time so you know exactly when you should attempt an escape.
+Appearance
+In
+Marvel Rivals
+, Spider-Man has a distinct appearance compared to his usual comic book and movie depictions. His costume design might feature some variation, with a more sleek or stylized look to fit the game's aesthetic. The classic red and blue color scheme is often retained, but there could be some differences in texture or pattern for visual flair. His spider symbol might be modified to reflect the game's artistic direction, and his web-shooters might have a more futuristic or updated appearance.
+Since this is a game, Spider-Man's movements, abilities, and animations would also likely be designed to enhance gameplay, so his agility and acrobatics might be more pronounced, and his suit might have additional details that match the game's tone, whether more realistic or fantastical.
+Lore
+"Anybody has a chance to be a hero. I believe that."
+Bitten by a radioactive spider, young Peter Parker gained the ability to cling to almost any surface, a "spider-sense" that warns him of danger, and the proportional speed, strength, and agility of an arachnid. Now, he strives to use his great power responsibly as the wall-crawling wonder known as Spider-Man.
+Since the Timestream Entanglement, Spider-Man has been swinging between two battlefronts. When he's not rallying New York's heroes to fight against ancient forces of darkness, he's busy protecting the Web of Life and Destiny with his fellow Web-Warriors in Tokyo Webworld.
+—
+Biography
+Hero Story
+"Come to New York sometime, I'll do whatever a spider can!"
+Unfriendly Neighborhood
+Every week or so, Peter Parker swung uptown from his usual haunts to the Manhattan side of the Queensboro Bridge, looking across toward home. And every week, there was still no way to get there. There were too many vampires patrolling the bridge, and other horrific monsters flying over it. Dracula had taken Manhattan all for himself, and he wasn't letting any of his human "playthings" escape.
+Still Peter came by to look, wishing he could talk to Aunt May, Every Wednesday. That's when he missed Aunt May the most, because ever since he'd moved out of her house, he'd always tried to get back to see her for lunch on Wednesdays.
+Today, he was staying a little farther away from the bridge, watching it from the Midtown Tunnel's ventilation tower, a mile downstream past the U.N. headquarters. It was a quiet place for contemplation, since the huge fans were no longer running. He had cased the area for vampires before letting himself have his weekly moment of regret and longing for a world before the Timestream Entanglement. Before the vampires had taken over New York. Before he had lost track of the days since he'd seen the sun.
+Gazing at the bridge under the dead eye of the Blood Moon, Peter was lost in his head, thinking about two things at once:
+One, he was frustrated about not being allowed to help out with the construction of the Timestream Reintegration Device that
+Reed Richards
+and
+Tony Stark
+had been working on. For some reason, they felt Peter would be more useful swinging through the streets and webbing up vampires as Spider-Man than contributing his own brand of scientific expertise to their little super-genius think tank.
+Two, he was remembering when he had been here the week before, about the same time - although it was hard to know what time it was when the sun never came up and the moon always hung full over the river. He'd been wishing he could see Aunt May, just like tonight, when he noticed a twinkling in the air, just in front of him. It got a little brighter,  and a folded piece of paper appeared out of nowhere, pinched between two fingers. The hand disappeared and the pieced of paper drifted down to rest on Peter's right knee.
+Huh, he thought. That didn't happen ever day.
+He unfolded the paper and read:
+Peter,
+The
+Master Weaver
+told me to find you and tell that the Web of Life and Destiny needs you. I will reach out again when it is time for you to come here. That time will be soon.
+Spider-Zero
+Spider-Zero? Master Weaver? Peter had never of either, nor did he have any idea what the Web of Life and Destiny might be. But this was the day he would finally find out. As he silently gazed toward Queens, a portal popped open next to him. A young woman was on the other side.
+"So... I'm guessing you're Spider-Zero, eh?" Peter said. "Do you happen to have an actual real-person name?"
+She ignored his question. "We need you, Peter. The Web of Life and Destiny needs you."
+"I don't-" Peter paused for a moment before saying what he really meant.  "I belong here."
+"Spider-Man belongs everywhere," Spider-Zero responded, cryptically. "Come with me and I'll show you."
+Peter didn't want to go through the portal. Something told him it would be hard to get back, for any number of possible reasons, and he couldn't take the chance. So instead, Spider-Zero showed him the Web of Life and Destiny through the rift. The night sky beyond it blazed with portals and stars. The city below it-so, so far below it- was a dark splendor of neon-lit towers and shadow, extending to the horizon in every direction.
+"See, Peter? This is your destiny." Spider-Zero said. "Our destiny. If the Web fails, all Spider-People will disappear. Including you. And not too long after that, reality comes a part. The Web is what holds it all together."
+His gut told him to leap into action and save the universe, but in his heart, Peter knew that he had to say no. At least for now, His city needed him more.
+"If things get worse, you know where to find me," he said. "I'll try to come and help, but New York is my home. I belong here."
+Spider-Zero didn't press him further, but she did say she would be coming back. Peter didn't argue.
+As the portal faded away, Peter started thinking that the Web might be like the model of the universe Tony Stark had talked about, with dimensions wrapped up in tight strings that vibrated through space-time and intersected, well, like a web. Peter knew a little about string theory, but the way Tony talked about space-time when he and Reed were working out the math for the TRD? That was just a bit beyond Peter's reach. He could see what it was the same way he could see what Arthur Douglas was doing on the saxophone. Actually doing it himself was a whole other level. Peter was a bit crestfallen at having to admit this to himself, but hey, at least he still streets to patrol and citizens to save from vampires and other creatures of the night.
+Could be worse.
+“There you are!” a more familiar voice called out, snapping Peter back into reality. He glanced up to see Johnny Storm - the
+Human Torch
+-rapidly approaching, fully flame-on.
+”No more sitting here and moping about how much you miss Aunt May’s wheatcakes, Petey,” Johnny said. “We’ve got work to do!”
+“Didn’t we just defeat a Deviant Mutate together, like, an hour ago?” Peter asked. The two heroes had long been best friends and had enjoyed countless team-ups over the years, but the frequency of their joint missions together had increased exponentially since the city had fallen under the curse never-ending night.
+“That’s already old news,” Johnny laughed. “I’ve incinerated at least a dozen more vamps since then all on my lonesome. But Reed just sent me some juicy new intel that’s gonna blow your mind!”
+”Please don’t let it be a vampire Galactus…” Peter muttered nervously under his breath.
+”Way better,” Johnny said with a confident smile. “Blade finally showed up!”
+”Blade?!” Peter said with genuine surprise. The vampire hunter had been mysteriously missing-in-action ever since
+Dracula
+’s hordes first descended upon the island of Manhattan. Peter breathed a sigh of relief, knowing that Blade’s expertise in battling vampires could really help the heroes turn the tied back in their favor. It was almost too good to be true!
+“
+Squirrel Girl
+’s crew claims to have seen him in Central Park twenty minutes ago,” Johnny continued, beginning to fly toward the center of the city. “We have to find him… before you-know-who does!”
+Peter immediately leapt from his perch, spinning a strand of webbing and swinging after the Human Torch. Johnny was moving fast, but Peter could easily follow the trail of flame that his friend left in the air behind him.
+As the duo descended to the southeast corner of Central Park, they couldn’t believe their eyes. There he was: a half-man, half-vampire warrior clad in all black, grinning as he furiously swung his swords at a group of oncoming vampires. His sharp fangs glinted in the light of the Blood Moon. There was no doubt about it. This was
+Blade
+, the legendary Daywalker. And, suddenly, both Peter and Johnny felt a lot more hope.
+”You just gonna stand there starin’, boys?” Blade asked, not even looking from his foes. “Or are you gonna help me take down these damn fangers?”
+”Oh, yeah! Sorry!” Peter said, leaping into action, rapidly shooting a barrage of webs at the feet of the vampire horde. “I just don’t think either of us expected to see you here.”
+“You and me both,” Blade mused. “Been on a secret recon mission tryin’ to figure out how the hell Dracula made New York his new turf.”
+”Any luck?” Johnny asked.
+”Found a few leads,” Blade said, his tone instantly becoming much more serious, “But they all sounded a bit hard to believe.”
+”Says the guy currently in a sword fight with vampires,” Spidey jested. Blade didn’t even crack a smile. But, to be fair, he didn’t have much reason to.
+As much as Blade hated vampires, vampires has always hated Blade right back. Not only because he was constantly hunting them down and ending their immortality early, but also because they were extremely jealous of him. Blade had something that no other vampire had - the ability to survive in the sunlight. Peter worried that fact alone would make his friend Dracula’s Most Wanted.
+See, even though the city was shrouded  in darkness for the moment, Dracula had to know that his little ploy wouldn’t last forever. If he could use this opportunity to find a more permanent solution to his brood’s limitations, however - a solution that was likely to be found in Blade’s hybrid blood - then he wouldn’t need to rely on a Empire of Eternal Night anymore. No matter the time of day, vampire would rule the city… and, eventually, the world…
+As Peter pondered the chilling possibilities, he continued to web shut fang-filled mouths as swiftly as he could. Meanwhile, Johnny and Blade were busy using more lethal methods to eliminate their undead attackers. Johnny unleashed powerful bursts of superheated plasma to incinerate the vampire soldiers, while Blade effortlessly sliced his foes into bits with his swords. Peter tried not to throw up in his mask, both from the sight and the smell. Soon, the chaos subsided and the three heroes were the only men left standing.
+”Was that it?” Peter asked, well aware of the mistake he had just made the second words left his lips. His spider-sense immediately let him know that even greater danger lurked nearby. Classic Parker luck.
+”Calm before the storm,” Blade said knowingly.
+”Indeed”, a sinister voice responded as Dracula himself stepped out of the shadows, his blood red cape gently swaying in the breeze.
+”Dracula?” Johnny exclaimed, almost excited. The lord of the vampires had rarely left his castle since this nightmare began. “Big mistake showing your pastry face in public, pal!”
+The Human Torch released an enormous burst of flames in Dracula’s direction, but the vampire king dodged out of the way uncanny speed. Peter unloaded burst after burst of webbing toward Dracula as well, but fared no better when it came to hitting his target. Their foe was far too fast.
+“Takes a vamp to beat a vamp,” Blade said, raising both of his swords as he pushed between his new allies and lunged at Dracula.
+"You speak true," Dracula responded as he unsheathed his two ornate swords and met Blade in combat. "And since you are only half a vampire, it is clear who shall claim victory."
+Sparks flew as metal clashed. For every thrust of Blade's weapons, Dracula had a perfect counterattack that left the vampire hunter growling with frustration. Despite Blade's undeniable combat skill, Spidey could see that the Daywalker was out-matched. The hunter was about to become the prey if Peter didn't do something fast.
+"Get ready to light it up, Johnny," Peter said. His fantastic friend nodded, knowing what to do next.
+As Peter launched another bombardment of web blasts from his wristbands, Johnny produced a wall of flame directly in their path. As the dense balls of webbing passed through the flames, they instantly ignited. The burning projectiles impacted Dracula, setting his cape ablaze and distracting him for a mere moment - a moment Blade eagerly took advantage of.
+"Nice steel you've got there, Vlad," Blade said, kicking the legendary Sword of Dracula from his foe's hand. "Think I'll add 'em to my collection." Blade quickly wrenched the smaller yet equally legendary blade from this undead king's claws.
+"And I shall add your hand tom mine!" Dracula snarled back. Even though he had been disarmed, Dracula still managed to dodge Blade's frenzy of attacks.
+While the two vampires  clashed, Peter released a heavy spray of webbing at Dracula's feet, stopping him in his tracks for a moment. But just as Spidey swung in to deliver a swift kick to Dracula's pointy teeth, the vampiric villain turned himself into a black mist, freeing himself from the webs and sending Spidey soaring straight through him.
+"Hey, Blade," Johnny yelled, "let's show this jerk how we like our stakes!"
+Blade grabbed a pair of sharp wooden spikes from his bandolier and hurled them through the air, straight at Dracula's heart. Johnny lit up the sharp stakes with two quick bursts of flame as they hurled toward their deadly destination.
+"Well, done," Dracula said as he used his lightning - fast reflexes to bat the burning stakes out of the sky split seconds before they could pierce his undead flesh. "But I prefer my meat bloody."
+Dracula suddenly turned his attention back to Peter, leaping through the air and clutching the hero by the throat.
+"And you will make the perfect appetizer," Dracula growled, lifting Peter into the air with one hand. Peter squirmed to break free from the vampire's grip, but to no avail. Peter could feel Dracula's fingers tightening around his larynx. For once, the Amazing Spider-Man was truly speechless. His vision began to cloud with darkness as he gasped for air. Dracula leaned in, his fangs ready to sink into the sinew of Peter's neck.
+"You don't want him," Blade said, slicing Dracula from behind with his sword. Dracula loosened his hold and Peter slumped to the ground, gasping. "It's me you're after."
+Everything that happened after that was a blur. Peter tried to get to back on his feet and back in the game, but he quickly realized that he never stood a chance against Dracula, even with Blade and the Human Torch on his side.
+The lord of the vampires attacked Peter's friends ferociously, turning himself a giant dragon-like bat and using a flap of his massive wings to extinguish the Human Torch's flames, knocking Johnny unconscious in the process.
+All Peter could do was watch helplessly as Dracula's monstrous form swooped down and grabbed Blade in his claws, lifting the vampire hunter into the air. Despite his efforts, Blade couldn't manage to break free from Dracula's grip. The hideous creature passed in front of the Blood Moon as he dragged his prey back to his castle... and the unspeakable horrors that waited within.
+As everything faded to black, Peter Parker wondered if maybe he should have gone through that portal after all...
+Liberation of New York
+(Coming soon. Stay Tuned!)
+Spiders are not Insects
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Web, White, and Blue
+As Spider-Man, partner with Captain America to land 1 KO.
+5
+Spider-Sense Tingling!
+As Spider-Man, detect a enemy with Spider-Sense and land a winning counterattack.
+10
+Quotes
+See
+Spider-Man/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Spider-Man
+was released as the 4th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 4 new costumes:
+Chasm
+,
+Scarlet Spider
+,
+Bag-Man Beyond
+, and
+Spider-Man: No Way Home
+.
+Added the
+Spider-Sense Tingling!
+achievement.
+Added to the
+Symbiote Bond
+Team-Up Ability
+with
+Peni Parker
+and
+Venom
+and the
+ESU Alumnus
+Team-Up Ability
+with
+Squirrel Girl
+.
+24/12/10:
+Version 20241210
+After equipping the PlayStation bundle's
+Scarlet Spider
+costume, restarting the game could cause the costume not display as correctly equipped. This issue has been resolved.
+25/01/08:
+Resolved occassional synchronization issues for
+Venom
+and
+Spider-Man
+after swinging and wall-crawling.
+Resolved an issue where, while airborne, if
+Spider-Man
+used
+Amazing Combo
+to interrupt the wind-up of a normal attack, the attack would incorrectly continue and still inflict damage.
+25/01/30:
+Added 1 new costume:
+Marvel's Spider-Man 2
+.
+25/02/20:
+Fixed an issue where
+Spider-Man
+sometimes couldn't use abilities while falling from the top of a wall. The web-slinger can now strike without a hitch--no more sticky situations!
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Reduce
+Web-Cluster
+energize time from 3s to 2.5s.
+Reduce
+Spider-Man
+'s
+Suit Expulsion
+duration from 4s to 1s. Replace the 50% damage reduction effect with a new invincibility effect during the duration.
+25/03/21:
+Added 1 new costume:
+Spider-Punk 2099
+.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Added 1 new costume:
+Spider-Oni
+.
+25/04/30:
+Version 20250430
+Decrease the damage range of
+Amazing Combo
+from a 5m radius to a 4m radius.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Marvel Rivals - Console Announce Trailer
+Spider-Man- Friendly Neighborhood - Character Reveal - Marvel Rivals
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+"Spider-Man: No Way Home" Costume Reveal
+"Spider-Man 2" Costume Reveal
+"Chasm" costume in
+Amazing Spider-Man
+(2018) #93
+"Scarlet Spider" costume in
+Scarlet Spider
+(2011) #1
+"Bag-Man Beyond" costume in
+Amazing Spider-Man
+(2018) #87
+Iron Spider Armor (called "Spider-Man: No Way Home" costume in-game) in
+Avengers: Infinity War
+(2018)
+"Marvel's Spider-Man 2" costume in
+Marvel's Spider-Man 2
+(2023)
+Trivia
+Spider-Man is voiced by Yuri Lowenthal, reprising his role from the Insomniac
+Marvel’s Spider-Man
+game series,
+Marvel Ultimate Alliance 3: The Black Order
+,
+Marvel’s Midnight Suns
+, and more.
+The Chasm and Scarlet Spider skins are from Peter Parker's clones, Ben Reilly and Kaine Parker, respectively.
+Despite the costume being called "Spider-Man: No Way Home" and the listed appearance being in
+Spider-Man: No Way Home
+(2021), this suit actually first appears in
+Spider-Man: Homecoming
+and is first worn by Spider-Man in
+Avengers: Infinity War
+, both of which are before
+Spider-Man: No Way Home
+.
+Spider-Man's interaction with
+The Thing
+is a reference to the "Marvel Team-Up" comic book series, which featured Spider-Man teaming up with different heroes, including The Thing.
+The "No Way Home" spray has his default,
+NWH
+, and
+Chasm
+skins doing the Spider-Man pointing meme, in particular a set photo from No Way Home of actors Tom Holland, Tobey Maguire, Andrew Garfield recreating the meme.
+The description of his
+Spider-Punk 2099
+costume mentions Hobie Brown, the Punk Rock Spider-Hero from Earth-138.

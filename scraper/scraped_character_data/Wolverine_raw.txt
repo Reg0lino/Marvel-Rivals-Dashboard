@@ -1,0 +1,696 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Wolverine =====
+
+Wolverine
+"Anyone stands in my way, they won't be standing much longer."
+Real Name
+James Howlett
+Aliases
+Logan
+Weapon X
+Biographical Information
+Birthplace
+Cold Lake, Alberta
+Gender
+Male
+Eye color
+Brown
+Hair color
+Black
+Relatives
+Elizabeth Howlett
+(mother; deceased)
+John Howlett
+(legal father; deceased)
+Thomas Logan
+(father; deceased)
+Powers/Skills
+Superhuman speed, strength, agility, reflexes, and durability
+Retractable adamantium claws
+Regenerative healing factor
+Indestructible adamantium skeleton
+Enhanced senses
+Signature
+Status Information
+Role
+Duelist
+Health
+350
+Difficulty
+Affiliation
+X-Men
+Portrayal
+Voice Actor
+Steve Blum
+Character Video
+Thanks to his regenerative healing factor and berserker rage, the centuries-old Logan can fight through the worst pain to go claw-to-claw with any foe. The Wolverine stands ready to shred through all obstacles in his way with his Adamantium claws.
+Official description
+Wolverine
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 33rd hero introduced to the game's roster.
+He has a team-up ability that works in conjunction with
+Hulk
+and
+The Thing
+.
+Overview
+Strengths
+Close-range brawler with high mobility and survivability, capable of constantly harassing to his targets while progressively increasing his own attack power.
+Has higher max health compared to most Duelists.
+Has slightly higher base movement speed compared to other characters.
+Wolverine's gameplay revolves around his damage percentage bonus. Unlike other heroes, Wolverine deals a small percentage of the target's maximum health as damage in addition to a flat amount of damage. The more health an enemy has, the more damage Wolverine will deal.
+This makes him exceptional at taking down opponents with higher maximum health, specifically Vanguards.
+Wolverine is the only Duelist in the game with two key passives:
+Regenerative Healing Factor automatically grants Wolverine bonus health once his health depletes to zero, while also removing any debuffs he previously had.
+This bonus health amount scales with Wolverine's current stacks of Berserker Rage, from a base of 150 bonus health to 300 bonus health with max Rage stacks.
+After 3 seconds this bonus health is converted into a direct heal at a 1:1 ratio.
+This passive has a lengthy cooldown of 90 seconds once triggered, but is decreased by 10 seconds every time Wolverine eliminates an enemy or provides an assist.
+Berserker Rage is a stackable passive that builds up whenever he deals or takes damage. Every offensive ability that successfully connects (including his Ultimate) provides a different amount of stacks for Berserker Rage.
+Each stack grants a small bonus of percentage damage to all of Wolverine's attacks. These bonuses max out at 100 stacks.
+The Berserker Rage gauge is shown directly below the aiming reticle.
+There is also a visual indicator wherein Wolverine's claws begin glowing orange akin to heated metal, in addition to his body becoming enveloped by a blood-red aura, both of which become more intense as his Berserker Rage stacks climb. At max stacks his hair becomes spiky and red sparks periodically pulse around him.
+His primary fire, Savage Claw, unleashes four quick slashes with his adamantium claws, with the fourth attack having a slight delay afterwards.
+This attack deals damage equal to 1.5% of the target's max health, with an extra 0.045% damage for each stack of Berserker Rage.
+His secondary fire, Vicious Rampage, is a quick lunge forward that unleashes a cross-claw strike.
+This attack deals damage equal to 1.5% of the target's max health, with an extra 0.045% damage for each point of Berserker Rage.
+Feral Leap is a jumping leap attack that ends with Wolverine smashing the ground upon landing, dealing damage. After using Feral Leap his primary fire, Savage Claw, temporarily becomes Berserk Claw Strike for 4 seconds.
+Berserk Claw Strike has vastly increased attack speed and removes any delay between attacks.
+If the leap connects with an enemy hero, they will be grabbed and pulled alongside Wolverine and become unable to act, until being briefly stunned once Wolverine lands on the ground.
+Feral Leap is capable of grabbing enemies directly behind or to the side of Wolverine.
+This ability may be used to pick off key targets overextending or to separate them from the rest of the team.
+If Wolverine leaps off of an edge while he is grabbing a target, the target will be taken down alongside him. Additionally, if Wolverine manages to land close to the ledge of a pit while he is grabbing a target, he will drop the target into the pit.
+Both the snatch and slam deal damage equal to 1% of the target's max health, with an extra 0.035% damage for each point of Berserker Rage.
+Undying Animal provides Wolverine with a 50% damage reduction from all sources by 5 seconds.
+This ability may be activated during Feral Leap to cancel the leap prematurely while conserving its momentum. This allows Wolverine to cover much more distance with the leap at the expense of being able to snatch enemies.
+His Ultimate, Last Stand, is a rising claw strike that knocks enemies directly upwards. Upon connecting, Wolverine will leap high into the air, prompting the player to strike down and deal damage in a radius.
+The first enemy caught when Wolverine descends will be snatched and slammed down to the ground, being briefly stunned.
+Both attacks during this Ultimate deal damage equal to 10% of the target's maximum health, with an extra 0.3% damage for each point of Berserker Rage.
+Hulk
+can use Fastball Special when paired with Wolverine, providing him with Metal Cannonball.
+Both players will need to confirm the team-up, after which Hulk picks up Wolverine and carries him around in his right hand.
+Hulk can then aim, charge, and throw Wolverine, who will perform a Feral Leap.
+Weaknesses
+Relies heavily on dealing constant, uninterrupted damage in order to keep his Berserker Rage at high stacks to maximize his damage-per-second.
+Is less effective against team compositions with fewer Vanguards. On his own, Wolverine is not an effective backline diver due to his reliance on percentage-based damage.
+Limited mobility compared to other melee-oriented heroes (no double jumps or wall interactions).
+Savage Claw has a very low melee range, requiring Wolverine to be very close to his targets.
+Feral Leap can sometimes miss targets if they are extremely close to Wolverine when he jumps. This can be somewhat alleviated by aiming downwards while casting Feral Leap.
+The follow-up slam strike of Last Stand may feel counter-intuitive; the player needs to aim directly down and activate the slam manually.
+His team-up with the
+Hulk
+relies on Hulk to initiate the throw, meaning that Wolverine has no autonomy over where he is thrown.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+WOLVERINE
+Default
+Lone Wolf
+RARE
+Patch
+EPIC
+Deadpool & Wolverine
+EPIC
+Blood Berserker
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Wolverine
+Lone Wolf
+Season 0
+Patch
+Marvel Comics Presents
+(1988) #10
+2025 Hellfire Gala: Moments
+S2 Event
+Deadpool & Wolverine
+Deadpool & Wolverine
+(2024)
+Blood Berserker
+Season 1
+— S1 BattlePass —
+See
+:
+List of MVP Animations
+DEFAULT
+Wolverine
+Savage Soirée
+Patch
+Maximum Effort
+Deadpool & Wolverine
+Blood Barrage
+Blood Berserker
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Scarred Elegance
+I Don't Play Nice
+Hone Claws
+See
+:
+List of Sprays
+Wolverine
+X (Wolverine)
+Patch
+Deadpool & Wolverine
+Blood Berserker
+See
+:
+List of Nameplates
+Wolverine
+Patch
+Deadpool & Wolverine
+Blood Berserker
+Abilities
+Normal Attack
+SAVAGE CLAW
+Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period.
+CASTING -
+Melee
+BASED DAMAGE -
+15
+PERCENTAGE DAMAGE -
+Deal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage
+MAXIMUM DISTANCE -
+3.5
+ATTACK INTERVAL -
+The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike
+Abilities
+Q
+LAST STAND
+Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point.
+CASTING -
+Area
+KNOCKBACK RANGE -
+8m spherical radius
+KNOCKBACK DAMAGE -
+50
+SNATCHING DAMAGE OVER TIME -
+20/s
+IMPACT RANGE -
+8m spherical radius
+IMPACT BASE DAMAGE -
+50
+IMPACT PERCENTAGE DAMAGE -
+Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage
+KNOCKDOWN TIME-
+1s
+SHIFT
+FERAL LEAP
+Leap like an animal to snatch the first enemy upon impact and Smash them to the ground. Unleashing this ability will enhance his normal attack to Berserk Claw Strike for a brief period.
+CASTING -
+Jump Melee
+SNATCH DAMAGE-
+35
+SMASH DAMAGE-
+35
+KNOCKDOWN DURATION-
+0.75s
+BERSERK CLAW STRIKE DURATION-
+4s
+BERSERK CLAW STRIKE BASE DAMAGE-
+6
+BERSERK CLAW STRIKE MAXIMUM DISTANCE-
+3.5
+BERSERK CLAW STRIKE ATTACK INTERVAL-
+5.88 strikes per second
+LEAP DISTANCE-
+20m
+COOLDOWN -
+12s
+E
+UNDYING ANIMAL
+Unleash a fierce howl to briefly reduce incoming damage.
+CASTING -
+Self
+DURATION -
+5s
+DAMAGE BOOST -
+40%
+COOLDOWN -
+16s
+VICIOUS RAMPAGE
+Dash forward and unleash a Claw Strike.
+CASTING -
+Movement-based damage ability
+AVERAGE SPEED  -
+44m/s
+DAMAGE -
+15
+COOLDOWN -
+3s
+RANGE -
+3m
+MAXIMUM DISTANCE -
+7.5m
+PASSIVE
+REGENERATIVE HEALING FACTOR
+Begin to heal and rise with a hefty Bonus Health, shaking off all debuffs. After a brief moment, any remaining Bonus Health morphs into a one-off heal, zeroing out his Rage. Assists in KOs reduce this cooldown.
+CASTING -
+Self
+COOLDOWN -
+90s
+BONUS HEALTH -
+150 - 300 (Damage increases with Rage)
+BONUS HEALTH DURATION -
+3s
+BONUS HEALTH/HEALING CONVERSION -
+1
+COOLDOWN REDUCTION PER KO ENGAGED -
+10s
+PASSIVE
+BERSERKER RAGE
+Rage builds when Wolverine attacks or takes hits, boosting the damage of his Claw Strikes and the Bonus Health from his regenerative healing factor.
+CASTING -
+Self
+MAX RAGE -
+100
+RAGE PER SAVAGE CLAW HIT -
+7
+RAGE PER VICIOUS RAMPAGE HIT -
+20
+RAGE PER FERAL LEAP SNATCH -
+20
+RAGE PER BERSERK CLAW STRIKE HIT -
+7
+RAGE PER LAST STAND KNOCKBACK -
+25
+RAGE PER HIT TAKEN -
+3
+Team-Up Abilities
+C
+METAL CANNONBALL
+Wolverine,
+Hulk
+, and
+The Thing
+can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.
+DURATION -
+5s Maximum
+COOLDOWN -
+3s (when Wolverine is not hurled) and 15s (after hurling Wolverine)
+Strategy
+Wolverine is a nigh-unstoppable berserker who excels at displacing enemies, shredding large health pools, and brawling for extended periods of time. His high damage, survivability, and mobility makes him extremely tough to kill, all while he finds opportunities to isolate and pick off any enemy unfortunate enough to be in the wrong place at the wrong time.
+Because all of Wolverine's damage is melee-based, it shouldn't be a surprise that he struggles against fliers or heroes who can reliably stay far away from him. If Wolverine gets spotted before he can close the distance, there isn't much he can do other than run away and try to find a better opportunity. This can make his success somewhat map or team-dependent, however there should usually be at least one viable target for him at any given moment.
+Wolverine loves to brawl for extended periods of time or to attack from unexpected angles. Try to stick close to your team during a big fight, as with his innately high health, survival abilities, and support from his team, it is incredibly difficult to burst him down.
+Wolverine's main attack is his Savage Claw, where he slashes forward with his claws four times in quick succession. While its base damage may seem low on paper, this attack has a unique percentage-based damage formula, where it deals higher damage the more health his target has. After using Feral Leap, the attack will be upgraded to Berserk Claw Strike, which has him attack at a significantly faster rate for significantly more damage output.
+This attack's unique damage properties is what makes Wolverine so effective at brawling with tanks. Not only can he deal incredibly high damage to them, but they typically also have lower damage output when compared to a Duelist, meaning they will often lack the means to burst down Wolverine themselves before he does the same to them, especially due to Wolverine's high survivability. As such, when in a fight, always try to focus on taking on Vanguards before all else.
+Feral Leap is arguably Wolverine's most powerful utility barring his tank-shredding. Wolverine will quickly leap forward and snag the first enemy he collides with along the way, stunning them. After slamming them back down to the ground, he deals a small burst of damage and puts them in a hard stun state, leaving them wide open. After exiting the leap, Wolverine's basic attack will be upgraded to Berserk Claw Strike.
+This ability offers Wolverine an extremely powerful niche that only a select few other characters can replicate: the ability to forcibly isolate a target. Dragging any enemy away from their team and into yours will all but guarantee a pick on said enemy, unless their team is willing to either overextend drastically or expend powerful abilities or ultimates to save them.
+It may be tempting to use this ability to leap into the enemy and slash wildly. However, if you're using it this way, you're losing out on the isolation utility it offers. Instead, try to get close to the enemy first before using the leap, through either flanking or in the midst of a chaotic fight, as you can not only snag an enemy more easily, but also have more control over where they end up after getting snagged, allowing you to isolate them even further.
+Another thing to note is that this ability's hitbox actually extends behind Wolverine, allowing him to grab an enemy while his back is turned to them. With that in mind, it is possible to quickly dash at enemy, immediately turn around 180 degrees, and then use leap to quickly displace them in the opposite direction. However, this is a somewhat difficult technique, so it will take time to learn.
+Undying Animal gives Wolverine extra survivability to work with. Wolverine lets out a powerful war cry, briefly reducing all damage he takes by 40%.
+Because of the way damage resistance and effective health works, a full-health Wolverine's effective health goes from his base 350 to around 583 with the push of a button. This alone can allow you to power through most things that would've easily killed you otherwise, so using this right before engaging the enemy is a great way to survive their onslaught.
+Vicious Rampage serves as a solid, low-cooldown mobility option. Wolverine quickly dashes forward and performs a rushing slash, dealing minimal damage.
+Due to the low cooldown, you can use this ability quite often to close the gap on an enemy, quickly reach cover, or reach vantage points as the dash is omni-directional.
+Wolverine is one of the few heroes in the game with multiple passives. His first is Regenerative Healing Factor, where he essentially gets a quick second life after reaching 0 health, cleansing debuffs and giving himself overhealth proportional to his rage that is later converted into normal health. While the cooldown is long, KOs and assists will hasten the cooldown. His second passive is Berserker Rage, where he gains a damage buff as he deals damage with his attacks, while also increasing the health he gets from Regenerative Healing Factor
+Playing around Regenerative Healing Factor can allow Wolverine to stay in the fight far longer than almost any other non-Vanguard, as even a quick one-shot that would've otherwise KO'd any other hero still isn't enough to kill him if he has it available. When the ability is on-cooldown however, you should play significantly safer and only attempt to take fights that you know you can win, such as against a lone Vanguard or an injured target.
+Wolverine's ultimate, Last Stand, has Wolverine launch enemies upward and leap into the air before spiraling back down to Earth, snagging any enemies caught in his way and slamming them into the ground for big damage. The higher his rage, the more damage the attack will deal. Like his Savage Claw, this attack has a percentage-based formula and benefits from Berserker Rage's damage bonus.
+Because of the attack getting boosted by Berserker Rage, you should usually only activate it while at high rage in order to maximize the amount of damage you can do with the ability. When the ultimate is available, play hyper-aggressively to lull enemies into a false sense of security when they think they have you cornered, only for you to immediately turn around and slam them into the ground.
+Metal Cannonball can allow Wolverine to more easily engage an enemy with the help of his team. Wolverine can interact with an allied Hulk or Thing to throw him in whatever direction they desire, and similar to his Feral Leap, Wolverine's basic attack will become Berserk Claw Strike after exiting the fastball.
+With both Wolverine and his fellow tank engaging at the same time, they can quickly overwhelm anyone unfortunate enough to be in the wrong place at the wrong time, with Wolverine being able to shred a higher-health hero that Hulk or Thing would other wise struggle with and vice versa.
+Lore
+"You pick the wrong day to drag me into this mess, bub."
+Gifted with a powerful healing factor and razor sharp claws, the Mutant called Logan was turned into a living weapon when the clandestine government organization Weapon X bonded indestructible Adamantium to his skeleton. Wolverine has proven to be more than a killing machine, finding ways to rise above his pain to do what's right for Mutants and humans alike.
+Now, Logan splits his time between battling Doom 2099 and ushering Mutants to safety on Krakoa. Even in the far future, Wolverine remains the best there is at what he does.
+—
+Biography
+Hero Story
+"This ain't my first rodeo. Sure as hell won't be my last."
+Accompanied Envoy
+"Another one,
+Freddie
+. Heavy on the orchid nectar."
+"You got it, Logan," said Fred Dukes, the bartender of the Green Lagoon - a secluded watering hole nestled into the heart of Krakoa, the living island that served as a safe haven for Mutants from across time and space.
+The massive man plucked a beautiful tropical flower from a tiny garden behind the bar. He squeezed it in his oversized hand, causing the strange pink liquid contained within its delicate blossom to trickle into a tall glass. Mixing in a few other natural ingredients, he covered the glass and gave it a quick shake before sliding it across the bar to his most loyal customer.
+"Not used to you ordering off the organic menu," Fred said with a smile, noting that Logan's tastes usually tended to be a bit more traditional.
+"Yeah, well, I didn't come here to forget anythin' tonight, bub," Logan said, gazing at the nectar swirling in his glass. "For once, I wanna remember every detail."
+"And I would like to hear them as well," a voice said as another man approached the bar. "If you are willing to share, my friend..."
+Logan looked up from his drink to see one of the greatest  foes he'd ever faced, the Mutant Master of Magnetism known as
+Magneto
+, taking a seat next to him. If this were a few years ago, Logan would have already popped his razor sharp Adamantium claws and taken the first swing... but these were strange times. And for a man who'd lived as long and eventful as the Wolverine, that was certainly saying something.
+Logan was used to the unexpected, but everything had turned upside down when the chronal disruption known as the Timestream Entanglement started wiping out realities. Krakoa may have been home to some of the most powerful Mutants on the planet, but that wasn't enough to keep it safe from the cosmic catastrophe's devastating effects. The island and its inhabitants found themselves swept up in a powerful temporal storm and nearly became lost in time and space.
+Ororo Munroe
+, the X-Man called Storm, managed to navigate the island safely through the tempest, but when the danger had finally passed, their new reality began to sink in. Krakoa had not only been transported to a different dimension, but to a whole new era as well - the year 2099.
+Always one to seize an opportunity, Magneto took advantage of the crisis. But not in the way most might've expected. Instead of trying to subjugate the unsuspecting humans of this future world, he instead opened the gates of Krakoa to all Mutants who had become displaced by the Timestream Entanglement. His efforts had already earned him the respect of many... and the ire of many more. Magneto didn't care what the world beyond Krakoa thought of him, nor did he have any interest in mankind's petty squabbles. All he cared about was the safety of his own people and of Krakoa. But Logan knew that no man - or Mutant - was truly an island.
+"Still got your cape in a bunch that I've been runnin' with the humans, Erik?" Logan sked, taking a swig of his drink and sneering as the festive, fruity flavors danced across his tongue.
+"There are still so many Mutants who need our help, Logan," Magneto responded. "You should be focused on them."
+"Our people ain't the only ones in trouble," Logan responded gruffly. "Just 'cause most folks in this day and age don't seem to be born with the X-gene anymore, it don't mean we can just ignore the threats they're up against."
+"Helping innocents is one thing," Magneto said, his tone becoming more judgmental. "But you're out there fighting the powers-that-be alongside some sort of... human liberation front? Your careless actions could put a target on Krakoa and all those who came here for protection."
+"Funny," Logan said, dismissing Magneto's concern, "since when have you been one to stand by and do nothin'?"
+"Since the well-being of our entire species became mine to safeguard," Magneto replied.
+"Fair enough," Logan said. "But believe it or not, I'm doin' what I do to keep Krakoa safe as well. From goose- steppers like the Public Eye. From corporations like Alchemax. And especially from that metal- masked maniac, Doom."
+Magneto paused, knowing his companion was speaking the truth. Somehow,
+Victor von Doom
+was still alive and thriving in this era. The king of Latveria had become more powerful than ever, both as a political leader and as a sorcerer.  It was even rumored that Doom himself had kickstarted the Timestream Entanglement, tough there were conflicting reports as to whether it had been the Doom of this reality or another of his Multiversal variants. Still, Magneto knew it was only a matter of time before Doom set his sights on Krakoa and the growing army of Mutant soldiers for whom it had become a sanctuary. Perhaps Logan's actions were more justified than Magneto was willing to admit...
+"Your allies in this Resistance..." Magneto said, considering his words carefully, so as not to send the Wolverine into a berserker rage, "...are you sure they can be trusted?"
+"With my life," Logan said without pause. "There may not be many of us fightin' this fight, but the ones we've got are the best there are at what they do."
+"And the hottest, am I right?" Fred chimed in unexpectedly from behind the bar. "That Black Widow was always smokin'! For a human, I mean... But then again, I guess she's gotta be, what, like, over a hundred by now? So maybe just forget I said that..."
+"Natasha don't look a day older than she did when she was in her prime," Logan responded. "Guess I ain't the only own who figured out how to fight off the effects of agin'. And there's someone else who just showed up that literally hasn't aged a day in a century and a half... Someone you probably oughta about, Erik..."
+Magneto (and Fred) listened intently as Logan began to recount his most recent excursion beyond the shores of Krakoa.
+Logan had trough a Krakoan gate to rendezvous with Natasha Romanoff in Tokyo. The Red Room, which the
+Black Widow
+was now using as her own personal spy network, had intercepted  rumors that someone was planning hits on major crime organizations, including the Yashida Corporation. They needed to know if the person targeting these groups was a potential ally or yet another enemy to add to their list. But when Wolverine arrived at their usual meeting point, Natasha was nowhere to be found. He tried to contact her on the Resistance's secure comm channel, but she had gone radio silent. That wasn't like her.
+After a digging for intel and making a few minor threats, Logan learned that Natasha  had gotten a credible lead about an ultra-top-secret "MERCURY" level asset being stored at Alchemax's Tokyo HQ. Whatever it was, she must've realized that her window to recover it was extremely short if she was willing to risk going in without backup.
+Logan raced through the back alleys of Tokyo toward the Alchemax tower, but he wasn't fast enough. But he could reach his destination, a powerful explosion lit up the night and shook the city's streets. Worried about Natasha's safety. Logan doubled his paced, but instead of finding the Resistance's most elite spy, he instead found himself face-to-face with one of the most legendary warriors to ever grace the field of battle.
+Steve Rogers
+.
+"Captain freakin' America?!" Fred blurted out, snapping Logan out of his story. "You gotta be kiddin' me!"
+"No joke, bub," Logan said. "But the boy scout wasn't alone."
+Logan continued his tale, saying how Cap's signature red, white and blue uniform was badly scorched, as if he had walked out the inferno at the Alchemax building. To make matters words, he was now surrounded by a small squadron of Doombots that were all aiming their weapons at him.
+Logan wasted no time, popping his claws and leaping into the fray. As he furiously slashed, reducing Doombots to scrap, Logan never once questioned if he was on the right side of the battle. After all, if there was anyone who could be trusted without hesitation, no matter the timeline, it was Captain America.
+Cap didn't have his shield on him, but that didn't stop him from joining the fight. The Super-Soldier was one of the best hand-to-hand combatants who'd ever lived, and even a seasoned warrior like Logan couldn't help but be impressed by Cap's strength and skill as he delivered blow after blow to the mechanical menaces.
+Once Wolverine had sliced the head clean off the final Doombot's armored shoulders, he asked Cap about Natasha. Cap confirmed that she was the one who had rescued him and said that she was safe. Logan warned that she wouldn't stay that way if they stuck around much longer. Cap agreed, noting that he had only unthawed in this strange new world, and he already Alchemax, the Public Eye, and now Doom himself looking to get their hands on him.
+Logan considered bringing Cap back to Krakoa, but there were mulriple problems with that plan. First, the organic gateways that allowed Krakoan citizens to travel to-and-from the island in the blink of an eye could only be accessed by those with Mutant genetic signatures. Second, as much as he hated to admit it, Logan knew deep down that Magneto was right. If their foes found out that Cap was being harbored by the Mutants on Krakoa, it would  almost certainly drag all of Mutantkind into a war that none of them were ready to fight. At least not yet.
+"A wise choice," Magneto said. "But where is your star-spangled ally now...?"
+"I'm gettin' there, pal," Logan said. "Hold yer horses..."
+Logan went on, telling how he took Cap back to a secure Resistance safe house. By then,  the effects of the blast at Alchemax - not to mention the century and a half that Cap had spent trapped in ice - had taken their toll on the Sentinel of Liberty. Not even his Super-Soldier Serum was enough to heal his burns and reduce the atrophy in his muscles.
+Cap didn't have had a healing factor,  but Logan had access to something that could get his new ally back in the game again in no time. Making a quick trip  back to Krakoa, Logan gathered some medicinal flowers and returned with them to safe house. It wasn't long before Cap was back to his old self. His renewed vigor had apparently also renewed his sense of duty.
+"I owe you my life, soldier," Cap said upon his recovery. "This may not be the war that I was made to fight in, but I'd be honored to join your Resistance and help you turn the tide against this Doom fella - and any other fascist forces trying to crush your people beneath their collective boot heel."
+"Thanks for the offer," Logan said, "but that mess back at Alchemax has probably set off Public Eye alarms across Tokyo... and beyond. The Resistance is gonna need to keep a low profile for a while. And as great as having Captain America on our team might sound, it's bound to draw a bit too much unwanted attention."
+"I understand," Cap replied. "Do you happen to know anywhere else I can go? Preferably somewhere far enough away to keep everyone safe?"
+"There aren't many places left on this planet that aren't under constant surveillance," Logan replied. But that notion gave him another idea. What if the place he sent Cap wasn't on this planet at all?
+"Tell me, bub..." Logan continued,"... you ever hear of Wakanda?"
+"The African nation?" Cap asked, instantly seeing the merit in Logan's suggestion. "They managed to hide their presence perfectly during the war. I doubt anyone would be able to find me there. And the good news is, I happen to be close friends with King T'Chaka. My shield was even forged from Vibranium, a rare Wakandan metal! I wonder if they could make me a new one..."
+"Hate to break it to ya.." Logan said with a smile,"... but T'Chaka ain't the king anymore. And Wakanda is a long way from Africa these days..."
+Logan informed Cap of how the Wakandans had set off to the stars in search of the true source of Vibranium and had since built themselves and intergalactic empire. Cap seemed dismayed, but all hope wasn't lost. The current king of Wakanda,
+T'Challa
+, had been attempting to make strategic alliances to battle against a darkness he saw on the horizon.
+"Ah yes," Magneto  interjected, "T'Challa came to me seeing Krakoa's aid... but we were not yet ready to commit to such a partnership."
+"Yeah, well, he came to Natasha, too," Logan said. "And she was smart enough to take him up on his offer."
+T'Challa had provided the Resistance with a single high-tech Kimoyo bead containing special code that could be used at any Wakandan Embassy to open a passageway across the stars, straight to the heart of the Intergalactic Empire of Wakanda.
+With Natasha still off the grid after the Alchemax incident, it was up to Logan to escort Cap to the Wakadan Embassy in Tokyo. As much as Logan would've loved to carve a path through some Public Eye soldiers along the way, the two heroes managed to use their impressive stealth skills to get to their final destination undetected.
+When they arrived,  the Embassy was empty. The two followed T'Challa's direction and located the sculpture of Bashenga, the King of Wakanda. As they stood in front of the statue, Logan activated the Kimoyo bead, and a portal instantly appeared. Cap gave Logan a salute, thanked him for his service, and stepped through, confident that he could handle whatever awaited him on the other side.
+With Cap safely delivered, Logan knew he had to return his attention to finding Natasha...
+"...but not before stoppin' back home for a quick refresher," Logan concluded, finishing off the last drops of pink liquid in his glass and wiping his stubble-covered chin with his forearm.
+"A fascinating tale," Magneto said. "But what I find truly refreshing is the notion that, perhaps, we have as many friends in this new world as we do foes."
+"Sometimes it helps to take yer helmet off so you can see the full picture," Logan said with a smirk.
+"Indeed," Magneto replied, as he stood to walk away, "Now if you'll excuse me, I have much to do... and, it seems, much to consider..."
+"You and me both," Logan said as he placed his empty glass on the bar.
+"Want me to fill you up?" Fred asked, hoping that another round might come with another exciting story about Logan's adventures.
+Logan stood up and glanced down the trail that led out of the Green Lagoon. He knew he had to get back into the field sooner rather than later. Natasha was counting on him. And he had a feeling that it wouldn't be long before he crossed paths with Captain America again.
+"Sure bub..." Logan said, reaching back and pulling his cowl up to cover his eyes. "...but you'd better make this one for the road."
+Rising Pulse
+“RRRRRAAAARGGGHHH!”
+The Mutant known as Wolverine let out a primal scream as his razor-sharp Adamantium claws sliced through yet another one of
+Ultron’s
+robotic drone soldiers.
+”Easy, Logan,”
+Magik
+said to her fellow X-Man. “If we’re going to win this battle and save Krakoa, we need your head in the game. Not just your claws.”
+”Thanks for the reminder, snowflake,” Logan said as he took a deep breath. Pulling himself back from the edge of a berserker rage, the cloud of red obscuring Logan’s vision began to fade. He was once again able to survey the battle taking place around him with a clear mind. And despite the devastation sweeping across the nation he called home, he liked some of what he saw.
+Magik had already returned to the battle, using her giant Soulsword to cut multiple androids in half with a single stroke. Around her, a horde of demons - Magic’s loyal subjects from Limbo, the netherworld in which she reigned - stood at the entrance of a Krakoan gateway, eviscerating any mechanical invader that dared to pass through the living island. Logan had been fond of Magik ever since she was a little girl, but seeing the strong and fearless warrior that this version has grown into filled him with a sense of pride that he rarely felt.
+Nearby, another Mutant warrior was skillfully fending off Ultron’s forces with her psychic blade, but this one was vaguely familiar to Logan. True, he and
+Psylocke
+had fought side-by-side for many years as members of the X-Men, but this woman - who simply referred to herself as Sai - was of version of Psylocke from another timeline who had only recently arrived on Krakoa. And unlike the alternate Magik, this Psylocke was vastly different from the one Logan knew. Even so, she defended her new home as if it had always been her own, which is all that Logan could ask for. And her pet wolf, who happened to share both Logan’s name and his ferocity, wasn’t so bad to have around either.
+Logan heard a noise coming from the shoreline and turned to see a small army of sea creatures emerging from the churning waves. The aquatic beasts blasted the bots with bolts of sea water. A massive monster even shot an enormous laser, obliterating an entire squadron of Ultron’s drones.
+Namor
+, the king of the seas, stepped up next to Logan and smiled proudly.
+”You Mutants are lucky to have me on your side,” Namor said. “Ultron’s toys are no match for the monsters of the deep.”
+”I sure hope you’re right fish breath,” Logan said, as yet another battalion of robotic drones blasted its way through an unguarded Krakoan gate, “cuz we’ve got more uninvited guests!”
+As Logan ran directly into the new wave of android assailants, he held his arms out to his sides so that his fully extended claws could slash their way through every hunk of scrap unfortunate enough to pass him by. The drones fell to the ground in pieces around him.
+”About time I started getting the security I paid for,” a voice said inside of Logan’s head. It belonged to the Mutant telepath
+Emma Frost
+.
+Emma had been the one who had planned tonight’s extravagant Hellfire Gala on the island of Krakoa. She had invited countless Super Heroes and powerful world leaders to dine, dance, and determine the future of relations between man and Mutantkind. But things went terribly wrong when the genocidal robot called Ultron returned to Earth and crashed the party. What started as an evening of fun and festivities had since developed into chaos and all-out-war.
+”If you wanted a bouncer, Emma, you shoulda hired the Blob,” Logan snapped back in his mind. I can’t control who comes through these gates. I can just cut ’em to pieces once they do.”
+”I simply imagined that you and the little X-Force you assembled-“ Emma continued.
+”This ain’t no X-Force, lady” Logan barked, stopping Emman mid-thought. “Magik, Sai, Namor... They’re all tough as nails, sure. But despite the match in’ costumes, we ain’t never fought as a team before. And it shows.”
+”Indeed it does...” Emma said as her thoughts began to trail away. Logan knew that she meant no harm, but even so, he was glad to have her out of his mind. He had more important things to focus on.
+Wolverine raced over to where Magik and Namor were standing. Both Magik’s demons and Namor’s sea creatures were doing their best to block off any new reinforcements from coming through the Krakoan gates. But for every portal they managed to secure, another seemed to open, as if Ultron had somehow gained full access to Krakoa’s network of interspatial gateways.
+”We’ve gotta shut these blasted doors down,” Logan said. “We can’t let any more of these things in.”
+”The only problem with that plan,” Magik replied, “is that no one else would be able to get out either. Including all the innocent people who were attending the Hellfire Gala.”
+”I know of very few air breathers whom I would consider ‘innocent people’...” Namor said with indifference. “Besides, I thought you Mutants put the safety and sanctity of Krakoa before all else.”
+”Not before helpin’ others,” Logan replied. “Even if the folks we’re tryin’ to save are the very same kinda humans who would send an army of Sentinels to wipe out our entire nation if they had the-“
+Logan paused for a second, realizing what he just said might hold the key to their dilemma.
+”Sentinels,” he muttered under his breath. “That’s it!”
+For years, humanity had attempted to exterminate Logan’s people by building massive Mutant-hunting robots known as Sentinels. At first, they were easy to defeat with just a few slashes from Logan’s claws. But with every new generation, the Sentinels’ defenses had been improved upon. Still, there was one thing that always succeeded in taking down these mechanical menaces - an electromagnetic pulse.
+”Anyone seen Magneto?” Logan asked.
+”Last I heard, Ultron took him out,” Magik said. “I would check the Arbor Magna. He should almost be resurrected by now.”
+”Ain’t got time to wait,” Logan scowled, rushing off toward the jungle at the heart of Krakoa. “Gonna have to go to my back-up plan.”
+”Where do you think you’re going?” Namor demanded.
+”To end this fight once and for all, bub,” Logan yelled back, never breaking his stride. “Hold the fort ‘til I get back, eh?”
+Logan raced as fast as he could to the entrance of a secluded cave. Stepping inside, he found himself in the Armory - the secret workshop of the X-Men’s resident inventor, Forge. Unfortunately, Forge wasn’t currently home... but Logan could smell that he wasn’t alone...
+”You don’t belong here,” Logan growled at the intruder.
+”Funny,”
+Rocket
+replied, stepping out from the shadows clad in a massive hat and a flowery shirt, “I thought you Mutants were s’posed to be all about coexistence.”
+”I am
+Groot
+,” his tree-like companion added as the shiny little Warwolf called Amazing Baby nibbled on his stray branches.
+Logan snatched a strange, hug-tech device out of Rocket’s paws.
+”This ain’t your tech, runt,” Logan said. “ You got no idea what you’re dealin’ with here.”
+”True,” Rocket mused, “this stuff is all pretty advanced by Terran standards. But to me, it’s as outdated as Quill’s stupid music player. My work is lightyears ahead of this!”
+”Then maybe you can help me,” Logan said, suddenly realizing that having a self-proclaimed tech-genius like Rocket on his side might be exactly the advantage he needed. “If we want to take down Ultron once and for all, we need somethin’ powerful. Like-“
+”An electromagnetic pulse grenade?” Rocket asked with a smirk.
+”Yeah,” Logan said “One of those.”
+”Whaddaya think you’re holdin’ pal?” Rocket said, pointing a tiny finger at the device that Logan had snatched from him earlier.
+”I am Groot,” Groot added.
+”So... if we were to set this thing off, Ultron’s done for?” Logan asked as he examined the device.
+”In theory,” Rocket replied. “But there’s a catch. Alla’ the other tech across the island goes down, too. That means fancy suits of armor, bionic limbs, and any top-secret gizmos you might be hidin’ in caves like this one.”
+”Cerebro...“ Logan whispered, realizing that the pulse would also potentially take out the one piece of technology that Mutantkind valued the most. Cerebro was used to store the genetic data and memory profiles of every Mutant on Krakoa, making it their key to their Resurrection Protocols. If the EMP destroyed Cerebro, it would take the future of Logan’s people with it.
+”Did you say ‘Cerebro’?” Rocket asked, raising a bushy eyebrow. “Me and Groot heard Ultron jabberin’ about that thing... whatever it is. Said h was gonna claim it for himself.”
+”Over my dead body,” Logan snarled. He took the EMP grenade and rushed towards the exit of the Armory.
+”Hey! Get back here with my flarkin’ pulse bomb!” Rocket yelled.
+”I am Groot,” Groot said with disappointment as Logan disappeared back into the Krakoan jungle.
+”I know, right?” Rocket responded with frustration. “I did all the work and that walkin’ can opener is gonna get the credit! Story of my life...”
+Logan wasn’t concerned about who got recognition for ending this fight. All he wanted was for it to be over before Ultron could do any more damage. And now that Ultron had his sights set on Cerebro, Logan knew he had no other choice. He couldn’t allow the sensitive data stored on Cerebro to fall into Ultron’s hands. He would rather destroy the device than let Ultron pose a greater threat to Krakoa and all of Mutantkind.
+Using his heightened senses, Logan hunted down the original Ultron through the Krakoan jungle. There was something different about his smell that set him apart from all of his robotic duplicates that had flooded the island. It was almost as if this Ultron was made from a different metal... but it was one Logan’s nose couldn’t quite place...
+Havking his way through the dense undergrowth, Logan finally emerged just outside of the Pointe. Ultron was already there, attempting to blast his way into the Cradle - the location of the primary Cerebro unit. Logan had arrived without a moment to spare.
+”You will not stop me from completing my new directive,” Ultron said as he turned and fired a laser beam at Logan. “Cerebro will be mine.”
+”Take it,” Logan said. “It ain’t gonna do ya any good when you’re both lyin’ in the scrap heap!”
+Dodging a barrage of lasers, Logan tossed the EMP grenade at Ultron. A split-second later, an enormous burst of electromagnetic energy released from the tiny bomb. Logan’s body was sent hurling backwards by the blast. It felt as if his bones were about to be torn out of his body. But he could handle the pain if it meant Ultron was shut off for good.
+For a moment, a hush fell over Krakoa. But then, an unexpected voice broke the silence.
+”A valiant attempt,” Ultron said, hovering over to look down on the disoriented Logan. “But my body was forged of Mysterium alloy. Electrical conductivity simply charges me. And it seems your dear Cerebro is still online as well, thanks to the vines of Krakoa that kept it grounded.
+”Nnnn... nnoooo...” Wolverine groaned.
+”It seems that all you managed to do was wipe out a few of my soldiers...” Ultron continued, “...and nearly all of the weapons belonging to your fellow heroes. I really should thank you for the assist...”
+Ultron released a massive burst of energy at Logan, burning most of the flesh off his Adamantium skeleton in an instant. Logan roared in pain as he was roasted alive.
+”...but I have worlds to conquer.”
+Logan laid helpless on the Krakoan soil, only able to watch from a distance as Ultron entered the Cradle to claim Cerebro. As his healing factor finally started to kick in, Wolverine vowed that he would finish the job he had started in the only way guaranteed to take Ultron out of service permanently.
+With his bare claws.
+Madripoor Memories
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Learn THIS, bub!
+As Wolverine, take down an enemy Magneto.
+5
+Rage Uncaged
+As Wolverine, land 3 KOs with a single use of Last Stand.
+10
+Quotes
+See
+Wolverine/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Wolverine
+was added as the 33rd character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 2 new costumes:
+Lone Wolf
+and
+Deadpool & Wolverine
+.
+Added the
+Rage Uncaged
+achievement.
+Added to the
+Fastball Special
+Team-Up Ability
+with
+Hulk
+24/12/10
+:
+Version 20241210
+When
+Wolverine
+had his
+Deadpool & Wolverine
+costume equipped, no ability voice lines other than the
+Undying Animal
+ability's line would play. This issue has been resolved.
+25/01/08:
+Addressed occasional malfunctions with, or inability to use
+Wolverine
+'s
+team-up ability
+.
+Addressed irregularities and occasional failure to end
+Wolverine
+'s
+Feral Leap
+, along with occasional abnormal behavior.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase base health from 300 to 350.
+Reduce the damage reduction ratio provided by
+Undying Animal
+from 50% to 40%.
+Added 1 new costume:
+Blood Berserker
+.
+25/01/22:
+Version 20250122
+/
+Fortune & Colors
+Event
+Frame rate no longer affects the number of attacks in the enhanced
+Savage Claw
+after using
+Feral Leap
+.
+Fixed an issue where
+Wolverine
+'s ultimate ability occasionally wouldn't end properly after landing after being pulled back.
+25/02/07:
+Version 20250207
+Fixed occasional synchronization issues in the
+Fastball Special
+Team-Up Ability
+where on
+Wolverine
+'s side, he would appear as being held by the
+Hulk
+, but others would see Wolverine still in his original place. Now, everyone's in sync to play ball.
+25/02/14:
+Version 20250214
+Fixed a little mischief where because of their
+Team-Up Ability
+,
+Wolverine
+'s
+Berserk Claw Strike
+could, under certain situations, be activated during
+Feral Leap
+. Now, there will be no more mix-ups!
+25/03/07:
+Version 20250307
+/
+Galacta's Cosmic Adventure
+Event
+Fixed a quirk where characters launched up by
+Wolverine
+'s Ultimate Ability would sometimes exhibit exaggerated jumping abilities. The mutant's effect is now properly contained!
+Resolved a rare issue on PlayStation where
+Wolverine
+'s
+Rage Uncaged
+trophy sometimes wouldn't unlock.
+25/03/14:
+Version 20250314
+Resolved a rare discrepancy between his animation and effects when
+Wolverine
+executed the dive of his Ultimate Ability from the highest point. Now, when Logan strikes, it's as precise and impactful as his adamantium claws!
+25/03/27:
+Version 20250327
+Fixed a snag in
+Wolverine
+'s Ultimate Ability where, under high network latency, foes sent flying and slammed into the ground could sometimes end up in the wrong location. Now, every Last Stand lands exactly where it should.
+25/04/08:
+Fixed a rarely occurring issue where
+Wolverine
+'s
+Feral Leap
+could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!
+Resolved a rare occurrence where being hit by
+Wolverine
+'s
+Feral Leap
+could render all abilities unusable. No more claw-induced chaos--heroes can now fight on without fear of losing their abilities mid-battle!
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Increase Rage gained from
+Savage Claw
+hits from 7 to 10, while Rage gained from
+Berserk Claw Strike
+has been decreased from 7 to 5.
+Reduce Rage gained from
+Feral Leap
+from 20 to 10, and from
+Vicious Rampage
+from 20 to 15.
+However, Rage gained from taking damage has been increased from 3 to 5.
+Reduce the time an enemy is knocked down after impact from
+Last Stand
+from 1 second to 0.75 seconds.
+25/04/15:
+Version 20250415
+Fixed an issue where
+Wolverine
+'s Ultimate Ability landing sometimes wouldn't finish properly in poor network conditions. Now, the best there is at what he does can unleash his fury without any hiccups!
+Resolved an issue where
+Wolverine
+could sometimes be unable to control his direction during the
+Fastball Special
+after using it multiple times. Now, every throw will be a claw-some hit!
+25/04/30:
+Version 20250430
+We've sliced through a glitch where if
+Wolverine
+responds to a
+Fastball Special
+request while within
+Invisible Woman
+'s ultimate, it would sometimes result in abnormal invisibility effects.
+Fixed a flaw in the second stage of his ultimate where midair knockbacks lost their bite and dealt no damage. Now, when
+Wolverine
+soars into the fray, every strike is felt with the raw power of a true berserker!
+25/05/02:
+Added 1 new costume:
+Patch
+(unlocked from the
+Hellfire Gala Moments
+season missions)
+Gallery
+Other
+Costume Origins
+Wolverine- The Best There Is - Character Reveal - Marvel Rivals
+Hero Logo
+Prestige artwork
+Hero Story Artwork
+Launch Countdown
+Wolverine and
+Hulk
+in the Official Launch Trailer.
+"Deadpool & Wolverine" Costume Reveal
+"Deadpool & Wolverine" costume in
+Deadpool & Wolverine (2024)
+Trivia
+Wolverine is voiced by Steve Blum, having portrayed the character for over 20 years in various media such as the
+X-Men Legends
+game series, the
+Marvel Ultimate Alliance
+game series, the animated show
+Wolverine and the X-Men
+, and more.
+The name of Wolverine's Ultimate, Last Stand, is a possible reference to the 2006 film in the Fox's
+X-Men
+film series,
+X-Men: The Last Stand
+.
+Wolverine's raising hair during his Berserker Rage state is a possible reference to his appearance in the comics,
+Wolverine Vol. 2, No. 94
+.
+Wolverine's dog tag reads "Logan".

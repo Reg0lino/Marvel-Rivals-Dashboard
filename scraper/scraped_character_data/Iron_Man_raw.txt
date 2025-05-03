@@ -1,0 +1,581 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Iron_Man =====
+
+Iron Man
+"I never wanted to be Iron Man, but it worked out for everybody."
+Real Name
+Anthony Edward "Tony" Stark
+Aliases
+Invincible Iron Man
+Armored Avenger
+Biographical Information
+Birthplace
+Long Island, New York
+Gender
+Male
+Eye color
+Blue
+Hair color
+Brown
+Relatives
+Howard Stark
+(father; deceased)
+Maria Stark
+(mother; deceased)
+Emma Frost
+(alt. wife)
+Powers/Skills
+Genius-level intellect
+Proficiency in mechanical design and engineering
+Enhanced strength, durability, flight, and advanced weaponry in armored power suits
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+250
+Difficulty
+Affiliation
+Avengers
+Illuminati
+Stark Industries
+Portrayal
+Voice Actor
+Josh Keaton
+Armed with superior intellect and a nanotech battlesuit of his own design, Tony Stark stands alongside gods as the Invincible Iron Man. His state of the art armor turns any battlefield into his personal playground, allowing him to steal the spotlight he so desperately desires.
+Official description
+Iron Man
+is a Duelist
+hero
+in
+Marvel Rivals
+, and is the 3rd hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Hulk
+and
+Namor
+.
+Overview
+Strengths
+Long-range specialist who excels in both area-of-effect and single-target damage while having unrestricted horizontal and vertical movement.
+Continuous free flight, granting him a high-ground advantage to rain down continuous fire on enemies from above.
+His primary fire, Repulsor Blast, deals direct damage on impact as well as in a radius around it.
+After firing Repulsor Blast twice in a row, the third blast launches a faster projectile that deals more damage at the expense of consuming more ammo.
+His secondary fire, Unibeam, is a mid-range beam of focused energy that deals continuous high damage.
+This ability possesses one of the highest damage-per-second in the game.
+Hyper-Velocity jets Iron Man forward, temporarily doubling his movement speed.
+Instead of being on a cooldown, this ability consumes an energy resource that recharges over time.
+Works as an effective tool to escape from dangerous situations or to reposition quickly.
+Armor Overdrive temporarily amplifies Iron Man's capabilities.
+Increases the damage of Repulsor Blast and Unibeam.
+Instantly refreshes the energy required for Hyper-Velocity.
+Micro-Missile Barrage launches a bombardment of scattered missiles directly beneath Iron Man, dealing explosive damage in an area.
+Only available during Hyper-Velocity and/or Armor Overdrive.
+His Ultimate, Invincible Pulse Cannon, fires a massive energy blast in a straight line that deals massive damage in a large area when it lands.
+This ability deals the highest damage of any ability in the game (1,000) upon impact.
+Deals additional damage in a sphere around the projectile as it travels.
+When paired with the
+Hulk
+, Armor Overdrive is replaced by Gamma Overdrive. It provides an improved damage boost to Repulsor Blast and Unibeam.
+Weaknesses
+Very vulnerable in the air, being an easy target if caught in the open.
+Slow movement speed outside of Hyper-Velocity.
+Has no defensive tools nor any self-sustain.
+Repulsor Blast and Unibeam share the same ammo pool.
+Invincible Pulse Cannon only deals full damage to enemies closest to the center of the impact.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+IRON MAN
+Default
+Armor Model 42
+RARE
+Blood Edge Armor
+EPIC
+Superior Iron Man
+EPIC
+Steam Power
+EPIC
+Avengers: Endgame
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Iron Man
+Armor Model 42
+Iron Man
+(2012) #1
+Blood Edge Armor
+Season 1
+— S1 BattlePass —
+Superior Iron Man
+Superior Iron Man
+(2014) #1
+Steam Power
+1872
+(2015) #3
+Avengers: Endgame
+Avengers: Endgame
+(2019)
+See
+:
+List of MVP Animations
+DEFAULT
+Iron Man
+Cleansing Edge
+Blood Edge Armor
+Be Superior
+Superior Iron Man
+Steam Roars
+Steam Power
+I Am Iron Man
+Avengers: Endgame
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Subway Rat Blaster
+Playing Human
+Vintage Machine
+Good Catch
+See
+:
+List of Sprays
+Iron Man
+Iron Man Emblem
+Blood Edge Armor
+Superior Iron Man
+Steam Power
+Avengers: Endgame
+See
+:
+List of Nameplates
+Iron Man
+Blood Edge Armor
+Superior Iron Man
+Steam Power
+Avengers: Endgame
+Abilities
+Normal Attack
+REPULSOR BLAST
+Fire nano pulse cannons forward.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+DAMAGE -
+55 (Normal Attack, Armor Overdrive)
+60 (Gamma Overdrive)
+65 (Dual Blasters)
+AMMO -
+100
+∞ (Armor Overdrive and Gamma Overdrive)
+AMMO CONSUMPTION -
+10 (Normal Attack)
+16 (Dual Blasters)
+1.33 (Armor Overdrive and Gamma Overdrive)
+FIRE RATE -
+1.67/s (Normal Attack)
+1.33/s (Gamma Overdrive)
+RANGE -
+3m spherical radius (Normal Attack)
+5m spherical radius (Armor Overdrive and Gamma Overdrive)
+CRITICAL HIT -
+No
+PROJECTILE SPEED -
+60m/s (Normal Attack)
+80m/s (Dual Blasters, Armor Overdrive and Gamma Overdrive)
+SPELL FIELD DAMAGE -
+35 (Normal Attack)
+40 (Dual Blasters)
+55 (Armor Overdrive)
+60 (Gamma Overdrive)
+SPELL FIELD DAMAGE FALLOFF -
+40% falloff at 3m (Normal Attack)
+40% falloff at 5m (Dual Blasters, Armor Overdrive and Gamma Overdrive)
+SPECIAL EFFECT
+⚬ After firing the one-handed repulsor twice in a row, the next attack will fire two repulsors at once
+⚬
+Repulsor Blast
+and
+Unibeam
+share the same ammo count
+UNIBEAM
+Fire nano pulse cannons forward.
+CASTING -
+Channeled
+DAMAGE -
+140/s (Normal Attack)
+190/s (Armor Overdrive)
+220/s (Gamma Overdrive)
+AMMO -
+100 (Normal Attack)
+∞ (Armor Overdrive and Gamma Overdrive)
+AMMO CONSUMPTION -
+10/s
+RANGE -
+25m
+SPECIAL EFFECT
+⚬
+Repulsor Blast
+and
+Unibeam
+share the same ammo count
+Abilities
+Q
+INVINCIBLE PULSE CANNON
+Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact.
+CASTING -
+Straight-line projectile that generates a spell field upon impact
+DAMAGE -
+300/s
+PROJECTILE SPEED -
+25m/s
+SPELL FIELD RANGE -
+10m spherical radius (Spell Field)
+Length: 15m, Width: 5m, Height: 5m (Dispersive Spell Field)
+SPELL FIELD DAMAGE -
+1000
+SPELL FIELD DAMAGE FALLOFF -
+5% falloff at 10m
+ENERGY COST -
+2800
+SPECIAL EFFECT
+⚬ As the projectile travels, it creates a dispersive spell field that deals Damage Over Time to nearby enemies
+SHIFT
+HYPER-VELOCITY
+Activate Hyper-Velocity state for swift forward flight.
+CASTING -
+Movement
+MAXIMUM ENERGY -
+120 (Hyper-Velocity)
+∞ (Armor Overdrive)
+ENERGY RECOVERY SPEED -
+10/s
+MOVEMENT BOOST -
+100%
+ENERGY COST -
+15/s
+E
+ARMOR OVERDRIVE
+Activate Armor Overdrive state, enhancing the damage of
+Repulsor Blast
+and
+Unibeam
+.
+DURATION -
+10s
+COOLDOWN -
+20s
+F
+MICRO-MISSILE BARRAGE
+When
+Hyper-Velocity
+or
+Armor Overdrive
+is used, Iron Man can launch a missile bombardment.
+CASTING -
+Scatter-type projectile that generates a spell area upon impact
+AMMO -
+16 (Micro-Missile Barrage)
+18 (Armor Overdrive)
+COOLDOWN -
+8s (Micro-Missile Barrage)
+6s (Armor Overdrive)
+RANGE -
+2m spherical radius
+PROJECTILE SPEED -
+15m/s (Micro-Missile Barrage)
+60m/s (Armor Overdrive)
+SPELL FIELD DAMAGE -
+20 per round (Micro-Missile Barrage)
+15 per round (Armor Overdrive)
+SPECIAL EFFECT
+⚬ Launch missiles directly beneath Iron Man (Micro-Missile Barrage)
+⚬ Launch in the direction of Iron Man's crosshair (Armor Overdrive)
+Team-Up Abilities
+E
+GAMMA OVERDRIVE
+Hulk
+charges Iron Man and
+Namor
+with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the ray hits, the higher the damage.
+DURATION -
+10s
+COOLDOWN -
+20s
+Strategy
+It may be tempting to use his free-flight to go as high up in the air as possible to get a sizeable vantage as well as providing the illusion of safety. However, you should avoid doing this whenever possible, as so long as the enemy has a competent ranged character such as
+Hawkeye
+,
+Hela
+, or
+The Punisher
+, or even just a decently-skilled
+Spider-Man
+or
+Iron Fist
+, you can be easily shot down before you can get any value. Instead, play around cover or near teammates, peeking your head out to deal chip damage and forcing the enemy to come to you from inconvenient routes in order to deal with you. This also gives you ample time to make an escape if you think a fight has gone awry or to fall back to teammates when you need support.
+While at a distance of 25 meters or more, you will typically use Repulsor Blast to get damage in on enemies, though it's also a solid choice on any up-close target for solid burst on direct hit. Its sizeable AoE also makes it a decent finisher on injured enemies or to hit enemies hiding behind cover.
+His secondary fire, Unibeam, deals a hefty stream of damage to whoever it hits, making it great for melting down a priority target. While in Armor Overdrive, the damage on it is amped up by 50%, making it even more potent. Try to prioritize tanks or lone squishies with this ability, as the former's large hitboxes means that it will be quite difficult for them to avoid the attack while it quickly melts through their large health pool, and the latter will have very little time to react before being killed.
+Micro-Missile Barrage fires a volley of rockets in front of Iron Man, but can only be used while Armor Overdrive or Hyper-Velocity is active. Typically, it is best used as an engagement tool right before exiting Hyper-Velocity to start a fight with a bit of chip damage or as a way to start Armor Overdrive.
+Armor Overdrive has Iron Man enter a temporary buffed state. In this form, Iron Man's Repulsor Blast and Unibeam get a significant damage boost for roughly 10 seconds. This ability is best used right before entering a fight to surprise enemies with high firepower, though be wary of its timer, as once it ends, it will force Iron Man into a brief power-down animation regardless of what he is doing, rendering him unable to do anything for a brief moment.
+Hyper-Velocity is Iron Man's main tool for traversing the map while also serving as his means of escape. Typically, you will use this to return to a fight from spawn or to quickly reach solid vantage points, but be wary of its resource meter, as if you are caught in the open without it available, you will be in big trouble.
+Note that activating Armor Overdrive will instantly refill the resource meter of Hyper-Velocity, so if needed, you can pop this to instantly give yourself the boost you need to escape or after making it to a fight to instantly refresh yourself while engaging the fight in your strongest form.
+Iron Man's Ultimate, Invincible Pulse Cannon, has Iron Man fire a devastating blast from his experimental pulse cannon after a brief charge-up. This is an incredible tool for wiping out a clustered herd of enemies or as a way to reliably pick off a priority target before a fight starts.
+Because a majority of this attack's damage comes from its area-of-effect explosion, this Ultimate is best activated from a vantage point above the enemies where the blast is guaranteed to go off and is more likely to hit a group of enemies. Try to use your free-flight and Hyper-Velocity to reach unexpected angles and give your enemies as little time to react as possible before the pulse lands.
+Since this attack deals flat burst damage, not sustained, it is one of the few attacks in the game capable of breaking through powerful healing Ultimates such as
+Mantis
+' and
+Luna Snow
+'s, making him a potent counter to both of those characters.
+Iron Man's team-up ability with Hulk is Gamma Overdrive, which replaces his usual Armor Overdrive ability. Now, he gains an additional gamma-powered damage boost in his Overdrive form, granting him even more damage than his normal Overdrive.
+Appearance
+Iron Man's appearance is defined by his sleek, high-tech armor, primarily in a glossy red with gold accents. The suit is designed to be both stylish and functional, with a smooth, aerodynamic shape that allows for agility in battle and flight. At the center of his chest sits the glowing arc reactor, a powerful energy source that lights up his suit and keeps him alive. His helmet is equally iconic, with a reflective surface and glowing eyes, often in white or blue, and a retractable mouthpiece. The suit’s arms and legs are articulated for movement, equipped with repulsor beams for offense and flight thrusters in the boots. The overall look combines futuristic engineering with elegance, showcasing Tony Stark's genius and style. As Iron Man’s character evolves, so does his armor, with each iteration becoming more advanced and visually striking, reflecting his personal growth and technological prowess. (For work)
+Lore
+"If you were as smart as me, you'd be arrogant too."
+Wounded by a weapon of his own design, billionaire inventor Tony Stark created a custom-made suit of armor to keep himself alive. Though his wounds have healed, his upgraded armor now saves the lives of countless others when Tony dons it to become the world's greatest fighting machine — the invincible Iron Man!
+When the legions of the night descended upon New York City, Iron Man and his fellow Avengers turned their tower into a stronghold. From there, Tony leads the effort to unravel the mysteries of Chronovium and to reverse the Timestream Entanglement.
+—
+Biography
+Hero Story
+"Some people are natural heroes. I'm a natural joker who is occasionally heroic."
+Universal Rules
+“You know what the worst part about vampires is, Friday?” Tony Stark asked as he launched a barrage of short-range missiles from the cannon mounted on the shoulder of his Iron Man armor.
+“The fact that they’ve taken over Manhattan, thanks to an ancient curse that’s thrust the entire city into a state of eternal night,” the armor’s A.I. replied matter-of-factly.
+“Well, yeah. That,” Stark responded, rolling his eyes as Friday stated the obvious yet again. “But they’re also a pain in my shiny metal butt when it comes to taking them down.”
+As if to prove Tony’s point, the cluster of missiles hit the ground at a nearby construction site, completely missing their intended targets -- a small group of vampires that had been prowling the streets of Hell’s Kitchen.
+“Most of my targeting systems are thermal,” Stark continued, “and since vampires aren’t technically alive, they don’t generate much in the way of body heat. Do you have any idea how many missiles I’ve wasted since they showed up?”
+“My most recent count is 1,963,” Friday said, “or approximately $98 million worth of --”
+“I get it,” Stark sighed. “I have to find a better way.”
+“A few minor modifications to your weapons array would improve your accuracy by 374.2%,” Friday went on. “I can project the revised schematics for your review, if you wish.”
+“It’ll have to wait,” Stark said. “For now, I’ll have to do this the old-fashioned way...”
+Iron Man swooped in front of the group of vampires and unleashed a few strong repulsor blasts from the palms of his gauntlets, each of them missing his bloodthirsty foes by mere inches.
+“I’m not sure that switching to manual targeting is yielding any better results, sir,” Friday said, concerned.
+“Maybe I’m not trying to hit them this time, Friday,” Stark said, smiling as he continued to unleash blasts to the sides of the vampires. “At least not yet.”
+The creatures of the night huddled closer and closer together to avoid the onslaught of energy bursts. The horde turned to flee, but they had been herded into a corner. Iron Man had them exactly where he wanted them.
+“Unibeam. Armor Overdrive.” Stark commanded. Instantly, the reactor on the center of his chest began to glow with intense power. A concentrated beam emanated from the arc reactor, washing over the vampires. When the light faded, the horde lay defeated at Tony’s iron boots.
+“Wow,” Stark said. “I really needed that.”
+“Well, I’m glad you got it out of your system, Tony,” another voice interrupted over the armor’s comm-link. “Because now I need you back in the lab.”
+“Ugh. You’re such a buzzkill,
+Reed
+,” Stark responded, clearly annoyed. But he knew that his fellow scientist -- Reed Richards, the brilliant hero and explorer known as Mister Fantastic -- was right.
+Ever since
+Doctor Doom
+had unraveled the boundaries between timestreams, causing them to overlap and entangle with each other, countless dimensions had been destroyed and the worlds that did survive had been thrown into complete chaos.
+Tony and Reed had put their big brains together to design a machine that might be able to reintegrate the timelines and restore the remaining realities to the way they had been before. But even with the help of a think tank of super-geniuses, including
+T’Challa
+and
+Shuri
+from an interstellar Wakandan empire, their efforts hadn’t produced any tangible results.
+That’s because the Timestream Reintegration Device required massive amounts of chronal power, the kind of raw time energy that could only be generated by a newly-discovered element called
+Chronovium
+. And until they secured enough Chronovium to ensure the TRD’s success, Tony wasn’t about to risk doing any more damage to the fabric of time and space -- or to the device itself. Reed, on the other hand, didn’t seem nearly as concerned.
+“Ben just got back from his latest recon mission,” Reed said over the comm-link, “and he recovered something that might be of great value to us.”
+“A lifetime supply of garlic?” Tony half-joked.
+“No,” Reed answered dryly. “A Chronovium crystal. One of the purest I’ve ever seen.”
+“Then put it in a necklace and give it to Sue for your anniversary,” Stark said sternly. “Because unless it’s generating enough chronal energy to operate the Timestream Reintegration Device at full capacity, we’re not using it.”
+“Stop being so stubborn, Tony,” Reed replied. “We both know that real science requires experimentation. We can’t trust the TRD to fix all of the universe’s problems if we haven’t properly tested it first.”
+“The way I see it, we’ve got one shot at this,” Stark argued. “We’ve checked the numbers. The design is flawless. This device is our golden ticket to fixing the timestream. I’m not looking to change course here, but if we rush it and wreck it, we could lose our only shot. I’ve had my share of luck in Vegas, but this is one gamble I’m not ready to take. Are you…?”
+Reed paused just long enough that Tony thought he might have lost the signal. But then he finally replied.
+“I suppose not,” Reed said, his voice tinged with disappointment. “But we can’t stay in a holding pattern forever. The time will come when we have to pull the trigger, ready or not.”
+“Take it from a guy who used to make weapons for a living,” Stark said. “Even when you think you’re ready to pull the trigger, you never really are.”
+“Funny,” another voice responded, this one nearby, “I’ve never had that problem before…”
+Tony had been so caught up in his conversation with Reed that he had failed to notice the arrival of another hero on the scene -- the white-clad warrior known as
+Moon Knight
+.
+“You’re a little late to the party, Spector,” Stark said confidently. “I already cleared out all the unwanted guests.”
+“That’s not what Khonshu told me,” Moon Knight replied. “He says the vamps have been using this site as a secondary nesting ground.”
+“You’re crazy,” Stark laughed. “If there were more of them here, my armor totally would have --”
+Tony stopped, realizing his mistake. He hadn’t herded the vampires into the construction site. They had herded him here. They must’ve somehow figured out that his armor’s thermal sensors wouldn’t alert him to the presence of more of their bloodthirsty kin lurking silently in the rafters above, waiting to strike.
+“Who’s crazy now?” Moon Knight asked as dozens of vampires suddenly descended upon the two heroes.
+“Still you,” Stark responded, blasting energy beams at the oncoming attackers. “But I guess you’re not the only one now.”
+“This whole world has lost its damn mind,” said Moon Knight as he planted his staff into the ground and vaulted forward, kicking back a particularly vicious vamp. “For the first time ever, Khonshu might be the only one making any sense.”
+“You mean that moon god you’re always talking to?” Stark asked suspiciously. “What’s he got to say this time?”
+“He says that you’ve been focusing on the wrong problem,” Moon Knight replied. “You’re so busy trying to save the universe that you’re forgetting about saving the people in it.”
+“So we should stop the vampires first, then fix the timestream?” Stark said, furiously firing every weapon in his arsenal at the endless wave of vampires. “Easy to say. But we’ve been trying to come up with new ways to combat the city’s current crisis. As you can see, nothing’s working.”
+“Science isn’t going to solve this,” Moon Knight said, pulling a small ankh from his belt. “An ancient curse calls for an ancient solution.”
+As Moon Knight raised the ankh over his head, it began to glow. The blinding rays of moonlight shining from the totem sent the remaining vampires running for cover.
+“You wouldn’t happen to have another one of those things,” Stark asked. “Like, a really, really big one, maybe…?”
+“No,” Moon Knight responded. “But I might have something better. A plan.”
+“I’m listening,” Stark said eagerly.
+“There’s a forbidden spell called the Montesi Formula,” Moon Knight continued. “Khonshu says it has the power to wipe out the vampires for good.”
+“What’s the catch?” Stark asked.
+“The spell was written in the Darkhold…” Moon Knight replied.
+“And all of the pages of the Darkhold got scattered across the city when that other Wanda pulled Doctor Strange back into our dimension,” Stark finished. “Lovely.”
+“Khonshu says he knows where we can find the page we need,” Moon Knight said. “But there’s one more thing. And a hero like you isn’t going to want to hear it.”
+“Try me,” Stark said.
+“When I say the spell can wipe vampires out for good, I mean it,” Moon Knight said. “That includes all of the innocent New Yorkers that have fallen prey to Dracula’s legion and joined their ranks.”
+“That’s a lot of potential casualties…” Stark said solemnly.
+“You used to deal in war, Tony,” Moon Knight said. “You know better than most that casualties are part of the equation.”
+“I’m sorry,” Stark responded. “The price is just too high.”
+“Never dreamed of the day where I’d hear Tony Stark say those words…” Moon Knight said.
+“Neither did I…” Stark replied, uncertain. “And I’m not sure I how long I can keep convincing myself that they’re true.”
+Khonshu’s chosen avatar leapt into the air and quickly bounded from one steel girder to the next, his white cape flowing behind him. As he landed atop the building next to the construction site, he looked down at Stark and delivered a final offer.
+“It’s time to let magic clean up its own mess, Stark,” Moon Knight said. “Are you with me or not?”
+“I…” Tony paused, considering the options.
+But before he could answer, alarms began to blare inside of his helmet.
+“No more time to talk, boss,” Friday chimed in. “I just picked up a massive power spike over in Central Park. And from my readings, it seems to be Asgardian in nature.”
+“Did Thor finally show his pretty blond head?” Stark asked hopefully.
+“That’s a big negative,” Friday replied. “But whatever it is, it’s giving off some intense mystical energy.”
+“Great. More magic,” Stark said sarcastically as he powered up his boot jets and lifted into the air. “Just what I needed.”
+As he reached the level where Moon Knight was perched, Iron Man paused for a moment.
+“Well, are you coming with me or not?” he asked.
+“That depends.” Moon Knight replied. “Whose side are you on…?”
+“I’m on the side of whoever can end this nightmare,” Stark said. “And so far, that hasn’t been us. Maybe it is time to change course after all…”
+Armor Wars
+(Coming soon. Stay Tuned!)
+The Dream of J.A.R.V.I.S.
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Beard Bros!
+As Iron Man, partner with Doctor Strange to land 1 KO.
+5
+Flawless Design
+As Iron Man, hit 4 enemies with a single use of Invincible Pulse Cannon.
+5
+Quotes
+See
+Iron Man/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Iron Man
+was released as the 3rd character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 3 new costumes:
+Armor Model 42
+,
+Superior Iron Man
+, and
+Avengers: Endgame
+.
+Added the
+Flawless Design
+achievement.
+Added to the
+Gamma Charge
+Team-Up Ability
+with
+Hulk
+and
+Doctor Strange
+.
+25/01/08:
+Corrected instances where
+Iron Man
+'s ultimate ability would sometimes pass through
+Hela
+during her ultimate ability.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Added 1 new costume:
+Blood Edge Armor
+.
+25/02/07:
+Version 20250207
+Resolved an occasional problem where
+Iron Man
+'s Ultimate Ability would still take effect even after being absorbed by
+Magneto
+'s Ultimate Ability. Magneto's magnetic prowess now has it fully contained!
+25/02/14:
+Version 20250214
+Addressed a tech malfunction where
+Iron Man
+'s arm models could go missing after activating
+Armor Overdrive
+in certain rare scenarios. The suit's back in action--fully equipped to blast into battle!
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase
+Unibeam
+damage from 120/s to 140/s.
+Increase
+Unibeam (Armor Overdrive)
+damage from 180/s to 190/s.
+25/03/14:
+Version 20250314
+Decrease
+Repulsor Blast
+stage 1 and 2 direct hit damage from 55 to 40; Increase spell field damage from 35 to 50. Decrease stage 3 direct hit damage from 65 to 50; Increase spell field damage from 40 to 60.
+Decrease
+Repulsor Blast (Armor Overdrive)
+direct hit damage from 55 to 50; Increase spell field damage from 55 to 65.
+25/03/21:
+Added 1 new costume:
+Steam Power
+.
+25/03/27:
+Version 20250327
+In
+Sanctum Sanctorum
+,
+Iron Man
+'s use of
+Hyper-Velocity
+followed immediately by portal entry could occasionally throw a wrench in the works—resulting in the ability to misfire and some off-color special effects. Now,
+Iron Man's
+high-tech strategy is as sleek as ever, letting him jet in and out as he pleases.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Slightly reduce
+Iron Man
+'s hitbox size.
+New feature: Gain 100 Bonus Health activating
+Armor Overdrive
+or
+Gamma Overdrive
+that will start to falloff 5 seconds later at a rate of 30 per second.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+No One Rivals Doom - Cinematic Trailer - Marvel Rivals
+Hero Logo
+Prestige Artwork
+Hero Story Artwork
+Superior Iron Man costume reveal.
+Iron Man and
+Magik
+in the No One Rivals Doom Cinematic Trailer.
+"Armor Model 42" Redemption Code
+"Armor Model 42" costume in
+Iron Man
+(2012) #1
+"Superior Iron Man" costume in
+Superior Iron Man
+(2014) #1
+"Steam Power" costume in
+1872
+(2015) #3
+"Avengers: Endgame" costume in
+Avengers: Endgame
+(2019)
+Trivia
+Iron Man is voiced by Josh Keaton, reprising his role from
+Marvel’s Iron Man VR
+and
+Marvel’s Midnight Suns
+.

@@ -1,0 +1,280 @@
+{
+  "name": "Scarlet Witch",
+  "role": "Duelist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#F9A8D4",
+    "color_theme_secondary": "#EC4899"
+  },
+  "abilities": [
+    {
+      "name": "CHAOS CONTROL",
+      "keybind": null,
+      "type": null,
+      "description": "Unleash Chaos Magic on enemies to deal damage based on a percentage of their Max Health and restore Chaos Energy.",
+      "casting": "Cylindrical Spell Field",
+      "damage": "80/s",
+      "damage_falloff": null,
+      "fire_rate_interval": "10 ticks/s",
+      "ammo": "∞",
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "A cylindrical spell field with a radius of 3m and a height of 20m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "⚬ Attacks the nearest enemy within range\\n⚬ Hits recharge charges, 0.08 per hit"
+    },
+    {
+      "name": "MYSTIC PROJECTION",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Enter the Phased state for free-flight. Press again to exit early.",
+      "casting": "Movement",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "10s per charge",
+      "range": null,
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": "1.5s",
+      "movement_boost": "50%",
+      "energy_cost_details": null,
+      "details": "⚬ Invincibility and immunity to all crowd control when phasing"
+    },
+    {
+      "name": "DARK SEAL",
+      "keybind": "E",
+      "type": null,
+      "description": "Land a hit on a target or the scene, or press E to generate a Force Field that periodically Stuns enemies within range.",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "3m spherical radius",
+      "projectile_speed": "40m/s",
+      "charges": null,
+      "duration": "4.5s spell field - 0.5s Stun duration",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "⚬ Effect activates upon hitting a target or environment, but can be activated early in mid-air by pressing E."
+    },
+    {
+      "name": "TELEKINESIS",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Space to fall slowly.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "CHTHONIAN BURST",
+      "keybind": null,
+      "type": null,
+      "description": "Consume Chaos Energy to fire explosive magic missiles, damaging enemies.",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": "40 per direct hit + 40 splash damage",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "0.2/s (without Chaos Control)",
+      "range": null,
+      "projectile_speed": "120m/s",
+      "charges": 4,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    }
+  ],
+  "ultimate": {
+    "name": "REALITY ERASURE",
+    "keybind": "Q/MS3",
+    "type": null,
+    "description": "Engage in free-flight while charging energy, then unleash it to deal massive damage.",
+    "casting": "Spherical Spell Field",
+    "damage": "750",
+    "range": "15m",
+    "effect": null,
+    "duration": null,
+    "health_upon_revival": null,
+    "slow_rate": "Begin to slow down at 1.5 seconds, with a linear increase to a 35% slow over 3.5 seconds",
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": "Gain an additional 100 Bonus Health upon activating Reality Erasure. After the ability ends or is interrupted, this Bonus Health will decay at a rate of 50/s.",
+    "energy_cost": null,
+    "details": "⚬ Enters a free-flight state upon cast"
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "SORCERY SURGE",
+      "details": {
+        "removed_metallic_chaos": false
+      }
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "Scarlet Witch should be played as a frontline brawler, taking advantage of her small hitbox and easy escape access to apply pressure with her primary and burst before than retreating to the backline with her escape. Her dark seal stun should be used in tandem with her bursts to trap a cluster of enemies and damage them all at once.",
+    "weaknesses": [
+      "Lacks any form of defensive and self-sustain tools.",
+      "Chaos Control requires Scarlet Witch to get closer to her targets, which can be dangerous due to her low health.",
+      "In addition, it is not very effective if her target is under constant sustained healing.",
+      "Very vulnerable if Mystic Projection is on cooldown.",
+      "In addition, enemy players can track Scarlet Witch's movement during this ability, appearing as a small red spherical mist.",
+      "She can be easily interrupted during Reality Erasure if the enemy team discovers her location."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Shattered Reality",
+        "description": "As Scarlet Witch, take down an enemy Scarlet Witch.",
+        "points": "5"
+      },
+      {
+        "icon": null,
+        "name": "No More Mutants",
+        "description": "As Scarlet Witch, take down Mutant enemies 10 times.",
+        "points": "10"
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"Chaos surrounds us. But I will gladly show it who is in control.\"",
+    "ingame_bio_text": "Wanda Maximoff's ability to manipulate chaos magic makes her one of the most powerful living beings in the universe. As the Scarlet Witch, she seeks to harness that chaos, restoring some semblance of order to a world that is constantly on the brink of destruction.\\nSince the Timestream Entanglement, chaos magic is one of the few forces holding the threads of reality together. Should her powers fail, the Scarlet Witch truly believes that this universe will disintegrate, along with everyone in it. It is a fate she refuses to allow... no matter the cost...",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Voice from Beyond",
+        "content": "Wanda Maximoff meditated, her body hovering a foot off the ground and wreathed in chaos energy. She was surrounded by a low wall, beyond which the cliffs and ridges of Wundagore mountain sloped away into the clouds below.\\nShe did this everyday, opening her mind to the vast magical undercurrents of her broken world. Sensing where arcane power was building, where different forms of magic clashed and threatened wider conflicts. Reality was fragile, filled with gods and monsters that would willingly destroy it to increase their own power.\\nWanda.\\nShe twitched, the sound of her name pricking at the bubble of meditation. Wanda had spent years honing her ability to detect the smallest fluctuations in the field of magical power woven into the fabric of reality. This was part of her task as Sorceress Supreme of reality that constantly tried to tear itself apart. Whenever magical adepts were active, she needed to know. Not to mention, it had been quite some time since someone used her name.\\nWanda.\\nThe words were laced with a shadowy tinge vaguely familiar to her, but from beyond her realm. That put her on the defensive. Only dangerous magic could traverse the spaces between universes. She was the Sorceress Supreme of this universe and she had tasted dark magic many a time before. Her unique mastery of chaos had transformed her into a primal force of order. When the immense tides of temporal power threatened to tear this universe apart, it was Wanda who felt the surge and turned it aside. Tamed it, held it in check.\\nUntil it surged again.\\nAnd it always did, because this universe was an entangled battleground, and she the only one who could hold its fibers together.\\nSince the cataclysmic disruption of space-time itself, Wanda had spent more and more time locked in an arcane clash few people in her reality could even detect. The collapse of different histories had brought mighty enemies together and unleashed vast forces. Wanda knew she was, in the end, her reality's last line of defense, the only magical force capable of keeping the conflicting timestreams from ripping her world apart. If magical power were to surge unchecked, her reality would be annihilated.\\nWanda.\\nThe voice seemed familiar. Perhaps someone she had known, an echo of a soul long departed…\\nWanda. It's Stephen.\\nStephen Strange.\\n\"Stephen Strange?\"\\nThe sound of her voice carried in the thin mountain air, challenging the wind beyond her Sanctum.\\nNot the Stephen Strange you know.\\n\"No, the Strange I knew is dead.\" He had been a great sorcerer, but he had fallen in the final battle of the first Demon War, when Hell itself spilled over into what was once Las Vegas. Wanda remembered that day with great sadness. She had led a mighty band of arcane adepts to victory, but their losses had been great.\\nThe voice - she had sensed its nature and now knew it to be an astral projection - sighed.\\nYes, I've heard that a lot recently.\\n\"What do you mean?\"\\nI've tried to reach out to the Sorcerers Supreme of many different realities, Wanda. In most of those realities, I'm dead. In a few of them, other versions of me didn't believe who I was. You're the first person who has carried the conversation this far, and that's good, because my world is in mortal danger and I need to be able to help it.\\n\"The Stephen Strange I knew could astrally project and then return to his body as if he was flipping a coin,\" Wanda said.\\nUsually I can too, but something about the Timestream Entanglement trapped me in... an entangled astral plane is the best way I can describe it. There are too many other versions of me. I can't figure out which one of them is the correct one to return to.\\nAh. Now she understood. “And you think I can?\"\\nI'm sure you can. Your powers ought to be perfectly tuned to sort through the chaos of this particular astral entanglement. You're the Sorceress Supreme, aren't you?\\nThis little challenge put Wanda's guard back up. “So are you, in your world.\"\\nRight. And I could probably figure it out through trial and error, over a period of years or decades or centuries back in the material plane. But by then, not even the Darkhold itself would be able to stop Dracula's machinations.\\nThose names refocused Wanda's attention. She realized where she had tasted the darkness in those whispers before. The Darkhold was long gone from Wanda's reality, but she had certainly heard of it. It contained the kind of knowledge she might be able to use…\\nThe sun had traversed Wundagore's peak and begun its plunge into the western mountains as Wanda decided to let down her guard and shift her full focus to the connection that she had established with this mystic from another reality. Finally, she could see the astral form of Stephen Strange before her.\\nHe was a grander figure than the Strange she had known, mostly because he wore the regalia of the Sorcerer Supreme. She made a mental note to craft garments more fitting of her station... when she had the time. Most of Kamar- Taj had been wiped off the face of the planet ages ago. She had salvaged what she could, but had not thought to include any ritual clothing.\\nAs she peered deeper into the Astral Plane, Wanda saw many other unexpected things as well. The skyline of what seemed to be New York City, but hanging upside down from the sky, as if mirrored from reality. An ancient Viking longship full of lost spirits, navigating a tumultuous sea of clouds in hopes of finding Valhalla. She even swore that she caught a brief glimpse of the corpse of one of the Old Ones she had recently defeated in an effort to protect her universe. It left her wondering exactly how closely her world was linked with this ethereal dimension. But that was a question for another time. There were more immediate matters at hand.\\n“Tell me what Dracula is up to…” she said, her focus returning to Strange “... and what it has to do with the Darkhold. That book has not existed in this reality for decades, perhaps longer.”\\nYou should be grateful for that.\\n“Answer my question, Strange.”\\nAbout what Dracula wants? Eternal night, of course. And he has already found the means to plunge my home dimension into it.\\n“And the Darkhold?”\\nThe sun will always find a way to rise again. But the Darkhold contains a powerful spell that would let vampires walk in daylight and turn all humanity into their prey.\\nWanda could sense that Strange spoke the truth.\\n\"Wundagore is not far from Dracula's realm,\" she mused. \"But in this world, his castle has been empty for a long time.\"\\nIn my world, his castle isn't empty. But it also isn't in Transylvania anymore.\\n\"Oh? Where is it?\"\\nCentral Park.\\nStrange conjured up an astral image, showing Wanda the city of New York under a full moon. Even though it was just a memory, Wanda could still sense the terrible corruption pervading the city. Time had been perverted…\\n\"That moon isn't moving,\" she said.\\nNo. Dracula has already performed a powerful blood ritual to imprison New York in an endless night. His strength is growing, and there aren't nearly enough powerful people to resist him.\\n\"But you believe you can,\" she pointed out.\\nIdeally, yes. And I will. The resistance is going to need more help, though. The Timestream Entanglement has unleashed forces none of us ever even knew existed. Different histories colliding…\\n\"Yes, I've seen that.\"\\nAnd Chronovium complicates everything further.\\n\"Chronovium?\"\\nStrange's astral form spread its hands and swept them back together. Out of nothing, seemingly, a shimmering crystal appeared in front of Wanda.\\nThis is what it looks like where I come from. Though in your reality, it might take a different form.\\nShe held a hand out and drew the crystal toward her.\\n\"Fascinating,\" she breathed. \"This was created by the entanglement?\"\\nThat's right. Yet another delightful side effect of Victor's tamperings…\\nVictor... von Doom...? That was another name Wanda hadn't heard in quite some time…\\n\"How have I not noticed it until now?\" she asked.\\nYou've had a lot on your plate keeping your reality from utter annihilation. That chaos bubble of yours takes quite a bit of focus to maintain.\\nThis was true, but Wanda was still shocked something like Chronovium could permeate her world without her being aware of it.\\n\"I seem to have been meditating a little too much,\" she said.\\nStrange didn't argue.\\n\"It is time I took a more active role in the battles critical to the survival of my reality. I've been leaning too heavily on useful loose cannons,” she said.\\nStrange nodded.\\n\"And will you help me, Strange?\"\\nIf you help me find a way home and aid in the battle against Dracula, I'll be more than happy to bring a little something Strange back to your reality.\\nHe cracked the barest hint of a smile.\\n\"And the Darkhold?\" Wanda asked with great curiosity. \"Where is it now?\"\\nI stored it here in the Astral Plane some time ago, in order to keep it out of the hands of another sorcerer who wished to use its spells for personal gain.\\n\"Then you have it with you?\"\\nNot quite. It has fallen into the hands of Khonshu, the god of the moon. He has threatened to use one of the forbidden formulas within it against Dracula.\\n\"Would that be such a bad thing?\"\\nThe rite would also eliminate the countless innocent lives that have fallen under the vampire lord's sway.\\n\"I see,\" Wanda said. \"Is there any way to win the Darkhold back? I have heard Khonshu can't resist a good game of skill.\"\\nAs have I. And he has already accepted my challenge. One well-played match of chess, and the book will be mine again.\\n\"Chess?\" Wanda mused. \"I'm surprised. I had always heard that Khonshu was far more fond of Senet...\"\\nWhatever the case, I dare not lose. The fate of our all worlds depends on it.\\n\"Then win, Stephen Strange,\" Wanda said, \"and once you do, I will find a way to return you to your reality, Darkhold in hand.\"\\nAs Doctor Strange's astral form faded, Wanda let out a sigh of relief.\\nShe knew it would take every ounce of mystical might she could muster up to locate her new ally and extract him from his astral imprisonment. And even then, with her brand of chaos magic, the results might not be what either sorcerer hoped.\\nBut Wanda also knew far more about the Darkhold's sinister secrets than she had first let on. If she could possess it, delve into and master its mysteries, Wanda suspected she could at long last stop the decay of her universe. As Sorceress Supreme, she could wield its power to destroy the forces of magical entropy, end the endless wars between gods and immortals.\\nSurely, if she helped this other Sorcerer Supreme save his world, he would see the truth and gladly return the favor.\\nAnd if not, then Wanda Maximoff would have to be willing to do whatever it took to finally restore order to her reality... even if it meant unleashing a little chaos of her own...",
+        "status": null
+      },
+      {
+        "title": "Snows of Wundagore Mountain",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      },
+      {
+        "title": "Pseudepigraphos of Chaos",
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch",
+          "Scarlet Witch was released as the 18th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 3 new costumes: Nyx Weaver, White Witch (obtained from Closed Alpha), and Doctor Strange in the Multiverse of Madness.",
+          "Added the No More Mutants achievement.",
+          "Added to the Metallic Chaos Team-Up Ability with Magneto."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110 /\nSeason 1: Eternal Night Falls",
+        "changes": [
+          "Launch",
+          "Increase Chaos Control's fixed damage from 50/s to 60/s.",
+          "Reduce the percentage damage per second from 5% to 3%.",
+          "Increase Chthonian Burst's projectile damage from 30 to 35.",
+          "Added 1 new costume: Emporium Matron."
+        ]
+      },
+      {
+        "date_version": "25/02/21:\nVersion 20250221 /\nSeason 1.5",
+        "changes": [
+          "Launch",
+          "Gain an additional 100 Bonus Health upon activating Reality Erasure. After the ability ends or is interrupted, this Bonus Health will decay at a rate of 50/s."
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411 /\nSeason 2: Hellfire Gala",
+        "changes": [
+          "Launch",
+          "Remove Chaos Control percentage damage while increasing fixed damage from 60/s to 80/s.",
+          "Increase Chthonian Burst projectile damage from 35 to 40 and spell field damage from 35 to 40.",
+          "Increase the cooldown of Mystic Projection from 8 seconds to 10 seconds, and reduce Phased state time from 2 seconds to 1.5 seconds.",
+          "Rework the slow effect of Reality Erasure to start at 1.5 seconds instead of starting immediately, with a linear increase to a 35% slow over 3.5 seconds.",
+          "Added to the Arcane Order Team-Up Ability with Doctor Strange, but removed from the Metallic Chaos Team-Up Ability with Magneto.",
+          "Added 1 new costume: Chaos Gown (unlocked from Play Matches Earn Rewards event)"
+        ]
+      }
+    ],
+    "official_quote": "Wanda Maximoff is adept at harnessing formidable chaos magic, casting hexes with the power to twist and reshape reality itself. Energy, space, and matter are mere playthings in the hands of Scarlet Witch!",
+    "official_description": "The Scarlet Witch is a Duelist hero in Marvel Rivals, and is the 18th hero introduced to the game's roster.\\nShe has team-up abilities that work in conjunction with Doctor Strange."
+  },
+  "background": {
+    "real_name": "Wanda Django Maximoff",
+    "aliases": [
+      "Queen of Chaos",
+      "Sorceress Supreme"
+    ],
+    "birthplace": "Novi Pazar, Serbia",
+    "birthdate": null,
+    "gender": "Female",
+    "eye_color": "Green",
+    "hair_color": "Auburn",
+    "relatives": [
+      "Max Eisenhardt",
+      "Pietro Maximoff",
+      "Pietro"
+    ],
+    "affiliation": [
+      "Avengers",
+      "Brotherhood of Mutants"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Mastery over Chaos Magic",
+      "Reality Warping",
+      "Telekinesis",
+      "Psychometry",
+      "Flight"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Scarlet+Witch%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "B",
+    "win_rate": "48.02%",
+    "wr_change": "-0.07%",
+    "pick_rate": "15.77%",
+    "pr_change": "+2.93%",
+    "ban_rate": "1.03%",
+    "matches": "235,282"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

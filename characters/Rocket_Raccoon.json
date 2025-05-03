@@ -1,0 +1,327 @@
+{
+  "name": "Rocket Raccoon",
+  "role": "Strategist",
+  "stats": {
+    "health": 250,
+    "speed": "6 m/s",
+    "difficulty": null,
+    "color_theme": "#FBBF2C",
+    "color_theme_secondary": "#FDBA74"
+  },
+  "abilities": [
+    {
+      "name": "BOMBARD MODE",
+      "keybind": null,
+      "type": null,
+      "description": "Fire energy projectiles that deal damage.",
+      "casting": "Rapid-fire, delayed projectile.",
+      "damage": "16 per round",
+      "damage_falloff": "Falloff begins at 10m, decreasing to 40% at 20m",
+      "fire_rate_interval": "12.05 rounds per second",
+      "ammo": 45,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": "150m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "This ability has one of the highest rate-of-fire in the game."
+    },
+    {
+      "name": "REPAIR MODE",
+      "keybind": null,
+      "type": null,
+      "description": "Shoot bouncing spheres to heal allies.",
+      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": "2 rounds per second",
+      "ammo": 8,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "5m spherical radius",
+      "projectile_speed": "60m/s",
+      "charges": null,
+      "duration": "5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "new_effect_description": "one-time healing of 55 health to allies hit",
+        "projectile_speed_reduction": "7 m/s"
+      }
+    },
+    {
+      "name": "JETPACK DASH",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Dash forward.",
+      "casting": "Dash",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "10s per charge",
+      "range": null,
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "MAXIMUM DISTANCE": "8m"
+      }
+    },
+    {
+      "name": "B.R.B.",
+      "keybind": "E",
+      "type": null,
+      "description": "Deploy a Battle Rebirth Beacon that revives a fallen ally and periodically produces armor packs and rocket jet packs.",
+      "casting": "Summon",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "B.R.B generates an Armor Pack or Rocket Boots every 3s\nThe beacon cannot revive Rocket Raccoon himself.\nIf Rocket Raccoon is taken down while the beacon is active, it will disappear.\nThe beacon has a limited radius; if players are too far they won't be revived.\nReclaiming the beacon will cause all the armor packs and rocket jet packs currently spawned to disappear.\nPlayers can only get a single armor pack and rocket jet pack from B.R.B.\nIf placed on tight and small areas that cannot fit a character, it will disappear after a few seconds and go on a 5-second cooldown.\nB.R.B. and C.Y.A. can be destroyed by the enemy team.\nRectified a situation where Rocket Raccoon, while on Groot's shoulders, could irregularly place Battle Rebirth Beacons (B.R.B.) in abnormal map locations, trapping teammates after revival.\nFixed an issue where heroes revived by Rocket Raccoon's B.R.B. occasionally became unable to move. Now, everyone can get back into the action without a hitch--no more stuck-in-place moments after a heroic comeback!\nSquashed a glitch in the Hydra Charteris Base map where Rocket Raccoon's B.R.B. could sometimes revive teammates outside the play area due to terrain changes.\nMAXIMUM DISTANCE - 50m\nBONUS HEALTH - 25 (Armor Pack)"
+    },
+    {
+      "name": "WILD CRAWL",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Space to run on a wall.",
+      "casting": "Movement",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Can run on walls freely at increased movement speed.\nThis is his best escape tool against dives, and grants Rocket Raccoon incredible mobility.\nIt is also very useful in helping Rocket reposition on the map to find advantage points.\nMOVEMENT SPEED - 10m/s"
+    },
+    {
+      "name": "FLYING ACE",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Space to fall slowly.",
+      "casting": "Movement",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Can slow fall from high heights.\nMOVEMENT SPEED - 3.5m/s (descending)"
+    }
+  ],
+  "ultimate": {
+    "name": "C.Y.A.",
+    "keybind": "Q/MS3",
+    "type": null,
+    "description": "Deploy a Cosmic Yarn Amplifier that grants allies a Damage Boost and Bonus Health over time.",
+    "casting": "Summon",
+    "damage": null,
+    "range": "20m",
+    "effect": null,
+    "duration": "12s",
+    "health_upon_revival": null,
+    "slow_rate": null,
+    "projectile_speed": null,
+    "movement_boost": null,
+    "bonus_health_details": "100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s.",
+    "energy_cost": 4000,
+    "details": "Players can track if they are within the effect radius by the visible energy thread connecting them to the amplifier.\nAfter breaking the link, the bonus health starts to falloff after 1 second at a rate of 75/s\nABILITY HEALTH - 800\nDAMAGE BOOST - 25%\nBONUS HEALTH - 100/s, capped at 150\nReduce C.Y.A. damage boost from 40% to 25%, but add a new effect: during the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s.\nAdditionally, increase the energy cost from 3700 to 4000."
+  },
+  "passives": [],
+  "teamups": [
+    {
+      "name": "AMMO INVENTION",
+      "keybind": "Z",
+      "partner": [
+        "The Punisher"
+      ],
+      "effect": "Infinite Ammo and Faster Firing",
+      "teamup_bonus": "5% Healing Boost",
+      "duration": "12s",
+      "cooldown": "40s",
+      "range_target": "10m spherical radius",
+      "special_notes": null,
+      "details": null
+    }
+  ],
+  "gameplay": {
+    "strategy_overview": "While capable of providing valuable healing, play Rocket Raccoon with an aggressive mindset. Capitalize on his high damage output, especially with critical hits. Position your 'BRB' strategically, moving it with your team to provide a consistent revive point. Recognize the dual offensive and defensive nature of your ultimate and use it accordingly to control space or secure eliminations. While your long-range damage is limited, utilize your survivability to get into advantageous positions.",
+    "weaknesses": [
+      "Very vulnerable when both charges of Jetpack Dash are on cooldown, as well as if he is around open areas without nearby walls to climb.",
+      "Bombard Mode has some of the lowest damage distance falloffs in the game, meaning it'll be much weaker against distant enemies.",
+      "Repair Mode lacks high burst healing, on top of healing half the amount of affecting Rocket Raccoon himself.",
+      "B.R.B. has some limitations.",
+      "The beacon cannot revive Rocket Raccoon himself.",
+      "If Rocket Raccoon is taken down while the beacon is active, it will disappear.",
+      "The beacon has a limited radius; if players are too far they won't be revived.",
+      "Reclaiming the beacon will cause all the armor packs and rocket jet packs currently spawned to disappear.",
+      "Players can only get a single armor pack and rocket jet pack from B.R.B.",
+      "If placed on tight and small areas that cannot fit a character, it will disappear after a few seconds and go on a 5-second cooldown.",
+      "B.R.B. and C.Y.A. can be destroyed by the enemy team.",
+      "Jetpack Dash only propels Rocket Raccoon forward even if holding the direction backwards.",
+      "This means that if the player wants to retreat behind themselves, they have to do a 180º spin and use the ability.",
+      "Hoping on Groot's shoulders can leave Rocket Raccoon vulnerable, as Groot usually fights in the frontlines. Even with the damage reduction, he can still be focused and taken down easily.",
+      "In addition, any kind of hard crowd control used on Groot (e.g. stuns) will knock Rocket down from his shoulders."
+    ],
+    "achievements": [
+      {
+        "icon": null,
+        "name": "Rodent Rampage",
+        "description": "As Rocket Raccoon, assist Squirrel Girl in landing 1 KO.",
+        "points": 5
+      },
+      {
+        "icon": null,
+        "name": "Go Get 'Em, Guardians!",
+        "description": "As Rocket Raccoon, revive the Guardians of the Galaxy members 5 times.",
+        "points": 10
+      }
+    ]
+  },
+  "lore_details": {
+    "ingame_bio_quote": "\"I do the right thing unless the wrong thing is more fun.\"",
+    "ingame_bio_text": "He may look cute and fuzzy at first glance, but the space ranger known as Rocket has a bite just as nasty as his attitude. Fortunately, he puts his uncanny technical aptitude to use for good as a member of the Guardians of the Galaxy.\nWhen Star-Lord signed on for a mission to explore Klyntar, Rocket tagged along for some easy target practice shooting symbiotes. But when their ship crashed, Rocket unexpectedly found himself in a fight for his life, trying to keep his fellow Guardians safe until help arrived.",
+    "ingame_story_intro": null,
+    "hero_stories": [
+      {
+        "title": "Ace Agent of the Universe",
+        "content": "After Quill went and crashed the Milano - because he wasn’t paying attention to what Rocket was telling him, naturally - Rocket had noted that they were in the middle of what looked like a huge ship graveyard. Great, he thought. Let me go find parts, get the Milano patched up, and we’ll be out of there in no time.\nSo that’s what he was doing, only most of the ships were so old that they didn’t have anything useful for the Milano. He’d marked a few that might be worth closer attention, but mostly Rocket was not finding what he needed in this massive junkyard.\n“Figures,” he said to nobody in particular. “Looks like I’m gonna have to engineer something tricky.”\nThere was movement among the hulks of ships off to his left. Rocket watched, but he didn’t see anything else. This Klyntar place had a strange vibe: Big spaceship boneyard, big monumental spooky ruins, all of it surrounded by a jungle made of the weirdest plants Rocket had seen on any planet. No visible sentient life, but all the same he felt like he was being watched. Also, there was a huge fire burning at one end of the boneyard, not too far from where Quill had crashed the Milano. Rocket considered checking back with the group before he explored much more… but nah. He could handle whatever came up. He sure didn’t need Quill, and Groot had said something about bonding with the local plants. Let him. Weirdo.\nUh oh. More movement.\nThey came out of the shadows so smoothly that for a moment, Rocket thought they were shadows. Then their motion gave them shape, silhouetted against the background of the spreading fire. Strange, elongated black life forms, no two the same except for their long teeth and claws. They sprang from the wrecked ships toward Rocket, but he didn’t waste any time. He racked his blaster and started shooting, running as he went.\nHe’d taken off in a more or less random direction firing as he went to keep the monsters away, but ahead he saw a complex of buildings, in a weird monumental style that made him want to do literally anything other than go inside. But more and more of the tooth black monsters were hot on his tail and Rocket prided himself on having better than average common sense, so he headed for the buildings, hoping to barricade a door, maybe. Anything to keep them out.\nRight before he got to the doorway, Rocket dropped a miniature gravity well behind him. He had been toying with black hole tech for a bit and the temporary void annihilated the closest monsters, buying him enough time to get inside the building and jam the door with various bits of debris - and a weird-looking statue he knocked over and shoved in the front of the doorway.\nOkay, he thought. The monsters started to bang and scratch at the door. They weren’t getting in at the moment, but he wouldn’t  have all day to execute the plan he hadn’t yet come up with.\nSo, he had to do a little scouting, see what he had to work with, but not waste any time.\nAs it turned out, quite a bit of scouting was required. Whoever had used these buildings, they had been very much into weapons and containment technology. This, Rocket reasoned, meant that it must have been some kind of jail, maybe? Or maybe they were trying to contain the living goo he had just escaped. Whatever its former use, he was going to turn it into a little fortress until such time as Groot and Quill decided to come looking for him.\nHis ears remained perked and alert, as he expected some of the monsters were in the building with him. This helped him dodge the blast from a wall turret as Rocket was trying to strip some quantum circuits out of a panel way down at the end of a long dark hall. He was so focused on what he was doing that he didn’t even hear the self- defense mechanism atm itself, only jumping backwards a moment before it fried him. He looked back to his score, a fresh new hole in the quantum circuit cluster he was attempting to pry out. “I was looting that!” Rocket shouted at the inanimate object. Only the turret wasn’t there anymore, smashed to bits by one of the creatures he was expecting.\nThe creature snarled back, and Rocket blew it away. In the darkness, he heard others moving and breathing. “Spooky,” he said. “Remind me not to book the reunion here.” He was talking just to hear his own voice, and keep himself calm while he figured out what to do. Truth was, only one course of action made sense. He couldn’t go back outside, so if he had to stay inside that meant getting rid of all the monsters, or activating the rest of the tech.\nRocket looked up and down the long corridor, noting how many side passages and intersections he could see. “Nah, too open.” He thought back to the building’s entrance. Just  off the big front door, there was a smaller side room. It only had one door, and if he had oriented himself right, one of its walls was an exterior wall. So, if the monsters got in, he could blast his way out through the wall. If he could retrofit the defense system before it took him out.\nNot the best plan in the world, but it would do for now.\nHe zig- zagged along the passages back to the front of the complex, slowed down a bit by all the gear he was dragging. A monster flashed out of a side passage, but Rocket had smelled it a split second before. Another one dropped from the ceiling, but Rocket’s whiskers sensed the disturbance in the air. Again, he was ready. His blaster lit up the darkened halls every time one of the monsters got near. The closest one of them got to him was a weird crab-looking version that ripped some hairs out of his tail before Rocket reduced it to a puddle of goo.\nThen he stopped in his tracks. Right there in a doorway was an energy barrier projector. Like the kind you might set up in a Xandarian prison. Rocket knew a little bit about those.\n“Aw yeah,” he said, ducking into the room and keeping his ears perked up while he fiddled with the barrier projector’s control panel. He was close to the entrance, close enough to hear the other monsters snarling outside the front door. This little room would be a perfect citadel, if he could get the other bits of the self-defense system online.\nOne of the monsters loomed out of the darkness. Rocket dropped his tools and blazed away at it until it was gone. Then he got back to work, knowing his time was running out. Kree, Shi’Ar, Skrull, Xandarian, so much tech had been retrofitted into this panel, Rocket was surprised it wasn’t his own invention. It looked like there wasn’t a power source but he had hotwired a few quantum circuits int his time. So he put the finishing touches into the console, paused to splatter another few monsters, and then hit the power button.\nAha! The energy barrier thrummed to life, with a few turrets in front of it, and because Rocket was exceedingly clever and also a little lucky, he was on the inside and the monsters were on the wrong end of a Kree turret. Just as an experiment, Rocket tried to shoot one of them through the barrier. Blam! It worked!\n“Aw, yeah,” he said again, louder this time, and then he was lighting them up through the barrier like there was no tomorrow. Which, if he didn’t figure out a way to get back to the Milano and get off this terrible monster rock, there wouldn’t be.\nHey, he thought. I bet I could use some of this stuff to reconstruct the containment fields in the Milano’s engines.\nThe idea lit up the inside of Rocket's brain. He saw it all come together. It would totally work. All he had to do was get a plasma array, set of the couplings that would link it to the Milano’s magnetic field resonators, then wire the whole shebang into the acceleration chamber that was damaged when Quill crashed the milano. Because, Rocket repeated in his mind, Quill was not listening to at the time.\nMore of the toothy black monsters that survived the turret onslaught threw themselves against the barrier. Rocket blazed away at them, and they fell back again.\nMan, he thought. This is a mighty elegant solution to a real tricky problem. Guess a few other unfortunate souls worked together to try and survive. But I guess whatever works…\nOnly problem was now, Rocket had to get out of the protected room, and the complex, with all the components.\nAnd that was going to require some finesse, because there were more of the monsters coming, and those doors weren’t going to hold forever.\nRocket racked a fresh charge into his gun, held it on the door, and waited.",
+        "status": null
+      },
+      {
+        "title": "Halfworld Story",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      },
+      {
+        "title": "Scavengers",
+        "content": "(Coming soon. Stay Tuned!)",
+        "status": null
+      }
+    ],
+    "balance_changes": [
+      {
+        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "changes": [
+          "Launch Rocket Raccoon was released as the 10th character to be introduced to Marvel Rivals as a Strategist hero.",
+          "Added 2 new costumes: Rocky and Guardians of the Galaxy Vol. 3.",
+          "Added the Go Get 'Em, Guardians! achievement.",
+          "Added to the Ammo Overload Team-Up Ability with The Punisher and Winter Soldier and the Planet X Pals Team-Up Ability with Groot and Jeff the Land Shark."
+        ]
+      },
+      {
+        "date_version": "24/12/19:\nVersion 20241219 / Winter Celebration Event",
+        "changes": [
+          "Fixed the issue preventing Rocket's beacon-generated rocket jet packs from being picked up. They're now ready for action!",
+          "Added 1 new costume: Wild Winter (Limited time store release: 2024/12/20 - 2025/01/10)"
+        ]
+      },
+      {
+        "date_version": "25/01/08:",
+        "changes": [
+          "Rectified a situation where Rocket Raccoon, while on Groot's shoulders, could irregularly place Battle Rebirth Beacons (B.R.B.) in abnormal map locations, trapping teammates after revival.",
+          "Fixed occasional damage loss in Rocket Raccoon's primary attack."
+        ]
+      },
+      {
+        "date_version": "25/01/10:\nVersion 20250110 / Season 1: Eternal Night Falls",
+        "changes": [
+          "Launch Increase the healing of Repair Mode from 60 per/s to 70 per/s.",
+          "Reduce the cooldown of Ammo Invention from 45s to 40s.",
+          "Added 1 new costume: Bounty Hunter."
+        ]
+      },
+      {
+        "date_version": "25/02/20:",
+        "changes": [
+          "Fixed an issue where heroes revived by Rocket Raccoon's B.R.B. occasionally became unable to move. Now, everyone can get back into the action without a hitch--no more stuck-in-place moments after a heroic comeback!"
+        ]
+      },
+      {
+        "date_version": "25/03/27:\nVersion 20250327",
+        "changes": [
+          "Squashed a glitch in the Hydra Charteris Base map where Rocket Raccoon's B.R.B. could sometimes revive teammates outside the play area due to terrain changes."
+        ]
+      },
+      {
+        "date_version": "25/04/11:\nVersion 20250411 / Season 2: Hellfire Gala",
+        "changes": [
+          "Launch Decrease the healing area of Repair Mode spheres from 70 health/s to 50 health/s, but add a new effect of one-time healing of 55 health to allies hit.",
+          "Projectile speed reduction increased from 4.5 m/s to 7 m/s.",
+          "Extend cooldown for Jetpack Dash from 6 seconds to 10 seconds.",
+          "Reduce dash distance from 10 meters to 8 meters.",
+          "Reduce C.Y.A. damage boost from 40% to 25%, but add a new effect: during the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s.",
+          "Additionally, increase the energy cost from 3700 to 4000."
+        ]
+      }
+    ],
+    "official_quote": "“When the chips are down, you want your heroes a little roguish and scruffy. Like me.”",
+    "official_description": "Rocket Raccoon is a Strategist hero in Marvel Rivals, and is the 10th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Groot, Jeff the Land Shark, and The Punisher."
+  },
+  "background": {
+    "real_name": "Rocket",
+    "aliases": [],
+    "birthplace": "Halfworld, Keystone Quadrant",
+    "birthdate": null,
+    "gender": "Male",
+    "eye_color": "Red",
+    "hair_color": "Black, Brown, White",
+    "relatives": [],
+    "affiliation": [
+      "Guardians of the Galaxy"
+    ],
+    "first_appearance_comic": null,
+    "recommended_comics": [],
+    "lore_powers_skills": [
+      "Mastery of heavy weapons and futuristic technology",
+      "Enhanced strength, intelligence, durability, agility, and acute senses",
+      "Expert pilot, engineer and marksman"
+    ]
+  },
+  "misc": {
+    "voice_actor": null,
+    "quotes_link": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Rocket+Raccoon%22&type=posts&t=month",
+    "helpful_links": []
+  },
+  "meta_stats": {
+    "tier": "S",
+    "win_rate": "54.02%",
+    "wr_change": "+0.34%",
+    "pick_rate": "43.34%",
+    "pr_change": "+12.52%",
+    "ban_rate": "1.55%",
+    "matches": "646,624"
+  },
+  "data_sources": {
+    "wiki": [],
+    "tracker": [],
+    "comic_wiki": []
+  }
+}

@@ -1,0 +1,502 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Black_Panther =====
+
+Black Panther
+"Are you ready to hunt?"
+Real Name
+T'Challa
+Aliases
+King T'Challa
+Biographical Information
+Birthplace
+Birnin Zana, Wakanda
+Gender
+Male
+Eye color
+Brown
+Hair color
+Black
+Relatives
+Bashenga
+(ancestor)
+T'Chaka
+(father; deceased)
+Shuri
+(younger sister)
+Powers/Skills
+Enhanced strength and agility via a Vibranium-powered suit of armor
+Expert hand-to-hand combatant
+Superhuman strength, senses, and stamina via consumption of the heart-shaped herb
+Enhanced weaponry and spiritual projection via blessing of the goddess
+Bast
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Duelist
+Health
+300
+Difficulty
+Affiliation
+Intergalactic Empire of Wakanda
+Avengers
+Illuminati
+Portrayal
+Voice Actor
+James C. Mathis III
+T'Challa, King of Wakanda, wields the perfect blend of the cutting-edge Vibranium technology and ancestral power drawn from the Panther God, Bast. The Black Panther bides his time until elegantly infiltrating enemy lines and commencing his hunt.
+Official description
+Black Panther
+is Duelist
+hero
+in
+Marvel Rivals
+, and is the 8th hero introduced to the game's roster.
+He has team-up abilities that work in conjunction with
+Magik
+.
+Overview
+Strengths
+An agile melee-focused Duelist who specializes in darting around the battlefield through high-speed dash attacks and executing vulnerable targets. Capable of getting in and out of combat while dishing out high amounts of damage to his opponents.
+Can run on walls and perform double jumps after detaching from it.
+Has slightly higher max health and base movement speed compared to other Duelists.
+His passive, Panther's Cunning, allows him to deal 20% more damage when below 100 health.
+This makes Black Panther a formidable fighter in isolated duels.
+Almost all of his attacks apply Vibranium Mark on his targets, which can be used to refresh the cooldown on his abilities and also provide him with bonus health.
+His primary fire, Vibranium Claws, deals damage in quick succession. This, combined with his higher speed, allows him to stick to his targets efficiently.
+His secondary fire, Spear Toss, is a high-velocity projectile thrown in an arc that creates an area-of-effect blast that applies a Vibranium Mark to hit enemies. This is Black Panther's main way to apply the mark from safe distances, and is often used as a way to either poke enemies before attacking or dispatch low-health targets trying to flee.
+Spirit Rend and Spinning Kick are two mobility skills that deal damage.
+Spinning Kick also applies a Vibranium Mark.
+His Ultimate, Bast's Descent, summons a giant spectral panther that lunges forward, covering a huge area, while applying Vibranium Marks to enemies hit and simultaneously refreshing the cooldown of Spirit Rend.
+When paired up with
+Magik
+, Black Panther gains access to Wakandan Master, which allows him to rewind time by 5 seconds, moving him back to his previous location while gaining bonus health based on his lost health.
+Weaknesses
+His normal melee attacks have a relatively low range, forcing him to stay close and personal with his targets, which leaves him open to retaliation from the enemy team.
+Relies on consistently applying Vibranium Mark to targets to maintain his bonus health and to refresh his cooldowns.
+Relies on quick decision-making, timing, and accuracy to aim Black Panther in the direction of enemies, as the cooldowns on his abilities are quite punishing.
+Very vulnerable to enemy fire if both Spirit Rend and Spinning Kick are on cooldown.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+BLACK PANTHER
+Default
+Orisha Blood
+RARE
+Galactic Claw
+EPIC
+Thrice-Cursed King
+EPIC
+Bast's Chosen
+EPIC
+Damisa-Sarki
+LEGENDARY
+See
+:
+All In-Game Models & Descriptions
+Black Panther
+Orisha Blood
+Avengers
+(2018) #53
+Galactic Claw
+Season 0
+— S0 BattlePass —
+Thrice-Cursed King
+Season 1
+Bast's Chosen
+Marvel Legacy
+(2017) #1
+Damisa-Sarki
+X-Men: Hellfire Gala
+(2023) #1
+See
+:
+List of MVP Animations
+DEFAULT
+Black Panther
+Empire Strikes
+Galactic Claw
+Soul Harvest
+Thrice-Cursed King
+Mosi's Lineage
+Bast's Chosen
+Eternal Vigilance
+Damisa-Sarki
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Charged for Battle
+Crimson Quaff
+Natural Impulse
+Serene Sovereign
+See
+:
+List of Sprays
+Black Panther
+Galactic Claw
+Thrice-Cursed King
+X (Black Panther)
+Bast's Chosen
+Damisa-Sarki
+See
+:
+List of Nameplates
+Black Panther
+Galactic Claw
+Thrice-Cursed King
+Bast's Chosen
+Damisa-Sarki
+Abilities
+Normal Attack
+VIBRANIUM CLAWS
+Slice Vibranium Claws forward.
+CASTING
+- Melee
+DAMAGE
+- 35
+MAXIMUM DISTANCE
+- 3m
+ATTACK INTERVAL
+- 0.44s per hit
+Abilities
+Q
+BAST'S DESCENT
+Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend.
+CASTING
+- Cuboid Spell Field
+RANGE
+- Length 22m, Width 20m, Height 7m
+CASTING ANGLE
+- 150°
+DAMAGE
+- 150
+ENERGY COST
+- 3300
+SHIFT
+SPIRIT REND
+Lunge forward and deal damage to enemies. Vibranium Mark produces Bonus Health and refreshes the ability.
+CASTING
+- Movement-based damage ability
+AVERAGE SPEED
+- 50m/s
+MAXIMUM DISTANCE
+- 15m
+DAMAGE
+- 80
+BONUS HEALTH
+- 30
+BONUS MAX HEALTH
+- 75
+COOLDOWN
+- 8s
+E
+SPINNING KICK
+Spiral forwards and attach a Vibranium Mark to hit enemies
+CASTING
+- Movement-based damage ability
+AVERAGE SPEED
+- 15m/s
+MAXIMUM DISTANCE
+- 16m
+DAMAGE
+- 70
+COOLDOWN
+- 8s
+SPACE
+SUBTLE STEP
+Hold Space to run on a wall; perform a jump after detaching from the wall.
+WALL-CRAWLING SPEED
+- 10m/s
+COOLDOWN
+- 3s
+SPEAR TOSS
+Toss a Vibranium energy spear forward, creating a Vibranium Force Field and attaching a Vibranium Mark to enemies in its radius.
+CASTING
+- Arced projectile that generates a spell field upon impact
+PROJECTILE SPEED
+- 60m/s
+RANGE
+- 5m spherical radius
+DAMAGE
+- 45
+COOLDOWN
+- 6s
+CHARGES
+- 2
+PASSIVE
+PANTHER'S CUNNING
+Deal higher damage when at low Health.
+TRIGGER CONDITION
+- Health drops below 100
+DAMAGE BOOST
+- 20%
+Team-Up Abilities
+C
+WAKANDAN MASTER
+When
+Magik
+is on the field, Black Panther and
+Psylocke
+can tap into Limbo to rewind a few seconds back to a previous position; after passing through Limbo, Black Panther and Psylocke will gain Bonus Health based on missing health
+REWIND TIME
+- 3s prior
+BONUS HEALTH/DAMAGE TAKEN CONVERSION
+- 80%
+COOLDOWN
+- 30s
+Strategy
+This section is a
+stub
+. You can help the Marvel Rivals Wiki by
+expanding it
+.
+Black Panther is best used if you are on off angles, ambushing your enemies with deadly precision.
+A few combos will be listed for certain health levels.
+250 HP Heroes Ex) Spider-man - Spear Toss + Spirit Rend + Spear Toss + Spirit Rend  OR Spear Toss + Spear Toss + Spirit Rend + Spirit Rend
+275 HP Heroes Ex) Luna Snow - Spear Toss + Spirit Rend + Spinning Kick + Spirit Rend
+300 HP Heroes Ex) Iron Fist - Spear Toss + Spirit Rend + Spinning Kick + Spirit Rend + Spear Toss
+What follows is what I think* is the Ultimate combo.
+Ultimate Combo - Spear Toss + Spirit Rend + Spinning Kick + Spear Toss + Spirit Rend + Spirit Rend + Bast's Descent. This already does 630 damage, and Bast's Descent marks everyone left, leaving you to dash more. As an example, lets say this is a 2/2/2 comp (Two Vanguards, Two Duelists, Two Strategists). The Duelists and Strategists will be dead, and the tanks will be low. You will have free reign to dash through them, with a Spear Toss probably refreshed to help Spirit Rend.
+*(Ultimate combo could be wrong, and you will need to hit most of a 4+ group to pull this off)
+Lore
+"I am king of my people, guard of our gods."
+King T'Challa of Wakanda is more than just the ruler of the most advanced civilization known to man. He also wears the mantle of the Black Panther, the sacred protector of his people. It is his sworn duty to ensure Wakanda's continued survival against any threat imaginable.
+T'Challa recently expanded his reign into the cosmos, creating the Intergalactic Empire of Wakanda. As he awaits a sign from Bast to tell him if either Doom can be trusted, he protects the Empire's Chronovium supply and shares its tech with trusted allies — including Reed Richards.
+—
+Biography
+Hero Story
+"Wakanda has always reached for the stars. Now we have claimed them."
+Silence Among the Stars
+While he gazed out over the landscape of the Intergalactic Empire of Wakanda's throneworld, King T'Challa paused for a moment to marvel at what his people had built. His mother had always dreamed of reaching the stars, but T'Challa and his sister
+Shuri
+- along with countless brilliant Wakandan scientists and engineers - had finally made that dream a reality.
+As Wakanda's influence spread across the galaxy, bringing more people and planets under their banner and their protection, the Wakandan ideal - progress, and tradition intertwined, science and magic woven together - remained the pillar of the empire. T'Challa did his best to embody both sides of the nation's complex heritage. But on occasion, he found the two at odds.
+Today, T'Challa stood in the Hall of Djalia, listening for ancient voices that would not speak to him. The Orisha - the pantheon of gods worshipped by the people of Wakanda - had fallen unusually silent, causing great concern. Even
+Bast
+- the goddess who had chosen T'Challa as her avatar, the Black Panther - seemed to be absent from this sacred place. Perhaps, T'Challa thought, they simply had nothing to say.  But the King of Wakanda found that hard to believe.
+After all, Wakanda was at war. Another king,
+Victor von Doom
+of Latveria, had tampered with the fabric of space and time, unleashing a chronal cascade across countless dimensions. Even T'Challa's empire, which had been a safe haven for so many for so long, wasn't immune to its effects. And now he had learned that there were two Dooms from two different timelines vying for control. Both had tried to enlist T'Challa in their battles, suggesting that Wakanda and Latveria were more alike than different. T'Challa respectfully disagreed.
+The King of Wakanda knew better than to trust either Doom. But he also knew the time would come where he would have to come where he would have to choose a side, not only to protect his empire, but all of existence as well. Wakanda could not remain neutral for much longer when so much was at stake.
+T'Challa had so many questions, all of which the gods and goddesses of the Orisha refused to answer. All of them... save for one....
+Not long ago, while praying to Bast for guidance and wisdom, T'Challla 's humble pleas were instead answered by a long- banished from Wakanda: Bast's sister,
+K'Liluna
+, the Betrayer. Her quest for vengeance against her sister had led to K'Liluna's ruin centuries ago and her name had rarely been uttered by the people of Wakanda since. But now, she had chosen to come forth and speak T'Challa in Bast's absence, warning him of a darkness to come... a darkness that she claimed had already tainted the Orisha.
+T'Challa didn't know what to believe. Certainly not the words of one as treacherous as K'Liluna. He dared not risk allying himself with Bast's deceitful sister, in far that the Orsiha might rain their judgement down upon the entire empire for his disloyalty. But yet,  something in the Betrayer's words words rang true. The Orisha's silence had given T'Challa cause for concern... and now K'Liluna had sowed the seeds of doubt. It was taking all of T'Challa's willpower not to let those seeds grow wild...
+But the reason for the Orisha's absence would have to remain a mystery for a while longer. The King of Wakanda had other more urgent matters to attend to. He had summoned by his sister, Shuri, to discuss some recent developments regarding the restoration of the timestream. One crisis at a time, thought T'Challa, as he took a deep breath and entered the lab...
+"Welcome, brother," Shuri said as T'Challa stepped into the room. All of the scientists inside, Shuri included, crossed their arms in an X across their chests as a salute to their monarch.
+"Sister," T'Challa responded with a smile and a salute of his own. The two had not agreed on much these past weeks since the timestream began to disintegrate, but he still had a deep love for his sister and an even deeper respect for her work.
+"Were you off brooding in the
+Hall of Djalia
+again?" Shuri asked.
+"Not brooding," T'Challa said. "Waiting for guidance."
+"Your people are waiting for you to guide them," Shuri responded. "And I think I can help. I've been gathering data about the Timestream Entanglement..."
+"Data does not always tell the whole story, sister..." T'Challa said,. As he spoke, he was fully aware of the irony of his statement. He was currently withholding critical data about K'Liluna and her claims that the Orisha had fallen into some dark corruption. Yet he decided to keep that information under wraps for the time being, at least until he knew for sure . He did not wish to distract his sister from her efforts, not bring the fury of Bast down upon him.
+"This data tells us enough," Shuri continued, fully aware that her older brother was holding something back. But she didn't have to coax secrets out of him. There was science to be done!
+"I have been consulting with
+Reed Richards
+and
+Tony Stark
+from the other Chronoverse on their plans for a Timestream Reintegration Device," Shuri continued, "and I think we are close to a breakthrough."
+"With your brilliant mind at their disposal, I would expect no less," T'Challa responded proudly, placing a hand gently upon his sister's shoulder. But he could sense an unusual tension in her body. He knew she was about to ask for something... and that it was something she already knew her brother would not like...
+"Reed and Tony have a theory..." Shuri began slowly, each word carefully calculated, "...a theory that I believe has some merit..."
+"Say what you need, sister," T'Challa urged.
+Chronovium was a crystal that had begun to manifest after the Timestream Entanglement rippled across realities. According to the research of Wakanda's scientists, unique variations of Chronovium seemed to be forming in locations of great power. In Wakanda, the crystals were infused with more than just chronal energy. They also contained power drawn directly from the Vibranium Star at the heart of the empire.
+"Richards and Stark have their own supplies," T'Challa said dismissively. "Those will have to suffice."
+"I am telling you now, brother, they will not," Shuri responded pointedly, beginning to lose her patience. The fate of multiple universes hinged on her collaboration with Earth's heroes. This was no time for her big brother to be his usual stubborn self.
+"This is not just an excuse for Stark to get his hands on Wakanda's toys," Shuri continued, "I have run the numbers independently. The TRD can restore our dimension to its proper state, but its needs a power source greater than what standard Chronovium can supply."
+"The answer is no," T'Challa said firmly
+"Then the question is why?" Shuri said, pushing back. Whatever T'Challa was hiding from her, she wasn't about to let it bring about the end of  all that is. If there was a way to get through to her brother, as there always had been in the past, she had to find it.
+"I... cannot say..." T'Challa replied, "Not for certain, at least. But I have reason to believe that there is a greater darkness awaiting us, Shuri... Something even the gods themselves may not be able to protect our people from..."
+"For now, this is a matter I must face alone," T'Challa replied.
+"How many times must I remind you, brother?" Shuri asked. "You are never alone. And neither are we. Wakanda is no longer an isolationist nation. We are a galactic force! If we wish for this empire to stand, we must begin to act as such and lead by example. That starts by sharing our resources with those in need."
+"We still know too little about the power of Vibrano- Chronovium," T'Challa said, softening slightly. "We cannot risk it falling into other hands, even trusted ones, until we do."
+"But..." Shuri interjected.
+"But..." T'Challa continued, "... you have my permission to further your research on these crystals in hopes that we can safely unlock their secrets in order to pass them along."
+"And until then...?" Shuri asked.
+"Until then, I offer our allies unlimited access to Wakanda's greatest resource," T'Challa said. "You."
+Shuri wanted to scream in frustration at her brother, but instead she bit her tongue and took the compliment. After all, coming from T'Challa, those were almost as rare as heart-shaped herbs.
+As T'Challa left the lab, Shuri let out a sigh of frustration, knowing how much work she had ahead of her. But the king himself breathed a sigh of relief, knowing the fate of the empire was in good hands. At least for the moment.
+With Shuri busy researching chronal crystals and engineering universal solutions, T'Challa could turn his full attention to the larger threat looming on the horizon. Even the pair of dueling Dooms would have to wait until he could identify and locate the great source of darkness of which he had been warned.
+But how? T'Challa dared not reach out to K'Liluna for answers. Totems of Bast were everywhere in the empire. Even if she was not eager to answer his prayers, the panther goddess surely listening to his every word. And she would not take kindly to his betrayal. Wakanda needed the Black Panther now more than ever, so T'Challa could not risk being stripped of his mantle or the power that came with it.
+The king walked with purpose across the center of his city,
+Birnin T'Challa
+, back toward the Hall of Djalia. As he passed by, he paused at a panther statue, placing his hand gently upon its head.
+"Where are you, Bast?" T'Challa said out loud as he gazed into the eyes of the Vibranium sculpture.
+"I am here.." a voice replied. The statue began to glow with purple energy of Djalia, the Wakandan spirit plane. T'Challa instantly knew that it was Bast speaking to him, but there was a tome in her voice he had never heard before. Something sinister. "I have been waiting for you, my champion... in the shadows..."
+"I am at your service," T'Challa said, knowing deep within that his words were not fully true. Yet he knew he must continue to feign devotion to the tainted goddess until he discovered the truth about her current state.
+"And you have serve me well," Bast replied, her words dripping with darkness, "but you are not the only King in Black that I have come to favor..."
+As Bast spoke, the sky began to grow dim. Instinctively, T'Challa looked up toward the Hall of Djalia to see tendrils of ebony energy ensuring its sacred spire. He didn't know if this was yet another side effect of the Timestream Entanglement or if it was the first signs of the dark presence that of which K'Liluna alluded. But T'Challa knew he had no time to waste either way. The fate of the empire depended upon his immediate action.
+The Black Panther sprung foward, racing into the Hall of Djalia. T'Challa did now know what awaited him within, but he did no fear it. Not even the gods themselves could prevent him from protecting his people in their time of need.
+Even in the face of the greatest threats the universe has ever known, there was only one thing to which T'Challa would pledge his loyalty.
+Not Doom.
+Not even Bast.
+Just Wakanda.
+Forever.
+The Blood of Kings
+It started out as just another night in the Empire of Eternal Night known as New York City. The Blood Moon hung in the sky, casting an eerie glow on the silent streets. Most of Manhattan’s citizens had long since locked themselves away in their houses to protect themselves from the creatures of the night that stalked the urban island. Those who dared to venture out into the darkness rarely returned to tell the tale.
+Suddenly, a circle of energy appeared in the center of Times Square. Though the neon signs and electronic billboards had long since gone dark, the strange portal’s crackling energy illuminated the once-bustling crossroads for the first time in what seemed like ages. A figure, clad in black from head-to-toe, stepped through the doorway between dimensions.
+”I have arrived, Sister,” King T’Challa said, kneeling down and placing a hand on the pavement. “It has been far too long since I paid a visit home.”
+”Earth may have been our home once, Brother,” his sister replied over the comm-link in the king’s Kimoyo bead bracelet, “but even so, you are a long way from Wakanda.”
+”I am,”
+T’Challa said, looking down 42nd Street to see the top of Baxter Building peeking over the other skyscrapers, “but fortunately, family is never far away.”
+“The portal is closing now,” Shuri warned. “Since our Kimoyo beads are not yet capable of broadcasting an interdimensional signal, we will not be able to communicate again until you reach the laboratory of
+Doctor Richards
+.”
+“Do not fear for me,” T’Challa said reassuringly. “I am the Black Panther. Bast is on my side.”
+”That is exactly why I fear for you,” Shuri responded, her solemn voice beginning to fade as the circle of energy vanished from sight. “Now more than ever...”
+The King of Wakanda understood his sister’s concerns. Bast, the Panther Goddess who had chosen
+T’Challa as her avatar, had recently fallen under the sway of a dark force that was spreading its influence across their dimension. As both the Black Panther and the ruler of the Intergalactic Empire of Wakanda, T’Challa had devoted his life to serving both his Goddess and his people. Now, those things were at odds. If he could not purge Bast of this corruption in time, he feared that all of Wakanda might be swallowed by the growing void.
+But  Wakanda was not the only place in danger of being consumed. While Shuri was busy finding a way to rebuild the collapsing Multiverse, she had learned that many of her closest interdimensional allies were facing a grave threat of a vampiric plague. Though T’Challa
+had at first been reluctant to offer Wakanda’s secrets to these other-worldly heroes, his sister eventually convinced him that the Reed Richards of this alternate reality was completely worthy of their trust and aid.
+Thus, T’Challa decided it was time to pay a diplomatic visit to this other New York, not only to formalize the bond between his Empire and this alternate Earth, but to deliver a potential cure to the sickness infecting so many New Yorkers - a cure that, until now, had only been consumed by a small handful of Wakandans throughout the corse of charted history: The Heart-Shaped Herb.
+Traditionally, this rare Wakandan plant was only to be consumed by Bast’s chosen protector during a sacred ritual that would bestow upon them the powers of the Black Panther. For a normal human – one not from a royal bloodline or chosen to be the physical manifestation of an ancient deity - the herb still had profound effects when consumed, purging toxins and restoring vigor to those in even the most dire of health.
+On Earth, the Heart-Shaped Herb could only be grown in Vibranium-rich soil of Wakanda. However, royal priest had since learned to cultivate it in Birnin T’Challa, the capital city of their new interstellar society. Even so, the crop of this sacred herb was still extremely limited, and T’Challa feared that it could do more harm than good in the wrong hands. As such, he chose to deliver the herb to Reed Richards himself.
+T’Challa’s bodyguards, the Dora Milaje, worried that their king’s decision was far too reckless. Shuri feared that perhaps Bast, in her compromised state, had clouded her brother’s judgment. But as T’Challa’s looked down the empty New York street with nary a soul in sight, he felt confident in his decision. It was not a feeling that would last long.
+As he traveled east towards his destination - the headquarters of the Fantastic Four, located at the corner of 42nd Street and Madison Avenue - it wasn’t long before he found himself passing a small group of vampires feeding on the blood of an unfortunate civilian. Ever since he was a boy, T’Challa had been trained to stalk the jungles in silence. He felt he would have no trouble slipping past the monsters unnoticed, as they all seemed deeply distracted by their prey.
+T’Challa kept to the shadows, making not even the slightest sound. As he passed by the horde of vampires, they suddenly turned their heads to glare in his direction with their dead eyes.
+”You are not as clever as you thought,” Bast whispered in T’Challa’s mind.
+The Black Panther ignored the taunts of his dark Goddess. He had more urgent matters to deal with. The vampires had left their meal behind and were rushing toward T’Challa in hopes of royal feast!
+T’Challa leapt up, extending Vibranium claws from his fingertips of his gloves. The razor-sharp claws sunk into the old stonework on a nearby building, allowing T’Challa to climb up its side with ease. When he reached the rooftop, he paused for a moment, glad to have found safety. But the light of the Blood Moon quickly revealed that he was not alone. Nor was he anywhere close to safe.
+Another group of vampires converged and began to chase T’Challa, staying close on his heels as he leapt from rooftop to rooftop. The King of Wakanda soon realized that he was being herded away from the Baxter Building and toward Central Park. But why?
+”You have the blood of kings,” Bast whispered. “They can smell it.”
+Perhaps the Godess was right, T’Challa thought. But he had more than the blood of kings. He had their years of knowledge and training. He had their proud legacy. And he would not let it die here in the darkness.
+T’Challa stopped running and faced his pursuers with a frenzy of furious kicks and powerful slashes, he began to thin out the horde, one vampire at a time. Before long, there were no foes left standing.
+”Well done, my Chosen One,” Bast whispered. “But you have forgotten one thing...”
+Black Panther turned to see another figure standing on the rooftop behind him. He was baffled that his heightened senses had not detected the new arrival.
+”...here, you are not the king”
+T’Challa gazed at the strange man approaching him. He was tall and slender, with pale skin and long white hair. He wore a finely tailored black suit and a long crimson cape. His shoulders were adorned with ornate armor that met in the middle where a glowing crimson gem was mounted on his chest.
+”I really should slay you where you stand for striking down so many of my devoted soldiers...” the man said “...but I have a feeling you would be much more use to me undead.”
+”I would prefer to remain fully alive,” T’Challa said, lunging forward with his claws at the ready.
+With an effortless strike from the back of his hand, the man sent T’Challa reeling backward. T’Challa instinctively dug his claws into the rooftop to prevent himself from plummeting over the edge. Pulling himself back to his feet slowly, he took a moment to size up his new opponent.
+”Who are you?” T’Challa asked.
+”I have gone by many names over the centuries,” the man replied. “I am known best as
+Dracula
+...”
+Dracula walked over to T’Challa and stared him in the eyes. As badly as T’Challa wanted to attack his foe again, he felt as though he had somehow lost complete control over his own actions. Compelled by the Lord of the Vampires, the King of Wakanda fell to his knees.
+”...but you may call me your majesty,” Dracula finished with a grin, his sharp fangs flashing in the moonlight.
+Dracula leaned in, ready to sink his teeth into T’Challa’s neck. But when he tried to bite his victim, Dracula reeled in pain. The Black Panther’s Vibranium mesh armor was not only impenetrable, it had a number of self-defense mechanisms built into its nano-fibers. T’Challa prayed to the Orisha that his suit would be enough to keep him safe. But, as he learned all too well of late, his gods were not listening.
+”If I will not have your blood,” Dracula snarled, “I will still have your devotion!”
+The Vampire king reached for the red gem on his chest and removed it from his armor. As T’Challa gazed at it, he realized that he had seen crystals like it before. It was a shard of
+Chronovium
+, the temporal constructs that his sister had been studying since the onset of the Timestream Entanglement - the event that had ripped countless realities asunder. More specifically, it was a rare mystical form of Chronovium native to this alternate dimension, nearly as crimson as blood.
+”This crystal is infused with forbidden magic,” Dracula said. “Soon it will be my key to ruling the world. But for now, let it be my key to conquering yours.”
+Still unable to move, T’Challa found himself completely enveloped in the glowing red energy emanating from Dracula’s shard of the blood-red Chronovium.
+”He is remaking you in his image,” Bast said in T’Challa’s mind, her whisper turning into a growl. “How dare he?! You belong to me!”
+”Not... any longer...” T’Challa grunted, feeling the transformation taking place within him.
+Bast’s growl grew into a roar, but was suddenly silenced as the energy surrounding T’Challa began to fade. T’Challa slumped to the ground, exhausted... and hungry...
+”How strange...” Dracula said as he stepped closer to the collapsed T’Challa. “Your blood smelled so sweet before. Like a rare flower on the African plains. But now, it has lost its bouquet. You are no different than any of my other minions.”
+”That is where you are wrong,” T’Challa said quietly.
+Mustering every ounce of strength left in his body, T’Challa fought against Dracula’s control, rising to his feet and staring Dracula straight in the eyes.
+”I am no mere minion,” he said. “I am T’Challa. I am the Black Panther. I am the King of Wakanda...”
+With that T’Challa slashed at Dracula, knocking the shard of Blood Chronovium from the unsuspecting vampire’s hands. The crystal skidded across the rooftop, balancing precariously on its edge. Dracula broke eye contact with T’Challa and raced to grab the crystal before it plunged down to the street below.
+”...and I shall be your end.” T’Challa finished.
+When Dracula turned once more to fax his defiant foe, the Black Panther was already gone. Not even the slightest scent of his blood was left on the wind. Furious, the Lord of the Vampires let out a piercing howl that could be heard echoing all across manhattan.
+Elsewhere, in the shadows of a dark alley, T’Challa took a moment to recover from the confrontation and assess his new situation. Until now, the power of the Heart-Shaped Herb flowing through his veins had always protected him and provided him with his enhanced abilities. But T’Challa surmised that the magic of the Blood Chronovium was somehow negating the herb’s effects. That was why Dracula could no longer smell his blood. It was why T’Challa could no longer hear Bast whispering inside his head. And it was why T’Challa‘s newfound taste for blood grew stronger by the moment.
+Before he journeyed to New York, T’Challa had been worried about his connection to Bast’s tainted spirit might affect him. Now, he found himself afflicted by another curse, uncertain which of the two would be his ultimate undoing.
+T’Challa pulled the sample of the Heart-Shaped Herb from a hidden pouch on his bodysuit, momentarily considering wether he should consume it to cure himself now or save it to potentially cure thousands of innocents later. He didn’t have a clear answer.
+New York City might have been as black as the darkest night... but all the King of Wakanda could see was red...
+Empire's Decree: Dim a Star
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Clash of Kings
+As Black Panther, take down an enemy
+Namor
+.
+5
+King of the Dead
+As Black Panther, land a 3 KO streak in the
+Intergalactic Empire of Wakanda: Hall of Djalia
+.
+10
+Quotes
+See:
+Black Panther/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Black Panther
+was released as the 8th character to be introduced to
+Marvel Rivals
+as a
+Duelist
+hero.
+Added 3 new costumes:
+Orisha Blood
+,
+Bast's Chosen
+, and
+Galactic Claw
+.
+Added the
+King of the Dead
+achievement.
+Added to the
+Dimensional Shortcut
+Team-Up Ability
+with
+Magik
+and
+Psylocke
+.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Reduce the additional health provided to self after refreshing Vibranium Marks with
+Spirit Rend
+from 40 to 30, and the upper limit of additional health provided from 120 to 75.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Reduced the Rewind Time for
+Wakandan Master
+from 5s to 3s.
+Additionally, the conversion ratio of lost health to blue armor will be increased from 0.5 to 0.8.
+25/03/28:
+Added 1 new costume:
+Thrice-Cursed King
+.
+25/05/02:
+Added 1 new costume:
+Damisa-Sarki
+.
+Gallery
+Other
+Costume Origins
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Marvel Rivals - Console Announce Trailer
+No One Rivals Doom - Cinematic Trailer - Marvel Rivals
+Marvel Rivals - Stars Aligned - Official Launch Date Announcement Trailer
+Hero logo
+Prestige artwork
+Hero Story Artwork
+Bast's Chosen costume reveal
+Black Panther in the No One Rivals Doom Cinematic Trailer.
+Black Panther and
+Bast
+in the "Blind Devotion"
+Gallery
+card.
+T'Challa unmasked
+"Orisha Blood" costume in
+Avengers
+(2018) #53
+"Bast's Chosen" costume in
+Marvel Legacy
+(2017) #1
+Navigation

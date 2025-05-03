@@ -1,0 +1,426 @@
+===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Luna_Snow =====
+
+Luna Snow
+"I'm Luna Snow. Like the moon, I shine in darkness."
+Real Name
+Seol Hee (설희)
+Biographical Information
+Birthplace
+Seoul, South Korea
+Gender
+Female
+Eye color
+Blue, Brown
+Hair color
+Black, White
+Relatives
+Grandmother
+Powers/Skills
+Destructive and healing Cryokinesis
+Enhanced agility
+Signature
+Status Information
+Character type
+Playable Character
+Role
+Strategist
+Health
+275
+Difficulty
+Affiliation
+Agents of Atlas
+Portrayal
+Voice Actor
+Judy Alice Lee
+Equal parts pop star and Super Hero, Luna Snow puts on a dazzling show with both her light and dark ice powers. The arena is her stage, where Seol Hee and her team orchestrate spectacular displays that earn her an ever-increasing number of fans and wins.
+Official description
+Luna Snow
+is a Strategist
+hero
+in
+Marvel Rivals
+, and is the 5th hero introduced to the game's roster.
+She has a team-up ability that works in conjunction with
+Jeff the Land Shark
+and
+Iron Fist
+.
+Overview
+Long-range Strategist with high healing output, capable of enhancing those abilities and having access to powerful area-of-effect restoration.
+Has slightly higher max health compared to other Strategists.
+Luna Snow is the only Strategist in the game with two key passives:
+Cryo Heart grants her a small heal-over-time for 3 seconds whenever she casts Ice Arts or Absolute Zero.
+Smooth Skate, grants Luna Snow 60% increased movement speed and a high jump after she moves forward for 0.5 seconds.
+Her primary fire, Light & Dark Ice, shoots three frost shards per round that deal damage to enemies and heals allies.
+Her secondary fire, Absolute Zero, shoots a large block of ice that deals damage on impact and freezes enemies for 2.7 seconds.
+This is a versatile tool that can be used for defense to avoid dives, or for offense to pin down a key target.
+This ability can even interrupt Ultimates, such as
+Scarlet Witch
+'s Reality Erasure or
+Spider-Man
+'s Spectacular Spin.
+Ice Arts temporarily enhances her primary fire for 6 seconds, shooting five shards of ice instead of three for increased power.
+These projectiles have piercing properties, able to both damage enemies and heal allies caught in its straight line trajectory.
+Share the Stage has Luna Snow placing a buff called Idol Aura, which converts all healing she does to other characters to the target of this buff.
+If Luna Snow directly heals the target with Idol Aura, they gain 35% increased healing from her abilities.
+This is a versatile healing tool that can be placed on key targets such as Vanguards and other Strategists, or placed on mobile heroes such as
+Spider-Man
+or
+Iron Man
+.
+Her Ultimate, Fate of Both Worlds, has Luna Snow begin dancing while providing one of two different effects that can be toggled: healing or damage boost. This ability lasts for 12 seconds and affects all allies within the radius around her.
+The healing dance provides a massive healing-per-second and bonus health.
+In addition, she also heals all allies a single time per cast for a large amount.
+This is the most powerful healing ability in the game, being a clutch in moments where the team is getting bombarded by enemy fire. It can change the course of the battle, being especially useful to contest objectives since her entire team will be very hard to take down even with focused fire.
+The damage boost dance provides 40% increased damage from all sources.
+Luna Snow also gains 40% increased movement speed during the dance.
+Luna Snow becomes immune to all forms of crowd control while dancing.
+Weaknesses
+Smooth Skate's effects end if Luna Snow stops moving forward.
+Has limited self-sustain.
+Susceptible to dives.
+Relies on positioning to get the most out of Ice Arts.
+Allies that die under the effects of Share the Stage will lose the buff upon respawning.
+In addition, Luna Snow can't use Share the Stage on herself.
+Unable to use other abilities during Fate of Both Worlds.
+Cosmetics
+Costumes
+Model
+MVP
+Emotes
+Sprays
+Nameplates
+01
+Costume Catalog
+LUNA SNOW
+Default
+Minty Beats
+RARE
+Nolaehaneun Manyeo
+RARE
+Shining Star
+EPIC
+Mirae 2099
+LEGENDARY
+🎨
+PLASMA PULSE
+See
+:
+All In-Game Models & Descriptions
+Luna Snow
+Minty Beats
+Season 0
+Nolaehaneun Manyeo
+Season 2
+— S2 BattlePass —
+Shining Star
+Season 0
+Mirae 2099
+Season 1
+Plasma Purple
+Season 2
+See
+:
+List of MVP Animations
+DEFAULT
+Luna Snow
+Comeback Time
+Shining Star
+Timeless Hits
+Mirae 2099
+01
+EMOTES
+DEFAULT
+BRAIN BLAST
+Little Oopsie
+Cyber Tunes
+See
+:
+List of Sprays
+Luna Snow
+Luna Snow Emblem
+Shining Star
+Mirae 2099
+See
+:
+List of Nameplates
+Luna Snow
+Nolaehaneun Manyeo
+Shining Star
+Mirae 2099
+Abilities
+Normal Attack
+LIGHT & DARK ICE
+Fire ice shots that damage enemies or heal allies.
+CASTING -
+Hitscan 3-round burst
+DAMAGE -
+20 per round (60 per burst)
+HEALING -
+20 per round (60 per burst)
+AMMO -
+30
+FIRE RATE -
+0.5s for three shots. The interval between the first two shots is 0.05s
+CRITICAL HIT -
+Yes
+DAMAGE FALLOFF -
+Falloff begins at 20m, decreasing to 60% at 40m
+Abilities
+Q
+FATE OF BOTH WORLDS
+Take center stage and start dancing! Press to toggle between two performances: Heal allies or grant them Damage Boost.
+CASTING -
+Persistent spell field that surrounds the caster
+HEALING -
+200 on cast - 250/s
+DURATION -
+12s
+COOLDOWN -
+Luna Snow can swap between healing and damage boosting every 0.5s
+DAMAGE BOOST -
+40%
+MAXIMUM SHIELD VALUE -
+250
+ENERGY COST -
+4500
+SHIFT
+ICE ARTS
+Fire ice shards for a short duration, damaging enemies or healing allies while restoring her own Health.
+CASTING -
+Single-cast spell field that pierces through enemies
+DAMAGE -
+50 per round
+HEALING -
+75 per round
+DURATION -
+6s
+COOLDOWN -
+15s
+FIRE RATE -
+1.43/s
+RANGE -
+A cylindrical spell field with a radius of 1m and a height of 40m
+E
+SHARE THE STAGE
+Attach Idol Aura to an ally. Allies with Idol Aura also restore Health when Luna Snow is healing others.
+CASTING -
+Targeted
+HEALING BOOST -
+35%
+ABSOLUTE ZERO
+Cast a clump of ice to Freeze the hit enemy and restore Health.
+CASTING -
+Single-cast projectile with delayed impact
+DAMAGE -
+50
+PROJECTILE SPEED -
+60m/s
+SPECIAL EFFECT
+⚬ Freeze enemies for 2.7s. However, if they are attacked during the last 2.2s of the freeze, the effect will be canceled.
+PASSIVE
+CRYO HEART
+Automatically restore Health when casting
+Ice Arts
+or
+Absolute Zero
+.
+HEALING -
+30/s for 3 seconds when casting
+Ice Arts
+or
+Absolute Zero
+PASSIVE
+SMOOTH SKATE
+Keep moving forward to start ice skating and enable higher jumps
+TRIGGER CONDITION -
+Move forward for longer than 0.5s
+MOVEMENT SPEED -
+9.6m/s
+Team-Up Abilities
+PASSIVE
+ICY DISCO
+Luna Snow infuses ice energy into
+Namor
+and
+Jeff the Land Shark
+, who then can tap into the ice energy to power up abilities at will
+TEAM-UP BONUS -
+15% Healing Boost
+C
+FROZEN CHI
+Iron Fist
+channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can knock back enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies
+CASTING -
+Single-cast spell field that surrounds the caster
+DAMAGE -
+25
+HEALING -
+75
+RANGE -
+10m radius
+SPECIAL EFFECT
+⚬ Knock back enemies and apply a Slow
+Strategy
+To be added
+Lore
+"Music makes people happy. Heroes make them safe. Maybe I can do both?"
+Luna Snow is more than just another K-Pop superstar. She's also a symbol of hope for her entire generation. Using her ice powers to keep tensions across the world cool, Luna has become a musical diplomat, ready to face any conflict that may arise.
+Tragedy nearly struck during Luna Snow's summer concert when a wounded Atlantean creature caused a devastating tsunami. Luna's ice held back the rushing tide and helped to heal the beast's injuries. She singlehandedly saved countless lives and prevented the situation from escalating into a full-scale conflic
+—
+Biography
+Hero Story
+"4L1T was my life. But, wouldn't it be fabulous to have an all-superhero band?"
+Guests from the Deep Sea
+High summer on the beach was a great time to be alive anywhere. It was even better when you were on the gem of the Pacific, Jeju Island. And it was way better when you were on Jeju Island singing in front of a hundred thousand screaming fans against the backdrop of a deep blue sea and a cloudless sky.
+Luna Snow soaked it all in as she closed the fifth song of her set, "Flow," hearing the fireworks go off behind her right on schedule as her last line — Finally now we feel alive! — drove the crowd into an even bigger frenzy. Whoa, they're extra loud, she thought. Not just the crowd, but the fireworks even more so, loud enough to shake the stage. Some gear fell over in the wings. She glanced at the crew, keeping her show smile big. It looked like they had things under control, but they were also looking around like —
+Whoa again. The ground really shook that time, and it wasn't any kind of stage effect she and her choreographers had programmed into the set.
+A split second later, she saw it among the fans, a surge of fear passing through the crowd as they all felt the shaking and turned to face the sea.
+Then Luna saw it too.
+The horizon moved. A slow bulge at first, but as it approached, it grew into a great wave surging in the direction of the beachside amphitheater. A tsunami! But no ordinary tsunami, because behind it — no, within it — lurked an immense shadow, as if the wave had not arisen naturally but was being driven by something below. How big would a creature have to be to cause a wave of this size? Already the water was draining away from the shore. That meant she had very little time to act.
+So act she did, springing off the stage and rushing toward the beach as the crowd scattered away. The wave was growing with no signs of stopping. She planted her feet when she reached the coastline and called up every atom of her cryokinetic powers. Singing a high, wordless note, she found the frequency of the waves and tuned herself to it, feeling the power flow from her, through the wet sand at her feet and out into the base of the immense wave. Dark ice shot up from the exposed seabed, threading up through the wave and spreading until the entire tsunami was frozen in place. Even though less than a minute had passed since she had left the stage, Luna had managed to calm the seas for a moment.
+And a long moment it was, the only sounds along the beach being the astonished gasps and sobs of the audience.
+Then cracks began to apear.
+Something was moving within the ice. The shadow, she thought — and just as the thought formed in her head, the frozen standing wavefront shattered.
+The momentum of the tsunami was broken, so its towering water flowed across the shore and back into the sea, but what emerged amid the battleship-sized shards of ice made Luna realize that she had solved the symptom, not the cause.
+The monster was perhaps a hundred meters tall, octopus-like, with tentacles that lashed out over the water as it churned through the shallows toward the shore. Toward her fans. Its body was weirdly translucent, bizarre organs glowing within its massive form. In its eyes was pure, mindless rage. She had heard suspenseful tales of this creature, but never thought it was real: the menace from the murky depths, Monstro.
+As the beast arose from the sea, she saw something else: A jagged wound in the side of its body, where the tentacles all gathered.
+No wonder it's so mad, that cut is huge! she thought as she skated towards the base of one tentacle, just below the corner of its eye. This creature was most definitely enraged by the agony of its wound. If it got to the shore, a lot of people would not be making it home from the island.
+But she wasn't going to let that happen.
+"Hey, hey, Monstro," she crooned, taking a step forward as Monstro's tentacles churned the shallows into foam that swirled around her feet. One of its tentacles slashed through the air just over her head. If she got too close, or didn't get close enough, all the people watching from the amphitheater and via streams all over the world were going to see the end of Luna Snow...and who knew how many other people.
+So she focused on what she could do. She channeled her powers, the light ice she had learned how to wield as the other aspect of her cryokinesis blooming where her fingertips touched the churning surf. She reached out, and the water around Monstro's body transformed into curling veins of warm healing ice. They crept up, finding the wound and tracing its length. Luna trembled with the effort of healing the wound— it was so much larger than anything she had ever tried to heal before. Behind her, she dimly heard a new sound rushing through the crowd, but whether it was fear or excitement or anticipation she couldn't tell without losing her focus, and if she lost her focus now, much more would also be lost. Little by little, her healing ice grew filaments across the wound, one side reaching toward the other. Monstro grew still, as if it knew what she was trying to do...or was biding its time until she failed.
+There! The ice linked up across the bleeding gap, knit it together again, then melted into Monstro's skin. Its tentacles fell limp for a moment, as if in relief, like that was Monstro's way of letting out a long sigh. Then, slowly and peacefully, it slipped back out into deeper water and was gone, leaving the huge chunks of ice to crash and grind against each other in its wake.
+Then Luna heard a voice off to her right. "Surface dweller. So-called superstar. Luna Snow."
+She turned, and barely suppressed a squeak of shock. Hovering above her on winged feet was none other than
+Namor
+, ruler of Talocan and all the endless expanse of the deep ocean. And apparently, he wanted to talk to her? Luna was a little starstruck, which didn't happen to her often, but she kept her wits about her enough to make sure that her mic was still live.
+"Your...Majesty?" she said. "Welcome to Jeju Island."
+"You need not welcome me to what I am about to possess," Namor said. "Talocan shall soon rule this island, and all surface dwellers who venture here will kneel before me."
+"I don't know about that, Your Majesty," Luna said as she rode her ice into the sky to look him in the eye. "At the moment, I think it's pretty clear that I rule Jeju Island. I mean, look at this crowd!"
+The remaining crowd burst into loud cheers at this, and Luna let Namor soak in it for a moment. He might have been a Mutant king, but she was Luna Snow, and nobody was going to bully her in front of a million fans.
+"Careful, human," Namor said. "I came here to give you my thanks. And while I admire your courage, if you show me any more disrespect, I promise that your song will be cut short."
+"Oh. Um." Luna gave a little chuckle, relying on cuteness to buy her some time. "Well, in that case, you're welcome? And what are you thanking me for?" She looked around at the mess the melting ice was causing all along the shoreline."
+"The creature you call Monstro," Namor said. "It was wounded by the careless maneuvering of a submarine, and thus driven to a frenzy by the pain."
+"Yeah, no one likes a bad cut. Wait..." she said. "A submarine? How fast can those things go, anyway?"
+"The technical specifications of surface-dweller vessels matter little to me," Namor said. "They will all soon be laid to waste. However, the fact that Monstro in its madness destroyed some settlements of Talocan did concern me. You have saved not just the lives of surface dwellers, but citizens of the deep, my people. So. For that you have our gratitude."
+"Well, wow," Luna said. "I don't know what to say."
+"Perhaps you should say nothing. Not when more singing remains." Was that a little glint of good humor in Namor's eye? Or a subtle warning for Luna to stay in her lane? She wasn't sure until Namor spoke again. "Let the humans here have one more night of revelry before the oceans rise."
+"Since you're here... care to join me for an encore?" Luna reached out her hand to Namor, hoping her music might help ease the tensions of two worlds clearly on the brink of war.
+"The surface dwellers will get to see me perform soon enough," Namor said, each word soaked in disdain. "And when that time comes, those who are wise will be cheering my name far louder than they cheer yours now."
+"I find that hard to imagine," Luna said, glancing back towards her adoring public. "You can't force people to love you, Namor. You have to earn it. And that's exactly what I try to do on this stage, every single night. The bond I have with my fans? That's something that no monster of the deep — not even you — can ever take away."
+Luna's icy gaze sent a chill down Namor's spine, but she quickly switched back to her usual positive persona the instant she turned to face the crowd. "So, who's ready to get this show re-started?"
+Even Monstro's roar couldn't have been heard over the pandemonium from the crowd. Music, Luna thought. It brings people together.
+But as she watched a grim Namor silently disappear back into the ocean's depths, she wondered how much longer that would be the case...
+Interstellar Concert Tour
+(Coming soon. Stay Tuned!)
+32 Degrees Fahrenheit
+(Coming soon. Stay Tuned!)
+Achievements
+Icon
+Name
+Description
+Frozen Fathoms
+As Luna Snow, freeze an enemy Namor with Absolute Zero.
+5
+Multiverse Tour
+As Luna Snow, complete a match on 5 maps with different themes.
+10
+Quotes
+See:
+Luna Snow/Quotes
+Balance Changes
+24/12/06:
+Season 0: Dooms' Rise
+Launch
+Luna Snow
+was released as the 5th character to be introduced to
+Marvel Rivals
+as a
+Strategist
+hero.
+Added 2 new costumes:
+Minty Beats
+and
+Shining Star
+.
+Added the
+Multiverse Tour
+achievement.
+Added to the
+Chilling Charisma
+Team-Up Ability
+with
+Namor
+and
+Jeff the Land Shark
+and the
+Atlas Bond
+Team-Up Ability
+with
+Iron Fist
+.
+25/01/08:
+Resolved instances where
+Luna Snow
+'s ultimate ability occasionally failed to heal teammates.
+25/01/10:
+Version 20250110
+/
+Season 1: Eternal Night Falls
+Launch
+Increase the interval for switching between healing and damage in
+Fate of Both Worlds
+from 0.1s to 0.5s.
+25/02/07:
+Version 20250207
+Added 1 new costume:
+Mirae 2099
+.
+25/02/21:
+Version 20250221
+/
+Season 1.5
+Launch
+Increase the energy cost to activate
+Fate of Both Worlds
+from 4000 to 4500.
+Increase the healing amount of
+Frozen Chi
+from 50 to 75, and the slow effect on enemies from 20% to 30%.
+25/04/11:
+Version 20250411
+/
+Season 2: Hellfire Gala
+Launch
+Added 1 new costume:
+Nolaehaneun Manyeo
+.
+25/04/18:
+Added 1 new costume color for
+Mirae 2099
+:
+Plasma Pulse
+.
+25/04/30:
+Version 20250430
+Adjust the damage falloff of
+Light & Dark Ice
+from 60% at 40m to 75%.
+Gallery
+Trailers
+In-Game Assets
+Reveal Images
+Marvel Rivals - 'Rivals’ First Stand' - Official Announcement Trailer
+Character Logo
+Prestige Artwork
+Hero Story Artwork
+Launch Countdown
+"Shining Star" Costume Reveal
+"Mirae 2099" Costume Reveal
+Trivia
+Luna Snow was originally created for the game
+Marvel Future Fight
+. She was subsequently brought into the Marvel comics a year after her debut in 2019.
+Luna Snow has heterochromia, with her right eye being brown and her left one being blue.
+Her song "Fate of Both Worlds", has her singing in Korean is performed by Le'mon rather than Judy Alice Lee, who provides Luna Snow's speaking voice.
+This is also Luna Snow's Ultimate and when activated, it plays the background music only.
