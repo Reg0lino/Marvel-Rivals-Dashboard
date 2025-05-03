@@ -4,7 +4,7 @@ import os
 import subprocess
 import json
 from datetime import datetime
-import platform # For OS-specific launching
+import platform  # For OS-specific launching
 
 # --- PySide6 Imports ---
 from PySide6.QtWidgets import (
@@ -16,24 +16,51 @@ from PySide6.QtCore import Qt, QSize, Signal, Slot, QPoint, QStandardPaths, QUrl
 from PySide6.QtGui import QScreen, QPixmap, QPainter, QColor, QPalette, QMouseEvent, QFont, QIcon, QMovie
 
 # --- Import from Dashboard ---
+# Attempt to import necessary paths and constants. Handle error if dashboard module not found.
 try:
-    from rivals_dashboard import (
-        resource_path,
-        H1_COLOR, H2_COLOR, H3_COLOR
-    )
-    print("Successfully imported essential constants from rivals_dashboard.")
+    # Use resource_path function if it's defined in rivals_dashboard for handling packaged paths
+    # If not, define a simple fallback here
+    try:
+        from rivals_dashboard import resource_path
+    except ImportError:
+        # Basic fallback if rivals_dashboard or resource_path isn't available during source run
+        # This won't handle PyInstaller bundling correctly on its own for these resources
+        print("Warning: 'resource_path' not found in rivals_dashboard. Using basic path resolution.")
+        def resource_path(relative_path):
+            """ Get absolute path to resource, works for dev and for PyInstaller """
+            try:
+                # PyInstaller creates a temp folder and stores path in _MEIPASS
+                base_path = sys._MEIPASS
+            except Exception:
+                base_path = os.path.abspath(".") # Use current dir if not packaged
+
+            return os.path.join(base_path, relative_path)
+
+    # Import colors (optional, can define locally if import fails often)
+    try:
+        from rivals_dashboard import H1_COLOR, H2_COLOR, H3_COLOR
+    except ImportError:
+        print("Warning: Could not import colors from rivals_dashboard. Using default colors.")
+        H1_COLOR = "#FFD700" # Gold
+        H2_COLOR = "#4682B4" # SteelBlue
+        H3_COLOR = "#FF6347" # Tomato
+
+    print("Successfully resolved essential resources/constants.")
+
 except ImportError as e:
-    print(f"FATAL ERROR: Could not import necessary components from rivals_dashboard: {e}")
+    print(f"FATAL ERROR: Could not resolve necessary components: {e}")
     print("Make sure launcher.py is in the correct root directory relative to rivals_dashboard.py")
     try:
+        # Try to show a graphical error message before exiting
         if not QApplication.instance(): err_app = QApplication(sys.argv); created_err_app = True
         else: created_err_app = False
         msg_box = QMessageBox(); msg_box.setIcon(QMessageBox.Critical); msg_box.setWindowTitle("Launcher Import Error")
-        msg_box.setText(f"Failed to import from rivals_dashboard.py:\n{e}\n\nEnsure files are in the correct location.")
+        msg_box.setText(f"Failed to resolve resources/constants:\n{e}\n\nEnsure files are in the correct location.")
         msg_box.exec()
         if created_err_app: err_app.quit()
     except Exception as e2: print(f"Could not show error message box: {e2}")
     sys.exit(1)
+
 
 # --- Configuration ---
 LAUNCHER_WINDOW_WIDTH = 580
@@ -47,7 +74,7 @@ LAST_UPDATE_FILE = os.path.join(CONFIG_FOLDER, 'last_update.json')
 ICON_PATH = resource_path('images/Marvel Rivals Dashboard.ico')
 LOADING_GIF_PATH = resource_path('images/loading.gif')
 LOADING_GIF_SIZE = 128
-LAUNCH_SUCCESS_CLOSE_DELAY_MS = 8000 # <<< SET TO 8 SECONDS
+LAUNCH_SUCCESS_CLOSE_DELAY_MS = 8000 # 8 SECONDS
 
 # --- Launcher Font Configuration ---
 LAUNCHER_FONT_FAMILY = "Refrigerator Deluxe" # Or "Segoe UI"
@@ -61,15 +88,20 @@ LAUNCHER_EXIT_FONT_PT = LAUNCHER_BASE_FONT_PT + 2
 LAUNCHER_TOOLTIP_FONT_PT = LAUNCHER_BASE_FONT_PT - 1
 LAUNCHER_COMBO_ITEM_FONT_PT = LAUNCHER_BASE_FONT_PT - 1
 
-# --- Helper Function for Paths --- (Keep as before)
-def get_script_path(script_name):
-    try:
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        if script_name == "rivals_dashboard.py": path = os.path.join(base_path, script_name)
-        elif script_name == "updater_v3.py": path = os.path.join(base_path, 'scraper', script_name)
-        else: path = os.path.join(base_path, script_name)
-        return os.path.normpath(path)
-    except Exception: return script_name
+# --- Helper Functions (Added for Packaged vs Source Detection) ---
+
+def _is_running_packaged():
+    """Check if the script is running as a PyInstaller bundle."""
+    return getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')
+
+def _get_base_path():
+    """Gets the base directory path depending on packaged or source mode."""
+    if _is_running_packaged():
+        # sys.executable is the path to the .exe itself when packaged
+        return os.path.dirname(sys.executable)
+    else:
+        # __file__ is the path to launcher.py when run from source
+        return os.path.dirname(os.path.abspath(__file__))
 
 # --- OS-Specific Launch Helper --- (Keep as before)
 def launch_external(target_uri_or_path):
@@ -91,6 +123,7 @@ class LauncherDialog(QDialog):
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self._drag_pos = None
 
+        # Load Icon using resource_path
         if os.path.exists(ICON_PATH): self.setWindowIcon(QIcon(ICON_PATH))
         else: print(f"Warning: Launcher icon not found at {ICON_PATH}")
 
@@ -106,7 +139,7 @@ class LauncherDialog(QDialog):
         self._apply_styles()
         self.setWindowOpacity(LAUNCHER_OPACITY)
 
-        # Initialize Loading GIF Movie
+        # Initialize Loading GIF Movie using resource_path
         self.loading_movie = QMovie(LOADING_GIF_PATH)
         if self.loading_movie.isValid():
             self.loading_label.setMovie(self.loading_movie)
@@ -254,27 +287,16 @@ class LauncherDialog(QDialog):
         if hasattr(self, 'last_info_label'): self.last_info_label.setToolTip(f"From '{os.path.basename(LAST_UPDATE_FILE)}'\nKey: last_info_update")
         if hasattr(self, 'last_patch_label'): self.last_patch_label.setToolTip(f"From '{os.path.basename(LAST_UPDATE_FILE)}'\nKey: last_game_patch_parsed")
 
-    # --- Loading GIF Helpers ---
+    # --- Loading GIF Helpers --- (Keep as before)
     def _show_loading(self):
         if hasattr(self, 'loading_label') and hasattr(self, 'loading_movie'):
-            # --- Make label cover the entire dialog ---
-            dialog_rect = self.rect()
-            self.loading_label.setGeometry(dialog_rect) # Set label geometry to fill dialog
-
-            # --- Scale movie to fit the new label size ---
+            dialog_rect = self.rect(); self.loading_label.setGeometry(dialog_rect)
             if self.loading_movie.isValid():
-                # Scale the movie to the dialog's size
-                # Qt.KeepAspectRatio should prevent distortion, might letterbox/pillarbox
-                # Use Qt.IgnoreAspectRatio if you want it to stretch fully
                 self.loading_movie.setScaledSize(dialog_rect.size())
                 self.loading_movie.start()
-
-            self.loading_label.show()
-            self.loading_label.raise_() # Ensure it's visually on top
-
+            self.loading_label.show(); self.loading_label.raise_()
             print("DEBUG: Showing loading indicator (resized to overlay).")
-        else:
-             print("DEBUG: Loading label/movie not found.")
+        else: print("DEBUG: Loading label/movie not found.")
 
     def _hide_loading(self):
         if hasattr(self, 'loading_label') and hasattr(self, 'loading_movie'):
@@ -282,70 +304,169 @@ class LauncherDialog(QDialog):
             self.loading_label.hide()
             print("DEBUG: Hiding loading indicator.")
 
-    # --- Enable/Disable Controls during Launch ---
+    # --- Enable/Disable Controls during Launch --- (Keep as before)
     def _set_controls_enabled(self, enabled):
-        # Define list of widgets to enable/disable (exclude exit button)
         widgets_to_toggle = [
             self.monitor_combo, self.mode_combo, self.debug_checkbox,
             self.launch_updater_button, self.launch_dashboard_button
         ]
         for w in widgets_to_toggle:
             if hasattr(w, 'setEnabled'): w.setEnabled(enabled)
-
-        # Reset button text ONLY when RE-ENABLING
         if enabled:
              if hasattr(self, 'launch_updater_button'): self.launch_updater_button.setText("⚙️ Launch Updater")
              if hasattr(self, 'launch_dashboard_button'): self.launch_dashboard_button.setText("⚡ Launch Dashboard")
 
-    # --- Script Launching Logic ---
-    def _launch_script_detached(self, script_path, args=None):
-        """Launches a python script, returns True on success, False on failure."""
-        if not os.path.exists(script_path):
-            print(f"ERROR: Script not found: {script_path}"); QMessageBox.critical(self, "Error", f"Script not found:\n{script_path}"); return False
+    # --- MODIFIED Script Launching Logic ---
+    def _launch_script_detached(self, script_identifier, args=None, use_pythonw_if_possible=False):
+        """
+        Launches the target script/executable as a detached process.
+        Handles packaged vs. source mode and determines the correct command.
 
-        command_list = []; python_exe = sys.executable
-        is_dashboard = "rivals_dashboard.py" in script_path
-        debug_dashboard = False
-        if is_dashboard and hasattr(self, 'debug_checkbox'): debug_dashboard = self.debug_checkbox.isChecked()
+        Args:
+            script_identifier (str): A key to identify the target (e.g., "dashboard", "updater").
+            args (list, optional): List of command-line arguments for the target. Defaults to [].
+            use_pythonw_if_possible (bool): Try to use pythonw.exe on Windows if running Python script.
+        """
+        args = args or []
+        command = []
+        target_description = ""
+        base_path = _get_base_path() # Get dir of launcher.exe or launcher.py
 
-        flags = 0; stdin=None; stdout=None; stderr=None
-        if platform.system() == "Windows":
-            if debug_dashboard: # Use python.exe, allow console
-                python_exe = sys.executable.replace("pythonw.exe", "python.exe") # Ensure it's python.exe
-                print("DEBUG: Launching dashboard with console visible (debug mode).")
-            else: # Try pythonw.exe and hide console
-                pythonw_path = python_exe.replace("python.exe", "pythonw.exe")
-                if os.path.exists(pythonw_path): python_exe = pythonw_path
-                else: print("Warning: pythonw.exe not found, console may appear.")
-                # Use flags to detach and hide
-                DETACHED_PROCESS = 0x00000008; CREATE_NEW_PROCESS_GROUP = 0x00000200; CREATE_NO_WINDOW = 0x08000000
-                flags = DETACHED_PROCESS | CREATE_NEW_PROCESS_GROUP | CREATE_NO_WINDOW
-                stdin=subprocess.DEVNULL; stdout=subprocess.DEVNULL; stderr=subprocess.DEVNULL
-        # Add other platform flag logic here if needed (macOS/Linux usually detach better by default)
-
-        command_list.append(python_exe); command_list.append(script_path)
-        if args: command_list.extend(args)
-
-        print(f"Attempting to launch script: {' '.join(command_list)}")
         try:
-            # Using creationflags only on Windows
-            kwargs = {'close_fds': True, 'stdin': stdin, 'stdout': stdout, 'stderr': stderr}
-            if platform.system() == "Windows": kwargs['creationflags'] = flags
+            is_packaged = _is_running_packaged()
+            print(f"INFO: Launcher running in {'packaged' if is_packaged else 'source'} mode.")
+            print(f"INFO: Base path determined as: {base_path}")
 
-            subprocess.Popen(command_list, **kwargs)
-            print("Script launch command issued."); return True
+            if script_identifier == "dashboard":
+                target_description = "Rivals Dashboard"
+                if is_packaged:
+                    # Packaged: Launch RivalsDashboard.exe from the same directory
+                    target_exe_name = "RivalsDashboard.exe" # Standard name from build
+                    target_path = os.path.join(base_path, target_exe_name)
+                    if not os.path.exists(target_path):
+                        raise FileNotFoundError(f"Packaged Dashboard not found: {target_path}")
+                    command = [target_path] + args
+                else:
+                    # Source: Launch rivals_dashboard.py using Python
+                    target_script_name = "rivals_dashboard.py"
+                    # Assumes dashboard.py is in the SAME directory as launcher.py in source
+                    target_path = os.path.abspath(os.path.join(base_path, target_script_name))
+                    if not os.path.exists(target_path):
+                        raise FileNotFoundError(f"Dashboard script not found: {target_path}")
+
+                    python_executable = sys.executable # Path to python executing the launcher
+                    # Try to use pythonw.exe for GUI apps on Windows to hide console
+                    # Only use pythonw if NOT in debug mode
+                    in_debug_mode = "--debug" in args
+                    if use_pythonw_if_possible and platform.system() == "Windows" and not in_debug_mode:
+                        pythonw_path = python_executable.lower().replace("python.exe", "pythonw.exe")
+                        if os.path.exists(pythonw_path):
+                            print("INFO: Using pythonw.exe for Dashboard")
+                            python_executable = pythonw_path
+                        else:
+                            print("WARN: pythonw.exe requested but not found, using default python.exe.")
+                    elif in_debug_mode and platform.system() == "Windows":
+                         print("INFO: Using python.exe for Dashboard (Debug mode requested).")
+                         # Ensure we are using python.exe if pythonw was default
+                         python_executable = python_executable.lower().replace("pythonw.exe", "python.exe")
+
+                    command = [python_executable, target_path] + args
+
+            elif script_identifier == "updater":
+                target_description = "Updater Tool"
+                # Updater is ALWAYS run from source using Python
+                target_script_name = os.path.join("scraper", "updater_v3.py") # Relative path
+                target_path = os.path.abspath(os.path.join(base_path, target_script_name)) # Path relative to launcher.exe/launcher.py
+                if not os.path.exists(target_path):
+                     raise FileNotFoundError(f"Updater script not found: {target_path}")
+
+                # Determine Python executable (system default or try pythonw)
+                python_executable = "python.exe" if platform.system() == "Windows" else "python" # Sensible default
+                if use_pythonw_if_possible and platform.system() == "Windows":
+                    # Try finding pythonw on PATH or use the one executing the launcher if source mode
+                    if not is_packaged:
+                         py_launcher = sys.executable
+                         pythonw_path = py_launcher.lower().replace("python.exe", "pythonw.exe")
+                         if os.path.exists(pythonw_path):
+                             python_executable = pythonw_path
+                             print("INFO: Using pythonw.exe for Updater (Source Mode).")
+                         else:
+                             try: # Check PATH for pythonw as fallback
+                                 subprocess.check_output(['where', 'pythonw.exe'], stderr=subprocess.STDOUT)
+                                 python_executable = 'pythonw.exe'
+                                 print("INFO: Using pythonw.exe found on PATH for Updater.")
+                             except (subprocess.CalledProcessError, FileNotFoundError):
+                                 print("WARN: pythonw.exe not found near launcher or on PATH, using python.exe for Updater.")
+                                 python_executable = 'python.exe' # Fallback to python.exe
+                    else: # Packaged mode - assume python/pythonw needs to be on PATH
+                         try:
+                             subprocess.check_output(['where', 'pythonw.exe'], stderr=subprocess.STDOUT)
+                             python_executable = 'pythonw.exe'
+                             print("INFO: Using pythonw.exe found on PATH for Updater (Packaged Mode).")
+                         except (subprocess.CalledProcessError, FileNotFoundError):
+                             print("WARN: pythonw.exe not found on PATH, using python.exe for Updater.")
+                             python_executable = 'python.exe'
+
+                command = [python_executable, target_path] + args # Updater typically doesn't need args from launcher
+
+            else:
+                raise ValueError(f"Unknown script identifier: {script_identifier}")
+
+            # --- Launch Process ---
+            print(f"Attempting to launch {target_description}...")
+            print(f"Executing command: {' '.join(command)}")
+
+            # Platform specific creation flags for detaching/hiding console
+            creationflags = 0
+            if platform.system() == "Windows":
+                # DETACHED_PROCESS allows launcher to exit independently
+                # CREATE_NO_WINDOW hides console (good esp. if not using pythonw or if launching .exe)
+                # Only add CREATE_NO_WINDOW if we are *not* in debug mode for the dashboard
+                # Or if we are launching the packaged dashboard .exe
+                # Or if we are launching the updater
+                is_dashboard_debug = (script_identifier == "dashboard" and "--debug" in args)
+                if not (is_dashboard_debug and not is_packaged): # Don't hide console for source dashboard in debug
+                    creationflags |= subprocess.CREATE_NO_WINDOW
+
+                # Always detach
+                creationflags |= subprocess.DETACHED_PROCESS
+
+            # Use Popen for non-blocking execution
+            process = subprocess.Popen(command,
+                                       creationflags=creationflags,
+                                       close_fds=True) # Close file descriptors in child on non-Windows
+
+            print(f"  {target_description} process initiated (PID: {process.pid}).")
+            return True # Indicate launch initiation success
+
+        except FileNotFoundError as e:
+            error_msg = f"Error: Required file not found.\n{e}"
+            print(f"ERROR: {error_msg}")
+            # Show error via Launcher's UI handling
+            self._hide_loading()
+            self._set_controls_enabled(True)
+            QMessageBox.critical(self, "Launch Error", error_msg)
+            return False
         except Exception as e:
-            print(f"ERROR launching script {script_path}: {e}"); QMessageBox.critical(self, "Launch Error", f"Failed:\n{script_path}\n\nError: {e}"); return False
+            error_msg = f"Failed to launch {target_description}.\nError: {e}"
+            print(f"ERROR: {error_msg}")
+            import traceback
+            traceback.print_exc()
+            # Show error via Launcher's UI handling
+            self._hide_loading()
+            self._set_controls_enabled(True)
+            QMessageBox.critical(self, "Launch Error", error_msg)
+            return False
 
     # --- Button Trigger Slots ---
     @Slot()
     def _trigger_launch_updater(self):
         if self.is_launching: return
         self.is_launching = True; self._set_controls_enabled(False); self.launch_updater_button.setText("Starting...")
-        self._show_loading(); QApplication.processEvents()
+        self._show_loading(); QApplication.processEvents() # Ensure UI updates
 
-        updater_path = get_script_path("updater_v3.py")
-        success = self._launch_script_detached(updater_path)
+        # Call the MODIFIED detached launch function
+        success = self._launch_script_detached("updater", args=[], use_pythonw_if_possible=True)
 
         if success:
             print(f"Updater launch initiated. Launcher will close in {LAUNCH_SUCCESS_CLOSE_DELAY_MS / 1000}s.")
@@ -353,31 +474,35 @@ class LauncherDialog(QDialog):
             # Keep GIF visible until close
         else:
             print("Updater launch failed.")
-            self._hide_loading()
-            self._set_controls_enabled(True) # Re-enable on failure
+            # Error handling now done inside _launch_script_detached
             self.is_launching = False
 
     @Slot() # Connected to Launch Dashboard button
     def accept(self):
         if self.is_launching: return
         self.is_launching = True; self._set_controls_enabled(False); self.launch_dashboard_button.setText("Starting...")
-        self._show_loading(); QApplication.processEvents()
+        self._show_loading(); QApplication.processEvents() # Ensure UI updates
 
         # Get settings
         monitor_index = self.monitor_combo.currentIndex()
         self.selected_screen = self.screens[monitor_index] if 0 <= monitor_index < len(self.screens) else QApplication.primaryScreen()
+        # Check if selected_screen is valid, fallback if not
+        if not self.selected_screen: self.selected_screen = QApplication.primaryScreen()
+
         self.fullscreen_mode = (self.mode_combo.currentData() == True)
         self.debug_mode = self.debug_checkbox.isChecked()
-        print(f"Launcher Settings: Screen='{self.selected_screen.name() if self.selected_screen else 'N/A'}', Fullscreen={self.fullscreen_mode}, Debug={self.debug_mode}")
+        screen_name_for_log = self.selected_screen.name() if self.selected_screen and self.selected_screen.name() else f"Screen_{monitor_index}"
+        print(f"Launcher Settings: Screen='{screen_name_for_log}', Fullscreen={self.fullscreen_mode}, Debug={self.debug_mode}")
 
         # Prepare args
         dashboard_args = []
-        if self.selected_screen: dashboard_args.extend(["--screen", self.selected_screen.name()])
+        # Pass screen identifier (index might be more reliable than name if names are empty/duplicates)
+        dashboard_args.extend(["--screen", str(monitor_index)])
         if self.fullscreen_mode: dashboard_args.append("--fullscreen")
         if self.debug_mode: dashboard_args.append("--debug")
 
-        dashboard_script_path = get_script_path("rivals_dashboard.py")
-        success = self._launch_script_detached(dashboard_script_path, dashboard_args)
+        # Call the MODIFIED detached launch function
+        success = self._launch_script_detached("dashboard", args=dashboard_args, use_pythonw_if_possible=True)
 
         if success:
             print(f"Dashboard launch initiated. Launcher will close in {LAUNCH_SUCCESS_CLOSE_DELAY_MS / 1000}s.")
@@ -385,16 +510,17 @@ class LauncherDialog(QDialog):
             # Keep GIF visible until close
         else:
             print("Dashboard launch failed.")
-            self._hide_loading()
-            self._set_controls_enabled(True) # Re-enable on failure
+            # Error handling now done inside _launch_script_detached
             self.is_launching = False
         # Don't call super().accept()
 
     # get_selection can remain as is
     def get_selection(self):
-        screen = self.screens[self.monitor_combo.currentIndex()] if 0 <= self.monitor_combo.currentIndex() < len(self.screens) else QApplication.primaryScreen()
+        screen_index = self.monitor_combo.currentIndex()
+        screen = self.screens[screen_index] if 0 <= screen_index < len(self.screens) else QApplication.primaryScreen()
         fullscreen = (self.mode_combo.currentData() == True); debug = self.debug_checkbox.isChecked()
-        return screen, fullscreen, debug
+        # Return index instead of screen object for args
+        return screen_index, fullscreen, debug
 
 # --- Main Execution --- (Keep as before)
 if __name__ == "__main__":
