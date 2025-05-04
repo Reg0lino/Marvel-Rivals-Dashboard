@@ -21,7 +21,7 @@ from PySide6.QtGui import (
     QTextCursor, QTextCharFormat, QDesktopServices 
 )
 from PySide6.QtCore import (
-    Qt, QRect, QSize, Signal, Slot, QPoint, QStandardPaths, QTimer, QMargins, QUrl
+    Qt, QRect, QSize, Signal, Slot, QPoint, QStandardPaths, QTimer, QMargins, QUrl, QThread 
   
 )
 # --- End Import Changes ---
@@ -2164,8 +2164,7 @@ class MainWindow(QMainWindow):
         # --- Row 1: Info/Update Buttons (FlowLayout) ---
         button_flow_container = QWidget()
         button_flow_layout = FlowLayout(button_flow_container, margin=0, hSpacing=6, vSpacing=4)
-        # Size policy: Preferred horizontal (allow expansion), Maximum vertical (prevent stretching)
-        sp_buttons = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Maximum) # Changed Horizontal to Expanding
+        sp_buttons = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Maximum)
         button_flow_container.setSizePolicy(sp_buttons)
 
         font_info_buttons = QFont(self.font_family, BASE_FONT_SIZE)
@@ -2175,36 +2174,43 @@ class MainWindow(QMainWindow):
             button.setObjectName("InfoButton")
             button.setFont(font_info_buttons)
             button.setToolTip(f"Show {key.replace('_', ' ').title()} Info")
-            # Use lambda to capture the correct key for the slot
             button.clicked.connect(lambda checked=False, k=key: self._show_info_popup(k))
-            button_flow_layout.addWidget(button) # Add to internal layout
+            button_flow_layout.addWidget(button)
 
         # --- Tracker button ---
         tracker_button = QPushButton("Tracker")
-        tracker_button.setObjectName("InfoButton") # Use same style as others
+        tracker_button.setObjectName("InfoButton")
         tracker_button.setFont(font_info_buttons)
         tracker_button.setToolTip("Open RivalsTracker Leaderboard (rivalstracker.com)")
         tracker_url = QUrl("https://rivalstracker.com/leaderboard")
-        # Connect directly to QDesktopServices.openUrl
         tracker_button.clicked.connect(lambda: QDesktopServices.openUrl(tracker_url))
         button_flow_layout.addWidget(tracker_button)
 
-        # --- Update Dash button comes AFTER Tracker ---
-        update_button = QPushButton("Update Dash")
-        update_button.setObjectName("InfoButton")
-        update_button.setFont(font_info_buttons)
-        update_button.setToolTip("Launch the data updater tool (updater_v3.py)")
-        update_button.clicked.connect(self._confirm_launch_updater)
-        button_flow_layout.addWidget(update_button) # Add to internal layout
+        # --- "Update Dash" button (Launches External Updater) ---
+        # Keeping this button for now, but could be removed for Simple Sync release
+        launch_updater_button = QPushButton("Launch Updater")
+        launch_updater_button.setObjectName("InfoButton")
+        launch_updater_button.setFont(font_info_buttons)
+        launch_updater_button.setToolTip("Launch the external data updater tool (updater_v3.py)")
+        launch_updater_button.clicked.connect(self._confirm_launch_updater)
+        button_flow_layout.addWidget(launch_updater_button)
+
+        # --- NEW: "Check for Updates" Button (JSON Downloader) ---
+        self.json_update_button = QPushButton("Check for Data Updates") # <<< NEW BUTTON
+        self.json_update_button.setObjectName("UpdateButton") # <<< Use a distinct object name for styling
+        self.json_update_button.setFont(font_info_buttons)
+        self.json_update_button.setToolTip("Download the latest character data files from GitHub")
+        self.json_update_button.clicked.connect(self._start_json_update) # <<< Connect to new method
+        button_flow_layout.addWidget(self.json_update_button) # <<< Add to layout
 
         # Add the FlowLayout container as the FIRST row in the main vertical layout
         main_top_layout.addWidget(button_flow_container)
 
-        # --- Row 2: Search, Sort, Filter, Font, Exit (QHBoxLayout) ---
-        search_controls_bar = QWidget() # Container for the second row
-        search_controls_layout = QHBoxLayout(search_controls_bar) # Horizontal layout for this row
-        search_controls_layout.setContentsMargins(0, 0, 0, 0) # No internal margins needed usually
-        search_controls_layout.setSpacing(8) # Spacing between items in this row
+        # --- Row 2: Search, Sort, Filter, Exit (QHBoxLayout) ---
+        search_controls_bar = QWidget()
+        search_controls_layout = QHBoxLayout(search_controls_bar)
+        search_controls_layout.setContentsMargins(0, 0, 0, 0)
+        search_controls_layout.setSpacing(8)
 
         font_controls = QFont(self.font_family, BASE_FONT_SIZE)
         self.search_input = QLineEdit()
@@ -2223,19 +2229,11 @@ class MainWindow(QMainWindow):
         self.filter_combo.addItems(["Filter by Role: All", "Vanguard", "Duelist", "Strategist"])
         self.filter_combo.currentIndexChanged.connect(self.sort_and_filter_characters)
 
-        # Add Search(stretch=1), Sort(0), Filter(0) to the second row's layout
         search_controls_layout.addWidget(self.search_input, 1)
         search_controls_layout.addWidget(self.sort_combo)
         search_controls_layout.addWidget(self.filter_combo)
-
-        # Add Spacer(stretch=1) to push Exit button right
         search_controls_layout.addStretch(1)
 
-        # --- FONT TOGGLE BUTTON REMOVED ---
-        # self.font_toggle_button = QPushButton("Font")
-        # ... (all lines related to font_toggle_button removed) ...
-
-        # --- Exit button ---
         self.exit_button = QPushButton("✕")
         self.exit_button.setObjectName("ExitButton")
         self.exit_button.setFixedSize(24, 24)
@@ -2245,14 +2243,10 @@ class MainWindow(QMainWindow):
              self.exit_button.clicked.connect(app_instance.quit)
         else:
              print("WARNING: Could not connect Exit button: QApplication instance not found yet.")
-
-        # Add Exit(0) to the second row's layout (Font button is gone)
         search_controls_layout.addWidget(self.exit_button)
 
-        # Add the SECOND row container to the main vertical layout
         main_top_layout.addWidget(search_controls_bar)
 
-        # Return the main widget containing the QVBoxLayout
         return top_bar_widget
     # --- END OF REPLACED METHOD ---
 
@@ -2751,8 +2745,14 @@ class MainWindow(QMainWindow):
                 else:
                     error_msg = f"Updater script not found at:\n{updater_script_path}"; print(f"ERROR: {error_msg}"); QMessageBox.critical(self, "Error", error_msg)
             except Exception as e: error_msg = f"Failed to launch updater: {e}"; print(f"ERROR: {error_msg}"); QMessageBox.critical(self, "Launch Error", error_msg)
-    
-# --- Main Execution (Mostly unchanged, ensure global paths used correctly) ---
+    @Slot()
+    def _start_json_update(self):
+        """Placeholder slot triggered by the 'Check for Data Updates' button."""
+        print("Placeholder: '_start_json_update' triggered!")
+        # We will add threading and download logic here later.
+        QMessageBox.information(self, "Update Check", "Update functionality coming soon!")
+    # --- END OF NEW METHOD ---
+
 # --- Main Execution ---
 if __name__ == "__main__":
     # --- Argument Parsing ---
