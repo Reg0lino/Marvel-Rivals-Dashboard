@@ -1969,134 +1969,194 @@ class CharacterCard(QWidget):
 
 class JsonUpdateWorker(QThread):
     """
-    Worker thread for downloading character JSON files from GitHub.
+    Worker thread for downloading character JSON files.
+    Tries GitHub API first, falls back to Firebase Hosting manifest if GitHub fails.
     Emits signals for progress updates and completion/error status.
     """
-    # Define signals to communicate back to the main thread
-    # Signal signature: progress(current_file_index, total_files, filename)
     progress = Signal(int, int, str)
-    # Signal signature: finished(success_boolean, message_string)
     finished = Signal(bool, str)
 
-    def __init__(self, repo_url, local_dir, parent=None):
+    def __init__(self, github_api_url, firebase_manifest_url, firebase_base_char_url, local_dir, parent=None):
         super().__init__(parent)
-        self.repo_api_url = repo_url  # e.g., "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main"
-        self.local_char_dir = Path(local_dir) # Use pathlib for easier path joining
-        self.is_running = True # Flag to allow interruption (optional for now)
+        self.github_api_url = github_api_url
+        self.firebase_manifest_url = firebase_manifest_url
+        self.firebase_base_char_url = firebase_base_char_url # Expecting trailing slash
+        self.local_char_dir = Path(local_dir)
+        self.is_running = True
+        self.source_used = "None" # To track which source succeeded
 
     def run(self):
         """The main logic executed by the thread."""
         print("JsonUpdateWorker: Thread started.")
+        json_files_to_download = [] # List of {'name': ..., 'url': ...}
         total_files_to_download = 0
         files_downloaded = 0
         error_occurred = False
-        final_message = ""
+        first_error_details = "" # Store details of the first source failure
+        final_message = "" # Initialize final message
 
+        # --- 1. Determine File List (Try GitHub, Fallback to Firebase) ---
         try:
-            # --- 1. Get the list of files from GitHub API ---
-            print(f"JsonUpdateWorker: Fetching file list from {self.repo_api_url}")
-            response = requests.get(self.repo_api_url, timeout=15) # Add timeout
-            response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
-            repo_files_data = response.json()
+            # --- Try GitHub API First ---
+            self.source_used = "GitHub"
+            print(f"JsonUpdateWorker: Attempting source: {self.source_used} ({self.github_api_url})")
+            response_gh = requests.get(self.github_api_url, timeout=15)
+            response_gh.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+            repo_files_data = response_gh.json()
 
-            # Filter for JSON files only and get download URLs
-            json_files = []
+            # Filter for JSON files and get download URLs from GitHub response
             for item in repo_files_data:
                 if item['type'] == 'file' and item['name'].lower().endswith('.json'):
-                    # Prefer 'download_url', fallback to constructing raw URL if needed
                     download_url = item.get('download_url')
+                    # Construct raw URL as a secondary fallback if download_url missing
                     if not download_url:
-                         # Construct raw URL (less reliable if structure changes)
-                         raw_base = "https://raw.githubusercontent.com/Reg0lino/Marvel-Rivals-Dashboard/main/characters/"
-                         download_url = raw_base + item['name']
-                         print(f"WARN: No download_url in API response for {item['name']}, using constructed raw URL: {download_url}")
+                        raw_base = "https://raw.githubusercontent.com/Reg0lino/Marvel-Rivals-Dashboard/main/characters/"
+                        download_url = raw_base + item['name']
+                        print(f"WARN: No download_url in GitHub API response for {item['name']}, using constructed raw URL.")
+                    json_files_to_download.append({'name': item['name'], 'url': download_url})
 
-                    json_files.append({'name': item['name'], 'url': download_url})
+            if not json_files_to_download:
+                 raise ValueError("No JSON files found via GitHub API.") # Treat finding no files as an error to force fallback
 
-            total_files_to_download = len(json_files)
-            print(f"JsonUpdateWorker: Found {total_files_to_download} JSON files to download.")
+            print(f"JsonUpdateWorker: Using {self.source_used} source. Found {len(json_files_to_download)} files.")
 
-            if total_files_to_download == 0:
-                 raise ValueError("No JSON files found in the repository directory.")
+        except (requests.exceptions.RequestException, ValueError) as e_github:
+            # Catch network errors OR the ValueError if GitHub responded but found 0 files
+            first_error_details = f"GitHub source failed: {type(e_github).__name__}: {e_github}"
+            print(f"WARN: {first_error_details}")
+            print(f"JsonUpdateWorker: Attempting Firebase fallback source: {self.firebase_manifest_url}")
+            self.source_used = "Firebase" # Mark that we are now trying Firebase
+            json_files_to_download = [] # Clear list before trying fallback
 
-            # --- 2. Ensure local directory exists ---
-            self.local_char_dir.mkdir(parents=True, exist_ok=True)
-            print(f"JsonUpdateWorker: Ensured local directory exists: {self.local_char_dir}")
+            try:
+                # --- Try Firebase Manifest ---
+                response_fb = requests.get(self.firebase_manifest_url, timeout=15)
+                response_fb.raise_for_status()
+                manifest_filenames = response_fb.json() # Expecting a list of strings
 
-            # --- 3. Download each file ---
-            for index, file_info in enumerate(json_files):
-                filename = file_info['name']
-                download_url = file_info['url']
-                local_filepath = self.local_char_dir / filename # Use pathlib's / operator
+                if not isinstance(manifest_filenames, list):
+                    raise ValueError("Invalid manifest format from Firebase (expected a JSON list).")
 
-                # Emit progress signal BEFORE starting download
-                self.progress.emit(index, total_files_to_download, filename)
-                print(f"JsonUpdateWorker: Downloading ({index + 1}/{total_files_to_download}) '{filename}' from {download_url}...")
+                # Build download list from Firebase manifest
+                for filename in manifest_filenames:
+                    if isinstance(filename, str) and filename.lower().endswith('.json'):
+                        # Ensure base URL ends with a slash before joining
+                        base_url = self.firebase_base_char_url
+                        if not base_url.endswith('/'):
+                            base_url += '/'
+                        # Construct the full URL for the character file
+                        full_url = base_url + filename
+                        json_files_to_download.append({'name': filename, 'url': full_url})
+                    else:
+                        print(f"WARN: Skipping invalid entry in Firebase manifest: {filename}")
 
-                try:
-                    file_response = requests.get(download_url, timeout=20) # Longer timeout for file download
-                    file_response.raise_for_status()
+                if not json_files_to_download:
+                    raise ValueError("No valid JSON filenames found in Firebase manifest.")
 
-                    # Save the file content (using binary write mode 'wb' is safer)
-                    with open(local_filepath, 'wb') as f:
-                        f.write(file_response.content)
+                print(f"JsonUpdateWorker: Using {self.source_used} fallback source. Found {len(json_files_to_download)} files from manifest.")
 
-                    files_downloaded += 1
-                    print(f"JsonUpdateWorker: Successfully saved '{filename}' to {local_filepath}")
+            except Exception as e_firebase:
+                # Both GitHub and Firebase failed
+                print(f"ERROR: Firebase fallback also failed: {type(e_firebase).__name__}: {e_firebase}")
+                error_occurred = True
+                # Combine error messages
+                final_message = f"Update Failed:\n- {first_error_details}\n- Firebase fallback failed: {e_firebase}"
+                self.finished.emit(False, final_message)
+                print("JsonUpdateWorker: Thread finished unsuccessfully (both sources failed).")
+                return # Stop execution
 
-                except requests.exceptions.RequestException as e_download:
-                     error_occurred = True
-                     err_msg = f"Error downloading '{filename}': {e_download}"
-                     print(f"ERROR: {err_msg}")
-                     final_message += f"\n- Failed: {filename} ({e_download})" # Append specific error
-                     # Optionally decide whether to continue or stop on error
-                     # break # Uncomment to stop after first error
-
-                # Add a small sleep to yield control (optional, helps UI responsiveness slightly)
-                # self.msleep(50) # 50 milliseconds
-
-            # --- 4. Prepare final message ---
-            if not error_occurred:
-                final_message = f"Successfully downloaded {files_downloaded} character files.\n\nPlease restart the dashboard to apply the updates."
-            else:
-                # Prepend a summary to the specific error messages
-                final_message = f"Update completed with errors.\nDownloaded: {files_downloaded}/{total_files_to_download}\nErrors:{final_message}"
-                final_message += "\n\nPlease check console logs and try again later. You may need to restart."
-
-        except requests.exceptions.Timeout:
+        except Exception as e_other_source:
+             # Catch any other unexpected error during source determination
+             print(f"ERROR: Unexpected error determining download source: {e_other_source}")
              error_occurred = True
-             err_msg = "Connection timed out while trying to reach GitHub."
-             print(f"ERROR: {err_msg}")
-             final_message = f"Update Failed: {err_msg}"
-        except requests.exceptions.RequestException as e_api:
-            error_occurred = True
-            err_msg = f"Error communicating with GitHub API: {e_api}"
-            print(f"ERROR: {err_msg}")
-            final_message = f"Update Failed: {err_msg}"
-        except ValueError as e_val: # Catch the "No JSON files found" error
-             error_occurred = True
-             err_msg = str(e_val)
-             print(f"ERROR: {err_msg}")
-             final_message = f"Update Failed: {err_msg}"
-        except Exception as e_generic:
-            error_occurred = True
-            err_msg = f"An unexpected error occurred during update: {e_generic}"
-            print(f"ERROR: {err_msg}")
-            import traceback
-            traceback.print_exc() # Print full traceback for debugging
-            final_message = f"Update Failed: An unexpected error occurred. Check logs."
+             final_message = f"Update Failed: Error identifying download source: {e_other_source}"
+             self.finished.emit(False, final_message)
+             print("JsonUpdateWorker: Thread finished unsuccessfully (source determination error).")
+             return # Stop execution
 
-        # --- 5. Emit finished signal ---
-        # Success is True only if NO errors occurred AND we intended to download files
-        success = not error_occurred and total_files_to_download > 0
+
+        # --- 2. Proceed with Download Loop (If source was determined and files found) ---
+        if json_files_to_download:
+            total_files_to_download = len(json_files_to_download)
+            specific_download_errors = [] # To collect errors during the loop
+
+            try:
+                # Ensure local directory exists
+                self.local_char_dir.mkdir(parents=True, exist_ok=True)
+                print(f"JsonUpdateWorker: Ensured local directory exists: {self.local_char_dir}")
+
+                # Download each file
+                for index, file_info in enumerate(json_files_to_download):
+                    # Check if stop requested (optional)
+                    # if not self.is_running:
+                    #     print("JsonUpdateWorker: Download loop interrupted.")
+                    #     error_occurred = True
+                    #     final_message = "Update cancelled by user."
+                    #     break # Exit the loop
+
+                    filename = file_info['name']
+                    download_url = file_info['url']
+                    local_filepath = self.local_char_dir / filename
+
+                    # Emit progress signal
+                    self.progress.emit(index, total_files_to_download, filename)
+                    # print(f"JsonUpdateWorker: Downloading ({index + 1}/{total_files_to_download}) '{filename}'...") # Less verbose
+
+                    try:
+                        file_response = requests.get(download_url, timeout=30) # Increased timeout for downloads
+                        file_response.raise_for_status()
+                        # Write using binary mode
+                        with open(local_filepath, 'wb') as f:
+                            f.write(file_response.content)
+                        files_downloaded += 1
+                        # print(f"JsonUpdateWorker: Successfully saved '{filename}'") # Less verbose
+
+                    except requests.exceptions.RequestException as e_download:
+                        error_occurred = True # Mark that *an* error happened
+                        err_msg = f"- Failed {filename}: {type(e_download).__name__}"
+                        print(f"ERROR: {err_msg} ({e_download})")
+                        specific_download_errors.append(err_msg)
+                        # Continue trying other files
+
+                # --- 3. Prepare final message after download loop ---
+                if not error_occurred:
+                    final_message = f"Successfully downloaded {files_downloaded} character files using {self.source_used}.\n\nPlease restart the dashboard to apply the updates."
+                else:
+                    # Construct error message including specifics if not too many
+                    final_message = f"Update completed with errors (Source: {self.source_used}).\nDownloaded: {files_downloaded}/{total_files_to_download}\nErrors:\n"
+                    if len(specific_download_errors) <= 5:
+                         final_message += "\n".join(specific_download_errors)
+                    else:
+                         final_message += "\n".join(specific_download_errors[:5])
+                         final_message += f"\n- ... ({len(specific_download_errors) - 5} more errors, check logs)"
+                    final_message += "\n\nPlease check console logs. You may need to restart."
+
+            except Exception as e_loop:
+                # Catch errors during directory creation or loop setup
+                print(f"ERROR: Unexpected error during download process setup: {e_loop}")
+                error_occurred = True
+                final_message = f"Update Failed: Error preparing download: {e_loop}"
+                import traceback
+                traceback.print_exc()
+
+        else: # Case where source determination worked but found 0 files
+            if not error_occurred: # Only report this if no prior errors occurred
+                final_message = f"Update check complete using {self.source_used}. No character files were found to download."
+                print(f"WARN: {final_message}")
+            # If error_occurred is True, the message from source determination failure takes precedence
+
+        # --- 4. Emit finished signal ---
+        # Success means no errors occurred AND we actually downloaded files,
+        # OR no errors occurred and zero files were expected/found.
+        success = not error_occurred
         self.finished.emit(success, final_message)
-        print(f"JsonUpdateWorker: Thread finished. Success: {success}")
+        print(f"JsonUpdateWorker: Thread finished. Success: {success}, Source Used: {self.source_used}")
 
     def stop(self):
-        """Placeholder for interrupting the thread (not fully implemented)."""
+        """Placeholder for interrupting the thread."""
         self.is_running = False
         print("JsonUpdateWorker: Stop requested.")
-# --- END OF JsonUpdateWorker CLASS ---
+# --- END OF JsonUpdateWorker CLASS REPLACEMENT ---
 
 # --- Add this Helper Function ---
 def get_config_value_flexible(config_map, key):
@@ -2868,32 +2928,54 @@ class MainWindow(QMainWindow):
                 else:
                     error_msg = f"Updater script not found at:\n{updater_script_path}"; print(f"ERROR: {error_msg}"); QMessageBox.critical(self, "Error", error_msg)
             except Exception as e: error_msg = f"Failed to launch updater: {e}"; print(f"ERROR: {error_msg}"); QMessageBox.critical(self, "Launch Error", error_msg)
+    
+        # --- Inside class MainWindow(QMainWindow): ---
+
     @Slot()
     def _start_json_update(self):
         """Starts the JSON update process in a background thread."""
-        print("JSON Update: Button clicked.") # <<< Look for this print statement
+        print("JSON Update: Button clicked.")
 
-        # Prevent starting multiple updates simultaneously
         if self.json_update_worker and self.json_update_worker.isRunning():
             print("JSON Update: Update process already running.")
             QMessageBox.information(self, "Update in Progress", "An update check is already running.")
             return
 
-        # Disable the button during update
         self.json_update_button.setEnabled(False)
         self.json_update_button.setText("Checking...")
 
+        # --- Define URLs and Local Directory ---
         local_dir = CHARACTER_DATA_FOLDER
-        repo_api_url = "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main"
+        # GitHub URL (still try this first, removing ?ref=main based on tests)
+        github_api_url = "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters"
+        # Firebase Fallback URLs (Use your actual URL)
+        firebase_base_url = "https://marvel-rivals-dashboard.web.app" # <<< YOUR FIREBASE URL
+        firebase_manifest_url = f"{firebase_base_url}/characters_manifest.json"
+        firebase_base_char_url = f"{firebase_base_url}/characters/" # Needs trailing slash
 
-        print(f"JSON Update: Starting worker. Repo: {repo_api_url}, Local Dir: {local_dir}")
+        print(f"JSON Update: Starting worker.")
+        print(f"  Primary Source (GitHub API): {github_api_url}")
+        print(f"  Fallback Source (Firebase Manifest): {firebase_manifest_url}")
+        print(f"  Fallback Source (Firebase Chars Base): {firebase_base_char_url}")
+        print(f"  Local Target Directory: {local_dir}")
 
-        self.json_update_worker = JsonUpdateWorker(repo_api_url, local_dir)
+        # Create and configure the worker thread with ALL URLs
+        self.json_update_worker = JsonUpdateWorker(
+            github_api_url=github_api_url,
+            firebase_manifest_url=firebase_manifest_url,
+            firebase_base_char_url=firebase_base_char_url, # Pass the base URL for characters
+            local_dir=local_dir
+        )
+
+        # Connect signals (same as before)
         self.json_update_worker.progress.connect(self._handle_update_progress)
         self.json_update_worker.finished.connect(self._handle_update_finished)
+
+        # Start the thread
         self.json_update_worker.start()
         print("JSON Update: Worker thread started.")
 
+        
     # --- ADD this new method ---
     @Slot(int, int, str)
     def _handle_update_progress(self, current_file, total_files, filename):
