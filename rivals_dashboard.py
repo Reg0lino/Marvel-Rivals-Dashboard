@@ -2153,16 +2153,63 @@ class MainWindow(QMainWindow):
         print("Initializing MainWindow...")
         self.font_family = CURRENT_FONT_FAMILY_NAME
         self.using_custom_font = CUSTOM_FONT_LOADED
-        self._load_external_config()
-        self.load_character_list()
+        self._load_external_config() # Load configs first
+        self.load_character_list() # Load character names needed for jump bar etc.
         self.favorites = load_favorites()
-        self.character_cards = {}
-        self.jump_bar_labels = {}
+        self.character_cards = {} # Initialize empty dict for card widgets
+        self.jump_bar_labels = {} # Initialize empty dict for jump bar icons
         self.jump_bar_flow_layout = None
         self.jump_bar_container = None
-        self.json_update_worker = None # <<< ADD THIS LINE to store worker thread instance
+        self.json_update_worker = None # Initialize worker thread reference
         self.setWindowTitle("Marvel Rivals Dashboard")
 
+        # --- Icon Loading ---
+        try:
+            icon_filename = "Marvel Rivals Dashboard.ico"
+            icon_path = resource_path(os.path.join('images', icon_filename))
+            if os.path.exists(icon_path):
+                self.setWindowIcon(QIcon(icon_path))
+                # print(f"INFO: Set main window icon from: {icon_path}") # Less verbose
+            else:
+                print(f"WARNING: App icon not found at relative path {icon_path}")
+        except Exception as e:
+             print(f"ERROR setting main window icon: {e}")
+        # --- END Icon Loading ---
+
+        # Initial Resize (Will be refined by centering logic)
+        self.resize(1000, 950) # Start with a desired size
+
+        # --- Setup Main Layout ---
+        self.main_widget = QWidget()
+        self.setCentralWidget(self.main_widget)
+        self.main_layout = QVBoxLayout(self.main_widget)
+        self.main_layout.setContentsMargins(10, 5, 10, 10) # Adjust margins as needed
+        self.main_layout.setSpacing(8) # Adjust spacing as needed
+
+        # --- Create UI Elements (Order Matters) ---
+        # 1. Top Bar (Search, Sort, Filter, Buttons)
+        self.unified_top_bar = self._create_unified_top_bar()
+        self.main_layout.addWidget(self.unified_top_bar)
+
+        # 2. Jump Bar (Character Icons)
+        self._create_jump_bar() # Creates the group box and populates icons
+        if self.jump_bar_container: # Check if it was successfully created
+            self.main_layout.addWidget(self.jump_bar_container)
+        else:
+            print("INFO: Jump bar container was not added (likely no characters found).")
+
+        # 3. Scroll Area (Will hold character cards)
+        self._create_scroll_area() # Creates the scroll area and its internal layout
+        # Note: self.scroll_area is added to main_layout inside _create_scroll_area
+
+        # --- Populate Cards and Apply Initial Sort/Filter (AFTER UI structure is built) ---
+        # Make sure these are called ONLY ONCE
+        self.populate_character_cards()
+        self.sort_and_filter_characters()
+        # --- End Single Call ---
+
+        print("MainWindow initialization complete.")
+    # --- END OF REPLACED __init__ METHOD ---
 
     def load_character_list(self):
         """
@@ -2867,7 +2914,7 @@ class MainWindow(QMainWindow):
         self.json_update_worker.finished.connect(self._handle_update_finished)
         self.json_update_worker.start()
         print("JSON Update: Worker thread started.")
-        
+
     # --- ADD this new method ---
     @Slot(int, int, str)
     def _handle_update_progress(self, current_file, total_files, filename):
