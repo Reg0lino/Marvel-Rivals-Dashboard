@@ -2845,7 +2845,7 @@ class MainWindow(QMainWindow):
     @Slot()
     def _start_json_update(self):
         """Starts the JSON update process in a background thread."""
-        print("JSON Update: Button clicked.")
+        print("JSON Update: Button clicked.") # <<< Look for this print statement
 
         # Prevent starting multiple updates simultaneously
         if self.json_update_worker and self.json_update_worker.isRunning():
@@ -2855,26 +2855,19 @@ class MainWindow(QMainWindow):
 
         # Disable the button during update
         self.json_update_button.setEnabled(False)
-        self.json_update_button.setText("Checking...") # Provide visual feedback
+        self.json_update_button.setText("Checking...")
 
-        # --- Define GitHub API URL and Local Directory ---
-        # Make sure CHARACTER_DATA_FOLDER is defined correctly globally
         local_dir = CHARACTER_DATA_FOLDER
-        repo_api_url = "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main" # Use 'main' branch
+        repo_api_url = "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main"
 
         print(f"JSON Update: Starting worker. Repo: {repo_api_url}, Local Dir: {local_dir}")
 
-        # Create and configure the worker thread
         self.json_update_worker = JsonUpdateWorker(repo_api_url, local_dir)
-
-        # Connect worker signals to MainWindow slots
         self.json_update_worker.progress.connect(self._handle_update_progress)
         self.json_update_worker.finished.connect(self._handle_update_finished)
-
-        # Start the thread execution (calls the worker's run() method)
         self.json_update_worker.start()
         print("JSON Update: Worker thread started.")
-
+        
     # --- ADD this new method ---
     @Slot(int, int, str)
     def _handle_update_progress(self, current_file, total_files, filename):
