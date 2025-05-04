@@ -188,12 +188,46 @@ class LauncherDialog(QDialog):
         self.main_layout.addStretch(1)
         # Action Buttons Layout
         button_layout = QHBoxLayout(); button_layout.setSpacing(20)
-        self.launch_updater_button = QPushButton("⚙️ Launch Updater"); self.launch_updater_button.setObjectName("LaunchUpdaterButton"); self.launch_updater_button.setToolTip("Open the Data Updater Tool")
+
+        # --- MODIFICATION START ---
+        # Define path to the updater script relative to the launcher's location
+        # Use resource_path to handle both source and packaged scenarios if needed,
+        # though a simple relative path might suffice here as the scraper folder
+        # should either exist or not alongside the launcher.
+        updater_script_relative_path = os.path.join('scraper', 'updater_v3.py')
+        # Get the absolute path based on where the launcher is running from
+        base_path = os.path.dirname(os.path.abspath(__file__)) # Path to launcher.py dir
+        updater_script_full_path = os.path.join(base_path, updater_script_relative_path)
+
+        # Check if the updater script exists
+        if os.path.exists(updater_script_full_path):
+            print("Launcher: Found AI Updater script. Adding button.")
+            # Only create and add the button if the script is found
+            self.launch_ai_updater_button = QPushButton("⚙️ Launch AI Updater") # Renamed button
+            self.launch_ai_updater_button.setObjectName("LaunchUpdaterButton") # Keep object name for styling consistency
+            self.launch_ai_updater_button.setToolTip("Open the AI Data Scraper/Generator Tool (Requires Python/API Key)") # Updated tooltip
+            self.launch_ai_updater_button.clicked.connect(self._trigger_launch_updater)
+            button_layout.addWidget(self.launch_ai_updater_button) # Add to layout
+        else:
+            print("Launcher: AI Updater script not found. Button will be hidden.")
+            # Set the attribute to None so other parts of the code don't error if they check it
+            self.launch_ai_updater_button = None
+        # --- MODIFICATION END ---
+
+        # Launch Dashboard button (always present)
         self.launch_dashboard_button = QPushButton("⚡ Launch Dashboard"); self.launch_dashboard_button.setObjectName("LaunchDashboardButton"); self.launch_dashboard_button.setToolTip("Start the Marvel Rivals Dashboard"); self.launch_dashboard_button.setDefault(True)
-        self.launch_updater_button.clicked.connect(self._trigger_launch_updater)
         self.launch_dashboard_button.clicked.connect(self.accept) # Accept triggers dashboard launch
-        button_layout.addStretch(1); button_layout.addWidget(self.launch_updater_button); button_layout.addWidget(self.launch_dashboard_button); button_layout.addStretch(1)
+
+        # Add buttons to layout (conditionally adds updater)
+        button_layout.addStretch(1)
+        # Check if the button was created before adding
+        if self.launch_ai_updater_button:
+            button_layout.addWidget(self.launch_ai_updater_button)
+        button_layout.addWidget(self.launch_dashboard_button)
+        button_layout.addStretch(1)
         self.main_layout.addLayout(button_layout)
+
+
         # Debug Checkbox
         debug_layout = QHBoxLayout(); debug_layout.setContentsMargins(0, 5, 0, 0)
         self.debug_checkbox = QCheckBox("Start Dashboard in Debug Mode"); self.debug_checkbox.setObjectName("LauncherCheckbox"); self.debug_checkbox.setToolTip("Logs detailed messages to console (for troubleshooting)")
@@ -308,13 +342,23 @@ class LauncherDialog(QDialog):
     def _set_controls_enabled(self, enabled):
         widgets_to_toggle = [
             self.monitor_combo, self.mode_combo, self.debug_checkbox,
-            self.launch_updater_button, self.launch_dashboard_button
+            # self.launch_updater_button, # Remove old reference
+            self.launch_dashboard_button
         ]
+        # --- Conditionally add the AI updater button ---
+        if hasattr(self, 'launch_ai_updater_button') and self.launch_ai_updater_button:
+             widgets_to_toggle.append(self.launch_ai_updater_button)
+        # --- End Conditional Add ---
+
         for w in widgets_to_toggle:
             if hasattr(w, 'setEnabled'): w.setEnabled(enabled)
+
+        # Update button text based on new variable name
         if enabled:
-             if hasattr(self, 'launch_updater_button'): self.launch_updater_button.setText("⚙️ Launch Updater")
-             if hasattr(self, 'launch_dashboard_button'): self.launch_dashboard_button.setText("⚡ Launch Dashboard")
+             if hasattr(self, 'launch_ai_updater_button') and self.launch_ai_updater_button:
+                 self.launch_ai_updater_button.setText("⚙️ Launch AI Updater")
+             if hasattr(self, 'launch_dashboard_button'):
+                 self.launch_dashboard_button.setText("⚡ Launch Dashboard")
 
     # --- MODIFIED Script Launching Logic ---
     def _launch_script_detached(self, script_identifier, args=None, use_pythonw_if_possible=False):
@@ -462,20 +506,25 @@ class LauncherDialog(QDialog):
     @Slot()
     def _trigger_launch_updater(self):
         if self.is_launching: return
-        self.is_launching = True; self._set_controls_enabled(False); self.launch_updater_button.setText("Starting...")
-        self._show_loading(); QApplication.processEvents() # Ensure UI updates
+        # --- Check if the button exists before using it ---
+        if not self.launch_ai_updater_button:
+             print("ERROR: Cannot trigger updater, button reference is None.")
+             return
+        # --- End Check ---
 
-        # Call the MODIFIED detached launch function
+        self.is_launching = True; self._set_controls_enabled(False)
+        self.launch_ai_updater_button.setText("Starting...") # <<< Use renamed variable
+        self._show_loading(); QApplication.processEvents()
+
         success = self._launch_script_detached("updater", args=[], use_pythonw_if_possible=True)
 
         if success:
             print(f"Updater launch initiated. Launcher will close in {LAUNCH_SUCCESS_CLOSE_DELAY_MS / 1000}s.")
-            QTimer.singleShot(LAUNCH_SUCCESS_CLOSE_DELAY_MS, self.close) # Close launcher after delay
-            # Keep GIF visible until close
+            QTimer.singleShot(LAUNCH_SUCCESS_CLOSE_DELAY_MS, self.close)
         else:
             print("Updater launch failed.")
-            # Error handling now done inside _launch_script_detached
-            self.is_launching = False
+            self.is_launching = False # Reset flag on failure
+
 
     @Slot() # Connected to Launch Dashboard button
     def accept(self):
