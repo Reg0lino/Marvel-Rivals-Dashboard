@@ -1,6 +1,6 @@
 # test_teamup_parser.py (v8 - Corrected Retired Parsing Scope)
 import requests
-from bs4 import BeautifulSoup, NavigableString, Tag, Node # Import Node for comparison constants
+from bs4 import BeautifulSoup, NavigableString, Tag # Import Node for comparison constants
 import re
 import os
 import datetime
