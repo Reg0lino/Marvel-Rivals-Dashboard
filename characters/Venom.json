@@ -167,18 +167,18 @@
   ],
   "teamups": [
     {
-      "name": null,
-      "keybind": null,
+      "name": "Symbiote Bond",
       "partner": [
-        "Spider-Man",
-        "Peni Parker"
+        "Peni_Parker",
+        "Spider-Man"
       ],
-      "effect": "Venom shares a part of his symbiotes with Spider-Man and Peni Parker, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back",
-      "teamup_bonus": "Gain 150 max health",
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "+150 Max Health",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": null,
+      "special_notes": "Role: Anchor | Ability: Touch of Klyntar",
       "details": null
     }
   ],

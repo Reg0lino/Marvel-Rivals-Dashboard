@@ -155,10 +155,18 @@
   "passives": [],
   "teamups": [
     {
-      "name": "Stellar Impact",
-      "details": {
-        "bonus_health": 50
-      }
+      "name": "Stars Aligned",
+      "partner": [
+        "Captain_America"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "12s",
+      "range_target": null,
+      "special_notes": "Ability: Stellar Impact",
+      "details": "Damage: 70<br/>Damage Range: 8m spherical radius<br/>Prompt Range Normal: Up to 20m<br/>Clash Damage: 80<br/>Clash Damage Range: 10m spherical range<br/>Prompt Range Clash: Up to 30m<br/>Bonus Health Self: 50<br/>Special Effect: Stellar Impact also triggers the Ceaseless Charge passive effect; a Slow effect is applied to enemies hit with Clash damage"
     }
   ],
   "gameplay": {

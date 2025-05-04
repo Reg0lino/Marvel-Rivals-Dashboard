@@ -131,32 +131,34 @@
   "passives": [],
   "teamups": [
     {
-      "name": "STORM SIBLINGS",
-      "keybind": "C",
+      "name": "Fantastic Four",
       "partner": [
-        "Invisible Woman"
+        "Invisible_Woman",
+        "Mister_Fantastic",
+        "The_Thing"
       ],
-      "effect": "The Invisible Woman taps into her powers, channeling Psionic Might to fortify the entire Fantastic Four team, granting damage resistance. Once activated, they can continually generate Bonus Health, making up for lost Health",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": "5s",
       "cooldown": "20s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Storm Siblings",
+      "details": "Bonus Health Growth: Generate 5 Bonus Health per 0.1s<br/>Bonus Health Max: 100<br/>Bonus Health Decay: Lose 5 Bonus Health per 0.1s after ability is over<br/>Special Effect: Base Health is also increased by a maximum of 100. If full HP, Base Health is not increased. If missing 1-99 HP, it will only increase Base Health by the missing amount. Bonus Health will not exceed max Base Health throughout the ability duration"
     },
     {
-      "name": "OMEGA FIRE",
-      "keybind": "X",
+      "name": "Storming Ignition",
       "partner": [
         "Storm"
       ],
-      "effect": "When the Human Torch activates Supernova, Storm can summon an Omega Fire by selecting a Flame Tornado with Omega Hurricane. Likewise, when Storm unleashes Omega Hurricane, the Human Torch can transform it into a Burning Hurricane with Supernova. Any Flame Tornado caught in a Burning Hurricane will grow in size and damage",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": null,
-      "cooldown": null,
-      "range_target": null,
-      "special_notes": null,
-      "details": null
+      "cooldown": "15s; no cooldown if Ultimate is used with Q instead of X",
+      "range_target": "Up to 40m",
+      "special_notes": "Ability: Omega Fire",
+      "details": "Strengthened Flame Tornado Range: 5m spherical radius; 10m high capsule-shaped spell field.<br/>Strengthened Flame Tornado Continuous Damage: 110/s<br/>Special Effect: Human Torch can either press X to start the Team-Up immediately, or Q to start it at the player's leisure"
     }
   ],
   "gameplay": {

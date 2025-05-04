@@ -183,7 +183,23 @@
       "details": null
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Mental Projection",
+      "partner": [
+        "Magneto",
+        "Psylocke"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "+100 Max Health",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Mind Link",
+      "details": null
+    }
+  ],
   "gameplay": {
     "strategy_overview": "To be added",
     "weaknesses": [

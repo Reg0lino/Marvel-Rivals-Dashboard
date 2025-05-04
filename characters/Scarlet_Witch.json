@@ -131,10 +131,18 @@
   "passives": [],
   "teamups": [
     {
-      "name": "SORCERY SURGE",
-      "details": {
-        "removed_metallic_chaos": false
-      }
+      "name": "Arcane Order",
+      "partner": [
+        "Doctor_Strange"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": "10s",
+      "cooldown": "30s",
+      "range_target": null,
+      "special_notes": "Ability: Sorcery Surge",
+      "details": "Key Attack: Secondary Fire<br/>Cast Time Activation: 0.5s<br/>Casting: Straight-line projectile that generates a spell field upon impact<br/>Projectile Speed: 120 m/s<br/>Projectile Damage: 10<br/>Spell Field Range: 1.5M spherical radius<br/>Spell Field Damage: 12<br/>Fire Rate: 0.15s per round<br/>Special Effect: Both Chaos Control (Primary Fire) and Sorcery Surge (Secondary Fire) can be fired at the same time"
     }
   ],
   "gameplay": {

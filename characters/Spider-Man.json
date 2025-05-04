@@ -191,31 +191,33 @@
   "passives": [],
   "teamups": [
     {
-      "name": "SUIT EXPULSION",
-      "keybind": "C",
+      "name": "ESU Alumnus",
       "partner": [
-        "Venom",
-        "Peni Parker"
+        "Squirrel_Girl"
       ],
-      "effect": "Venom shares a part of his symbiote with Spider-Man and Peni Parker, activating their symbiote abilities. Spider-Man and Peni Parker can convert the symbiotes into explosive spikes that inflict harm on nearby enemies and relentlessly drive them back.",
-      "teamup_bonus": null,
-      "duration": "4 Seconds",
-      "cooldown": "30s",
-      "range_target": "5m spherical radius",
-      "special_notes": null,
-      "details": null
-    },
-    {
-      "name": "EXTRA WEB FLUID",
-      "keybind": null,
-      "partner": "Squirrel Girl",
-      "effect": "Spider-Man gives Squirrel Girl a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast.",
+      "effect": null,
+      "keybind": "Passive",
       "teamup_bonus": "10% Damage Boost",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": "Note: Anchor bonuses are currently permanent and do not require team-up partners.",
+      "special_notes": "Role: Anchor | Ability: Extra Web-Fluid",
       "details": null
+    },
+    {
+      "name": "Symbiote Bond",
+      "partner": [
+        "Peni_Parker",
+        "Venom"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": "1.3s",
+      "cooldown": "30s",
+      "range_target": "5m spherical radius",
+      "special_notes": "Ability: Suit Expulsion",
+      "details": "Casting: Spell field that surrounds the caster<br/>Attack Interval: 1 hit per second; max 2 hits is possible<br/>Damage: 50 damage per strike<br/>Special Effect: Become invincible while the ability is active"
     }
   ],
   "gameplay": {

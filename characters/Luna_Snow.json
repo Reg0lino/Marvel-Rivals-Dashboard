@@ -138,30 +138,31 @@
   ],
   "teamups": [
     {
-      "name": "ICY DISCO",
-      "keybind": null,
+      "name": "Atlas Bond",
       "partner": [
-        "Namor",
-        "Jeff the Land Shark"
+        "Iron_Fist"
       ],
-      "effect": "Luna Snow infuses ice energy into Namor and Jeff the Land Shark, who then can tap into the ice energy to power up abilities at will",
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "20s",
+      "range_target": "10m radius",
+      "special_notes": "Ability: Frozen Chi",
+      "details": "Casting: Single-cast spell field that surrounds the caster; Has travel time, closest targets will be hit first<br/>Damage: 25<br/>Healing Amount: 75<br/>Special Effect: Knock back enemies and apply a Slow<br/>Slow Rate: 30% for 2s"
+    },
+    {
+      "name": "Chilling Charisma",
+      "partner": [
+        "Jeff_the_Land_Shark"
+      ],
+      "effect": null,
+      "keybind": "Passive",
       "teamup_bonus": "15% Healing Boost",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": null,
-      "details": null
-    },
-    {
-      "name": "FROZEN CHI",
-      "keybind": "C",
-      "partner": "Iron Fist",
-      "effect": "Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can knock back enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies",
-      "teamup_bonus": null,
-      "duration": null,
-      "cooldown": null,
-      "range_target": "10m radius",
-      "special_notes": "Knock back enemies and apply a Slow",
+      "special_notes": "Role: Anchor | Ability: Icy Disco",
       "details": null
     }
   ],

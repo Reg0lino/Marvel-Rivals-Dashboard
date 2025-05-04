@@ -148,19 +148,18 @@
   ],
   "teamups": [
     {
-      "name": "WAKANDAN MASTER",
-      "keybind": "C",
+      "name": "Dimensional Shortcut",
       "partner": [
-        "Magik",
-        "Psylocke"
+        "Magik"
       ],
-      "effect": "When Magik is on the field, Black Panther and Psylocke can tap into Limbo to rewind a few seconds back to a previous position; after passing through Limbo, Black Panther and Psylocke will gain Bonus Health based on missing health",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": null,
       "cooldown": "30s",
       "range_target": null,
-      "special_notes": null,
-      "details": "REWIND TIME- 3s prior\nBONUS HEALTH/DAMAGE TAKEN CONVERSION- 80%"
+      "special_notes": "Ability: Wakandan Master",
+      "details": "Rewind Time: 3s prior<br/>Bonus Health/Damage Taken Conversion: 80%"
     }
   ],
   "gameplay": {

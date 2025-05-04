@@ -128,19 +128,19 @@
   ],
   "teamups": [
     {
-      "name": "Leader's Soul",
-      "keybind": null,
+      "name": "Guardian Revival",
       "partner": [
-        "Adam Warlock",
+        "Adam_Warlock",
         "Mantis"
       ],
-      "effect": "grants them the power of cocooned revival",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": null,
       "cooldown": "120s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Leader's Soul",
+      "details": "Key While Dead: Primary Fire; Secondary Fire to Cancel<br/>Maximum Free Flight Duration: 13s<br/>Special Mechanic: During this period, Star-Lord enters a free-flight state; if neither option is pressed, Star-Lord will respawn normally"
     }
   ],
   "gameplay": {

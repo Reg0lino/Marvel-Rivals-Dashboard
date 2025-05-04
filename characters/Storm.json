@@ -111,9 +111,18 @@
   "passives": [],
   "teamups": [
     {
-      "name": "BURNING HURRICANE",
-      "partner": "Human Torch",
-      "effect": "When the Human Torch activates Supernova, Storm can summon an Omega Fire by selecting a Flame Tornado with Omega Hurricane. Likewise, when Storm unleashes Omega Hurricane, the Human Torch can transform it into a Burning Hurricane with Supernova. Any Flame Tornado caught in a Burning Hurricane will grow in size and damage"
+      "name": "Storming Ignition",
+      "partner": [
+        "Human_Torch"
+      ],
+      "effect": null,
+      "keybind": "X",
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": null,
+      "range_target": "Up to 40m",
+      "special_notes": "Role: Anchor | Ability: Burning Hurricane",
+      "details": "Damage Range: 10m spherical radius<br/>Attack Interval: 2 hits per second<br/>Damage: 80<br/>Duration Increase: 2s per Flame Tornado<br/>Max Duration: 11s<br/>Special Effect: Duration increases with each Flame Tornado contact; Storm can either press X to start the Team-Up immediately wherever the Flame Tornado is located, or Q to start it at the player's leisure"
     }
   ],
   "gameplay": {

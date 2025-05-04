@@ -121,20 +121,20 @@
   ],
   "teamups": [
     {
-      "name": "Wedded Harmony",
-      "keybind": "C",
+      "name": "Fantastic Four",
       "partner": [
-        "Invisible Woman",
-        "The Thing",
-        "Human Torch"
+        "Human_Torch",
+        "Invisible_Woman",
+        "The_Thing"
       ],
-      "effect": "Converts 100% of damage taken into bonus health for 5 seconds.",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": "5s",
       "cooldown": "20s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Wedded Harmony",
+      "details": "Bonus Health Growth: Generate 5 Bonus Health per 0.1s<br/>Bonus Health Max: 100<br/>Bonus Health Decay: Lose 5 Bonus Health per 0.1s after ability is over<br/>Special Effect: Base Health is also increased by a maximum of 100. If full HP, Base Health is not increased. If missing 1-99 HP, it will only increase Base Health by the missing amount. Bonus Health will not exceed max Base Health throughout the ability duration"
     }
   ],
   "gameplay": {

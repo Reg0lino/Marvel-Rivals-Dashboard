@@ -156,18 +156,33 @@
   "passives": [],
   "teamups": [
     {
-      "name": "AMMO INVENTION",
-      "keybind": "Z",
+      "name": "Ammo Overload",
       "partner": [
-        "The Punisher"
+        "Punisher"
       ],
-      "effect": "Infinite Ammo and Faster Firing",
+      "effect": null,
+      "keybind": "Z",
       "teamup_bonus": "5% Healing Boost",
       "duration": "12s",
       "cooldown": "40s",
       "range_target": "10m spherical radius",
-      "special_notes": null,
-      "details": null
+      "special_notes": "Role: Anchor | Ability: Ammo Invention",
+      "details": "Casting: Summons"
+    },
+    {
+      "name": "Planet X Pals",
+      "partner": [
+        "Groot",
+        "Jeff_the_Land_Shark"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": null,
+      "range_target": "Up to 12m",
+      "special_notes": "Ability: Old Friends",
+      "details": "Casting: Targeted<br/>Damage Reduction: 35%<br/>Special Effect: Pressing SHIFT will exit the Team-Up status with Groot"
     }
   ],
   "gameplay": {

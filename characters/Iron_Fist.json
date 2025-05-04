@@ -185,15 +185,17 @@
   ],
   "teamups": [
     {
-      "name": "DRAGON'S CHILL",
-      "keybind": null,
-      "partner": "Luna Snow",
-      "effect": "Iron Fist channels the Chi of Shou-Lao into Luna Snow, transforming her ice power into a Chi-infused frosty ring that radiates from her. This ring can knock back enemies with chilling damage and applies a slowing effect, while simultaneously healing her allies.",
+      "name": "Atlas Bond",
+      "partner": [
+        "Luna_Snow"
+      ],
+      "effect": null,
+      "keybind": "Passive",
       "teamup_bonus": "15% Damage Boost",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": "Note: Anchor bonuses are currently permanent and do not require team-up partners",
+      "special_notes": "Role: Anchor | Ability: Dragon's Chill",
       "details": null
     }
   ],

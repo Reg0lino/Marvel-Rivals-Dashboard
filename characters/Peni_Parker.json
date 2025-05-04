@@ -153,9 +153,19 @@
   "passives": [],
   "teamups": [
     {
-      "name": "ARMOR EXPULSION",
-      "duration": "2s",
-      "special_notes": "Gain a 50% Damage Reduction while the ability is active"
+      "name": "Symbiote Bond",
+      "partner": [
+        "Spider-Man",
+        "Venom"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": "2.2s",
+      "cooldown": "30s",
+      "range_target": "5m spherical radius",
+      "special_notes": "Ability: Armor Expulsion",
+      "details": "Casting: Spell field that surrounds the caster<br/>Attack Interval: 1 hit per second<br/>Damage: 50 damage per strike<br/>Special Effect: Become invincible while the ability is active"
     }
   ],
   "gameplay": {

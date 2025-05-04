@@ -187,8 +187,34 @@
   ],
   "teamups": [
     {
-      "name": "GAMMA FASTBALL",
-      "teamup_bonus": "Hero Hulk and Monster Hulk gain 100 Max Health"
+      "name": "Fastball Special",
+      "partner": [
+        "The_Thing",
+        "Wolverine"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "3s when not thrown, 15s when thrown",
+      "range_target": "Up to 20m",
+      "special_notes": "Ability: Gamma Fastball",
+      "details": "Casting: Targeted<br/>Casting Throw: Charged release<br/>Casting Duration Throw: Up to 6s<br/>Special Effect: All abilities, except Incredible Leap, will cancel the Team-Up"
+    },
+    {
+      "name": "Gamma Charge",
+      "partner": [
+        "Iron_Man",
+        "Namor"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "Hero Hulk and Monster Hulk gain 100 Max Health",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Gamma Boost",
+      "details": null
     }
   ],
   "gameplay": {

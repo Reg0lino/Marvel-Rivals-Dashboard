@@ -131,19 +131,19 @@
   "passives": [],
   "teamups": [
     {
-      "name": "GAMMA OVERDRIVE",
-      "keybind": "E",
+      "name": "Gamma Charge",
       "partner": [
         "Hulk",
         "Namor"
       ],
-      "effect": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the ray hits, the higher the damage.",
+      "effect": null,
+      "keybind": "Secondary Fire",
       "teamup_bonus": null,
       "duration": "10s",
-      "cooldown": "20s",
-      "range_target": null,
-      "special_notes": null,
-      "details": null
+      "cooldown": "20s   REPULSOR BLAST:",
+      "range_target": "5m spherical radius",
+      "special_notes": "Ability: Gamma Overdrive",
+      "details": "Casting: Channeled<br/>Ammo: Infinite<br/>Critical Hit: No<br/>Projectile Speed: 80m/s<br/>Damage: 200/s<br/>Spell Field Damage: 60<br/>Spell Field Damage Falloff: 40% falloff at 5m<br/>Fire Rate: 1.33 rounds per second   UNIBEAM:<br/>Beam Length: 25m"
     }
   ],
   "gameplay": {

@@ -151,11 +151,19 @@
   "passives": [],
   "teamups": [
     {
-      "name": "MAGNETIC RESONANCE",
+      "name": "Mental Projection",
       "partner": [
-        "Emma Frost",
+        "Emma_Frost",
         "Psylocke"
-      ]
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": "30s",
+      "range_target": null,
+      "special_notes": "Ability: Magnetic Resonance",
+      "details": "Invisibility Duration: 1s<br/>Duplicate Duration: Up to 5s<br/>Duplicate Damage Reduction: 70%<br/>Duplicate Max Damage Recieved: 150<br/>Special Effect: Upon activation, Magneto and his Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage; When the player uses an Ultimate ability, the Duplicate Illusion will auto-shoot the closest enemy target instead"
     }
   ],
   "gameplay": {

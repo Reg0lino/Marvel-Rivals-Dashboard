@@ -156,7 +156,23 @@
       "details": "TEAM-UP BONUS - +150 Max Health"
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Planet X Pals",
+      "partner": [
+        "Jeff_the_Land_Shark",
+        "Rocket_Raccoon"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "+150 Max Health",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Friendly Shoulder",
+      "details": null
+    }
+  ],
   "gameplay": {
     "strategy_overview": "To be added",
     "weaknesses": [

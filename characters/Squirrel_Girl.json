@@ -114,16 +114,18 @@
   "passives": [],
   "teamups": [
     {
-      "name": "WEBBED ACORN",
-      "keybind": "C",
-      "partner": "Spider-Man",
-      "effect": "Spider-Man gives Squirrel Girl a web bomb. She can slingshot it to unleash an explosion upon contact with the environment or an enemy, briefly ensnaring and damaging enemies caught in the blast",
+      "name": "ESU Alumnus",
+      "partner": [
+        "Spider-Man"
+      ],
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": null,
       "cooldown": "20s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Webbed Acorn",
+      "details": "Casting: Arced projectile that generates a spell field upon impact<br/>Cast Time: 1.1s<br/>Projectile Speed: 50 m/s<br/>Spell Field Range: 4m spherical radius<br/>Spell Field Damage: 80<br/>Imprison Duration: 1s"
     }
   ],
   "gameplay": {

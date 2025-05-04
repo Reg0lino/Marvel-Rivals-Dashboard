@@ -808,6 +808,42 @@ PYTHON_SCHEMA_DICT = None
 #     print(f"FATAL: Could not parse FINAL_JSON_SCHEMA_STRING into dict: {e}")
 #     PYTHON_SCHEMA_DICT = {} # Fallback to empty dict
 
+def normalize_for_comparison(name):
+    """Normalizes a name for comparison against filename-derived list."""
+    if not name or not isinstance(name, str):
+        return "" # Return empty string for invalid input
+
+    # 1. Lowercase
+    norm_name = name.lower()
+
+    # 2. Handle specific known variations FIRST
+    if norm_name == "the punisher": norm_name = "punisher"
+    if norm_name == "mr. fantastic": norm_name = "mister_fantastic" # Handle potential abbreviations
+    # Add other specific known variations here if needed
+
+    # 3. Replace '&' variants and hyphens with underscores
+    norm_name = norm_name.replace(' & ', '_and_') # Space important
+    norm_name = norm_name.replace('&', '_and_')    # Handle no spaces too, just in case
+    norm_name = norm_name.replace('-', '_')
+
+    # 4. Replace remaining spaces with underscores
+    norm_name = norm_name.replace(' ', '_')
+
+    # 5. Remove leading "the_" if present
+    if norm_name.startswith("the_"):
+        norm_name = norm_name[4:]
+
+    # 6. Remove common problematic characters (can expand if needed)
+    norm_name = norm_name.replace("'", "")
+    norm_name = norm_name.replace(".", "")
+
+    # 7. Strip leading/trailing underscores
+    norm_name = norm_name.strip('_')
+
+    return norm_name
+# --- End Helper Function ---
+
+
 # --- TEMPORARY Placeholder for Top-Level Properties (Replace with actual parsing) ---
 # This is a MANUAL extraction based on your schema string. Needs proper parsing/definition.
 TOP_LEVEL_SCHEMA_PROPERTIES = {
@@ -888,6 +924,501 @@ TOP_LEVEL_SCHEMA_PROPERTIES = {
     }}
 }
 # --- End Schema Structure ---
+
+# ==============================================================================
+# == TEAM-UP WIKI PARSING FUNCTIONS (Adapted from test script) ==
+# ==============================================================================
+# Added: Need Tag and NavigableString for the parsing functions below
+from bs4 import BeautifulSoup, Tag, NavigableString
+
+TEAMUP_WIKI_URL = "https://marvelrivals.fandom.com/wiki/Team-Ups" # Add constant
+
+def fetch_teamup_page(url=TEAMUP_WIKI_URL):
+    """Fetches the HTML content for the Team-Ups wiki page."""
+    print(f"Fetching Team-Up HTML from: {url} ...")
+    # Use the existing USER_AGENT constant from updater_v3.py
+    headers = {'User-Agent': USER_AGENT}
+    try:
+        response = requests.get(url, headers=headers, timeout=20)
+        response.raise_for_status()
+        print("Successfully fetched Team-Up page content.")
+        # No need to save raw HTML here
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"ERROR fetching Team-Up page {url}: {e}")
+        return None
+
+def parse_teamup_stats_from_small_tag(small_tag):
+    """Parses key-value pairs from the <small> tag content (for Team-Ups)."""
+    # This function is identical to parse_stats_from_small_tag in test_teamup_parser.py
+    stats = {}
+    if not small_tag: return stats
+    # Use lxml for potentially better robustness if available, else html.parser
+    parser_type = 'lxml' if 'lxml' in sys.modules else 'html.parser'
+    temp_tag = BeautifulSoup(str(small_tag), parser_type).find('small')
+    if not temp_tag: return stats
+    current_key = None; current_value_parts = []
+    for element in temp_tag.contents:
+        if isinstance(element, Tag):
+            if element.name == 'b':
+                if current_key and current_value_parts: stats[current_key] = " ".join(current_value_parts).strip()
+                key_text = element.get_text(strip=True)
+                if key_text.endswith(':'): key_text = key_text[:-1].strip()
+                # Consistent key formatting
+                current_key = key_text.upper().replace(' ', '_').replace('-', '_').replace('(', '').replace(')', '') if key_text else None
+                current_value_parts = []
+            elif element.name == 'br':
+                 if current_key and current_value_parts and len(current_value_parts) > 0 and not current_value_parts[-1].endswith(' '):
+                      current_value_parts.append(' ') # Add space for line breaks
+                 # else pass # Ignore br if no key or value started
+            elif current_key: # Other tags like <a>, <span> etc.
+                 value_text = element.get_text(strip=True)
+                 if value_text: current_value_parts.append(value_text)
+        elif isinstance(element, NavigableString):
+            text = element.strip()
+            if text:
+                 if text.startswith(':'): text = text[1:].strip()
+                 if current_key and text: current_value_parts.append(text)
+    # Add the last key-value pair
+    if current_key and current_value_parts: stats[current_key] = " ".join(current_value_parts).strip()
+    # Final cleanup: remove empty values/keys
+    stats = {k: v for k, v in stats.items() if k and v}
+    return stats
+
+def extract_teamup_lore_quote(start_element, stop_element):
+    """Extracts lore/quote paragraphs between two elements (for Team-Ups)."""
+    # This function is identical to extract_lore_quote in test_teamup_parser.py
+    lore_parts = []; quote_parts = []; current = start_element.find_next_sibling()
+    while current and current != stop_element:
+        # Stop conditions (unchanged)
+        if isinstance(current, Tag):
+            if current.name in ['h2', 'h3', 'h4']: break
+            if current.name == 'table' and 'article-table' in current.get('class',[]): break
+            # Check for retired entry markers to stop lore extraction before them
+            if current.name == 'p':
+                 next_bold = current.find('b', recursive=False); next_big = current.select_one('big > b > u')
+                 # Use re.IGNORECASE for retired check, just in case
+                 if (next_bold and re.match(r"(.+?)\s*-\s*(.+?)\s*\((.+?)\)", next_bold.get_text(strip=True), re.IGNORECASE)) or next_big:
+                     break # Stop if it looks like a retired entry starts
+
+        # Extraction logic (unchanged)
+        if isinstance(current, Tag) and current.name == 'p':
+            italic_tag = current.find('i') # Look for italics first for quotes
+            text_content = current.get_text(strip=True)
+            # Prioritize italic tag content if it seems quote-like
+            if italic_tag:
+                 italic_text = italic_tag.get_text(strip=True)
+                 # Heuristic: If italic text contains quotes or specific keywords, treat as quote
+                 if '"' in italic_text or 'JOURNAL:' in italic_text.upper() or (':' in italic_text and len(italic_text.split(':')) == 2):
+                      quote_parts.append(italic_text)
+                 elif text_content: # Fallback to full paragraph if italic part isn't quote-like but paragraph has text
+                      lore_parts.append(text_content)
+            elif text_content: # No italic tag, treat as lore
+                 lore_parts.append(text_content)
+
+        current = current.find_next_sibling()
+
+    lore = "\n".join(p for p in lore_parts if p).strip(); quote = "\n".join(p for p in quote_parts if p).strip();
+    return lore, quote
+
+# (Ensure imports like BeautifulSoup, Tag, NavigableString, re are present)
+
+def parse_active_teamups_only(html_content):
+    """
+    Parses ONLY the ACTIVE Team-Ups from the wiki page HTML. (v24 - Normalized Name Validation)
+    Returns a list of dictionaries, where each dict represents an active team-up
+    and contains: name, lore, quote, participants (list of dicts).
+    Participant dicts contain: hero, ability_name, is_anchor, description, stats (dict).
+    Handles inconsistent hero name link structures and validates against ACTIVE_CHARACTER_LIST
+    using normalization.
+    """
+    global ACTIVE_CHARACTER_LIST # Need access to the known character list
+
+    if not html_content: return []
+    if not ACTIVE_CHARACTER_LIST:
+        print("ERROR (Team-Up Parser): ACTIVE_CHARACTER_LIST is empty. Cannot validate hero names.")
+        # Optionally, proceed without validation or return empty list?
+        # For now, let's return empty to prevent bad data.
+        return []
+
+    print("Parsing HTML for Active Team-Ups...")
+    soup = BeautifulSoup(html_content, 'html.parser')
+    active_teamups = []
+
+    # --- Create normalized list ONCE for efficient lookup ---
+    # Assumes ACTIVE_CHARACTER_LIST contains names like 'Doctor_Strange', 'Black_Widow' etc.
+    try:
+        normalized_active_list = {normalize_for_comparison(name) for name in ACTIVE_CHARACTER_LIST}
+        # Also create a mapping from normalized name back to original casing
+        normalized_to_original_map = {normalize_for_comparison(name): name for name in ACTIVE_CHARACTER_LIST}
+        print(f"  Created normalized list/map for {len(normalized_active_list)} active characters.")
+    except Exception as norm_e:
+        print(f"ERROR (Team-Up Parser): Failed to normalize ACTIVE_CHARACTER_LIST: {norm_e}")
+        return [] # Cannot proceed without normalization
+    # --- End normalization ---
+
+    content_area = soup.select_one('div.mw-parser-output')
+    if not content_area:
+        print("ERROR (Team-Up Parser): Could not find main content area 'div.mw-parser-output'.")
+        return []
+
+    # Find markers (unchanged)
+    retired_marker = content_area.find('span', id='Retired_Team-Ups')
+    retired_heading_marker = None
+    if retired_marker:
+        current = retired_marker.parent;
+        while current and current.name != 'h3': current = current.parent
+        if current and current.name == 'h3': retired_heading_marker = current
+    timeline_marker = content_area.find('span', id='Timeline_of_Team-Up_Changes')
+    timeline_heading_marker = None
+    if timeline_marker:
+        current = timeline_marker.parent;
+        while current and current.name != 'h2': current = current.parent
+        if current and current.name == 'h2': timeline_heading_marker = current
+
+    print("Processing Active Team-Up Sections (H2)...")
+    all_headings = content_area.find_all(['h2', 'h3'])
+    active_teamup_found_flag = False
+
+    for heading_tag in all_headings:
+        # Logic for skipping/stopping based on markers (unchanged)
+        if heading_tag.name != 'h2':
+            if heading_tag == retired_heading_marker: print("Stopping active parse; encountered Retired H3."); break
+            if heading_tag == timeline_heading_marker: print("Stopping active parse; encountered Timeline H2."); break
+            continue
+        if heading_tag == retired_heading_marker: print("Stopping active parse before Retired H3."); break
+        if heading_tag == timeline_heading_marker: print("Stopping active parse before Timeline H2."); break
+
+        teamup_name_tag = heading_tag.select_one('.mw-headline')
+        teamup_name = teamup_name_tag.get_text(strip=True) if teamup_name_tag else heading_tag.get_text(strip=True)
+        if "Retired Team-Ups" in teamup_name or \
+           "Timeline of Team-Up Changes" in teamup_name or \
+           "References" in teamup_name or \
+           "Contents" in teamup_name:
+             continue
+
+        # Refined Table Finding (unchanged)
+        teamup_table = None
+        next_boundary_heading = heading_tag.find_next(['h2', 'h3'])
+        stop_nodes = {next_boundary_heading, retired_heading_marker, timeline_heading_marker}
+        stop_nodes.discard(None)
+        current_node = heading_tag.find_next_sibling()
+        while current_node:
+            if current_node in stop_nodes: break
+            if isinstance(current_node, Tag) and current_node.name == 'table' and 'article-table' in current_node.get('class', []):
+                teamup_table = current_node; break
+            current_node = current_node.find_next_sibling()
+        if not teamup_table:
+            print(f"Skipping Active H2 '{teamup_name[:30]}...' - No associated article-table found before next heading/marker.")
+            continue
+
+        # Parse This Active Team-Up (unchanged setup)
+        active_teamup_found_flag = True
+        print(f"Found Active Team-Up Section: {teamup_name}")
+        teamup_data = {"name": teamup_name, "lore": "", "quote": "", "participants": []}
+        teamup_data["lore"], teamup_data["quote"] = extract_teamup_lore_quote(heading_tag, teamup_table)
+
+        print(f"  Parsing table for {teamup_name}...")
+        tbody = teamup_table.find('tbody')
+        rows = tbody.find_all('tr', recursive=False) if tbody else teamup_table.find_all('tr', recursive=False)
+        if not rows: rows = teamup_table.find_all('tr')
+
+        for row_idx, row in enumerate(rows[1:]): # Skip header
+            cells = row.find_all('td')
+            participant = {}
+
+            if len(cells) >= 3:
+                try:
+                    # Ability Name Parsing (Unchanged)
+                    ability_name_tag = cells[0].find('b')
+                    participant['ability_name'] = ability_name_tag.get_text(strip=True) if ability_name_tag else cells[0].get_text(strip=True)
+
+                    # --- START: Robust Hero Name Parsing (Unchanged from previous suggestion) ---
+                    extracted_hero_name = "PARSE_ERROR" # Default to error state
+                    hero_cell = cells[1]
+                    extracted_via = "Unknown"
+                    if hero_cell:
+                        all_links = hero_cell.find_all('a')
+                        if all_links:
+                            last_link = all_links[-1]
+                            link_text = last_link.get_text(strip=True)
+                            if link_text: extracted_hero_name = link_text; extracted_via = "Last Link Text"
+                            else:
+                                link_title = last_link.get('title')
+                                if link_title: extracted_hero_name = link_title.strip(); extracted_via = "Last Link Title"
+                        if extracted_hero_name == "PARSE_ERROR" and len(all_links) == 1:
+                             single_link_title = all_links[0].get('title')
+                             if single_link_title: extracted_hero_name = single_link_title.strip(); extracted_via = "Single Link Title"
+                        if extracted_hero_name == "PARSE_ERROR":
+                            cell_text = hero_cell.get_text(strip=True)
+                            if cell_text: extracted_hero_name = cell_text; extracted_via = "Cell Full Text"
+                    # --- END: Robust Hero Name Parsing ---
+
+                    # --- START: New Normalized Validation ---
+                    hero_name_to_store = f"PARSE_ERROR: Raw='{extracted_hero_name}'" # Default error state
+                    if extracted_hero_name != "PARSE_ERROR":
+                        normalized_extracted_name = normalize_for_comparison(extracted_hero_name)
+
+                        if normalized_extracted_name and normalized_extracted_name in normalized_active_list:
+                            # Match found! Retrieve the original casing from our map
+                            hero_name_to_store = normalized_to_original_map.get(normalized_extracted_name, extracted_hero_name) # Fallback just in case map fails
+                            print(f"    Parsed Hero: '{hero_name_to_store}' (Normalized: '{normalized_extracted_name}', via {extracted_via}) - Validated.") # Success log
+                        else:
+                            # Validation failed
+                            print(f"    WARN (Hero Name Validation): Extracted '{extracted_hero_name}' (Normalized: '{normalized_extracted_name}', via {extracted_via}) for teamup '{teamup_name}' row {row_idx+1} is NOT in ACTIVE_CHARACTER_LIST. Marking as PARSE_ERROR.")
+                            # hero_name_to_store keeps the PARSE_ERROR default from above
+                    else:
+                        print(f"    ERROR (Hero Name Parsing): Could not extract a hero name for teamup '{teamup_name}' row {row_idx+1}. Assigning PARSE_ERROR.")
+
+                    participant['hero'] = hero_name_to_store # Assign final result (or error string)
+                    # --- END: New Normalized Validation ---
+
+                    # Description and Anchor Status Parsing (Unchanged)
+                    description_tag = cells[2]; is_anchor = False; main_description = ""; stats = {}
+                    anchor_marker = description_tag.find(lambda t: t.name == 'b' and 'TEAM-UP ANCHOR' in t.get_text(strip=True).upper())
+                    if anchor_marker:
+                        is_anchor = True; current = anchor_marker; desc_parts = []
+                        while getattr(current, 'next_sibling', None):
+                            current = current.next_sibling
+                            if isinstance(current, NavigableString): stripped = current.strip();
+                            if stripped: desc_parts.append(stripped)
+                            elif isinstance(current, Tag) and current.name == 'small': break
+                            elif isinstance(current, Tag) and current.name == 'br': pass
+                        main_description = " ".join(desc_parts).strip()
+                    else:
+                        desc_soup = BeautifulSoup(str(description_tag), 'html.parser');
+                        for s in desc_soup.find_all('small'): s.decompose()
+                        main_description = desc_soup.get_text(strip=True)
+                    participant['is_anchor'] = is_anchor
+                    participant['description'] = main_description if main_description else "(No description text)"
+
+                    # Stats Parsing (Unchanged)
+                    stats_small_tag = description_tag.select_one('p > small')
+                    if not stats_small_tag:
+                         all_small = description_tag.find_all('small')
+                         if all_small: stats_small_tag = all_small[-1]
+                    if stats_small_tag:
+                        stats = parse_teamup_stats_from_small_tag(stats_small_tag)
+                    participant['stats'] = stats
+
+                    # Add participant only if hero name parsing/validation succeeded
+                    if not participant['hero'].startswith("PARSE_ERROR"):
+                        teamup_data["participants"].append(participant)
+                    else:
+                        print(f"    Skipping participant entry for teamup '{teamup_name}' row {row_idx+1} due to hero name PARSE_ERROR.")
+
+                except Exception as e:
+                    print(f"    ERROR parsing row {row_idx+1} in active table '{teamup_name}': {e}")
+                    import traceback; traceback.print_exc()
+
+        # Add team-up only if it has valid participants
+        if teamup_data["participants"]:
+            active_teamups.append(teamup_data)
+        else:
+            print(f"  Skipping Team-Up '{teamup_name}' from final list: No valid participants parsed/validated.")
+
+    if not active_teamup_found_flag:
+        print("WARNING: No Active Team-Up H2/Table sections were successfully processed!")
+
+    print("Active Team-Up Parsing Complete.")
+    return active_teamups
+# --- END MODIFIED FUNCTION ---
+
+
+# ==============================================================================
+# == TEAM-UP UPDATE FUNCTIONS ==
+# ==============================================================================
+update_teamups_thread_handle = None # Global handle
+
+# (Ensure normalize_for_comparison function exists before this function definition)
+# (Ensure other needed imports like json, os, time, datetime, threading, etc., are present)
+
+def update_all_teamups_from_wiki_thread():
+    """
+    Background thread function to fetch, parse, map, and update DETAILED Team-Up info
+    in all character JSON files based on the wiki. Overwrites the 'teamups' list.
+    (v4 - Revert to JSON String Comparison with Debugging)
+    """
+    global update_teamups_thread_handle, ACTIVE_CHARACTER_LIST # Need access to globals
+
+    print("\n--- Starting Detailed Team-Up Update from Wiki ---")
+    if root and root.winfo_exists():
+         try: root.after(0, lambda: status_var.set("Status: Starting Detailed Team-Up update...") if status_var else None)
+         except Exception: pass
+
+    start_time = time.time()
+    processed_files = 0
+    updated_files = 0
+    error_files = 0
+    error_msg = None
+    success_flag = False
+
+    try: # Wrap the whole process
+        # 1. Fetch and Parse (Unchanged)
+        print("  Fetching Team-Up Wiki page...")
+        html = fetch_teamup_page()
+        if not html:
+            error_msg = "Failed to fetch Team-Up wiki page."; raise ConnectionError(error_msg)
+        parsed_wiki_teamups = parse_active_teamups_only(html) # Uses v24 parser
+
+        # DEBUG Save (Unchanged)
+        if parsed_wiki_teamups:
+            debug_filename = "debug_parsed_teamups_raw.json"
+            try:
+                debug_filepath = os.path.join(SCRIPT_DIR, debug_filename)
+                with open(debug_filepath, "w", encoding="utf-8") as f_debug: json.dump(parsed_wiki_teamups, f_debug, indent=2)
+                print(f"  DEBUG: Saved raw parsed teamup structure to {debug_filename}")
+            except Exception as e_debug_save: print(f"  WARNING: Could not save debug parsed structure: {e_debug_save}")
+
+        if not parsed_wiki_teamups:
+            error_msg = "Warning: Failed to parse any active team-ups. JSONs not updated."; print(f"  {error_msg}")
+        else:
+            # 2. Iterate Through Characters (Unchanged setup)
+            if not ACTIVE_CHARACTER_LIST:
+                 print("  ERROR: ACTIVE_CHARACTER_LIST is empty."); error_files = 1
+            else:
+                total_json_files = len(ACTIVE_CHARACTER_LIST)
+                print(f"  Processing {total_json_files} character JSON files...")
+                normalized_to_filename_map = {normalize_for_comparison(name): name for name in ACTIVE_CHARACTER_LIST}
+
+                for i, character_name_from_list in enumerate(ACTIVE_CHARACTER_LIST):
+                    # GUI Update (Unchanged)
+                    if root and root.winfo_exists():
+                         try:
+                              progress_percent = int(((i + 1) / total_json_files) * 100)
+                              status_msg = f"Status: Updating Team-Ups... ({i+1}/{total_json_files}) {progress_percent}% - {character_name_from_list}"
+                              root.after(0, lambda msg=status_msg: status_var.set(msg) if status_var else None)
+                         except Exception: pass
+
+                    processed_files += 1
+                    json_filename = sanitize_filename(character_name_from_list, ".json")
+                    if not json_filename: print(f"    ERROR: Skipping '{character_name_from_list}' - Invalid filename."); error_files += 1; continue
+                    filepath = os.path.join(CHARACTER_JSON_OUTPUT_DIR, json_filename)
+                    if not os.path.exists(filepath): continue
+
+                    try:
+                        # Load JSON (Unchanged)
+                        with open(filepath, 'r', encoding='utf-8') as f_json: char_data = json.load(f_json)
+                        json_internal_name_raw = char_data.get("name", character_name_from_list)
+                        normalized_json_name = normalize_for_comparison(json_internal_name_raw)
+                        if not normalized_json_name: print(f"    ERROR: Norm Name Fail '{json_internal_name_raw}' for {character_name_from_list}. Skipping."); error_files += 1; continue
+
+                        # Build list for new teamups (Unchanged logic)
+                        character_specific_teamups_for_json = []
+                        for wiki_teamup_data in parsed_wiki_teamups:
+                            teamup_name = wiki_teamup_data.get("name")
+                            participants = wiki_teamup_data.get("participants", [])
+                            if not teamup_name or not participants: continue
+                            my_participant_data = None; partners = []
+                            for p_data in participants:
+                                hero_name_wiki = p_data.get("hero")
+                                if hero_name_wiki:
+                                    normalized_hero_name_wiki = normalize_for_comparison(hero_name_wiki)
+                                    if normalized_hero_name_wiki == normalized_json_name: my_participant_data = p_data
+                                    else: partners.append(hero_name_wiki)
+                            if my_participant_data:
+                                json_teamup_entry = {"name": teamup_name}
+                                json_teamup_entry["partner"] = sorted(partners) if partners else None
+                                effect_desc = my_participant_data.get("description")
+                                json_teamup_entry["effect"] = effect_desc if (effect_desc and effect_desc != "(No description text)" and effect_desc != "(See Stats/Special Effect)") else None
+                                participant_stats = {k.lower(): v for k, v in my_participant_data.get("stats", {}).items()}
+                                json_teamup_entry["keybind"] = participant_stats.get("key")
+                                json_teamup_entry["teamup_bonus"] = participant_stats.get("team_up_bonus")
+                                json_teamup_entry["duration"] = participant_stats.get("duration")
+                                json_teamup_entry["cooldown"] = participant_stats.get("cooldown")
+                                json_teamup_entry["range_target"] = participant_stats.get("range") or participant_stats.get("prompt_range")
+                                special_notes_parts = []
+                                if my_participant_data.get("is_anchor"): special_notes_parts.append("Role: Anchor")
+                                participant_ability_name = my_participant_data.get("ability_name")
+                                if participant_ability_name: special_notes_parts.append(f"Ability: {participant_ability_name}")
+                                json_teamup_entry["special_notes"] = " | ".join(special_notes_parts) if special_notes_parts else None
+                                explicit_keys = {"key", "team_up_bonus", "duration", "cooldown", "range", "prompt_range"}
+                                remaining_stats_lines = []
+                                for stat_key, stat_value in participant_stats.items():
+                                    if stat_key not in explicit_keys:
+                                        display_key = stat_key.replace('_', ' ').title()
+                                        remaining_stats_lines.append(f"{display_key}: {stat_value}")
+                                json_teamup_entry["details"] = "<br/>".join(remaining_stats_lines) if remaining_stats_lines else None
+                                character_specific_teamups_for_json.append(json_teamup_entry)
+                        # --- End loop through wiki teamups ---
+
+                        # 5. Sort and Compare (REVERTED TO JSON STRING COMPARISON + DEBUG)
+                        character_specific_teamups_for_json.sort(key=lambda x: x.get("name", "")) # Sort the new list
+                        current_teamups_list = char_data.get("teamups", []) # Get existing list safely
+
+                        # *** Revert to comparing JSON strings ***
+                        # Ensure the existing list items are dicts before dumping, sort internal keys
+                        try:
+                            current_teamups_str = json.dumps(
+                                [t for t in current_teamups_list if isinstance(t, dict)], # Filter for dicts
+                                sort_keys=True, indent=None, separators=(',', ':') # Compact, sorted dump
+                            )
+                        except Exception as dump_err:
+                             print(f"    WARN: Error dumping current teamups for comparison in {character_name_from_list}: {dump_err}. Forcing update.")
+                             current_teamups_str = f"Error_{random.randint(1000,9999)}" # Force mismatch
+
+                        try:
+                             new_teamups_str = json.dumps(
+                                character_specific_teamups_for_json, # Already filtered implicitly
+                                sort_keys=True, indent=None, separators=(',', ':') # Compact, sorted dump
+                             )
+                        except Exception as dump_err:
+                             print(f"    WARN: Error dumping new teamups for comparison in {character_name_from_list}: {dump_err}. Skipping update.")
+                             continue # Skip if new data can't be dumped
+
+                        # *** ADD DEBUGGING HERE ***
+                        if character_name_from_list in ["Luna_Snow", "Hulk"]: # Add other chars to debug if needed
+                            print(f"    DEBUG COMPARE for {character_name_from_list}:")
+                            print(f"      Current Str ({len(current_teamups_str)} chars): {current_teamups_str[:500]}{'...' if len(current_teamups_str)>500 else ''}")
+                            print(f"      New Str     ({len(new_teamups_str)} chars): {new_teamups_str[:500]}{'...' if len(new_teamups_str)>500 else ''}")
+                            print(f"      Strings Match: {current_teamups_str == new_teamups_str}")
+                        # *** END DEBUGGING ***
+
+                        if current_teamups_str != new_teamups_str:
+                            print(f"    Updating detailed teamups for: {character_name_from_list}")
+                            char_data["teamups"] = character_specific_teamups_for_json # Assign the newly generated list
+                            with open(filepath, 'w', encoding='utf-8') as f_out:
+                                json.dump(char_data, f_out, indent=2, ensure_ascii=False)
+                            updated_files += 1
+                        # else: print(f"    No detailed teamup changes needed for: {character_name_from_list}")
+
+                    except json.JSONDecodeError:
+                        print(f"    ERROR: Skipping '{character_name_from_list}' - Invalid JSON file.")
+                        error_files += 1
+                    except Exception as e_update:
+                        print(f"    ERROR: Failed to update '{character_name_from_list}': {e_update}")
+                        import traceback; traceback.print_exc()
+                        error_files += 1
+                # --- End loop through character JSON files ---
+
+            success_flag = html is not None and parsed_wiki_teamups is not None and error_files == 0
+
+    except Exception as e:
+        # Error Handling (Unchanged)
+        print(f"  ERROR during Detailed Team-Up update process: {e}")
+        if not error_msg: error_msg = f"Unexpected error: {e}"
+        success_flag = False; import traceback; traceback.print_exc()
+
+    # --- Final Status & GUI Update (Unchanged) ---
+    duration = str(datetime.timedelta(seconds=int(time.time() - start_time)))
+    if error_msg and not success_flag: final_status = f"Status: Detailed Team-Up update FAILED. {error_msg} Duration: {duration}."
+    else: final_status = f"Status: Detailed Team-Up update COMPLETE. Files Checked: {processed_files}. Updated: {updated_files}. Errors: {error_files}. Duration: {duration}."
+    if success_flag: print(f"  Updating last_update.json..."); update_last_update_file("last_teamup_update", datetime.datetime.now().isoformat())
+    print(f"\n=== {final_status} ===")
+    def finalize_ui():
+        if root and root.winfo_exists():
+            if status_var: status_var.set(final_status)
+            summary_title = "Detailed Team-Up Update Complete" if success_flag else "Detailed Team-Up Update Warning/Error"
+            summary_message = f"Detailed Team-Up update from wiki finished.\n\nError Msg: {error_msg or 'None'}\n\nFiles Checked: {processed_files}\nFiles Updated: {updated_files}\nErrors: {error_files}"
+            if not success_flag or error_files > 0: messagebox.showwarning(summary_title, summary_message)
+            else: messagebox.showinfo(summary_title, summary_message)
+            enable_buttons()
+    if root and root.winfo_exists(): root.after(0, finalize_ui)
+    update_teamups_thread_handle = None
+
+
+
+
 
 
 class TextRedirector(io.StringIO):
@@ -2087,44 +2618,114 @@ def update_all_character_dropdowns(initial_setup=False):
                 print(f"Unexpected error updating dropdown {dd}: {e}")
 
 # --- GUI Button/Callback Functions ---
+# --- Modify disable_buttons ---
 def disable_buttons():
     try:
         widgets_to_disable = [
             scrape_button, scrape_all_button, add_url_button, remove_url_button,
+            update_teamups_button, # <<< ADDED HERE
+            update_meta_button, update_info_button,
             generate_json_button, generate_all_json_button, edit_prompt_button,
             open_prompt_dir_button, model_combobox, create_char_button,
             tune_load_button, tune_preview_button, tune_save_button,
             tune_discard_button, tune_model_combobox
         ]
+        # ... (rest of disable_buttons implementation remains the same) ...
         for w in widgets_to_disable:
-             if w and isinstance(w, (tk.Widget, ttk.Widget)) and w.winfo_exists(): # Check type and existence
+             if w and isinstance(w, (tk.Widget, ttk.Widget)) and w.winfo_exists():
                  try:
                      w.config(state=tk.DISABLED)
-                 except tk.TclError: pass # Ignore errors if widget destroyed mid-process
+                 except tk.TclError: pass
 
         # Handle stop button visibility separately
         is_scraping_all = scrape_all_thread and scrape_all_thread.is_alive()
         if 'stop_button' in globals() and stop_button and stop_button.winfo_exists():
-            # Make sure action_frame_tab1 exists before trying to pack into it
-            if is_scraping_all and 'action_frame_tab1' in globals() and action_frame_tab1 and action_frame_tab1.winfo_exists():
+            if is_scraping_all and 'action_frame_tab_manage' in globals() and action_frame_tab_manage and action_frame_tab_manage.winfo_exists(): # Check frame too
                 try:
-                    # Pack if not already packed in the correct parent
-                    if stop_button.master != action_frame_tab1:
-                        stop_button.pack(side=tk.LEFT, padx=(10, 0), in_=action_frame_tab1)
+                    if stop_button.master != action_frame_tab_manage:
+                        stop_button.pack(side=tk.LEFT, padx=(10, 0), in_=action_frame_tab_manage) # Specify parent
                     stop_button.config(text="Stop Scrape All", state=tk.NORMAL)
-                except tk.TclError: pass # Ignore packing errors
-            else:
-                try:
-                    stop_button.pack_forget() # Hide if scrape all not running
                 except tk.TclError: pass
-        elif is_scraping_all:
-             print("WARN: Stop button defined but doesn't exist in disable_buttons.")
+            else:
+                try: stop_button.pack_forget()
+                except tk.TclError: pass
+        elif is_scraping_all: print("WARN: Stop button defined but doesn't exist in disable_buttons.")
 
     except (tk.TclError, NameError, AttributeError) as e:
-        # Avoid printing errors during shutdown or GUI transitions
-        # print(f"Minor error during disable_buttons: {e}")
-        pass
+        pass # Ignore errors during shutdown etc.
 
+# --- Modify enable_buttons ---
+def enable_buttons():
+    try:
+        # Check which major processes are active
+        scrape_active = scrape_all_thread and scrape_all_thread.is_alive()
+        json_gen_active = (json_gen_single_thread and json_gen_single_thread.is_alive()) or \
+                          (json_gen_all_thread and json_gen_all_thread.is_alive())
+        tune_active = json_tune_thread and json_tune_thread.is_alive()
+        # --- Added check for teamup update thread ---
+        teamup_update_active = update_teamups_thread_handle and update_teamups_thread_handle.is_alive()
+        # --- Added check for info update thread ---
+        info_update_active = update_info_files_thread_handle and update_info_files_thread_handle.is_alive()
+        # --- Added check for meta update thread ---
+        meta_update_active = update_meta_stats_thread_handle and update_meta_stats_thread_handle.is_alive()
+
+        any_process_active = scrape_active or json_gen_active or tune_active or teamup_update_active or info_update_active or meta_update_active # <<< Updated condition
+
+        # Helper to set state safely (ensure this helper exists)
+        def set_state(widget, target_state):
+            if widget and isinstance(widget, (tk.Widget, ttk.Widget)) and widget.winfo_exists():
+                try:
+                    if isinstance(widget, ttk.Combobox) and target_state == tk.NORMAL: widget.config(state="readonly")
+                    else: widget.config(state=target_state)
+                except tk.TclError: pass
+
+        # --- Tab 1: Scraper ---
+        set_state(scrape_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(scrape_all_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(add_url_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(update_teamups_button, tk.DISABLED if any_process_active else tk.NORMAL) # <<< ADDED HERE
+        set_state(update_meta_button, tk.DISABLED if any_process_active else tk.NORMAL) # Ensure handled
+        set_state(update_info_button, tk.DISABLED if any_process_active else tk.NORMAL) # Ensure handled
+        # (Remove button state handled by on_listbox_select)
+        if 'scraper_url_listbox' in globals() and scraper_url_listbox and scraper_url_listbox.winfo_exists():
+             on_listbox_select(None)
+        else: set_state(remove_url_button, tk.DISABLED)
+
+        # --- Tab 2: Add Character ---
+        set_state(create_char_button, tk.DISABLED if any_process_active else tk.NORMAL)
+
+        # --- Tab 3: Generate JSON ---
+        set_state(generate_all_json_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(edit_prompt_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(open_prompt_dir_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(model_combobox, tk.DISABLED if any_process_active else tk.NORMAL)
+        # (Single generate button state handled by update_json_paths)
+        if 'update_json_paths' in globals(): update_json_paths()
+
+        # --- Tab 4: Fine-Tune ---
+        set_state(tune_load_button, tk.DISABLED if any_process_active else tk.NORMAL)
+        set_state(tune_model_combobox, tk.DISABLED if any_process_active else tk.NORMAL)
+        can_preview = original_loaded_json_str is not None and not any_process_active
+        set_state(tune_preview_button, tk.NORMAL if can_preview else tk.DISABLED)
+        can_save_discard = proposed_tuned_json_data is not None and not any_process_active
+        set_state(tune_save_button, tk.NORMAL if can_save_discard else tk.DISABLED)
+        set_state(tune_discard_button, tk.NORMAL if can_save_discard else tk.DISABLED)
+
+        # --- Stop Button ---
+        if 'stop_button' in globals() and stop_button and stop_button.winfo_exists():
+             if not scrape_active: stop_button.pack_forget() # Hide only if scrape_all not running
+
+        # --- Progress Bar ---
+        if not scrape_active: # Reset progress only if scrape_all isn't running
+             if 'progress_var' in globals() and progress_var and isinstance(progress_var, tk.DoubleVar):
+                 try: progress_var.set(0)
+                 except tk.TclError: pass
+             if 'time_remaining_var' in globals() and time_remaining_var and isinstance(time_remaining_var, tk.StringVar):
+                 try: time_remaining_var.set("")
+                 except tk.TclError: pass
+
+    except (tk.TclError, NameError, AttributeError) as e:
+        pass # Ignore errors during shutdown etc.
 
 def enable_buttons():
     try:
@@ -2960,6 +3561,34 @@ def start_update_info_files():
     update_info_files_thread_handle = threading.Thread(target=update_info_files_thread, daemon=True)
     update_info_files_thread_handle.start()
 
+def start_update_all_teamups():
+    """Handles the 'Update Team-Ups from Wiki' button click."""
+    global update_teamups_thread_handle # Need access to the thread handle
+
+    # Prevent starting if already running
+    if update_teamups_thread_handle and update_teamups_thread_handle.is_alive():
+        messagebox.showinfo("Busy", "The Team-Up update process is already running.")
+        return
+
+    # Confirmation dialog
+    confirm_msg = (
+        "This will:\n"
+        "1. Fetch and parse the Team-Ups wiki page for ACTIVE team-ups.\n"
+        "2. Overwrite the 'teamups' list in ALL existing character JSON files "
+        "with the names of the active team-ups they participate in.\n\n"
+        "Any existing detailed team-up data in the JSONs will be replaced "
+        "with this simplified list of names.\n\n"
+        "Proceed?"
+    )
+    if not messagebox.askyesno("Confirm Update All Team-Ups", confirm_msg):
+        return
+
+    # Start the process: Update status, disable buttons, start thread
+    if status_var: status_var.set("Status: Starting Team-Up update...")
+    disable_buttons() # Ensure this function disables the new button too (needs adding there later)
+
+    update_teamups_thread_handle = threading.Thread(target=update_all_teamups_from_wiki_thread, daemon=True)
+    update_teamups_thread_handle.start()
 
 def start_scrape_all_characters():
     global scrape_all_thread
@@ -4686,6 +5315,7 @@ def load_current_json_for_tuning():
 def setup_gui():
     # Make all potentially referenced GUI variables global within setup
     # (Ensure this list matches the variables actually used below)
+    # --- Modify global declaration at the START of setup_gui ---
     global root, notebook, status_var, status_label, instruction_label, log_text, copy_log_button, stop_button, \
            scraper_character_var, scraper_character_dropdown, scraper_url_entry, scraper_url_listbox, \
            add_url_button, remove_url_button, scrape_button, scrape_all_button, action_frame_tab_manage, \
@@ -4698,7 +5328,9 @@ def setup_gui():
            tune_character_var, tune_character_dropdown, tune_load_button, current_json_display, \
            tuning_instruction_input, tune_model_var, tune_model_combobox, tune_preview_button, \
            proposed_json_display, tune_save_button, tune_discard_button, tune_status_var, \
-           update_meta_button, update_info_button # Added missing buttons
+           update_teamups_button, update_meta_button, update_info_button # <<< ADDED update_teamups_button HERE
+
+    # ... (rest of the start of setup_gui) ...
 
     root = tk.Tk()
     root.title("Marvel Rivals Updater v3.1") # Minor version bump maybe
@@ -4748,17 +5380,33 @@ def setup_gui():
     remove_url_button = ttk.Button(scraper_url_frame, text="Remove Selected URL", command=remove_scraper_url, state=tk.DISABLED)
     remove_url_button.grid(row=2, column=1, columnspan=2, padx=5, pady=(0,5), sticky="e")
 
+    # --- MODIFY THIS BUTTON SECTION ---
     action_frame_tab_manage = ttk.Frame(manage_frame)
     action_frame_tab_manage.grid(row=2, column=0, columnspan=2, pady=(10, 5), sticky="ew")
-    scrape_button = ttk.Button(action_frame_tab_manage, text="Scrape Raw Text (Selected Char)", command=start_scrape_single_character, width=30)
-    scrape_button.pack(side=tk.LEFT, padx=5, pady=2)
-    scrape_all_button = ttk.Button(action_frame_tab_manage, text="Scrape Raw Text (ALL Chars)", command=start_scrape_all_characters, width=30)
-    scrape_all_button.pack(side=tk.LEFT, padx=5, pady=2)
-    update_meta_button = ttk.Button(action_frame_tab_manage, text="Update Meta Stats from Tracker", command=start_update_all_meta_stats, width=30)
-    update_meta_button.pack(side=tk.LEFT, padx=5, pady=2)
-    update_info_button = ttk.Button(action_frame_tab_manage, text="Update Info Files from Site", command=start_update_info_files, width=30)
-    update_info_button.pack(side=tk.LEFT, padx=5, pady=2)
-    stop_button = ttk.Button(action_frame_tab_manage, text="Stop Scrape All", command=stop_scrape_all, style="Stop.TButton") # Defined but not packed initially
+
+    # Define widths (optional, adjust as needed for your layout)
+    button_width = 24
+
+    scrape_button = ttk.Button(action_frame_tab_manage, text="Scrape Raw Text (Selected)", command=start_scrape_single_character, width=button_width)
+    scrape_button.pack(side=tk.LEFT, padx=3, pady=2) # Use smaller padx
+
+    scrape_all_button = ttk.Button(action_frame_tab_manage, text="Scrape Raw Text (ALL)", command=start_scrape_all_characters, width=button_width)
+    scrape_all_button.pack(side=tk.LEFT, padx=3, pady=2)
+
+    # --- New Team-Up Button Added Here ---
+    update_teamups_button = ttk.Button(action_frame_tab_manage, text="Update Team-Ups (Wiki)", command=start_update_all_teamups, width=button_width)
+    update_teamups_button.pack(side=tk.LEFT, padx=3, pady=2)
+    # --- End New Button ---
+
+    update_meta_button = ttk.Button(action_frame_tab_manage, text="Update Meta Stats (Tracker)", command=start_update_all_meta_stats, width=button_width)
+    update_meta_button.pack(side=tk.LEFT, padx=3, pady=2)
+
+    update_info_button = ttk.Button(action_frame_tab_manage, text="Update Info Files (Site)", command=start_update_info_files, width=button_width)
+    update_info_button.pack(side=tk.LEFT, padx=3, pady=2)
+
+    stop_button = ttk.Button(action_frame_tab_manage, text="Stop Scrape All", command=stop_scrape_all, style="Stop.TButton")
+    # Stop button remains defined but not initially packed
+    # --- END OF BUTTON SECTION MODIFICATION ---
 
     progress_frame = ttk.Frame(manage_frame)
     progress_frame.grid(row=3, column=0, columnspan=2, pady=5, sticky="ew")
@@ -4918,7 +5566,7 @@ def setup_gui():
         relief=tk.FLAT,           # Make it look less like a status bar
         anchor="w",
         justify=tk.LEFT,          # Align text left
-        padding=(5, 5, 5, 5),     # Add some internal padding
+        padding = (5, 5, 5, 5),     # Add some internal padding
         wraplength=850            # Adjust wrap length as needed (~window width - padding)
         # Optional: Add background/foreground colors if desired
         # background="#333333",

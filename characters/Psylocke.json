@@ -111,19 +111,19 @@
   "passives": [],
   "teamups": [
     {
-      "name": "PSYCHIC ECHOES",
-      "keybind": "C",
+      "name": "Mental Projection",
       "partner": [
-        "Emma Frost",
+        "Emma_Frost",
         "Magneto"
       ],
-      "effect": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting abilities on its own.",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
-      "duration": "1s",
+      "duration": null,
       "cooldown": "30s",
       "range_target": null,
-      "special_notes": null,
-      "details": "DUPLICATE DAMAGE REDUCTION - 70%\nDUPLICATE MAX DAMAGE RECEIVED - 150\nSPECIAL EFFECT - Upon release, Psylocke and her Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage"
+      "special_notes": "Ability: Psychic Echoes",
+      "details": "Invisibility Duration: 1s<br/>Duplicate Duration: Up to 5s<br/>Duplicate Damage Reduction: 70%<br/>Duplicate Max Damage Recieved: 150<br/>Special Effect: Upon activation, Psylocke and her Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage; When the player uses an Ultimate ability, the Duplicate Illusion will auto-shoot the closest enemy target instead"
     }
   ],
   "gameplay": {

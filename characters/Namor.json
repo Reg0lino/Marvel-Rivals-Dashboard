@@ -111,19 +111,19 @@
   "passives": [],
   "teamups": [
     {
-      "name": "GAMMA MONSTRO",
-      "keybind": "C",
+      "name": "Gamma Charge",
       "partner": [
         "Hulk",
-        "Iron Man"
+        "Iron_Man"
       ],
-      "effect": "Hulk charges Iron Man and Namor with gamma radiation. When Iron Man uses Armor Overdrive, he will initiate a gamma upgrade. When Namor receives the radiation, he will summon an extra Gamma Monstro which will continuously fire gamma rays at locked-on enemies. The longer the ray hits, the higher the damage.",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
-      "duration": null,
+      "duration": "2s",
       "cooldown": "15s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Gamma Monstro",
+      "details": "Casting: Arced Trajectory (Summon Gamma Monstro), Direct Hit (Gamma Monstro)<br/>Projectile Speed Summon Gamma Monstro: 20 m/s<br/>Gamma Monstro Maximum Duration: 10s<br/>Gamma Monstro Health: 200<br/>Frozen Spawn Attack Range: 40m<br/>Monstro Spawn/Frozen Spawn Maximum Quantity: 2<br/>Frozen Spawn Damage Falloff: Falloff begins at 20m, decreasing to 30% at 40m<br/>Special Effect: When attacking the same target continuously, the damage will gradually increase to 1.5X over 5 seconds   DEFAULT:<br/>Gamma Monstro Fire Rate: 0.05s per round<br/>Gamma Monstro Damage: 4"
     }
   ],
   "gameplay": {

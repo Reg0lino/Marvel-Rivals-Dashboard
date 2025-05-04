@@ -205,15 +205,17 @@
   ],
   "teamups": [
     {
-      "name": "FROM SHADOW TO LIGHT",
-      "keybind": null,
-      "partner": "Moon Knight",
-      "effect": "Cloak & Dagger can inject light and dark energy into Moon Knight to create a Light & Dark Realm where Moon Knight can become Invisible.",
+      "name": "Lunar Force",
+      "partner": [
+        "Moon_Knight"
+      ],
+      "effect": null,
+      "keybind": "Passive",
       "teamup_bonus": "15% Healing Boost",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": null,
+      "special_notes": "Role: Anchor | Ability: From Shadow to Light",
       "details": null
     }
   ],

@@ -163,7 +163,22 @@
       "details": null
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Stars Aligned",
+      "partner": [
+        "Winter_Soldier"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "+100 Max Health and 5% Damage Boost",
+      "duration": null,
+      "cooldown": "12s",
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Captain's Spirit",
+      "details": "Key Clash: C<br/>Clash Damage: 80<br/>Clash Damage Range: 10m spherical range<br/>Prompt Range Clash: Up to 30m<br/>Special Effect: A Slow effect is applied to enemies hit with Clash damage"
+    }
+  ],
   "gameplay": {
     "strategy_overview": "To be added",
     "weaknesses": [

@@ -164,7 +164,23 @@
       "details": "BONUS HEALTH - 50\nABILITY DELAY - 1.5s"
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Ragnarok Rebirth",
+      "partner": [
+        "Hela",
+        "Thor"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": null,
+      "range_target": "Up to 100m",
+      "special_notes": "Ability: Laufeyson Reborn",
+      "details": "Bonus Health: 50; can stack twice, max 100<br/>Resurrection Delay: 1.5s<br/>Resurrection Health Percentage: 90%<br/>Special Effect: Resurrection occurs wherever Loki was defeated; cannot be resurrected if KO'd off the map"
+    }
+  ],
   "gameplay": {
     "strategy_overview": "Loki is a slippery, unpredictable Strategist who specializes in nullifying enemy attacks and kiting anyone who attempts to chase him. His varied toolset and plethora of tricks makes him a highly adaptable hero that can support his team, deal solid damage, and keep himself alive all at the same time. --- Master the art of deception and area control with Loki. Strategic placement and maintenance of your clones are paramount for both sustained healing and damage output. Utilize 'Regeneration Domain' proactively in engagements, understanding it can even provide healing while you are respawning if a clone persists. Be mindful of your primary fire's splash damage and position accordingly. Adapt your ultimate usage based on the enemy team composition, turning their strengths against them.",
     "weaknesses": [

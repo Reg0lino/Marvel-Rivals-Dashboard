@@ -163,7 +163,22 @@
       "details": "CONVERSION RATE -\n30%\nBONUS MAX HEALTH -\n150"
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Dimensional Shortcut",
+      "partner": [
+        "Black_Panther"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "15% Damage Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Disc Master",
+      "details": null
+    }
+  ],
   "gameplay": {
     "strategy_overview": "Magik is a highly versatile Duelist, and her ideal role will vary depending on the structure of the team. In a team with two vanguards, Magik is ideally utilised as a flanker, to take out the backline of healers as quickly as possible. However, if there is less than two vanguards, Magik can also be used to fill this role, given her high mobility, AoE attacks, and passive bonus health boost.\\nIt's important to note that Magik's basic swing combo is extremely slow and ineffective. It is recommended to follow each swing with a melee jab entirely regardless of your situation, as this cancels the animation, allowing you a significantly higher damage output over time.\\nIn a scenario in which two tanks already exist on your team, Magik performs exceedingly well in targeting healers. It is generally best to flank the enemy team and attempt to reach their backline through alternative routes to prevent being noticed; however if this fails you can always use her Stepping Discs to grant brief invincibility, allowing you a moment to escape or reach the backline. Once there, use the Umbral Incursion dash ability to begin an extremely effective combo. If landed, the dash will launch the enemy Strategist into the air. While aloft, perform a basic attack quickly followed by a melee for the animation cancel, then another basic attack plus a second melee if necessary. This combo is enough to eliminate every Strategist, provided they are receiving no healing/have no buffs in general. Once completed, use the Stepping Discs to teleport away, ideally using the demon ability to provide cover and delay pursuit. This combo is extremely effective for shattering an enemy team's backline quickly.\\nIf there is one or no Vanguards in your team, Magik can be, though not preferably, used as a semi-tank. Her AoE ability after Stepping Discs allows you to jump into the center of a team and inflict damage in a huge radius, though this does leave you vulnerable afterwards. If undertaking this role, ensure there are at least one healer on you at all times.\\nMagik's long range attack has no fall-off damage, and a relatively short wind up time for the damage generated, making it especially useful for opening combos. Consider chaining a long-range attack into the dash-swing-melee combo mentioned before, as this is usually enough to kill any non-tank character (heals excluded).\\nMagik's Stepping Discs and Umbral Incursion can be chained to generate up to 30m of almost instantaneous movement, effective for escapes or chase. Begin by teleporting, following with the dash. Stepping Discs provide a 3s window to use either ability, so after dashing, quickly use the swing. This will perform an animation which combines both the swing and the dash, moving Magik up to 30 metres in under a second, while also dealing damage the whole way.",
     "weaknesses": [

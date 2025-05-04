@@ -160,15 +160,17 @@
   ],
   "teamups": [
     {
-      "name": "ENCHANTED ENHANCEMENT",
-      "keybind": null,
-      "partner": "Scarlet Witch",
-      "effect": "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction.",
+      "name": "Arcane Order",
+      "partner": [
+        "Scarlet_Witch"
+      ],
+      "effect": null,
+      "keybind": "Passive",
       "teamup_bonus": "+150 Max Health",
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": null,
+      "special_notes": "Role: Anchor | Ability: Enchanted Enhancement",
       "details": null
     }
   ],

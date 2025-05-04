@@ -171,10 +171,18 @@
   "passives": [],
   "teamups": [
     {
-      "name": "Full Moon",
-      "details": {
-        "continuous_heal": "25 health per second while in effect area"
-      }
+      "name": "Lunar Force",
+      "partner": [
+        "Cloak_and_Dagger"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": "6s",
+      "cooldown": "30s",
+      "range_target": "4m spherical radius",
+      "special_notes": "Ability: Full Moon",
+      "details": "Healing Amount: 25/sec<br/>Special Effect: Moon Knight is revealed for 1 second whenever he is damaged"
     }
   ],
   "gameplay": {

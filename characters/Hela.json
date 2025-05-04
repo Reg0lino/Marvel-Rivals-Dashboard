@@ -149,7 +149,23 @@
       "details": null
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Ragnarok Rebirth",
+      "partner": [
+        "Loki",
+        "Thor"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "15% Damage Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Queen of Hel",
+      "details": null
+    }
+  ],
   "gameplay": {
     "strategy_overview": "To be added",
     "weaknesses": [

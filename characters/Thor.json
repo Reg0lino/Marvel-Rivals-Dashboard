@@ -151,8 +151,19 @@
   ],
   "teamups": [
     {
-      "name": "THUNDEROUS DEITY",
-      "teamup_bonus": null
+      "name": "Ragnarok Rebirth",
+      "partner": [
+        "Hela",
+        "Loki"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": null,
+      "range_target": "Up to 100m",
+      "special_notes": "Ability: Odinson Reborn",
+      "details": "Bonus Health: 50; can stack twice, max 100<br/>Resurrection Delay: 1.5s<br/>Resurrection Health Percentage: 80%<br/>Special Effect: Resurrection occurs wherever Thor was defeated; cannot be resurrected if KO'd off the map"
     }
   ],
   "gameplay": {

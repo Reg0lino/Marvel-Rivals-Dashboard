@@ -152,19 +152,19 @@
   ],
   "teamups": [
     {
-      "name": "NATURE'S SOUL",
-      "keybind": null,
+      "name": "Guardian Revival",
       "partner": [
-        "Adam Warlock",
+        "Adam_Warlock",
         "Star-Lord"
       ],
-      "effect": "Adam Warlock enhances the rebirth power of Star-Lord and Mantis, granting them the power of cocooned revival.",
+      "effect": null,
+      "keybind": null,
       "teamup_bonus": null,
       "duration": null,
       "cooldown": "120s",
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Nature's Soul",
+      "details": "Key While Dead: Primary Fire; Secondary Fire to Cancel<br/>Maximum Free Flight Duration: 13s<br/>Special Mechanic: During this period, Mantis enters a free-flight state; if neither option is pressed, Mantis will respawn normally"
     }
   ],
   "gameplay": {

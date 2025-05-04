@@ -149,16 +149,18 @@
   ],
   "teamups": [
     {
-      "name": "Infinite Punishment",
+      "name": "Ammo Overload",
+      "partner": [
+        "Rocket_Raccoon"
+      ],
+      "effect": null,
       "keybind": null,
-      "partner": "Rocket Raccoon",
-      "effect": "Grants both his Adjucation and Deliverance with infinite ammo and 67% increased rate of fire.",
       "teamup_bonus": null,
       "duration": null,
       "cooldown": null,
       "range_target": null,
-      "special_notes": null,
-      "details": null
+      "special_notes": "Ability: Infinite Punishment",
+      "details": "Adjudication Fire Rate Boost: 67%<br/>Deliverance Fire Rate Boost: 67%"
     }
   ],
   "gameplay": {

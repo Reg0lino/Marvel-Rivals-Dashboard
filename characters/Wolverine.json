@@ -126,19 +126,19 @@
   ],
   "teamups": [
     {
-      "name": "Metal Cannonball",
-      "keybind": "C",
+      "name": "Fastball Special",
       "partner": [
         "Hulk",
-        "The Thing"
+        "The_Thing"
       ],
-      "effect": "Wolverine, Hulk, and The Thing can interact with each other. Once both parties confirm, Hulk can lift Wolverine and press the key to hurl him forward.",
-      "teamup_bonus": null,
-      "duration": "5s Maximum",
-      "cooldown": "3s (when Wolverine is not hurled) and 15s (after hurling Wolverine)",
-      "range_target": null,
-      "special_notes": null,
-      "details": null
+      "effect": null,
+      "keybind": "C",
+      "teamup_bonus": "\"Coming Soon\"",
+      "duration": null,
+      "cooldown": "3s when not thrown, 15s when thrown",
+      "range_target": "Up to 20m",
+      "special_notes": "Role: Anchor | Ability: Metal Cannonball",
+      "details": "Casting: Targeted<br/>Special Effect: Undying Animal is the only ability that can be used while being held by Hulk or The Thing"
     }
   ],
   "gameplay": {

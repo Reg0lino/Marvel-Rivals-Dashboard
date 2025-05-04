@@ -1669,13 +1669,37 @@ class CharacterCard(QWidget):
                 passive_layout.addStretch(1); main_layout.addWidget(passive_group)
             else: passive_group.deleteLater()
 
+        # --- This is the problematic block in init_ui ---
         # Teamups
         teamups_list = self.character_data.get('teamups', [])
         if teamups_list and isinstance(teamups_list, list):
             teamup_group, teamup_layout = self._create_section_group("Teamups")
-            content_added = any(self._add_widget_if_data(teamup_layout, self._create_zoomable_widget(self._format_teamup_html(teamup))) for teamup in teamups_list)
-            if content_added: teamup_layout.addStretch(1); main_layout.addWidget(teamup_group)
-            else: teamup_group.deleteLater()
+            # !!! PROBLEM AREA: This likely only formats the FIRST item (if any) !!!
+            # Example of potential incorrect logic:
+            # if teamups_list:
+            #    first_teamup = teamups_list[0]
+            #    widget = self._create_zoomable_widget(self._format_teamup_html(first_teamup))
+            #    if self._add_widget_if_data(teamup_layout, widget):
+            #        teamup_layout.addStretch(1)
+            #        main_layout.addWidget(teamup_group)
+            #    else: teamup_group.deleteLater()
+
+            # --- Replace the above problematic logic with this loop ---
+            content_added = False # Track if any teamup adds content
+            for teamup_entry in teamups_list: # Loop through ALL teamups
+                formatted_html = self._format_teamup_html(teamup_entry) # Format EACH one
+                if formatted_html: # Only add if formatting produced something
+                    widget = self._create_zoomable_widget(formatted_html)
+                    if self._add_widget_if_data(teamup_layout, widget):
+                        content_added = True # Mark that we added at least one
+
+            # Add the group box only if content was actually added from the loop
+            if content_added:
+                teamup_layout.addStretch(1)
+                main_layout.addWidget(teamup_group)
+            else: # If loop finished but nothing was added (e.g., empty list or all entries formatted to empty string)
+                teamup_group.deleteLater() # Clean up the empty group box
+        # --- End of Teamups section ---
 
         # Gameplay Strategy
         gameplay_data = self.character_data.get('gameplay')

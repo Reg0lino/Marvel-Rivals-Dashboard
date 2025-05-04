@@ -165,7 +165,24 @@
       "details": null
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Fantastic Four",
+      "partner": [
+        "Human_Torch",
+        "Mister_Fantastic",
+        "The_Thing"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "15% Healing Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Fantasti-Force",
+      "details": null
+    }
+  ],
   "gameplay": {
     "strategy_overview": "Focus on a backline support role, maximizing both damage and healing. Position yourself strategically to take advantage of bottlenecks, healing allies and damaging enemies simultaneously. Prioritize lining up multiple targets with your primary fire to charge your ultimate quickly and maximize healing and damage. Use your abilities effectively: the Guardian Shield for blocking damage, slowing enemies, and healing; Psionic Vortex for crowd control and confirming picks; and Force Physics for displacing enemies. Remember to use your double jump and invisibility strategically for survival. Use your ultimate to counter enemy ultimates and strategically combine it with other abilities, especially in stacked team compositions. Position shields out of the enemy's line of sight for continuous healing. -- As Sue Storm, your strength lies in controlling the flow of battle and providing crucial support. Employ your force push/pull to disrupt enemy positioning, secure eliminations, and peel for teammates. Don't forget the utility of Psionic Vortex to counter aerial threats and clear enemy deployables. While your primary fire has limited range, position yourself to effectively use your healing shield on allies in the thick of the fight and remember your ultimate is a rapid heal, not invincibility, so use it strategically.",
     "weaknesses": [

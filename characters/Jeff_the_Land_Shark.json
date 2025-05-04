@@ -143,7 +143,37 @@
       "details": "CRITICAL DAMAGE REDUCTION -\n50%"
     }
   ],
-  "teamups": [],
+  "teamups": [
+    {
+      "name": "Chilling Charisma",
+      "partner": [
+        "Luna_Snow"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": "10s",
+      "cooldown": "30s",
+      "range_target": "5m spherical radius",
+      "special_notes": "Ability: Frozen Spitball",
+      "details": "Casting: Single-cast projectile with delayed impact that also generates a spell field<br/>Special Effect: Aqua Burst will be replaced by Frozen Spitball. When Frozen Spitball hits an enemy or the environment, it will create an area that slows down enemies. Enemies within this area will experience a slowing effect<br/>Damage: Projectile Damage: 30; Spell Field Damage: 40<br/>Slow Rate: 15%<br/>Slow Duration: 3s<br/>Damage Falloff: No falloff<br/>Projectile Speed: 100m/s<br/>Fire Rate: 1.75 rounds per second<br/>Ammo: 12<br/>Critical Hit: No"
+    },
+    {
+      "name": "Planet X Pals",
+      "partner": [
+        "Groot",
+        "Rocket_Raccoon"
+      ],
+      "effect": null,
+      "keybind": null,
+      "teamup_bonus": null,
+      "duration": null,
+      "cooldown": null,
+      "range_target": "Up to 12m",
+      "special_notes": "Ability: New Friends",
+      "details": "Casting: Targeted<br/>Damage Reduction: 35%<br/>Special Effect: Pressing SHIFT will exit the Team-Up status with Groot"
+    }
+  ],
   "gameplay": {
     "strategy_overview": "Jeff is a very situational hero in Competitive play. The lack of a \"Defensive Ultimate Ability\" makes him quite undesirable in most team compositions. If you DO want to make Jeff work here are a few strategic tips to help you maximize your utility and abilities as Jeff The Land Shark! --- Despite being labeled a strategist, Jeff thrives in a more aggressive, diving role. Utilize his survivability to disrupt enemy lines and create space for your team. Consistently drop bubbles on objectives to provide immediate health bursts and healing boosts for your allies. Don't hesitate to be a nuisance, capitalizing on your resilience to draw enemy attention and secure key areas. Remember the utility of dropping bubbles in spawn for a quick team speed boost.",
     "weaknesses": [

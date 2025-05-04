@@ -167,8 +167,18 @@
   ],
   "teamups": [
     {
-      "name": "SUPERSENSORY VISION",
-      "teamup_bonus": "15% Damage Boost"
+      "name": "Allied Agents",
+      "partner": [
+        "Black_Widow"
+      ],
+      "effect": null,
+      "keybind": "Passive",
+      "teamup_bonus": "15% Damage Boost",
+      "duration": null,
+      "cooldown": null,
+      "range_target": null,
+      "special_notes": "Role: Anchor | Ability: Supersensory Vision",
+      "details": null
     }
   ],
   "gameplay": {
