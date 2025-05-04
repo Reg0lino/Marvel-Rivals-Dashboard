@@ -22,5 +22,4 @@ favorites.json
 # OS-specific files
 .DS_Store
 Thumbs.db
-!!TESTING/test_teamup_parser.py
-!!TESTING/parsed_teamups_test.txt
+

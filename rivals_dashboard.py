@@ -2204,7 +2204,9 @@ class MainWindow(QMainWindow):
 
         # --- Populate Cards and Apply Initial Sort/Filter (AFTER UI structure is built) ---
         # Make sure these are called ONLY ONCE
+        print("DEBUG: About to call populate_character_cards from __init__") 
         self.populate_character_cards()
+        print("DEBUG: Returned from populate_character_cards called by __init__") 
         self.sort_and_filter_characters()
         # --- End Single Call ---
 
@@ -2537,8 +2539,6 @@ class MainWindow(QMainWindow):
         
     # Keep _create_scroll_area (unchanged)
     def _create_scroll_area(self):
-        self.scroll_area = QScrollArea(); self.scroll_area.setWidgetResizable(True); self.scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff); self.scroll_area.setStyleSheet("QScrollArea { padding-top: %dpx; }" % SCROLL_PADDING_TOP); self.scroll_content_widget = QWidget()
-    def _create_scroll_area(self):
         self.scroll_area = QScrollArea()
         self.scroll_area.setWidgetResizable(True)
         self.scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
@@ -2548,34 +2548,8 @@ class MainWindow(QMainWindow):
         self.scroll_layout.setAlignment(Qt.AlignmentFlag.AlignTop)
         self.scroll_layout.setSpacing(15)
         self.scroll_area.setWidget(self.scroll_content_widget)
-        self.main_layout.addWidget(self.scroll_area)
-        """Creates/recreates card widgets based on ACTIVE_CHARACTER_LIST."""
-        print("Populating character cards...");
-        # Clear existing cards from layout AND cache
-        while self.scroll_layout.count():
-             item = self.scroll_layout.takeAt(0)
-             if item and item.widget(): item.widget().deleteLater()
-        self.character_cards.clear()
+        self.main_layout.addWidget(self.scroll_area) # <<< This line adds the scroll area correctly
 
-        if not ACTIVE_CHARACTER_LIST: print("No characters loaded to populate cards."); return
-
-        loaded_count = 0
-        for name in ACTIVE_CHARACTER_LIST:
-            # Load data ONLY when creating the card
-            char_data = self.load_single_character_data(name)
-            if char_data is None:
-                print(f"  Skipping card for '{name}': Failed to load JSON data.")
-                continue # Skip if data fails to load
-
-            is_fav = name in self.favorites
-            card = CharacterCard(name, char_data, is_fav) # Pass loaded data
-            card.favorite_toggled.connect(self.handle_favorite_toggle)
-            self.character_cards[name] = card # Add widget to cache
-            self.scroll_layout.addWidget(card)
-            card.setVisible(False) # Initially hide until filter step
-            loaded_count += 1
-
-        print(f"Created/Recreated {loaded_count} card widgets.")
 
     def load_single_character_data(self, character_name):
         """Loads JSON data for a single character, handling filename sanitization."""
@@ -2633,9 +2607,13 @@ class MainWindow(QMainWindow):
             print(f"ERROR: Data loaded from {filepath} is not a dictionary (Type: {type(data)}).")
             return None
 
+    # --- Inside class MainWindow(QMainWindow): ---
+
     def populate_character_cards(self):
         """Creates/recreates card widgets based on ACTIVE_CHARACTER_LIST."""
-        print("Populating character cards...")
+        print("DEBUG: Entered populate_character_cards method") # <<< ADD THIS LINE
+        print("Populating character cards...") # Keep this original print
+
         # Clear existing cards from layout AND cache
         while self.scroll_layout.count():
              item = self.scroll_layout.takeAt(0)
@@ -2644,6 +2622,7 @@ class MainWindow(QMainWindow):
 
         if not ACTIVE_CHARACTER_LIST:
             print("No characters loaded to populate cards.")
+            print("DEBUG: Exiting populate_character_cards method early (no characters).") # <<< ADD THIS LINE
             return
 
         loaded_count = 0
@@ -2666,8 +2645,8 @@ class MainWindow(QMainWindow):
             card.setVisible(False) # Initially hide until filter step applies visibility
             loaded_count += 1
 
-        print(f"Created/Recreated {loaded_count} card widgets.")
-
+        print(f"Created/Recreated {loaded_count} card widgets.") # Keep this original print
+        print(f"DEBUG: Exiting populate_character_cards method after creating {loaded_count} widgets.") # <<< ADD THIS LINE
 # Inside MainWindow class in rivals_dashboard.py
 
 # --- Inside MainWindow class in rivals_dashboard.py ---
