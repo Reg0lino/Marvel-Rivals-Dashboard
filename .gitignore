@@ -1,26 +1,44 @@
-# Python Virtual Environment (if you use one)
+# --- Python Virtual Environments ---
+# Ignore common virtual environment directories
 venv/
 .venv/
 env/
+
+# --- Secrets ---
+# Ignore environment variable files (NEVER commit API keys or secrets!)
 .env
+scraper/.env
 
-# Python Cache
+# --- Python Bytecode and Cache ---
+# Ignore compiled Python files and cache directories
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# PyInstaller Output & Cache
+# --- PyInstaller ---
+# Ignore build artifacts from PyInstaller
 dist/
 build/
 *.spec
 
-# Generated/User Files
+# --- User Configuration / Generated Files ---
+# Ignore user-specific or generated files that shouldn't be in the repo
 favorites.json
 *.ico
 *.bat
 
-# OS-specific files
+# --- Operating System Files ---
+# Ignore OS-specific metadata/cache files
 .DS_Store
 Thumbs.db
 
+# --- IDE / Editor Files (Optional but Recommended) ---
+# Example for VS Code
+.vscode/
+
+# --- Log Files (Optional but Recommended) ---
+# Ignore log files if your application generates any
+*.log
+logs/
+
+# --- Add other project-specific ignores below ---
+# e.g., temporary files, specific test outputs not meant for commit
