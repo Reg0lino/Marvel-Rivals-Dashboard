@@ -7,6 +7,9 @@ import subprocess
 import shutil
 import urllib.parse
 import argparse
+import requests 
+import threading
+from pathlib import Path 
 
 # --- Ensure QTextBrowser is imported, QDesktopServices/QUrl not needed for this approach ---
 from PySide6.QtWidgets import (
@@ -1964,6 +1967,137 @@ class CharacterCard(QWidget):
     def update_favorite_button_style(self):
         self.fav_button.setChecked(self._is_favorite); self.fav_button.setProperty("favorited", self._is_favorite); self.fav_button.setText("★" if self._is_favorite else "☆"); self.fav_button.style().unpolish(self.fav_button); self.fav_button.style().polish(self.fav_button)
 
+class JsonUpdateWorker(QThread):
+    """
+    Worker thread for downloading character JSON files from GitHub.
+    Emits signals for progress updates and completion/error status.
+    """
+    # Define signals to communicate back to the main thread
+    # Signal signature: progress(current_file_index, total_files, filename)
+    progress = Signal(int, int, str)
+    # Signal signature: finished(success_boolean, message_string)
+    finished = Signal(bool, str)
+
+    def __init__(self, repo_url, local_dir, parent=None):
+        super().__init__(parent)
+        self.repo_api_url = repo_url  # e.g., "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main"
+        self.local_char_dir = Path(local_dir) # Use pathlib for easier path joining
+        self.is_running = True # Flag to allow interruption (optional for now)
+
+    def run(self):
+        """The main logic executed by the thread."""
+        print("JsonUpdateWorker: Thread started.")
+        total_files_to_download = 0
+        files_downloaded = 0
+        error_occurred = False
+        final_message = ""
+
+        try:
+            # --- 1. Get the list of files from GitHub API ---
+            print(f"JsonUpdateWorker: Fetching file list from {self.repo_api_url}")
+            response = requests.get(self.repo_api_url, timeout=15) # Add timeout
+            response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+            repo_files_data = response.json()
+
+            # Filter for JSON files only and get download URLs
+            json_files = []
+            for item in repo_files_data:
+                if item['type'] == 'file' and item['name'].lower().endswith('.json'):
+                    # Prefer 'download_url', fallback to constructing raw URL if needed
+                    download_url = item.get('download_url')
+                    if not download_url:
+                         # Construct raw URL (less reliable if structure changes)
+                         raw_base = "https://raw.githubusercontent.com/Reg0lino/Marvel-Rivals-Dashboard/main/characters/"
+                         download_url = raw_base + item['name']
+                         print(f"WARN: No download_url in API response for {item['name']}, using constructed raw URL: {download_url}")
+
+                    json_files.append({'name': item['name'], 'url': download_url})
+
+            total_files_to_download = len(json_files)
+            print(f"JsonUpdateWorker: Found {total_files_to_download} JSON files to download.")
+
+            if total_files_to_download == 0:
+                 raise ValueError("No JSON files found in the repository directory.")
+
+            # --- 2. Ensure local directory exists ---
+            self.local_char_dir.mkdir(parents=True, exist_ok=True)
+            print(f"JsonUpdateWorker: Ensured local directory exists: {self.local_char_dir}")
+
+            # --- 3. Download each file ---
+            for index, file_info in enumerate(json_files):
+                filename = file_info['name']
+                download_url = file_info['url']
+                local_filepath = self.local_char_dir / filename # Use pathlib's / operator
+
+                # Emit progress signal BEFORE starting download
+                self.progress.emit(index, total_files_to_download, filename)
+                print(f"JsonUpdateWorker: Downloading ({index + 1}/{total_files_to_download}) '{filename}' from {download_url}...")
+
+                try:
+                    file_response = requests.get(download_url, timeout=20) # Longer timeout for file download
+                    file_response.raise_for_status()
+
+                    # Save the file content (using binary write mode 'wb' is safer)
+                    with open(local_filepath, 'wb') as f:
+                        f.write(file_response.content)
+
+                    files_downloaded += 1
+                    print(f"JsonUpdateWorker: Successfully saved '{filename}' to {local_filepath}")
+
+                except requests.exceptions.RequestException as e_download:
+                     error_occurred = True
+                     err_msg = f"Error downloading '{filename}': {e_download}"
+                     print(f"ERROR: {err_msg}")
+                     final_message += f"\n- Failed: {filename} ({e_download})" # Append specific error
+                     # Optionally decide whether to continue or stop on error
+                     # break # Uncomment to stop after first error
+
+                # Add a small sleep to yield control (optional, helps UI responsiveness slightly)
+                # self.msleep(50) # 50 milliseconds
+
+            # --- 4. Prepare final message ---
+            if not error_occurred:
+                final_message = f"Successfully downloaded {files_downloaded} character files.\n\nPlease restart the dashboard to apply the updates."
+            else:
+                # Prepend a summary to the specific error messages
+                final_message = f"Update completed with errors.\nDownloaded: {files_downloaded}/{total_files_to_download}\nErrors:{final_message}"
+                final_message += "\n\nPlease check console logs and try again later. You may need to restart."
+
+        except requests.exceptions.Timeout:
+             error_occurred = True
+             err_msg = "Connection timed out while trying to reach GitHub."
+             print(f"ERROR: {err_msg}")
+             final_message = f"Update Failed: {err_msg}"
+        except requests.exceptions.RequestException as e_api:
+            error_occurred = True
+            err_msg = f"Error communicating with GitHub API: {e_api}"
+            print(f"ERROR: {err_msg}")
+            final_message = f"Update Failed: {err_msg}"
+        except ValueError as e_val: # Catch the "No JSON files found" error
+             error_occurred = True
+             err_msg = str(e_val)
+             print(f"ERROR: {err_msg}")
+             final_message = f"Update Failed: {err_msg}"
+        except Exception as e_generic:
+            error_occurred = True
+            err_msg = f"An unexpected error occurred during update: {e_generic}"
+            print(f"ERROR: {err_msg}")
+            import traceback
+            traceback.print_exc() # Print full traceback for debugging
+            final_message = f"Update Failed: An unexpected error occurred. Check logs."
+
+        # --- 5. Emit finished signal ---
+        # Success is True only if NO errors occurred AND we intended to download files
+        success = not error_occurred and total_files_to_download > 0
+        self.finished.emit(success, final_message)
+        print(f"JsonUpdateWorker: Thread finished. Success: {success}")
+
+    def stop(self):
+        """Placeholder for interrupting the thread (not fully implemented)."""
+        self.is_running = False
+        print("JsonUpdateWorker: Stop requested.")
+# --- END OF JsonUpdateWorker CLASS ---
+
 # --- Add this Helper Function ---
 def get_config_value_flexible(config_map, key):
     """
@@ -2026,45 +2160,8 @@ class MainWindow(QMainWindow):
         self.jump_bar_labels = {}
         self.jump_bar_flow_layout = None
         self.jump_bar_container = None
+        self.json_update_worker = None # <<< ADD THIS LINE to store worker thread instance
         self.setWindowTitle("Marvel Rivals Dashboard")
-
-        # --- Icon Loading (Fallback Removed) ---
-        try:
-            icon_filename = "Marvel Rivals Dashboard.ico"
-            icon_path = resource_path(os.path.join('images', icon_filename))
-            if os.path.exists(icon_path):
-                self.setWindowIcon(QIcon(icon_path))
-                print(f"INFO: Set main window icon from: {icon_path}")
-            else:
-                # Fallback using absolute path REMOVED/COMMENTED OUT
-                # raw_path = r"C:\!CODE\MR_Dash\Marvel Rivals Dashboard.ico"
-                # if os.path.exists(raw_path):
-                #      self.setWindowIcon(QIcon(raw_path))
-                #      print(f"INFO: Set main window icon from absolute path: {raw_path}")
-                # else:
-                print(f"WARNING: App icon not found at relative path {icon_path}") # Just warn if relative fails
-        except Exception as e:
-             print(f"ERROR setting main window icon: {e}")
-        # --- END Icon Loading ---
-
-        self.resize(1000, 1050)
-        self.main_widget = QWidget()
-        self.setCentralWidget(self.main_widget)
-        self.main_layout = QVBoxLayout(self.main_widget)
-        self.main_layout.setContentsMargins(10, 5, 10, 10)
-        self.main_layout.setSpacing(5)
-        self.unified_top_bar = self._create_unified_top_bar()
-        self.main_layout.addWidget(self.unified_top_bar)
-        self._create_jump_bar()
-        if self.jump_bar_container:
-            self.main_layout.addWidget(self.jump_bar_container)
-        else:
-            print("INFO: Jump bar container was not created (likely no characters found).")
-        self._create_scroll_area()
-        self.main_layout.addWidget(self.scroll_area)
-        self.populate_character_cards()
-        self.sort_and_filter_characters()
-        print("MainWindow initialization complete.")
 
 
     def load_character_list(self):
@@ -2747,11 +2844,66 @@ class MainWindow(QMainWindow):
             except Exception as e: error_msg = f"Failed to launch updater: {e}"; print(f"ERROR: {error_msg}"); QMessageBox.critical(self, "Launch Error", error_msg)
     @Slot()
     def _start_json_update(self):
-        """Placeholder slot triggered by the 'Check for Data Updates' button."""
-        print("Placeholder: '_start_json_update' triggered!")
-        # We will add threading and download logic here later.
-        QMessageBox.information(self, "Update Check", "Update functionality coming soon!")
-    # --- END OF NEW METHOD ---
+        """Starts the JSON update process in a background thread."""
+        print("JSON Update: Button clicked.")
+
+        # Prevent starting multiple updates simultaneously
+        if self.json_update_worker and self.json_update_worker.isRunning():
+            print("JSON Update: Update process already running.")
+            QMessageBox.information(self, "Update in Progress", "An update check is already running.")
+            return
+
+        # Disable the button during update
+        self.json_update_button.setEnabled(False)
+        self.json_update_button.setText("Checking...") # Provide visual feedback
+
+        # --- Define GitHub API URL and Local Directory ---
+        # Make sure CHARACTER_DATA_FOLDER is defined correctly globally
+        local_dir = CHARACTER_DATA_FOLDER
+        repo_api_url = "https://api.github.com/repos/Reg0lino/Marvel-Rivals-Dashboard/contents/characters?ref=main" # Use 'main' branch
+
+        print(f"JSON Update: Starting worker. Repo: {repo_api_url}, Local Dir: {local_dir}")
+
+        # Create and configure the worker thread
+        self.json_update_worker = JsonUpdateWorker(repo_api_url, local_dir)
+
+        # Connect worker signals to MainWindow slots
+        self.json_update_worker.progress.connect(self._handle_update_progress)
+        self.json_update_worker.finished.connect(self._handle_update_finished)
+
+        # Start the thread execution (calls the worker's run() method)
+        self.json_update_worker.start()
+        print("JSON Update: Worker thread started.")
+
+    # --- ADD this new method ---
+    @Slot(int, int, str)
+    def _handle_update_progress(self, current_file, total_files, filename):
+        """Updates the button text to show download progress."""
+        # Basic progress update on the button itself
+        progress_text = f"Downloading {current_file + 1}/{total_files}..."
+        self.json_update_button.setText(progress_text)
+        # Optional: print to console as well
+        # print(f"Progress: {progress_text} ({filename})")
+
+    # --- ADD this new method ---
+    @Slot(bool, str)
+    def _handle_update_finished(self, success, message):
+        """Handles the completion signal from the worker thread."""
+        print(f"JSON Update: Worker finished. Success: {success}, Message: {message}")
+
+        # Re-enable the button and reset text
+        self.json_update_button.setEnabled(True)
+        self.json_update_button.setText("Check for Data Updates")
+
+        # Show appropriate message box
+        if success:
+            QMessageBox.information(self, "Update Complete", message)
+        else:
+            QMessageBox.warning(self, "Update Failed", message)
+
+        # Clean up the worker thread reference
+        self.json_update_worker = None
+        print("JSON Update: Worker reference cleaned up.")
 
 # --- Main Execution ---
 if __name__ == "__main__":
