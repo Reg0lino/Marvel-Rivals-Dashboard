@@ -790,13 +790,23 @@ class CharacterCard(QWidget):
             if content_added_flag: gameplay_layout.addStretch(1); self.main_layout.addWidget(gameplay_group)
             else: gameplay_group.deleteLater()
         # Balance History
-        lore_data_for_balance = self.character_data.get('lore_details', {}); balance_changes = lore_data_for_balance.get('balance_changes', []) if isinstance(lore_data_for_balance, dict) else []
-        if balance_changes and isinstance(balance_changes, list):
-             change_html_parts = [html for change in balance_changes if (html := self._format_balance_change_html(change))]
+        lore_data_for_balance = self.character_data.get('lore_details', {})
+        balance_changes_original = lore_data_for_balance.get('balance_changes', []) if isinstance(lore_data_for_balance, dict) else []
+        
+        if balance_changes_original and isinstance(balance_changes_original, list):
+             # --- MODIFICATION: Reverse the list for display ---
+             balance_changes_reversed = list(reversed(balance_changes_original))
+             # --- END MODIFICATION ---
+
+             change_html_parts = [html for change in balance_changes_reversed if (html := self._format_balance_change_html(change))] # Use the reversed list
              if change_html_parts:
-                 balance_group, balance_layout = self._create_section_group("Balance History", collapsible=True, initially_collapsed=True); widget = self._create_zoomable_widget("".join(change_html_parts))
-                 if self._add_widget_if_data(balance_layout, widget): balance_layout.addStretch(1); self.main_layout.addWidget(balance_group)
-                 else: balance_group.deleteLater()
+                 balance_group, balance_layout = self._create_section_group("Balance History", collapsible=True, initially_collapsed=True)
+                 widget = self._create_zoomable_widget("".join(change_html_parts))
+                 if self._add_widget_if_data(balance_layout, widget):
+                     balance_layout.addStretch(1)
+                     self.main_layout.addWidget(balance_group)
+                 else:
+                     balance_group.deleteLater() # Clean up if no content was actually added
         # Lore & History
         lore_data = self.character_data.get('lore_details')
         if isinstance(lore_data, dict):
@@ -979,12 +989,57 @@ class CharacterCard(QWidget):
          if content: display_content = str(content).replace('\n', '<br>'); html += f"<div style='margin-left: 15px; margin-top: 1px; {FIELD_VALUE_STYLE}'>{display_content}</div>"
          if status: html += f"<p style='margin-left: 15px; font-style: italic; color: {DETAILS_COLOR};'>{status}</p>"; return html
     def _format_balance_change_html(self, change_dict):
-         if not change_dict or not isinstance(change_dict, dict): return ""
-         date_version = change_dict.get("date_version"); changes = change_dict.get("changes")
-         if not date_version or not changes or not isinstance(changes, list): return ""
-         valid_changes = [c for c in changes if c and isinstance(c, str) and c.strip()]
-         if not valid_changes: return ""
-         html = f"<p><span style='{FIELD_LABEL_STYLE}'>{date_version}:</span></p>"; html += f"<ul style='{LIST_ITEM_STYLE}'>" + "".join(f"<li>{change}</li>" for change in valid_changes) + "</ul>"; return html
+         if not change_dict or not isinstance(change_dict, dict):
+             return ""
+         
+         original_date_version_string = change_dict.get("date_version")
+         changes_list = change_dict.get("changes")
+
+         if not original_date_version_string or not changes_list or not isinstance(changes_list, list):
+             return ""
+
+         valid_changes = [c for c in changes_list if c and isinstance(c, str) and c.strip()]
+         if not valid_changes:
+             return ""
+
+         # --- NEW: Americanize Date Logic ---
+         display_date_heading = original_date_version_string # Default if parsing fails
+         
+         # Regex to capture YY/MM/DD at the start, followed by an optional colon and the rest
+         date_parse_match = re.match(r"(\d{2})/(\d{2})/(\d{2})\s*(?::\s*(.*))?", original_date_version_string)
+         
+         if date_parse_match:
+             year_yy = date_parse_match.group(1)
+             month_mm = date_parse_match.group(2)
+             day_dd = date_parse_match.group(3)
+             remaining_text_after_date = date_parse_match.group(4) # This will be None if no colon and text after
+
+             # Reformat to MM/DD/YY
+             american_date_short = f"{month_mm}/{day_dd}/{year_yy}"
+             
+             # More descriptive date (e.g., April 11, 2025)
+             month_names = {
+                 "01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr",
+                 "05": "May", "06": "Jun", "07": "Jul", "08": "Aug",
+                 "09": "Sep", "10": "Oct", "11": "Nov", "12": "Dec"
+             }
+             month_name_str = month_names.get(month_mm, month_mm) # Fallback to number if not in map
+             full_year = f"20{year_yy}" # Assuming 21st century
+
+             # Choose your preferred format here:
+             # formatted_date = american_date_short
+             formatted_date = f"{month_name_str} {day_dd}, {full_year}"
+
+             display_date_heading = formatted_date
+             if remaining_text_after_date and remaining_text_after_date.strip():
+                 display_date_heading += f": {remaining_text_after_date.strip()}"
+         # --- END Americanize Date Logic ---
+
+         html_output = f"<p><span style='{FIELD_LABEL_STYLE}'>{display_date_heading}:</span></p>"
+         html_output += f"<ul style='{LIST_ITEM_STYLE}'>" + "".join(f"<li>{self._make_text_links_clickable(change_item)}</li>" for change_item in valid_changes) + "</ul>" # Added link clicking for change items
+         return html_output
+    
+
     def _make_text_links_clickable(self, raw_text):
         if not raw_text: return ""
         url_pattern = re.compile(r'(\b(?:https?://|www\.)[^\s<>()"\']+)', re.IGNORECASE)
@@ -1324,8 +1379,10 @@ class MainWindow(QMainWindow):
         for name, card in self.character_cards.items():
             show_card = True
             if role_filter_active:
-                 char_role = card.summary_data.get('role', '').lower();
-                 if selected_role_filter.lower() != char_role: show_card = False
+                # Get role from the full data, ensure it's a string before lowercasing
+                char_role_data = card.character_data.get('role', '')  # Get role from the full data
+                char_role = char_role_data.lower() if isinstance(char_role_data, str) else ''  # Ensure it's a string before lowercasing
+                if selected_role_filter.lower() != char_role: show_card = False
             if show_card and search_term:
                 if search_term not in card.character_name.lower(): show_card = False
             card.setVisible(show_card);
