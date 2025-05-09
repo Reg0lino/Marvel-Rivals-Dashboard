@@ -171,3 +171,31 @@ QLabel#JumpBarLabel { padding: 0px; margin: 1px; border-radius: 3px; }
 QLabel#JumpBarLabel:hover { background-color: rgba(255, 255, 255, 0.1); }
 
 QGroupBox#JumpBarGroupBox > QWidget { background-color: transparent; border: none; padding: 0px; margin: 0px; }
+
+QTabBar::tab {
+    color: #DDDDDD;
+    background-color: #353535;
+    padding: 8px 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #222222;
+    border-bottom: none;
+    margin-right: 2px;
+}
+
+QTabBar::tab:selected {
+    color: #FFFFFF;
+    background-color: #4A4A4A;
+    border: 1px solid #555555;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+QTabBar::tab:hover {
+    background-color: #505050;
+}
+
+QTabWidget::pane {
+    border: 1px solid #555555;
+    border-top: none;
+    background-color: #2D2D2D;
+}
