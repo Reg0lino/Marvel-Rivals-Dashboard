@@ -5,23 +5,23 @@
     "health": 275,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#F97316",
-    "color_theme_secondary": "#EF4444"
+    "color_theme": "#84CC16",
+    "color_theme_secondary": "#F97316"
   },
   "abilities": [
     {
       "name": "BURST ACORN",
       "keybind": "LMB",
       "type": null,
-      "description": "Shoot bouncing Burst Acorns. Arced projectile that generates a spell field upon impact.",
-      "casting": null,
-      "damage": "110",
+      "description": "Shoot bouncing Burst Acorns",
+      "casting": "Arced projectile that generates a spell field upon impact",
+      "damage": 110,
       "damage_falloff": "70% falloff at 3m",
       "fire_rate_interval": "1.49 acorns per second",
       "ammo": 10,
       "critical_hit": false,
       "cooldown": null,
-      "range": "3m spherical radius",
+      "range": null,
       "projectile_speed": "80 m/s",
       "charges": null,
       "duration": null,
@@ -33,7 +33,7 @@
       "name": "TAIL BOUNCE",
       "keybind": "SHIFT",
       "type": null,
-      "description": "Rocket upwards with a bounce of her tail.",
+      "description": "Rocket upwards with a bounce of her tail",
       "casting": null,
       "damage": null,
       "damage_falloff": null,
@@ -53,7 +53,7 @@
       "name": "MAMMAL BOND",
       "keybind": "E",
       "type": null,
-      "description": "Reload Burst Acorns and can use an ability without cooldown once in a short duration.",
+      "description": "Reload Burst Acorns and can use an ability without cooldown once in a short duration",
       "casting": null,
       "damage": null,
       "damage_falloff": null,
@@ -71,11 +71,11 @@
     },
     {
       "name": "SQUIRREL BLOCKADE",
-      "keybind": "RMB",
+      "keybind": null,
       "type": null,
-      "description": "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy. Charged projectile with an arced trajectory.",
-      "casting": null,
-      "damage": "35",
+      "description": "Launch an acorn to unleash Squirrel Guards, Imprisoning the first hit enemy",
+      "casting": "Charged projectile with an arced trajectory",
+      "damage": 35,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
@@ -84,21 +84,21 @@
       "range": null,
       "projectile_speed": "20 - 60 m/s (Maximum speed is achieved after 0.7s of charging)",
       "charges": null,
-      "duration": "1.33s",
+      "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Maximum charge time: 1.5s"
+      "details": "IMPRISON DURATION - 1.33s"
     }
   ],
   "ultimate": {
     "name": "UNBEATABLE SQUIRREL TSUNAMI",
     "keybind": "Q",
     "type": null,
-    "description": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures. The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.",
+    "description": "Summon a horde of squirrels to charge forward, dealing damage while bouncing against structures",
     "casting": null,
-    "damage": "150",
+    "damage": 150,
     "range": "Length: 3m, Width: 5m, Height: 1.75m",
-    "effect": null,
+    "effect": "The squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.",
     "duration": "10s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -107,8 +107,7 @@
     "bonus_health_details": null,
     "energy_cost": 2800,
     "details": {
-      "Squirrel Horde Health": "300",
-      "new_effect_description": "the squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly"
+      "SQUIRREL_HORDE_HEALTH": 300
     }
   },
   "passives": [],
@@ -155,24 +154,19 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "Eat nuts, and kick butts.",
+    "ingame_bio_quote": "\"Eat nuts, and kick butts.\"",
     "ingame_bio_text": "Possessing only the powers of a common squirrel, somehow Doreen Green manages to defeat seemingly invincible enemies in the most unexpected ways. Any foe who counts her out is bound to fall at the hands of the Unbeatable Squirrel Girl!",
-    "ingame_story_intro": "Hey, don't ever call Tippy-Toe a pet, okay? She's my best friend.\nDoreen Green is more than just a computer science student at Empire State University. She also happens to have the powers of a squirrel AND the powers of a girl! With her BFFF (Best Furry Friend Forever) Tippy-Toe by her side, Doreen eats nuts and kicks butts as the unbeatable Squirrel-Girl!\nAfter the Timestream Entanglement, things got weirder. With all of New York City under attack by creatures of the night, Squirrel Girl assembled an adorable army to reclaim Central Park from the clutches of Dracula. Here's hoping vampires don't like the taste of squirrel!",
+    "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Bushwhack!",
-        "content": "\"Well, that should take care of them!\" the Unbeatable Squirrel Girl said as she stood over a group of freshly-defeated attackers. \"Another horde of vampires down for the count. Good work, everybody!\"\nAs Squirrel Girl praised her army of rodent companions for their efforts, the tiny creatures began to chitter with delight. They would do anything for their human friend, Doreen Green — even risk their lives against the seemingly endless throng of nocturnal nightmares that had emerged after an ancient curse trapped New York City in a state of perpetual night.\n\"You've definitely earned a trip to Mr. Hickory's fresh roasted nut cart on the corner of 55th and — \"\nBefore Squirrel Girl could finish that thought, her BFFF — Best Furry Friend Forever — Tippy-Toe scurried past her fellow squirrels and climbed right onto Doreen's shoulder. As Tippy began to chirp into Squirrel Girls' ear, Doreen's ever-present smile dropped a bit.\n\"Wait... that can't be right...\" Squirrel Girl said. \"A giant squirrel... fell out of the sky...? Here in Central Park...? Are you sure, Tippy?\"\nTippy-Toe leapt from Squirrel Girl's shoulder and bolted back towards the heart of the park. Before she disappeared into the woods, she turned around and beckoned for her friend to come along.\n\"Guess Mr. Hickory is gonna have to keep his nuts warm a little longer,\" Squirrel Girl said, shrugging as she followed Tippy-Toe into the dark forest. The rest of the squirrels stayed close behind Doreen, ready to take on whatever threats might be lurking in the shadows.\nAs soon as they reached a clearing, Squirrel Girl realized that Tippy-Toe hadn't been exaggerating in the slightest. There, int he middle of a small impact crater, was the biggest squirrel Doreen had ever seen. Her furry friends surrounded the creature and stared in awe. But something was clearly wrong. The giant rodent was hurt. Bad.\n\"Excuse me... ma'am...?\" Squirrel Girl said cautiously. \"You look like you could use a friend...\"\n\"Aye...\" the enormous squirrel replied, with pain its voice. \"I am so far from home... Yet the scent of this realm seems oddly familiar... Tell me, to where have I fallen, dear child...?\"",
-        "status": null
-      },
-      {
-        "title": "BFFFS",
-        "content": "\"Can you believe it, Tippy?\" Squirrel Girl asked, her voice rising to a high pitched squeal. \"We got invited to Krakoa for the Hellfire Gala! It's only, like, the most important event of the year... Whatever year this is...\"\nJust a few days ago, Doreen Green — the Unbeatable Squirrel Girl — and her trusty rodent sidekick Tippy-Toe were fighting for their lives in a New York City that had been thrust into eternal darkness and infested with vampires. So getting whisked away through some sort of magic portal to a living Mutant island 75 years in the future wasn't exactly on her Bingo card. But she wasn't complaining. After the fight against Dracula, she and her squirrel friends were in desperate need of a vacation. And there was no better place to kick back and relax than on a tropical island in the middle of the Pacific Ocean!",
+        "content": "\"Well, that should take care of them!\" the Unbeatable Squirrel Girl said as she stood over a group of freshly-defeated attackers. \"Another horde of vampires down for the count. Good work, everybody!\"As Squirrel Girl praised her army of rodent companions for their efforts, the tiny creatures began to chitter with delight. They would do anything for their human friend, Doreen Green — even risk their lives against the seemingly endless throng of nocturnal nightmares that had emerged after an ancient curse trapped New York City in a state of perpetual night.\n\"You've definitely earned a trip to Mr. Hickory's fresh roasted nut cart on the corner of 55th and — \"\nBefore Squirrel Girl could finish that thought, her BFFF — Best Furry Friend Forever — Tippy-Toe scurried past her fellow squirrels and climbed right onto Doreen's shoulder. As Tippy began to chirp into Squirrel Girls' ear, Doreen's ever-present smile dropped a bit.\n\"Wait... that can't be right...\" Squirrel Girl said. \"A giant squirrel... fell out of the sky...? Here in Central Park...? Are you sure, Tippy?\"",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "date_version": "24/12/06:Season 0: Dooms' RiseLaunch",
         "changes": [
           "Squirrel Girl was released as the 29th character to be introduced to Marvel Rivals as a Duelist hero.",
           "Added 2 new costumes: Arctic Lemmus and Urban Hunter.",
@@ -181,7 +175,7 @@
         ]
       },
       {
-        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
+        "date_version": "24/12/19:Version 20241219/Winter CelebrationEvent",
         "changes": [
           "Enemies defeated by Unbeatable Squirrel Tsunami that get KO’d two seconds after being released now count towards the achievement!"
         ]
@@ -199,7 +193,7 @@
         ]
       },
       {
-        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "date_version": "25/01/10:Version 20250110/Season 1: Eternal Night FallsLaunch",
         "changes": [
           "Addition of a new effect to the Unbeatable Squirrel Tsunami: the squirrels will rush towards the nearest enemy after bouncing instead of bouncing randomly.",
           "Reduce the squirrel tsunami health from 600 to 300."
@@ -212,20 +206,26 @@
         ]
       },
       {
-        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "date_version": "25/04/11:Version 20250411/Season 2: Hellfire GalaLaunch",
         "changes": [
           "Added 1 new costume: Nut Rocker."
         ]
       },
       {
-        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
+        "date_version": "25/04/25:Version 20250425/Giant-Size Brain BlastEvent",
         "changes": [
           "Corrected an issued with Squirrel Girl's default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!"
+        ]
+      },
+      {
+        "date_version": "25/05/09:",
+        "changes": [
+          "Added 1 new costume: Sunshine Squirrel."
         ]
       }
     ],
     "official_quote": null,
-    "official_description": "Squirrel Girl is a Duelist hero in Marvel Rivals, and is the 29th hero introduced to the game's roster.\nShe has team-up abilities that work in conjunction with Spider-Man."
+    "official_description": "Squirrel Girl is a Duelist hero in Marvel Rivals, and is the 29th hero introduced to the game's roster. She has team-up abilities that work in conjunction with Spider-Man."
   },
   "background": {
     "real_name": "Doreen Allene Green",
@@ -261,12 +261,12 @@
   },
   "meta_stats": {
     "tier": "C",
-    "win_rate": "45.02%",
-    "wr_change": "-1.57%",
-    "pick_rate": "10.13%",
-    "pr_change": "-3.01%",
-    "ban_rate": "0.57%",
-    "matches": "151,134"
+    "win_rate": "45.35%",
+    "wr_change": "-1.24%",
+    "pick_rate": "10.47%",
+    "pr_change": "-2.67%",
+    "ban_rate": "0.53%",
+    "matches": "155,899"
   },
   "data_sources": {
     "wiki": [],

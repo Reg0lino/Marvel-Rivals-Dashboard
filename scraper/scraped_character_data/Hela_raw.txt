@@ -92,6 +92,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 HELA
@@ -135,19 +137,14 @@ Reaper's Embrace
 Yami no Karasu
 Army of Hel
 Goddess of Death
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Hela
+BRAIN BLAST
 Great Galaxy
-Will of Galacta
 Pocket Galaxies
-Empress of the Cosmos
 Cinders of Chaos
-Yami no Karasu
 Soul Servants
-Goddess of Death
 See
 :
 List of Sprays
@@ -165,6 +162,16 @@ Will of Galacta
 Empress of the Cosmos
 Yami no Karasu
 Goddess of Death
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 NIGHTSWORD THORN
@@ -449,6 +456,9 @@ Ultimatum
 Thor
 (1996) #354
 Trivia
+Hela's first appearance was in
+"Journey Into Mystery" (1952) #102
+.
 Despite being the daughter of
 Loki
 in the comics, there is a possibility that Loki and

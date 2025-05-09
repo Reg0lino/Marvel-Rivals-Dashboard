@@ -91,6 +91,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 GROOT
@@ -128,15 +130,12 @@ Unplanned Stumbles
 Holiday Happiness
 Next Journey
 Guardians of the Galaxy Vol. 3
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Groot
+BRAIN BLAST
 Say Cheese!
-Holiday Happiness
 Awesome Dance
-Guardians of the Galaxy Vol. 3
 See
 :
 List of Sprays
@@ -149,6 +148,16 @@ List of Nameplates
 Groot
 Holiday Happiness
 Guardians of the Galaxy Vol. 3
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 VINE STRIKE
@@ -406,6 +415,9 @@ in the "Of Gods and Guardian's"
 Gallery
 card.
 Trivia
+Groot's first appearance was in
+"Tales to Astonish" (1959) #13
+.
 "I am Groot" is all Groot can say out loud. However, when he interacts with
 Emma Frost
 , she can hear his voice communicating normally through telepathy. Frost notes that he is very polite.

@@ -5,15 +5,15 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#84CC16",
-    "color_theme_secondary": "#D9F99D"
+    "color_theme": "#FDE047",
+    "color_theme_secondary": "#84CC16"
   },
   "abilities": [
     {
       "name": "LIFE ENERGY BLAST",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
-      "description": "Fire an energy thorn and regain one Life Orb after a critical hit.",
+      "description": "Launch a fast moving thorn projectile to deal damage. This ability is not affected by damage falloff. Landing critical hits with this ability instantly generates one Life Orb.",
       "casting": "Single-cast projectile with delayed impact",
       "damage": "55 per round",
       "damage_falloff": null,
@@ -30,31 +30,10 @@
       "details": null
     },
     {
-      "name": "SPORE SLUMBER",
-      "keybind": "SHIFT",
+      "name": "HEALING FLOWER",
+      "keybind": null,
       "type": null,
-      "description": "Throw a spore to Sedate the nearest enemy.",
-      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
-      "damage": 10,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "15s",
-      "range": "3m spherical radius",
-      "projectile_speed": null,
-      "charges": null,
-      "duration": "3.5s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "A Mantis illusion will manifest beside the sedated heroes. Allies can attack this illusion to awaken the affected hero\nThe illusion has low health.\nEnemies hit by the ability will be stunned for 3.5 seconds, or until they take damage.\nEnemies will not wake up if they take damage for the first .5 seconds of the stun. This allows Mantis to shoot once immediately after using the ability without waking the opponent up.\nSpore Slumber is a very versatile ability to help secure takedowns on key targets, or as a defensive measure against diving opponents.\nIt is often useful to wait for your team and collectively damage the stunned opponent at the same time. This is a great way to secure a kill when they have more health than Mantis alone can deal with.",
-      "ability_health": 100
-    },
-    {
-      "name": "ALLIED INSPIRATION",
-      "keybind": "E",
-      "type": null,
-      "description": "Consume Life Orbs to grant allies a Damage Boost.",
+      "description": "Places a heal-over-time effect on her targeted ally, that lasts for 8 seconds. Upon casting, the target also gains an instant heal of 55 health. This ability consumes one Life Orb. Effects can be stacked, up to a maximum of 16 seconds.",
       "casting": "Targeted",
       "damage": null,
       "damage_falloff": null,
@@ -68,14 +47,33 @@
       "duration": "8s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Life Orb charges & cooldowns shared between\nAllied Inspiration\n,\nNatural Anger\n, and\nHearing Flower",
-      "damage_boost": "12%"
+      "details": "Provides two types of healing effects: One-time Healing and Healing Over Time"
+    },
+    {
+      "name": "ALLIED INSPIRATION",
+      "keybind": "E",
+      "type": null,
+      "description": "Consume Life Orbs to grant allies a Damage Boost. This ability consumes one Life Orb. Effects can be stacked, up to a maximum of 16 seconds.",
+      "casting": "Targeted",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s per Life Orb",
+      "range": null,
+      "projectile_speed": null,
+      "charges": 4,
+      "duration": "8s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Life Orb charges & cooldowns shared between Allied Inspiration, Natural Anger, and Healing Flower"
     },
     {
       "name": "NATURAL ANGER",
       "keybind": "F",
       "type": null,
-      "description": "Consume Life Orbs to grant herself a Damage Boost.",
+      "description": "Consume Life Orbs to grant herself a Damage Boost. This ability consumes one Life Orb.",
       "casting": "Instant Cast",
       "damage": null,
       "damage_falloff": null,
@@ -89,67 +87,68 @@
       "duration": "8s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Life Orb charges & cooldowns shared between\nAllied Inspiration\n,\nNatural Anger\n, and\nHearing Flower",
-      "damage_boost": "12%"
+      "details": "Life Orb charges & cooldowns shared between Allied Inspiration, Natural Anger, and Healing Flower"
     },
     {
-      "name": "HEALING FLOWER",
-      "keybind": null,
+      "name": "SPORE SLUMBER",
+      "keybind": "SHIFT",
       "type": null,
-      "description": "Consume Life Orbs to grant allies Healing Over Time.",
-      "casting": "Targeted",
+      "description": "Throw a spore to Sedate the nearest enemy. Enemies hit by the ability will be stunned for 3.5 seconds, or until they take damage. Enemies will not wake up if they take damage for the first .5 seconds of the stun. This allows Mantis to shoot once immediately after using the ability without waking the opponent up. A Mantis illusion will manifest beside the sedated heroes. Allies can attack this illusion to awaken the affected hero.",
+      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
+      "damage": 10,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": "3m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "3.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Ability Health: 100.  A very versatile ability to help secure takedowns on key targets, or as a defensive measure against diving opponents. It is often useful to wait for your team and collectively damage the stunned opponent at the same time. This is a great way to secure a kill when they have more health than Mantis alone can deal with."
+    },
+    {
+      "name": "NATURE'S FAVOR",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs.",
+      "casting": null,
       "damage": null,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
       "critical_hit": null,
-      "cooldown": "3s per Life Orb",
+      "cooldown": null,
       "range": null,
       "projectile_speed": null,
-      "charges": 4,
+      "charges": null,
       "duration": "8s",
-      "movement_boost": null,
+      "movement_boost": "1.5m/s",
       "energy_cost_details": null,
-      "details": "Life Orb charges & cooldowns shared between\nAllied Inspiration\n,\nNatural Anger\n, and\nHearing Flower\nHealing Flower\nprovides two types of healing effects: One-time Healing and Healing Over Time",
-      "healing": "55 on cast - 20/s"
+      "details": "Healing: 12.5/s. Trigger Condition: Out of combat for over 3s. Provides 40% increased movement speed whenever she's not damaged for 3 seconds. In addition, whenever Mantis consumes Life Orbs, she also gains a self-heal-over-time for 8 seconds."
     }
   ],
   "ultimate": {
     "name": "SOUL RESURGENCE",
     "keybind": "Q",
     "type": null,
-    "description": "Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health.",
+    "description": "Release energy around her while moving, providing Healing Over Time and Movement Boosts for surrounding allies. Excess healing converts to Bonus Health. This ability lasts for 8 seconds and affects all allies within the radius around her, as well as Mantis herself. In addition, she also heals all allies in range of the ability for 200 health upon use. If her allies are at full health, 70% of the excess healing is converted into bonus health until the Ultimate is over. The over-healing can only give each player up to 100 extra health. Mantis also benefits from the speed boost, healing and over-health, making her much harder to take down. This is the second most powerful healing ability in the game (after Luna Snow's Fate of Both Worlds), being clutch in moments where the team is getting bombarded by enemy fire. It can change the course of the battle, being specially useful to contest objectives since her entire team will be hard to take down even with focused fire. Mantis can use Soul Resurgence if she reaches low health, or is taking a lot of damage, to ensure that she is able to stay in the fight.",
     "casting": "Persistent spell field that surrounds the caster",
     "damage": null,
     "range": "15m spherical radius",
-    "effect": null,
+    "effect": "Healing Over Time and Movement Boosts",
     "duration": "8s",
     "health_upon_revival": null,
     "slow_rate": null,
     "projectile_speed": null,
     "movement_boost": "3m/s",
-    "bonus_health_details": "100 maximum health on overheal",
+    "bonus_health_details": "100 maximum health on overheal. 70% of excess healing converted to bonus health.",
     "energy_cost": 3700,
-    "details": null,
-    "healing": "200 on cast - 150/s (Reduced to 105/s when overhealing)"
+    "details": "Healing: 200 on cast - 150/s (Reduced to 105/s when overhealing)"
   },
-  "passives": [
-    {
-      "name": "NATURE'S FAVOR",
-      "keybind": null,
-      "type": null,
-      "description": "Receive a Movement Boost when not injured and Healing Over Time when consuming Life Orbs.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": "Out of combat for over 3s",
-      "effect_boost": null,
-      "speed_details": null,
-      "details": null,
-      "healing": "12.5/s",
-      "movement_boost": "1.5m/s"
-    }
-  ],
+  "passives": [],
   "teamups": [
     {
       "name": "Guardian Revival",
@@ -192,71 +191,61 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Evil is a rejection of life. Thus, I am a guardian against evil.\"",
-    "ingame_bio_text": "Mantis always knows exactly how you're feeling, thanks to her strong empathic powers. Her alien ability to alter the emotions of others comes in handy on the battlefield, but Mantis only finds true happiness for herself when she is with her fellow Guardians of the Galaxy.\nAfter being captured by the Collector and put on display at his theme park, Mantis managed to escape with the help of her fellow captives, Sai and Jeff. Now, Mantis travels the spaceways in hopes of reuniting with her team, while welcoming other displaced souls into the Guardians' found family.",
-    "ingame_story_intro": null,
+    "ingame_bio_quote": "\"Life energy is a powerful weapon against evil.\"",
+    "ingame_bio_text": "Mantis uses her impressive mental abilities and her penchant for plant control to anchor any team she fights alongside. Her powers tap into a limitless flow of life energy, gently nourishing everything she touches.",
+    "ingame_story_intro": "Mantis always knows exactly how you're feeling, thanks to her strong empathic powers. Her alien ability to alter the emotions of others comes in handy on the battlefield, but Mantis only finds true happiness for herself when she is with her fellow Guardians of the Galaxy. After being captured by the Collector and put on display at his theme park, Mantis managed to escape with the help of her fellow captives, Sai and Jeff. Now, Mantis travels the spaceways in hopes of reuniting with her team, while welcoming other displaced souls into the Guardians' found family.",
     "hero_stories": [
       {
         "title": "Mantis' Fled",
-        "content": "The Collector found her in his Museum and asked her where she had come from.\nMantis did not know. One moment she had been with her fellow Guardians and the next...\n\"Fascinating,\" the Collector said. \"There is about to be a vacancy. I hope you last longer...\"\nShe waited for her moment as the Collector fiddled the displays in his new Theme Park. He made her a display, ready to display her to his audiences inside a glass-walled tank featured prominently in a vast hall filled with other life forms the intergalactic Master of the Universe found interesting. Many were humanoid, but the others ran the spectrum of physical shapes from globs of protoplasm to members of the Brood, their hive mind forcing a constant thrum in the back of Mantis' mind. It was tough being a telepath sometimes, especially in the presence of so many fearful minds reaching out from their cages.\nOne of those minds was peculiar and interesting to her. Unlike the others, it was all excitement, emotions turned all the way up, like every thought it had ended in multiple exclamation points. He was full of a kind of joy that Mantis found infectious, even though she was held prisoner in a psychotic museum in deep space a thousand light-years from the nearest planet.\nJeff\n. Jeff!\nShe smiled at his name and thought, I would very much like to meet you, Jeff.\n!!!!!!!\nAnother mind, physically closer to Mantis, also drew her attention. A human woman whose mind teemed with memories of war. No, not human, something close...She was a deadly warrior. Mantis, who knew a little something about being deadly herself, thought that if she ever managed to escape, she might enjoy taking the battlefield with this woman. She called herself after the weapons she wielded:\nSai\n. But in her mind was a deeper name, one Mantis would have to ask if she ever got to talk with this warrior.\nThat's far enough, get out.\nAnd with that, Mantis lost her connection to Sai. She was psionic, and even that last thought screamed vengeance, so she returned to listen to Jeff for a little additional dose of optimism.\nThere were so many others, but Mantis enjoyed the company of these two. Jeff because of his irrepressible joy, and the few bits of Sai because she put Mantis in mind of escape, and revenge. She started to form a plan. Well, another plan. She had been forming plans to escape practically since the moment she had arrived.\nThe other feature of this hall in the Theme Park was its garden. The Collector was not only interested in animal organisms. Huge trees, ferns, flowering vines, mosses and more bizarre forms of vegetation grew over and around the tanks containing the exhibits-including Mantis. Those plants were her way out.\nFor a time, she had tried to use her telepathic powers to influence the Collector's cleaning and maintenance staff, or get one of the guards to open her tank. Then, she had tried to use her powers over plants to get them to grow over to her tank and break it apart with their roots. Neither worked, and Mantis realized the Collector had built this tank to dampen her active psionic powers.\nShe had another option to escape, but it would be an act of desperation—and if the Collector had blocked it as well, Mantis didn't want to know that just yet.\nAfter what felt like weeks, though, he forced her hand.\nHer tank was wheeled into a large arena, and placed inside a larger transparent chamber. The stands were packed with spectators, the noise from their minds nearly intolerable to Mantis, filled with eager bloodlust she couldn't shut out. She reached out, probing the barriers that imprisoned her and found that the Collector was still somehow blocking her telepathic powers.\nAnother tank came into the arena, and inside it was another Mantis. Even before their individual tanks dissolved and the Collector himself called out over the speaker system, Mantis understood what he wanted. \"You see I have another duplicate in my collections!\" he proclaimed. \"These infinite Mantises are intolerable! So again, my people, I have transformed this excess into entertainment. Two Mantises enter...one Mantis leaves!\"\nThe crowd exploded.\nThe other Mantis looked at her. How long had she been imprisoned here? Had she too tried to escape? Had anyone tried to rescue her? In this timeline, was she one of the Guardians of the Galaxy, or...? Mantis knew she would never know. She didn't have time to find out, and she felt the waves of anguish and desperation radiating from the other Mantis. There was no barrier between them. Mantis tried to calm her, but the frenzied crowd made that impossible. She steeled herself to fight, but then the other Mantis broke through.\nI can't do this anymore.\nMantis couldn't help her response: Two of us enter...\n... One leaves, the other finished. You. Then the Collector will have no Mantises, as it should be. What?\nThe mind of the other Mantis radiated an exhaustion and despair so intense Mantis almost tried to break off their connection. But she couldn't. One curse of being a telepath is you always felt like you owed someone your attention, since you spent so much time sneaking around in their mind.\nYou can go. You just have to leave your body behind. I'll help.\nNo, we can go together—\nWe can't. I don't have the strength. I can push you along a little, but I can't pull myself out of here. Too many battles...just too much...\nThe other Mantis' attention wavered, and Mantis realized she was only going to get one chance at this. She had to take it before the other Mantis faded away.\nGrateful for the other Mantis' sacrifice, Mantis gathered her mind and focused on the shimmering essence of the astral plane, unseen but omnipresent. She felt a tinge of remorse. She would miss this body...but she had missed all the others, too. Now was her chance.\nShe felt the other Mantis pouring energy into the link Mantis was building to the astral plane. The link would only hold for a short time before the Collector detected and severed it. Go, the other Mantis said. I can't do this for long.\n\"You win,\" Mantis told her other self — and with a sob, she let her body go. One Mantis leaves, she thought, and it was going to be her.\nDo me a favor, the other Mantis said as her consciousness faded away. Come back here sometime and pay the Collector a little visit.\nIn the astral plane, the Collector's Theme Park was a scintillating stew of thoughts and emotions, emanating from hundreds of different life forms. Mantis floated free of her enclosure and dove into a thicket of alien plant life, feeling the sensation of the vegetative consciousness enclosing her. She greeted the plants and made her request. In a rustle of leaves and a twitch of vines, they agreed.\nFrom the cells of vine and flower, branch and bark, Mantis built herself a new body and sank into it from the astral plane. It was a draining process but also a thrill, as she felt her physical self become real again. She thanked the plants and they rustled their acknowledgement. All right, Collector, she thought. Now we'll see what happens when one of your prize exhibits gets loose.\nWhen she stepped from the garden, fully formed and Mantis again, alarms were shrieking. She knew which way the hangar was, where huge spacecraft were docked, but she had something else to do first.\nAngling across the Collector's Museum, Mantis got close to her old enclosure.\nIt stood empty, and across the gallery Sai stood in her own cage looked at Mantis. Didn't call out, didn't ask for help. Just looked.\nMantis ran to her cage, knowing she didn't have much time. The Collector's guards wouldn't be looking around here at first, but they would get around to it sooner or later. \"Your name is Sai, right?\"\nThe woman in the cage looked at her.\n\"You cut me out of your head,\" Mantis said. \"Would you like to get out of here? We might have to fight.\" Sai smiled a smile as thin and deadly as her blades.\nAt that moment one of the Collector's guards lumbered around the corner and caught sight of Mantis. The guard, a massive humanoid with tusks and a clubbed tail, did a double-take, looking from her back to her tank—where her previous body lay in full view. \"Wha—\"\nThe guard never got a chance to finish. Mantis leapt into a spinning kick that snapped his head back, and before he could recover she had landed, kicked his legs out from under him, and landed an elbow in the middle of his forehead. When he hit the ground, she gave him a little telepathic encouragement to stay down. His agonized grimace turned into a sleepy, peaceful smile.\n\"Nice,\" Sai said as Mantis opened her cage. \"But not permanent.\"\n\"It just has to last until we're gone,\" Mantis said, already moving again.\n\"Wait,\" Sai said when Mantis turned left toward another collection instead of right toward the hangar.\n\"There's someone else we have to get,\" Mantis.\n\"Who?\"\nMantis wasn't sure how to answer. \"Someone else I heard in my head,\" she said. \"His name is Jeff.\nHe's...different.\"\n\"We don't have time,\" Sai said.\n\"I had time for you,\" Mantis said. \"I'm not leaving him here.\"\nSai held her gaze for a long moment, then rolled her eyes and gave up. \"Then let's make it fast.\"\nMantis was already moving, homing in on the unmistakable psionic sensation of Jeff's mind. She picked up the pace, dodging a patrol of the Collector's guards, and sensed that Jeff was just up ahead, in the —\n\"MMMRRRAAARRRR!!!!\"\nHe saw her and a huge grin spread over his face. A really huge grin. Filled with several rows of serrated teeth.\n\"...Jeff?\" Mantis couldn't quite believe it.\nHe bounded across the sand to the wall of his tank, which was kind of like a terrarium. What kind of creature was this? Mantis had seen sharks in her previous time on Earth, but this was a shark with...legs?\n\"MMMRRRAAARRRR!!!\"\n\"He's going to draw the guards,\" Sai said, her jaw tight.\nMantis smiled despite everything. They were on the run inside the Collector's Museum, with no idea how to get or where they would go if they did get off — yet there was something about Jeff that made her smile like she knew everything was going to be all right.\n\"Mmmrrrar?\" Jeff got quieter as he noticed the way Sai was looking at him.\n\"No, you're coming,\" Mantis said.\nShe broke the latch on his tank just as a detachment of guards came into view. They shouted and Mantis tried to reach out telepathically to divert them, but Sai was already there. Her blades flashed in a glittering dance, and the guards were down.\n\"Mrrrar,\" Jeff said appreciatively. Mantis got his tank open and he hopped out.\n\"Let's go,\" she said. She ran in the direction of the hangar, Sai at her side and Jeff bounding along right behind them.\n\"So, you wanted to know my real name, right?\" Sai said as they ran.\nMantis nodded. \"You're hiding your true self, even if you can't hide your emotions.\"\n\"Why does it matter to you?\"\nMantis stopped. \"I was curious. Also, for someone who just got sprung from the Collector's Museum, you sure are giving your rescuer a hard time. Would you rather go back?\"\n\"No,\" Sai said evenly. \"I just wanted to know what made us different.\"\nMantis pointed at Jeff. \"He made me believe it was possible, just because he's an optimist. And you, well...I knew you'd be someone I wanted on my side in a fight.\"\n\"Correct,\" Sai said. \"And it's Psylocke.\"\nMantis smiled and pointed. \"I like that. The hangar is this way. Let's get out of here.\"\nThey ran, and as they got to the access tunnel leading to the hangar they skidded around a corner and nearly ran into a pair of the Collector's guards.\nJeff charged into action, jaws wide open as he leapt on the closest guard, who barely got an arm up to stop Jeff from chewing his face off. Mantis stunned the guard with a punch to the back of the neck and Jeff spun around to terrorize another guard, who backed away from him straight into the range of Sai's weapons. She dropped him without a sound.\n\"Come on,\" Mantis said, and they headed for the hangar.\n\"Do you know how to fly any of these ships?\" Sai asked.\n\"Some of them,\" Mantis said. \"The rest I'm sure I can figure out.\"\n\"Mrrrarrr!\" Jeff said, and Mantis felt like he was agreeing with her.\nTogether, they entered the hangar, and Mantis saw a likely ship. They were going to get out of here. Then she would find out how she'd gotten here, who was responsible.\n\"MRRRAAARRRR!!!\"\nAnd when she knew that, she would come back here, to destroy the Theme Park and turn its exhibits on the Collector himself. Let him learn what it was like to be fodder for someone else's love of violence.\nSai was looking at her with a strange expression as Mantis fired up the control panel on their ship.\n\"What are you thinking?\"\n\"Oh, nothing,\" Mantis said. \"Jeff, you ready to get out of here?\"\n\"MMMRRRAAAARRRR!!!\"",
-        "status": null
-      },
-      {
-        "title": "Cotati's Counterstrike",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
-      },
-      {
-        "title": "Curse of Celestial Madonna",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "The Collector found her in his Museum and asked her where she had come from. Mantis did not know. One moment she had been with her fellow Guardians and the next... \"Fascinating,\" the Collector said. \"There is about to be a vacancy. I hope you last longer...\"",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch\nMantis\nwas released as the 16th character to be introduced to\nMarvel Rivals\nas a\nStrategist\nhero.",
-          "Added 3 new costumes:\nKnowhere Corp\n,\nGuardians of the Galaxy Vol. 3\n, and\nGalactic Wings\n.",
-          "Added the\nVictory in Bloom\nachievement.",
-          "Added to the\nGuardian Revival\nTeam-Up Ability\nwith\nAdam Warlock\nand\nStar-Lord\n."
+          "Mantis was released as the 16th character to be introduced to Marvel Rivals as a Strategist hero.",
+          "Added 3 new costumes: Knowhere Corp, Guardians of the Galaxy Vol. 3, and Galactic Wings.",
+          "Added the Victory in Bloom achievement.",
+          "Added to the Guardian Revival Team-Up Ability with Adam Warlock and Star-Lord."
         ]
       },
       {
-        "date_version": "25/01/08:",
+        "date_version": "25/01/08",
         "changes": [
-          "Fixed a visibility issue that could sometimes occur when\nAdam Warlock\n/\nMantis\n/\nStar-Lord\nwere in soul form within the mist on\nWakanda\nmaps where they couldn't see or be seen by others."
+          "Fixed a visibility issue that could sometimes occur when Adam Warlock/Mantis/Star-Lord were in soul form within the mist on Wakanda maps where they couldn't see or be seen by others."
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Launch\nReduce\nNature's Favor\nmovement boost from 2.5m/s to 1.5m/s."
+          "Reduce Nature's Favor movement boost from 2.5m/s to 1.5m/s."
         ]
       },
       {
-        "date_version": "25/01/17:",
+        "date_version": "25/01/17",
         "changes": [
-          "Added 1 new costume:\nJade Maiden\n."
+          "Added 1 new costume: Jade Maiden."
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
-          "Launch\nReduce base health from 275 to 250.",
-          "Effects of\nHealing Flower\nand\nAllied Inspiration\ncan be stacked, up to a maximum of 16 seconds.",
-          "Added 1 new costume:\nFlora Maiden\n(unlocked from the\nCerebro Database\nseason missions)"
+          "Reduce base health from 275 to 250.",
+          "Effects of Healing Flower and Allied Inspiration can be stacked, up to a maximum of 16 seconds.",
+          "Added 1 new costume: Flora Maiden (unlocked from the Cerebro Database season missions)"
         ]
       },
       {
-        "date_version": "25/04/30:\nVersion 20250430",
+        "date_version": "25/04/30: Version 20250430",
         "changes": [
-          "Increase the hit damage of\nLife Energy Blast\nfrom 50 to 55."
+          "Increase the hit damage of Life Energy Blast from 50 to 55."
         ]
       }
     ],
-    "official_quote": "Life energy is a powerful weapon against evil.",
-    "official_description": "Mantis\nis a Strategist\nhero\nin\nMarvel Rivals\n, and is the 16th hero introduced to the game's roster.\nShe has a team-up ability that works in conjunction with\nAdam Warlock\nand\nStar-Lord\n.\nMantis uses her impressive mental abilities and her penchant for plant control to anchor any team she fights alongside. Her powers tap into a limitless flow of life energy, gently nourishing everything she touches."
+    "official_quote": "\"Evil is a rejection of life. Thus, I am a guardian against evil.\"",
+    "official_description": "Mantis is a Strategist hero in Marvel Rivals, and is the 16th hero introduced to the game's roster. She has a team-up ability that works in conjunction with Adam Warlock and Star-Lord."
   },
   "background": {
     "real_name": "Mantis",
@@ -290,12 +279,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "52.56%",
-    "wr_change": "+0.49%",
-    "pick_rate": "10.65%",
-    "pr_change": "-2.82%",
-    "ban_rate": "0.04%",
-    "matches": "158,828"
+    "win_rate": "53.10%",
+    "wr_change": "+1.03%",
+    "pick_rate": "11.69%",
+    "pr_change": "-1.78%",
+    "ban_rate": "0.06%",
+    "matches": "174,045"
   },
   "data_sources": {
     "wiki": [],

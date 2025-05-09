@@ -5,8 +5,8 @@
     "health": 300,
     "speed": "7 m/s",
     "difficulty": null,
-    "color_theme": "#F472B6",
-    "color_theme_secondary": "#7E22CE"
+    "color_theme": "#EC4899",
+    "color_theme_secondary": "#A855F7"
   },
   "abilities": [
     {
@@ -27,7 +27,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "ATTACK INTERVAL\n- 0.44s per hit"
     },
     {
       "name": "SPIRIT REND",
@@ -48,8 +48,7 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": {
-        "additional_health_provided": "30",
-        "upper_limit_additional_health_provided": "75"
+        "BONUS HEALTH": "- 30\nBONUS MAX HEALTH\n- 75"
       }
     },
     {
@@ -70,7 +69,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "MAXIMUM DISTANCE\n- 16m"
     },
     {
       "name": "SUBTLE STEP",
@@ -90,7 +89,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "WALL-CRAWLING SPEED\n- 10m/s"
     },
     {
       "name": "SPEAR TOSS",
@@ -115,7 +114,7 @@
   ],
   "ultimate": {
     "name": "BAST'S DESCENT",
-    "keybind": "Q/MS3",
+    "keybind": "Q",
     "type": null,
     "description": "Summon Bast, pouncing forward, dealing damage, and attaching a Vibranium Mark to enemies hit while refreshing Spirit Rend.",
     "casting": "- Cuboid Spell Field",
@@ -129,7 +128,7 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": "- 3300",
-    "details": null
+    "details": "CASTING ANGLE\n- 150°"
   },
   "passives": [
     {
@@ -143,7 +142,7 @@
       "trigger_condition": "- Health drops below 100",
       "effect_boost": "- 20%",
       "speed_details": null,
-      "details": null
+      "details": "DAMAGE BOOST"
     }
   ],
   "teamups": [
@@ -174,20 +173,20 @@
       {
         "icon": null,
         "name": "Clash of Kings",
-        "description": "As Black Panther, take down an enemy Namor.",
+        "description": "As Black Panther, take down an enemy\nNamor\n.",
         "points": "5"
       },
       {
         "icon": null,
         "name": "King of the Dead",
-        "description": "As Black Panther, land a 3 KO streak in the Intergalactic Empire of Wakanda: Hall of Djalia.",
+        "description": "As Black Panther, land a 3 KO streak in the\nIntergalactic Empire of Wakanda: Hall of Djalia\n.",
         "points": "10"
       }
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Are you ready to hunt?\"",
-    "ingame_bio_text": "T'Challa, King of Wakanda, wields the perfect blend of the cutting-edge Vibranium technology and ancestral power drawn from the Panther God, Bast. The Black Panther bides his time until elegantly infiltrating enemy lines and commencing his hunt.",
+    "ingame_bio_quote": "\"I am king of my people, guard of our gods.\"",
+    "ingame_bio_text": "King T'Challa of Wakanda is more than just the ruler of the most advanced civilization known to man. He also wears the mantle of the Black Panther, the sacred protector of his people. It is his sworn duty to ensure Wakanda's continued survival against any threat imaginable.\nT'Challa recently expanded his reign into the cosmos, creating the Intergalactic Empire of Wakanda. As he awaits a sign from Bast to tell him if either Doom can be trusted, he protects the Empire's Chronovium supply and shares its tech with trusted allies — including Reed Richards.",
     "ingame_story_intro": null,
     "hero_stories": [
       {
@@ -210,45 +209,40 @@
       {
         "date_version": "24/12/06",
         "changes": [
-          "Launch",
-          "Black Panther was released as the 8th character to be introduced to Marvel Rivals as a Duelist hero.",
-          "Added 3 new costumes:\nOrisha Blood, Bast's Chosen, and Galactic Claw.",
-          "Added the King of the Dead achievement.",
-          "Added to the Dimensional Shortcut Team-Up Ability with Magik and Psylocke."
+          "Launch\nBlack Panther\nwas released as the 8th character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
+          "Added 3 new costumes:\nOrisha Blood\n,\nBast's Chosen\n, and\nGalactic Claw\n.",
+          "Added the\nKing of the Dead\nachievement.",
+          "Added to the\nDimensional Shortcut\nTeam-Up Ability\nwith\nMagik\nand\nPsylocke\n."
         ]
       },
       {
         "date_version": "25/01/10",
         "changes": [
-          "Version 20250110 / Season 1: Eternal Night Falls",
-          "Launch",
-          "Reduce the additional health provided to self after refreshing Vibranium Marks with Spirit Rend from 40 to 30, and the upper limit of additional health provided from 120 to 75."
+          "Version 20250110\n/\nSeason 1: Eternal Night Falls\nLaunch\nReduce the additional health provided to self after refreshing Vibranium Marks with\nSpirit Rend\nfrom 40 to 30, and the upper limit of additional health provided from 120 to 75."
         ]
       },
       {
         "date_version": "25/02/21",
         "changes": [
-          "Version 20250221 / Season 1.5",
-          "Launch",
-          "Reduced the Rewind Time for Wakandan Master from 5s to 3s.",
+          "Version 20250221\n/\nSeason 1.5\nLaunch\nReduced the Rewind Time for\nWakandan Master\nfrom 5s to 3s.",
           "Additionally, the conversion ratio of lost health to blue armor will be increased from 0.5 to 0.8."
         ]
       },
       {
         "date_version": "25/03/28",
         "changes": [
-          "Added 1 new costume:\nThrice-Cursed King."
+          "Added 1 new costume:\nThrice-Cursed King\n."
         ]
       },
       {
         "date_version": "25/05/02",
         "changes": [
-          "Added 1 new costume:\nDamisa-Sarki."
+          "Added 1 new costume:\nDamisa-Sarki\n."
         ]
       }
     ],
-    "official_quote": "\"I am king of my people, guard of our gods.\"",
-    "official_description": "Black Panther is Duelist hero in Marvel Rivals, and is the 8th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Magik."
+    "official_quote": null,
+    "official_description": "Black Panther\nis Duelist\nhero\nin\nMarvel Rivals\n, and is the 8th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nMagik\n."
   },
   "background": {
     "real_name": "T'Challa",
@@ -287,12 +281,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "49.12%",
-    "wr_change": "-1.29%",
-    "pick_rate": "9.93%",
-    "pr_change": "-0.15%",
-    "ban_rate": "3.30%",
-    "matches": "148,158"
+    "win_rate": "49.43%",
+    "wr_change": "-0.97%",
+    "pick_rate": "11.03%",
+    "pr_change": "+0.95%",
+    "ban_rate": "3.62%",
+    "matches": "164,261"
   },
   "data_sources": {
     "wiki": [],

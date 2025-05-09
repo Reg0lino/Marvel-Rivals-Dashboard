@@ -94,6 +94,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 NAMOR
@@ -149,6 +151,16 @@ List of Nameplates
 Namor
 Will of Galacta
 Black Panther: Wakanda Forever
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 TRIDENT OF NEPTUNE
@@ -424,11 +436,15 @@ Sub-Mariner
 Black Panther: Wakanda Forever
 (2022)
 Trivia
+Namor's first appearance was in
+"Marvel Comics" (1939) #1
+.
 His design and background in
 Marvel Rivals
 might be a blend of his comic and MCU version.
-Namor's name is only pronounced "Nah-mor" by him and
+Namor's name is only pronounced "Nah-mor" by him,
+Luna Snow
+and
 Black Panther
-. The entire cast refers to him as "Nay-more".
-This might be a nod to how different cultures tend to pronounce names and recognizing in different ways. Especially this version of Namor has a Mayan background just like the MCU.
+. The entire cast refers to him as "Nay-mor".
 Namor's signature is a Mayan script also known as Maya glyphs.

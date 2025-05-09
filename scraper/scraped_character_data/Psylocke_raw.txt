@@ -82,6 +82,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 PSYLOCKE
@@ -113,15 +115,14 @@ Uncanny X-Men
 (1981) #256
 Phantom Purple
 Season 2
-See
-:
-List of MVP Animations
+01
+MVP ANIMATIONS
 DEFAULT
-Psylocke
+PSYLOCKE
 Butterfly Effect
-Blood Kariudo
+BLOOD KARIUDO
 This is My Way
-Vengeance
+VENGEANCE
 01
 EMOTES
 DEFAULT
@@ -140,6 +141,16 @@ List of Nameplates
 Psylocke
 Blood Kariudo
 Vengeance
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 PSIONIC CROSSBOW
@@ -471,13 +482,12 @@ Uncanny X-Men
 Uncanny X-Men
 (1963) #273
 Trivia
+Sai's first appearance was in
+"Demon Days: X-Men"(2021) #1
+.
 In the game, an alternate version named Sai was created by artist Peach Momoko as a reimagined Edo-period Psylocke for her
 Demon Days
 comic. In Marvel Comics, Psylocke has been the identity of two characters. In Earth-616, as depicted in Marvel Comics, the current Psylocke is Kwannon, a Japanese assassin. Previously, Betsy Braddock, the original Psylocke, occupied Kwannon’s body, but she is now in her own body as the new Captain Britain.
-Her first comic appearance was in
-Demon Days: X-Men
-#1
-.
 ↑
 [1]
 Psylocke: Mutant Yokai Slayer | Character Reveal | - Video Description

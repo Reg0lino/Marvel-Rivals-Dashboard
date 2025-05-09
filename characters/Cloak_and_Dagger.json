@@ -2,18 +2,18 @@
   "name": "Cloak & Dagger",
   "role": "Strategist",
   "stats": {
-    "health": 250,
+    "health": "250",
     "speed": null,
     "difficulty": null,
-    "color_theme": "#BFDBFE",
-    "color_theme_secondary": "#FDE047"
+    "color_theme": "#FDE047",
+    "color_theme_secondary": "#93C5FD"
   },
   "abilities": [
     {
       "name": "DARKFORCE CLOAK",
       "keybind": "LMB",
       "type": null,
-      "description": "Inflict continuous damage on an enemy. Attacks will target the nearest enemy to the crosshair, dealing damage.",
+      "description": "Inflict continuous damage on an enemy.",
       "casting": "Cylindrical Spell Field",
       "damage": "80/s",
       "damage_falloff": null,
@@ -27,13 +27,13 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "Attacks will target the nearest enemy to the crosshair, dealing damage"
     },
     {
       "name": "DARK TELEPORTATION",
-      "keybind": "RMB",
+      "keybind": null,
       "type": null,
-      "description": "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost. Allies within the area gain Invisibility and Movement Boost.",
+      "description": "Enshroud nearby allies in the Darkforce Dimension, plunging them into the Phased state, making them untargetable and invisible to enemies and granting them a Movement Boost.",
       "casting": "Persistent Spell Field",
       "damage": null,
       "damage_falloff": null,
@@ -47,13 +47,13 @@
       "duration": "2s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "Allies within the area gain Invisibility and Movement Boost"
     },
     {
       "name": "TERROR CAPE",
       "keybind": "E",
       "type": null,
-      "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received. The spell field advances along the casting path.",
+      "description": "Deploy a Veil of Darkforce to damage enemies upon touch, applying Blind to narrow their sight and Vulnerability to amplify damage received.",
       "casting": "Spell Field",
       "damage": "55",
       "damage_falloff": null,
@@ -62,18 +62,78 @@
       "critical_hit": null,
       "cooldown": "12s",
       "range": "Width: 6m, Height: 4.5m - Visibility is obstructed beyond 10m",
-      "projectile_speed": "20m/s",
+      "projectile_speed": null,
       "charges": null,
       "duration": "1.5s (Blinding) - 3s (Vulnerability)",
-      "movement_boost": null,
+      "movement_boost": "20m/s",
       "energy_cost_details": null,
-      "details": "MAXIMUM DISTANCE - 25m\nVULNERABILITY - 20%\n28% (after 25/02/21)"
+      "details": "The spell field advances along the casting path"
     },
     {
-      "name": "LIGHT'S EMBRACE",
+      "name": "LIGHTFORCE DAGGER",
+      "keybind": "LMB",
+      "type": null,
+      "description": "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies.",
+      "casting": "Single-cast projectile that generates a spell area upon impact",
+      "damage": "18 damage per round",
+      "damage_falloff": null,
+      "fire_rate_interval": "2.27 hits per second",
+      "ammo": "12",
+      "critical_hit": false,
+      "cooldown": null,
+      "range": "8m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects"
+    },
+    {
+      "name": "DAGGER STORM",
+      "keybind": null,
+      "type": null,
+      "description": "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
+      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "5m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "6s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "VEIL OF LIGHTFORCE",
+      "keybind": "E",
+      "type": null,
+      "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost.",
+      "casting": "Spell Field",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "Width: 6m, Height: 4.5m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "4s",
+      "movement_boost": "20m/s",
+      "energy_cost_details": null,
+      "details": "The spell field advances along the casting path"
+    },
+    {
+      "name": "SHADOW'S EMBRACE",
       "keybind": "SHIFT",
       "type": null,
-      "description": "Switch to Dagger.",
+      "description": "Switch to Cloak",
       "casting": "Instant Cast",
       "damage": null,
       "damage_falloff": null,
@@ -90,70 +150,10 @@
       "details": null
     },
     {
-      "name": "LIGHTFORCE DAGGER",
-      "keybind": "LMB",
-      "type": null,
-      "description": "Unleash a bouncing Lightforce Dagger to damage enemies and heal nearby allies. The projectile features an attraction effect, pulling in the closest target to the crosshair and creating a spell field upon impact. This spell field provides healing effects.",
-      "casting": "Single-cast projectile that generates a spell area upon impact",
-      "damage": "18",
-      "damage_falloff": null,
-      "fire_rate_interval": "2.27 hits per second",
-      "ammo": "12",
-      "critical_hit": false,
-      "cooldown": null,
-      "range": "8m spherical radius",
-      "projectile_speed": null,
-      "charges": null,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "HEALING - 10 per hit - 18 AoE per hit\n16 per hit - 16 AoE per hit (after 25/03/14)"
-    },
-    {
-      "name": "DAGGER STORM",
-      "keybind": "RMB",
-      "type": null,
-      "description": "Launch a volley of daggers, creating a Healing Over Time field in the impact area",
-      "casting": "Single-cast projectile with delayed impact that also generates a spell field",
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "15s\n12s (after 25/01/10)",
-      "range": "5m spherical radius",
-      "projectile_speed": null,
-      "charges": null,
-      "duration": "6s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "HEALING - 55/s"
-    },
-    {
-      "name": "VEIL OF LIGHTFORCE",
-      "keybind": "E",
-      "type": null,
-      "description": "Deploy a Veil of Lightforce to heal allies upon touch and grant them a Healing Boost. The spell field advances along the casting path.",
-      "casting": "Spell Field",
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "12s",
-      "range": "Width: 6m, Height: 4.5m",
-      "projectile_speed": "20m/s",
-      "charges": null,
-      "duration": "4s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "HEALING - 45\nHEALING BOOST - 15%\nMAXIMUM DISTANCE - 25m"
-    },
-    {
-      "name": "SHADOW'S EMBRACE",
+      "name": "LIGHT'S EMBRACE",
       "keybind": "SHIFT",
       "type": null,
-      "description": "Switch to Cloak.",
+      "description": "Switch to Dagger",
       "casting": "Instant Cast",
       "damage": null,
       "damage_falloff": null,
@@ -174,19 +174,19 @@
     "name": "ETERNAL BOND",
     "keybind": "Q",
     "type": null,
-    "description": "Perform four rapid dashes, healing allies and damaging enemies along the path. Each individual energy carpet lasts for 5 seconds. Players can change the direction of this ability between the dash pauses.  After activating, the duration of the first three healing zones will no longer be calculated separately; instead, they will remain active until the duration of the final healing zone ends, at which point all will be removed together. Now, the healing effect from each segment will not stack; when overlapping, only one healing effect is applied. Additionally, camera control is unlocked during the activation.",
+    "description": "Perform four rapid dashes, healing allies and damaging enemies along the path",
     "casting": "Persistent Spell Field",
     "damage": "30/s",
     "range": "A cylindrical spell field with a 4m radius and 15m in length",
     "effect": null,
-    "duration": "Each dash lasts for 8s (after 25/02/21)",
+    "duration": "Each dash lasts for 8s",
     "health_upon_revival": null,
     "slow_rate": null,
     "projectile_speed": null,
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 4000,
-    "details": "Number of dashes: 3\n4 (after 25/01/10)\nHEALING - 220/s\n250/s (after 25/02/21)\nPause time between segments: 1s\n0.67s (after 25/02/21)"
+    "details": null
   },
   "passives": [
     {
@@ -198,9 +198,9 @@
       "damage": null,
       "range": null,
       "trigger_condition": null,
-      "effect_boost": null,
+      "effect_boost": "15% Healing Boost",
       "speed_details": null,
-      "details": "TEAM-UP BONUS - 15% Healing Boost"
+      "details": null
     }
   ],
   "teamups": [
@@ -249,29 +249,19 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "We are Cloak and Dagger. We are hope and fear.",
+    "ingame_bio_quote": "\"We are Cloak and Dagger. We are hope and fear.\"",
     "ingame_bio_text": "Tyrone Johnson and Tandy Bowen are nearly inseparable, like two sides of the same coin. Intertwined by forces of shadow and light, Cloak & Dagger fight as a united front, dealing havoc and healing allies across the arena.",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "A Brief Farewell",
-        "content": "The back alleys of New York City had never been safe. Back when Tyrone Johnson and Tandy Bowen were just teenage runaways, they'd found themselves fighting to survive the cruel realities of living on the streets. When they gained their superpowers, becoming the crime fighting duo known as Cloak and Dagger, they vowed to shed a little light — and darkness — on the most dangerous corners of the city so that no one else would ever have to live in fear again.\nBut now, fear had taken over — not just in the alleys, but across the entire island of Manhattan. Dracula, the Lord of the Vampires, had come to town, and had somehow managed to lock the Big Apple in a state of eternal night. His bloodsucking minions were on a rampage, and there were only a few heroes left to protect the innocent citizens of NYC from being involuntarily drafted into the vampire army's ranks. [Continues...]",
-        "status": null
-      },
-      {
-        "title": "Overexposure",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
-      },
-      {
-        "title": "In Black & White",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "The back alleys of New York City had never been safe. Back when Tyrone Johnson and Tandy Bowen were just teenage runaways, they'd found themselves fighting to survive the cruel realities of living on the streets. When they gained their superpowers, becoming the crime fighting duo known as Cloak and Dagger, they vowed to shed a little light — and darkness — on the most dangerous corners of the city so that no one else would ever have to live in fear again.\nBut now, fear had taken over — not just in the alleys, but across the entire island of Manhattan.\nDracula, the Lord of the Vampires, had come to town, and had somehow managed to lock the Big Apple in a state of eternal night. His bloodsucking minions were on a rampage, and there were only a few heroes left to protect the innocent citizens of NYC from being involuntarily drafted into the vampire army's ranks.",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "date_version": "24/12/06:Season 0: Dooms' RiseLaunch",
         "changes": [
           "Cloak & Dagger were released as the 32nd character to be introduced to Marvel Rivals as a Strategist hero.",
           "Added 2 new costumes: Lemon Lime and Growth & Decay.",
@@ -280,20 +270,20 @@
         ]
       },
       {
-        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
+        "date_version": "25/01/10:Version 20250110/Season 1: Eternal Night FallsLaunch",
         "changes": [
           "Reduce Dagger Storm cooldown from 15s to 12s.",
           "Increase the number of dashes in Eternal Bond from 3 to 4."
         ]
       },
       {
-        "date_version": "25/02/20:",
+        "date_version": "25/02/20",
         "changes": [
           "Resolved an issue where, while using their ultimate, if being frozen by Luna Snow, Cloak & Dagger would remain frozen even after taking damage. They can now break free from Luna's icy grips!"
         ]
       },
       {
-        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "date_version": "25/02/21:Version 20250221/Season 1.5Launch",
         "changes": [
           "Increase the energy cost to activate Eternal Bond from 3400 to 4000.",
           "The healing amount of each segment will be increased from 220/s to 250/s, the duration will be reduced from 10s to 8s, and the pause time between segments decrease from 1s to 0.67s.",
@@ -303,33 +293,33 @@
         ]
       },
       {
-        "date_version": "25/03/07: Version 20250307 / Galacta's Cosmic Adventure Event",
+        "date_version": "25/03/07:Version 20250307/Galacta's Cosmic AdventureEvent",
         "changes": [
           "Added 1 new costume: Twilight Duo."
         ]
       },
       {
-        "date_version": "25/03/14: Version 20250314",
+        "date_version": "25/03/14:Version 20250314",
         "changes": [
           "Increase the healing effect from Lightforce Dagger on hit allies from 10 to 16.",
           "Reduce the spell field healing amount generated by the hit from 18 to 16."
         ]
       },
       {
-        "date_version": "25/04/08:",
+        "date_version": "25/04/08",
         "changes": [
           "Fixed an issue where Cloak or Dagger sometimes left their character model lingering for a brief moment during form switches. Now, they'll slip into action smoother than a stealthy shadow."
         ]
       },
       {
-        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "date_version": "25/04/11:Version 20250411/Season 2: Hellfire GalaLaunch",
         "changes": [
           "After activating Eternal Bond, the duration of the first three healing zones will no longer be calculated separately; instead, they will remain active until the duration of the final healing zone ends, at which point all will be removed together.",
           "Added 1 new costume: Dance Partner."
         ]
       },
       {
-        "date_version": "25/04/30: Version 20250430",
+        "date_version": "25/04/30:Version 20250430",
         "changes": [
           "As Cloak, increase the damage of the Darkforce Cloak from 75/s to 80/s.",
           "As Dagger, increase the damage of the Lightforce Dagger on hit from 15 to 18.",
@@ -337,7 +327,7 @@
         ]
       }
     ],
-    "official_quote": null,
+    "official_quote": "\"There's always a spark of light in darkness.\"",
     "official_description": "Cloak & Dagger are a duo of Strategist heroes in Marvel Rivals, and are collectively the 32nd hero introduced to the game's roster. They have a team-up ability that works in conjunction with Moon Knight."
   },
   "background": {
@@ -370,12 +360,12 @@
   },
   "meta_stats": {
     "tier": "A",
-    "win_rate": "47.99%",
-    "wr_change": "-1.10%",
-    "pick_rate": "47.26%",
-    "pr_change": "-7.76%",
-    "ban_rate": "0.74%",
-    "matches": "705,086"
+    "win_rate": "48.46%",
+    "wr_change": "-0.63%",
+    "pick_rate": "49.54%",
+    "pr_change": "-5.47%",
+    "ban_rate": "0.87%",
+    "matches": "737,944"
   },
   "data_sources": {
     "wiki": [],

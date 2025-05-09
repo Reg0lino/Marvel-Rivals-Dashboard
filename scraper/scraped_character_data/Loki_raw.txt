@@ -98,6 +98,7 @@ The magical field also converts 30% of all damage taken into direct healing to a
 This ability is incredibly powerful and can provide clutch healing against very powerful attacks, including Ultimates.
 His Ultimate, God of Mischief, allows Loki to transform into any hero in the match, either ally or enemy, for 15 seconds.
 When Loki transforms into a hero from the enemy team, his nametag and team color will change to the opposite player and team. If the Loki player attacks this reverses back to the player's actual name and team color.
+Loki will also use the same costume as the targeted ally or enemy
 While shapeshifted, Loki gains access to all the targeted hero abilities, including their Ultimate, which will be at 100% charge.
 Activating an Ultimate while shapeshifted gives Loki an additional 7 seconds of transformation.
 This duration can be extended if transforming into the
@@ -106,7 +107,7 @@ and repeatedly getting resets on his Kraken Impact.
 Weaknesses
 Requires high skill to play efficiently.
 Has low healing output if his illusions and Regeneration Domain are not available.
-Very vulnerable if his Devious Exchange and Regeneration Domain is on cooldown.
+Very vulnerable if his Devious Exchange and Regeneration Domain are on cooldown.
 Mystical Missile cannot deal critical hit.
 Backstab has a low range and is very situational.
 Enemy heroes can destroy Loki's illusions and the runes from his Regeneration Domain. This makes characters with high area-of-effect damage such as
@@ -137,6 +138,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 LOKI
@@ -182,19 +185,14 @@ Divine Mist
 Shin Sagi-Shi
 End of Everything
 All-Butcher
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Loki
+BRAIN BLAST
 V for Victory
-Presidential Attire
 Constant Gardener
-Loki Season 2
 Blooming Impact
-Shin Sagi-Shi
 Heed My Call
-All-Butcher
 See
 :
 List of Sprays
@@ -212,6 +210,16 @@ Presidential Attire
 Loki Season 2
 Shin Sagi-Shi
 All-Butcher
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 MYSTICAL MISSILE
@@ -600,7 +608,15 @@ Prestige artwork
 Hero Story Artwork
 Loki Season 2 costume reveal.
 Trivia
+Loki's first appearance was in
+"Journey Into Mystery" (1952) #85
+.
 While Loki's "Frost Giant" costume is listed as first appearing in Marvel Rivals Season 0, it appears to be heavily based on Loki's true frost giant appearance in the MCU (first seen in Thor [2011]), where he has blue skin and red eyes. Loki is made to look like an Asgardian by a spell cast by Odin.
+The frantic "YOU STAY AWAY FROM ME!" is one of Loki's interactions to
+Hulk
+, referencing his "Puny God" treatment from
+The Avengers
+(2012) film.
 Despite being the father of
 Hela
 in the comics, there is a possibility that Hela is his sister in this game, just like in the MCU. This is further proved in their dialogue in his lore "Destined Kingship":
@@ -609,9 +625,10 @@ Loki:
 Hela:
 "Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."
 It's not clear whether this version of her is Odin's daughter or Thor's sister.
-Refences
+References
 ↑
 Loki:
 "O sister, great queen, it– "
 Hela:
 "Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family."
+Navigation

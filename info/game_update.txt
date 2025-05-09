@@ -1,4 +1,51 @@
-# Game Update - Recent Posts (Fetched 2025-05-03 12:27)
+# Game Update - Recent Posts (Fetched 2025-05-09 12:15)
+
+## Marvel Rivals Version 20250508 Patch Notes
+
+Marvel Rivals Version 20250508 Patch Notes
+2025/05/08
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on May 8, 2025, at 09:00:00 (UTC)! This patch will be deployed live without downtime! Simply log in after the update and continue your heroic journey!
+Here's a look at what's coming in this patch:
+Behold! The Evolution of the Giant-Size Brain Blast â The all-new Giant-Size Hive Mind!
+Prepare to let your oversized noggins shine as one during these windows:
+2025/05/09 09:00:00 ~ 2025/05/12 09:00:00 (UTC)
+2025/05/16 09:00:00 ~ 2025/05/19 09:00:00 (UTC)
+New In Store
+1. Rocket Raccoon - Sunshine Raccoon Bundle
+2. Squirrel Girl - Sunshine Squirrel Bundle
+New Content
+1. The emote and spray wheel has been reimagined!
+1ï¼They are now split into two separate wheels with dedicated hotkeys for lightning-fast switching.
+2ï¼In the Cosmetics - Sprays menu, you can now set your current spray wheel to be shared across all heroes.
+3ï¼A new quick-equip feature has been added: Emotes can be automatically slot into the corresponding hero's emote wheel upon acquisition; and when the spray wheel is set to "Apply to All", newly earned sprays can also be equipped instantly.
+2. Portraits in "Heroes" have been updated to reflect their currently equipped costumes.
+Fixes
+All Platforms
+Maps and Modes
+1. Vanquished a glitch that would sometimes occur under rare circumstances where players who didn't provide the most healing in a match were mistakenly awarded the Gifted Healer badge.
+Heroes
+1. Jeff's Missing Meal: We've wiped out a glitch where, in controller mode, when Jeff the Land Shark swallowed 6 enemies with his Ultimate Ability, only 5 avatar icons showed up on screen. Now, our fin-tastic friend will see his 6-piece meal every time!
+2. Bruce Banner's Space Out: We've smashed a bug that left all three forms of Bruce Banner unable to bind the jump action to the Spacebar. Now, Banner can leap into action as intended.
+Other
+1. We've remedied an oversight, where in anonymous mode, using voice chat still revealed your original name.
+The Marvel Rivals universe is ever-evolving, and we have plenty more surprises and updates on the horizon. Stay tuned to our official announcements for more!
+Discord
+|
+X
+|
+Facebook
+|
+Instagram
+|
+TikTok
+|
+YouTube
+|
+Twitch
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250507/41548_1232829.html
+---
 
 ## Marvel Rivals Version 20250430 Patch Notes
 
@@ -219,38 +266,4 @@ Graphics and Settings
 We will continue to vigilantly monitor game bug issues and fix them as fast as we can. Stay tuned for ongoing content updates and keep an eye on the official channels for the latest news!
 
 Source URL: https://www.marvelrivals.com/gameupdate/20250401/41548_1223996.html
----
-
-## Marvel Rivals Version 20250327 Patch Notes
-
-Marvel Rivals Version 20250327 Patch Notes
-2025/03/26
-Greetings, Rivals!
-We're thrilled to announce that the upcoming patch drops on March 27, 2025, at 09:00:00 (UTC+0)! This update will be applied seamlessly, with no server downtime. Once the update finishes, simply log in to continue your heroic journey!
-Here's a look at what's coming in this patch:
-Galacta's Cosmic Adventure
-We've added a special April Fool's Easter Egg gift! Remember, only those who collect all rewards from Galacta's Cosmic Adventure will unlock this hidden twist surprise.
-The Easter Egg gift can be claimed from April 1, 2025, 00:00:00 (UTC+0) until April 4, 2025, 00:00:00 (UTC+0).
-New Content
-Pick-Up Bundle
-Fixes
-All Platforms
-General
-1. Resolved an issue in Custom Game where a disconnected player's character would still appear on the Like page during match settlement.
-Maps and Modes
-1. Fixed several terrain issues that could cause characters to sometimes become stuck or clip into strange areas.
-2. Squashed a glitch in the Hydra Charteris Base map where Rocket Raccoon's B.R.B. could sometimes revive teammates outside the play area due to terrain changes.
-Heroes
-1. Wolverine's Terrifying Pounce: Resolved an issue where the Hulk could sometimes have abnormal behavior after being catapulted into a terrain KO by Wolverine's Feral Leap. Now, the big guy gets the proper beatdown without any off-script environmental stunts!
-2. Iron Fist's Wall-Climbing Whimsy: Fixed a glitch in Practice Range where Iron Fist wall-climbing was beyond expectations. The master of martial arts can now keep his acrobatic feats on track!
-3. Iron Man's Teleportation Tangle: In Sanctum Sanctorum, Iron Man use of Hyper-Velocity followed immediately by portal entry could occasionally throw a wrench in the worksâresulting in the ability to misfire and some off-color special effects. Now, Iron Man's high-tech strategy is as sleek as ever, letting him jet in and out as he pleases.
-4. Loki-Doctor Strange's Forbidden Tech: Fixed an issue in Doom Match where Loki's transformation into Doctor Strange allowed the use of the forbidden Pentagram of Farallah. This minds-warping mix-up has been vanquished.
-5. Magneto's Magnetic Moments: Resolved an issue in the post-match where Magneto's MVP could sometimes display some bizarre, offbeat visuals. The master of magnetism now commands his moments with true polar precision.
-6. Wolverine's Ultimate with Pinpoint Precision: Fixed a snag in Wolverine's Ultimate Ability where, under high network latency, foes sent flying and slammed into the ground could sometimes end up in the wrong location. Now, every Last Stand lands exactly where it should.
-7. Human Torch's Fiery Focus: Addressed a rare bug where the Human Torch's Primary Attack would sometimes miss its target entirely, leaving his incendiary prowess a little less scorching. With this fix, every burst of flame burns as brilliantly as intendedâensuring his heat is always on target!
-Console
-1. Eliminated a bug that sometimes caused the focus to unpredictably shift to earlier messages when opening the chat window.
-Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
-
-Source URL: https://www.marvelrivals.com/gameupdate/20250325/41548_1222027.html
 ---

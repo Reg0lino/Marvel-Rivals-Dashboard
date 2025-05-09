@@ -5,18 +5,18 @@
     "health": 650,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#FCA5A5",
-    "color_theme_secondary": "#F472B6"
+    "color_theme": "#EC4899",
+    "color_theme_secondary": "#A855F7"
   },
   "abilities": [
     {
       "name": "IRON VOLLEY",
       "keybind": "LMB",
       "type": "Projectile",
-      "description": "Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown. Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center.",
+      "description": "Fire a volley of magnetic orbs forward. The range of the resulting explosion increases based on distance flown.",
       "casting": "Single-cast projectile with delayed impact that also generates a spell field",
       "damage": "Projectile Damage: 40. The spell field deals 40 damage at its center, reducing to 50% within a 3m radius from the center",
-      "damage_falloff": null,
+      "damage_falloff": "50% within a 3m radius from the center",
       "fire_rate_interval": "0.8s",
       "ammo": 10,
       "critical_hit": null,
@@ -27,11 +27,11 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "MAXIMUM DISTANCE - 25m"
+      "details": null
     },
     {
       "name": "MAG-CANNON",
-      "keybind": "RMB",
+      "keybind": null,
       "type": "Projectile",
       "description": "Convert the iron rings on Magneto's back into a Mag-Cannon and launch a metallic mass forward. Higher stacks of rings increase damage, and full stacks knock back enemies.",
       "casting": "Single-cast projectile with delayed impact",
@@ -48,6 +48,46 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": "When fully charged, Mag-Cannon has a 6m knockback distance"
+    },
+    {
+      "name": "METAL BULWARK",
+      "keybind": "E",
+      "type": "Shield",
+      "description": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.",
+      "casting": "Targeted",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "20m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "2.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Cooldown shared with Iron Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
+    },
+    {
+      "name": "IRON BULWARK",
+      "keybind": "F",
+      "type": "Shield",
+      "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "2.5s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Cooldown shared with Metal Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
     },
     {
       "name": "METALLIC CURTAIN",
@@ -68,46 +108,6 @@
       "movement_boost": null,
       "energy_cost_details": "65/s",
       "details": "MAXIMUM ENERGY - 100\nENERGY RECOVERY DELAY - 1s\nENERGY RECOVERY SPEED - 11/s"
-    },
-    {
-      "name": "METAL BULWARK",
-      "keybind": "E",
-      "type": "Shield",
-      "description": "Conjure a metal shield around a chosen ally. Damage taken will transform into rings on Magneto's back.",
-      "casting": "Targeted",
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "12s",
-      "range": "20m",
-      "projectile_speed": null,
-      "charges": null,
-      "duration": "2.5s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "MAXIMUM SHIELD VALUE - 300\nCooldown shared with Iron Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
-    },
-    {
-      "name": "IRON BULWARK",
-      "keybind": "F",
-      "type": "Shield",
-      "description": "Conjure an iron shield around himself. Damage taken will transform into rings on Magneto's back.",
-      "casting": null,
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "12s",
-      "range": null,
-      "projectile_speed": null,
-      "charges": null,
-      "duration": "2.5s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "MAXIMUM SHIELD VALUE - 300\nCooldown shared with Metal Bulwark\nThe shield grants one charge of Iron Ring for every 100 damage it absorbs"
     },
     {
       "name": "MAGNETIC DESCENT",
@@ -137,8 +137,8 @@
     "description": "Draw in all materials around to forge an iron meteor that deals massive damage upon impact. Absorbing enemy projectiles can enhance the meteor's power, yet overloading will cause it to self-destruct.",
     "casting": "Create a persistent spell field that launches a projectile upon completion, which generates another spell field on impact",
     "damage": "The projectile deals no damage. The base damage at the center of the spell field starts at 100 and increases to 300 when fully charged. Each point of Energy adds an extra 3 points of damage to the spell field, with damage reducing to 50% at a distance of 6m from the center",
-    "range": "Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius\nPROJECTILE ABSORPTION RANGE -\n15m spherical radius",
-    "effect": null,
+    "range": "Initially, the ability has a spherical range with a radius of 5m. After charging for 4s, it expands to an 8m radius",
+    "effect": "For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage",
     "duration": "4s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -146,7 +146,7 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 3400,
-    "details": "For each point of projectile damage absorbed, the power increases by 0.125, with a maximum absorption of 800 projectile damage"
+    "details": "PROJECTILE ABSORPTION RANGE - 15m spherical radius"
   },
   "passives": [],
   "teamups": [
@@ -156,13 +156,6 @@
         "Emma_Frost",
         "Psylocke"
       ],
-      "effect": null,
-      "keybind": null,
-      "teamup_bonus": null,
-      "duration": null,
-      "cooldown": "30s",
-      "range_target": null,
-      "special_notes": "Ability: Magnetic Resonance",
       "details": "Invisibility Duration: 1s<br/>Duplicate Duration: Up to 5s<br/>Duplicate Damage Reduction: 70%<br/>Duplicate Max Damage Recieved: 150<br/>Special Effect: Upon activation, Magneto and his Duplicate Illusion become invisible. The damage dealt by the projection is reduced, and it dissipates after taking a specific amount of damage; When the player uses an Ultimate ability, the Duplicate Illusion will auto-shoot the closest enemy target instead"
     }
   ],
@@ -192,24 +185,24 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "Be wary, no timeline exists where Magneto yields.",
+    "ingame_bio_quote": "\"Be wary, no timeline exists where Magneto yields.\"",
     "ingame_bio_text": "The Master of Magnetism bends even the strongest metal to his whims, shielding his allies and striking at his foes. Whether he calls himself Max Eisenhardt, Erik Lehnsherr, or simply Magneto, the hardships this warrior has endured have made him as unbreakable as the steel he brandishes.",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Trial of Magneto",
-        "content": "As he gazed off into the distance towards the line where the ocean met the sky, Magneto's cape fluttered gently in the calm breeze that was drifting across the coast of the sentient island nation of Krakoa. His was a life far longer than most people ever had the chance to live, and this was one of the few moments of true peace that he could recall. But he knew from experience it would not last for long. It never did.\n\"Something on your mind, old man?\" a familiar voice asked from above, breaking the silence. As Magneto glanced up, there, hovering on the wind like a majestic goddess, was Ororo Munroe — the Mutant weather manipulator known as Storm.\n\"Funny, isn't it,\" mused Magneto, \"that we fought all those years for a better future for Mutantkind… and now we have finally found it, further in the future than any of us ever imagined.\"\nNot so long ago, the sovereign nation of Krakoa had been swept up in a chronal storm — a time-twisting anomaly that would have ripped the island to bits if not for Ororo's deft manipulation of its tumultuous currents. Instead of becoming lost in the timestream forever, Krakoa arrived safely on the other side of the tempest in the year 2099. The future that Mutantkind had always dreamed of was finally theirs to claim. And Magneto was never one to let such an auspicious opportunity pass him by.",
+        "content": "As he gazed off into the distance towards the line where the ocean met the sky, Magneto's cape fluttered gently in the calm breeze that was drifting across the coast of the sentient island nation of Krakoa. His was a life far longer than most people ever had the chance to live, and this was one of the few moments of true peace that he could recall. But he knew from experience it would not last for long. It never did.\n\n...[rest of the story]",
         "status": null
       },
       {
         "title": "The Battle Within",
-        "content": "Magneto hovered high above the nation of Krakoa. He had lived through more than his share of wars, but as he gazed down at the Mutant homeland below, he could barely begin to comprehend the full scope of the horrors unfolding on his own sovereign soil. Still, it was not as if he hadn’t seen this coming...",
+        "content": "Magneto hovered high above the nation of Krakoa. He had lived through more than his share of wars, but as he gazed down at the Mutant homeland below, he could barely begin to comprehend the full scope of the horrors unfolding on his own sovereign soil. Still, it was not as if he hadn’t seen this coming...\n\n...[rest of the story]",
         "status": null
       },
       {
         "title": "The Messiah of Mutants",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
+        "content": "Coming soon. Stay Tuned!",
+        "status": "Coming soon"
       }
     ],
     "balance_changes": [
@@ -230,7 +223,7 @@
         ]
       },
       {
-        "date_version": "25/02/20:",
+        "date_version": "25/02/20",
         "changes": [
           "Addressed an issue where Magneto's ultimate could pass through characters without dealing damage due to discrepancies between collision models and visual effects. The collision body is now properly optimized to better suit the visual presentation."
         ]
@@ -256,8 +249,8 @@
         ]
       }
     ],
-    "official_quote": "Perhaps we should give these humans good reason to hate and fear us after all.",
-    "official_description": "Magneto is a Vanguard hero in Marvel Rivals, and is the 14th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Emma Frost and Psylocke."
+    "official_quote": "\"Perhaps we should give these humans good reason to hate and fear us after all.\"",
+    "official_description": "Magneto is a Vanguard hero in Marvel Rivals, and is the 14th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Emma Frost and Psylocke."
   },
   "background": {
     "real_name": "Max Eisenhardt",
@@ -297,12 +290,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "46.21%",
-    "wr_change": "-1.65%",
-    "pick_rate": "18.37%",
-    "pr_change": "-9.86%",
-    "ban_rate": "0.34%",
-    "matches": "274,042"
+    "win_rate": "46.58%",
+    "wr_change": "-1.27%",
+    "pick_rate": "18.55%",
+    "pr_change": "-9.67%",
+    "ban_rate": "0.33%",
+    "matches": "276,289"
   },
   "data_sources": {
     "wiki": [],

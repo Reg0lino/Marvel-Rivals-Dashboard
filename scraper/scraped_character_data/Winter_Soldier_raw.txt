@@ -96,6 +96,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 WINTER SOLDIER
@@ -160,6 +162,16 @@ Winter Soldier
 Blood Soldier
 Revolution
 Thunderbolts*
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 ROTERSTERN
@@ -572,4 +584,9 @@ card.
 Captain America: Sentinel of Liberty
 (2022) #6
 Trivia
+Bucky's first appearance was in
+"Captain America Comics" (1941) #1
+. While as the Winter Soldier was in
+"Captain America" (2004) #1
+.
 His left arm is never more than a prosthetic that is reasonably durable and strong in many adaptations, and he is never depicted doing anything beyond what he is capable of in this game. However, according to the game's lore, his new extendable metallic tendrils came upon him relatively recently, rather than him being innately more capable than his comic or MCU counterpart.

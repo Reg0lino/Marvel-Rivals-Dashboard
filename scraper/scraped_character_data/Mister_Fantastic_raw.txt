@@ -115,6 +115,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 MISTER FANTASTIC
@@ -147,17 +149,13 @@ Surging Darkness
 The Maker
 Infinite Promise
 The Life Fantastic
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Mister Fantastic
 Missed Chance
-Mister Fantastic
+BRAIN BLAST
 Double Impact
-The Maker
 Will You?
-The Life Fantastic
 See
 :
 List of Sprays
@@ -172,6 +170,16 @@ List of Nameplates
 Mister Fantastic
 The Maker
 The Life Fantastic
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 STRETCH PUNCH
@@ -307,7 +315,34 @@ COOLDOWN -
 DAMAGE/HEALTH CONVERSION -
 100%
 Strategy
-To be added
+Mister Fantastic is an unorthodox Duelist who sacrifices some raw damage output for incredible sustainability, almost functioning as a pseudo-Vanguard. His significantly higher health, ability to grant himself overhealth, and his ability to absorb damage altogether with Reflexive Rubber allows him to stay in the fight for extended periods of time, all while providing valuable backup to his team by either granting them overhealth or slowing any enemies who attempt to dive them.
+Still, while Mister Fantastic can help to replicate the job of a Vanguard, he does not have to tools to replace one altogether.
+Mister Fantastic usually wants to play around his team's frontline or as a bodyguard for his backline, bolstering his team's Vanguards and Strategists while also shooing away any dive characters who attempt to harass the backline with his plethora of slows, seizes, and large AoE attacks.
+Mister Fantastic's main attack is his Stretch Punch, which has him throw a far-reaching punch with a wide AoE. While its raw damage output may be low, its ability to hit multiple targets in one go makes it an exceptional crowd-control tool, letting you hit clustered groups of enemies and farm ultimate charge very quickly. While in his Inflated State, this attack's damage increases significantly.
+Despite being melee, this attack cannot bypass barriers from heroes such as
+Doctor Strange
+or
+Magneto
+.
+The AoE on this attack actually lingers for a significant amount of time, allowing you to still hit enemies even late in its animation. With that in mind, you can often sweep the attack around a large area and still be able to hit most targets, no matter how evasive they may be, making you a great answer to mobile dive heroes such as
+Spider-Man
+or
+Black Panther
+.
+Reflexive Rubber is what allows Mister Fantastic to survive for long periods of time. Mister Fantastic stretches his body into an absorbent elastic sheet, slowing his movement speed down by 35%, but making him completely immune to all damage and effects for a short period of time or until he sustains enough damage. If he sustains enough damage, he will shoot a projectile from his body after exiting the state for some solid ranged burst.
+This ability has the potential to let Mister Fantastic survive almost anything thrown his way, save for extreme amounts of sustained damage that can continue to damage him even after the state ends. Timing this ability right before a big damage attack or ultimate lands can net you tons of Elasticity and a strong amount of burst from its follow-up projectile, while also forcing the enemy on their backfoot after they realize that you're still not down.
+Flexible Elongation is a powerful engagement tool in Reed's arsenal. He can target either an ally or an enemy with it, quickly dashing to their location and granting himself 75 overhealth that decays quickly. If he uses it on an ally, they also receive 75 overhealth, but if he uses it on an enemy, they will be hit with a small amount of damage an a slow effect.
+This further bolsters Mister Fantastic's anti-dive capabilities by making it even harder for them to both secure a KO on an injured target due to overhealth and evade after getting hit.
+Distended Grip is a powerful tool for disorienting an enemy and setting them up for an easy KO. Mister Fantastic grabs an enemy in front of him and can choose to either grab them again to pull them toward him and deal a solid chunk of damage, or grab another enemy and slam them together.
+The dual grab will unfortunately rarely be used, as not only does it actually cut the damage of the attack, but it simply isn't impactful enough to warrant using over the alternative. However, the single-target pull is a great tool for stopping a retreating enemy in their tracks.
+Elastic Strength is the bread and butter of Mister Fantastic's gameplan and what makes him function as a pseudo-Vanguard. Landing attacks and abilities will slowly generate Elasticity, which will decay over time if he does not continue building it. Upon reaching 100 Elasticity, Mister Fantastic enters an Inflated state, turning him into a large, hulking brute and granting him a significant amount of overhealth and a higher-damaging melee attack, however he loses access to his abilities save for his ultimate.
+Playing around this form to switch between a potent backline bodyguard to an incredibly tanky frontline fighter is essential to playing Mister Fantastic well. Focus on playing safe within your team while in your normal state, building up Elasticity through dealing damage and protecting the backline, and once you reach 100 Elasticity, play aggressively and divert enemy attention away from your team and to you.
+If need be, you can cancel the Inflated form early to gain access to your abilities if you need to either go into Reflexive Rubber or use Flexible Elongation to escape.
+Brainiac Bounce is an exceptional tool for crowd control and causing chaos amidst a clustered group of enemies. Mister Fantastic jumps into the sky in his Inflated state, slamming down onto the ground up to six times depending on if he hits an enemy. Enemies hit by the attack will be slowed, making it easier for him to chase them down.
+Mister Fantastic will gain his Inflated Overhealth upon activation, making it a great panic button when being targeted.
+Mister Fantastic is completely CC-immune during his ultimate, meaning he cannot be affected by stuns, seizes, knockbacks, or anything that could forcibly inhibit his movement.
+Using the ultimate in a room with a low ceiling can allow you to string multiple slams back-to-back in quick succession for huge burst that the enemy cannot easily react to, so luring them into such a room before using the ultimate can often be quite powerful.
+His teamup with Invisible Woman, Wedded Harmony, gives him even more sustainability with a force field that generates overhealth as he takes damage. In combination with his other damage mitigation tools, he can become nigh-impossible to take down without severe focus fire.
 Lore
 "There's a solution to every problem if you just look hard enough."
 Reed Richards has one of the universe's most brilliant minds, but even a genius of his magnitude couldn't have predicted the interstellar incident that bombarded his friends and family with cosmic rays, granting them each extraordinary abilities.
@@ -539,6 +574,9 @@ Ultimate Comics Ultimates
 Fantastic Four: The Wedding Special
 (2005) #1
 Trivia
+Mister Fantastic's first appearance was in
+"Fantastic Four" (1961) #1
+.
 Mister Fantastic was datamined from multiple sources around December 2024, along with 15 other characters, including
 Angela
 ,

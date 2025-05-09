@@ -5,16 +5,16 @@
     "health": 300,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#EAB308",
-    "color_theme_secondary": "#FBBF2C"
+    "color_theme": "#15803D",
+    "color_theme_secondary": "#FACC15"
   },
   "abilities": [
     {
       "name": "JEET KUNE DO",
-      "keybind": null,
-      "type": null,
+      "keybind": "LMB",
+      "type": "Melee",
       "description": "Strike the targeted enemy with Jeet Kune Do, reducing the cooldown of Block and Strike with every hit.",
-      "casting": "Melee",
+      "casting": null,
       "damage": "The first four strikes each deal 30 damage, while the fifth strike deals 50 damage",
       "damage_falloff": null,
       "fire_rate_interval": "The first four strikes have an interval of 0.45s between them, while the fifth strike has a 0.67s interval from the fourth strike",
@@ -27,15 +27,17 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "DRAGON'S DEFENSE COOLDOWN REDUCTION - 1.5s per hit"
+      "details": {
+        "cooldown_reduction": "1.5 seconds"
+      }
     },
     {
       "name": "YAT JEE CHUNG KUEN",
       "keybind": null,
-      "type": null,
+      "type": "Melee",
       "description": "Dash forward to pursue the targeted enemy and unleash a flurry of attacks.",
-      "casting": "Melee",
-      "damage": "9",
+      "casting": null,
+      "damage": "9 flat damage + 2.1% of the target's maximum health with each strike",
       "damage_falloff": null,
       "fire_rate_interval": "7/s",
       "ammo": null,
@@ -47,7 +49,9 @@
       "duration": "5s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "PERCENTAGE DAMAGE - Deal damage equal to 2.1% of the target's Max Health\nRANGE - 3m\nDASH SPEED - 12m/s (without target)\nDASH DISTANCE - 3m (without target)\nMAXIMUM PULL-IN DISTANCE - 11m"
+      "details": {
+        "damage_per_strike": "9 flat damage + 2.1% of the target's maximum health"
+      }
     },
     {
       "name": "K'UN-LUN KICK",
@@ -61,20 +65,20 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": "10s",
-      "range": null,
-      "projectile_speed": null,
+      "range": "12m",
+      "projectile_speed": "40m/s",
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "DASH SPEED - 40m/s\nDASH DISTANCE - 12m"
+      "details": "This ability is highly versatile as a gap closer or a escape tool, as well as a way to finish off enemies with low health. Iron Fist will dash forward to perform the first kick and then perform the second kick at the end of the dash. Additionally, the second kick will deal double the damage against opponents that are below 50% HP (up to 105 total damage if you land both kicks). This ability can be used as a mobility option, an escape tool, or a finishing attack against weak enemies. It is recommended you avoid using your kick to open fights unless you know the target is below 50% HP. If you primarily use the ability as a finisher, you'll take down opponents faster and deal more damage. When escaping from fights, always dash towards either a health pack or your team so you can be healed by your Strategists."
     },
     {
       "name": "HARMONY RECOVERY",
       "keybind": "E",
       "type": "Channel",
       "description": "Cross legs and channel Chi, slowly gaining Bonus Health.",
-      "casting": "Channel",
+      "casting": null,
       "damage": null,
       "damage_falloff": null,
       "fire_rate_interval": null,
@@ -87,7 +91,10 @@
       "duration": "3s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "HEALING - 100/s\nBONUS MAX HEALTH - 100\nHEALTH FALLOFF - 15 per/s"
+      "details": {
+        "bonus_max_health": "100",
+        "decay_rate": "15 HP/s"
+      }
     },
     {
       "name": "CRANE LEAP",
@@ -107,27 +114,29 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "Crane Leap consists of three additional midair jumps to cover distances faster and gain elevation. Note that your jumps will not recharge if you are midair, so try to stay to the ground every once and awhile to regain your mobility."
     },
     {
       "name": "DRAGON'S DEFENSE",
       "keybind": null,
       "type": null,
-      "description": "Assume a defensive stance with the boost of Chi to block incoming attacks and gain Damage Reduction. Once he exits the defensive stance, he gains Bonus Health and can strike back with\nYat Jee Chung Kuen\n.",
+      "description": "Assume a defensive stance with the boost of Chi to block incoming attacks and gain Damage Reduction. Once he exits the defensive stance, he gains Bonus Health and can strike back with Yat Jee Chung Kuen.",
       "casting": null,
       "damage": null,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
       "critical_hit": null,
-      "cooldown": "15s - 3s (during\nLiving Chi\n)",
+      "cooldown": "15s - 3s (during Living Chi)",
       "range": null,
       "projectile_speed": null,
       "charges": null,
       "duration": "1s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "CONVERSION RATE - 1.5 damage to bonus health conversion\n200 damage to max health conversion\nDAMAGE REDUCTION - 30%"
+      "details": {
+        "bonus_health_conversion": "200"
+      }
     },
     {
       "name": "WALL RUNNER",
@@ -145,20 +154,43 @@
       "projectile_speed": null,
       "charges": null,
       "duration": null,
-      "movement_boost": null,
+      "movement_boost": "9m/s",
       "energy_cost_details": null,
-      "details": "MOVEMENT SPEED - 9m/s"
+      "details": "Wall Runner allows you to run on walls for greater elevation. Whilst doing so, you can also recharge usages for your Crane Leap ability. Use this ability as much as possible so you can recharge your jumps faster and have more options to engage in a fight."
+    },
+    {
+      "name": "CHI ABSORPTION",
+      "keybind": null,
+      "type": "Passive",
+      "description": "Assist in taking down enemies allow him to absorb their Chi and gain Bonus Health.",
+      "cooldown": null,
+      "damage": null,
+      "range": null,
+      "trigger_condition": "Assist in taking down enemies",
+      "effect_boost": null,
+      "speed_details": null,
+      "details": "Chi Absorption will grant you an additional 50 bonus health every elimination or assist you earn. This should allow you to play more confidently against isolated targets and slightly increase your survivability when dealing with multiple opponents.",
+      "casting": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null
     }
   ],
   "ultimate": {
     "name": "LIVING CHI",
     "keybind": "Q",
     "type": null,
-    "description": "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of\nDragon's Defense\n.",
+    "description": "Become living Chi to boost his speed, damage, and attack range, delivering stronger punches while reducing the cooldown of Dragon's Defense.",
     "casting": null,
-    "damage": null,
+    "damage": "30%",
     "range": null,
-    "effect": null,
+    "effect": "⚬ 100% range boost to Jeet Kune Do, K'un-Lun Kick, and Yat Jee Chung Kuen\n⚬ 80% cooldown reduction to Dragon's Defense\n⚬ Refreshes Dragon's Defense",
     "duration": "12s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -166,23 +198,9 @@
     "movement_boost": "20%",
     "bonus_health_details": null,
     "energy_cost": null,
-    "details": "DAMAGE BOOST - 30%\nSPECIAL EFFECT\n⚬ 100% range boost to\nJeet Kune Do\n,\nK'un-Lun Kick\n, and\nYat Jee Chung Kuen\n⚬ 80% cooldown reduction to\nDragon's Defense\n⚬ Refreshes\nDragon's Defense"
+    "details": "Living Chi provides boosts to a majority of your stats. You gain a 30% damage boost, 20% movement speed boost, and an 100% attack range boost. Your primary fire also becomes Yat Jee Chung Kuen for the duration of the Ultimate. Dragon's Defense has a cooldown of 4 seconds, allowing you to use it a lot more frequently whilst also bombarding enemies with your attacks. This grants Iron Fist high potential to wipe out the enemy team with how agile he becomes and how much damage he can deal to both opponents of low and large health pools. Use it when the enemy team is least expecting you to at least get a few eliminations out of it so your team has a better chance of following up."
   },
-  "passives": [
-    {
-      "name": "CHI ABSORPTION",
-      "keybind": null,
-      "type": null,
-      "description": "Assist in taking down enemies allow him to absorb their Chi and gain Bonus Health.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": "BONUS HEALTH - 50"
-    }
-  ],
+  "passives": [],
   "teamups": [
     {
       "name": "Atlas Bond",
@@ -211,106 +229,112 @@
         "icon": null,
         "name": "The New Agents of Atlas",
         "description": "As Iron Fist, land one KO with an assist from Luna Snow.",
-        "points": "5"
+        "points": 5
       },
       {
         "icon": null,
         "name": "Might of Fuxi",
         "description": "As Iron Fist, land 3 KOs with a single use of Living Chi.",
-        "points": "10"
+        "points": 10
       }
     ]
   },
   "lore_details": {
     "ingame_bio_quote": "\"There were lots of Iron Fists before me, but I'll be the best.\"",
-    "ingame_bio_text": "Lin Lie inherited the legendary Sword of Fu Xi, becoming the hero known as Sword Master. But that was only the beginning of his epic journey. Eventually, he found himself in the mystical city of K'un Lun, where the dragon Shou-Lao blessed him with the power of the immortal Iron Fist.\nThe Timestream Entanglement has caused great upheaval in a number of magical realms. As wars between the gods begin to rage, Lin Lie must protect the sanctuary of K'un Lun from those who seek to tarnish its majestic splendor.",
-    "ingame_story_intro": null,
+    "ingame_bio_text": "Lin Lie is a master of Chinese martial arts who once wielded the shattered Sword of Fu Xi. After fusing its pieces with the mighty Chi of Shou-Lao, he is poised to strike his foes with the grace and force of a soaring dragon as the latest immortal Iron Fist.",
+    "ingame_story_intro": "The Timestream Entanglement has caused great upheaval in a number of magical realms. As wars between the gods begin to rage, Lin Lie must protect the sanctuary of K'un Lun from those who seek to tarnish its majestic splendor.",
     "hero_stories": [
       {
         "title": "Fog Over the Kunlun Mountains",
-        "content": "Lin Lie closed his eyes and opened his mind.\nHe had come to this sacred place, beneath the Tree of Immortality in the fabled city of K'un-Lun, to meditate on the current state of the universe and his place in it. And, thanks to recent events, he had far more to ponder than he had ever imagined possible.\nLin Lie first reflected on how his own journey had brought him here. Not long ago, he was an ordinary young man living in Shanghai, just another face in a sea of 24 million. That all changed when his father, an archaeologist, gifted him an ancient and mysterious sword. Lin Lie would eventually learn that the blade was a divine weapon, known as the Sword of Fu Xi, which had been used to vanquish the demon Chiyou five millenia ago.\nPulled into a modern day conflict between ancient mystical forces, Lin Lie became the hero known as the Sword Master, wielding his legendary blade against countless foes. For a time, he fought alongside the Agents of Atlas, a network of pan-Asian heroes dedicating to combating global threats. But during a battle with a vicious Kumiho, Lin Lie found himself gravely wounded and his sacred sword shattered.\nWhen Lin Lie awoke from his injuries, not only was he on the shores near the mystical city K'un-Lun, he was also in the presence of the ancient dragon Shou-Lao the Undying. The dragon saved Lin Lie's life by bestowing the boy with his powerful Chi, thus granting Lin Lie the power and mantle of the protector of K'un-Lun — the Immortal Iron Fist. It was an honor that sent Lin Lie's life spiraling in a whole new direction. But not even his newfound power could have prepared him for what was about to happen.\nA phenomenon known as the Timestream Entanglement was unleashed upon the Multiverse by a pair of mad tyrants, causing entire dimensions to collide and collapse into each other. Though K'un-Lun's unique place just outside of reality had long kept it safe from such crises, this time, the fabled city would not escape the cosmic conflict unscathed.\nAs the Timestream Entanglement rippled through the pocket dimension in which K'un-Lun existed, the city merged with the other six Capital Cities of Heaven — K'un-Zi, Peng Lai, Tiger Island, Z'Gambo, the Kingdom of Spiders, and the Under City. In the past, these mystical realms had only existed in the same space every 88 years, converging for a great tournament between their champions, the Immortal Weapons. But now, they had been joined together far sooner than anyone could have anticipated.\nTo make matters worse, all of the other Immortal Weapons — from Crane Mother to Fat Cobra — had vanished from this newly amalgamated Heart of Heaven. Lin Lie was the only one of their number who remained... and he wondered why...\nWas it because he had not earned the power of the Iron Fist in the same method that his predecessors had, by plunging their fists into the heart of Shao-Lao? Was his legitimacy as the Iron Fist — and as an Immortal Weapon — in question? Or had the broken shards of the Sword of Fu Xi, which were now embedded within Lin Lie's hands, somehow protected him from the fate that had befallen his fellow warriors? Lin Lie didn't know... and meditating on the subject wasn't provided him with the answers he had come to seek. Fortunately, a much needed distraction had arrived...\nLin Lie opened his eyes to find a green mist floating around the Tree of Immortality. Although K'un-Lun was still as silent as death itself, its protector knew he was no longer alone.\n\"A thief,\" Lin Lie whispered, a smile coming to his lips. Perhaps a little action would put his troubled mind at ease. But how does one fight a mist?\nLin Lie readied himself for battle, focusing the entirety of his Chi into his hand. Without warning, he felt someone strike him, first in the stomach, then in the face. It was almost as if he was being attacked by a ghost — a very strong ghost, for that matter. As the mist blurred his vision, Lin Lie swung his glowing fist blindly, delivering a mighty blow that split the fog in half. But even an Iron Fist can't do much damage to an intangible foe.\nThe mist came back together again, swirling around the Tree of Immortality once more before vanishing altogether. Along with it, a single piece of enchanted fruit had vanished as well.\n\"Where —?!\" Lin Lie gasped, surveying the area for any sign of his mysterious opponent.\nHe caught a glimpse of the green fog rematerializing atop the wall surrounding the courtyard. Moments later, the mist coalesced into a distinctly human form. Lin Lie couldn't identify the thief from this distance, but that didn't stop him from giving chase.\nLin Lie let out a cry of intense pain as he leapt into the air and pulled back his fists. Long shards of mystic metal — the remnants of the Sword of Fu Xi — extended from the backs of his hands. He plunged them into the stone and used the blades to scale the wall with ease.\nby the time he reached the top, the thief was already on the run, racing over the rooftops of K'un-Lun as he effortlessly changed between his solid and misty forms. Lin Lie did not have the same luxury and found himself having to make extraordinary leaps between buildings in order to stay on the thief's trail. Every time Lin Lie managed to get closer, the thief turned in a new direction, as if he knew every corner of K'un-Lun and the other Capital Cities by heart.\n\"Who are you?\" Lin Lie wondered, picking up his pace.\nSoon, the thief diverted his path from the rooftops down to the lowest levels of the city. There, he reached a secret gateway that Lin Lie had never seen before.\n\"Stop!\" Lin Lie yelled before the thief could cross through.\nThe thief glanced back for a second and Lin Lie finally recognized who he was. The Prince of Orphans. The Immortal Weapon from Z'Gambo. But what was he doing here? Why was he stealing the enchanted fruit? And where in the heavens was he leading Lin Lie?\nAs the Prince of Orphans vanished through the gate, Lin Lie noticed some symbols newly-etched in the stone archway above it:\n暗黑之地.An'hay-Zhidi. The Land of Shadows.\nWhen Lin Lie crossed through the gateway, he found himself in an unfamiliar realm. Certainly, this wasn't part of any of the Seven Capital Cities he had visited before. He was in what seemed to be a thriving underworld full of criminals and Yaoguai — ancient demons. But there were also normal people walking the shadowy streets as well, going about their lives.\nLin Lie wished he had the time to explore this strange place to find more answers. But he knew he couldn't afford to lose track of the Prince of Orphans. Hopefully, his fellow Immortal Weapon could shed some light on this dark place.\nThe green mist entered through the window of a small dwelling at the back of an alley; Lin Lie did not hesitate to follow it inside. Upon entry, he was immediately attacked by the Prince of Orphans, who delivered his signature move — the Jawsnapper in Twilight. Lin Lie was instantl laid low by the brutal strike.\n\"I expected better from an Iron Fist,\" the Prince of Orphans said, extending a hand to help Lin Lie up off the ground.\nLin Lie rubbed his aching jaw.\n\"Yeah, well...\" he replied. \"I'm no Danny Rand. As everyone keeps reminding me...\"\n\"I do not expect you to be,\" the Prince of Orphans said. \"There were sixty-seven Iron Fists before you. And there will be plenty more after. Do not try to be them. Strive to be the best you.\"\nThe Prince of Orphans pulled the enchanted fruit he had stolen from his satchel. Its glistening golden skin had turned a deep, withered brown.\n\"Fun Fact,\" Lin Lie said. \"As son as a fruit is plucked from the Tree of Immortality, it begins to die.\"\n\"I know...\" the Prince of Orphans said, dismayed. \"I had just hoped I would get back here fast enough...\"\n\"Why do you even need it?\" Lin Lie asked. \"You seem to be in pretty good shape for a guy your age. Or any age...\"\n\"It is not for me,\" the Prince of Orphans replied, walking over to a basket in the corner of the room and pulling back a blanket. \"It is for her.\"\nLin Lie gazed into the basket to see an infant girl with pale skin, blue eyes, and strawberry blonde hair. She strained as she reached toward Lin Lie, who instinctively backed away, knowing nothing about handling children.\n\"You have a kid?!\" he asked.\n\"The girl is not mine,\" the Prince of Orphans replied. \"Or at least she wasn't. I found her during the war. Alone. Abandoned.\"\n\"Well, I guess you lived up to your name,\" Line Lie joked. Then his face suddenly turned serious. \"Wait... what war?\"\n\"You have not ventured outside of K'un-Lun much lately, have you?\" the Prince of Orphans said.\nThe Prince of Orphans began to explain how the very same chronal catastrophe that had caused the Seven Capital Cities of Heaven to combine had also collapsed several timelines into each other. Now, the ancient forces and elder gods that lived in those timelines were waging an epic battle against each other for total domination.\nThough there were many forces fighting for the good of all dimensions — including\na warrior child who had become a demon queen\n,\na jade giant\nguarding the door to a nuclear purgatory, and\nred sorceress\nholding reality together from a mountaintop in Europe — their numbers were growing even smaller every day.\n\"Then what are we doing here?\" Lin Lie asked. \"Why aren't we out there fighting?\"\n\"Some things must take priority,\" the Prince of Orphans said, motioning towards the baby, who let out a terrible cough and began to cry. \"She became sick, and so I had to seek refuge. Z'Gambo was not where I had left it, but I was offered refuge by Dizang. Little did I know it would lead me back home... in a way...\"\n\"Dizang?\" Lin Lie asked, curious who this mysterious savior could be.\n\"He built this place...\" the Prince of Orphans responded, \"...or at least remade it in his image. It used to be known as the Eighth City.\"\n\"Wait! I've heard of that!\" Lin Lie exclaimed. \"It was the prison realm for the Seven Capital Cities of Heaven, right?\"\n\"And now it is a refuge for all those who have been displaced by this war,\" the Prince of Orphans said. \"Including me... and little Laussa here...\"\nLin Lie looked back at the baby. The color was quickly fading from her cheeks. He knew she was struggling to survive, and he couldn't just stand there and let such an innocent creature continue to suffer.\n\"Hold on,\" he said, smiling gently as he took hold of the rapidly decaying fruit. \"A little of my Chi should return this to peak freshness in no time.\"\nAs Lin Lie's hand began to glow, the fruit's skin turned back to its original golden hue.\n\"How can I repay you?\" the Prince of Orphans asked, immediately cutting the fruit with a knife and handing a small piece to his tiny ward to nibble on.\n\"I was always told you were one of the best fighters the Immortal Weapon ever had,\" Lin Lie said. \"Clearly, I could use your help. I mean, I can hold my own but I've got a long way to go before I reach your skill level.\"\n\"You never trained in the martial arts with Lei-Kung?\" the Prince of Orphans asked.\n\"The Thunderer is big on tradition,\" Lin Lie replied, \"I didn't exactly get my power in the most customary of ways, remember?\"\n\"I suppose I could teach you a thing or two,\" the Prince of Orphans said. \"Show me your guard stance.\"\n\"Wait,\" Lin Lie said, surprised. \"Like right now?\"\n\"If you wish me to be your mentor,\" the Prince of Orphans replied sternly, \"you work on my schedule. If you truly hope to be one of the great Iron Fists, we need to start with close combat. Wing Chun. Then we can move into some weapon techniques... perhaps the Bart Cham Dao...\"\n\"The Eight Cutting Blades?\" Lin Lie said excitedly. \"I like the sound of that!\"\nBefore he could enjoy the moment too much, however, Lin Lie's impromptu training session was interrupted by a pounding on the dwelling's door.\n\"I do not,\" the Prince of Orphans said as he walked over to a small window and peered outside to see several armed K'un-Lun guards waiting in the alley.\n\"Friends of yours?\" the Prince of Orphans asked Lin Lie.\n\"I forgot to tell you,\" Lin Lie responded, nervously rubbing the back of his neck. \"Stealing fruit from the Tree of Immortality is punishable... by death...\"\n\"I find the irony amusing,\" the Prince of Orphans replied.\n\"Those guys probably followed us to make sure I finished the job,\" Lin Lie continued.\n\"And are you going to?\" the Prince of Orphans asked, curiously raising an eyebrow.\nLin Lie smiled at his new mentor.\n\"No,\" he responded. \"I'm going to convince them that some laws were meant to be broken.\"\n\"With your fists?\" the Prince of Orphans asked.\n\"With my words,\" Lin Lie replied. \"Sometimes the biggest victories come from the battles we choose not to fight.\"\nThe Prince of Orphans was impressed by the young Iron Fist's wisdom. But as he followed Lin Lie through the door of his home and out into the alleyway, K'un-Lun's guards instantly raised their weapons, ready to strike.\n\"I do not think they are interested in talking,\" the Prince of Orphans said, readying himself for the fight to come. \"And so, Lin Lie, your first lesson begins...\"\nAs Lin Lie began to focus his Chi once again, a commanding voice rang out from the other end of the alley.\n\"Enough!\" it yelled. \"There will be no blood shed on my streets!\"\nA man stepped forward, his body wrapped in cloth so black it was hard to tell where he ended and the shadows began.\n\"Dizang,\" the Prince of Orphans said, dropping to one knee and bowing his head in respect. \"We meant no harm.\"\n\"And none shall be delivered,\" Dizang replied. \"These guards were merely doing their duty... but they are beyond their jurisdiction. They are free to go.\"\n\"How about me...?\" Lin Lie asked as the guards turned and fled back to K'un-Lun.\n\"You may stay...\" Dizang replied. \"...at your own risk. There are those here who wish to see the Iron Fist defeated, some of whom are bold enough to try to claim your power for themselves.\"\n\"Bring 'em on,\" Lin Lie said confidently.\n\"Just as K'un-Lun is yours protect,\" Dizang continued, \"this city is mine. Should you disrupt the delicate balance I have created here, you will answer to me.\"\nWith that, Dizang effortlessly leapt between the walls of the alleyway, back and forth as he ascended to the rooftop above. As he reached the top, he paused a moment and silently peered down on Lin Lie. The full moon shone behind him, framing Dizang's silhouette in a way that sent chills down Lin Lie's spine.\n\"So...\" the Prince of Orphans said as Dizang disappeared into the shadows. \"...where were we?\"\nLin Lie honestly wasn't sure how to answer that question... but suddenly, he was desperate to find out...",
+        "content": "Lin Lie closed his eyes and opened his mind. He had come to this sacred place, beneath the Tree of Immortality in the fabled city of K'un-Lun, to meditate on the current state of the universe and his place in it. And, thanks to recent events, he had far more to ponder than he had ever imagined possible. Lin Lie first reflected on how his own journey had brought him here. Not long ago, he was an ordinary young man living in Shanghai, just another face in a sea of 24 million. That all changed when his father, an archaeologist, gifted him an ancient and mysterious sword. Lin Lie would eventually learn that the blade was a divine weapon, known as the Sword of Fu Xi, which had been used to vanquish the demon Chiyou five millenia ago. Pulled into a modern day conflict between ancient mystical forces, Lin Lie became the hero known as the Sword Master, wielding his legendary blade against countless foes. For a time, he fought alongside the Agents of Atlas, a network of pan-Asian heroes dedicating to combating global threats. But during a battle with a vicious Kumiho, Lin Lie found himself gravely wounded and his sacred sword shattered. When Lin Lie awoke from his injuries, not only was he on the shores near the mystical city K'un-Lun, he was also in the presence of the ancient dragon Shou-Lao the Undying. The dragon saved Lin Lie's life by bestowing the boy with his powerful Chi, thus granting Lin Lie the power and mantle of the protector of K'un-Lun — the Immortal Iron Fist. It was an honor that sent Lin Lie's life spiraling in a whole new direction. But not even his newfound power could have prepared him for what was about to happen. A phenomenon known as the Timestream Entanglement was unleashed upon the Multiverse by a pair of mad tyrants, causing entire dimensions to collide and collapse into each other. Though K'un-Lun's unique place just outside of reality had long kept it safe from such crises, this time, the fabled city would not escape the cosmic conflict unscathed. As the Timestream Entanglement rippled through the pocket dimension in which K'un-Lun existed, the city merged with the other six Capital Cities of Heaven — K'un-Zi, Peng Lai, Tiger Island, Z'Gambo, the Kingdom of Spiders, and the Under City. In the past, these mystical realms had only existed in the same space every 88 years, converging for a great tournament between their champions, the Immortal Weapons. But now, they had been joined together far sooner than anyone could have anticipated. To make matters worse, all of the other Immortal Weapons — from Crane Mother to Fat Cobra — had vanished from this newly amalgamated Heart of Heaven. Lin Lie was the only one of their number who remained... and he wondered why... Was it because he had not earned the power of the Iron Fist in the same method that his predecessors had, by plunging their fists into the heart of Shao-Lao? Was his legitimacy as the Iron Fist — and as an Immortal Weapon — in question? Or had the broken shards of the Sword of Fu Xi, which were now embedded within Lin Lie's hands, somehow protected him from the fate that had befallen his fellow warriors? Lin Lie didn't know... and meditating on the subject wasn't provided him with the answers he had come to seek. Fortunately, a much needed distraction had arrived...",
         "status": null
       },
       {
         "title": "Crossing the Sea of Stars",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
       },
       {
         "title": "The Longsword Cuts Across the Heavenly Lands",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
+        "content": null,
+        "status": "Coming soon. Stay Tuned!"
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch\nIron Fist\nwas released as the 30th character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
-          "Added 2 new costumes:\nMartial Arts Savant\nand\nSword Master\n.",
-          "Added the\nMight of Fuxi\nachievement.",
-          "Added to the\nAtlas Bond\nTeam-Up Ability\nwith\nLuna Snow\n."
+          "Iron Fist was released as the 30th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: Martial Arts Savant and Sword Master.",
+          "Added the Might of Fuxi achievement.",
+          "Added to the Atlas Bond Team-Up Ability with Luna Snow."
         ]
       },
       {
-        "date_version": "24/12/10:\nVersion 20241210",
+        "date_version": "24/12/10: Version 20241210",
         "changes": [
-          "When\nIron Fist\nused pings, the corresponding voice lines would not be triggered. This issue has been resolved."
+          "When Iron Fist used pings, the corresponding voice lines would not be triggered. This issue has been resolved."
         ]
       },
       {
-        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "date_version": "25/01/22: Version 20250122 / Fortune & Colors Event",
         "changes": [
-          "Added 1 new costume:\nLion's Gaze\n(Limited-time store release: 2025/01/23 - 2025/02/14)"
+          "Added 1 new costume: Lion's Gaze (Limited-time store release: 2025/01/23 - 2025/02/14)"
         ]
       },
       {
-        "date_version": "25/02/20:",
+        "date_version": "25/02/20",
         "changes": [
-          "Addressed an exploit that allowed\nIron Fist\nto perform rapid consecutive jumps under specific conditions. The martial artist's acrobats are now finely tuned!"
+          "Addressed an exploit that allowed Iron Fist to perform rapid consecutive jumps under specific conditions. The martial artist's acrobats are now finely tuned!"
         ]
       },
       {
-        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5\nLaunch",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
-          "Reduce the damage of\nJeet Kune Do\n's 1st, 2nd, and 5th strikes from 32 to 30, while the 3rd and 4th strikes will deal 15 damage instead of 16. The final, devastating strike has been dialed back from 55 to 50.",
-          "The cooldown reduction for\nDragon's Defense\nhas been extended from 1s to 1.5s.",
-          "The damage of each hit from\nYat Jee Chung Kuen\nwill take a hit, dropping from 19 to 10 flat damage (including during\nLiving Chi\n). However, each strike from the\nYat Jee Chung Kuen\nnow delivers an extra blow, dealing damage equal to 1.7% of the opponent's maximum health (including during\nLiving Chi\n).",
-          "Increase the additional maximum health granted by\nHarmony Recovery\nfrom 50 to 150. A new decay mechanism for the extra health has also been introduced: one second after the ability ends, the additional health will deplete at a rate of 25 health per second.",
-          "Increase the maximum Bonus Health converted from damage blocked during\nDragon's Defense\nfrom 150 to 200.",
+          "Reduce the damage of Jeet Kune Do's 1st, 2nd, and 5th strikes from 32 to 30, while the 3rd and 4th strikes will deal 15 damage instead of 16. The final, devastating strike has been dialed back from 55 to 50.",
+          "The cooldown reduction for Dragon's Defense has been extended from 1s to 1.5s.",
+          "The damage of each hit from Yat Jee Chung Kuen will take a hit, dropping from 19 to 10 flat damage (including during Living Chi). However, each strike from the Yat Jee Chung Kuen now delivers an extra blow, dealing damage equal to 1.7% of the opponent's maximum health (including during Living Chi).",
+          "Increase the additional maximum health granted by Harmony Recovery from 50 to 150. A new decay mechanism for the extra health has also been introduced: one second after the ability ends, the additional health will deplete at a rate of 25 health per second.",
+          "Increase the maximum Bonus Health converted from damage blocked during Dragon's Defense from 150 to 200.",
           "Increase base health from 250 to 300."
         ]
       },
       {
-        "date_version": "25/03/27:\nVersion 20250327",
+        "date_version": "25/03/27: Version 20250327",
         "changes": [
-          "Fixed a glitch in\nPractice Range\nwhere\nIron Fist\nwall-climbing was beyond expectations. The master of martial arts can now keep his acrobatic feats on track!"
+          "Fixed a glitch in Practice Range where Iron Fist wall-climbing was beyond expectations. The master of martial arts can now keep his acrobatic feats on track!"
         ]
       },
       {
         "date_version": "25/04/08",
         "changes": [
-          "Resolved a rare glitch where\nIron Fist\ncould end up floating indefinently. The Immortal Weapon is now back on the ground, delivering justice and martial arts mastery without any unintended levitation!"
+          "Resolved a rare glitch where Iron Fist could end up floating indefinently. The Immortal Weapon is now back on the ground, delivering justice and martial arts mastery without any unintended levitation!"
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala\nLaunch",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
-          "Reduce the Bonus Max Health gained from\nHarmony Recovery\nfrom 150 to 100, but slow the falloff rate of that health from 25 per/s to 15 per/s.",
-          "Lower fixed damage of\nYat Jee Chung Kuen\nfrom 10 to 9, but increase the percentage damage of the enemy's Max Health per strike from 1.7% to 2.1%.",
-          "Decrease the cooldown for\nK'un-Lun Kick\nfrom 12 to 10 seconds.",
-          "Added 1 new costume:\nImmortal Weapon of Agamotto\n."
+          "Reduce the Bonus Max Health gained from Harmony Recovery from 150 to 100, but slow the falloff rate of that health from 25 per/s to 15 per/s.",
+          "Lower fixed damage of Yat Jee Chung Kuen from 10 to 9, but increase the percentage damage of the enemy's Max Health per strike from 1.7% to 2.1%.",
+          "Decrease the cooldown for K'un-Lun Kick from 12 to 10 seconds.",
+          "Added 1 new costume: Immortal Weapon of Agamotto."
         ]
       },
       {
-        "date_version": "25/04/25:\nVersion 20250425\n/\nGiant-Size Brain Blast\nEvent",
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
         "changes": [
-          "Squashed a bug causing\nIron Fist\n's\nK'un-Lun Kick\nto suddenly rollback in high-latency battles. Now, his moves blast forward with the unstoppable momentum of a true warrior!"
+          "Squashed a bug causing Iron Fist's K'un-Lun Kick to suddenly rollback in high-latency battles. Now, his moves blast forward with the unstoppable momentum of a true warrior!"
+        ]
+      },
+      {
+        "date_version": "Version 20250430",
+        "changes": [
+          "corrected a spelling mistake in Fog Over the Kunlun Mountains which spelled Lin's name as \"Line\" once."
         ]
       }
     ],
     "official_quote": null,
-    "official_description": "Iron Fist\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 30th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nLuna Snow\n."
+    "official_description": "Iron Fist is a Duelist hero in Marvel Rivals, and is the 30th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Luna Snow."
   },
   "background": {
     "real_name": "Lin Lie (林烈)",
@@ -349,12 +373,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "50.74%",
-    "wr_change": "+1.31%",
-    "pick_rate": "12.44%",
-    "pr_change": "+6.38%",
-    "ban_rate": "22.03%",
-    "matches": "185,624"
+    "win_rate": "50.73%",
+    "wr_change": "+1.30%",
+    "pick_rate": "11.49%",
+    "pr_change": "+5.43%",
+    "ban_rate": "24.14%",
+    "matches": "171,207"
   },
   "data_sources": {
     "wiki": [],

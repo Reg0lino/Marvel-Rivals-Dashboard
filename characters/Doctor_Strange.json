@@ -5,19 +5,19 @@
     "health": 600,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#EAB308",
-    "color_theme_secondary": "#FCA5A5"
+    "color_theme": "#A855F7",
+    "color_theme_secondary": "#FACC15"
   },
   "abilities": [
     {
       "name": "DAGGERS OF DENAK",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
       "description": "Cast Daggers of Denak forward.",
       "casting": "Five-round delayed hit projectiles",
-      "damage": "16",
+      "damage": 16,
       "damage_falloff": "Falloff begins at 10m, decreasing to 62.5% at 20m",
-      "fire_rate_interval": "5.56 rounds per second, with a 0.03-second interval between every two rounds",
+      "fire_rate_interval": "0.03-second interval between every two rounds",
       "ammo": 8,
       "critical_hit": false,
       "cooldown": null,
@@ -27,7 +27,29 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "An advanced technique to frame-cancel the endlag is to weave the primary fire with his melee attack. This is especially useful during close combat skirmishes to increase Doctor Strange's burst damage significantly. This weaving technique also allows Doctor Strange to gather more Dark Magic stacks faster.  Each hit generates 3.5 Dark Magic."
+    },
+    {
+      "name": "SHIELD OF THE SERAPHIM",
+      "keybind": "RMB",
+      "type": null,
+      "description": "Create a protective barrier against damage.",
+      "casting": "Channeled",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s (if destroyed)",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": {
+        "recovery_shield_value": "70/s"
+      }
     },
     {
       "name": "CLOAK OF LEVITATION",
@@ -45,9 +67,9 @@
       "projectile_speed": null,
       "charges": null,
       "duration": "6s",
-      "movement_boost": null,
+      "movement_boost": "8m",
       "energy_cost_details": null,
-      "details": "DASH DISTANCE - 8m"
+      "details": null
     },
     {
       "name": "MAELSTROM OF MADNESS",
@@ -67,7 +89,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "This ability interacts directly with his passive, Price of Magic. Each time Doctor Strange deals damage with his primary fire or melee attack, he gains stacks of Dark Magic, up to 100. If he reaches the maximum amount of Dark Magic and does not release it after 3 seconds, he is afflicted by the Anti-Heal curse, which makes him unable to be healed for a few seconds. The stacks of Dark Magic that Doctor Strange possesses visually appear as a glowing purple symbol on his cape that becomes more pronounced as more stacks are accumulated. Dark Magic decays after a few seconds if the player doesn't deal damage. Decay is stopped immediately if further damage is done (excluding decay from max percentage.) Doctor Strange gains 3.5 Dark Magic if he hits enemies with Daggers of Denak, and 10 Dark Magic with his melee attack. The player can release the Dark Magic by using Maelstrom of Madness, which deals more damage the more Dark Magic he currently has (1.2 damage per stack)."
     },
     {
       "name": "PENTAGRAM OF FARALLAH",
@@ -87,29 +109,7 @@
       "duration": "20s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
-    },
-    {
-      "name": "SHIELD OF THE SERAPHIM",
-      "keybind": null,
-      "type": null,
-      "description": "Create a protective barrier against damage.",
-      "casting": "Channeled",
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "3s (if destroyed)",
-      "range": null,
-      "projectile_speed": null,
-      "charges": null,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": {
-        "RECOVERY SHIELD VALUE - 70/s": "70/s"
-      }
+      "details": "Allows Doctor Strange to open two portals, one from his current location and another to anywhere on the map. Alternatively, the first portal's position can be repositioned as well, allowing both portals to be placed wherever. Both allies and enemies can use the portals, which last for 20 seconds. All projectiles will travel through the portal, including Ultimates. If Doctor Strange channels the portal spell while in mid-air, he will remain floating indefinitely until he places the other portal. Projectiles can only travel through the portals once per cast. The portal can be interrupted during the placement phase if an allied Loki transformed into him."
     }
   ],
   "ultimate": {
@@ -118,9 +118,9 @@
     "type": null,
     "description": "Separate nearby enemies' Souls from their bodies. Damage dealt to these Souls is transferred to their physical bodies.",
     "casting": "Single-cast spell field that surrounds the caster",
-    "damage": "60",
+    "damage": 60,
     "range": "10m spherical radius",
-    "effect": null,
+    "effect": "Temporarily stuns all enemies within range for 3 seconds, projecting their souls outside of their bodies. Players can deal damage to these souls which will reflect the damage into their physical bodies.",
     "duration": "3s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -133,29 +133,9 @@
   "passives": [
     {
       "name": "PRICE OF MAGIC",
-      "keybind": null,
-      "type": null,
-      "description": "Dark Magic accumulates with every hit on an enemy. If Dark Magic peaks for too long, Doctor Strange will be cursed with Anti-Heal.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": "DURATION - 2s\nANTI-HEAL ACTIVATION DELAY AT PEAK DARK MAGIC - 3s\nGENERATE DARK MAGIC - Daggers of Denak: Each hit generates 3.5 Dark Magic. When using the V key, every enemy hit generates 10 Dark Magic"
-    },
-    {
-      "name": "ENCHANTED ENHANCEMENT",
-      "keybind": null,
-      "type": "PASSIVE",
-      "description": "Doctor Strange shares his arcane mastery, replacing Scarlet Witch's Chthonian Burst with Mystic Burst upon activation. Hold down the attack button to unleash a rapid, relentless salvo of magical missiles in the target direction.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": null
+      "details": {
+        "generate_dark_magic": "Daggers of Denak: Each hit generates 3.5 Dark Magic. When using the V key, every enemy hit generates 10 Dark Magic"
+      }
     }
   ],
   "teamups": [
@@ -164,14 +144,7 @@
       "partner": [
         "Scarlet_Witch"
       ],
-      "effect": null,
-      "keybind": "Passive",
-      "teamup_bonus": "+150 Max Health",
-      "duration": null,
-      "cooldown": null,
-      "range_target": null,
-      "special_notes": "Role: Anchor | Ability: Enchanted Enhancement",
-      "details": null
+      "teamup_bonus": "+150 Max Health"
     }
   ],
   "gameplay": {
@@ -201,31 +174,30 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Magic is not to be owned, but to be felt. Experienced. Lived.\"",
-    "ingame_bio_text": "Respected surgeon Stephen Strange was forced to seek a different path when his hands were injured in a terrible accident. Devoting himself to the mystic arts, Strange became this dimension's first line of defense against supernatural threats — the Sorcerer Supreme.",
+    "ingame_bio_quote": "\"Open your eyes, reality is but an illusion.\"",
+    "ingame_bio_text": "As the Sorcerer Supreme, Doctor Stephen Strange gracefully wields ancient spells to turn the tide of even the most impossible battle. However, magic always comes at a cost, and each use of his arcane abilities gradually awakens the darkness within him.",
     "ingame_story_intro": "Sensing a massive temporal disturbance, Doctor Strange performed an arcane ritual to protect his reality. The spell failed, and Strange and his Sanctum Sanctorum became trapped within the Mirror Dimension. Lost in the timestream, Strange uses his mystic mastery to free himself for short spans of time in order to join the fight.",
     "hero_stories": [
       {
         "title": "Unexpected Guest",
-        "content": "It was another sweltering summer night on the island of Manhattan. Though the sun had gone down hours earlier, the residual heat it left behind still radiated from the pavement in shimmering waves. The forecast had not called for any relief from the record temperatures in the immediate future, but the residents of Greenwich Village had come to expect the unexpected thanks to one of their more… colorful neighbors. So when a powerful blast of icy air swept down Bleecker Street, it barely drew any attention. At least from those outside. Within the confined of the building marked \"177A,\" however, someone had most certainly taken notice of the sudden chill.\n\"We have a visitor,\" said Doctor Stephen Strange, barely looking up from the ancient tome in front of him. The Sorcerer Supreme was sitting cross-legged, floating a few feet in the air as he studied the arcane rituals within the sacred text. He paused for a moment before speaking again, this time with a slightly more commanding tone. \"Wong, do get the door, please. We mustn't keep our guest waiting.\"\n\"Wong's out on a supply run,\" a gruff voice replied from below. \"Guess we ran outta Eye of Newt or somethin'. How come you never told me we were expectin' company, Doc?\"\n\"Because we weren't,\" Strange replied as he looked down at Bats, the ghostly basset hound that had recently become one of his most faithful companions. Strange unfolded his legs and gently landed on the floor of his study. \"But invited or not, this is one visitor that it would be best not to turn away without at least hearing what he has to say. After all, he has traveled quite far to get here… haven't you, Victor?\"\n\"Indeed I have, Stephen,\" replied the unexpected guest in an authoritative voice. There, in the hallway just outside of Doctor Strange's inner sanctum, stood the metal-clad monarch of Latveria—the villainous Victor von Doom.\n\"How the heck did he get in here?!\" Bats said with a low growl, the green glow from his spectral form intensifying. \"This place is supposed to be intruder-proof!\"\n\"It seems the good doctor's Sanctum Sanctorum is desperately in need of some more powerful protection spells,\" Doom replied snidely. \"And perhaps a better watchdog as well…\"\n\"I supposed I could use to change a few mystic locks,\" Strange said with a smirk, \"though I scarcely have to worry about anyone getting past the front door. After all, there aren't many other mortals as adept at sorcery as you.\"\n\"You flatter me, Stephen,\" Doom replied. \"Do go on.\"\n\"It's true,\" Strange continued. \"I may be this dimension's Sorcerer Supreme, but when it comes to the mastery of the Dark Arts, you may very well be my equal. Which makes the fact that you've come here even more concerning. If you need my help, then something must be very wrong…\"\n\"Everything is wrong, Stephen,\" Doom said, \"and it has been for far too long. But I believe I have discovered a way to fix it. To bend time itself to my whims.\"\n\"Time is not something to be tampered with,\" Strange replied. \"The cost is far too high. You know that.\"\n\"But what if the reward were even greater?\" Doom continued. \"I'm on the verge of something magnificent, Stephen. And you hold the key to my success.\"\n\"What's this chrome-plated crackpot yappin' about?!\" Bats asked, clearly growing more impatient with every second.\n\"Victor has long sought to undo some critical mistakes that led him down his current path,\" Strange said.\n\"Doom does not make mistakes,\" the visitor replied sternly. \"However… there were certain steps along my journey that, if retread, could lead to possibilities that currently lie beyond my grasp. Tell me, Stephen, have you not ever wished to rewind the clock?\"\nStrange paused, looking down at his mangled hands, wondering how his life might have unfolded had he not been in the accident that had forced him to go from renowned surgeon to reclusive sorcerer. But as the Ancient One had taught him, fate was not in the hands of any mortal, even those with unparalleled mystical might.\n\"I have become who I am supposed to be, Victor,\" Strange said. \"My journey would have ended in the same place, no matter the road taken.\"\n\"I wish to prove otherwise,\" Doom replied. \"And to do so, all I require is a single spell.\"\n\"The fact that you do not already have access to the spell you seek speaks volumes,\" Strange said, raising a curious eyebrow. \"There are few arcane rites unknown to a sorcerer of your esteem. Perhaps just the forbidden spells inscribed on the pages of—\"\n\"The Darkhold,\" Doom said.\nStephen Strange shuddered at the name. The Darkhold was a cursed collection of insidious incantations, said to be authored by an elder god of chaos known as Chthon. This so-called Book of Sins had a corrupting effect on those who dared to tape into its mystic malevolence. Strange had recovered the illicit text from the Dark Dimension long ago after a battle against his rival, Baron Mordo, and had stored it within his Sanctum Sanctorum for safekeeping ever since.\n\"I'm afraid that volume is off limits, old friend,\" Strange said resolutely. \"Which of those Chthonic curses could possibly aid you in your endeavors anyway?\"\n\"The Vampiric Verses,\" Doom whispered, almost as if speaking the spell's name aloud was enough to unleash its terror upon the world.\n\"Hold on…\" Bats interrupted. \"You want to turn yourself into a vampire? Ain't you already spooky enough, fella?!\"\n\"I wish no such thing,\" Doom said, his patience beginning to crumble away. \"But Dracula and his immortal legion used this same rite centuries ago to successfully cheat time. Perhaps, with the proper amount of scrutiny, I can do the same and unlock the secrets of time's true nature.\"\n\"An interesting approach…\" Strange said, \"…but one far too risky for me to allow. I'm sorry, Victor, but the answer is no.\"\n\"I was afraid you would say that… 'old friend,'\" Doom responded. \"But I will have what I seek, even must I take it from you by force.\"\nWithout a moment's notice, Doom conjured up the Veil of Khonshu, sending a massive wave of darkness cascading towards Strange.\n\"Claws of Bast!\" Strange commanded, slashing through the oncoming wall of ebony energy with brightly-glowing purple claws that were forged from spirit energy drawn directly from the Wakandan ancestral plane, Djalia.\n\"Impressive, Stephen,\" Doom replied, circling his arms in a frenzied motion. \"But can you weather the Mists of Fimbulwinter?\"\nA freezing gust of wind rushed from the magical circle Doom had conjured. But Stephen Strange was not willing to back down, even as the bitter frost stiffened his cape.\n\"I've spent winters in Kamar-Taj,\" Strange mused. \"This is nothing.\"\nDoom watched in surprise as Doctor Strange fought through the icy gusts to cast his next incantation. Even more shockingly, each of the Sorcerer Supreme's hands seemed to be conjuring their own spells, entirely independent of each other. One blazed a bright red while the other glistened gold. As Strange brought his hands together, he released an enchantment that even he had never summoned before, born from the combined energy of both the Crimson Cosmos and Asgard:\n\"Crimson Thorns of Yggdrasil!\"\nLong, spiked vines erupted forth from Strange's hands, glowing a deep scarlet as they whipped towards their intended target. Before Doom could even think to utter a defensive spell, he found himself completely ensnared by the thorny limbs, unable to move.\n\"You seem to have forgotten that I am far more powerful when within my own home,\" Strange said.\n\"For a guy who doesn't make mistakes, Doom,\" Bats added, \"that was a pretty big one.\"\n\"Perhaps I was too rash in my actions,\" Doom responded. \"Release me from these shackles, Stephen, and I assure you I will depart your home in peace.\"\n\"You ain't really gonna trust this guy, are ya, Doc?\" Bats asked with deep concern.\n\"I am,\" Strange replied, lowering his hands and releasing the spell's grip on Doom. \"Victor and I may have different goals and opinions when it comes to sorcery, but he has always been a man of his word.\"\n\"Indeed,\" Doom said as he began to walk from Strange's inner sanctum. \"And you also have my word, Stephen, that I will find a way to finally break the bonds of time. With your help… or without…\"\n\"And you have my word,\" Strange warned, \"that, should you overstep your station, the Sorcerer Supreme will do whatever it takes to stop you.\"\n\"Now get outta here before we find out just how bite-proof that tacky armor of yours really is!\" Bats yowled.\n\"No one speaks to Doom like that, mutt!\" Doom snarled back. \"You should consider yourself lucky that you are already deceased.\"\n\"Guess there's a first time for everything,\" Bats responded wryly.\n\"Before I go, Stephen…\" Doom said, looking back over his shoulder at Strange, \"…a warning. I have foreseen a great evil coming to this city you call home. You may be safe within your House of Truth for now, but those outside its walls will soon be drowning in darkness.\"\n\"What the hell is that supposed to mean?\" Bats barked toward the darkened doorway as Doom faded into the shadows.\n\"Easy, boy. He's already gone,\" Strange replied. \"But I have an uneasy feeling that we'll find out what Victor was talking about soon enough. So… if you'll excuse me…\"\nWith a simple gesture of one hand, Doctor Strange opened a sparkling portal to a hidden corner of the Astral Plane, one so remote that even he barely knew where it was located. With a wave of his other hand, the Darkhold flew off his bookshelf and into the rift. The extra-dimensional gateway quickly closed as soon as the ancient tome passed safely through, as if neither the portal nor the book had ever existed in the first place.\n\"For safekeeping,\" Strange said, almost as if reassuring himself. \"Doom will never find the Darkhold there.\"\n\"I just hope he's the only one looking for it…\" said Bats.\n\"You and I both, my friend…\" Strange mused, turning his attention back to the far-less-dangerous spell book that he had been studying when his unexpected guest first arrived.\nAs Bats curled up on the floor of Doctor Strange's study, the chill finally faded from Bleecker Street. Soon enough, the sun would rise again and its heat would saturate the city. If only the residents of Manhattan had known how few days of light and warmth they had left…",
+        "content": "It was another sweltering summer night on the island of Manhattan. Though the sun had gone down hours earlier, the residual heat it left behind still radiated from the pavement in shimmering waves. The forecast had not called for any relief from the record temperatures in the immediate future, but the residents of Greenwich Village had come to expect the unexpected thanks to one of their more… colorful neighbors. So when a powerful blast of icy air swept down Bleecker Street, it barely drew any attention. At least from those outside. Within the confined of the building marked \"177A,\" however, someone had most certainly taken notice of the sudden chill.\n\"We have a visitor,\" said Doctor Stephen Strange, barely looking up from the ancient tome in front of him. The Sorcerer Supreme was sitting cross-legged, floating a few feet in the air as he studied the arcane rituals within the sacred text. He paused for a moment before speaking again, this time with a slightly more commanding tone. \"Wong, do get the door, please. We mustn't keep our guest waiting.\"\n\"Wong's out on a supply run,\" a gruff voice replied from below. \"Guess we ran outta Eye of Newt or somethin'. How come you never told me we were expectin' company, Doc?\"",
         "status": null
       },
       {
         "title": "Magic Standstill",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "Coming soon. Stay Tuned!",
         "status": null
       },
       {
         "title": "Oath of Doom",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "Coming soon. Stay Tuned!",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch",
           "Doctor Strange was released as the 1st character to be introduced to Marvel Rivals as a Vanguard hero.",
           "Added 3 new costumes: Master of Black Magic, Sorcerer Supreme of the Galaxy, and God of Magic.",
           "Added the Perilous Portal achievement.",
@@ -233,45 +205,44 @@
         ]
       },
       {
-        "date_version": "24/12/10:\nVersion 20241210",
+        "date_version": "24/12/10: Version 20241210",
         "changes": [
           "When Doctor Strange's portal triggered terrain KOs, they would mistakenly restore Doctor Strange's Ultimate energy. For now, we have disabled the portal's terrain KO attribution to temporarily fix this issue (i.e., terrain KOs will not count toward Doctor Strange's own KOs). Rest assured, this bug will be resolved in a future update, at which time we will restore the portal's KO attribution."
         ]
       },
       {
-        "date_version": "24/12/19:\nVersion 20241219\n/\nWinter Celebration\nEvent",
+        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
         "changes": [
           "No more teammates charging Doctor Strange's ultimate ability through portals. Also, the portal terrain KOs are back in action!"
         ]
       },
       {
-        "date_version": "25/01/08:",
+        "date_version": "25/01/08",
         "changes": [
           "Corrected minor movement ability discrepancies for certain heroes (like Doctor Strange and Magik) at both low and high frame rates."
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Launch",
           "Add damage falloff to Maelstrom of Madness and Gamma Maelstrom. Starting at 5 meters and reducing to 70% at 8 meters.",
           "Slightly decrease the shield value recovery rate after releasing Shield of the Seraphim from 80/s to 70/s."
         ]
       },
       {
-        "date_version": "25/01/17:",
+        "date_version": "25/01/17",
         "changes": [
           "Added 1 new costume: Sorcerer Immortal."
         ]
       },
       {
-        "date_version": "25/02/14:\nVersion 20250214",
+        "date_version": "25/02/14: Version 20250214",
         "changes": [
           "Fixed an issue where Doctor Strange's portal could be interrupted during the placement phase if an allied Loki transformed into him. The Sorcerer Supreme's magic now flows uninterrupted!"
         ]
       },
       {
-        "date_version": "25/02/20:",
+        "date_version": "25/02/20",
         "changes": [
           "Fixed a bug where Doctor Strange's portals could get destroyed if they intersected with broken Recursive Destruction objects during the rewind phase in Empire of Eternal Night: Midtown. The Sorcerer Supreme's portals are now as reliable as his magic!",
           "Fixed an issue where if certain heroes were eliminated by terrain after using their abilities to pass through Doctor Strange's portals, it would sometimes not count as a KO for the Sorcerer Supreme. Now, every portal pitfall will be counted!",
@@ -280,36 +251,34 @@
         ]
       },
       {
-        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
-          "Launch",
           "Reduce base health from 650 to 600."
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
-          "Launch",
           "Decrease Daggers of Denak damage per projectile from 18 to 16.",
           "Reduce the Maelstrom of Madness conversion ratio of Dark Magic to damage from 1.3 to 1.2.",
           "Added to the Arcane Order Team-Up Ability with Scarlet Witch, but removed from the Gamma Charge Team-Up Ability with Hulk and Iron Man."
         ]
       },
       {
-        "date_version": "25/04/18:\nVersion 20250415",
+        "date_version": "25/04/18: Version 20250415",
         "changes": [
           "Added 1 new costume: Doctor Strange in the Multiverse of Madness."
         ]
       },
       {
-        "date_version": "25/04/30:",
+        "date_version": "25/04/30: Version 20250430",
         "changes": [
           "Decrease the energy cost to unleash the Eye of Agamotto from 3400 to 3100."
         ]
       }
     ],
-    "official_quote": null,
-    "official_description": "Doctor Strange\nis a Vanguard\nhero\nin\nMarvel Rivals\n, and is the 1st hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nScarlet Witch\n."
+    "official_quote": "\"Magic is not to be owned, but to be felt. Experienced. Lived.\"",
+    "official_description": "Doctor Strange is a Vanguard hero in Marvel Rivals, and is the 1st hero introduced to the game's roster. He has team-up abilities that work in conjunction with Scarlet Witch."
   },
   "background": {
     "real_name": "Dr. Stephen Vincent Strange",
@@ -348,12 +317,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "48.70%",
-    "wr_change": "-2.01%",
-    "pick_rate": "16.65%",
-    "pr_change": "-21.46%",
-    "ban_rate": "0.95%",
-    "matches": "248,428"
+    "win_rate": "48.93%",
+    "wr_change": "-1.79%",
+    "pick_rate": "17.52%",
+    "pr_change": "-20.59%",
+    "ban_rate": "0.78%",
+    "matches": "260,956"
   },
   "data_sources": {
     "wiki": [],

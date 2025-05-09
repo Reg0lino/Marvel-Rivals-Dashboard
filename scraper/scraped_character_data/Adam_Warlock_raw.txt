@@ -138,24 +138,20 @@ Season 1
 Guardians of the Galaxy Vol. 3
 Guardians of the Galaxy Vol. 3
 (2023)
-See
-:
-List of MVP Animations
+01
+MVP ANIMATIONS
 DEFAULT
-Adam Warlock
+ADAM WARLOCK
 Cut Divine Ties
-Blood Soul
+BLOOD SOUL
 Save the Day
-Guardians of the Galaxy Vol. 3
-See
-:
-List of Emotes
+GUARDIANS OF THE GALAXY VOL. 3
+01
+EMOTES
 DEFAULT
-Adam Warlock
+BRAIN BLAST
 Innocence Reborn
-Blood Soul
 Sovereign Strength
-Guardians of the Galaxy Vol. 3
 See
 :
 List of Sprays
@@ -523,4 +519,9 @@ Hero Story Artwork
 "Guardians of the Galaxy Vol. 3" costume in
 Guardians of the Galaxy Vol. 3
 (2023)
+Trivia
+Adam Warlock's first appearance was in
+"Fantastic Four" (1961) #67
+.
+Adam Warlock's staff is called the Karmic Staff.
 Navigation

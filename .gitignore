@@ -1,26 +1,115 @@
-# Python Virtual Environment (if you use one)
+# --- Python Virtual Environments ---
+# Ignore common virtual environment directories
 venv/
 .venv/
 env/
 
-# Python Cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# --- Secrets ---
+# Ignore environment variable files (NEVER commit API keys or secrets!)
+.env
+scraper/.env
 
-# PyInstaller Output & Cache
+# --- Python Bytecode and Cache ---
+# Ignore compiled Python files and cache directories
+__pycache__/
+*.py[cod]
+
+# --- PyInstaller ---
+# Ignore build artifacts from PyInstaller
 dist/
 build/
 *.spec
 
-# Generated/User Files
+# --- User Configuration / Generated Files ---
+# Ignore user-specific or generated files that shouldn't be in the repo
 favorites.json
 *.ico
 *.bat
 
-# OS-specific files
+# --- Operating System Files ---
+# Ignore OS-specific metadata/cache files
 .DS_Store
 Thumbs.db
-!!TESTING/test_teamup_parser.py
-!!TESTING/parsed_teamups_test.txt
+
+# --- IDE / Editor Files (Optional but Recommended) ---
+# Example for VS Code
+.vscode/
+
+# --- Log Files (Optional but Recommended) ---
+# Ignore log files if your application generates any
+*.log
+logs/
+
+# --- Add other project-specific ignores below ---
+# e.g., temporary files, specific test outputs not meant for commit
+rivals_dashboard.py
+.firebaserc
+firebase.json
+public/404.html
+.firebase/hosting.cHVibGlj.cache
+public/index.html
+public/characters_manifest.json
+public/characters/Adam_Warlock.json
+public/characters/Black_Panther.json
+public/characters/Black_Widow.json
+public/characters/Captain_America.json
+public/characters/Cloak_and_Dagger.json
+public/characters/Doctor_Strange.json
+public/characters/Emma_Frost.json
+public/characters/Groot.json
+public/characters/Hawkeye.json
+public/characters/Hela.json
+public/characters/Hulk.json
+public/characters/Human_Torch.json
+public/characters/Invisible_Woman.json
+public/characters/Iron_Fist.json
+public/characters/Iron_Man.json
+public/characters/Jeff_the_Land_Shark.json
+public/characters/Loki.json
+public/characters/Luna_Snow.json
+public/characters/Magik.json
+public/characters/Magneto.json
+public/characters/Mantis.json
+public/characters/Mister_Fantastic.json
+public/characters/Moon_Knight.json
+public/characters/Namor.json
+public/characters/Peni_Parker.json
+public/characters/Psylocke.json
+public/characters/Punisher.json
+public/characters/Rocket_Raccoon.json
+public/characters/Scarlet_Witch.json
+public/characters/Spider-Man.json
+public/characters/Squirrel_Girl.json
+public/characters/Star-Lord.json
+public/characters/Storm.json
+public/characters/The_Thing.json
+public/characters/Thor.json
+public/characters/Venom.json
+public/characters/Winter_Soldier.json
+public/characters/Wolverine.json
+launcher.spec.txt
+MR_Dash_Installer.iss
+build_dashboard/dashboard/Analysis-00.toc
+build_dashboard/dashboard/base_library.zip
+release/MR_Dash_App/RivalsDashboard.exe
+build_dashboard/dashboard/EXE-00.toc
+build_dashboard/dashboard/PKG-00.toc
+build_dashboard/dashboard/PYZ-00.pyz
+build_dashboard/dashboard/PYZ-00.toc
+build_dashboard/dashboard/RivalsDashboard.pkg
+build_dashboard/dashboard/warn-dashboard.txt
+build_dashboard/dashboard/xref-dashboard.html
+build_launcher/launcher/Analysis-00.toc
+build_launcher/launcher/base_library.zip
+build_launcher/launcher/EXE-00.toc
+build_launcher/launcher/launcher.pkg
+build_launcher/launcher/PKG-00.toc
+build_launcher/launcher/PYZ-00.pyz
+build_launcher/launcher/PYZ-00.toc
+build_launcher/launcher/warn-launcher.txt
+build_launcher/launcher/xref-launcher.html
+release/MarvelRivalsDashboard_Setup_v{#MyAppVersion}.exe
+release/MR_Dash_App/launcher.exe
+
+config/dashboard_ready.flag
+scraper/debug_parsed_teamups_raw.json

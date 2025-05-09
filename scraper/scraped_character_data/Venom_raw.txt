@@ -92,6 +92,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 VENOM
@@ -138,19 +140,14 @@ Acting On Instinct
 Space Knight
 Snowflake Catcher
 Snow Symbiote
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Venom
 Symbiote Boogie
-Venom
+BRAIN BLAST
 Deafening Noise
-Lingering Imprint
 Just Spark
-Space Knight
 Refuse to Melt
-Snow Symbiote
 See
 :
 List of Sprays
@@ -168,6 +165,16 @@ Hyper Orange
 Lingering Imprint
 Space Knight
 Snow Symbiote
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 DARK PREDATION
@@ -466,6 +473,9 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Trivia
+Venom's first appearance was in
+"The Amazing Spider-Man" (1963) #300
+.
 Venom is voiced by Steve Blum, reprising his role from
 Marvel Ultimate Alliance
 and
@@ -481,3 +491,8 @@ Spider-Man
 (2000) and
 Marvel vs. Capcom: Clash of Super Heroes
 (1998). The 'Hyper Orange" costume may also be inspired by the latter.
+Venom's voice line in
+Krakoa
+, "If this is our last dance, so be it!", might be a reference to the film's title
+Venom: The Last Dance
+(2024).

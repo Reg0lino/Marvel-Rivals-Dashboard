@@ -5,13 +5,13 @@
     "health": 275,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#60A5FA",
-    "color_theme_secondary": "#A855F7"
+    "color_theme": "#F472B6",
+    "color_theme_secondary": "#D946EF"
   },
   "abilities": [
     {
       "name": "PIERCING ARROW",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
       "description": "Shoot a powerful arrow.",
       "casting": "Charged projectile with an arced trajectory",
@@ -27,7 +27,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "SPECIAL EFFECT\n⚬ Apply bonus damage with\nArcher's Focus\nThis interacts directly with his passive, Archer's Focus, which increases the damage of his Piercing Arrows if the player keeps the aim reticle at the enemy for roughly a second before firing. This shot can eliminate most non-Vanguard characters in a single hit if it deals critical damage."
+      "details": "Apply bonus damage with Archer's Focus"
     },
     {
       "name": "BLAST ARROW",
@@ -38,36 +38,16 @@
       "damage": "15 (per projectile) - 32 (spell field)",
       "damage_falloff": null,
       "fire_rate_interval": null,
-      "ammo": null,
+      "ammo": 3,
       "critical_hit": null,
       "cooldown": "0.5s",
       "range": "3m spherical radius",
       "projectile_speed": "60m/s",
-      "charges": 3,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "SLOW RATE WHILE CHARGING -\n20%\nSPREAD ANGLE -\n11.3°"
-    },
-    {
-      "name": "CRESCENT SLASH",
-      "keybind": "SHIFT",
-      "type": null,
-      "description": "Unsheathe a katana and slash forward, launching up enemies hit.",
-      "casting": "Melee",
-      "damage": "40",
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "12s",
-      "range": null,
-      "projectile_speed": null,
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "MAXIMUM DISTANCE -\n8m"
+      "details": "SPREAD ANGLE - 11.3°"
     },
     {
       "name": "HYPERSONIC ARROW",
@@ -87,7 +67,7 @@
       "duration": "1s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "SLOW RATE -\n-40%"
+      "details": "SLOW RATE - -40%"
     },
     {
       "name": "RONIN SLASH",
@@ -101,13 +81,33 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": null,
-      "range": null,
+      "range": "3m",
       "projectile_speed": null,
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "MAXIMUM DISTANCE -\n3m\nSPECIAL EFFECT\n⚬ This ability cannot block explosions or effects created by projectiles on hit"
+      "details": "This ability cannot block explosions or effects created by projectiles on hit"
+    },
+    {
+      "name": "CRESCENT SLASH",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Unsheathe a katana and slash forward, launching up enemies hit.",
+      "casting": "Melee",
+      "damage": 40,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "8m",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
     },
     {
       "name": "SKYWARD LEAP",
@@ -128,6 +128,26 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": null
+    },
+    {
+      "name": "ARCHER'S FOCUS",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow.",
+      "casting": null,
+      "damage": "0 - 70 (Maximum damage is achieved after 0.9s of aiming)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": true,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Apply bonus damage to the base damage of Piercing Arrow"
     }
   ],
   "ultimate": {
@@ -150,21 +170,7 @@
       "bow_draw_speed_increase": "1.5x"
     }
   },
-  "passives": [
-    {
-      "name": "ARCHER'S FOCUS",
-      "keybind": null,
-      "type": null,
-      "description": "Aim at an enemy to improve focus, enhancing the damage inflicted by Piercing Arrow.",
-      "cooldown": null,
-      "damage": "0 - 70 (Maximum damage is achieved after 0.9s of aiming)",
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": "CRITICAL HIT -\nYes\nSPECIAL EFFECT\n⚬ Apply bonus damage to the base damage of\nPiercing Arrow"
-    }
-  ],
+  "passives": [],
   "teamups": [
     {
       "name": "Allied Agents",
@@ -205,76 +211,66 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Anybody can shoot a gun. A bow? Now, that takes skill.\"",
-    "ingame_bio_text": "Clint Barton is one of the greatest marksmen alive. He may not have superpowers, but his natural ability to hit virtually any target earned him a place alongside Earth’s mightiest heroes. As Hawkeye, he's been known to take down an entire enemy fleet with nothing more than a quiver full of arrows.\nFor a time, Clint distanced himself from the Avengers, setting off on a quest for vengeance as the assassin called Ronin. He returned to the fold older and wiser, just in time to infiltrate Hydra’s Erebus Base and rescue the captured Winter Soldier.",
+    "ingame_bio_quote": "\"Once an Avenger, always an Avenger.\"",
+    "ingame_bio_text": "Despite his lack of superpowers, Hawkeye's unparalleled skills as a marksman have earned him a spot alongside earth's mightiest heroes. With a cool head and steady hand, Clint Barton never misses a target… so enemies best stay out of his sights!",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Going South for the Winter",
-        "content": "All Hawkeye knew when he got on board the Quinjet was that he was heading out on a solo rescue mission and it involved Hydra. That suited him. Extended mission prep wasn't really his style. You only needed a certain amount of information to take a smart approach; overpreparation could dull your senses, keep you from being aware and responsive when things changed in the field. As they always did. No plan survived contact with the enemy for long. For the first hour or so, as the craft arrowed south from a Helicarrier stationed just above of the big island of Hawaii, Clint kept to himself, watching the water go by. He'd never been a sparkling conversationalist, so silence suited him.\n\"How're you doing back there, stranger?\" Agent 13 shouted back from her seat at the controls. Clint had nearly forgotten she was there after two hours or so starting into the endless blue expanse of the Pacific. Clint decided it was time to make some conversation. \"So-so. We headed to Antarctica or what?\"\n\"Bingo,\" Agent 13 said. \"Although it doesn't take a genius to figure out that if you go south from Hawaii, you hit either New Zealand or Antarctica.\"\n\"Never said I was a genius, but I can read a map.\" Clint got up from his seat and started arranging his gear on a worktable: Bow, arrows, swords, body armor, comms equipment, night vision goggles, emergency field rations. Then he broke open the kit bag with his name on it and found cold-weather gear. \"So, let me guess. You want me to stop Hydra poaching dinosaurs in the Savage Land.\"\n\"You wouldn't need cold-weather gear for that.\"\n\"I would until I got there, unless you're going to fly me to the border and risk Sauron sending a million pterodactyls after this Quinjet.\"\n\"No Savage Land for you, Hawkeye,\" Agent 13 said. \"We are in fact going to Ross Island, which is only technically an island because it's connected to the mainland of Antarctica by a two-mile thick sheet of ice.\"\n\"Yeah, the Ross Ice Shelf. I've heard of it.\"\n\"The target is a Hydra base on Ross Island. More specifically, the target is\nBucky Barnes\n.\"\n\"Don't tell me,\" Clint said, as a cold knot formed in the pit of his stomach. Bucky had worked so hard to get free of the brainwashing he'd suffered after World War II. What a terrible thing it would be if he'd been mind-controlled again. Clint thought hard about whether he'd be able to follow through on a mission to eliminate Bucky Barnes. He'd done worse during his Ronin years, but he'd also left Ronin behind. He was Hawkeye again. He was an\nAvenger\n.\"\n\"It's not what you think, judging by the expression on your face,\" Agent 13 said. \"Three days ago, Barnes was sent to infiltrate and gather intel about Hydra activity inside Erebus Base. Infiltration was successful and we got some brief communications from Bucky during the mission's first few hours, but as of eight hours after infiltration, comms were interrupted and we presume he's been a Hydra captive since then.\"\nAnything could have happened to Bucky in three days, Clint thought. But he was tough, as tough as anybody, and if there was a chance to get him out alive, that's what Clint would do. \"Why Erebus Base?\"\n\"Well, because it's tunneled into Mount Erebus. But Hydra probably also likes the mythological associations.\"\n\"You gonna make me ask?\"\n\"I thought you'd never ask,\" she said. \"In Greek mythology, Erebus was the son of Chaos and one of the primordial gods. Also, that's the name the Greeks gave to the gate between the world of the living and the underworld.\"\n\"Yeah, Hydra would go for that.\"\n\"Behind every myth is a bit of truth. Some of Bucky's comms were pretty scrambled, but we have a basic idea that the base is built on a much older set of ruins. It's likely there's an occult angle.\"\n\"An occult angle,\" Clint repeated. \"So, like, I should expect to run into monsters from the Greek underworld?\"\n\"That's all I can tell you. Also, they're doing some kind of super-soldier research. Bucky was loud and clear about that.\"\nClint thought about this while he got just the edge he wanted on his twin swords. He sheathed them and selected his arrowheads, going with a standard assortment of explosive, nonlethal, and ordinary bladed tips. He felt a pre-mission calm descend over him, and that was good. That hadn't happened much while he was Ronin.\n\"So,\" Agent 13 said from the cockpit. \"You ready?\"\n\"For this mission, or to be an Avenger again?\"\nShe chucked him on the shoulder. \"Once an Avenger, always an Avenger. I was talking about the mission.\"\nOnce an Avenger, always an Avenger. Clint wasn't sure about that.\nThen again, even when he was an Avenger, he hadn't always felt like one. It wasn't easy feeling like you were an equal member of a team when all you could do was shoot a bow and the other team members could call lightning or lift a hundred tons.\nIf he was being honest with himself, that was why he'd left. That was why he'd become Ronin.\nThe thing was, once you'd been a hero — an Avenger — and once you understood how powerful it could be to change things, to make things better with your own hands... you couldn't just stop caring. Or maybe some people could, but Clint couldn't. So he stopped being Hawkeye, and he adopted a new moniker: Ronin. A samurai with no master. He kept an eye out for situation that might need his help. He trained in some new ways of fighting. He reinvented himself. For a couple of years, he'd been doing things the Avengers would never have noticed. Street-level, local things. More like\nSpider-Man\nmight do. Then that expanded into bigger-scale operations, against drug kingpins, human traffickers, the kind of people normal law enforcement couldn't get to and Super Heroes didn't notice because they were too busy fighting\nThanos\nor Dormammu or\nDoctor Doom\n.\nRonin traveled the world, and by and large, he made it a better place. There were a lot of people alive because of Ronin, but there were also a lot of people that never got back up. Bad people? Sure. But one night, in a mansion high above the smoggy sprawl of Istanbul where he'd just eliminated an arms trafficker and his entire armed retinue of maybe twenty bodyguards, Clint realized he'd stopped holding himself to any standard beyond what he thought was right. He was very close to going off the rails, becoming a pure vigilante nut like\nFrank Castle\n. It was only a few steps from there to the kind of deluded villain who thought he was doing the world a favor, a Vulture or Killmonger.\nHe needed people around him to keep him on track, and the only people who could do that were the Avengers.\nSo he'd come home, picking up the Hawkeye mantle yet again — but with a few changes, traces of Ronin that he would always carry with him. Maybe someday he would be free of the guilt he still carried over some of the things he'd done. He'd never hurt anyone he considered innocent, but, in the heat of battle, sometimes you couldn't tell who was just in the wrong place at the wrong time.\nThe moral clarity of a fight against Hydra was something Clint Barton badly needed.\n\"Okay. We're five minutes out. Time for last-minute notes. You'll find a vehicle stashed near your landing site. Its beacon will activate once it detects you on the ground.\"\n\"Hope you left the keys in the ignition,\" Clint said.\nIgnoring him, she went on. \"There is a large hangar bay with several doors built into the flank of the mountain. That's the only obvious approach without using demolitions to get into one of the lower access shafts. Intel recommends you stay on the upper levels because honestly, we have no idea what's down below.\"\n\"Monsters,\" Clint said. \"Got it.\"\nAgent 13 shrugged. \"Probably not? But you never know. Get in, get Barnes, get out. If Barnes is...\" She hesitated. \"If Barnes can't be recovered, your priority is to get the info and get out yourself.\"\n\"You mean if he's dead. Just say it.\"\nHer eyes flashed. \"Yes. If he's dead,\" she said, biting off each word. Turning her back on him, she went back to the cockpit. Clint stayed where he was, in the back of the cabin, alone with his thoughts. Which was never the healthiest place for him to be.\nWhat if Bucky was...gone...again? Mind-controlled again?\nDeep inside, Clint felt a Ronin-like cold certainty that he would know what to do.\nNo. Bucky would survive. Hawkeye would find him. Not Ronin. Hawkeye. Tomorrow morning, they would both be watching the sun rise as Agent 13 piloted them back toward Hawaii.\n\"We are in the drop zone,\" Agent 13 said calmly. \"Will open the cargo door on your go.\"\n\"Go,\" Clint said.\nThe Antarctic wind stole the air from his lungs. Clint steadied himself, got a bead on the ground, and jumped.",
-        "status": null
-      },
-      {
-        "title": "Blindsight",
-        "content": "(Coming soon. Stay Tuned!)",
-        "status": null
-      },
-      {
-        "title": "Hit the Bullseye",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "All Hawkeye knew when he got on board the Quinjet was that he was heading out on a solo rescue mission and it involved Hydra. That suited him. Extended mission prep wasn't really his style. You only needed a certain amount of information to take a smart approach; overpreparation could dull your senses, keep you from being aware and responsive when things changed in the field. As they always did. No plan survived contact with the enemy for long. For the first hour or so, as the craft arrowed south from a Helicarrier stationed just above of the big island of Hawaii, Clint kept to himself, watching the water go by. He'd never been a sparkling conversationalist, so silence suited him.\n\"How're you doing back there, stranger?\" Agent 13 shouted back from her seat at the controls. Clint had nearly forgotten she was there after two hours or so starting into the endless blue expanse of the Pacific. Clint decided it was time to make some conversation. \"So-so. We headed to Antarctica or what?\"\n\"Bingo,\" Agent 13 said. \"Although it doesn't take a genius to figure out that if you go south from Hawaii, you hit either New Zealand or Antarctica.\"\n\"Never said I was a genius, but I can read a map.\" Clint got up from his seat and started arranging his gear on a worktable: Bow, arrows, swords, body armor, comms equipment, night vision goggles, emergency field rations. Then he broke open the kit bag with his name on it and found cold-weather gear. \"So, let me guess. You want me to stop Hydra poaching dinosaurs in the Savage Land.\"\n\"You wouldn't need cold-weather gear for that.\"\n\"I would until I got there, unless you're going to fly me to the border and risk Sauron sending a million pterodactyls after this Quinjet.\"\n\"No Savage Land for you, Hawkeye,\" Agent 13 said. \"We are in fact going to Ross Island, which is only technically an island because it's connected to the mainland of Antarctica by a two-mile thick sheet of ice.\"\n\"Yeah, the Ross Ice Shelf. I've heard of it.\"\n\"The target is a Hydra base on Ross Island. More specifically, the target is Bucky Barnes.\"\n\"Don't tell me,\" Clint said, as a cold knot formed in the pit of his stomach. Bucky had worked so hard to get free of the brainwashing he'd suffered after World War II. What a terrible thing it would be if he'd been mind-controlled again. Clint thought hard about whether he'd be able to follow through on a mission to eliminate Bucky Barnes. He'd done worse during his Ronin years, but he'd also left Ronin behind. He was Hawkeye again. He was an Avenger.\n\"It's not what you think, judging by the expression on your face,\" Agent 13 said. \"Three days ago, Barnes was sent to infiltrate and gather intel about Hydra activity inside Erebus Base. Infiltration was successful and we got some brief communications from Bucky during the mission's first few hours, but as of eight hours after infiltration, comms were interrupted and we presume he's been a Hydra captive since then.\"\nAnything could have happened to Bucky in three days, Clint thought. But he was tough, as tough as anybody, and if there was a chance to get him out alive, that's what Clint would do. \"Why Erebus Base?\"\n\"Well, because it's tunneled into Mount Erebus. But Hydra probably also likes the mythological associations.\"\n\"You gonna make me ask?\"\n\"I thought you'd never ask,\" she said. \"In Greek mythology, Erebus was the son of Chaos and one of the primordial gods. Also, that's the name the Greeks gave to the gate between the world of the living and the underworld.\"\n\"Yeah, Hydra would go for that.\"\n\"Behind every myth is a bit of truth. Some of Bucky's comms were pretty scrambled, but we have a basic idea that the base is built on a much older set of ruins. It's likely there's an occult angle.\"\n\"An occult angle,\" Clint repeated. \"So, like, I should expect to run into monsters from the Greek underworld?\"\n\"That's all I can tell you. Also, they're doing some kind of super-soldier research. Bucky was loud and clear about that.\"\nClint thought about this while he got just the edge he wanted on his twin swords. He sheathed them and selected his arrowheads, going with a standard assortment of explosive, nonlethal, and ordinary bladed tips. He felt a pre-mission calm descend over him, and that was good. That hadn't happened much while he was Ronin.\n\"So,\" Agent 13 said from the cockpit. \"You ready?\"\n\"For this mission, or to be an Avenger again?\"\nShe chucked him on the shoulder. \"Once an Avenger, always an Avenger. I was talking about the mission.\"\nOnce an Avenger, always an Avenger. Clint wasn't sure about that.\nThen again, even when he was an Avenger, he hadn't always felt like one. It wasn't easy feeling like you were an equal member of a team when all you could do was shoot a bow and the other team members could call lightning or lift a hundred tons.\nIf he was being honest with himself, that was why he'd left. That was why he'd become Ronin.\nThe thing was, once you'd been a hero — an Avenger — and once you understood how powerful it could be to change things, to make things better with your own hands... you couldn't just stop caring. Or maybe some people could, but Clint couldn't. So he stopped being Hawkeye, and he adopted a new moniker: Ronin. A samurai with no master. He kept an eye out for situation that might need his help. He trained in some new ways of fighting. He reinvented himself. For a couple of years, he'd been doing things the Avengers would never have noticed. Street-level, local things. More like Spider-Man might do. Then that expanded into bigger-scale operations, against drug kingpins, human traffickers, the kind of people normal law enforcement couldn't get to and Super Heroes didn't notice because they were too busy fighting Thanos or Dormammu or Doctor Doom.\nRonin traveled the world, and by and large, he made it a better place. There were a lot of people alive because of Ronin, but there were also a lot of people that never got back up. Bad people? Sure. But one night, in a mansion high above the smoggy sprawl of Istanbul where he'd just eliminated an arms trafficker and his entire armed retinue of maybe twenty bodyguards, Clint realized he'd stopped holding himself to any standard beyond what he thought was right. He was very close to going off the rails, becoming a pure vigilante nut like Frank Castle. It was only a few steps from there to the kind of deluded villain who thought he was doing the world a favor, a Vulture or Killmonger.\nHe needed people around him to keep him on track, and the only people who could do that were the Avengers.\nSo he'd come home, picking up the Hawkeye mantle yet again — but with a few changes, traces of Ronin that he would always carry with him. Maybe someday he would be free of the guilt he still carried over some of the things he'd done. He'd never hurt anyone he considered innocent, but, in the heat of battle, sometimes you couldn't tell who was just in the wrong place at the wrong time.\nThe moral clarity of a fight against Hydra was something Clint Barton badly needed.\n\"Okay. We're five minutes out. Time for last-minute notes. You'll find a vehicle stashed near your landing site. Its beacon will activate once it detects you on the ground.\"\n\"Hope you left the keys in the ignition,\" Clint said.\nIgnoring him, she went on. \"There is a large hangar bay with several doors built into the flank of the mountain. That's the only obvious approach without using demolitions to get into one of the lower access shafts. Intel recommends you stay on the upper levels because honestly, we have no idea what's down below.\"\n\"Monsters,\" Clint said. \"Got it.\"\nAgent 13 shrugged. \"Probably not? But you never know. Get in, get Barnes, get out. If Barnes is...\" She hesitated. \"If Barnes can't be recovered, your priority is to get the info and get out yourself.\"\n\"You mean if he's dead. Just say it.\"\nHer eyes flashed. \"Yes. If he's dead,\" she said, biting off each word. Turning her back on him, she went back to the cockpit. Clint stayed where he was, in the back of the cabin, alone with his thoughts. Which was never the healthiest place for him to be.\nWhat if Bucky was...gone...again? Mind-controlled again?\nDeep inside, Clint felt a Ronin-like cold certainty that he would know what to do.\nNo. Bucky would survive. Hawkeye would find him. Not Ronin. Hawkeye. Tomorrow morning, they would both be watching the sun rise as Agent 13 piloted them back toward Hawaii.\n\"We are in the drop zone,\" Agent 13 said calmly. \"Will open the cargo door on your go.\"\n\"Go,\" Clint said.\nThe Antarctic wind stole the air from his lungs. Clint steadied himself, got a bead on the ground, and jumped.",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch\nHawkeye\nwas released as the 28th hero to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
-          "Added 3 new costumes:\nTiger's Eye\n,\nFreefall\n, and\nGalactic Fangs\n(Limited-time store release: 2024/12/06 - 2024/12/27)",
-          "Added the\nWest Coast, Best Coast\nachievement.",
-          "Added to the\nAllied Agents\nTeam-Up Ability\nwith\nBlack Widow\n."
+          "Hawkeye was released as the 28th hero to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 3 new costumes: Tiger's Eye, Freefall, and Galactic Fangs (Limited-time store release: 2024/12/06 - 2024/12/27)",
+          "Added the West Coast, Best Coast achievement.",
+          "Added to the Allied Agents Team-Up Ability with Black Widow."
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Slightly reduce the spread angle between every two\nBlast Arrows\n.",
-          "Reduce the triggering distance of passive ability\nArcher's Focus\nfrom 60 meters to 40 meters. Reduce the maximum additional damage of the passive from 80 to 70.",
-          "Reduce\nHawkeye\n's\nseason bonus\nfrom 20% to 15%."
+          "Slightly reduce the spread angle between every two Blast Arrows.",
+          "Reduce the triggering distance of passive ability Archer's Focus from 60 meters to 40 meters. Reduce the maximum additional damage of the passive from 80 to 70.",
+          "Reduce Hawkeye's season bonus from 20% to 15%."
         ]
       },
       {
-        "date_version": "25/01/22:\nVersion 20250122\n/\nFortune & Colors\nEvent",
+        "date_version": "25/01/22: Version 20250122 / Fortune & Colors Event",
         "changes": [
-          "Fixed an issue where\nHawkeye\n's passive ability\nFocus\nprogress would sometimes display incorrectly. It's now as accurate as he is."
+          "Fixed an issue where Hawkeye's passive ability Focus progress would sometimes display incorrectly. It's now as accurate as he is."
         ]
       },
       {
-        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5\nLaunch",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
           "Increase base health from 250 to 275.",
-          "Reduce projectile damage of\nBlast Arrow\nfrom 20 to 15, while the spell field damage will be increased from 25 to 32.",
-          "Reduce the cooldown time for\nCrescent Slash\nfrom 15s to 12s.",
-          "Increase bow draw speed during the duration of\nHunter's Sight\nand raise damage multiplier from 1.2 to 1.35."
+          "Reduce projectile damage of Blast Arrow from 20 to 15, while the spell field damage will be increased from 25 to 32.",
+          "Reduce the cooldown time for Crescent Slash from 15s to 12s.",
+          "Increase bow draw speed during the duration of Hunter's Sight and raise damage multiplier from 1.2 to 1.35."
         ]
       },
       {
-        "date_version": "25/04/04:",
+        "date_version": "25/04/04",
         "changes": [
-          "Added 1 new costume:\nRonin\n."
+          "Added 1 new costume: Ronin."
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala\nLaunch",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
           "Reduce the slow effect while charging the bow from 30% to 20%.",
-          "Increase both instances of damage for\nHypersonic Arrow\nfrom 50 to 55.",
-          "Decrease energy cost for\nHunter's Sight\nfrom 3700 to 3100 and improve the bow draw speed increase from 1.35x to 1.5x."
+          "Increase both instances of damage for Hypersonic Arrow from 50 to 55.",
+          "Decrease energy cost for Hunter's Sight from 3700 to 3100 and improve the bow draw speed increase from 1.35x to 1.5x."
         ]
       }
     ],
-    "official_quote": "“Once an Avenger, always an Avenger.”",
-    "official_description": "Despite his lack of superpowers, Hawkeye's unparalleled skills as a marksman have earned him a spot alongside earth's mightiest heroes. With a cool head and steady hand, Clint Barton never misses a target… so enemies best stay out of his sights!"
+    "official_quote": "\"Anybody can shoot a gun. A bow? Now, that takes skill.\"",
+    "official_description": "Hawkeye is a Duelist hero in Marvel Rivals, and is the 28th hero introduced to the game's roster. He has a team-up ability that works in conjunction with Black Widow."
   },
   "background": {
     "real_name": "Clinton Francis \"Clint\" Barton",
@@ -311,12 +307,12 @@
   },
   "meta_stats": {
     "tier": "C",
-    "win_rate": "46.52%",
-    "wr_change": "+2.78%",
-    "pick_rate": "8.27%",
-    "pr_change": "+3.89%",
-    "ban_rate": "1.38%",
-    "matches": "123,461"
+    "win_rate": "46.63%",
+    "wr_change": "+2.88%",
+    "pick_rate": "8.19%",
+    "pr_change": "+3.81%",
+    "ban_rate": "1.16%",
+    "matches": "122,022"
   },
   "data_sources": {
     "wiki": [],

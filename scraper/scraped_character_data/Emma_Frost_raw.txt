@@ -1,11 +1,5 @@
 ===== CONTENT FROM: https://marvelrivals.fandom.com/wiki/Emma_Frost =====
 
-Stub
-This article is a
-stub
-. You can help Marvel Rivals Wiki by
-expanding it
-.
 Emma Frost
 "The higher the pressure, the more dazzling the diamond."
 Real Name
@@ -117,6 +111,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 EMMA FROST
@@ -161,6 +157,16 @@ See
 List of Nameplates
 Emma Frost
 X-Revolution
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Psionics
 Diamond Form
@@ -405,6 +411,9 @@ Prestige Artwork
 Hero Story Artwork
 Emma Frost in the Season 2: Hellfire Gala Official Trailer.
 Trivia
+Emma Frost's first appearance was in
+"Uncanny X-Men" (1981) #129
+.
 Emma Frost was datamined from multiple sources around December 2024, along with 15 other characters, including
 Angela
 ,
@@ -437,6 +446,9 @@ Valkyrie
 [
 2
 ]
+Emma Frost is the second female Vanguard released after
+Peni Parker
+.
 References
 ↑
 https://x.com/MarvelRivals/status/1907803728595276265/quotes

@@ -87,6 +87,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 DOCTOR STRANGE
@@ -157,6 +159,16 @@ God of Magic
 Galactic Overlord
 Sorcerer Immortal
 Doctor Strange in the Multiverse of Madness
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 DAGGERS OF DENAK
@@ -503,6 +515,9 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Trivia
+Doctor Strange's first appearance was in
+"Strange Tales" (1951) #110
+.
 Doctor Strange is voiced by Liam O'Brien, who has been voicing the character in different Marvel projects since 2013.
 Liam is best known for being one of the cast members and player of the web series
 Critical Role
@@ -515,4 +530,5 @@ Doctor Strange's quick melee attack is called the Eldritch Whip.
 Doctor Strange used to have the gamma team up instead of Namor from Season 0 to Season 1.5. When paired with
 Hulk
 , Maelstrom of Madness becomes Gamma Maelstrom, which slightly increases the damage multiplier based on Dark Magic from 1.3 to 1.4, and also no longer curses Doctor Strange with Anti-Heal when he reaches 100 stacks of Dark Magic. The symbol on his cape is also changed to have a green coloration.
+Doctor Strange's voice lines refer to some of his spells in the comics, including the Winds of Watoomb, Fangs of Farallah, and Hosts of Hoggoth.
 Navigation

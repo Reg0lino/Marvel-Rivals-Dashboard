@@ -1,4 +1,51 @@
-# News - Recent Posts (Fetched 2025-05-03 12:27)
+# News - Recent Posts (Fetched 2025-05-09 12:15)
+
+## Marvel Rivals Version 20250508 Patch Notes
+
+Marvel Rivals Version 20250508 Patch Notes
+2025/05/08
+Greetings, Rivals!
+We're thrilled to announce that the upcoming patch drops on May 8, 2025, at 09:00:00 (UTC)! This patch will be deployed live without downtime! Simply log in after the update and continue your heroic journey!
+Here's a look at what's coming in this patch:
+Behold! The Evolution of the Giant-Size Brain Blast â The all-new Giant-Size Hive Mind!
+Prepare to let your oversized noggins shine as one during these windows:
+2025/05/09 09:00:00 ~ 2025/05/12 09:00:00 (UTC)
+2025/05/16 09:00:00 ~ 2025/05/19 09:00:00 (UTC)
+New In Store
+1. Rocket Raccoon - Sunshine Raccoon Bundle
+2. Squirrel Girl - Sunshine Squirrel Bundle
+New Content
+1. The emote and spray wheel has been reimagined!
+1ï¼They are now split into two separate wheels with dedicated hotkeys for lightning-fast switching.
+2ï¼In the Cosmetics - Sprays menu, you can now set your current spray wheel to be shared across all heroes.
+3ï¼A new quick-equip feature has been added: Emotes can be automatically slot into the corresponding hero's emote wheel upon acquisition; and when the spray wheel is set to "Apply to All", newly earned sprays can also be equipped instantly.
+2. Portraits in "Heroes" have been updated to reflect their currently equipped costumes.
+Fixes
+All Platforms
+Maps and Modes
+1. Vanquished a glitch that would sometimes occur under rare circumstances where players who didn't provide the most healing in a match were mistakenly awarded the Gifted Healer badge.
+Heroes
+1. Jeff's Missing Meal: We've wiped out a glitch where, in controller mode, when Jeff the Land Shark swallowed 6 enemies with his Ultimate Ability, only 5 avatar icons showed up on screen. Now, our fin-tastic friend will see his 6-piece meal every time!
+2. Bruce Banner's Space Out: We've smashed a bug that left all three forms of Bruce Banner unable to bind the jump action to the Spacebar. Now, Banner can leap into action as intended.
+Other
+1. We've remedied an oversight, where in anonymous mode, using voice chat still revealed your original name.
+The Marvel Rivals universe is ever-evolving, and we have plenty more surprises and updates on the horizon. Stay tuned to our official announcements for more!
+Discord
+|
+X
+|
+Facebook
+|
+Instagram
+|
+TikTok
+|
+YouTube
+|
+Twitch
+
+Source URL: https://www.marvelrivals.com/gameupdate/20250507/41548_1232829.html
+---
 
 ## Marvel Rivals Version 20250430 Patch Notes
 
@@ -145,15 +192,4 @@ Heroes
 Stay tuned for even more thrilling content on the horizonâkeep your eyes peeled for our official announcements!
 
 Source URL: https://www.marvelrivals.com/gameupdate/20250422/41548_1229365.html
----
-
-## Marvel Rivals | Behind the Music - Path to Rivals
-
-Marvel Rivals | Behind the Music - Path to Rivals
-2025/04/22
-Dear Rivals,
-Today, we're taking you behind the scenes to admire the amazing performance of talented and passionate musicians performing the original soundtrack 'Path to Rivals'.
-Let the music transport you and experience this incredible composition that we all love and enjoy.
-
-Source URL: https://www.marvelrivals.com/devdiaries/20250421/40954_1229011.html
 ---

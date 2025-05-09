@@ -97,6 +97,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 MAGNETO
@@ -135,17 +137,13 @@ Final Warning
 Master of Magnetism
 For All Mutants
 King Magnus
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Magneto
+BRAIN BLAST
 Cosmic Collapse
-Will of Galacta
 Past No More
-King Magnus
 Magnetic Steps
-Master of Magnetism
 See
 :
 List of Sprays
@@ -161,6 +159,16 @@ Magneto
 Will of Galacta
 Master of Magnetism
 King Magnus
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 IRON VOLLEY
@@ -509,6 +517,9 @@ Hero Logo
 Prestige artwork
 Hero Story Artwork
 Trivia
+Magneto's first appearance was in
+"Uncanny X-Men" (1981) #1
+.
 Magneto is voiced by James Arnold Taylor, reprising his role from other Marvel video games such as
 Marvel Avengers: Battle for Earth
 ,

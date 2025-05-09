@@ -97,6 +97,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 CAPTAIN AMERICA
@@ -168,6 +170,16 @@ Galactic Talon
 Captain Gladiator
 Star Spangled Style
 Avengers: Infinity War
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 SENTINEL STRIKE
@@ -529,6 +541,9 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Trivia
+Captain America's first appearance was in
+"Captain America Comics" (1941) #1
+.
 Captain America is voiced by Brian Bloom, reprising his role from
 The Avengers: Earth’s Mightiest Heroes
 ,

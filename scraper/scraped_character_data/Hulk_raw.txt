@@ -105,6 +105,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 HULK
@@ -213,6 +215,26 @@ Hulk
 Punk Rage
 Joe Fixit
 Green Scar
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Hulk Lord.png
+Deluxe Avatar
+Bruce Banner DEFAULT Table Icon.png
+Default Bruce Banner
+Deluxe Avatar Bruce Banner
+Hero Hulk DEFAULT Table Icon.png
+Default Hero Hulk
+Deluxe Avatar Hero Hulk
+Monster Hulk DEFAULT Table Icon.png
+Default Monster Hulk
+Deluxe Avatar Monster Hulk
 Abilities
 Bruce Banner
 Hero Hulk
@@ -706,10 +728,37 @@ Dr. Bruce Banner prestige artwork
 Monster Hulk prestige artwork
 Hero Story Artwork
 Trivia
-Hulk is voiced by Fred Tatasciore, who has portrayed the character for twenty years in various media such as
-The Incredible Hulk: Ultimate Destruction
+The Hulk's first appearance was in
+"Incredible Hulk" (1962) #1
+.
+Hulk is voiced by Fred Tatasciore, who has portrayed the character for twenty years in various media such as ''The Incredible Hulk: Ultimate Destruction'', ''The Avengers: Earth’s Mightiest Heroes'', the ''Hulk vs.'' films, and more.
+Hulk, when talking to
+Doctor Strange,
+mentions their "Defenders" days. They are the original members in the comics alongside
+Namor
+.
+[
+1
+]
+When Bruce Banner respawns, he wonders if he went through the "Green Door" again.  In
+The Immortal Hulk
+comic
 ,
-The Avengers: Earth’s Mightiest Heroes
-, the
-Hulk vs.
-films, and more.
+the Green Door serves as a portal back to life for deceased Gamma mutates who enter the Below-Place.
+The frantic "YOU STAY AWAY FROM ME!" is one of
+Loki's
+interactions to Hulk, referencing his "Puny God" treatment from
+The Avengers
+(2012) film.
+[
+2
+]
+Navigation
+References
+↑
+Hulk and
+Doctor Strange
+Hero Interaction
+↑
+Loki
+and Hulk Hero Interaction

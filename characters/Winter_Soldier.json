@@ -5,8 +5,8 @@
     "health": 275,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#F87171",
-    "color_theme_secondary": "#CA8A04"
+    "color_theme": "#FBBF2C",
+    "color_theme_secondary": "#DC2626"
   },
   "abilities": [
     {
@@ -15,7 +15,7 @@
       "type": null,
       "description": "Fire explosive rounds with his blaster, Roterstern, damaging the target hit and enemies behind them.",
       "casting": "Straight-line projectile that generates a spell field upon impact",
-      "damage": "75",
+      "damage": "75 (projectile), 65 (spell field)",
       "damage_falloff": "Falloff begins at 20m, decreasing to 60% at 40m",
       "fire_rate_interval": "2.5 rounds per second",
       "ammo": 3,
@@ -30,12 +30,32 @@
       "details": "Enemies that take damage from the projectile will no longer receive damage from the spell field"
     },
     {
+      "name": "BIONIC HOOK",
+      "keybind": "RMB",
+      "type": null,
+      "description": "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": "15 (projectile), 20 (spell field)",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "12s",
+      "range": "The projectile can travel up to 10m with a 0.5s charge. As the charge time increases, it can reach a maximum distance of 20m with a 1s charge",
+      "projectile_speed": "80 m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
       "name": "TROOPER'S FIST",
       "keybind": "SHIFT",
-      "type": null,
+      "type": "Movement-based damage ability",
       "description": "Dash forward, seizing enemies along the path and launching up enemies at the end of the dash",
       "casting": "Movement-based damage ability",
-      "damage": "65",
+      "damage": "65 (knockback), 25 (seize)",
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
@@ -45,9 +65,9 @@
       "projectile_speed": null,
       "charges": null,
       "duration": null,
-      "movement_boost": "30 m/s",
+      "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Maximum distance: 9m\\nSeize damage: 25"
+      "details": "The dash can hit multiple targets if they're very close to each other, leading them perfectly into the uppercut. Maximum Distance: 9m. Average Speed: 30 m/s"
     },
     {
       "name": "TAINTED VOLTAGE",
@@ -63,38 +83,16 @@
       "cooldown": "6s",
       "range": null,
       "projectile_speed": "100 m/s",
-      "charges": null,
-      "duration": "2s",
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": {
-        "charges": 2
-      }
-    },
-    {
-      "name": "BIONIC HOOK",
-      "keybind": "RMB",
-      "type": null,
-      "description": "Charge up and launch a hook with his bionic arm, reeling in the first target hit and enemies lurking behind",
-      "casting": "Straight-line projectile that generates a spell field upon impact",
-      "damage": "15",
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "12s",
-      "range": "The projectile can travel up to 10m with a 0.5s charge. As the charge time increases, it can reach a maximum distance of 20m with a 1s charge\\nCone-shaped spell field with a 4.5m radius and an apex angle of 80°",
-      "projectile_speed": "80 m/s",
-      "charges": null,
+      "charges": 2,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Spell field damage: 20\\nCharge time: 0.5s - 4s"
+      "details": "Projectiles pierce through enemies. Slow Rate: -35%, Slow Duration: 2s"
     },
     {
       "name": "CEASELESS CHARGE",
       "keybind": null,
-      "type": "PASSIVE",
+      "type": "Passive",
       "description": "Roterstern reloads automatically while the bionic arm is in action, granting Bonus Health to the Winter Soldier",
       "casting": null,
       "damage": null,
@@ -109,64 +107,34 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Bonus health (self): 40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact), 30 (Stellar Impact)"
-    },
-    {
-      "name": "STELLAR IMPACT",
-      "keybind": "C",
-      "type": "Team-Up",
-      "description": "Inspired by Captain America's resolve, Winter Soldier can leap to the aid of a designated ally, slamming the ground with his mechanical arm to deal damage to nearby foes. Additionally, Captain America and Winter Soldier can interact with each other once both parties confirm. The duo collides and unleashes a shockwave that deals damage and inflicts slow on enemies.",
-      "casting": null,
-      "damage": "70",
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "15s",
-      "range": "8m spherical radius",
-      "projectile_speed": null,
-      "charges": null,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": {
-        "bonus_health_allies": 50
-      }
+      "details": "BONUS HEALTH (SELF) - 40 (Bionic Hook & Tainted Voltage), 50 (Trooper's Fist, Kraken Impact), 30 (Stellar Impact)"
     }
   ],
   "ultimate": {
     "name": "KRAKEN IMPACT",
-    "keybind": "Q/MS3",
+    "keybind": "Q",
     "type": null,
     "description": "Leap high, then dash forward and slam down with the bionic arm, dealing damage to enemies in range, marking them for Culling. Marked enemies will perish instantly if their health falls below a certain threshold, recharging the bionic arm for another Kraken Impact within a short period",
     "casting": "Spherical Spell Field",
-    "damage": "80",
+    "damage": 80,
     "range": "5m spherical radius",
-    "effect": "Culling",
-    "duration": "5s",
+    "effect": "Culling (5s duration, 15% health threshold)",
+    "duration": null,
     "health_upon_revival": null,
     "slow_rate": null,
     "projectile_speed": null,
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 3100,
-    "details": "Culling threshold: 15% Health\\nNext Kraken Impact after a Culling: 8s"
+    "details": "NEXT KRAKEN IMPACT AFTER A CULLING - 8s. Enemies that have 15% of their maximum HP or below have a unique marker above their health bar when Kraken Impact is activated, indicating that they can be KO'd instantly if they are struck by the ultimate. Additionally, the ultimate can be refreshed if a teammate defeats an enemy marked with Culling. This reset works even against Loki's Doppelgangers, Hulk reverting to Bruce Banner, or when triggering Wolverine's Regenerative Healing Factor."
   },
   "passives": [],
   "teamups": [
     {
       "name": "Stars Aligned",
-      "partner": [
-        "Captain_America"
-      ],
-      "effect": null,
-      "keybind": null,
-      "teamup_bonus": null,
-      "duration": null,
-      "cooldown": "12s",
-      "range_target": null,
-      "special_notes": "Ability: Stellar Impact",
-      "details": "Damage: 70<br/>Damage Range: 8m spherical radius<br/>Prompt Range Normal: Up to 20m<br/>Clash Damage: 80<br/>Clash Damage Range: 10m spherical range<br/>Prompt Range Clash: Up to 30m<br/>Bonus Health Self: 50<br/>Special Effect: Stellar Impact also triggers the Ceaseless Charge passive effect; a Slow effect is applied to enemies hit with Clash damage"
+      "details": {
+        "bonus_health_self": 50
+      }
     }
   ],
   "gameplay": {
@@ -192,24 +160,24 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "I'm not anyone's sidekick, what I do best is done alone.",
+    "ingame_bio_quote": "\"I'm not anyone's sidekick, what I do best is done alone.\"",
     "ingame_bio_text": "Terrifying experiments turned him into a brainwashed assassin, but now James Buchanan \"Bucky\" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!",
-    "ingame_story_intro": "I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.",
+    "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "A Helping Hand",
-        "content": "The news streamed in from all over the world. The people in charge were calling it the Timestream Entanglement — a sudden disruption in the fabric of space and time that had sent chaos rippling across countless realities. The heroes of Earth had assembled to face the crisis head on. Not all of them had survived.\\n\\n\"...entire world is in a state of mourning for Steve Rogers, the beloved hero known as Captain America, who was struck down earlier this week when...\"\\n\\n\"About damn time,\" a security officer in a Hydra uniform grunted, cracking a smile as he watched the satellite feed in the monitor station of the hidden Arctic base where he was stationed. (Rest of story omitted for brevity)",
+        "content": "The news streamed in from all over the world. The people in charge were calling it the Timestream Entanglement — a sudden disruption in the fabric of space and time that had sent chaos rippling across countless realities. The heroes of Earth had assembled to face the crisis head on. Not all of them had survived.\n\n...\n\nMoments later, in a crackle of energy, the heroes stepped out of the portal. They weren't anywhere near Hydra's frozen base. That was instantly clear. In fact, it didn't even look like they were on Earth anymore. The strange chronal energies of the Timestream Entanglement ripped across a star-filled sky as they gazed in disbelief at the spaceport of a futuristic city. If this was Wakanda, it certainly wasn't the one that Bucky and Clint knew.",
         "status": null
       },
       {
         "title": "Back to Maveth",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
       },
       {
         "title": "Alone and Helpless",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
       }
     ],
     "balance_changes": [
@@ -235,7 +203,7 @@
         ]
       },
       {
-        "date_version": "25/01/08:",
+        "date_version": "25/01/08",
         "changes": [
           "Fixed occassional incorrect resets of Winter Soldier's ultimate ability.",
           "Fixed an issue where the Winter Soldier's ultimate ability would sometimes fail to hit targets within its range."
@@ -257,13 +225,13 @@
         ]
       },
       {
-        "date_version": "25/01/31:",
+        "date_version": "25/01/31",
         "changes": [
           "Added 1 new costume: Blood Soldier."
         ]
       },
       {
-        "date_version": "25/02/20:",
+        "date_version": "25/02/20",
         "changes": [
           "Addressed an issue where Winter Soldier's ultimate sometimes visually appeared to hit targets but would actually miss. The sharpshooter's aim is now spot on!"
         ]
@@ -276,7 +244,7 @@
         ]
       },
       {
-        "date_version": "25/04/08:",
+        "date_version": "25/04/08",
         "changes": [
           "Addressed an issue where Bucky would sometimes descend before ascending while unleashing his Ultimate Ability in unstable network conditions. Now, the Winter Soldier rises to the occasion without any time-traveling hiccups--no need for a Doctor Strange intervention!"
         ]
@@ -290,7 +258,7 @@
         ]
       },
       {
-        "date_version": "25/04/18:",
+        "date_version": "25/04/18",
         "changes": [
           "Added 1 new costume color for Blood Soldier: Winter's Wrath."
         ]
@@ -303,14 +271,14 @@
         ]
       },
       {
-        "date_version": "25/05/02:",
+        "date_version": "25/05/02",
         "changes": [
           "Added 1 new costume: Thunderbolts*."
         ]
       }
     ],
-    "official_quote": "I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.",
-    "official_description": "Winter Soldier is a Duelist hero in Marvel Rivals, and is the 24th hero introduced to the game's roster.\nHe has a team-up ability that work in conjunction with Captain America."
+    "official_quote": "\"I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.\"",
+    "official_description": "Winter Soldier is a Duelist hero in Marvel Rivals, and is the 24th hero introduced to the game's roster. He has a team-up ability that work in conjunction with Captain America."
   },
   "background": {
     "real_name": "James Buchanan \"Bucky\" Barnes",
@@ -343,13 +311,13 @@
     "helpful_links": []
   },
   "meta_stats": {
-    "tier": "C",
-    "win_rate": "44.97%",
-    "wr_change": "-4.45%",
-    "pick_rate": "13.25%",
-    "pr_change": "-15.97%",
-    "ban_rate": "0.69%",
-    "matches": "197,678"
+    "tier": "B",
+    "win_rate": "47.02%",
+    "wr_change": "-2.40%",
+    "pick_rate": "19.73%",
+    "pr_change": "-9.49%",
+    "ban_rate": "0.82%",
+    "matches": "293,945"
   },
   "data_sources": {
     "wiki": [],

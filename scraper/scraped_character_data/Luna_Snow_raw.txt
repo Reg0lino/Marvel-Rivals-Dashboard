@@ -90,6 +90,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 LUNA SNOW
@@ -148,6 +150,16 @@ Luna Snow
 Nolaehaneun Manyeo
 Shining Star
 Mirae 2099
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 LIGHT & DARK ICE
@@ -420,7 +432,7 @@ Launch Countdown
 Trivia
 Luna Snow was originally created for the game
 Marvel Future Fight
-. She was subsequently brought into the Marvel comics a year after her debut in 2019.
+. Her first appearance was in 2018 and was subsequently brought into the Marvel comics a year after her debut in 2019.
 Luna Snow has heterochromia, with her right eye being brown and her left one being blue.
 Her song "Fate of Both Worlds", has her singing in Korean is performed by Le'mon rather than Judy Alice Lee, who provides Luna Snow's speaking voice.
 This is also Luna Snow's Ultimate and when activated, it plays the background music only.

@@ -87,6 +87,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 IRON FIST
@@ -125,17 +127,13 @@ Sword of Fu Xi
 Sword Master
 Lion Dance
 Lion's Gaze
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Iron Fist
+BRAIN BLAST
 His Will
-Immortal Weapon of Agamotto
 Easy-Peasy
-Sword Master
 Blessed Lion
-Lion's Gaze
 See
 :
 List of Sprays
@@ -150,6 +148,16 @@ Iron Fist
 Immortal Weapon of Agamotto
 Sword Master
 Lion's Gaze
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 JEET KUNE DO
@@ -299,7 +307,7 @@ Mantis
 and
 Luna Snow
 , as they countermeasures such as CC and self-heal to counter your efforts.
-Adam Warlock
+Iron Fist
 should also be avoided often unless he is isolated due to his lethal damage potential at close to mid range.
 Iron Fist attacks with Jeet Kune Do. It consists of five individual strikes, whereas the fifth strike deals more damage and has a bit of knockback. If you were to land all five attacks consecutively, you would deal 170 total damage with no buffs/debuffs on other side.
 Your main attacks also feature a lock-on feature that pulls the player towards the target if they are within a nearby distance. Due to this, Iron Fist becomes an extremely powerful anti-air character that can reliably take down opponents such as
@@ -581,6 +589,11 @@ Sword Master
 New Avengers
 (2010) #4
 Trivia
+His first appearance was in
+"Warriors of Three Sovereigns" (May 2018) #1
+. While as Iron Fist was in
+"Iron Fist" (February 2022) #1
+.
 Lin Lie is the current Iron Fist in the Earth-616 universe and the successor of
 Danny Rand
 , who had given up the Iron Fist to save the dragons of the Heavenly Cities.  Danny is later killed by the Ch'i-Lin, a mystical beast who seeks to kill every Iron Fist, but is fated to be resurrected as the Ghost Fist.
@@ -591,3 +604,7 @@ Lin Lie has also mastered the fighting style of Wing Chun. This is further prove
 Yat Jee Chung Kuen (日字衝拳) is a Wing Chun hand technique also known as the Character ‘Sun’ thrusting punch. This is a rapid straight front punch.
 His block when doing Dragon's Defense is called Bong Sao (膀手) or Wing Hand, also from Wing Chun.
 His signature is a Chinese seal also called Yìn Zhāng (印章).
+Version 20250430
+corrected a spelling mistake in
+Fog Over the Kunlun Mountains
+which spelled Lin's name as "Line" once.

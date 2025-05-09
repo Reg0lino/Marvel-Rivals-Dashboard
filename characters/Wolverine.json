@@ -5,8 +5,8 @@
     "health": 350,
     "speed": "7 m/s",
     "difficulty": null,
-    "color_theme": "#FACC15",
-    "color_theme_secondary": "#3B82F6"
+    "color_theme": "#EF4444",
+    "color_theme_secondary": "#1D4ED8"
   },
   "abilities": [
     {
@@ -15,7 +15,7 @@
       "type": "Melee",
       "description": "Slash with Adamantium claws for a Claw Strike. Unleashing Feral Leap will enhance it to Berserk Claw Strike for a brief period.",
       "casting": null,
-      "damage": "Deal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage",
+      "damage": "15\nDeal damage equal to 1.5% of the target's Max Health, with an extra 0.045% damage for each point of Rage",
       "damage_falloff": null,
       "fire_rate_interval": "The first three strikes have an interval of 0.27s between them, while the fourth strike has a 0.84s interval from the third strike",
       "ammo": null,
@@ -31,11 +31,11 @@
     },
     {
       "name": "VICIOUS RAMPAGE",
-      "keybind": null,
+      "keybind": "RMB",
       "type": "Movement-based damage ability",
       "description": "Dash forward and unleash a Claw Strike.",
       "casting": null,
-      "damage": 15,
+      "damage": "15",
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
@@ -47,7 +47,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "AVERAGE SPEED - 44m/s\nMAXIMUM DISTANCE - 7.5m"
+      "details": "MAXIMUM DISTANCE - 7.5m"
     },
     {
       "name": "FERAL LEAP",
@@ -68,7 +68,7 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": {
-        "new_effect_description": "Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!"
+        "LEAP DISTANCE": "20m"
       }
     },
     {
@@ -98,7 +98,7 @@
     "type": "Area",
     "description": "Knock enemies ahead airborne and spiral through the air, sweeping up enemies along the path and delivering a devastating impact at the landing point.",
     "casting": null,
-    "damage": "Deal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage",
+    "damage": "KNOCKBACK DAMAGE - 50\nIMPACT BASE DAMAGE - 50\nDeal damage equal to 10% of the target's Max Health, with an extra 0.3% damage for each point of Rage",
     "range": "8m spherical radius",
     "effect": null,
     "duration": null,
@@ -162,7 +162,7 @@
       {
         "icon": null,
         "name": "Rage Uncaged",
-        "description": "As Wolverine, land 3 KOs with a single use of LAST STAND.",
+        "description": "As Wolverine, land 3 KOs with a single use of Last Stand.",
         "points": 10
       }
     ]
@@ -179,7 +179,7 @@
       },
       {
         "title": "Rising Pulse",
-        "content": "\"RRRRRAAAARGGGHHH!\"The Mutant known as Wolverine let out a primal scream as his razor-sharp Adamantium claws sliced through yet another one of Ultron’s robotic drone soldiers.\n”Easy, Logan,” Magik said to her fellow X-Man. “If we’re going to win this battle and save Krakoa, we need your head in the game. Not just your claws.”\n”Thanks for the reminder, snowflake,” Logan said as he took a deep breath. Pulling himself back from the edge of a berserker rage, the cloud of red obscuring Logan’s vision began to fade. He was once again able to survey the battle taking place around him with a clear mind. And despite the devastation sweeping across the nation he called home, he liked some of what he saw.",
+        "content": "\"RRRRRAAAARGGGHHH!\"",
         "status": null
       },
       {
@@ -190,81 +190,107 @@
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
+        "date_version": "24/12/06:Season 0: Dooms' RiseLaunch",
         "changes": [
           "Wolverine was added as the 33rd character to be introduced to Marvel Rivals as a Duelist hero.",
-          "Added 2 new costumes: Lone Wolf and Deadpool & Wolverine",
+          "Added 2 new costumes: Lone Wolf and Deadpool & Wolverine.",
           "Added the Rage Uncaged achievement.",
-          "Added to the Fastball Special Team-Up Ability with the Hulk"
+          "Added to the Fastball Special Team-Up Ability with Hulk"
         ]
       },
       {
-        "date_version": "24/12/10: Version 20241210",
+        "date_version": "24/12/10:Version 20241210",
         "changes": [
           "When Wolverine had his Deadpool & Wolverine costume equipped, no ability voice lines other than the Undying Animal ability's line would play. This issue has been resolved."
         ]
       },
       {
-        "date_version": "25/1/10: Version 20250110",
+        "date_version": "25/01/08:",
+        "changes": [
+          "Addressed occasional malfunctions with, or inability to use Wolverine's team-up ability.",
+          "Addressed irregularities and occasional failure to end Wolverine's Feral Leap, along with occasional abnormal behavior."
+        ]
+      },
+      {
+        "date_version": "25/01/10:Version 20250110/Season 1: Eternal Night FallsLaunch",
         "changes": [
           "Increase base health from 300 to 350.",
           "Reduce the damage reduction ratio provided by Undying Animal from 50% to 40%.",
-          "Addressed occasional malfunctions with, or inability to use Wolverine's team-up ability",
-          "Addressed irregularities and occasional failure to end Wolverine's Feral Leap, along with occasional abnormal behavior"
+          "Added 1 new costume: Blood Berserker."
         ]
       },
       {
-        "date_version": "25/1/22: Version 20250122",
+        "date_version": "25/01/22:Version 20250122/Fortune & ColorsEvent",
         "changes": [
-          "Wolverine's Unyielding Berserk Claw Strike: Frame rate no longer affects the number of attacks in the enhanced Savage Claw after using Feral Leap.",
-          "Wolverine's Fury Corrected: Fixed an issue where Wolverine's ultimate ability occasionally wouldn't end properly after landing after being pulled back."
+          "Frame rate no longer affects the number of attacks in the enhanced Savage Claw after using Feral Leap.",
+          "Fixed an issue where Wolverine's ultimate ability occasionally wouldn't end properly after landing after being pulled back."
         ]
       },
       {
-        "date_version": "25/2/6: Version 20250207",
+        "date_version": "25/02/07:Version 20250207",
         "changes": [
-          "Wolverine's Fastball Bewilderment: Fixed occasional synchronization issues in the Fastball Special Team-Up Ability where on Wolverine's side, he would appear as being held by the Hulk, but others would see Wolverine still in his original place. Now, everyone's in sync to play ball."
+          "Fixed occasional synchronization issues in the Fastball Special Team-Up Ability where on Wolverine's side, he would appear as being held by the Hulk, but others would see Wolverine still in his original place. Now, everyone's in sync to play ball."
         ]
       },
       {
-        "date_version": "Version 20250214",
+        "date_version": "25/02/14:Version 20250214",
         "changes": [
-          "Hulk & Wolverine's Team-Up Trouble: Fixed a little mischief where because of their Team-Up Ability, Wolverine's Berserk Claw Strike could, under certain situations, be activated during Feral Leap. Now, there will be no more mix-ups!"
+          "Fixed a little mischief where because of their Team-Up Ability, Wolverine's Berserk Claw Strike could, under certain situations, be activated during Feral Leap. Now, there will be no more mix-ups!"
         ]
       },
       {
-        "date_version": "Version 20250314",
+        "date_version": "25/03/07:Version 20250307/Galacta's Cosmic AdventureEvent",
         "changes": [
-          "Wolverine's Claw Coordination: Resolved a rare discrepancy between his animation and effects when Wolverine executed the dive of his Ultimate Ability from the highest point. Now, when Logan strikes, it's as precise and impactful as his adamantium claws!"
+          "Fixed a quirk where characters launched up by Wolverine's Ultimate Ability would sometimes exhibit exaggerated jumping abilities. The mutant's effect is now properly contained!",
+          "Resolved a rare issue on PlayStation where Wolverine's Rage Uncaged trophy sometimes wouldn't unlock."
         ]
       },
       {
-        "date_version": "Version 20250327",
+        "date_version": "25/03/14:Version 20250314",
         "changes": [
-          "Wolverine's Terrifying Pounce: Resolved an issue where the Hulk could sometimes have abnormal behavior after being catapulted into a terrain KO by Wolverine's Feral Leap. Now, the big guy gets the proper beatdown without any off-script environmental stunts!"
+          "Resolved a rare discrepancy between his animation and effects when Wolverine executed the dive of his Ultimate Ability from the highest point. Now, when Logan strikes, it's as precise and impactful as his adamantium claws!"
         ]
       },
       {
-        "date_version": "Version 20250411",
+        "date_version": "25/03/27:Version 20250327",
         "changes": [
-          "Increase Rage gained from Savage Claw hits from 7 to 10",
-          "Rage gained from Berserk Claw Strike has been decreased from 7 to 5.",
+          "Fixed a snag in Wolverine's Ultimate Ability where, under high network latency, foes sent flying and slammed into the ground could sometimes end up in the wrong location. Now, every Last Stand lands exactly where it should."
+        ]
+      },
+      {
+        "date_version": "25/04/08:",
+        "changes": [
+          "Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!",
+          "Resolved a rare occurrence where being hit by Wolverine's Feral Leap could render all abilities unusable. No more claw-induced chaos--heroes can now fight on without fear of losing their abilities mid-battle!"
+        ]
+      },
+      {
+        "date_version": "25/04/11:Version 20250411/Season 2: Hellfire GalaLaunch",
+        "changes": [
+          "Increase Rage gained from Savage Claw hits from 7 to 10, while Rage gained from Berserk Claw Strike has been decreased from 7 to 5.",
           "Reduce Rage gained from Feral Leap from 20 to 10, and from Vicious Rampage from 20 to 15.",
-          "Rage gained from taking damage has been increased from 3 to 5.",
-          "Reduce the time an enemy is knocked down after impact from Last Stand (Ultimate Ability) from 1 second to 0.75 seconds."
+          "However, Rage gained from taking damage has been increased from 3 to 5.",
+          "Reduce the time an enemy is knocked down after impact from Last Stand from 1 second to 0.75 seconds."
         ]
       },
       {
-        "date_version": "Version 20250411",
+        "date_version": "25/04/15:Version 20250415",
         "changes": [
-          "Wolverine's Ferocious Leap: Fixed a rarely occurring issue where Wolverine's Feral Leap could leave him stuck in an abnormal state, unable to finish the move. Now, Logan can unleash his claws with confidence, ensuring his foes don't get a second to breathe!"
+          "Fixed an issue where Wolverine's Ultimate Ability landing sometimes wouldn't finish properly in poor network conditions. Now, the best there is at what he does can unleash his fury without any hiccups!",
+          "Resolved an issue where Wolverine could sometimes be unable to control his direction during the Fastball Special after using it multiple times. Now, every throw will be a claw-some hit!"
         ]
       },
       {
-        "date_version": "Version 20250415",
+        "date_version": "25/04/30:Version 20250430",
         "changes": [
-          "Wolverine's Claw-some Comeback: Fixed an issue where Wolverine's Ultimate Ability landing sometimes wouldn't finish properly in poor network conditions. Now, the best there is at what he does can unleash his fury without any hiccups!",
-          "Fastball Fumble: Resolved an issue where Wolverine could sometimes be unable to control his direction during the Fastball Special after using it multiple times. Now, every throw will be a claw-some hit!"
+          "We've sliced through a glitch where if Wolverine responds to a Fastball Special request while within Invisible Woman's ultimate, it would sometimes result in abnormal invisibility effects.",
+          "Fixed a flaw in the second stage of his ultimate where midair knockbacks lost their bite and dealt no damage. Now, when Wolverine soars into the fray, every strike is felt with the raw power of a true berserker!"
+        ]
+      },
+      {
+        "date_version": "25/05/02:",
+        "changes": [
+          "Added 1 new costume: Patch (unlocked from the Hellfire Gala Moments season missions)"
         ]
       }
     ],
@@ -303,17 +329,17 @@
   "misc": {
     "voice_actor": null,
     "quotes_link": null,
-    "community_buzz": null,
+    "community_buzz": "https://www.reddit.com/r/marvelrivals/search/?q=%22Wolverine%22&type=posts&t=month",
     "helpful_links": []
   },
   "meta_stats": {
     "tier": "C",
-    "win_rate": "47.34%",
-    "wr_change": "-2.29%",
-    "pick_rate": "7.77%",
-    "pr_change": "-0.87%",
-    "ban_rate": "4.79%",
-    "matches": "115,915"
+    "win_rate": "47.92%",
+    "wr_change": "-1.70%",
+    "pick_rate": "8.99%",
+    "pr_change": "+0.36%",
+    "ban_rate": "4.15%",
+    "matches": "133,916"
   },
   "data_sources": {
     "wiki": [],

@@ -122,6 +122,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 CLOAK & DAGGER
@@ -189,6 +191,22 @@ Cloak & Dagger
 Growth & Decay
 Twilight Duo
 Dance Partner
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
+Cloak DEFAULT Table Icon.png
+Cloak Default
+Cloak Deluxe Avatar'
+Dagger DEFAULT Table Icon.png
+Dagger Default
+Dagger Deluxe Avatar
 Abilities
 Cloak
 Dagger
@@ -595,4 +613,8 @@ Growth & Decay costume Reveal
 Prestige artwork
 Hero Story Artwork
 Cloak and Dagger in the Official Launch Trailer.
+Trivia
+Cloak & Dagger's first appearance was in
+"Peter Parker, the Spectacular Spider-Man" (1976) #64
+.
 Navigation

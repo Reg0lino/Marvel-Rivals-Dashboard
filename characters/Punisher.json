@@ -11,13 +11,13 @@
   "abilities": [
     {
       "name": "ADJUDICATION",
-      "keybind": null,
-      "type": null,
+      "keybind": "LMB",
+      "type": "Automatic Rifle",
       "description": "Fire at enemies with Adjudication, his Automatic Rifle.",
       "casting": "Rapid-fire projectile",
       "damage": "18 damage per round",
       "damage_falloff": "Falloff begins at 20m, decreasing to 70% at 40m",
-      "fire_rate_interval": null,
+      "fire_rate_interval": "10 rounds per second",
       "ammo": 30,
       "critical_hit": true,
       "cooldown": null,
@@ -28,18 +28,18 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": {
-        "crosshair_spread_radius": "Slightly reduce the spread"
+        "spread_reduction": "slightly reduced"
       }
     },
     {
       "name": "DELIVERANCE",
-      "keybind": null,
-      "type": null,
+      "keybind": "RMB",
+      "type": "Shotgun",
       "description": "Fire at enemies with Deliverance, his Shotgun.",
       "casting": "Shotgun projectiles that hit instantly",
       "damage": "10 damage per round",
       "damage_falloff": "Falloff begins at 8m, decreasing to 40% at 15m",
-      "fire_rate_interval": null,
+      "fire_rate_interval": "1.43 rounds per second",
       "ammo": 8,
       "critical_hit": true,
       "cooldown": null,
@@ -50,13 +50,13 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": {
-        "crosshair_spread_radius": "Slightly reduce the spread"
+        "spread_reduction": "slightly reduced"
       }
     },
     {
       "name": "VANTAGE CONNECTION",
       "keybind": "SHIFT",
-      "type": "Dash",
+      "type": "Hook",
       "description": "Launch a hook to generate a cable that enables the Punisher to move rapidly by pressing F.",
       "casting": "Dash",
       "damage": null,
@@ -65,23 +65,23 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": "20s",
-      "range": null,
-      "projectile_speed": null,
+      "range": "5m - 35m",
+      "projectile_speed": "25 m/s",
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "CABLE ATTACHMENT ANGLE - 20° - 160°\nCABLE LENGTH - 5m - 35m\nDASH SPEED - 25 m/s"
+      "details": "CABLE ATTACHMENT ANGLE - 20° - 160°"
     },
     {
       "name": "CULLING TURRET",
       "keybind": "E",
-      "type": "Rapid-fire projectiles that create a spell field upon impact",
+      "type": "Turret",
       "description": "Deploy a Culling Turret that grounds Punisher and blocks damage from the front while dealing massive damage.",
       "casting": "Rapid-fire projectiles that create a spell field upon impact",
       "damage": "12 damage per round",
       "damage_falloff": null,
-      "fire_rate_interval": null,
+      "fire_rate_interval": "12.5 rounds per second",
       "ammo": 200,
       "critical_hit": null,
       "cooldown": "20s",
@@ -91,15 +91,15 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "EXPLOSION DAMAGE - 12 damage per round\nEXPLOSION RANGE - 3m spherical radius\nCROSSHAIR SPREAD RADIUS (AT 10M) - Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots\nFIRE RATE - 12.5 rounds per second\nTURRET HEALTH - 600"
+      "details": "EXPLOSION DAMAGE - 12 damage per round\nEXPLOSION RANGE - 3m spherical radius\nCROSSHAIR SPREAD RADIUS (AT 10M) - Start with a spread radius of 0.2m, which reduces to 0.1m after 10 shots, and further decreases to 0.05m after 20 shots\nTURRET HEALTH - 600"
     },
     {
       "name": "SCOURGE GRENADE",
       "keybind": null,
-      "type": "Projectile with an arced trajectory",
+      "type": "Grenade",
       "description": "Throw a smoke grenade forward to obscure enemy vision and leap backward.",
       "casting": "Projectile with an arced trajectory",
-      "damage": "45",
+      "damage": 45,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
@@ -112,41 +112,47 @@
       "movement_boost": null,
       "energy_cost_details": null,
       "details": "BACKWARD JUMP DISTANCE - 9m\nSPECIAL EFFECT\n⚬ Create a temporary smokescreen that obstructs vision"
+    },
+    {
+      "name": "WARRIOR'S GAZE",
+      "keybind": null,
+      "type": "Passive",
+      "description": "Retain vision of enemies that disappear from view for a short duration.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "30m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "3s",
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "SPECIAL EFFECT\n⚬ Retain vision of enemies that disappear from view for a short duration."
     }
   ],
   "ultimate": {
     "name": "FINAL JUDGEMENT",
     "keybind": "Q",
-    "type": "Rapid-fire projectiles that hit instantly and have a tracking trajectory",
+    "type": "Gatling Guns & Missiles",
     "description": "Unleash two Gatling guns and missiles to attack enemies.",
     "casting": "Rapid-fire projectiles that hit instantly and have a tracking trajectory",
-    "damage": "8 damage per round",
+    "damage": null,
     "range": null,
     "effect": null,
     "duration": "10s",
     "health_upon_revival": null,
-    "slow_rate": "-20%",
-    "projectile_speed": "60 m/s",
+    "slow_rate": "-20% while idling, -40% while shooting",
+    "projectile_speed": "60 m/s (missiles)",
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 3400,
-    "details": "SLOW RATE WHILE SHOOTING - -40%\n◆\nGATLING GUN\nDAMAGE FALLOFF - Falloff begins at 20m, decreasing to 70% at 40m\nCROSSHAIR SPREAD RADIUS (AT 10M) - Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots\nFIRE RATE - 33.33 rounds per second\nAMMO - ∞\nCRITICAL HIT - Yes\n◆\nSHOULDER-MOUNTED MISSILES\nDAMAGE - 50\nINTERVAL BETWEEN VOLLEYS - 3s\nINTERVAL BETWEEN MISSILES - 0.3s\nMAXIMUM NUMBER OF MISSILES PER VOLLEY - 8\nMAXIMUM NUMBER OF LOCKED-ON MISSILES PER TARGET - 3\nMAXIMUM LOCKING DISTANCE - 40m"
+    "details": "GATLING GUN\nDAMAGE - 8 damage per round\nDAMAGE FALLOFF - Falloff begins at 20m, decreasing to 70% at 40m\nCROSSHAIR SPREAD RADIUS (AT 10M) - Start with a spread radius of 0.6m, which reduces to 0.3m after 50 shots, and further decreases to 0.15m after 100 shots\nFIRE RATE - 33.33 rounds per second\nAMMO - ∞\nCRITICAL HIT - Yes\nSHOULDER-MOUNTED MISSILES\nINTERVAL BETWEEN VOLLEYS - 3s\nINTERVAL BETWEEN MISSILES - 0.3s\nMAXIMUM NUMBER OF MISSILES PER VOLLEY - 8\nMAXIMUM NUMBER OF LOCKED-ON MISSILES PER TARGET - 3\nMAXIMUM LOCKING DISTANCE - 40m"
   },
-  "passives": [
-    {
-      "name": "WARRIOR'S GAZE",
-      "keybind": null,
-      "type": null,
-      "description": "Retain vision of enemies that disappear from view for a short duration.",
-      "cooldown": null,
-      "damage": null,
-      "range": "30m spherical radius",
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": "DURATION - 3s\nSPECIAL EFFECT\n⚬ Retain vision of enemies that disappear from view for a short duration."
-    }
-  ],
+  "passives": [],
   "teamups": [
     {
       "name": "Ammo Overload",
@@ -190,11 +196,11 @@
   "lore_details": {
     "ingame_bio_quote": "\"I'm not a hero, I'm the Punisher.\"",
     "ingame_bio_text": "Expertly wielding a full arsenal of futuristic weapons, Frank Castle is a formidable one-man army. With a steadfast resolve to deliver justice to his enemies, The Punisher won't cease in his mission until every last round is fired!",
-    "ingame_story_intro": "The year 2099. The future had seen countless advancements in technology and pharmaceuticals thanks to companies like Stark-Fujikawa and Alchemax. Safety and security were at an all-time high as well, in large part to the proactive police force known as the\nPublic Eye\n. At a glance, everything seemed perfect. A little too perfect.\n\nBut a closer look revealed another story. Even though the quality of life had improved dramatically for everyday citizens, there were still those who lurked in the shadows, searching for ways to use that miraculous progress for their own personal gain. In every utopia, there was always someone desperate to turn the brave new world upside down. Fortunately, there were also those who had dedicated their long lives to stopping them… at any cost…\n\nThose forces were destined to collide in a warehouse on the lowest levels of a forgotten district of Tokyo, far below the strange webs that had woven themselves through the night sky. There, the Yashida Corporation -- once one of Japan’s greatest crime families and now a multinational manufacturing powerhouse -- was set to meet with a mysterious new syndicate rumored to be making a move for power in New York City: the Castigliones.",
+    "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Initiation Ceremony",
-        "content": "While the Yashida Corp. had gone legit decades ago, they still had a number of illicit operations hidden in their books, dealing in everything from narcotics to weapons. Tonight, the focus was on the latter.\n\nLed by Shiru Yashida, a direct descendant of Lord Shingen himself, the Yashida Corp.’s delegation numbered over twenty armed men. They were trained to remain cold and confident, but they couldn’t help but snicker when the door to the warehouse slid open and a single figure in a long dark coat walked into the darkness.\n\n“Let’s get down to business, shall we?” the man representing the Castigliones said in a gruff voice.\n\n“Bold,” Shiru said with a smile. “I already like you, Mr…?”\n\n“Tower,” the man replied coldly. “Johnny Tower. Now what’ve you got for me?”\n\nThe Yashida Corp. crew wasted no time, unveiling a table covered in a wide array of high-tech weaponry unlike anything that had been seen on the streets of Tokyo or any other city. Plasma cannons, EMP grenades, vibro-knives, and countless other innovations designed solely to cause their targets the most damage and pain possible. These were weapons of war, and the Yashidas had no qualms about unleashing them on the innocent people of New York. For the right price, of course.\n\nAfter the Yashidas finished their presentation, Tower paused for what seemed like ages, scanning over the table of weapons in silence. The tension that filled the warehouse escalated until he finally spoke.\n\n“I’ll take all of ‘em,” Tower said, his cold expression never changing.\n\n“Surely, a young syndicate such as yours cannot yet afford --” Shiru began in astonishment, unable to finish his thought before Tower interjected.\n\n“Didn’t say I would pay for ‘em,” Tower interrupted. “Said I’d take ‘em.”\n\nShiru Yashida began to laugh as he reached for the sword dangling from his belt. It was a family heirloom, once belonging to an esteemed ancestor of his, the Mutant known as the Silver Samurai. While Shiru did not possess any powers himself, he had trained in swordsmanship since he was a boy. And he knew he could best anyone -- especially some petty New York mobster who didn’t seem to know his station.\n\n“I’ll take that sword off your hands, too,” Tower said, his grim face finally softening into a smirk.\n\n“What is it you Americans say?” asked Shiru, signaling to his men to draw their weapons. “Ah, yes… Over my dead body.”\n\nJohnny Tower reached into his long coat and drew out a pistol that looked as though it had been manufactured a century ago. Before anyone could react, there was a bang and Shiru Yashida fell to the ground in motionless heap.\n\n“Deal,” Tower sneered at him.\n\nA split second later Johnny Tower was bombarded by a firestorm of bullets from the weapons of the other members of the Yashida delegation. Tower tried to stand strong, but he stumbled backwards as the projectiles hit his chest over and over again, the force of the impacts eventually driving him to his knees. When the barrage ended, Tower stood up and dusted himself off as if nothing had happened.\n\n“Shoulda aimed for the head like I did,” Tower grunted, lunging forward and grabbing a cutting-edge plasma cannon from the table of weapons.\n\nHe opened fire on the Yashidas, who could only stare in utter disbelief. It wasn’t the fact that Tower had survived their merciless attack that made them freeze in their tracks. It was what they saw peering out from beneath Tower’s tattered black shirt:\n\nA stark white skull gazing back at them from the front of a bulletproof vest.\n\nThe mark of the Punisher.\n\nFor many of them, stories of the Punisher were like fairy tales. The vigilante who hunted criminals in the night. The real Punisher, a man named Frank Castle, had lived -- and died -- ages ago. So who was this man opening fire at them now? Someone who had styled himself after the legend? Or a ghost of the past seeking vengeance?\n\nIf Johnny Tower had his way, none of them would live to find out. With their leader on ice, he planned to use the tight quarters of the warehouse to methodically pick off each Yashida Corp. goon one-by-one. But there was one thing he hadn’t planned for. Company.\n\n“That’s enough,” a woman’s voice yelled as Tower spewed a volley of plasma bursts toward the cowering Yashida guards. “Let them go.”\n\nTower looked up and saw a woman perched up in the rafters of the warehouse, as if she was ready to pounce down on him.\n\n“Not a chance, doll,” Tower responded, snarling in her direction.\n\n“Don’t call me, doll…” the woman said, leaping down to land next to Tower, “…Frank.”\n\n“What’d you call me?” Tower said, caught off guard by the woman using his real name. No one had called him that in decades. As he looked closer, he couldn’t believe his eyes. He knew exactly who she was… and he was just as shocked to see her as the Yashida clan had been to see him.\n\n“What’s the matter, Castle?” the red-haired woman said with a smirk. “You look like you’ve seen a ghost.”\n\n“Natasha $%@in’ Romanoff,” Castle grunted in disbelief. “The\nBlack Widow\nherself. You look pretty good for… What…? 140 years old now?”\n\n“I could say the same about you,” Natasha replied, quickly dispatching the remaining Yashida guards with a torrent of non-lethal blasts of her Widow’s Bite. “What’s your secret?”\n\n“Clean living,” Johnny Tower -- or rather, Frank Castle -- said. “That and some back alley treatments with a knock-off Super-Soldier Serum. You?”\n\n“Same,” Natasha replied. “Well, almost. I got my life-enhancing formula from Nick Fury.”\n\n“That old bastard always did have a thing for dames in cat suits…” Castle mused. “So what the hell are you doing here? Other than blowing my cover?”\n\n“Pretty sure you’d already done that yourself way before I jumped in,” Natasha said. “But if you really want to know, I’ve been on the run.”\n\n“From who?” Castle asked. “Most people have no idea you still exist. Same as me.”\n\n“That may have changed…” Natasha said, careful about how much she chose to reveal to the vigilante by her side. “I found out that Alchemax was hiding a top-secret asset, something at a level of classification I’d never even heard of.”\n\n“So naturally you couldn’t resist stickin’ your pretty little head into their business,” Castle said.\n\n“What I found there…” Natasha continued. “It could change everything…”\n\n“Well, what was it?” Castle asked impatiently.\n\n“Not what…” Natasha said. “Who.”\n\n“No more games, woman,” Castle barked. “If you’ve got somethin’ to say, spit it out already!”\n\n“It was\nCaptain America\n, Frank,” Natasha said.\n\n“That… That ain’t possible…” Castle stammered, caught entirely off guard for the first time in ages. Cap was the reason he had signed up to be a soldier in the first place, long, long ago. But the Sentinel of Liberty had disappeared at the end of World War II, never to be found.\n\n“I barely believed it myself,” Natasha said as she played back the recent rescue operation in her mind’s eye. “But it was him. Steve Rogers. In the flesh.”\n\n“So where’s old stars and stripes now?” Castle asked, a tinge of hope in his voice.\n\n“He saved my life…” Natasha said, “…and then he vanished.”\n\n“And you’re tellin’ me the most elite spy who ever lived hasn’t managed to track a guy in star-spangled armor down yet?” Castle was starting to see some holes in her story.\n\n“I’ve been a bit distracted,” Natasha admitted. “After all, I just took your place at the top of the Public Eye’s most wanted list.”\n\n“Aww, come on!” Castle groaned. “Do you know how hard I worked to earn that spot?”\n\n“You’re welcome to have it back,” Natasha said. “Since that mission, I had to go underground, cut all ties with my network. It’s been a mess.”\n\n“So why’d you come out of the woodwork tonight?” Castle asked.\n\n“Because I need your help,” Natasha said earnestly.\n\n“Those aren’t words I hear very often,” Castle replied. “Especially from a hero like you. I don’t usually walk with the angels.”\n\n“Well, you’d better decide whose side you’re on fast,” Natasha said, raising her gauntlets and aiming them toward the warehouse door. “They’re here.”\n\nRight on cue, a squad of Public Eye soldiers burst into the warehouse, ordering the Black Widow and the Punisher to freeze. Natasha looked at Castle, who let out a sigh and nodded his head in mild annoyance. Without a word he grabbed two high-tech guns off the table, tossing one to his new partner.\n\n“Hit to wound, not to kill,” Natasha said as the two opened fire on the advancing officers.\n\n“Or what?” asked Castle snidely as he wrapped his arm around an officer’s throat and pressed his weapon against the side of the gasping man’s head.\n\n“Or I save my last round for you,” Natasha said, shooting several Public Eye soldiers in the kneecaps.\n\nCastle released the officer from his grip, letting him slump to the ground unconscious.\n\n“Death’s been on my heels for ages,” Castle said. “But it’s gonna have to wait a bit longer. At least until after I meet Cap. So let’s get this over with already…”\n\nCastle leapt forward and grabbed a tiny metal disc from the table and pressed a glowing button on its surface. As he tossed it onto the ground in front of them, Natasha instinctively began to run for cover, assuming it was an explosive.\n\n“You’re gonna wanna stay and watch this,” Castle said with a smile, running toward the device as it began to unfold. Within moments, a high-tech turret stood in its place. Frank jumped into the center of the giant gun and grabbed the handles.\n\n“Frank! No!” Natasha called as the Punisher gleefully opened fire on the Public Eye’s forces, raining destruction down upon them.\n\n“Don’t get all worked up,” he said. “I set it to stun. I think.”\n\nWhen the dust settled, Natasha raced over to one of the fallen officers and took his pulse. Castle wasn’t lying. He had held back from using lethal force. She was impressed. Maybe she had made the right choice coming to him after all.\n\n“See… you can trust me…” Castle said. “The problem is…”\n\nHe raised a gun and pointed it at Natasha.\n\n“…I’m not sure I can trust you. I know that the Yashidas paid off the Public Eye. So there’s no way the cops would’ve come here to bust our deal tonight. And like I said, you’re the best spy in the world. So they wouldn’t have been able to find you either…”\n\nCastle grabbed Natasha’s wrist and gave it a squeeze, forcing her hand open. In her palm was a small tracking device, giving off a locator signal.\n\n“…unless you wanted them to.”\n\n“I had to find a way to make sure you’d have my back,” Natasha said, realizing her gambit could have severely damaged the trust she had hoped to establish with her new ally.\n\n“And now I’ve gotta make sure you’re not gonna stab mine,” Castle said.\n\n“Trust has never been something either of us have had much of,” Natasha said. “But if we want to find Steve… if we want to stop the Public Eye… to beat Doom… I’m starting to realize it’s something we’re going to need.”\n\nCastle sighed as he lowered his weapon.\n\n“Must be goin’ soft in my old age,” he said.\n\n“Yeah,” Natasha laughed. “You’re a regular\nPeni Parker\n.”\n\n“Got any leads on where Cap ran off to?” Castle asked as the pair exited the warehouse and stepped out into the crisp Tokyo night.\n\n“Just one…” Natasha said, looking up at the starry sky above them, “…and I’ve got a feeling you’re not going to believe it.”",
+        "content": "The year 2099. The future had seen countless advancements in technology and pharmaceuticals thanks to companies like Stark-Fujikawa and Alchemax. Safety and security were at an all-time high as well, due in large part to the proactive police force known as the Public Eye. At a glance, everything seemed perfect. A little too perfect.\nBut a closer look revealed another story. Even though the quality of life had improved dramatically for everyday citizens, there were still those who lurked in the shadows, searching for ways to use that miraculous progress for their own personal gain. In every utopia, there was always someone desperate to turn the brave new world upside down. Fortunately, there were also those who had dedicated their long lives to stopping them… at any cost…\nThose forces were destined to collide in a warehouse on the lowest levels of a forgotten district of Tokyo, far below the strange webs that had woven themselves through the night sky. There, the Yashida Corporation -- once one of Japan’s greatest crime families and now a multinational manufacturing powerhouse -- was set to meet with a mysterious new syndicate rumored to be making a move for power in New York City: the Castigliones.\nWhile the Yashida Corp. had gone legit decades ago, they still had a number of illicit operations hidden in their books, dealing in everything from narcotics to weapons. Tonight, the focus was on the latter.\nLed by Shiru Yashida, a direct descendant of Lord Shingen himself, the Yashida Corp.’s delegation numbered over twenty armed men. They were trained to remain cold and confident, but they couldn’t help but snicker when the door to the warehouse slid open and a single figure in a long dark coat walked into the darkness.\n\"Let’s get down to business, shall we?\" the man representing the Castigliones said in a gruff voice.\n\"Bold,\" Shiru said with a smile. \"I already like you, Mr… ?\"\n\"Tower,\" the man replied coldly. \"Johnny Tower. Now what’ve you got for me?\"\nThe Yashida Corp. crew wasted no time, unveiling a table covered in a wide array of high-tech weaponry unlike anything that had been seen on the streets of Tokyo or any other city. Plasma cannons, EMP grenades, vibro-knives, and countless other innovations designed solely to cause their targets the most damage and pain possible. These were weapons of war, and the Yashidas had no qualms about unleashing them on the innocent people of New York. For the right price, of course.\nAfter the Yashidas finished their presentation, Tower paused for what seemed like ages, scanning over the table of weapons in silence. The tension that filled the warehouse escalated until he finally spoke.\n\"I’ll take all of ‘em,\" Tower said, his cold expression never changing.\n\"Surely, a young syndicate such as yours cannot yet afford --\" Shiru began in astonishment, unable to finish his thought before Tower interjected.\n\"Didn’t say I would pay for ‘em,\" Tower interrupted. \"Said I’d take ‘em.\"\nShiru Yashida began to laugh as he reached for the sword dangling from his belt. It was a family heirloom, once belonging to an esteemed ancestor of his, the Mutant known as the Silver Samurai. While Shiru did not possess any powers himself, he had trained in swordsmanship since he was a boy. And he knew he could best anyone -- especially some petty New York mobster who didn’t seem to know his station.\n\"I’ll take that sword off your hands, too,\" Tower said, his grim face finally softening into a smirk.\n\"What is it you Americans say?\" asked Shiru, signaling to his men to draw their weapons. \"Ah, yes… Over my dead body.\"\nJohnny Tower reached into his long coat and drew out a pistol that looked as though it had been manufactured a century ago. Before anyone could react, there was a bang and Shiru Yashida fell to the ground in motionless heap.\n\"Deal,\" Tower sneered at him.\nA split second later Johnny Tower was bombarded by a firestorm of bullets from the weapons of the other members of the Yashida delegation. Tower tried to stand strong, but he stumbled backwards as the projectiles hit his chest over and over again, the force of the impacts eventually driving him to his knees. When the barrage ended, Tower stood up and dusted himself off as if nothing had happened.\n\"Shoulda aimed for the head like I did,\" Tower grunted, lunging forward and grabbing a cutting-edge plasma cannon from the table of weapons.\nHe opened fire on the Yashidas, who could only stare in utter disbelief. It wasn’t the fact that Tower had survived their merciless attack that made them freeze in their tracks. It was what they saw peering out from beneath Tower’s tattered black shirt:\nA stark white skull gazing back at them from the front of a bulletproof vest.\nThe mark of the Punisher.\nFor many of them, stories of the Punisher were like fairy tales. The vigilante who hunted criminals in the night. The real Punisher, a man named Frank Castle, had lived -- and died -- ages ago. So who was this man opening fire at them now? Someone who had styled himself after the legend? Or a ghost of the past seeking vengeance?\nIf Johnny Tower had his way, none of them would live to find out. With their leader on ice, he planned to use the tight quarters of the warehouse to methodically pick off each Yashida Corp. goon one-by-one. But there was one thing he hadn’t planned for. Company.\n\"That’s enough,\" a woman’s voice yelled as Tower spewed a volley of plasma bursts toward the cowering Yashida guards. \"Let them go.\"\nTower looked up and saw a woman perched up in the rafters of the warehouse, as if she was ready to pounce down on him.\n\"Not a chance, doll,\" Tower responded, snarling in her direction.\n\"Don’t call me, doll…\" the woman said, leaping down to land next to Tower, \"…Frank.\"\n\"What’d you call me?\" Tower said, caught off guard by the woman using his real name. No one had called him that in decades. As he looked closer, he couldn’t believe his eyes. He knew exactly who she was… and he was just as shocked to see her as the Yashida clan had been to see him.\n\"What’s the matter, Castle?\" the red-haired woman said with a smirk. \"You look like you’ve seen a ghost.\"\n\"Natasha $%@in’ Romanoff,\" Castle grunted in disbelief. \"The Black Widow herself. You look pretty good for… What…? 140 years old now?\"\n\"I could say the same about you,\" Natasha replied, quickly dispatching the remaining Yashida guards with a torrent of non-lethal blasts of her Widow’s Bite. \"What’s your secret?\"\n\"Clean living,\" Johnny Tower -- or rather, Frank Castle -- said. \"That and some back alley treatments with a knock-off Super-Soldier Serum. You?\"\n\"Same,\" Natasha replied. \"Well, almost. I got my life-enhancing formula from Nick Fury.\"\n\"That old bastard always did have a thing for dames in cat suits…\" Castle mused. \"So what the hell are you doing here? Other than blowing my cover?\"\n\"Pretty sure you’d already done that yourself way before I jumped in,\" Natasha said. \"But if you really want to know, I’ve been on the run.\"\n\"From who?\" Castle asked. \"Most people have no idea you still exist. Same as me.\"\n\"That may have changed…\" Natasha said, careful about how much she chose to reveal to the vigilante by her side. \"I found out that Alchemax was hiding a top-secret asset, something at a level of classification I’d never even heard of.\"\n\"So naturally you couldn’t resist stickin’ your pretty little head into their business,\" Castle said.\n\"What I found there…\" Natasha continued. \"It could change everything…\"\n\"Well, what was it?\" Castle asked impatiently.\n\"Not what…\" Natasha said. \"Who.\"\n\"No more games, woman,\" Castle barked. \"If you’ve got somethin’ to say, spit it out already!\"\n\"It was Captain America, Frank,\" Natasha said.\n\"That… That ain’t possible…\" Castle stammered, caught entirely off guard for the first time in ages. Cap was the reason he had signed up to be a soldier in the first place, long, long ago. But the Sentinel of Liberty had disappeared at the end of World War II, never to be found.\n\"I barely believed it myself,\" Natasha said as she played back the recent rescue operation in her mind’s eye. \"But it was him. Steve Rogers. In the flesh.\"\n\"So where’s old stars and stripes now?\" Castle asked, a tinge of hope in his voice.\n\"He saved my life…\" Natasha said, \"…and then he vanished.\"\n\"And you’re tellin’ me the most elite spy who ever lived hasn’t managed to track a guy in star-spangled armor down yet?\" Castle was starting to see some holes in her story.\n\"I’ve been a bit distracted,\" Natasha admitted. \"After all, I just took your place at the top of the Public Eye’s most wanted list.\"\n\"Aww, come on!\" Castle groaned. \"Do you know how hard I worked to earn that spot?\"\n\"You’re welcome to have it back,\" Natasha said. \"Since that mission, I had to go underground, cut all ties with my network. It’s been a mess.\"\n\"So why’d you come out of the woodwork tonight?\" Castle asked.\n\"Because I need your help,\" Natasha said earnestly.\n\"Those aren’t words I hear very often,\" Castle replied. \"Especially from a hero like you. I don’t usually walk with the angels.\"\n\"Well, you’d better decide whose side you’re on fast,\" Natasha said, raising her gauntlets and aiming them toward the warehouse door. \"They’re here.\"\nRight on cue, a squad of Public Eye soldiers burst into the warehouse, ordering the Black Widow and the Punisher to freeze. Natasha looked at Castle, who let out a sigh and nodded his head in mild annoyance. Without a word he grabbed two high-tech guns off the table, tossing one to his new partner.\n\"Hit to wound, not to kill,\" Natasha said as the two opened fire on the advancing officers.\n\"Or what?\" asked Castle snidely as he wrapped his arm around an officer’s throat and pressed his weapon against the side of the gasping man’s head.\n\"Or I save my last round for you,\" Natasha said, shooting several Public Eye soldiers in the kneecaps.\nCastle released the officer from his grip, letting him slump to the ground unconscious.\n\"Death’s been on my heels for ages,\" Castle said. \"But it’s gonna have to wait a bit longer. At least until after I meet Cap. So let’s get this over with already…\"\nCastle leapt forward and grabbed a tiny metal disc from the table and pressed a glowing button on its surface. As he tossed it onto the ground in front of them, Natasha instinctively began to run for cover, assuming it was an explosive.\n\"You’re gonna wanna stay and watch this,\" Castle said with a smile, running toward the device as it began to unfold. Within moments, a high-tech turret stood in its place. Frank jumped into the center of the giant gun and grabbed the handles.\n\"Frank! No!\" Natasha called as the Punisher gleefully opened fire on the Public Eye’s forces, raining destruction down upon them.\n\"Don’t get all worked up,\" he said. \"I set it to stun. I think.\"\nWhen the dust settled, Natasha raced over to one of the fallen officers and took his pulse. Castle wasn’t lying. He had held back from using lethal force. She was impressed. Maybe she had made the right choice coming to him after all.\n\"See… you can trust me…\" Castle said. \"The problem is…\"\nHe raised a gun and pointed it at Natasha.\n\"…I’m not sure I can trust you. I know that the Yashidas paid off the Public Eye. So there’s no way the cops would’ve come here to bust our deal tonight. And like I said, you’re the best spy in the world. So they wouldn’t have been able to find you either…\"\nCastle grabbed Natasha’s wrist and gave it a squeeze, forcing her hand open. In her palm was a small tracking device, giving off a locator signal.\n\"…unless you wanted them to.\"\n\"I had to find a way to make sure you’d have my back,\" Natasha said, realizing her gambit could have severely damaged the trust she had hoped to establish with her new ally.\n\"And now I’ve gotta make sure you’re not gonna stab mine,\" Castle said.\n\"Trust has never been something either of us have had much of,\" Natasha said. \"But if we want to find Steve… if we want to stop the Public Eye… to beat Doom… I’m starting to realize it’s something we’re going to need.\"\nCastle sighed as he lowered his weapon.\n\"Must be goin’ soft in my old age,\" he said.\n\"Yeah,\" Natasha laughed. \"You’re a regular Peni Parker.\"\n\"Got any leads on where Cap ran off to?\" Castle asked as the pair exited the warehouse and stepped out into the crisp Tokyo night.\n\"Just one…\" Natasha said, looking up at the starry sky above them, \"…and I’ve got a feeling you’re not going to believe it.\"",
         "status": null
       },
       {
@@ -210,35 +216,35 @@
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise\nLaunch",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "The Punisher\nwas released as the 17th character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
-          "Added 3 new costumes:\nCamo\n,\nThunderbolts\n, and\nPunisher 2099\n.",
-          "Added the\nSmoke Screen\nachievement.",
-          "Added to the\nAmmo Overload\nTeam-Up Ability\nwith\nRocket Raccoon\nand\nWinter Soldier\n."
+          "The Punisher was released as the 17th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 3 new costumes: Camo, Thunderbolts, and Punisher 2099.",
+          "Added the Smoke Screen achievement.",
+          "Added to the Ammo Overload Team-Up Ability with Rocket Raccoon and Winter Soldier."
         ]
       },
       {
-        "date_version": "24/12/19:\nVersion 20241219\n/\nWinter Celebration\nEvent",
+        "date_version": "24/12/19: Version 20241219 / Winter Celebration Event",
         "changes": [
-          "Fixed the occasional damage issue with\nPunisher\n's ultimate caused by intense fluctuations in network conditions. His firepower will be felt!"
+          "Fixed the occasional damage issue with Punisher's ultimate caused by intense fluctuations in network conditions. His firepower will be felt!"
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls\nLaunch",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Slightly reduce the spread of\nDeliverance\nand\nAdjudication\n."
+          "Slightly reduce the spread of Deliverance and Adjudication."
         ]
       },
       {
-        "date_version": "25/03/07:\nVersion 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+        "date_version": "25/03/07: Version 20250307 / Galacta's Cosmic Adventure Event",
         "changes": [
-          "Addressed a rare issue where T\nhe\nPunisher\n's Ultimate Ability would sometimes continue to detect enemies and fire missiles during network disruptions. The Punisher's firepower is now accurate, even in chaos!"
+          "Addressed a rare issue where The Punisher's Ultimate Ability would sometimes continue to detect enemies and fire missiles during network disruptions. The Punisher's firepower is now accurate, even in chaos!"
         ]
       }
     ],
-    "official_quote": null,
-    "official_description": "The Punisher\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 17th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nRocket Raccoon\n."
+    "official_quote": "\"Right is right and wrong is wrong\"",
+    "official_description": "The Punisher is a Duelist hero in Marvel Rivals, and is the 17th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Rocket Raccoon."
   },
   "background": {
     "real_name": "Francis David \"Frank\" Castle (born Castiglione)",
@@ -278,12 +284,12 @@
   },
   "meta_stats": {
     "tier": "C",
-    "win_rate": "45.95%",
-    "wr_change": "-1.31%",
-    "pick_rate": "10.04%",
-    "pr_change": "-5.71%",
-    "ban_rate": "0.29%",
-    "matches": "149,819"
+    "win_rate": "45.42%",
+    "wr_change": "-1.84%",
+    "pick_rate": "9.46%",
+    "pr_change": "-6.30%",
+    "ban_rate": "0.24%",
+    "matches": "140,872"
   },
   "data_sources": {
     "wiki": [],

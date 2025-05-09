@@ -96,6 +96,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 MAGIK
@@ -183,6 +185,19 @@ Magik
 Frozen Demon
 Eldritch Armor
 Punkchild
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
+Darkchylde DEFAULT Table Icon.png
+Default Darkchylde
+Deluxe Avatar Darkchylde
 Abilities
 Magik
 Darkchild
@@ -588,8 +603,22 @@ Darkchild prestige artwork.
 Hero Story Artwork
 Eldritch Armor costume reveal.
 Trivia
+Her first appearance was in
+"Giant-Size X-Men" (1975) #1
+. While as Magik was in
+"Magik" (1983) #1
+.
 Magik is voiced by Abby Trott, who has worked in various Marvel projects in the past such as
 X-Men '97
 and the Insomniac
 Marvel's Spider-Man
 .
+Doctor Strange tells Magik she's welcome back at his sanctorum at any time, given she was his disciple in the comics.
+[
+1
+]
+Navigation
+References
+↑
+Doctor Strange
+and Magik Hero Interaction

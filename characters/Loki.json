@@ -5,8 +5,8 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#FDE047",
-    "color_theme_secondary": "#FACC15"
+    "color_theme": "#BEF264",
+    "color_theme_secondary": "#16A34A"
   },
   "abilities": [
     {
@@ -27,7 +27,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "The projectile does not provide healing, but the spell field provides 40 Health per cast"
     },
     {
       "name": "REGENERATION DOMAIN",
@@ -47,7 +47,7 @@
       "duration": "5s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken"
+      "details": "The spell field is sustained by Rune Stones. It will disappear if the Rune Stone is destroyed or if its maximum duration is reached. Allies within the field will receive healing over time, and any damage taken will be converted into healing based on the amount of damage taken. HEALING - 100/s ABILITY HEALTH - 100 CONVERSION RATE - 30%"
     },
     {
       "name": "DOPPELGANGER",
@@ -64,7 +64,7 @@
       "range": null,
       "projectile_speed": null,
       "charges": 2,
-      "duration": null,
+      "duration": "60 seconds",
       "movement_boost": null,
       "energy_cost_details": null,
       "details": "MAXIMUM DISTANCE - 30m"
@@ -127,8 +127,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting\nDevious Exchange\n, reloading, or casting Doppelganger will render him visible",
-      "healing": "20/s whilst invisible"
+      "details": "Loki leaves an illusion in his place and becomes invisible while continuously healing himself. This invisibility has no time limit, but any actions other than casting Devious Exchange, reloading, or casting Doppelganger will render him visible. HEALING - 20/s whilst invisible"
     }
   ],
   "ultimate": {
@@ -139,7 +138,7 @@
     "casting": null,
     "damage": null,
     "range": null,
-    "effect": null,
+    "effect": "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of Devious Exchange until the transformation ability ends.",
     "duration": "15s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -147,21 +146,21 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 4000,
-    "details": "After transforming, Loki's Ultimate ability will be fully charged. Casting a transformation-type Ultimate ability will extend the duration of Devious Exchange until the transformation ability ends."
+    "details": null
   },
   "passives": [
     {
       "name": "LAUFEYSON REBORN",
       "keybind": null,
-      "type": null,
-      "description": "When\nHela\nlands a final hit in defeating an enemy, she can instantly resurrect Loki and\nThor\nin the respawn phase, or grant them bonus health if they are still alive.",
+      "type": "PASSIVE",
+      "description": "When Hela lands a final hit in defeating an enemy, she can instantly resurrect Loki and Thor in the respawn phase, or grant them bonus health if they are still alive.",
       "cooldown": null,
       "damage": null,
       "range": null,
-      "trigger_condition": null,
+      "trigger_condition": "Hela's final hit on an enemy",
       "effect_boost": null,
       "speed_details": null,
-      "details": "BONUS HEALTH - 50\nABILITY DELAY - 1.5s"
+      "details": "BONUS HEALTH - 50 ABILITY DELAY - 1.5s"
     }
   ],
   "teamups": [
@@ -206,131 +205,117 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Everyone loves a trickster, until the trick is played on them.\"",
-    "ingame_bio_text": "Born the son of Laufey, king of the Frost Giants, Loki was adopted by Odin and raised as a prince of Asgard. But his true nature could not be undone, and Loki would come to fully embrace his role as the God of Mischief.\nWith his father deep in the Odinsleep, Loki seized his chance to take the throne for himself. After enlisting Hela in his plot and hurling his brother Thor into a distant timeline, Loki now harvests Chronovium sap from the World Tree, Yggdrasill, in an effort to conquer the entire timestream.",
+    "ingame_bio_quote": "\"I am Loki. God of mischief and the king of Asgard.\"",
+    "ingame_bio_text": "Born the son of Laufey, king of the Frost Giants, Loki was adopted by Odin and raised as a prince of Asgard. But his true nature could not be undone, and Loki would come to fully embrace his role as the God of Mischief. With his father deep in the Odinsleep, Loki seized his chance to take the throne for himself. After enlisting Hela in his plot and hurling his brother Thor into a distant timeline, Loki now harvests Chronovium sap from the World Tree, Yggdrasill, in an effort to conquer the entire timestream.",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Destined Kingship",
-        "content": "In the immediate aftermath of the reckless mortals' clumsy scrambling of timelines, Loki noticed something quite curious. The sap bleeding from Yggdrasill had a new, particularly magical essence.\nHe began to experiment with it. Shape it. Concentrate and intensify it. Time, he discovered, was the core of its essence, and right away, he conceived an intense desire to visit a future Asgard to see what mischief he might make there.\nQuickly, he learned how to do just that, but he came away not only disappointed but frightened and-not that he ever would have admitted it- saddened. For the future Asgard he beheld was a ruin, its throne broken and cast down, its collections looted, its surviving people grubbing in the ruins to survive.\nNo, Loki thought. Surely this is not Asgard's only future.\nHe brewed the enchantment once more...and discovered an Asgard overrun by Jotun, with Laufey himself grunting on the throne and Asgard's people little more than bones.\nAnd another Asgard in flames, with Surtur bestride the blazing trunk of Yggdrasill while the fabled towers of the realm collapsed in fiery rubble.\nAnd another, windswept and empty, the Cask of Eternal Winters broken open in the throne room.\nAnd another, shattered into drifting fragments against a sea of stars.\nAnd another, impossibly sunk under an ocean, with vast shadows moving in the moonlit waters above.\nHundreds more, thousands more. Asgards burned, Asgards frozen, Asgards overrun by Dark Elves or dwarves or enemies from Midgard or the worlds beyond the stars. A Kree- devastated Asgard, an Asgard ravaged by the Eternals, an Asgard ruled by an alien overlord whose minions oozed and sprang like living shadows, hunting down the last of the realm's true subjects. In all of these, Loki did not find the one thing for which he truly searched.\nHimself.\nAnd then, at last, an Asgard mighty and unbroken. An Asgard overarched by Yggdrasill's branches and underpinned by Yggdrasill's roots. Her towers shining, her people vibrant and untroubled, her wealth untouched...and her throne occupied by Loki.\nHe reeled back into his own time, mind aflame with the implications of what he had seen. How many destroyed Asgards had he witnessed? After all that, to see the one surviving realm be ruled by himself…\nWell, Loki thought. The only Asgard that survives this absurd misadventure is one in which my true destiny is at last acknowledged, my primacy accepted, my sovereignty celebrated. As it should be. Now remains the work of bringing this future to pass.\nImmediately the crucial points of the plan presented themselves to him. First, or course, he would have to maneuver the All-Father into the deep enchanted slumber of Odinsleep. Tricky, but he had done it before. The biggest obstacle was making sure that\nHeimdall\ndidn't notice until it was too late. Then, Loki would use Thor's desire to help their father against him, guiding him into a certain place where Loki wouldn't have to worry about him for a long time.\nBut these were powerful enchantments, even for Loki. He was going to need to bring in a co-conspirator or two. It would be easy enough to betray them and rid himself of them later, but for a brief time they would be useful.\nKarnilla\n, of course. Aligning with the Norns was an absolute necessity if he were to retain rule over Asgard and not see it suffer any of the tragic fates he had witnessed. And while a master of magic, the Queen of the Norns was no great schemer – at least not compared to the God of Lies.\nHe also thought of Karnilla's closest ally, Hela. She was family, after all, and these kinds of things should be kept in the family whenever possible. Also, she would be useful because of her vast power and unlimited legions, who would keep the Valkyrior and Crimson Hawks busy, leaving the throne unguarded…\nIf Loki could just figure out what to offer Hela in return.\n*\nHe manifested in her realm unannounced, just because he could, and he knew it annoyed her. As soon as she sensed his presence, Hela sent an escort. This time, it was a retinue of fallen Asgardian warriors riding skeletal horses and singing the ghostly songs of the Asgardian dead who never made it to Valhalla. To the accompaniment of these mournful, discordant strains, Loki followed his escort to Hela's throne. In this kingdom, bones twisted by dark magic paved the path to her castle while particularly favored souls became feasts for her Nastrond crows. Loki hated the décor even more than he hated the thought of Thor sitting on the throne of Asgard. Well, perhaps not quite that much.\nAnd speaking of thrones. Hela sat on hers, regarding him with an imperious and icy stare as he approached and the ghostly retinue vanished. \"Loki,\" she said. \"Whatever foolish scheme has brought you here, be assured it will not succeed. Return to your realm and disturb me no further.\"\n\"O sister, great queen, it–\"\n\"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family.\"\n\"Oh, I do,\" he said. \"I do very much. Our family rules realms, and we have a responsibility to rule them as well as possible. Unfortunately, we are not currently doing that, because I am not ruling Asgard. I propose to rectify this error, and–\"\n\"And you want my help.\"\n\"Yes,\" Loki said. \"My plan will succeed with or without you, but as I said, we're family, and-\"\nFor the third time, she interrupted him. \"Why should I?\"\n\"Why, to be rid of the All-Father, whose time is past and to be rid of our beloved Odinson, who would otherwise succeed to the throne of Asgard.\"\n\"Which is the one thing you cannot stand to see happen.\"\nLoki did not give her the satisfaction of agreeing.\n\"You see, Loki,\" Hela said, \"of all master plotters you are the easiest to predict because all of your plots are ultimately only about one thing.\"\nLoki inclined his head, again unwilling to make a verbal acknowledgement.\n\"You have been working new magic. I smell it on you,\" Hela said. \"Tell me.\"\n\"Ah. The sap of Yggdrasill, Observe.\" Loki cut a small notch in one of the World-Tree's roots. As the sap oozed out, he captured it and began to work a charm to extract its essence. \"As the World-Tree shapes the limits of our realms,\" he said, \"this substance shapes the limits of our time.\" After a moment he held a small ball of what looked like amber in the palm of his hand. \"Take it. It will show you the future of your realm just as it showed me the future of mine.\"\n\"Yours? You speak of Asgard?\"\n\"Yes,\" Loki said. \"That is why I wanted to see you.\"\nHe placed the ball in Hela's hand and began to describe what he had seen.\n*\n\"Ah,\" she said when they had returned from the visionary voyage.\n\"Yes, it is quite deserving of an 'ah,\" Loki said. \"But the real question is, will you help me?\"\n\"I will,\" Hela said. \"But I have my own vision for this Chronovium - for it has fallen in my realm as well. In return for my help, you will help me bring this vision to fruition.\"\n\"Of course,\" Loki said, intending it to be a lie but not even he knew when an attempted lie might become an inadvertent truth.",
+        "content": "In the immediate aftermath of the reckless mortals' clumsy scrambling of timelines, Loki noticed something quite curious. The sap bleeding from Yggdrasill had a new, particularly magical essence. He began to experiment with it. Shape it. Concentrate and intensify it. Time, he discovered, was the core of its essence, and right away, he conceived an intense desire to visit a future Asgard to see what mischief he might make there. Quickly, he learned how to do just that, but he came away not only disappointed but frightened and-not that he ever would have admitted it- saddened. For the future Asgard he beheld was a ruin, its throne broken and cast down, its collections looted, its surviving people grubbing in the ruins to survive. No, Loki thought. Surely this is not Asgard's only future. He brewed the enchantment once more...and discovered an Asgard overrun by Jotun, with Laufey himself grunting on the throne and Asgard's people little more than bones. And another Asgard in flames, with Surtur bestride the blazing trunk of Yggdrasill while the fabled towers of the realm collapsed in fiery rubble. And another, windswept and empty, the Cask of Eternal Winters broken open in the throne room. And another, shattered into drifting fragments against a sea of stars. And another, impossibly sunk under an ocean, with vast shadows moving in the moonlit waters above. Hundreds more, thousands more. Asgards burned, Asgards frozen, Asgards overrun by Dark Elves or dwarves or enemies from Midgard or the worlds beyond the stars. A Kree- devastated Asgard, an Asgard ravaged by the Eternals, an Asgard ruled by an alien overlord whose minions oozed and sprang like living shadows, hunting down the last of the realm's true subjects. In all of these, Loki did not find the one thing for which he truly searched. Himself. And then, at last, an Asgard mighty and unbroken. An Asgard overarched by Yggdrasill's branches and underpinned by Yggdrasill's roots. Her towers shining, her people vibrant and untroubled, her wealth untouched...and her throne occupied by Loki. He reeled back into his own time, mind aflame with the implications of what he had seen. How many destroyed Asgards had he witnessed? After all that, to see the one surviving realm be ruled by himself… Well, Loki thought. The only Asgard that survives this absurd misadventure is one in which my true destiny is at last acknowledged, my primacy accepted, my sovereignty celebrated. As it should be. Now remains the work of bringing this future to pass. Immediately the crucial points of the plan presented themselves to him. First, or course, he would have to maneuver the All-Father into the deep enchanted slumber of Odinsleep. Tricky, but he had done it before. The biggest obstacle was making sure that Heimdall didn't notice until it was too late. Then, Loki would use Thor's desire to help their father against him, guiding him into a certain place where Loki wouldn't have to worry about him for a long time. But these were powerful enchantments, even for Loki. He was going to need to bring in a co-conspirator or two. It would be easy enough to betray them and rid himself of them later, but for a brief time they would be useful. Karnilla, of course. Aligning with the Norns was an absolute necessity if he were to retain rule over Asgard and not see it suffer any of the tragic fates he had witnessed. And while a master of magic, the Queen of the Norns was no great schemer – at least not compared to the God of Lies. He also thought of Karnilla's closest ally, Hela. She was family, after all, and these kinds of things should be kept in the family whenever possible. Also, she would be useful because of her vast power and unlimited legions, who would keep the Valkyrior and Crimson Hawks busy, leaving the throne unguarded… If Loki could just figure out what to offer Hela in return. He manifested in her realm unannounced, just because he could, and he knew it annoyed her. As soon as she sensed his presence, Hela sent an escort. This time, it was a retinue of fallen Asgardian warriors riding skeletal horses and singing the ghostly songs of the Asgardian dead who never made it to Valhalla. To the accompaniment of these mournful, discordant strains, Loki followed his escort to Hela's throne. In this kingdom, bones twisted by dark magic paved the path to her castle while particularly favored souls became feasts for her Nastrond crows. Loki hated the décor even more than he hated the thought of Thor sitting on the throne of Asgard. Well, perhaps not quite that much. And speaking of thrones. Hela sat on hers, regarding him with an imperious and icy stare as he approached and the ghostly retinue vanished. \"Loki,\" she said. \"Whatever foolish scheme has brought you here, be assured it will not succeed. Return to your realm and disturb me no further.\" \"O sister, great queen, it–\" \"Whenever you call me queen, Loki–or, for that matter, sister– I know you want something. Tell me what it is and spare me the insincere implication that you care about family.\" \"Oh, I do,\" he said. \"I do very much. Our family rules realms, and we have a responsibility to rule them as well as possible. Unfortunately, we are not currently doing that, because I am not ruling Asgard. I propose to rectify this error, and–\" \"And you want my help.\" \"Yes,\" Loki said. \"My plan will succeed with or without you, but as I said, we're family, and-\" For the third time, she interrupted him. \"Why should I?\" \"Why, to be rid of the All-Father, whose time is past and to be rid of our beloved Odinson, who would otherwise succeed to the throne of Asgard.\" \"Which is the one thing you cannot stand to see happen.\" Loki did not give her the satisfaction of agreeing. \"You see, Loki,\" Hela said, \"of all master plotters you are the easiest to predict because all of your plots are ultimately only about one thing.\" Loki inclined his head, again unwilling to make a verbal acknowledgement. \"You have been working new magic. I smell it on you,\" Hela said. \"Tell me.\" \"Ah. The sap of Yggdrasill, Observe.\" Loki cut a small notch in one of the World-Tree's roots. As the sap oozed out, he captured it and began to work a charm to extract its essence. \"As the World-Tree shapes the limits of our realms,\" he said, \"this substance shapes the limits of our time.\" After a moment he held a small ball of what looked like amber in the palm of his hand. \"Take it. It will show you the future of your realm just as it showed me the future of mine.\" \"Yours? You speak of Asgard?\" \"Yes,\" Loki said. \"That is why I wanted to see you.\" He placed the ball in Hela's hand and began to describe what he had seen. * \"Ah,\" she said when they had returned from the visionary voyage. \"Yes, it is quite deserving of an 'ah,\" Loki said. \"But the real question is, will you help me?\" \"I will,\" Hela said. \"But I have my own vision for this Chronovium - for it has fallen in my realm as well. In return for my help, you will help me bring this vision to fruition.\" \"Of course,\" Loki said, intending it to be a lie but not even he knew when an attempted lie might become an inadvertent truth.",
         "status": null
       },
       {
         "title": "Journey into Mystery",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "Coming soon. Stay Tuned!",
         "status": null
       },
       {
         "title": "Root Erosion",
-        "content": "(Coming soon. Stay Tuned!)",
+        "content": "Coming soon. Stay Tuned!",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Season 0: Dooms' Rise",
-          "Launch",
-          "Loki\nwas released as the 7th character to be introduced to\nMarvel Rivals\nas a\nStrategist\nhero.",
-          "Added 2 new costumes:\nFrost Giant\nand\nLoki Season 2\n.",
-          "Added the\nGod of Treachery\nachievement.",
-          "Added to the\nRagnarok Rebirth\nTeam-Up Ability\nwith\nHela\nand\nThor\n."
+          "Loki was released as the 7th character to be introduced to Marvel Rivals as a Strategist hero.",
+          "Added 2 new costumes: Frost Giant and Loki Season 2.",
+          "Added the God of Treachery achievement.",
+          "Added to the Ragnarok Rebirth Team-Up Ability with Hela and Thor."
         ]
       },
       {
-        "date_version": "24/12/10:",
+        "date_version": "24/12/10: Version 20241210",
         "changes": [
-          "Version 20241210",
-          "When the target area is ascending or descending, if\nThor\nor\nLoki\nwere revived by\nHela\n's\nteam-up ability\n, they would potentially revive and be stuck beneath the terrain if they were right on the target area platform. This issue has been resolved."
+          "When the target area is ascending or descending, if Thor or Loki were revived by Hela's team-up ability, they would potentially revive and be stuck beneath the terrain if they were right on the target area platform. This issue has been resolved."
         ]
       },
       {
         "date_version": "25/01/08:",
         "changes": [
-          "Fixed occassional camera irregularities after\nLoki\ntransformed into certain characters during his ultimate ability."
+          "Fixed occasional camera irregularities after Loki transformed into certain characters during his ultimate ability."
         ]
       },
       {
-        "date_version": "5/01/10:",
+        "date_version": "5/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Version 20250110\n/\nSeason 1: Eternal Night Falls",
-          "Launch",
-          "Added 1 new costume:\nAll-Butcher\n."
+          "Added 1 new costume: All-Butcher."
         ]
       },
       {
-        "date_version": "25/01/22:",
+        "date_version": "25/01/22: Version 20250122 / Fortune & Colors Event",
         "changes": [
-          "Version 20250122\n/\nFortune & Colors\nEvent",
-          "Resolved a problem where under low frame rate conditions, activating\nStorm\n's ultimate ability as\nLoki\nafter transforming into her would be canceled.",
-          "Resolved a problem where\nLoki\n, after using his ultimate ability to shapeshift into the\nPunisher\n, if\nWarrior's Gaze\nwas triggered when the transform was about to end its effects lingered too long. The\nWarrior's Gaze\neffect will now fade as soon as the ultimate concludes--no more lingering vision trickery!"
+          "Resolved a problem where under low frame rate conditions, activating Storm's ultimate ability as Loki after transforming into her would be canceled.",
+          "Resolved a problem where Loki, after using his ultimate ability to shapeshift into the Punisher, if Warrior's Gaze was triggered when the transform was about to end its effects lingered too long. The Warrior's Gaze effect will now fade as soon as the ultimate concludes--no more lingering vision trickery!"
         ]
       },
       {
-        "date_version": "25/02/07:",
+        "date_version": "25/02/07: Version 20250207",
         "changes": [
-          "Version 20250207",
-          "Fixed a rare issue where\nLoki\n's\nMystical Missiles\nwould not refill after reloading during unstable network conditions. He's back to being the trickster with a full arsenal!",
-          "Resolved a rare occurrence where\nLoki\n's\nUltimate Ability\ntransformation would end immediately after activation in unstable network conditions. His mischief will now last as intended!"
+          "Fixed a rare issue where Loki's Mystical Missiles would not refill after reloading during unstable network conditions. He's back to being the trickster with a full arsenal!",
+          "Resolved a rare occurrence where Loki's Ultimate Ability transformation would end immediately after activation in unstable network conditions. His mischief will now last as intended!"
         ]
       },
       {
         "date_version": "25/02/20:",
         "changes": [
-          "Fixed an issue where\nLoki\nwould incorrectly indicate he was out of\nAdam Warlock\n's revival range while transforming within Adam Warlock's ultimate range.",
-          "Resolved an issue where, after transforming into another hero and using their ultimate, the ultimate's effects could remain in the scene if\nLoki\nwas defeated during the process. We've ensured that his tricks vanish appropriately--no more ghostly ultimates haunting the battlefield!"
+          "Fixed an issue where Loki would incorrectly indicate he was out of Adam Warlock's revival range while transforming within Adam Warlock's ultimate range.",
+          "Resolved an issue where, after transforming into another hero and using their ultimate, the ultimate's effects could remain in the scene if Loki was defeated during the process. We've ensured that his tricks vanish appropriately--no more ghostly ultimates haunting the battlefield!"
         ]
       },
       {
-        "date_version": "25/02/21:",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
-          "Version 20250221\n/\nSeason 1.5",
-          "Launch",
-          "Increase the energy cost of\nGod of Mischief\nfrom 3400 to 4000.",
-          "Increase\nMystical Missile\ncharges from 10 to 12."
+          "Increase the energy cost of God of Mischief from 3400 to 4000.",
+          "Increase Mystical Missile charges from 10 to 12."
         ]
       },
       {
-        "date_version": "25/03/07:",
+        "date_version": "25/03/07: Version 20250307 / Galacta's Cosmic Adventure Event",
         "changes": [
-          "Version 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
-          "Fixed an issue where\nLoki\n's UI would vanish after he transformed. The God of Mischief can now keep his tricks visible!",
-          "Fixed a problem where if\nLoki\nand his doppelganger placed\nRegeneration Domains\nthat overlapped and\nLoki\nwalked over the overlapped area, then back into his own\nRegeneration Domain\n, it would lose its healing effect. Now, the trickster can heal without a hitch!"
+          "Fixed an issue where Loki's UI would vanish after he transformed. The God of Mischief can now keep his tricks visible!",
+          "Fixed a problem where if Loki and his doppelganger placed Regeneration Domains that overlapped and Loki walked over the overlapped area, then back into his own Regeneration Domain, it would lose its healing effect. Now, the trickster can heal without a hitch!"
         ]
       },
       {
-        "date_version": "25/03/14:",
+        "date_version": "25/03/14: Version 20250314",
         "changes": [
-          "Version 20250314",
-          "Resolved an issue where\nLoki\n's Ultimate Ability transformation could sometimes cause incorrect camera angles during Past Lives replays. The God of Mischief can now enjoy his dramatic exits without a hitch!",
-          "Added 1 new costume:\nPresidential Attire\n."
+          "Resolved an issue where Loki's Ultimate Ability transformation could sometimes cause incorrect camera angles during Past Lives replays. The God of Mischief can now enjoy his dramatic exits without a hitch!",
+          "Added 1 new costume: Presidential Attire."
         ]
       },
       {
-        "date_version": "25/03/27:",
+        "date_version": "25/03/27: Version 20250327",
         "changes": [
-          "Version 20250327",
-          "Fixed an issue in\nDoom Match\nwhere\nLoki\n's transformation into\nDoctor Strange\nallowed the use of the forbidden\nPentagram of Farallah\n. This minds-warping mix-up has been vanquished."
+          "Fixed an issue in Doom Match where Loki's transformation into Doctor Strange allowed the use of the forbidden Pentagram of Farallah. This minds-warping mix-up has been vanquished."
         ]
       },
       {
-        "date_version": "25/04/11:",
+        "date_version": "25/04/11: Version 20250411",
         "changes": [
-          "Version 20250411",
-          "Increase\nRegeneration Domain\ncooldown from 25 seconds to 30 seconds."
+          "Increase Regeneration Domain cooldown from 25 seconds to 30 seconds."
         ]
       },
       {
-        "date_version": "25/04/25:",
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
         "changes": [
-          "Version 20250425\n/\nGiant-Size Brain Blast\nEvent",
-          "Added 1 new costume:\nShin Sagi-Shi\n."
+          "Added 1 new costume: Shin Sagi-Shi."
         ]
       }
     ],
     "official_quote": null,
-    "official_description": "Loki\nis a Strategist\nhero\nin\nMarvel Rivals\n, and is the 7th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nHela\nand\nThor\n."
+    "official_description": "Loki is a Strategist hero in Marvel Rivals, and is the 7th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Hela and Thor."
   },
   "background": {
     "real_name": "Loki Laufeyson",
@@ -376,12 +361,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "51.55%",
-    "wr_change": "+0.47%",
-    "pick_rate": "24.38%",
-    "pr_change": "+5.86%",
-    "ban_rate": "3.14%",
-    "matches": "363,734"
+    "win_rate": "51.11%",
+    "wr_change": "+0.04%",
+    "pick_rate": "24.91%",
+    "pr_change": "+6.39%",
+    "ban_rate": "2.96%",
+    "matches": "371,040"
   },
   "data_sources": {
     "wiki": [],

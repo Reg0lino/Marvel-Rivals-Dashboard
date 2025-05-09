@@ -21,8 +21,6 @@ Red
 Relatives
 Ivan Bezukhov
 (foster father; deceased)
-Yelena Belova
-(younger foster sister)
 Alexei Shostakov
 (ex-husband)
 Powers/Skills
@@ -102,6 +100,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 BLACK WIDOW
@@ -149,6 +149,9 @@ Elegance in Motion
 Red Runway Veil
 Winter's Shelter
 White Suit
+See
+:
+List of Emotes
 01
 EMOTES
 DEFAULT
@@ -174,6 +177,16 @@ Lion's Heartbeat
 Mrs. Barnes
 Red Runway Veil
 Arctic Agent
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 WIDOW'S BITE BATON
@@ -496,6 +509,10 @@ Hero Logo
 Hero Story Artwork
 Graffiti art of Black Widow
 Trivia
+Black Widow's first appearance was in
+"
+Tales of Suspense" (1959) #52
+.
 Black Widow is voiced by
 Laura Bailey
 , who has been voicing the character in different Marvel projects since 2013.
