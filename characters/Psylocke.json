@@ -5,13 +5,13 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#60A5FA",
-    "color_theme_secondary": "#A855F7"
+    "color_theme": "#3B82F6",
+    "color_theme_secondary": "#7E22CE"
   },
   "abilities": [
     {
       "name": "PSIONIC CROSSBOW",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
       "description": "Unleash bolts with psionic crossbows to damage enemies and reduce the cooldowns of all her abilities.",
       "casting": "Double projectile hitscan with spread",
@@ -27,47 +27,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "PROJECTILES PER CAST -\n4\nCROSSHAIR SPREAD -\n0.2m after 10m\nCOOLDOWN REDUCTION -\n0.25s per bolt"
-    },
-    {
-      "name": "PSI-BLADE DASH",
-      "keybind": "SHIFT",
-      "type": null,
-      "description": "Dash forward and slice through enemies along the path with psionic blades.",
-      "casting": null,
-      "damage": "50",
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "8s per charge",
-      "range": null,
-      "projectile_speed": null,
-      "charges": 2,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "MAXIMUM DISTANCE -\n12m\nAVERAGE SPEED -\n43m/s\nSPECIAL EFFECT\n⚬ Casting this ability will automatically recall\nWing Shurikens\n. The Shurikens will first travel to Psylocke's starting position before returning to her."
-    },
-    {
-      "name": "PSYCHIC STEALTH",
-      "keybind": "E",
-      "type": null,
-      "description": "Enter stealth and gain a Movement Boost.",
-      "casting": null,
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": "15s",
-      "range": null,
-      "projectile_speed": null,
-      "charges": null,
-      "duration": "3s",
-      "movement_boost": "50%",
-      "energy_cost_details": null,
-      "details": "SPECIAL EFFECT\n⚬ When attacked while in stealth, Psylocke will remain in stealth but will briefly become visible for a short duration"
+      "details": "Each successful hit decreases the cooldown of all her abilities by 0.25 seconds. CROSSHAIR SPREAD - 0.2m after 10m"
     },
     {
       "name": "WING SHURIKENS",
@@ -87,7 +47,47 @@
       "duration": "3s before recall",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "PROJECTILES PER CAST -\n5\nBONUS HEALTH -\n10 per Shuriken\nSPREAD ANGLE -\n0.86°\nSPECIAL EFFECT\n⚬ Shurikens travel towards crosshair when recalled before returning to Psylocke"
+      "details": "If all five shurikens hit the same target, it deals massive damage. Successful hits grant Psylocke a small amount of bonus health per shuriken landed. SPREAD ANGLE - 0.86°. Shurikens travel towards crosshair when recalled before returning to Psylocke"
+    },
+    {
+      "name": "PSI-BLADE DASH",
+      "keybind": "SHIFT",
+      "type": null,
+      "description": "Dash forward and slice through enemies along the path with psionic blades.",
+      "casting": null,
+      "damage": 50,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "8s per charge",
+      "range": null,
+      "projectile_speed": null,
+      "charges": 2,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "This ability has two charges. MAXIMUM DISTANCE - 12m. AVERAGE SPEED - 43m/s. Casting this ability will automatically recall Wing Shurikens. The Shurikens will first travel to Psylocke's starting position before returning to her."
+    },
+    {
+      "name": "PSYCHIC STEALTH",
+      "keybind": "E",
+      "type": null,
+      "description": "Enter stealth and gain a Movement Boost.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "15s",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "3s",
+      "movement_boost": "50%",
+      "energy_cost_details": null,
+      "details": "Psylocke is not immune to damage while in Psychic Stealth, and will briefly become visible if damaged while in stealth. When attacked while in stealth, Psylocke will remain in stealth but will briefly become visible for a short duration"
     }
   ],
   "ultimate": {
@@ -98,7 +98,7 @@
     "casting": null,
     "damage": "150 per hit",
     "range": "10m spherical radius",
-    "effect": null,
+    "effect": "30% SLOW RATE",
     "duration": "4s",
     "health_upon_revival": null,
     "slow_rate": "30%",
@@ -106,7 +106,9 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 2800,
-    "details": "INTERVAL -\n2 hits per second\nENERGY COST -\n2800\nSPECIAL EFFECT\n⚬ Psylocke will slash a random enemy or barrier, giving priority to the one who has been hit the least"
+    "details": {
+      "new_barrier_check": "Now will check for barriers (including Magneto's Metal Bulwark, Hulk's Indestructible Guard, etc.)"
+    }
   },
   "passives": [],
   "teamups": [
@@ -150,77 +152,67 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "\"Enemies can become friends, but only if we show our foes respect.\"",
-    "ingame_bio_text": "A wandering warrior in feudal Japan, the telepathic ninja known as Sai has devoted herself to striking down ancient demons and monsters. With her wolf Logan by her side, Psylocke won't rest until all Yokai have fallen by her psychic blade.\nSai was ripped from her reality by the Timestream Entanglement and put on display by the Collector. Alongside newfound allies, she escaped her cage and learned that other familiar warriors might still be out there. Her new quest is to gather those heroes, end this conflict, and return home.",
-    "ingame_story_intro": "🦋She was ripped from her reality by the Timestream Entanglement. Now, the formidable feudal warrior Psylocke is ready to strike in Marvel Rivals!\nWith her psionic energy, Sai manifests a wide array of weapons, from crossbows to shurikens, while skillfully hunting down her enemies. Only the butterfly's wingbeat can be heard when the last of her foes falls to her odachi.",
+    "ingame_bio_quote": "\"My ōdachi's sharp. My mind is sharper.\"",
+    "ingame_bio_text": "The psychic warrior known as Sai has the Mutant ability to conjure a variety of weapons with the power of her mind. Gracefully gliding across the battlefield, this trained ninja can shatter the enemy's defenses with a single thought.",
+    "ingame_story_intro": "\"🦋She was ripped from her reality by the Timestream Entanglement. Now, the formidable feudal warrior Psylocke is ready to strike in Marvel Rivals! With her psionic energy, Sai manifests a wide array of weapons, from crossbows to shurikens, while skillfully hunting down her enemies. Only the butterfly's wingbeat can be heard when the last of her foes falls to her odachi.\"",
     "hero_stories": [
       {
         "title": "Acanti Tales",
-        "content": "Then.\nSai stood at the edge of the ancient forest and watched it burn. She had not wanted to leave so much destruction in her wake, but the stoic warrior knew all too well that, when Demons rise, sometimes there is no other option but to reduce the world to ash.\nFor months, the people in the small village at the base of Mount Shi'aru had been terrorized by a horde of insect-like Demons that skittered through their city at night, stealing innocent villagers. An elder of the village had heard the tale of Sai's triumph against Orochi and thought that, if anyone could bring these Demons to justice, it would be her.\nSai soon proved that she lived up to the legends, locating the hive of this strange insect brood in a cave  at the top of the mountain. She sent in her faithful companion, the wolf named Logan, to lure them out. When the beasts emerged, Sai was waiting, psionic swords drawn and at the ready.\nAt first, she held her own against the creatures, dispatching them with sharp blades and bursts of psychic energy. But it wasn't long before she found herself overwhelmed by the sheer number of Demons. They clambered up the trees around her, ready to strike from above with their poison-tipped tails. She had only one choice.\nReaching in her satchel, she pulled out a handful of fireworks given to her by a friend Juju. From another pouch on her belt, she removed a small piece of flint that she often used to light campfires during her travels. Sai set the fireworks on top of the flint and raised her sword high as the beasts descended upon her. With a  powerful strike of her sword, the flint sparked and the fireworks ignited. Sai ducked for cover behind a thick tree trunk as the barrage of explosions erupted, sending blazing broodlings scattering in every direction.\nAs the mountain forest became a raging inferno, Sai entered the cave and found the queen of these strange Demons. It took every ounce of skill and training to avoid becoming the hideous creature's next victim, but before long, Sai got close enough to plunge her psionic sword into the queen's black heart. As she did, she could feel the searing pain of every insect connected to the Demons' hivemind. It overloaded Sai's senses, leaving her on the brink of collapse as she staggered back out of the cave.\nLogan came to her aid once again, dragging Sai just beyond the border of the burning forest and licking her wounds until she regained her strength and her senses. It had been a brutal battle, but it was yet another Sai had won. The fewer Demons in the world, the better.\nShe reached besides her and gently scratched the head of her loyal companion. Logan had stayed by her side through so many encounters — against Yokai and Oni of all shapes and sizes. Without ever opening her mouth, Sai whispered straight into Logan's mind.\n\"Good boy,\" she said. \"Now, come. We have a prize to claim...\"\nSai pulled her round sedge hat up onto her head, covering her purple hair, as she began to walk away from the flaming trees and back toward the village at the base of the Mount Shi'aru. As they got closer to the village, Logan sniffed at the air frantically and began to growl.\n\"What's the matter, friend?\" Sai asked. But mere moments later, she had her answer. A strange doorway opened directly in front of her, as if out of thin air, and a mysterious figure was about to cross through from the other side.\nSai went to reach for her sword, but before she could draw the blade, she felt a pain surge through her body unlike any she had ever experienced before. It was as if she had been hit by Hulkmaru himself!\n\"Perhaps the Demons have finally gotten their revenge,\" she thought to herself. \"It was only a matter of time...\"\nLogan howled as everything faded black.\nNow.\n\"What's on your mind?\"\nMantis\nasked Sai.\nSai knew full well that the strange women named Mantis had mental abilities similar to her own. She could have easily read Sai's mind if she had wished. However, Mantis genuinely seemed to want to respect her new friend's boundaries. Sai appreciated that.\n\"Where I came from,\" said Sai, \"and where we are going.\"\nMuch time had passed since that fateful day on Mount Shi'aru. More time than Sai cared to remember. When she awoke, she had found herself trapped inside of a heavily reinforced enclosure, part of a display in a strange alien menagerie. Its benefactor, a Elder of the Universe known as the Collector, had gathered countless species from across space and time so that his patrons could stare at rare and deadly creatures from the safety of the other side of the glass.\nSai wanted nothing more than to be free. To find her way back home to her own world. To Logan. And she would finally have her chance when her fellow captive, Mantis, staged an escape attempt. Along with Mantis and another strange creature — an unusually cute, quadrupedal shark named\nJeff\n— Sai fought her way through the Collector's Theme Park to a vessel that was able to sail through the stars. She had no idea where she was now or how to get back home, but at least she was free of her captor's clutches... or so she thought...\n\"MRRRR\" Jeff shouted as he ran into the cockpit of the vessel and nudged Mantis with his blunt nose.\n\"What is it, Jeff?\" Mantis asked as Jeff turned and darted toward the back of the ship again.\n\"I think he wants us to follow him,\" Sai said, as she started to realize how much Jeff reminded her of Logan.\nJeff led Sai and Mantis to the rear of the spacecraft and jumped up on a console so that he could see out of a large viewpoint. He started motioning frantically with one of his front feet, pointing out of the window.\n\"I don't see anything,\" Sai said as she gazed into the dark void of space. There was nothing behind them but darkness and a bit of debris.\n\"I don't think it's what he saw...\" Mantis said, her hand placed against her temple and closing her eyes, \"It's what he felt. Someone is following us.\"\nSai took a moment to focus her mind and she felt it, too. Then she heard it inside of her head: The chatter of alien voices growing ever closer. She did not understand how anything could soar through space, but if she and her companions had managed to do it so easily,  perhaps others could do the same without being detected.\nJust then, a massive ship materialized behind them, ten times larger then the small craft they had stolen. On its hull was the same marking that Sai had seen throughout the theme park that she had just escaped. The crest of the Collector.\nMantis raced back to the ship's cockpit and grabbed hold of the throttle with one hand. With the other, she began frantically pressing buttons. Jeff mewed with excitement.\n\"I learned this trick from\nPeter Quill\n.\" Mantis said, as their tiny ship lunged forward, reaching its top speed in nanoseconds. \"Don't tell him I stole it.\"\n\"I do not even know who that is,\" Sai reminded Mantis.\n\"Well, I hope you get to meet him,\" Mantis said, \"if we manage to survive this.\"\nMantis pushed their small vessel beyond its limits, but the Collectors battleship somehow managed to keep up with its pace. Pulling sharply on the ship's yoke, Mantis diverted the craft into a belt of floating debris, narrowly dodging giant rocks — and the scrap from other ships that weren't fortunate enough to have such a deft navigator at their helm.\nEmerging on the other side of the asteroid field, Sai was caught off guard by what she saw ahead of them. Not the Collector's battleship, but something nearly as large. And it was alive.\n\"Yokai,\" Sai whispered under her breath as she studied the enormous whale-like creature floating in front of them.\n\"No...\" Mantis replied, \"Acanti\"\nMantis touched Sai's shoulder, and the warrior's mind was flooded with images of spectacular space whales, traveling in pods and singing rapturous songs that echoed through the cosmos. mantis had clearly encountered these majestic creatures before during her travels with the\nGuardians of the Galaxy\n, and now she was sharing all of her experiences with Sai via telepathy.\nBut this lone Acanti was nothing like the ones in Mantis's mind. It did not sing in joy, but rather it wailed in pain. Even Jeff could hardly bear to hear the beast's mournful cries.\nMantis reached out to the Acanti with her powers, letting it know that she was a friend of its kind... and that she was in danger. She begged the creature for its help, and promised to return the favor in any way she could. The Acanti seemed to understand, opening its massive maw and allowing the tiny ship to fly inside.\nAs they took safe harbor inside the mouth of the Acanti, Sai felt something strangely familiar. A skittering sensation in the back of her mind. Something she hadn't felt since her time on Mount Shi'aru.\n\"I know what is ailing this creature,\" Sai said.\n\"Really?\" Mantis asked. \"What could possibly bring an Acanti so much sorrow?\"\n\"Demons,\" Sai replied.\nThis time it was Sai who opened her mind's eye for Mantis to peer into. Mantis caught glimpses of Sai's epic battle against the insect-like monsters in her home reality, their teeth gnashing as they claw and slashed at the seasoned warrior.\n\"Those aren't Demons,\" Mantis said, recognizing the images in her friend's mind. \"They're aliens. A nasty race of parasites that call themselves the Brood.\"\n\"Well, they picked one hell of a cave to make their home,\" Sai mused as she looked out of the craft at the interior of the Acanti's cavernous gullet.\nMantis grabbed a breathing mask from off the wall of the ship and placed it over her face. She handed others to both Sai and Jeff.\n\"The Brood are a particular vicious race,\" Mantis said as she walked toward the ship's airlock. \"How did you defeat them in your world?\"\n\"With fire, \" Sai said. \"But that's not an option here.\"\n\"Agreed,\" Mantis said, \"Even if we did have oxygen to burn, I highly doubt the Acanti would be thrilled if we set its insides ablaze.\"\n\"MRRR...?\" Jeff gurgled hopefully as he followed his two humanoid companions off the ship and into the Acanti's craw.\n\"No, Jeff,\" Mantis said, \"I'm sorry to say, but I don't think we can just 'talk it out' with the Brood.\"\n\"Perhaps we can,\" Sai said. \"The last time I encountered these creatures, I was able to momentarily connect with their hivemind.\"\n\"I see where you're going with this,\" Mantis said, \"But we'd need to find the Brood Queen if we want this to work.\"\n\"MRRR!\" Jeff said, racing down the Acanti's tongue and off into the distance. Mantis and Sai looked at each other and shrugged before turning to chase after their finned friend.\nAs they traveled further into the dark depths of the Acanti's throat, the three heroes found themselves facing off against an ever- increasing number of Brood hatchlings. Sai swung her swords with keen precision. Jeff gnashed his teeth and swung his tail. And Mantis fought barehanded with a fury that her companions have not yet witnessed. One after another, the aliens parasites fell, but more always seemed to take their place.\n\"No wonder the Acanti was in so much distress,\" Mantis thought, loud enough for her companions to hear.\nFinally they reached the Acanti's stomach, where they found the Brood Queen waiting. While Mantis and Jeff fended off more hatchlings, Sai dodged and weaved through the aggressive alien army as she made her way toward their mighty mistress. When she arrived, she readied a blade of pure psionic energy. Instead of piercing the Brood Queen's heart, like she had done so on Mount Shi'aru, she plunged the psychic sword straight into her mind. There was something Sai wanted the Queen to see. No. To feel.\nWith her free hand, Sai touched the inner wall of the Acanti's stomach. Acting as a conduit between the creatures, she transferred the Acanti's pain and sorrow into the Brood Queen's insect brain, sending waves of raw emotion rippling across the alien hivemind. It was too much for the malignant monarch and her minions to handle.\nThe remaining Brood spread their wings and took flight, following their Queen back up the Acanti's throat. The Acanti opened its jaws just wide enough for the Brood to make their escape into the void outside. The massive beast let out a triumphant cry that echoed through its insides as its unwanted guests finally disappeared into deep space.\nAfter the battle. Mantis communed with the Acanti, asking it to provide them a safe ride back to the Intergalactic Empire of Wakanda. The colossal creature gladly obliged, as a way of showing thanks for ridding of it its parasite problem. Along the way, Jeff even gave the Acanti a nice through dental cleaning as a sign of mutual respect.\nBefore they could reach Wakandan space, however, Mantis intercepted a distress call from her fellow Guardians of the Galaxy — Star-Lord, Rocket, and Groot. Their ship had crashed on a alien world called Klyntar, home to a species almost as parasitic as the Brood. Mantis knew where she had to go next, and it wasn't Wakanda.\nSai and Jeff were prepared to join Mantis on the next leg of her journey when Sai suddenly heard a new cry echoing in her head. A powerful voice unlike any she had ever heard before. Strange... but so familiar... it uttered four simple words:\n\"To me, my X-Men.\"\nThough she did not know what the words meant, she knew that she would have no choice but to answer the call. As images of a living island on the other side of the universe filled her mind, Sai could feel in her soul that this mysterious place was home to others just like her... and it might finally be the key to getting her back home again.\nJeff nuzzled against Sai's leg and let out a gentle purr. She had not expected to grow fond of this strange little creature, but battle did have a way of making strange allies. She reached down and gently rubbed her hand along the rubbery skin on top of Jeff's head.\n\"Good boy,\" she said, whispered directly into his mind, \"Now come with. It's time we finally find the freedom we deserve...\"",
-        "status": "Then."
-      },
-      {
-        "title": "Avalon's Starlight",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
-      },
-      {
-        "title": "Return to Kirisaki Mountain",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "Then.\nSai stood at the edge of the ancient forest and watched it burn. She had not wanted to leave so much destruction in her wake, but the stoic warrior knew all too well that, when Demons rise, sometimes there is no other option but to reduce the world to ash.\n...\nNow.\n\"What's on your mind?\"\nMantis\nasked Sai.\n...\nBefore they could reach Wakandan space, however, Mantis intercepted a distress call from her fellow Guardians of the Galaxy — Star-Lord, Rocket, and Groot. Their ship had crashed on a alien world called Klyntar, home to a species almost as parasitic as the Brood. Mantis knew where she had to go next, and it wasn't Wakanda.\nSai and Jeff were prepared to join Mantis on the next leg of her journey when Sai suddenly heard a new cry echoing in her head. A powerful voice unlike any she had ever heard before. Strange... but so familiar... it uttered four simple words:\n\"To me, my X-Men.\"\nThough she did not know what the words meant, she knew that she would have no choice but to answer the call. As images of a living island on the other side of the universe filled her mind, Sai could feel in her soul that this mysterious place was home to others just like her... and it might finally be the key to getting her back home again.",
+        "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch\nPsylocke\nwas released as the 26th character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
-          "Added 2 new costumes:\nKirisaki Sakura\nand\nVengeance\n.",
-          "Added the\nWay of the Butterfly\nachievement.",
-          "Added to the\nDimensional Shortcut\nTeam-Up Ability\nwith\nMagik\nand\nBlack Panther\n."
+          "Psylocke was released as the 26th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 2 new costumes: Kirisaki Sakura and Vengeance.",
+          "Added the Way of the Butterfly achievement.",
+          "Added to the Dimensional Shortcut Team-Up Ability with Magik and Black Panther."
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Launch\nNow\nDance of the Butterfly\nwill check for barriers (including\nMagneto\n's\nMetal Bulwark\n,\nHulk\n's\nIndestructible Guard\n, etc.)."
+          "Now Dance of the Butterfly will check for barriers (including Magneto's Metal Bulwark, Hulk's Indestructible Guard, etc.)."
         ]
       },
       {
-        "date_version": "25/01/31:",
+        "date_version": "25/01/31",
         "changes": [
-          "Added 1 new costume:\nBlood Kariudo\n."
+          "Added 1 new costume: Blood Kariudo."
         ]
       },
       {
-        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
-          "Launch\nReduced the Rewind Time for\nPsionic Disc\nfrom 5s to 3s.",
+          "Reduced the Rewind Time for Psionic Disc from 5s to 3s.",
           "Additionally, the conversion ratio of lost health to blue armor will be increased from 0.5 to 0.8."
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
-          "Launch\nAdded to the\nMental Projection\nTeam-Up Ability\nwith\nEmma Frost\nand\nMagneto\n, but removed from the\nDimensional Shortcut\nwith\nMagik\nand\nBlack Panther\n.",
-          "Added 1 new costume:\nRetro X-Uniform\n."
+          "Added to the Mental Projection Team-Up Ability with Emma Frost and Magneto, but removed from the Dimensional Shortcut with Magik and Black Panther.",
+          "Added 1 new costume: Retro X-Uniform."
         ]
       },
       {
-        "date_version": "25/04/18:",
+        "date_version": "25/04/18",
         "changes": [
-          "Added 1 new costume color for\nVengeance\n:\nPurple Phantom\n."
+          "Added 1 new costume color for Vengeance: Purple Phantom."
         ]
       },
       {
-        "date_version": "25/04/25:\nVersion 20250425\n/\nGiant-Size Brain Blast\nEvent",
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
         "changes": [
-          "Fixed a glitch where\nPsylocke\n's\nWing Shurikens\nwould sometimes lose damage after striking\nLoki\n's arm. Now, with the trickster god kept in check, her psionic shurikens strike with all the precision and brilliance of a ninja!"
+          "Fixed a glitch where Psylocke's Wing Shurikens would sometimes lose damage after striking Loki's arm. Now, with the trickster god kept in check, her psionic shurikens strike with all the precision and brilliance of a ninja!"
         ]
       }
     ],
-    "official_quote": null,
-    "official_description": "Psylocke\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 26th hero introduced to the game's roster.\nShe has a team-up ability that works in conjunction with\nEmma Frost\nand\nMagneto\n."
+    "official_quote": "\"Enemies can become friends, but only if we show our foes respect.\"",
+    "official_description": "Psylocke is a Duelist hero in Marvel Rivals, and is the 26th hero introduced to the game's roster. She has a team-up ability that works in conjunction with Emma Frost and Magneto."
   },
   "background": {
     "real_name": "Sai (サイ)",
@@ -257,12 +249,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "49.21%",
-    "wr_change": "+0.08%",
-    "pick_rate": "13.38%",
-    "pr_change": "+0.30%",
-    "ban_rate": "0.94%",
-    "matches": "199,583"
+    "win_rate": "48.84%",
+    "wr_change": "-0.29%",
+    "pick_rate": "12.37%",
+    "pr_change": "-0.70%",
+    "ban_rate": "1.09%",
+    "matches": "184,313"
   },
   "data_sources": {
     "wiki": [],

@@ -108,6 +108,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 THE PUNISHER
@@ -138,13 +140,11 @@ DEFAULT
 The Punisher
 Wall Buster
 Punisher 2099
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-The Punisher
+BRAIN BLAST
 Love & War
-Punisher 2099
 See
 :
 List of Sprays
@@ -156,6 +156,16 @@ See
 List of Nameplates
 The Punisher
 Punisher 2099
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 ADJUDICATION
@@ -511,11 +521,12 @@ Thunderbolts
 Punisher 2099
 (1993) #1
 Trivia
+The Punisher's first appearance was in
+"The Amazing Spider-Man" (1963) #129
+.
 The Punisher's logo in Marvel Rivals seems to take inspiration from the
 "demon skull" logo
-used in The Punisher (2022-2023) while Frank Castle leads
-The Hand
-.
+used in The Punisher (2022-2023) while Frank Castle leads The Hand.
 Some of his voice lines mentions his war journal, which he uses it to record his missions and experiences. It also a reference to its first appearance (
 Punisher War Journal #1
 ) and title of his comic series.

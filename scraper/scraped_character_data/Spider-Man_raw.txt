@@ -97,6 +97,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 SPIDER-MAN
@@ -139,19 +141,20 @@ Season 2
 Spider-Man: No Way Home
 Spider-Man: No Way Home
 (2021)
-See
-:
-List of MVP Animations
+01
+02
+MVP ANIMATIONS
 DEFAULT
-Spider-Man
+SPIDER-MAN
 No Other Choice
-Bag-Man Beyond
+BAG-MAN BEYOND
 Street Performance
-Spider-Punk 2099
+SPIDER-PUNK 2099
 Ninjutsu: Veil of the Snow Spider
-Spider-Oni
+SPIDER-ONI
+MVP ANIMATIONS
 Three Generations
-Spider-Man: No Way Home
+SPIDER-MAN: NO WAY HOME
 01
 02
 EMOTES
@@ -182,6 +185,16 @@ Ultimate Bag-Man
 Spider-Punk 2099
 Spider-Oni
 Spider-Man: No Way Home
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 SPIDER-POWER
@@ -575,6 +588,9 @@ Avengers: Infinity War
 Marvel's Spider-Man 2
 (2023)
 Trivia
+Spider-Man's first appearance was in
+"Amazing Fantasy" (1962) #15
+.
 Spider-Man is voiced by Yuri Lowenthal, reprising his role from the Insomniac
 Marvel’s Spider-Man
 game series,

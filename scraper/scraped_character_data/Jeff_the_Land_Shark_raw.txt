@@ -114,6 +114,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 JEFF THE LAND SHARK
@@ -167,6 +169,16 @@ List of Nameplates
 Jeff the Land Shark
 Cuddly Fuzzlefin
 Incognito Dolphin
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 JOYFUL SPLASH
@@ -314,7 +326,7 @@ It is also important to mention that while Jeff's healing beam has great healing
 I hope these strategies can help you become the best Land Shark Boi there ever was!
 GLHF!
 Characters to fight (1v1 only)
-Adam Warlock - Distract
+Jeff the Land Shark - Distract
 Black Panther - Fight, but expect to use a lot of bubbles
 Black Widow - Fight at close range, run at long range
 Capt. America - Fight
@@ -534,6 +546,9 @@ Prestige Artwork
 Hero Story Artwork
 Igconitio Dolphin Profile
 Trivia
+Jeff's first appearance was in
+"West Coast Avengers" (2018) #7
+.
 When Jeff dives into the ground using Hide and Seek, he sometimes sings the
 Jaws
 (1975) theme song for one of his voicelines.

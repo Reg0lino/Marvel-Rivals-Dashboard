@@ -96,6 +96,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 SCARLET WITCH
@@ -130,15 +132,14 @@ X-Men: Hellfire Gala
 Doctor Strange in the Multiverse of Madness
 Doctor Strange in the Multiverse of Madness
 (2022)
-See
-:
-List of MVP Animations
+01
+MVP ANIMATIONS
 DEFAULT
-Scarlet Witch
+SCARLET WITCH
 Making an Entrance
-Emporium Matron
+EMPORIUM MATRON
 Paths to Reunion
-Doctor Strange in the Multiverse of Madness
+DOCTOR STRANGE IN THE MULTIVERSE OF MADNESS
 01
 EMOTES
 DEFAULT
@@ -159,6 +160,16 @@ Scarlet Witch
 Chaos Gown
 Emporium Matron
 Doctor Strange in the Multiverse of Madness
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 CHAOS CONTROL
@@ -485,6 +496,9 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Trivia
+Scarlet Witch's first appearance was in
+"Uncanny X-Men" (1981) #4
+.
 Scarlet Witch is voiced by Kate Higgins, reprising her role from
 Marvel Ultimate Alliance 3: The Black Order
 and the animated series
@@ -518,15 +532,6 @@ Avengers United They Stand (1999.)
 Scarlet Witch alongside
 Cloak & Dagger
 is the only character having an auto aim ability as her primary fire.
-Scarlet Witch is one of five playable characters who will appear in a match result cutscene, appearing if the attack team successfully delivers H.E.R.B.I.E to Avengers Tower in the Eternal Night Map. The remaining four who can appear in a match result cutscene are
-Thor
-,
-Doctor Strange
-,
-Black Panther
-,  and
-Loki
-.
 Scarlet Witch, alongside
 Psylocke
 and

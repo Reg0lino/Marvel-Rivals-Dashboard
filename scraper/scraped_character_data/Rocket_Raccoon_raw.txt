@@ -118,6 +118,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 ROCKET RACCOON
@@ -130,6 +132,8 @@ Wild Winter
 EPIC
 Guardians of the Galaxy Vol. 3
 EPIC
+Sunshine Raccoon
+LEGENDARY
 See
 :
 All In-Game Models & Descriptions
@@ -145,28 +149,30 @@ Season 0
 Guardians of the Galaxy Vol. 3
 Guardians of the Galaxy Vol. 3
 (2023)
-See
-:
-List of MVP Animations
+Sunshine Raccoon
+Season 2
+01
+02
+MVP ANIMATIONS
 DEFAULT
-Rocket Raccoon
+ROCKET RACCOON
 Wanted Raccoon
-Bounty Hunter
+BOUNTY HUNTER
 Gift of Surprise
-Wild Winter
+WILD WINTER
 Better With Friends
-Guardians of the Galaxy, Vol. 3
-See
-:
-List of Emotes
+GUARDIANS OF THE GALAXY VOL. 3
+MVP ANIMATIONS
+Easy as Pie
+SUNSHINE RACCOON
+01
+EMOTES
 DEFAULT
-Rocket Raccoon
-Winter Confetti
-Wild Winter
-Awesome Dance
-Guardians of the Galaxy Vol. 3
+BRAIN BLAST
 Careless Ignition
-Bounty Hunter
+Winter Confetti
+Awesome Dance
+Holiday Havoc
 See
 :
 List of Sprays
@@ -175,6 +181,7 @@ Rocket Raccoon Emblem
 Bounty Hunter
 Wild Winter
 Guardians of the Galaxy Vol. 3
+Sunshine Raccoon
 See
 :
 List of Nameplates
@@ -182,6 +189,17 @@ Rocket Raccoon
 Bounty Hunter
 Wild Winter
 Guardians of the Galaxy Vol. 3
+Sunshine Raccoon
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 BOMBARD MODE
@@ -471,6 +489,10 @@ Reduce
 C.Y.A.
 damage boost from 40% to 25%, but add a new effect: during the ability's duration, linked allies will receive an additional 100 Bonus Health points per second, capping at 150. After breaking the link, this bonus starts to falloff after 1 second at a rate of 75 per/s.
 Additionally, increase the energy cost from 3700 to 4000.
+25/05/09:
+Added 1 new costume:
+Sunshine Raccoon
+.
 Gallery
 Other
 Costume Origins
@@ -499,3 +521,7 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Guardians of the Galaxy Vol.3 costume reveal
+Trivia
+Rocket Raccoon's first appearance was in
+"Marvel Preview" (1975) #7
+.

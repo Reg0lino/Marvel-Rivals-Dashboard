@@ -5,16 +5,16 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#F87171",
-    "color_theme_secondary": "#FDBA74"
+    "color_theme": "#F97316",
+    "color_theme_secondary": "#EF4444"
   },
   "abilities": [
     {
       "name": "FIRE CLUSTER",
-      "keybind": null,
-      "type": null,
+      "keybind": "LMB",
+      "type": "Burst Projectile",
       "description": "Launch forward a splittable fireball",
-      "casting": "Burst Projectile",
+      "casting": null,
       "damage": "7 per round",
       "damage_falloff": "Falloff begins at 15m, decreasing to 60% at 40m.",
       "fire_rate_interval": "0.5s per round",
@@ -23,15 +23,15 @@
       "cooldown": null,
       "range": null,
       "projectile_speed": "150m/s",
-      "charges": 6,
+      "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Each shot consumes one fire cluster out of 6.\nRegenerating fire clusters is extremely fast as it takes 2 seconds to load from 1 cluster to all 6 of them.\nThis can be used indefinitely without stopping as when he reaches 0, the regeneration of his fire clusters is constant and thus can effectively keep launching them.\nIt should be noted that while attacking when there are 1 or no fire clusters, his attack speed will be lowered somewhat.\nCROSSHAIR SPREAD RADIUS (AT 10M) - 0.33m"
+      "details": "Each shot consumes one fire cluster out of 6. Regenerating fire clusters is extremely fast as it takes 2 seconds to load from 1 cluster to all 6 of them. This can be used indefinitely without stopping as when he reaches 0, the regeneration of his fire clusters is constant and thus can effectively keep launching them. It should be noted that while attacking when there are 1 or no fire clusters, his attack speed will be lowered somewhat."
     },
     {
       "name": "BLAZING BLAST",
-      "keybind": null,
+      "keybind": "RMB",
       "type": null,
       "description": "Launch a fireball to create a Flame Field at the targeted area",
       "casting": "Straight-line projectile that generates a spherical spell field upon impact.",
@@ -40,14 +40,14 @@
       "fire_rate_interval": null,
       "ammo": 3,
       "critical_hit": null,
-      "cooldown": null,
-      "range": null,
+      "cooldown": "2s per strike",
+      "range": "3m spherical radius",
       "projectile_speed": "80m/s",
-      "charges": 3,
+      "charges": null,
       "duration": "6s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Human Torch has a limit of 3 Blazing Blasts he can create at any time, each Blazing Blast takes 3 seconds to regenerate.\nEach blazing blast field lasts up to 6 seconds before disappearing.\nEnemies take the most damage if hit with the blazing blast directly, but will take continuous damage if they stand within its field.\nFLAME FIELD RANGE - 3m spherical radius\nFLAME FIELD CONTINUOUS DAMAGE - 25/s"
+      "details": "Each blazing blast field lasts up to 6 seconds before disappearing. Enemies take the most damage if hit with the blazing blast directly, but will take continuous damage if they stand within its field.  FLAME FIELD CONTINUOUS DAMAGE - 25/s"
     },
     {
       "name": "FLAMING METEOR",
@@ -67,7 +67,10 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "After releasing Flaming Meteor, immediately gain 75 Bonus Health, which will start to falloff 3 seconds later at a rate of 30 per second."
+      "details": {
+        "bonus_health": "75",
+        "bonus_health_falloff": "30 per second after 3 seconds"
+      }
     },
     {
       "name": "PLASMA BODY",
@@ -86,8 +89,8 @@
       "charges": null,
       "duration": null,
       "movement_boost": "50%",
-      "energy_cost_details": "ENERGY COST - 15/s\nENERGY RECOVERY SPEED - 20/s",
-      "details": "This ability cannot be used at the same time as using his other abilities.\nMAXIMUM ENERGY - 120"
+      "energy_cost_details": "15/s. MAXIMUM ENERGY - 120. ENERGY RECOVERY SPEED - 20/s",
+      "details": "This ability cannot be used at the same time as using his other abilities."
     },
     {
       "name": "PYRO-PRISON",
@@ -101,13 +104,13 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": "15s",
-      "range": null,
+      "range": "MAX LINK DISTANCE - 40m. MAX LINK HEIGHT - 2m",
       "projectile_speed": null,
       "charges": null,
       "duration": "5s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Pyro-Prison can be activated when two or more Blazing Blasts are active, when 2 are active and are within range of each other can create a firewall which will damage enemies who walk over it.\nWhen this ability is used when 3 or more Blazing Blasts are active, it will create a geometric shape with the Blazing Blasts acting as connected dots.\nWhen making a shape like a triangle, rectangle, etc. the area inside also acts as a flame field to which any enemies caught within will take overtime damage.\nMAX LINK DISTANCE - 40m\nMAX LINK HEIGHT - 2m\nPYRO-PRISON CONTINUOUS DAMAGE - 50/s"
+      "details": "Pyro-prison cannot create fire walls between Blazing Blasts if they each are on different elevations. Human Torch's Blazing Blasts and Pyro-prison are stationary when placed and thus cannot do active damage to enemies outside their range. FIRE WALL CONTINUOUS DAMAGE - 50/s. When this ability is used when 3 or more Blazing Blasts are active, it will create a geometric shape with the Blazing Blasts acting as connected dots. When making a shape like a triangle, rectangle, etc. the area inside also acts as a flame field to which any enemies caught within will take overtime damage. When 2 are active and are within range of each other can create a firewall which will damage enemies who walk over it."
     }
   ],
   "ultimate": {
@@ -116,7 +119,7 @@
     "type": null,
     "description": "Explode with cosmic fire to deal damage to enemies within range. Upon skill activation, all Flame Fields will transform into Flame Tornadoes, dealing extra damage",
     "casting": null,
-    "damage": 70,
+    "damage": null,
     "range": "20m spherical radius",
     "effect": null,
     "duration": "8s",
@@ -126,7 +129,10 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 4000,
-    "details": "While in this state his Blazing Blasts will turn into Flame Tornadoes in which deal significantly more damage to enemies within it's radius.\nWhile in this state his Plasma Body and Blazing Blasts do not have a cooldown and thus can be used infinitely while the ultimate is active. This comes at the expense of Pyro-Prison being unusable for Supernova's duration.\nFLAME TORNADO UNLEASH SPEED - 0.7s per use\nFLAME TORNADO RANGE - 3m spherical radius; 8m high capsule-shaped spell field.\nFLAME TORNADO CONTINUOUS DAMAGE - 120/s\nSUPERNOVA DAMAGE REDUCTION - -30%"
+    "details": {
+      "activation_shockwave_damage": 80,
+      "flame_tornado_damage": "120 per/s"
+    }
   },
   "passives": [],
   "teamups": [
@@ -174,18 +180,18 @@
   },
   "lore_details": {
     "ingame_bio_quote": "\"I'm the brightest in the sky!\"",
-    "ingame_bio_text": "The Fantastic Four's heartthrob, Johnny Storm, adds an intense  flare to every battle he fights. Shrouded  in  roaring flames, the Human Torch always manages to look cool while turning up the heat!",
-    "ingame_story_intro": "Teenager Johnny Storm joined his sister on the crew of an experimental space mission in hopes of visiting the stars. Instead, he became one, gaining power and popularity as a member of the world famous Fantastic Four. Able to generate scorching flames, Johnny is the hottest hero in town - the Human Torch.\nSince darkness fell on New York City, Johnny has been busy burning Dracula's legions with flames brighter that the sun.",
+    "ingame_bio_text": "The Human Torch is a Duelist hero in Marvel Rivals, and is the 36th hero introduced to the game's roster during Season 1: Eternal Night Falls. He has team-up abilities that work in conjunction with Invisible Woman, Mister Fantastic, The Thing and Storm.",
+    "ingame_story_intro": "Teenager Johnny Storm joined his sister on the crew of an experimental space mission in hopes of visiting the stars. Instead, he became one, gaining power and popularity as a member of the world famous Fantastic Four. Able to generate scorching flames, Johnny is the hottest hero in town - the Human Torch. Since darkness fell on New York City, Johnny has been busy burning Dracula's legions with flames brighter that the sun.",
     "hero_stories": [
       {
         "title": "Fire Exemption Test",
-        "content": "Johnny Storm saw a vampire sulking along the edge of Bryant Park, and did what he always did on such an occasion: Lit it up like a Roman candle. Then he saw another one, trying to get away around the corner onto Fifth Avenue. Boom, that one was gone too. He did this every night - or every day, it was hard to tell what time it was in Dracula’s New York, because the sun never came up and the moon always hung low and red seemingly right over Grand Central. Either way, the Human Torch kept the area near Baxter Building as free of vampires as he could. That meant a lot of vampires had gone up in smoke because of him, and that in turn meant that Johnny Storm was currently Number One on Dracula’s hit list. The vampire-in-chief had sent some of his top lieutenants after Johnny, veterans of the Cult of the Darkholders, but either Johnny had lit them up too, or he’d gotten away before they could get a bite on him.\nVampires couldn’t bite you when you were made of superheated plasma.\nThat was one reason why he went out on these patrols every day. He was safer than more New Yorkers from the threat of vampires, which made him especially well suited to vampire population control, especially in the area around the Baxter Building, which was uncomfortably close to Dracula’s castle. Johnny did this because he didn’t want vampires around the Baxter Building, but also because he knew that smoking so many vampires right around the castle - where Dracula would watch - was like waving a big old middle finger at the vampire lord. He might have stopped time and imprisoned New York in a weird eternal blood moon night, but that didn’t mean New Yorkers were just going to give up.\nJohnny stayed in the air, heading south on Madison to make sure no masses of undead monsters were gathering in that direction. Also he thought\nBen Grimm\nwas doing his own sweeps of the section of Park Avenue south of Dracula’s castle. Probably vampires couldn’t bite Ben either, but Johnny wanted to make sure. They couldn’t afford to lose him. There were so many vampires, so many monsters, and not nearly enough super heroes left to defend the innocent from them.\nBlade\nwas around,\nMoon Knight\n, the\nScarlet Witch\n...pretty quickly, Johnny ran out of names.\nOh. There was also\nSpider-Man\n, of course. One of Johnny’s oldest friends, he stayed to fight vampires, but he also was dying to get back across the East River and see about Aunt May in Queens. New York wouldn’t be New York without him.\nJohnny decided to angle over to Park and see if Ben was staying out of trouble. He hadn’t seen any vampires in a few blocks. As he swooped diagonally over the shadowed buildings lining Park Avenue, he heard an echoing boom and saw a column of smoke blast upward from the center of the street. As it cleared, Johnny saw something so crazy  that it took him a minute to convince himself it was actually real.\nThe creature that tore its way up through the street was a midnight blue in color, maybe ten times the size of an elephant, had three-digit pincers instead of hands, and moved like a dinosaur in an old stop-motion monster movie. It was one of the Deviant Mutates the FF had run into on their first mission together, way back when. Mole Man had a whole stable of bizarre creatures ready to unleash on the world. Johnny remembered this one because it was made of stone, but somehow still moved. Kind of like Ben Grimm, now that he thought about it. And now here it was tearing a huge hole in Park Avenue, revealing a destroyed subway tunnel below, and a cavern below that.\nAs he got a better look at it, Johnny realized that something was different about it, and its surprise appearance suddenly makes a lot more sense.\nIts eyes, he saw, burned with the empty glow you saw in lower-level vampires, the minions Dracula and the other more powerful vampires created at will.\nSo not only was it a giant rock monster, Johnny thought; it was a giant vampire rock monster. Clearly Dracula was sick of just throwing more and more humanoid vampires at Johnny. He’d decided to take a different track.\nThis was a problem. Johnny couldn’t burn it, so he wasn’t sure at first how to fight back as the creature smashed its way up Madison Avenue toward the Baxter Building.\nIt bared stony fangs and snapped at Johnny, who veered out of the way, streaking its side with fire to no effect. Holy smokes, he thought, was it a vampire now too?\n”How did they even bite this thing?” Johnny wondered out loud. It was made of stone. If he couldn’t burn it, how could a vampire bite it?\nThe creature swiped at Johnny, missed, and brought its gigantic pincers down on the street hard enough that manhole covers up and down Madison Avenue flew up into the air like giant spinning coins.\nFrom the corner of 33rd, Ben Grimm charged into view. “Torch, ya just draw trouble wherever ya go,” he growled. “Vampires ain’t bad enough?”\n”This one’s a vampire too!” Johnny called back as the creature bared stone fangs and snapped at Ben. The Thing swatted its jaws to the side and tried to stomp it back into the hole it had made.\n”Crazy!” he shouted. “This town’s gone ta heck in a handbasket since Dracula came along.”\nThe monster shook Ben off and tried to spring on him, but for a guy made out of rocks, Ben Grimm was fairly nimble. He got out of the way. “What are we gonna do about it?”\nThis was a good question. Johnny couldn’t burn it, so the best thing they could do was what Ben was trying to do: Put it back in its hole and make sure it didn’t come out again.\nThe monster snapped at Johnny again as he swooped close, harrying it - and it might have gotten him, too, if a taut cable of spider-webbing hadn’t thwipped out of nowhere and pulled its head to the side.\n”Hey, Torch!” Spider-Man called out as he swung into view. “My Spidey-Sense has been tingling like crazy for the last ten minutes. Now I know why.”\n”You’re just in time,” Johnny answered l, as he distracted the monster again by swooping close to its snapping jaws - and then narrowly avoiding its pincers, which stabbed through the air where he’d been just a second before. “Get some webs on it, Pete! I’m going to dive under it.”\n”You’re gonna what?” the Thing echoed incredulously.\n”Easy,” Johnny said. “Pete gets it hanging over the hole, I get underneath it, then break the webs and I’ll help it down the hole.”\n”From underneath?” the Thing echoed again.\n”Trust me!” Johnny said as he dodged another pincer.\n”I can’t break my webs,” Spider-Man said. “They’re too strong.”\n”Can I?” the Thing asked. “Don’t remember even trying.”\n”Maybe?” Spider-Man wondered. “I’d hate to plan on it, you know?”\n”Yeah.” Johnny had a thought. “Ben, if you can’t break the webs, you can just tear off the part of the building they’re stuck to, right?”\n“Sure,” Ben said. “But you forgot one thing. I can’t climb like him,” jutting a rocky thumb at Spider-Man, “and I can’t fly like you.”\nJohnny glanced over at Spider-Man, and saw that Pete was reaching the same conclusion he was. “I think we can work around that,” he said.\n”Aw, no,” Ben said. “I don’t wanna-“\nBut Spider-Man had already snapped a web onto his back and started swinging him up into the air. More webs followed, binding the monster to the upper corners of buildings on both sides of Park Avenue, so it hung in the middle, half-in and half-out of the hole it had made.\nHere was the part part, Johnny thought. He had to get the monster to stay in one place, and the best way to do that was to offer himself up as bait. So he dove underneath it, and the monster pounced. Both of its pincers clamped down on Johnny, not hurting him much but keeping him pinned as the monster bared its fangs. Here’s where he would find out if he was right that vampires couldn’t bite superheated plasma, Johnny thought.\nHe focused and felt his temperature get hotter. Then hitter still. Then so hot that the subway tracks and the concrete pillars inside the ruined station started to buckle. “Now, Ben!” he shouted again.\nUp above, Ben Grimm tore Spider-Man’s web away from its anchor on the corner of the office tower. Maybe a cubic yard of brick and concrete came with it, tumbling down to crash onto the monster’s stone carapace.\nAnd Johnny Storm went nova.\nThe vast mass of the stone monster blocked most of the nova blast from surfing upward and out onto the street. The blast wave radiated downward into the tunnel carved by the stone Deviant on its way up from the deep caves where it originated, melting stone along with the reinforced concrete of the subway tunnel.\nThe monster couldn’t burn, but the shock of the nova blast stunned it and let Johnny break free. He streaked up out of the hole as it collapsed over the monster, which tumbled into the bottomless cavern it had crawled out of just a few minutes before. Molten asphalt, steel, and stone sealed the hole, cooling quickly into a huge pit in the middle of Park Avenue.\nWhew, Johnny thought. “Flame off,” he said, and dropped to the street. Ben lowered into view on the end of one of Spider-Man’s webs.\n”This is humiliatin’,” he said.\n”Couldn’t have done it without you, Benjy,” Johnny grinned.\nAs the Thing’s feet hit the pavement, Spider-Man swung down and landed next to him. “Pretty neat trick,” he said.\n”Yeah, not bad,” Johnny said. “All about the teamwork.”\n”Who ever heard of a vampire rock monster?” Ben was looking at the pit. Then his wonderment was replaced by his typical pessimism. “It might come up again, ya know.”\nJohnny looked down at the wreckage, the up Park Avenue towards Dracula’s castle. “Yeah,” he said. “I know. This isn’t a war we’re going to win tonight. But it is a war we’re going to win.”\nThe longer he looked at Dracula’s castle, the more Johnny imagined he could see Dracula looking back at him, cold and angry at the failure of his latest scheme to extinguish the Human Torch once and for all.\nHe loved it. “Come and get me,” he dared the distant vampire lord. “If you’ve got the guts.”",
+        "content": "Johnny Storm saw a vampire sulking along the edge of Bryant Park, and did what he always did on such an occasion: Lit it up like a Roman candle. Then he saw another one, trying to get away around the corner onto Fifth Avenue. Boom, that one was gone too. He did this every night - or every day, it was hard to tell what time it was in Dracula’s New York, because the sun never came up and the moon always hung low and red seemingly right over Grand Central. Either way, the Human Torch kept the area near Baxter Building as free of vampires as he could. That meant a lot of vampires had gone up in smoke because of him, and that in turn meant that Johnny Storm was currently Number One on Dracula’s hit list. The vampire-in-chief had sent some of his top lieutenants after Johnny, veterans of the Cult of the Darkholders, but either Johnny had lit them up too, or he’d gotten away before they could get a bite on him. Vampires couldn’t bite you when you were made of superheated plasma. That was one reason why he went out on these patrols every day. He was safer than more New Yorkers from the threat of vampires, which made him especially well suited to vampire population control, especially in the area around the Baxter Building, which was uncomfortably close to Dracula’s castle. Johnny did this because he didn’t want vampires around the Baxter Building, but also because he knew that smoking so many vampires right around the castle - where Dracula would watch - was like waving a big old middle finger at the vampire lord. He might have stopped time and imprisoned New York in a weird eternal blood moon night, but that didn’t mean New Yorkers were just going to give up. Johnny stayed in the air, heading south on Madison to make sure no masses of undead monsters were gathering in that direction. Also he thought Ben Grimm was doing his own sweeps of the section of Park Avenue south of Dracula’s castle. Probably vampires couldn’t bite Ben either, but Johnny wanted to make sure. They couldn’t afford to lose him. There were so many vampires, so many monsters, and not nearly enough super heroes left to defend the innocent from them. Blade was around, Moon Knight, the Scarlet Witch...pretty quickly, Johnny ran out of names. Oh. There was also Spider-Man, of course. One of Johnny’s oldest friends, he stayed to fight vampires, but he also was dying to get back across the East River and see about Aunt May in Queens. New York wouldn’t be New York without him. Johnny decided to angle over to Park and see if Ben was staying out of trouble. He hadn’t seen any vampires in a few blocks. As he swooped diagonally over the shadowed buildings lining Park Avenue, he heard an echoing boom and saw a column of smoke blast upward from the center of the street. As it cleared, Johnny saw something so crazy  that it took him a minute to convince himself it was actually real. The creature that tore its way up through the street was a midnight blue in color, maybe ten times the size of an elephant, had three-digit pincers instead of hands, and moved like a dinosaur in an old stop-motion monster movie. It was one of the Deviant Mutates the FF had run into on their first mission together, way back when. Mole Man had a whole stable of bizarre creatures ready to unleash on the world. Johnny remembered this one because it was made of stone, but somehow still moved. Kind of like Ben Grimm, now that he thought about it. And now here it was tearing a huge hole in Park Avenue, revealing a destroyed subway tunnel below, and a cavern below that. As he got a better look at it, Johnny realized that something was different about it, and its surprise appearance suddenly makes a lot more sense. Its eyes, he saw, burned with the empty glow you saw in lower-level vampires, the minions Dracula and the other more powerful vampires created at will. So not only was it a giant rock monster, Johnny thought; it was a giant vampire rock monster. Clearly Dracula was sick of just throwing more and more humanoid vampires at Johnny. He’d decided to take a different track. This was a problem. Johnny couldn’t burn it, so he wasn’t sure at first how to fight back as the creature smashed its way up Madison Avenue toward the Baxter Building. It bared stony fangs and snapped at Johnny, who veered out of the way, streaking its side with fire to no effect. Holy smokes, he thought, was it a vampire now too? ”How did they even bite this thing?” Johnny wondered out loud. It was made of stone. If he couldn’t burn it, how could a vampire bite it? The creature swiped at Johnny, missed, and brought its gigantic pincers down on the street hard enough that manhole covers up and down Madison Avenue flew up into the air like giant spinning coins. From the corner of 33rd, Ben Grimm charged into view. “Torch, ya just draw trouble wherever ya go,” he growled. “Vampires ain’t bad enough?” ”This one’s a vampire too!” Johnny called back as the creature bared stone fangs and snapped at Ben. The Thing swatted its jaws to the side and tried to stomp it back into the hole it had made. ”Crazy!” he shouted. “This town’s gone ta heck in a handbasket since Dracula came along.” The monster shook Ben off and tried to spring on him, but for a guy made out of rocks, Ben Grimm was fairly nimble. He got out of the way. “What are we gonna do about it?” This was a good question. Johnny couldn’t burn it, so the best thing they could do was what Ben was trying to do: Put it back in its hole and make sure it didn’t come out again. The monster snapped at Johnny again as he swooped close, harrying it - and it might have gotten him, too, if a taut cable of spider-webbing hadn’t thwipped out of nowhere and pulled its head to the side. ”Hey, Torch!” Spider-Man called out as he swung into view. “My Spidey-Sense has been tingling like crazy for the last ten minutes. Now I know why.” ”You’re just in time,” Johnny answered l, as he distracted the monster again by swooping close to its snapping jaws - and then narrowly avoiding its pincers, which stabbed through the air where he’d been just a second before. “Get some webs on it, Pete! I’m going to dive under it.” ”You’re gonna what?” the Thing echoed incredulously. ”Easy,” Johnny said. “Pete gets it hanging over the hole, I get underneath it, then break the webs and I’ll help it down the hole.” ”From underneath?” the Thing echoed again. ”Trust me!” Johnny said as he dodged another pincer. ”I can’t break my webs,” Spider-Man said. “They’re too strong.” ”Can I?” the Thing asked. “Don’t remember even trying.” ”Maybe?” Spider-Man wondered. “I’d hate to plan on it, you know?” ”Yeah.” Johnny had a thought. “Ben, if you can’t break the webs, you can just tear off the part of the building they’re stuck to, right?” “Sure,” Ben said. “But you forgot one thing. I can’t climb like him,” jutting a rocky thumb at Spider-Man, “and I can’t fly like you.” Johnny glanced over at Spider-Man, and saw that Pete was reaching the same conclusion he was. “I think we can work around that,” he said. ”Aw, no,” Ben said. “I don’t wanna-“ But Spider-Man had already snapped a web onto his back and started swinging him up into the air. More webs followed, binding the monster to the upper corners of buildings on both sides of Park Avenue, so it hung in the middle, half-in and half-out of the hole it had made. Here was the part part, Johnny thought. He had to get the monster to stay in one place, and the best way to do that was to offer himself up as bait. So he dove underneath it, and the monster pounced. Both of its pincers clamped down on Johnny, not hurting him much but keeping him pinned as the monster bared its fangs. Here’s where he would find out if he was right that vampires couldn’t bite superheated plasma, Johnny thought. He focused and felt his temperature get hotter. Then hitter still. Then so hot that the subway tracks and the concrete pillars inside the ruined station started to buckle. “Now, Ben!” he shouted again. Up above, Ben Grimm tore Spider-Man’s web away from its anchor on the corner of the office tower. Maybe a cubic yard of brick and concrete came with it, tumbling down to crash onto the monster’s stone carapace. And Johnny Storm went nova. The vast mass of the stone monster blocked most of the nova blast from surfing upward and out onto the street. The blast wave radiated downward into the tunnel carved by the stone Deviant on its way up from the deep caves where it originated, melting stone along with the reinforced concrete of the subway tunnel. The monster couldn’t burn, but the shock of the nova blast stunned it and let Johnny break free. He streaked up out of the hole as it collapsed over the monster, which tumbled into the bottomless cavern it had crawled out of just a few minutes before. Molten asphalt, steel, and stone sealed the hole, cooling quickly into a huge pit in the middle of Park Avenue. Whew, Johnny thought. “Flame off,” he said, and dropped to the street. Ben lowered into view on the end of one of Spider-Man’s webs. ”This is humiliatin’,” he said. ”Couldn’t have done it without you, Benjy,” Johnny grinned. As the Thing’s feet hit the pavement, Spider-Man swung down and landed next to him. “Pretty neat trick,” he said. ”Yeah, not bad,” Johnny said. “All about the teamwork.” ”Who ever heard of a vampire rock monster?” Ben was looking at the pit. Then his wonderment was replaced by his typical pessimism. “It might come up again, ya know.” Johnny looked down at the wreckage, the up Park Avenue towards Dracula’s castle. “Yeah,” he said. “I know. This isn’t a war we’re going to win tonight. But it is a war we’re going to win.” The longer he looked at Dracula’s castle, the more Johnny imagined he could see Dracula looking back at him, cold and angry at the failure of his latest scheme to extinguish the Human Torch once and for all. He loved it. “Come and get me,” he dared the distant vampire lord. “If you’ve got the guts.”",
         "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
+        "date_version": "25/02/21\nVersion 20250221\n/Season 1.5 Launch",
         "changes": [
           "Human Torch was added as the 36th hero to be introduced to Marvel Rivals as a Duelist hero.",
           "Added 2 new costumes: First Family and Negative Zone Gladiator.",
@@ -193,14 +199,14 @@
         ]
       },
       {
-        "date_version": "25/03/07: Version 20250307 / Galacta's Cosmic Adventure Event",
+        "date_version": "25/03/07\nVersion 20250307\n/Galacta's Cosmic Adventure Event",
         "changes": [
-          "Resolved a glitch where the Human Torch 's Flaming Meteor ability could sometimes trap hit enemies inside walls. Now, foes will feel the burn, not the barrier!",
-          "Fixed an issue that the Human Torch 's Pyro-Prison wouldn't promptly disappear upon his defeat. No more lingering flames!"
+          "Resolved a glitch where the Human Torch's Flaming Meteor ability could sometimes trap hit enemies inside walls. Now, foes will feel the burn, not the barrier!",
+          "Fixed an issue that the Human Torch's Pyro-Prison wouldn't promptly disappear upon his defeat. No more lingering flames!"
         ]
       },
       {
-        "date_version": "25/03/14: Version 20250314",
+        "date_version": "25/03/14\nVersion 20250314",
         "changes": [
           "Increase Fire Cluster projectile speed from 120m/s to 150m/s and projectile count from 12 to 14.",
           "Increase the energy cost of Supernova from 3400 to 4000.",
@@ -208,22 +214,22 @@
         ]
       },
       {
-        "date_version": "25/03/27: Version 20250327",
+        "date_version": "25/03/27\nVersion 20250327",
         "changes": [
-          "Addressed a rare bug where the Human Torch 's Primary Attack would sometimes miss its target entirely, leaving his incendiary prowess a little less scorching. With this fix, every burst of flame burns as brilliantly as intended--ensuring his heat is always on target!"
+          "Addressed a rare bug where the Human Torch's Primary Attack would sometimes miss its target entirely, leaving his incendiary prowess a little less scorching. With this fix, every burst of flame burns as brilliantly as intended--ensuring his heat is always on target!"
         ]
       },
       {
-        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "date_version": "25/04/11\nVersion 20250411\n/Season 2: Hellfire Gala Launch",
         "changes": [
           "Reduce attack interval for Fire Cluster from 0.6 seconds to 0.5 seconds; the launch timing of the primary attack projectile has been advanced.",
-          "Increase the cooldown for Flaming Meteor from 12 seconds to 15 seconds, but add a new effect: After releasing Flaming Meteor , immediately gain 75 Bonus Health, which will start to falloff 3 seconds later at a rate of 30 per second.",
-          "Added 1 new costume: Blood Blaze (unlocked from ranked mode in Season 1.5 )"
+          "Increase the cooldown for Flaming Meteor from 12 seconds to 15 seconds, but add a new effect: After releasing Flaming Meteor, immediately gain 75 Bonus Health, which will start to falloff 3 seconds later at a rate of 30 per second.",
+          "Added 1 new costume: Blood Blaze (unlocked from ranked mode in Season 1.5)"
         ]
       }
     ],
-    "official_quote": "The\nHuman Torch\nis a Duelist\nhero\nin\nMarvel Rivals",
-    "official_description": null
+    "official_quote": "\"Is it hot in here or is it just me? Oh right. It's totally me!\"",
+    "official_description": "The Human Torch is a Duelist hero in Marvel Rivals, and is the 36th hero introduced to the game's roster during Season 1: Eternal Night Falls."
   },
   "background": {
     "real_name": "Jonathan Lowell Spencer \"Johnny\" Storm",
@@ -261,12 +267,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "50.54%",
+    "win_rate": "50.91%",
     "wr_change": "N/A",
-    "pick_rate": "8.20%",
+    "pick_rate": "7.52%",
     "pr_change": "N/A",
-    "ban_rate": "19.41%",
-    "matches": "122,369"
+    "ban_rate": "22.69%",
+    "matches": "111,976"
   },
   "data_sources": {
     "wiki": [],

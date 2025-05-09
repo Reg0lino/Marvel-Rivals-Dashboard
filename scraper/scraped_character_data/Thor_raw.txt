@@ -99,6 +99,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 THOR
@@ -167,6 +169,16 @@ Thor
 Herald of Thunder
 Lord of Asgard
 Thor: Love and Thunder
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 MJOLNIR BASH
@@ -482,6 +494,9 @@ Hero logo.
 Prestige artwork.
 Hero Story Artwork
 Trivia
+Thor's first appearance was in
+"Journey Into Mystery" (1952) #83
+.
 Thor is voiced by Travis Willingham, who has been voicing the character in different Marvel projects since 2012.
 Travis is best known for being one of the cast members and player of the web series
 Critical Role

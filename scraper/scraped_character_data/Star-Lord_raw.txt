@@ -86,6 +86,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 STAR-LORD
@@ -120,32 +122,28 @@ Guardians of the Galaxy
 Guardians of the Galaxy Vol. 3
 Guardians of the Galaxy Vol. 3
 (2023)
-See
-:
-List of MVP Animations
+01
+02
+MVP ANIMATIONS
 DEFAULT
-Star-Lord
-Sovereign Swagger
-King of Spartax
-We're A Team
-Guardians of the Galaxy, Vol. 3
+STAR-LORD
 Lion Dance
-Lion's Mane
+LION'S MANE
+Sovereign Swagger
+KING OF SPARTAX
 Sun's Out, Guns Out
-Master of the Sun
-See
-:
-List of Emotes
+MASTER OF THE SUN
+MVP ANIMATIONS
+We're A Team
+GUARDIANS OF THE GALAXY VOL. 3
+01
+EMOTES
 DEFAULT
-Star-Lord
+BRAIN BLAST
 Lion Roll
-Lion's Mane
 Spartax Slumber
-King of Spartax
 Feel the Energy
-Master of the Sun
 Dance Like Always
-Guardians of the Galaxy Vol. 3
 See
 :
 List of Sprays
@@ -162,6 +160,16 @@ Lion's Mane
 King of Spartax
 Master of the Sun
 Guardians of the Galaxy Vol. 3
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 ELEMENT GUNS
@@ -510,6 +518,9 @@ Guardians of the Galaxy
 Guardians of the Galaxy
 (2015) #1
 Trivia
+Star-Lord's first appearance was in
+"Marvel Preview" (1975) #4
+.
 Star-Lord is voiced by Scott Porter, reprising his role from
 Guardians of the Galaxy: The Telltale Series
 ,
@@ -517,3 +528,13 @@ Marvel Ultimate Alliance 3: The Black Order
 , and
 Marvel Future Revolution
 .
+Star-Lord is a fan and listens to classic rock.
+[
+1
+]
+Navigation
+References
+↑
+Star-Lord and
+Luna Snow
+Hero Interaction

@@ -90,6 +90,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 HAWKEYE
@@ -148,6 +150,16 @@ Hawkeye
 Galactic Fangs
 Freefall
 Ronin
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 PIERCING ARROW
@@ -486,6 +498,9 @@ Hawkeye: Freefall
 "Ronin" costume in
 New Avengers (2004) #27
 Trivia
+Hawkeye's first appearance was in
+"Tales of Suspense" (1959) #57
+.
 Hawkeye in this game is voiced by Andrew Kishino, who also voices the
 Master Weaver
 in the

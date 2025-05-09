@@ -1,4 +1,4 @@
 {
-    "selected_model": "gemini-1.5-pro-latest",
+    "selected_model": "gemini-1.5-flash",
     "tune_model": "gemini-1.5-flash"
 }

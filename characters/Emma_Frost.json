@@ -5,14 +5,14 @@
     "health": 650,
     "speed": null,
     "difficulty": null,
-    "color_theme": "#A7D7F9",
-    "color_theme_secondary": "#EC4899"
+    "color_theme": "#EC4899",
+    "color_theme_secondary": "#A7D7F9"
   },
   "abilities": [
     {
       "name": "TELEPATHIC PULSE",
-      "keybind": null,
-      "type": "Normal Attack",
+      "keybind": "LMB",
+      "type": "beam",
       "description": "Fire a psionic beam to deal damage; the longer the beam hits, the higher the damage.",
       "casting": "Channeled",
       "damage": "Damage increases with energy: 0 - 70/s, 99 - 120/s, full energy - 150/s",
@@ -26,13 +26,53 @@
       "charges": null,
       "duration": null,
       "movement_boost": null,
+      "energy_cost_details": "Energy gain: Hero hit: 10/s; Sentience hit: 15/s; Common summons hit: 5/s; Shield hit: 10/s. Falloff begins 3s after not hitting an enemy, at a rate of 30/s",
+      "details": null
+    },
+    {
+      "name": "MIND'S AEGIS",
+      "keybind": null,
+      "type": "Deployable Shield",
+      "description": "Create a levitating barrier at the designated location.",
+      "casting": "Deployable Shield",
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": "3s reposition, 4s after destroyed",
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "infinite until destroyed or reclaimed",
+      "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ Energy gain: Hero hit: 10/s; Sentience hit: 15/s; Common summons hit: 5/s; Shield hit: 10/s. Falloff begins 3s after not hitting an enemy, at a rate of 30/s\n"
+      "details": "500 health, 70/s recovery speed, 2s delayed recovery after release"
+    },
+    {
+      "name": "PSYCHIC SPEAR",
+      "keybind": "E",
+      "type": "Single-cast delayed projectile",
+      "description": "Seize control of an enemy's sentience - damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner.",
+      "casting": "Single-cast delayed projectile",
+      "damage": "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "24m",
+      "projectile_speed": "80m/s",
+      "charges": null,
+      "duration": null,
+      "movement_boost": null,
+      "energy_cost_details": null,
+      "details": "Sentience health: Target's 25% Maximum Health. When the distance between the target and its sentience is more than 15m, their linkage can be broken"
     },
     {
       "name": "DIAMOND FORM",
       "keybind": "SHIFT",
-      "type": null,
+      "type": "Switch Form",
       "description": "Activate Diamond Form to transform your attack style while gaining Damage Reduction and becoming Unstoppable.",
       "casting": "Switch Form",
       "damage": null,
@@ -47,52 +87,12 @@
       "duration": "8s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ 30% Damage Reduction in Diamond form"
-    },
-    {
-      "name": "PSYCHIC SPEAR",
-      "keybind": "E",
-      "type": null,
-      "description": "Seize control of an enemy's sentience - damage dealt to the sentience cascades to the physical form and can be pierced by Telepathic Pulse. When the sentience shatters, it unleashes extra damage on its owner.",
-      "casting": "Single-cast delayed projectile",
-      "damage": "Deal 5 damage per direct hit. When the sentience shatters, it deals damage to the target, which is equal to 25% of the target's maximum health",
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": null,
-      "range": null,
-      "projectile_speed": "80m/s",
-      "charges": null,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "⚬ When the distance between the target and its sentience is more than 15m, their linkage can be broken"
-    },
-    {
-      "name": "MIND'S AEGIS",
-      "keybind": null,
-      "type": null,
-      "description": "Create a levitating barrier at the designated location.",
-      "casting": "Deployable Shield",
-      "damage": null,
-      "damage_falloff": null,
-      "fire_rate_interval": null,
-      "ammo": null,
-      "critical_hit": null,
-      "cooldown": null,
-      "range": null,
-      "projectile_speed": null,
-      "charges": null,
-      "duration": null,
-      "movement_boost": null,
-      "energy_cost_details": null,
-      "details": "MAXIMUM SHIELD VALUE\n- 500\nRECOVERY SPEED\n- 70/s\nDELAYED RECOVERY AFTER RELEASE\n- 2s\nREPOSITION COOLDOWN\n- 3s\nCOOLDOWN AFTER DESTROYED\n- 4s"
+      "details": "30% Damage Reduction in Diamond form. Immune to displacements such as stuns, knockbacks"
     },
     {
       "name": "FACETED FURY",
-      "keybind": null,
-      "type": "Normal Attack",
+      "keybind": "LMB",
+      "type": "Single-cast Spell Field",
       "description": "In Diamond Form, deliver a crushing double-fisted strike to enemies.",
       "casting": "Single-cast Spell Field",
       "damage": "First & second hit: 50; third hit: 70; fourth hit: 80",
@@ -112,7 +112,7 @@
     {
       "name": "CARBON CRUSH",
       "keybind": "E",
-      "type": null,
+      "type": "Dash Based Control",
       "description": "In Diamond Form, lunge forward to grab an enemy, then execute a back slam to inflict damage.",
       "casting": "Dash Based Control",
       "damage": 30,
@@ -121,18 +121,18 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": "5s",
-      "range": null,
+      "range": "7m",
       "projectile_speed": null,
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ Control effect duration: 1.6s\nMAXIMUM DISTANCE\n- 7m"
+      "details": "Control effect duration: 1.6s. Can dash into the sky and grapple enemies above if they're within range. Can cancel enemy Ultimates during their start up."
     },
     {
       "name": "CRYSTAL KICK",
       "keybind": null,
-      "type": null,
+      "type": "Single-cast Spell Field",
       "description": "In Diamond Form, unleash a flying kick forward and knock back enemies; extra damage is dealt if they're propelled into a wall.",
       "casting": "Single-cast Spell Field",
       "damage": "Hit damage: 50; damage increases to 100 when the target is knocked into walls",
@@ -141,24 +141,24 @@
       "ammo": null,
       "critical_hit": null,
       "cooldown": "2s",
-      "range": null,
+      "range": "5m",
       "projectile_speed": null,
       "charges": null,
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ Maximum knockback distance: 10m\nHIT RANGE\n- 5m"
+      "details": "Maximum knockback distance: 10m"
     }
   ],
   "ultimate": {
     "name": "PSIONIC SEDUCTION",
-    "keybind": "Q/MS3",
-    "type": null,
+    "keybind": "Q",
+    "type": "Large-ranged Persistent Spell Field",
     "description": "Project a forward psychic assault that stuns foes and prevents them from unleashing their Ultimate Abilities; if the effect lingers, it gradually commandeers their mind, forcing them to move toward Emma Frost.",
     "casting": "Large-ranged Persistent Spell Field",
     "damage": "Basic damage 80/s; distance falloff: falloff begins at 10m, decreasing to 50% at 30m; angle falloff: falloff begins at 7° from the center of view, decreasing to 80% at 20°",
     "range": "Cone shape spell field, angle range: 80°, length: 30m",
-    "effect": null,
+    "effect": "Mind control",
     "duration": "6s",
     "health_upon_revival": null,
     "slow_rate": null,
@@ -166,13 +166,13 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 3700,
-    "details": "⚬ When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation"
+    "details": "When exposed to the ability, enemies accumulate 10 stacks per second, and the stacks decrease by 10 stacks per second when they leave the exposure. At 15 stacks, a control effect is triggered. Each enemy can only be controlled once per ultimate activation. When mind controlled, enemies don't have access to their movement and will be lured towards Emma until they die or the ultimate ends. When mind controlled, enemies within their Ultimate can have their Ultimate cancelled."
   },
   "passives": [
     {
       "name": "MIND LINK",
       "keybind": null,
-      "type": "PASSIVE",
+      "type": "Passive",
       "description": "Emma Frost can form a mental link with Magneto and Psylocke, calling on her to create illusory projections. When together, Emma Frost will create a Mental Projection of Magneto and Psylocke, forming a Duplicate Illusion in the enemy's perspective that confuses foes by moving and casting ability on its own.",
       "cooldown": null,
       "damage": null,
@@ -180,7 +180,7 @@
       "trigger_condition": null,
       "effect_boost": null,
       "speed_details": null,
-      "details": null
+      "details": "+100 Max Health"
     }
   ],
   "teamups": [
@@ -213,29 +213,19 @@
     "achievements": []
   },
   "lore_details": {
-    "ingame_bio_quote": "\"I'm as flawless as they come, darling.\"",
-    "ingame_bio_text": "Emma Frost is a wealthy socialite, a fashion icon, and a powerful telepath. Though she once used her Mutant abilities to influence others for her own personal, she now devotes her talents to Charles Xavier's dream of coexistence between Mutants and mankind.\nAfter Krakoa was transported to the year 2099 through a temporal storm, Emma and her Hellfire Trading Company defended the island nation against multiple hostile corporations. She then convinced the Quiet Council to approve a Hellfire Gala to chart her people's future in  this new timeline.",
+    "ingame_bio_quote": "\"The higher the pressure, the more dazzling the diamond.\"",
+    "ingame_bio_text": "For Emma Frost, war is the purest form of art. With her formidable telepathic abilities, she intricately weaves a deadly mental web that ensnares her foes, while her indestructible diamond form lets her lead her teammates fearlessly into the fray. Forever elegant and composed, Emma reigns as the one true queen of the battlefield!",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Forged in Hellfire",
-        "content": "The Grove. Up until recently, this secluded location deep in the heart of the living island known as Krakoa had regularly been filled with the chatter of Mutant leaders heatedly debating the future of their nation and their people. But when the Timestream Entanglement ripped Krakoa from its original timeline and displaced it into the far future, many of Mutantkind’s most prominent voices ended up scattered across the ages. The hush that fell over the Grove in the days that followed was thicker than the island’s humid tropical air. But as the Mutants who still called Krakoa their home had come to learn so many times before, nothing lasts forever...\n”The Quiet Council of Krakoa now summons forth the White Queen of the Hellfire Trading Company,”\nMagneto’s\npowerful voice boomed, cutting through the silence of the Grove like a sword.\n”And so begins the trial of Emma Frost...” the White Queen sighed, stepping forward out of the shadows. Her diamond skin glistened through the countless strategically-placed openings in her fashionable ensemble.\n”No need for drama, Emma”\nStorm\nsaid, taking her seat at the Quiet Council’s Table of Summer. “You know full well that we have gathered here tonight on your behest to consider your proposal.”\n”And what an impressive turn out...” Emma mused sarcastically, looking at the empty seats in front of her.\nWhere once there had been twelve members of the Quiet Council, now only three remained. Storm, Magneto, and Emma herself. And while Emma was convinced that her idea was truly a brilliant one, this time her vote would not be counted. She would have to convince the other two members of the Quiet Council to side with her, and she knew far better than to use her natural-born telepathic abilities in an effort to sway their opinions.\nLuckily, for Emma Frost, persuasion was an art form. Long before she became a crusader for Mutant rights, she had used her skills of seduction and negotiation to rise through the ranks of the Hellfire Club, making her one of the wealthiest and most powerful women in the world. She had learned through experience that there was always a way to get what she wanted. And this night would be no different.\n”As you know, the Hellfire Gala-“ Emma began, before being abruptly cut off by Magneto.\n”-is a waste of time,” the Master of Magnetism finished. “Krakoa is in crisis, Ms. Frost. We have been transported across time and space to an unfamiliar era that seems keen on reminding Mutantkind of just how unwelcome we are in the world of man. We have lost so many of our brethren, tossed to the corners of unknown realities. And yet, you wish to spend our resources to throw one of your garish parties? I think not.”\n“First,” Emma replied, choosing her words carefully as she responded to Mutantkind’s current leader, “my parties are anything but garish, darling. They are the height of extravagance.”\nEmma wasn’t lying. Ever since she first revived the historic Hellfire Gala as an annual event on Krakoa, this no-expenses-sparred celebration had become the hottest ticket on the planet. From super heroes to political heavyweights, if you didn’t make it onto the guest list, then you simply weren’t living up to your full potential. Emma had curated every aspect of past galas - from the food to the fashion - but the plans for her next event had been put on pause after Kraków’s unexpected change of address in space-time. Now was her chance to change that.\n”Second,” she continued, “the Gala is our opportunity to show this new world that Mutants are here an we aren’t going anywhere. A debut ball, of sorts.”\n”I believe\nWolverine\nhas already made everyone well aware of our presence,” Magneto said, the frustration in his voice quite evident.\n”Logan was just doing what he thought was right,” Storm interjected. “He meant no harm.”\n”But Magneto is correct,” Emma admitted. “When Wolverine decided to ally himself with the human Resistance, he got caught up in a series of events that cast all eyes on Krakoa in a less-than favorable way. His little stunt at Alchemax may have saved Captain America’s life, but it branded Logan an outlaw according to the Public Eye and made him an enemy of both Doom and the Mega-Corps that control all aspects of this society. And though they were the actions of just one Mutant, all of our reputations were damaged in the process.”\n”That’s a bit harsh...” Storm responded, desperate to defend one of her closest allies in the eyes of the Council, “...but you’re not wrong. What Logan did was reckless.”\n”Reckless, perhaps,” Emma agreed, “but even the most ill-advised strategies often open up unexpected pathways to victory,”\n”Alchemax has launched countless lawsuits against Krakoa and has imposed unprecedented sanctions,” Magneto argued. “Tell me woman... how does that lead to a victory?”\n”We have something that Alchemax does not,” Emma replied. “Medicines that actually work. As you both know, our Flowers of Krakoa have been proven to work miracles in fighting both human and Mutant diseases. They yield ten times the results of Alchemax’s best performing medications, with none of the nasty side effects. And now, the entire world has full access to them. Just take a look at the report in front of you...”\n”It says here that the Hellfire Trading Company has just signed independent deals with over seventy nations to distribute our biopharmaceuticals ,” Storm said, shocked about what she was reading.\n”And that number will only grow once word gets out about how safe and effective the Flowers of Krakoa actually are,” Emma responded.\n”You’ve directly targeted a sector that accounts for sixty percent of Alchemax’s business,” Magneto said, his temper beginning to flare. “That’s akin to declaring war!”\n”History has proven that this is the kind of war I always win,” Emma responded. “As a result of my deals, Alchemax’s stock has plummeted. Their board has already dropped dozens of lawsuits, and the sanctions won’t be far behind.”\n”The humans will not sit idly by and watch Mutantkind steal away their fortunes,” Magneto warned.\n”Oh, I am well aware of that fact,” Emma laughed. “Alchemax has already hired in outside forces to sabotage our efforts. At the best, they hope to sink our Hellfire Trading Company ships and destroy our precious cargo. At worst, they’re willing to contaminate the waterways and blame Krakoa for the ecological upheaval. But they won’t achieve either of those outcomes.”\n”How can you be so certain of that?” Storm asked.\n”Because I have been on-board the Marauder every time she set sail with a shipment,” Emma said, “and I have fought of their pathetic attempts myself. As it turns out, the mercenaries in this day and age aren’t built nearly as sturdy as they used to be. Physically or mentally. And when I read their minds and discovered that their services were subcontracted through the Public Eye - this era’s all-seeing, all-knowing police force - well, you can only imagine the amount of blackmail material that I suddenly had on our would-be oppressors. I doubt they’ll be making any more moves against us in the foreseeable future.”\n”I’ll admit, Emma...” Storm said, “...I’m impressed. You’ve consistently been a step ahead of those attempting to oppose us.”\n”Then let me be a step ahead of those who would be willing to support us as well,” Emma replied. “The Hellfire Gala is more than just a chance to reward our existing partners with a lavish evening of dancing and dining. It’s a much-needed opportunity to forge new strategic alliances that could strengthen Kraków’s place in this world. This may be our best chance to claim our seat at the table.”\n”And yet,” Magneto said, looking at the vacant chairs in the Quiet Council chamber, “we can barely fill our own...”\n”The Hellfire Gala could change that as well,” Emma insisted. “Raising Krakoa’s visibility, making our island part of the conversation in the world beyond its shores, could serve as a beacon to help bring our missing people back home!”\n”But it could also lead more dangerous factions directly to us as well,” Magneto argued.\n”It certainly could,” Emma admitted. “But with every hero from across reality gathered here for the festivities, I have a feeling we will be able to take on anyone foolish enough to crash the party.”\n”You have never done things in the most orthodox of ways, Emma,” Storm said, “but you have always had the best interests of Mutantkind at heart. If you truly believe another Hellfire Gala could make a difference for our people, I will take you at your word. You have earned my vote.”\n”Then it seems the future of Mutantkind lies in your hands Magneto,” Emma said with a playful smile, “as it  has so often before.”\n”Clearly, I have my reservations, Ms. Frost,” Magneto said, “but your actions thus far have proven that you are ready and willing to face any challenges that may arise. You have the blessing of this Council to proceed with your Gala. Do not make me regret my vote.”\nWith that, Magneto and Storm stood and exited the Grove, leaving Emma behind to quietly celebrate her victory. She sat in her chair at the table of Winte- reserved for those members of the Quiet Council with more radical ideologies- and kicked her white, leather, platform-heeled boots onto the table as she leaned back and reveled in the moment. But she knew she didn’t have long to savor the moment. There were so many plans to be made!\nBefore Emma departed from the Grove, she heard a sound inside her head - a deep rumbling voice called to her in an unintelligible language. She turned back to gaze upon the giant face of Krakoa itself, which had manifested on the giant tree at the center of the Quiet Council chamber. Emma walked over and put a gentle hand on the tree’s surface.\n”Don’t worry dear,” she said, “I haven’t forgotten about you. I know you’ve been suffering since your trip through the timestream... but if all goes as planned, your pain will come to an end soon enough. I know the perfect person to help you. A very special Doctor. But let’s just keep that fact between you and me for the moment...”\nAs Emma Frost began to walk away, she turned back and held an index finger to her lips, signaling for Krakoa to remain silent.\n”...because if the Quiet Council knew our little secret, they would never have voted yes.”",
-        "status": "Coming soon. Stay Tuned!"
-      },
-      {
-        "title": "New Marauders",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
-      },
-      {
-        "title": "Goblin and Cuckoos",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "The Grove. Up until recently, this secluded location deep in the heart of the living island known as Krakoa had regularly been filled with the chatter of Mutant leaders heatedly debating the future of their nation and their people. But when the Timestream Entanglement ripped Krakoa from its original timeline and displaced it into the far future, many of Mutantkind’s most prominent voices ended up scattered across the ages. The hush that fell over the Grove in the days that followed was thicker than the island’s humid tropical air. But as the Mutants who still called Krakoa their home had come to learn so many times before, nothing lasts forever...",
+        "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
+        "date_version": "25/04/11\nVersion 20250411\n/Season 2: Hellfire Gala\nLaunch",
         "changes": [
           "Emma Frost was released as the 38th character to be introduced to Marvel Rivals as a Vanguard hero.",
           "Added 2 new costumes: Blue Sapphire and X-Revolution.",
@@ -243,14 +233,14 @@
         ]
       },
       {
-        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
+        "date_version": "25/04/25\nVersion 20250425\n/Giant-Size Brain Blast\nEvent",
         "changes": [
           "Fixed a glitch in Diamond Form where her Carbon Crush would sometimes catapult foes underground—or even off the map! Now, when Emma dazzles, every move lands as sharp as a perfectly cut gem!"
         ]
       }
     ],
-    "official_quote": "The higher the pressure, the more dazzling the diamond.",
-    "official_description": "Emma Frost\nis a Vanguard\nhero\nfor\nMarvel Rivals\n,\nand is the 38th hero introduced to the game's roster during\nSeason 2: Hellfire Gala."
+    "official_quote": "\"I'm as flawless as they come, darling.\"",
+    "official_description": "Emma Frost is a wealthy socialite, a fashion icon, and a powerful telepath. Though she once used her Mutant abilities to influence others for her own personal, she now devotes her talents to Charles Xavier's dream of coexistence between Mutants and mankind. After Krakoa was transported to the year 2099 through a temporal storm, Emma and her Hellfire Trading Company defended the island nation against multiple hostile corporations. She then convinced the Quiet Council to approve a Hellfire Gala to chart her people's future in this new timeline."
   },
   "background": {
     "real_name": "Emma Grace Frost",
@@ -289,12 +279,12 @@
   },
   "meta_stats": {
     "tier": "A",
-    "win_rate": "50.38%",
+    "win_rate": "50.36%",
     "wr_change": "N/A",
-    "pick_rate": "40.05%",
+    "pick_rate": "37.21%",
     "pr_change": "N/A",
-    "ban_rate": "6.53%",
-    "matches": "597,598"
+    "ban_rate": "7.12%",
+    "matches": "554,220"
   },
   "data_sources": {
     "wiki": [],

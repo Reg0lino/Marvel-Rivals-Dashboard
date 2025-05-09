@@ -5,13 +5,13 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#A855F7",
-    "color_theme_secondary": "#84CC16"
+    "color_theme": "#10B981",
+    "color_theme_secondary": "#34D399"
   },
   "abilities": [
     {
       "name": "NIGHTSWORD THORN",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
       "description": "Throw Nightsword thorns.",
       "casting": "Single-cast hitscan",
@@ -30,30 +30,30 @@
       "details": null
     },
     {
-      "name": "ASTRAL FLOCK",
-      "keybind": "SHIFT",
+      "name": "PIERCING NIGHT",
+      "keybind": "RMB",
       "type": null,
-      "description": "Transform into a Nastrond Crow to glide forth, press again to undo the transformation.",
-      "casting": "Dash",
-      "damage": null,
+      "description": "Fire multiple Nightsword thorns that detonate after a delay. Projectiles stick to enemies on hit.",
+      "casting": "Straight-line projectile that generates a spell field upon impact",
+      "damage": "10 (per projectile) - 35 (spell field damage per round)",
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
       "critical_hit": null,
-      "cooldown": "15s",
+      "cooldown": "8s",
       "range": null,
-      "projectile_speed": null,
+      "projectile_speed": "80m/s",
       "charges": null,
-      "duration": null,
+      "duration": "3s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Invincible while transformed"
+      "details": "NUMBER OF PROJECTILES - 4"
     },
     {
       "name": "SOUL DRAINER",
       "keybind": "E",
       "type": null,
-      "description": "Project an explosive Hel sphere to Stun nearby enemies.",
+      "description": "Project an explosive Hel sphere to Stun nearby enemies. This ability can even interrupt certain Ultimates.",
       "casting": "Arced projectile that generates a spell field upon impact",
       "damage": "1 (projectile) - 40 (spell field damage)",
       "damage_falloff": null,
@@ -70,31 +70,71 @@
       "details": null
     },
     {
-      "name": "PIERCING NIGHT",
-      "keybind": null,
+      "name": "ASTRAL FLOCK",
+      "keybind": "SHIFT",
       "type": null,
-      "description": "Fire multiple Nightsword thorns that detonate after a delay.",
-      "casting": "Straight-line projectile that generates a spell field upon impact",
-      "damage": "10 (per projectile) - 35 (spell field damage per round)",
+      "description": "Transform into a Nastrond Crow to glide forth, press again to undo the transformation. Invincible while transformed. Hela cannot be healed by teammates during flight.",
+      "casting": "Dash",
+      "damage": null,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": null,
       "critical_hit": null,
-      "cooldown": "8s",
+      "cooldown": "15s",
       "range": null,
-      "projectile_speed": "80m/s",
+      "projectile_speed": null,
       "charges": null,
       "duration": null,
+      "movement_boost": "15m/s DASH SPEED\n18m DASH DISTANCE",
+      "energy_cost_details": null,
+      "details": null
+    },
+    {
+      "name": "NASTROND CROWSTORM",
+      "keybind": null,
+      "type": "PASSIVE",
+      "description": "Defeating an enemy will generate a Nastrond Crow, exploding after a duration.",
+      "casting": null,
+      "damage": "80",
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": "5m spherical radius",
+      "projectile_speed": null,
+      "charges": null,
+      "duration": "1.8s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "Projectiles stick to enemies on hit"
+      "details": null
+    },
+    {
+      "name": "HEL'S DESCENT",
+      "keybind": "SPACE",
+      "type": null,
+      "description": "Hold Space to fall slowly.",
+      "casting": null,
+      "damage": null,
+      "damage_falloff": null,
+      "fire_rate_interval": null,
+      "ammo": null,
+      "critical_hit": null,
+      "cooldown": null,
+      "range": null,
+      "projectile_speed": null,
+      "charges": null,
+      "duration": null,
+      "movement_boost": "6m/s (horizontal movement) - 3.5m/s (descent speed)",
+      "energy_cost_details": null,
+      "details": null
     }
   ],
   "ultimate": {
     "name": "GODDESS OF DEATH",
     "keybind": "Q",
     "type": null,
-    "description": "Soar into the sky and unleash Nastrond Crows from each hand at will.",
+    "description": "Soar into the sky and unleash Nastrond Crows from each hand at will. When activating Goddess of Death, Hela gains a hefty separate health bar of 1000 points. Even if this health bar is depleted, she will not die, but will instead revert to her normal form with the health she previously had before activating her Ultimate.",
     "casting": "Straight-line projectile that generates a spell field upon impact",
     "damage": "125",
     "range": "6m spherical radius",
@@ -106,47 +146,12 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 4000,
-    "details": "32% falloff at 4m\nABILITY HEALTH - 1000"
+    "details": "FIRE RATE - 1.79/s\nDAMAGE FALLOFF - 32% falloff at 4m\nABILITY HEALTH - 1000"
   },
   "passives": [
     {
-      "name": "NASTROND CROWSTORM",
-      "keybind": null,
-      "type": null,
-      "description": "Defeating an enemy will generate a Nastrond Crow, exploding after a duration.",
-      "cooldown": null,
-      "damage": "80",
-      "range": "5m spherical radius",
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": null
-    },
-    {
       "name": "QUEEN OF HEL",
-      "keybind": null,
-      "type": null,
-      "description": "When Hela lands a final hit in defeating an enemy, she can instantly resurrect Loki and Thor in the respawn phase, or grant them Bonus Health if they are still alive.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": null
-    },
-    {
-      "name": "HEL'S DESCENT",
-      "keybind": null,
-      "type": null,
-      "description": "Hold Space to fall slowly.",
-      "cooldown": null,
-      "damage": null,
-      "range": null,
-      "trigger_condition": null,
-      "effect_boost": null,
-      "speed_details": null,
-      "details": null
+      "effect_boost": "15% Damage Boost"
     }
   ],
   "teamups": [
@@ -191,9 +196,9 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "My domain will one day encompass all souls.",
-    "ingame_bio_text": "The Asgardian Goddess of Death, Hela is a powerful sorceress who controls an endless army of undead warriors. She has long sought to expand her domain beyond the nether realms and will make any deal that benefits her goal. Hela will not rest until all souls — living and dead — are hers to command.\nHela offered to support Loki's coup in exchange for an extension of Hel's territory into the realm of the living. In truth, though, she seeks to claim Yggsgard's throne — and the temporal power that comes with it — for herself.",
-    "ingame_story_intro": null,
+    "ingame_bio_quote": "\"No one escapes Hel.\"",
+    "ingame_bio_text": "As the Goddess of Death, Hela wields supreme control over the fallen souls residing in Hel. With a haunting whisper and a murder of crows, the queen of the underworld gracefully reaps the souls of her enemies without an ounce of mercy.",
+    "ingame_story_intro": "\"My domain will one day encompass all souls.\"",
     "hero_stories": [
       {
         "title": "Messenger of the Abyss",
@@ -213,58 +218,58 @@
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06:\nSeason 0: Dooms' Rise",
+        "date_version": "24/12/06: Season 0: Dooms' Rise Launch",
         "changes": [
-          "Launch\nHela was released as the 19th character to be introduced to Marvel Rivals as a Duelist hero.",
-          "Added 3 new costumes:\nUltimate, Goddess of Death, and Empress of the Cosmos.",
+          "Hela was released as the 19th character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 3 new costumes: Ultimate, Goddess of Death, and Empress of the Cosmos.",
           "Added the Terror of the Ten Realms achievement.",
           "Added to the Ragnarok Rebirth Team-Up Ability with Thor and Loki."
         ]
       },
       {
-        "date_version": "24/12/10:\nVersion 20241210",
+        "date_version": "24/12/10: Version 20241210",
         "changes": [
           "In the foggy areas of Intergalactic Empire of Wakanda: Hall of Djalia and Intergalactic Empire of Wakanda: Birnin T'Challa: Fog would disappear from Hela and Storm's perspectives when they activated their Ultimates. This issue has been resolved."
         ]
       },
       {
-        "date_version": "25/01/10:\nVersion 20250110\n/\nSeason 1: Eternal Night Falls",
+        "date_version": "25/01/10: Version 20250110 / Season 1: Eternal Night Falls Launch",
         "changes": [
-          "Launch\nReduce base health from 275 to 250.",
+          "Reduce base health from 275 to 250.",
           "Reduce Hela's season bonus from 20% to 15%.",
-          "Added 1 new costume:\nWill of Galacta."
+          "Added 1 new costume: Will of Galacta."
         ]
       },
       {
-        "date_version": "25/02/21:\nVersion 20250221\n/\nSeason 1.5",
+        "date_version": "25/02/21: Version 20250221 / Season 1.5 Launch",
         "changes": [
-          "Launch\nThe damage falloff of Nightsword Thorn at 30 meters will be changed from 70% to 80%."
+          "The damage falloff of Nightsword Thorn at 30 meters will be changed from 70% to 80%."
         ]
       },
       {
-        "date_version": "25/03/07:\nVersion 20250307\n/\nGalacta's Cosmic Adventure\nEvent",
+        "date_version": "25/03/07: Version 20250307 / Galacta's Cosmic Adventure Event",
         "changes": [
           "Resolved an inconsistency where Hela would sometimes be launched up after unleashing her Ultimate Ability. The Goddess of Death will now fly firm to rain destruction her foes!",
           "Fixed an issue where after Hela releases her Ultimate Ability, sometimes she may not be immediately detected when near the mission vehicle. Now her presence will be felt."
         ]
       },
       {
-        "date_version": "25/04/11:\nVersion 20250411\n/\nSeason 2: Hellfire Gala",
+        "date_version": "25/04/11: Version 20250411 / Season 2: Hellfire Gala Launch",
         "changes": [
-          "Launch\nIncrease cooldown time for Astral Flock from 12 seconds to 15 seconds.",
+          "Increase cooldown time for Astral Flock from 12 seconds to 15 seconds.",
           "Increase Spell Field Damage of Piercing Night from 30 to 35.",
           "Decrease cooldown time for Soul Drainer from 12 seconds to 10 seconds."
         ]
       },
       {
-        "date_version": "25/04/25:\nVersion 20250425\n/\nGiant-Size Brain Blast\nEvent",
+        "date_version": "25/04/25: Version 20250425 / Giant-Size Brain Blast Event",
         "changes": [
-          "Added 1 new costume:\nYami no Karasu."
+          "Added 1 new costume: Yami no Karasu."
         ]
       }
     ],
     "official_quote": null,
-    "official_description": "Hela is a Duelist hero in Marvel Rivals, and is the 19th hero introduced to the game's roster.\nShe has team-up abilities that work in conjunction with Loki and Thor."
+    "official_description": "Hela is a Duelist hero in Marvel Rivals, and is the 19th hero introduced to the game's roster. She has team-up abilities that work in conjunction with Loki and Thor."
   },
   "background": {
     "real_name": "Hela (ᚺᛖᛚᚨ)",
@@ -304,12 +309,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "48.87%",
-    "wr_change": "+0.10%",
-    "pick_rate": "12.99%",
-    "pr_change": "+4.11%",
-    "ban_rate": "5.81%",
-    "matches": "193,844"
+    "win_rate": "48.43%",
+    "wr_change": "-0.34%",
+    "pick_rate": "12.29%",
+    "pr_change": "+3.41%",
+    "ban_rate": "4.56%",
+    "matches": "183,013"
   },
   "data_sources": {
     "wiki": [],

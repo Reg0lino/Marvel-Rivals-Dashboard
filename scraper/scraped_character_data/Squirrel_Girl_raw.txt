@@ -87,6 +87,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 SQUIRREL GIRL
@@ -96,6 +98,8 @@ RARE
 Cheerful Dragoness
 EPIC
 Nut Rocker
+EPIC
+Sunshine Squirrel
 EPIC
 Urban Hunter
 EPIC
@@ -110,26 +114,32 @@ Season 0
 Nut Rocker
 Season 2
 — S2 BattlePass —
+Sunshine Squirrel
+Season 2
 Urban Hunter
 U.S.Avengers
 (2017) #1
-See
-:
-List of MVP Animations
+01
+02
+MVP ANIMATIONS
 DEFAULT
-Squirrel Girl
-Crack Boom Punk!
-Nut Rocker
-Boogie Time!
-Urban Hunter
+SQUIRREL GIRL
 Cuju Tackler
-Cheerful Dragoness
+CHEERFUL DRAGONESS
+Crack Boom Punk!
+NUT ROCKER
+Flavor Fiesta
+SUNSHINE SQUIRREL
+MVP ANIMATIONS
+Boogie Time!
+URBAN HUNTER
 01
 EMOTES
 DEFAULT
 BRAIN BLAST
 New Player
 Bubble Popper
+Sandy Disappearance
 I Can Do It
 See
 :
@@ -139,6 +149,7 @@ Squirrel Girl Emblem
 Happy Squirrel
 Cheerful Dragoness
 Nut Rocker
+Sunshine Squirrel
 Urban Hunter
 See
 :
@@ -146,7 +157,18 @@ List of Nameplates
 Squirrel Girl
 Cheerful Dragoness
 Nut Rocker
+Sunshine Squirrel
 Urban Hunter
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 BURST ACORN
@@ -491,6 +513,10 @@ Event
 Corrected an issued with
 Squirrel Girl
 's default emote where facial expressions where missing when used in a match. Now, when she unleashes her quirky charisma, every nutty moment is captured with the full force of her animated personality!
+25/05/09:
+Added 1 new costume:
+Sunshine Squirrel
+.
 Gallery
 Other
 Costume Origins
@@ -506,6 +532,9 @@ Hero Logo
 Prestige Artwork
 Hero Story Artwork
 Trivia
+Squirrel Girl's first appearance was in
+"Marvel Super Heroes" (1990) #8
+.
 Squirrel Girl's "Urban Hunter" costume was design by
 Janet van Dyne
 , also known as the superhero Wasp.

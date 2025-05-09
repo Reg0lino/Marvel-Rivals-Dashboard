@@ -102,6 +102,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 THE THING
@@ -131,13 +133,11 @@ DEFAULT
 The Thing
 Noir Scars
 Trench Coat
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-The Thing
+BRAIN BLAST
 Falling Object
-Trench Coat
 See
 :
 List of Sprays
@@ -149,6 +149,16 @@ See
 List of Nameplates
 The Thing
 Trench Coat
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 ROCKY JAB
@@ -445,6 +455,9 @@ Prestige Artwork
 Hero Logo
 Hero Story Artwork
 Trivia
+The Thing's first appearance was in
+"Fantastic Four" (1961) #1
+.
 The Thing was datamined from multiple sources around December 2024, along with 15 other characters, including
 Angela
 ,

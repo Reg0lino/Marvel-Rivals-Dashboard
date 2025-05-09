@@ -108,6 +108,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 WOLVERINE
@@ -170,6 +172,16 @@ Wolverine
 Patch
 Deadpool & Wolverine
 Blood Berserker
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 SAVAGE CLAW
@@ -678,6 +690,9 @@ in the Official Launch Trailer.
 "Deadpool & Wolverine" costume in
 Deadpool & Wolverine (2024)
 Trivia
+Wolverine's first appearance was in
+"Incredible Hulk" (1962) #181
+.
 Wolverine is voiced by Steve Blum, having portrayed the character for over 20 years in various media such as the
 X-Men Legends
 game series, the
@@ -690,7 +705,10 @@ X-Men
 film series,
 X-Men: The Last Stand
 .
-Wolverine's raising hair during his Berserker Rage state is a possible reference to his appearance in the comics,
-Wolverine Vol. 2, No. 94
+Wolverine's raising hair during his Berserker Rage state is a possible reference to his
+appearance
+in the comics,
+"Wolverine Vol. 2"  (1995) # 94
 .
 Wolverine's dog tag reads "Logan".
+Navigation

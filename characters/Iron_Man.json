@@ -5,20 +5,20 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#EF4444",
-    "color_theme_secondary": "#EAB308"
+    "color_theme": "#F59E0B",
+    "color_theme_secondary": "#93C5FD"
   },
   "abilities": [
     {
       "name": "REPULSOR BLAST",
-      "keybind": null,
+      "keybind": "LMB",
       "type": null,
-      "description": "Fire nano pulse cannons forward.",
+      "description": "Fire nano pulse cannons forward. Straight-line projectile that generates a spell field upon impact",
       "casting": "Straight-line projectile that generates a spell field upon impact",
-      "damage": "55 (Normal Attack, Armor Overdrive)\n60 (Gamma Overdrive)\n65 (Dual Blasters)",
+      "damage": "40 (Normal Attack, Armor Overdrive)\n60 (Gamma Overdrive)\n50 (Dual Blasters)",
       "damage_falloff": "40% falloff at 3m (Normal Attack)\n40% falloff at 5m (Dual Blasters, Armor Overdrive and Gamma Overdrive)",
-      "fire_rate_interval": null,
-      "ammo": 100,
+      "fire_rate_interval": "1.67/s (Normal Attack)\n1.33/s (Gamma Overdrive)",
+      "ammo": "100\n∞ (Armor Overdrive and Gamma Overdrive)",
       "critical_hit": false,
       "cooldown": null,
       "range": "3m spherical radius (Normal Attack)\n5m spherical radius (Armor Overdrive and Gamma Overdrive)",
@@ -27,18 +27,20 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ After firing the one-handed repulsor twice in a row, the next attack will fire two repulsors at once\n⚬\nRepulsor Blast\nand\nUnibeam\nshare the same ammo count"
+      "details": {
+        "spell_field_damage": "50 (Normal Attack, Armor Overdrive)\n60 (Dual Blasters)"
+      }
     },
     {
       "name": "UNIBEAM",
-      "keybind": null,
+      "keybind": "RMB",
       "type": null,
-      "description": "Fire nano pulse cannons forward.",
+      "description": "Fire nano pulse cannons forward. Channeled",
       "casting": "Channeled",
       "damage": "140/s (Normal Attack)\n190/s (Armor Overdrive)\n220/s (Gamma Overdrive)",
       "damage_falloff": null,
       "fire_rate_interval": null,
-      "ammo": 100,
+      "ammo": "100 (Normal Attack)\n∞ (Armor Overdrive and Gamma Overdrive)",
       "critical_hit": null,
       "cooldown": null,
       "range": "25m",
@@ -47,12 +49,12 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬\nRepulsor Blast\nand\nUnibeam\nshare the same ammo count"
+      "details": "Repulsor Blast and Unibeam share the same ammo count"
     },
     {
       "name": "HYPER-VELOCITY",
       "keybind": "SHIFT",
-      "type": null,
+      "type": "Movement",
       "description": "Activate Hyper-Velocity state for swift forward flight.",
       "casting": "Movement",
       "damage": null,
@@ -66,14 +68,14 @@
       "charges": null,
       "duration": null,
       "movement_boost": "100%",
-      "energy_cost_details": null,
-      "details": null
+      "energy_cost_details": "15/s",
+      "details": "MAXIMUM ENERGY - 120 (Hyper-Velocity)\n∞ (Armor Overdrive)\nENERGY RECOVERY SPEED - 10/s"
     },
     {
       "name": "ARMOR OVERDRIVE",
       "keybind": "E",
       "type": null,
-      "description": "Activate Armor Overdrive state, enhancing the damage of\nRepulsor Blast\nand\nUnibeam\n.",
+      "description": "Activate Armor Overdrive state, enhancing the damage of Repulsor Blast and Unibeam.",
       "casting": null,
       "damage": null,
       "damage_falloff": null,
@@ -87,15 +89,15 @@
       "duration": "10s",
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": null
+      "details": "Increases the damage of Repulsor Blast and Unibeam.\nInstantly refreshes the energy required for Hyper-Velocity.\nWhen paired with the Hulk, Armor Overdrive is replaced by Gamma Overdrive. It provides an improved damage boost to Repulsor Blast and Unibeam."
     },
     {
       "name": "MICRO-MISSILE BARRAGE",
       "keybind": "F",
       "type": null,
-      "description": "When\nHyper-Velocity\nor\nArmor Overdrive\nis used, Iron Man can launch a missile bombardment.",
+      "description": "When Hyper-Velocity or Armor Overdrive is used, Iron Man can launch a missile bombardment.",
       "casting": "Scatter-type projectile that generates a spell area upon impact",
-      "damage": "20 per round (Micro-Missile Barrage)\n15 per round (Armor Overdrive)",
+      "damage": null,
       "damage_falloff": null,
       "fire_rate_interval": null,
       "ammo": "16 (Micro-Missile Barrage)\n18 (Armor Overdrive)",
@@ -107,18 +109,18 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "⚬ Launch missiles directly beneath Iron Man (Micro-Missile Barrage)\n⚬ Launch in the direction of Iron Man's crosshair (Armor Overdrive)"
+      "details": "Launch missiles directly beneath Iron Man (Micro-Missile Barrage)\nLaunch in the direction of Iron Man's crosshair (Armor Overdrive)"
     }
   ],
   "ultimate": {
     "name": "INVINCIBLE PULSE CANNON",
     "keybind": "Q",
     "type": null,
-    "description": "Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact.",
+    "description": "Fire a devastating pulse cannon in the targeted direction, delivering catastrophic damage to the targeted area upon impact. Straight-line projectile that generates a spell field upon impact",
     "casting": "Straight-line projectile that generates a spell field upon impact",
     "damage": "300/s",
-    "range": null,
-    "effect": null,
+    "range": "10m spherical radius (Spell Field)\nLength: 15m, Width: 5m, Height: 5m (Dispersive Spell Field)",
+    "effect": "As the projectile travels, it creates a dispersive spell field that deals Damage Over Time to nearby enemies",
     "duration": null,
     "health_upon_revival": null,
     "slow_rate": null,
@@ -126,7 +128,7 @@
     "movement_boost": null,
     "bonus_health_details": null,
     "energy_cost": 2800,
-    "details": "⚬ As the projectile travels, it creates a dispersive spell field that deals Damage Over Time to nearby enemies"
+    "details": "SPELL FIELD DAMAGE - 1000\nSPELL FIELD DAMAGE FALLOFF - 5% falloff at 10m"
   },
   "passives": [],
   "teamups": [
@@ -177,108 +179,84 @@
   "lore_details": {
     "ingame_bio_quote": "\"I never wanted to be Iron Man, but it worked out for everybody.\"",
     "ingame_bio_text": "Armed with superior intellect and a nanotech battlesuit of his own design, Tony Stark stands alongside gods as the Invincible Iron Man. His state of the art armor turns any battlefield into his personal playground, allowing him to steal the spotlight he so desperately desires.",
-    "ingame_story_intro": "Wounded by a weapon of his own design, billionaire inventor Tony Stark created a custom-made suit of armor to keep himself alive. Though his wounds have healed, his upgraded armor now saves the lives of countless others when Tony dons it to become the world's greatest fighting machine — the invincible Iron Man!\nWhen the legions of the night descended upon New York City, Iron Man and his fellow Avengers turned their tower into a stronghold. From there, Tony leads the effort to unravel the mysteries of Chronovium and to reverse the Timestream Entanglement.",
+    "ingame_story_intro": "Wounded by a weapon of his own design, billionaire inventor Tony Stark created a custom-made suit of armor to keep himself alive. Though his wounds have healed, his upgraded armor now saves the lives of countless others when Tony dons it to become the world's greatest fighting machine — the invincible Iron Man!",
     "hero_stories": [
       {
         "title": "Universal Rules",
-        "content": "“You know what the worst part about vampires is, Friday?” Tony Stark asked as he launched a barrage of short-range missiles from the cannon mounted on the shoulder of his Iron Man armor.\n“The fact that they’ve taken over Manhattan, thanks to an ancient curse that’s thrust the entire city into a state of eternal night,” the armor’s A.I. replied matter-of-factly.\n“Well, yeah. That,” Stark responded, rolling his eyes as Friday stated the obvious yet again. “But they’re also a pain in my shiny metal butt when it comes to taking them down.”\nAs if to prove Tony’s point, the cluster of missiles hit the ground at a nearby construction site, completely missing their intended targets -- a small group of vampires that had been prowling the streets of Hell’s Kitchen.\n“Most of my targeting systems are thermal,” Stark continued, “and since vampires aren’t technically alive, they don’t generate much in the way of body heat. Do you have any idea how many missiles I’ve wasted since they showed up?”\n“My most recent count is 1,963,” Friday said, “or approximately $98 million worth of --”\n“I get it,” Stark sighed. “I have to find a better way.”\n“A few minor modifications to your weapons array would improve your accuracy by 374.2%,” Friday went on. “I can project the revised schematics for your review, if you wish.”\n“It’ll have to wait,” Stark said. “For now, I’ll have to do this the old-fashioned way...”\nIron Man swooped in front of the group of vampires and unleashed a few strong repulsor blasts from the palms of his gauntlets, each of them missing his bloodthirsty foes by mere inches.\n“I’m not sure that switching to manual targeting is yielding any better results, sir,” Friday said, concerned.\n“Maybe I’m not trying to hit them this time, Friday,” Stark said, smiling as he continued to unleash blasts to the sides of the vampires. “At least not yet.”\nThe creatures of the night huddled closer and closer together to avoid the onslaught of energy bursts. The horde turned to flee, but they had been herded into a corner. Iron Man had them exactly where he wanted them.\n“Unibeam. Armor Overdrive.” Stark commanded. Instantly, the reactor on the center of his chest began to glow with intense power. A concentrated beam emanated from the arc reactor, washing over the vampires. When the light faded, the horde lay defeated at Tony’s iron boots.\n“Wow,” Stark said. “I really needed that.”\n“Well, I’m glad you got it out of your system, Tony,” another voice interrupted over the armor’s comm-link. “Because now I need you back in the lab.”\n“Ugh. You’re such a buzzkill,\nReed\n,” Stark responded, clearly annoyed. But he knew that his fellow scientist -- Reed Richards, the brilliant hero and explorer known as Mister Fantastic -- was right.\nEver since\nDoctor Doom\nhad unraveled the boundaries between timestreams, causing them to overlap and entangle with each other, countless dimensions had been destroyed and the worlds that did survive had been thrown into complete chaos.\nTony and Reed had put their big brains together to design a machine that might be able to reintegrate the timelines and restore the remaining realities to the way they had been before. But even with the help of a think tank of super-geniuses, including\nT’Challa\nand\nShuri\nfrom an interstellar Wakandan empire, their efforts hadn’t produced any tangible results.\nThat’s because the Timestream Reintegration Device required massive amounts of chronal power, the kind of raw time energy that could only be generated by a newly-discovered element called\nChronovium\n. And until they secured enough Chronovium to ensure the TRD’s success, Tony wasn’t about to risk doing any more damage to the fabric of time and space -- or to the device itself. Reed, on the other hand, didn’t seem nearly as concerned.\n“Ben just got back from his latest recon mission,” Reed said over the comm-link, “and he recovered something that might be of great value to us.”\n“A lifetime supply of garlic?” Tony half-joked.\n“No,” Reed answered dryly. “A Chronovium crystal. One of the purest I’ve ever seen.”\n“Then put it in a necklace and give it to Sue for your anniversary,” Stark said sternly. “Because unless it’s generating enough chronal energy to operate the Timestream Reintegration Device at full capacity, we’re not using it.”\n“Stop being so stubborn, Tony,” Reed replied. “We both know that real science requires experimentation. We can’t trust the TRD to fix all of the universe’s problems if we haven’t properly tested it first.”\n“The way I see it, we’ve got one shot at this,” Stark argued. “We’ve checked the numbers. The design is flawless. This device is our golden ticket to fixing the timestream. I’m not looking to change course here, but if we rush it and wreck it, we could lose our only shot. I’ve had my share of luck in Vegas, but this is one gamble I’m not ready to take. Are you…?”\nReed paused just long enough that Tony thought he might have lost the signal. But then he finally replied.\n“I suppose not,” Reed said, his voice tinged with disappointment. “But we can’t stay in a holding pattern forever. The time will come when we have to pull the trigger, ready or not.”\n“Take it from a guy who used to make weapons for a living,” Stark said. “Even when you think you’re ready to pull the trigger, you never really are.”\n“Funny,” another voice responded, this one nearby, “I’ve never had that problem before…”\nTony had been so caught up in his conversation with Reed that he had failed to notice the arrival of another hero on the scene -- the white-clad warrior known as\nMoon Knight\n.\n“You’re a little late to the party, Spector,” Stark said confidently. “I already cleared out all the unwanted guests.”\n“That’s not what Khonshu told me,” Moon Knight replied. “He says the vamps have been using this site as a secondary nesting ground.”\n“You’re crazy,” Stark laughed. “If there were more of them here, my armor totally would have --”\nTony stopped, realizing his mistake. He hadn’t herded the vampires into the construction site. They had herded him here. They must’ve somehow figured out that his armor’s thermal sensors wouldn’t alert him to the presence of more of their bloodthirsty kin lurking silently in the rafters above, waiting to strike.\n“Who’s crazy now?” Moon Knight asked as dozens of vampires suddenly descended upon the two heroes.\n“Still you,” Stark responded, blasting energy beams at the oncoming attackers. “But I guess you’re not the only one now.”\n“This whole world has lost its damn mind,” said Moon Knight as he planted his staff into the ground and vaulted forward, kicking back a particularly vicious vamp. “For the first time ever, Khonshu might be the only one making any sense.”\n“You mean that moon god you’re always talking to?” Stark asked suspiciously. “What’s he got to say this time?”\n“He says that you’ve been focusing on the wrong problem,” Moon Knight replied. “You’re so busy trying to save the universe that you’re forgetting about saving the people in it.”\n“So we should stop the vampires first, then fix the timestream?” Stark said, furiously firing every weapon in his arsenal at the endless wave of vampires. “Easy to say. But we’ve been trying to come up with new ways to combat the city’s current crisis. As you can see, nothing’s working.”\n“Science isn’t going to solve this,” Moon Knight said, pulling a small ankh from his belt. “An ancient curse calls for an ancient solution.”\nAs Moon Knight raised the ankh over his head, it began to glow. The blinding rays of moonlight shining from the totem sent the remaining vampires running for cover.\n“You wouldn’t happen to have another one of those things,” Stark asked. “Like, a really, really big one, maybe…?”\n“No,” Moon Knight responded. “But I might have something better. A plan.”\n“I’m listening,” Stark said eagerly.\n“There’s a forbidden spell called the Montesi Formula,” Moon Knight continued. “Khonshu says it has the power to wipe out the vampires for good.”\n“What’s the catch?” Stark asked.\n“The spell was written in the Darkhold…” Moon Knight replied.\n“And all of the pages of the Darkhold got scattered across the city when that other Wanda pulled Doctor Strange back into our dimension,” Stark finished. “Lovely.”\n“Khonshu says he knows where we can find the page we need,” Moon Knight said. “But there’s one more thing. And a hero like you isn’t going to want to hear it.”\n“Try me,” Stark said.\n“When I say the spell can wipe vampires out for good, I mean it,” Moon Knight said. “That includes all of the innocent New Yorkers that have fallen prey to Dracula’s legion and joined their ranks.”\n“That’s a lot of potential casualties…” Stark said solemnly.\n“You used to deal in war, Tony,” Moon Knight said. “You know better than most that casualties are part of the equation.”\n“I’m sorry,” Stark responded. “The price is just too high.”\n“Never dreamed of the day where I’d hear Tony Stark say those words…” Moon Knight said.\n“Neither did I…” Stark replied, uncertain. “And I’m not sure I how long I can keep convincing myself that they’re true.”\nKhonshu’s chosen avatar leapt into the air and quickly bounded from one steel girder to the next, his white cape flowing behind him. As he landed atop the building next to the construction site, he looked down at Stark and delivered a final offer.\n“It’s time to let magic clean up its own mess, Stark,” Moon Knight said. “Are you with me or not?”\n“I…” Tony paused, considering the options.\nBut before he could answer, alarms began to blare inside of his helmet.\n“No more time to talk, boss,” Friday chimed in. “I just picked up a massive power spike over in Central Park. And from my readings, it seems to be Asgardian in nature.”\n“Did Thor finally show his pretty blond head?” Stark asked hopefully.\n“That’s a big negative,” Friday replied. “But whatever it is, it’s giving off some intense mystical energy.”\n“Great. More magic,” Stark said sarcastically as he powered up his boot jets and lifted into the air. “Just what I needed.”\nAs he reached the level where Moon Knight was perched, Iron Man paused for a moment.\n“Well, are you coming with me or not?” he asked.\n“That depends.” Moon Knight replied. “Whose side are you on…?”\n“I’m on the side of whoever can end this nightmare,” Stark said. “And so far, that hasn’t been us. Maybe it is time to change course after all…”",
-        "status": "Coming soon. Stay Tuned!"
-      },
-      {
-        "title": "Armor Wars",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
-      },
-      {
-        "title": "The Dream of J.A.R.V.I.S.",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "“You know what the worst part about vampires is, Friday?” Tony Stark asked as he launched a barrage of short-range missiles from the cannon mounted on the shoulder of his Iron Man armor.\n“The fact that they’ve taken over Manhattan, thanks to an ancient curse that’s thrust the entire city into a state of eternal night,” the armor’s A.I. replied matter-of-factly.\n“Well, yeah. That,” Stark responded, rolling his eyes as Friday stated the obvious yet again. “But they’re also a pain in my shiny metal butt when it comes to taking them down.”\nAs if to prove Tony’s point, the cluster of missiles hit the ground at a nearby construction site, completely missing their intended targets -- a small group of vampires that had been prowling the streets of Hell’s Kitchen.\n“Most of my targeting systems are thermal,” Stark continued, “and since vampires aren’t technically alive, they don’t generate much in the way of body heat. Do you have any idea how many missiles I’ve wasted since they showed up?”\n“My most recent count is 1,963,” Friday said, “or approximately $98 million worth of --”\n“I get it,” Stark sighed. “I have to find a better way.”\n“A few minor modifications to your weapons array would improve your accuracy by 374.2%,” Friday went on. “I can project the revised schematics for your review, if you wish.”\n“It’ll have to wait,” Stark said. “For now, I’ll have to do this the old-fashioned way...”\nIron Man swooped in front of the group of vampires and unleashed a few strong repulsor blasts from the palms of his gauntlets, each of them missing his bloodthirsty foes by mere inches.\n“I’m not sure that switching to manual targeting is yielding any better results, sir,” Friday said, concerned.\n“Maybe I’m not trying to hit them this time, Friday,” Stark said, smiling as he continued to unleash blasts to the sides of the vampires. “At least not yet.”\nThe creatures of the night huddled closer and closer together to avoid the onslaught of energy bursts. The horde turned to flee, but they had been herded into a corner. Iron Man had them exactly where he wanted them.\n“Unibeam. Armor Overdrive.” Stark commanded. Instantly, the reactor on the center of his chest began to glow with intense power. A concentrated beam emanated from the arc reactor, washing over the vampires. When the light faded, the horde lay defeated at Tony’s iron boots.\n“Wow,” Stark said. “I really needed that.”\n“Well, I’m glad you got it out of your system, Tony,” another voice interrupted over the armor’s comm-link. “Because now I need you back in the lab.”\n“Ugh. You’re such a buzzkill, Reed,” Stark responded, clearly annoyed. But he knew that his fellow scientist -- Reed Richards, the brilliant hero and explorer known as Mister Fantastic -- was right.\nEver since Doctor Doom had unraveled the boundaries between timestreams, causing them to overlap and entangle with each other, countless dimensions had been destroyed and the worlds that did survive had been thrown into complete chaos.\nTony and Reed had put their big brains together to design a machine that might be able to reintegrate the timelines and restore the remaining realities to the way they had been before. But even with the help of a think tank of super-geniuses, including T’Challa and Shuri from an interstellar Wakandan empire, their efforts hadn’t produced any tangible results.\nThat’s because the Timestream Reintegration Device required massive amounts of chronal power, the kind of raw time energy that could only be generated by a newly-discovered element called Chronovium. And until they secured enough Chronovium to ensure the TRD’s success, Tony wasn’t about to risk doing any more damage to the fabric of time and space -- or to the device itself. Reed, on the other hand, didn’t seem nearly as concerned.\n“Ben just got back from his latest recon mission,” Reed said over the comm-link, “and he recovered something that might be of great value to us.”\n“A lifetime supply of garlic?” Tony half-joked.\n“No,” Reed answered dryly. “A Chronovium crystal. One of the purest I’ve ever seen.”\n“Then put it in a necklace and give it to Sue for your anniversary,” Stark said sternly. “Because unless it’s generating enough chronal energy to operate the Timestream Reintegration Device at full capacity, we’re not using it.”\n“Stop being so stubborn, Tony,” Reed replied. “We both know that real science requires experimentation. We can’t trust the TRD to fix all of the universe’s problems if we haven’t properly tested it first.”\n“The way I see it, we’ve got one shot at this,” Stark argued. “We’ve checked the numbers. The design is flawless. This device is our golden ticket to fixing the timestream. I’m not looking to change course here, but if we rush it and wreck it, we could lose our only shot. I’ve had my share of luck in Vegas, but this is one gamble I’m not ready to take. Are you…?”\nReed paused just long enough that Tony thought he might have lost the signal. But then he finally replied.\n“I suppose not,” Reed said, his voice tinged with disappointment. “But we can’t stay in a holding pattern forever. The time will come when we have to pull the trigger, ready or not.”\n“Take it from a guy who used to make weapons for a living,” Stark said. “Even when you think you’re ready to pull the trigger, you never really are.”\n“Funny,” another voice responded, this one nearby, “I’ve never had that problem before…”\nTony had been so caught up in his conversation with Reed that he had failed to notice the arrival of another hero on the scene -- the white-clad warrior known as Moon Knight.\n“You’re a little late to the party, Spector,” Stark said confidently. “I already cleared out all the unwanted guests.”\n“That’s not what Khonshu told me,” Moon Knight replied. “He says the vamps have been using this site as a secondary nesting ground.”\n“You’re crazy,” Stark laughed. “If there were more of them here, my armor totally would have --”\nTony stopped, realizing his mistake. He hadn’t herded the vampires into the construction site. They had herded him here. They must’ve somehow figured out that his armor’s thermal sensors wouldn’t alert him to the presence of more of their bloodthirsty kin lurking silently in the rafters above, waiting to strike.\n“Who’s crazy now?” Moon Knight asked as dozens of vampires suddenly descended upon the two heroes.\n“Still you,” Stark responded, blasting energy beams at the oncoming attackers. “But I guess you’re not the only one now.”\n“This whole world has lost its damn mind,” said Moon Knight as he planted his staff into the ground and vaulted forward, kicking back a particularly vicious vamp. “For the first time ever, Khonshu might be the only one making any sense.”\n“You mean that moon god you’re always talking to?” Stark asked suspiciously. “What’s he got to say this time?”\n“He says that you’ve been focusing on the wrong problem,” Moon Knight replied. “You’re so busy trying to save the universe that you’re forgetting about saving the people in it.”\n“So we should stop the vampires first, then fix the timestream?” Stark said, furiously firing every weapon in his arsenal at the endless wave of vampires. “Easy to say. But we’ve been trying to come up with new ways to combat the city’s current crisis. As you can see, nothing’s working.”\n“Science isn’t going to solve this,” Moon Knight said, pulling a small ankh from his belt. “An ancient curse calls for an ancient solution.”\nAs Moon Knight raised the ankh over his head, it began to glow. The blinding rays of moonlight shining from the totem sent the remaining vampires running for cover.\n“You wouldn’t happen to have another one of those things,” Stark asked. “Like, a really, really big one, maybe…?”\n“No,” Moon Knight responded. “But I might have something better. A plan.”\n“I’m listening,” Stark said eagerly.\n“There’s a forbidden spell called the Montesi Formula,” Moon Knight continued. “Khonshu says it has the power to wipe out the vampires for good.”\n“What’s the catch?” Stark asked.\n“The spell was written in the Darkhold…” Moon Knight replied.\n“And all of the pages of the Darkhold got scattered across the city when that other Wanda pulled Doctor Strange back into our dimension,” Stark finished. “Lovely.”\n“Khonshu says he knows where we can find the page we need,” Moon Knight said. “But there’s one more thing. And a hero like you isn’t going to want to hear it.”\n“Try me,” Stark said.\n“When I say the spell can wipe vampires out for good, I mean it,” Moon Knight said. “That includes all of the innocent New Yorkers that have fallen prey to Dracula’s legion and joined their ranks.”\n“That’s a lot of potential casualties…” Stark said solemnly.\n“You used to deal in war, Tony,” Moon Knight said. “You know better than most that casualties are part of the equation.”\n“I’m sorry,” Stark responded. “The price is just too high.”\n“Never dreamed of the day where I’d hear Tony Stark say those words…” Moon Knight said.\n“Neither did I…” Stark replied, uncertain. “And I’m not sure I how long I can keep convincing myself that they’re true.”\nKhonshu’s chosen avatar leapt into the air and quickly bounded from one steel girder to the next, his white cape flowing behind him. As he landed atop the building next to the construction site, he looked down at Stark and delivered a final offer.\n“It’s time to let magic clean up its own mess, Stark,” Moon Knight said. “Are you with me or not?”\n“I…” Tony paused, considering the options.\nBut before he could answer, alarms began to blare inside of his helmet.\n“No more time to talk, boss,” Friday chimed in. “I just picked up a massive power spike over in Central Park. And from my readings, it seems to be Asgardian in nature.”\n“Did Thor finally show his pretty blond head?” Stark asked hopefully.\n“That’s a big negative,” Friday replied. “But whatever it is, it’s giving off some intense mystical energy.”\n“Great. More magic,” Stark said sarcastically as he powered up his boot jets and lifted into the air. “Just what I needed.”\nAs he reached the level where Moon Knight was perched, Iron Man paused for a moment.\n“Well, are you coming with me or not?” he asked.\n“That depends.” Moon Knight replied. “Whose side are you on…?”\n“I’m on the side of whoever can end this nightmare,” Stark said. “And so far, that hasn’t been us. Maybe it is time to change course after all…”",
+        "status": null
       }
     ],
     "balance_changes": [
       {
-        "date_version": "24/12/06",
+        "date_version": "24/12/06:Season 0: Dooms' RiseLaunch",
         "changes": [
-          "Launch",
-          "Iron Man\nwas released as the 3rd character to be introduced to\nMarvel Rivals\nas a\nDuelist\nhero.",
-          "Added 3 new costumes:\nArmor Model 42\n,\nSuperior Iron Man\n, and\nAvengers: Endgame\n.",
-          "Added the\nFlawless Design\nachievement.",
-          "Added to the\nGamma Charge\nTeam-Up Ability\nwith\nHulk\nand\nDoctor Strange\n."
+          "Iron Man was released as the 3rd character to be introduced to Marvel Rivals as a Duelist hero.",
+          "Added 3 new costumes: Armor Model 42, Superior Iron Man, and Avengers: Endgame.",
+          "Added the Flawless Design achievement.",
+          "Added to the Gamma Charge Team-Up Ability with Hulk and Doctor Strange."
         ]
       },
       {
-        "date_version": "25/01/08",
+        "date_version": "25/01/08:",
         "changes": [
-          "Corrected instances where\nIron Man\n's ultimate ability would sometimes pass through\nHela\nduring her ultimate ability."
+          "Corrected instances where Iron Man's ultimate ability would sometimes pass through Hela during her ultimate ability."
         ]
       },
       {
-        "date_version": "25/01/10",
+        "date_version": "25/01/10:Version 20250110/Season 1: Eternal Night FallsLaunch",
         "changes": [
-          "Version 20250110",
-          "Season 1: Eternal Night Falls",
-          "Launch",
-          "Added 1 new costume:\nBlood Edge Armor\n."
+          "Added 1 new costume: Blood Edge Armor."
         ]
       },
       {
-        "date_version": "25/02/07",
+        "date_version": "25/02/07:Version 20250207",
         "changes": [
-          "Version 20250207",
-          "Resolved an occasional problem where\nIron Man\n's Ultimate Ability would still take effect even after being absorbed by\nMagneto\n's Ultimate Ability. Magneto's magnetic prowess now has it fully contained!"
+          "Resolved an occasional problem where Iron Man's Ultimate Ability would still take effect even after being absorbed by Magneto's Ultimate Ability. Magneto's magnetic prowess now has it fully contained!"
         ]
       },
       {
-        "date_version": "25/02/14",
+        "date_version": "25/02/14:Version 20250214",
         "changes": [
-          "Version 20250214",
-          "Addressed a tech malfunction where\nIron Man\n's arm models could go missing after activating\nArmor Overdrive\nin certain rare scenarios. The suit's back in action--fully equipped to blast into battle!"
+          "Addressed a tech malfunction where Iron Man's arm models could go missing after activating Armor Overdrive in certain rare scenarios. The suit's back in action--fully equipped to blast into battle!"
         ]
       },
       {
-        "date_version": "25/02/21",
+        "date_version": "25/02/21:Version 20250221/Season 1.5Launch",
         "changes": [
-          "Version 20250221",
-          "Season 1.5",
-          "Launch",
-          "Increase\nUnibeam\ndamage from 120/s to 140/s.",
-          "Increase\nUnibeam (Armor Overdrive)\ndamage from 180/s to 190/s."
+          "Increase Unibeam damage from 120/s to 140/s.",
+          "Increase Unibeam (Armor Overdrive) damage from 180/s to 190/s."
         ]
       },
       {
-        "date_version": "25/03/14",
+        "date_version": "25/03/14:Version 20250314",
         "changes": [
-          "Version 20250314",
-          "Decrease\nRepulsor Blast\nstage 1 and 2 direct hit damage from 55 to 40; Increase spell field damage from 35 to 50. Decrease stage 3 direct hit damage from 65 to 50; Increase spell field damage from 40 to 60.",
-          "Decrease\nRepulsor Blast (Armor Overdrive)\ndirect hit damage from 55 to 50; Increase spell field damage from 55 to 65."
+          "Decrease Repulsor Blast stage 1 and 2 direct hit damage from 55 to 40; Increase spell field damage from 35 to 50. Decrease stage 3 direct hit damage from 65 to 50; Increase spell field damage from 40 to 60.",
+          "Decrease Repulsor Blast (Armor Overdrive) direct hit damage from 55 to 50; Increase spell field damage from 55 to 65."
         ]
       },
       {
-        "date_version": "25/03/21",
+        "date_version": "25/03/21:",
         "changes": [
-          "Added 1 new costume:\nSteam Power\n."
+          "Added 1 new costume: Steam Power."
         ]
       },
       {
-        "date_version": "25/03/27",
+        "date_version": "25/03/27:Version 20250327",
         "changes": [
-          "Version 20250327",
-          "In\nSanctum Sanctorum\n,\nIron Man\n's use of\nHyper-Velocity\nfollowed immediately by portal entry could occasionally throw a wrench in the works—resulting in the ability to misfire and some off-color special effects. Now,\nIron Man's\nhigh-tech strategy is as sleek as ever, letting him jet in and out as he pleases."
+          "In Sanctum Sanctorum, Iron Man's use of Hyper-Velocity followed immediately by portal entry could occasionally throw a wrench in the works—resulting in the ability to misfire and some off-color special effects. Now, Iron Man's high-tech strategy is as sleek as ever, letting him jet in and out as he pleases."
         ]
       },
       {
-        "date_version": "25/04/11",
+        "date_version": "25/04/11:Version 20250411/Season 2: Hellfire GalaLaunch",
         "changes": [
-          "Version 20250411",
-          "Season 2: Hellfire Gala",
-          "Launch",
-          "Slightly reduce\nIron Man\n's hitbox size.",
-          "New feature: Gain 100 Bonus Health activating\nArmor Overdrive\nor\nGamma Overdrive\nthat will start to falloff 5 seconds later at a rate of 30 per second."
+          "Slightly reduce Iron Man's hitbox size.",
+          "New feature: Gain 100 Bonus Health activating Armor Overdrive or Gamma Overdrive that will start to falloff 5 seconds later at a rate of 30 per second."
         ]
       }
     ],
     "official_quote": null,
-    "official_description": "Iron Man\nis a Duelist\nhero\nin\nMarvel Rivals\n, and is the 3rd hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with\nHulk\nand\nNamor\n."
+    "official_description": "Iron Man is a Duelist hero in Marvel Rivals, and is the 3rd hero introduced to the game's roster. He has team-up abilities that work in conjunction with Hulk and Namor."
   },
   "background": {
     "real_name": "Anthony Edward \"Tony\" Stark",
@@ -317,12 +295,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "52.80%",
-    "wr_change": "+3.53%",
-    "pick_rate": "14.38%",
-    "pr_change": "+5.41%",
-    "ban_rate": "0.82%",
-    "matches": "214,558"
+    "win_rate": "52.90%",
+    "wr_change": "+3.63%",
+    "pick_rate": "15.04%",
+    "pr_change": "+6.06%",
+    "ban_rate": "1.07%",
+    "matches": "223,986"
   },
   "data_sources": {
     "wiki": [],

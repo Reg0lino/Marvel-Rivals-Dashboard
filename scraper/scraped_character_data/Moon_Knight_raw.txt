@@ -97,6 +97,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 MOON KNIGHT
@@ -140,17 +142,13 @@ Like the Moon
 Fist Of Vengeance
 General From the Heavens
 Lunar General
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Moon Knight
+BRAIN BLAST
 Dashing, Daring, and Debonair
-Mister Knight
 Khonshu's Avatar
-Fist Of Vengeance
 Lunar Blessing
-Lunar General
 See
 :
 List of Sprays
@@ -167,6 +165,16 @@ Moon Knight
 Mr. Knight
 Fist Of Vengeance
 Lunar General
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 CRESCENT DART
@@ -528,6 +536,9 @@ Secret Avengers
 Moon Knight
 (2022)
 Trivia
+Moon Knight's first appearance was in
+"Werewolf by Night" (1972) #32
+.
 The
 Moon Knight
 spray features gold accents not seen on his gameplay model, or on any other official artwork of Moon Knight.

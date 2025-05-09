@@ -5,8 +5,8 @@
     "health": 250,
     "speed": "6 m/s",
     "difficulty": null,
-    "color_theme": "#F87171",
-    "color_theme_secondary": "#93C5FD"
+    "color_theme": "#DC2626",
+    "color_theme_secondary": "#F87171"
   },
   "abilities": [
     {
@@ -14,7 +14,7 @@
       "keybind": "LMB",
       "type": "Melee",
       "description": "Swing fists forward to strike, dealing extra damage to the enemy with a Spider-Tracer.",
-      "casting": "Melee",
+      "casting": null,
       "damage": "The first two strikes deal 25 damage, while the third strike deals 40 damage (damage increases for one strike when hitting with Spider-Tracer)",
       "damage_falloff": null,
       "fire_rate_interval": "The first two strikes have an interval of 0.37s between them, while the third strike has a 0.82s interval from the second strike",
@@ -32,7 +32,7 @@
     {
       "name": "CYBER-WEB CLUSTER",
       "keybind": "RMB",
-      "type": "Projectile",
+      "type": null,
       "description": "Shoot a Web-Cluster that deals damage and attaches a Spider-Tracer to the hit enemy.",
       "casting": "Projectile that fires in a straight trajectory",
       "damage": "30 (consuming Spider-Tracer with another ability deals a further 45)",
@@ -72,7 +72,7 @@
     {
       "name": "GET OVER HERE!",
       "keybind": "E",
-      "type": "Projectile",
+      "type": null,
       "description": "Shoot webbing to reel in the hit enemy. If the enemy is tagged with a Spider-Tracer, Spider-Man will get pulled to them instead.",
       "casting": "Projectile that fires in a straight trajectory",
       "damage": "Pull: 25\nWeb Strike: 50",
@@ -147,7 +147,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "WALL-CRAWLING SPEED -\n3 m/s\nSPRINTING SPEED -\n9 m/s"
+      "details": null
     },
     {
       "name": "SPIDER-SENSE",
@@ -167,7 +167,7 @@
       "duration": null,
       "movement_boost": null,
       "energy_cost_details": null,
-      "details": "DISAPPEARANCE TIME TO TRIGGER DETECTION -\n3s"
+      "details": null
     }
   ],
   "ultimate": {
@@ -180,11 +180,11 @@
     "range": "8m spherical radius",
     "effect": "Striking an enemy applies a stacking -3% Slow effect for 1 second, and after reaching 20 hits, the enemy will be Stunned for 1.5s.",
     "duration": "2.4s",
-    "health_upon_revival": null,
-    "slow_rate": null,
+    "health_upon_revival": "Bonus Health: 250",
+    "slow_rate": "-3%",
     "projectile_speed": null,
     "movement_boost": null,
-    "bonus_health_details": "Bonus Health: 250",
+    "bonus_health_details": null,
     "energy_cost": 2800,
     "details": null
   },
@@ -244,24 +244,24 @@
     ]
   },
   "lore_details": {
-    "ingame_bio_quote": "I'm your friendly neighborhood Spider-Man. Only my neighborhood is now like multiple realities, cool right?",
+    "ingame_bio_quote": "\"I'm your friendly neighborhood Spider-Man. Only my neighborhood is now like multiple realities, cool right?\"",
     "ingame_bio_text": "Swinging around the arena on his signature weblines, your friendly neighborhood Spider-Man, AKA Peter Parker, catches his rivals by surprise with sneaky, sticky bursts of webbing and unexpected attacks from above. Look out… here comes the Spider-Man!",
     "ingame_story_intro": null,
     "hero_stories": [
       {
         "title": "Unfriendly Neighborhood",
-        "content": "Every week or so, Peter Parker swung uptown from his usual haunts to the Manhattan side of the Queensboro Bridge, looking across toward home. And every week, there was still no way to get there. There were too many vampires patrolling the bridge, and other horrific monsters flying over it. Dracula had taken Manhattan all for himself, and he wasn't letting any of his human \"playthings\" escape.\nStill Peter came by to look, wishing he could talk to Aunt May, Every Wednesday. That's when he missed Aunt May the most, because ever since he'd moved out of her house, he'd always tried to get back to see her for lunch on Wednesdays.\nToday, he was staying a little farther away from the bridge, watching it from the Midtown Tunnel's ventilation tower, a mile downstream past the U.N. headquarters. It was a quiet place for contemplation, since the huge fans were no longer running. He had cased the area for vampires before letting himself have his weekly moment of regret and longing for a world before the Timestream Entanglement. Before the vampires had taken over New York. Before he had lost track of the days since he'd seen the sun. [rest of story omitted for brevity]",
+        "content": "Every week or so, Peter Parker swung uptown from his usual haunts to the Manhattan side of the Queensboro Bridge, looking across toward home. And every week, there was still no way to get there. There were too many vampires patrolling the bridge, and other horrific monsters flying over it. Dracula had taken Manhattan all for himself, and he wasn't letting any of his human \"playthings\" escape.\n\nStill Peter came by to look, wishing he could talk to Aunt May, Every Wednesday. That's when he missed Aunt May the most, because ever since he'd moved out of her house, he'd always tried to get back to see her for lunch on Wednesdays.\n\nToday, he was staying a little farther away from the bridge, watching it from the Midtown Tunnel's ventilation tower, a mile downstream past the U.N. headquarters. It was a quiet place for contemplation, since the huge fans were no longer running. He had cased the area for vampires before letting himself have his weekly moment of regret and longing for a world before the Timestream Entanglement. Before the vampires had taken over New York. Before he had lost track of the days since he'd seen the sun.\n\nGazing at the bridge under the dead eye of the Blood Moon, Peter was lost in his head, thinking about two things at once:\n\nOne, he was frustrated about not being allowed to help out with the construction of the Timestream Reintegration Device that Reed Richards and Tony Stark had been working on. For some reason, they felt Peter would be more useful swinging through the streets and webbing up vampires as Spider-Man than contributing his own brand of scientific expertise to their little super-genius think tank.\n\nTwo, he was remembering when he had been here the week before, about the same time - although it was hard to know what time it was when the sun never came up and the moon always hung full over the river. He'd been wishing he could see Aunt May, just like tonight, when he noticed a twinkling in the air, just in front of him. It got a little brighter,  and a folded piece of paper appeared out of nowhere, pinched between two fingers. The hand disappeared and the pieced of paper drifted down to rest on Peter's right knee.\n\nHuh, he thought. That didn't happen ever day.\n\nHe unfolded the paper and read:\n\nPeter,\n\nThe Master Weaver told me to find you and tell that the Web of Life and Destiny needs you. I will reach out again when it is time for you to come here. That time will be soon.\n\nSpider-Zero\n\nSpider-Zero? Master Weaver? Peter had never of either, nor did he have any idea what the Web of Life and Destiny might be. But this was the day he would finally find out. As he silently gazed toward Queens, a portal popped open next to him. A young woman was on the other side.\n\n\"So... I'm guessing you're Spider-Zero, eh?\" Peter said. \"Do you happen to have an actual real-person name?\"\n\nShe ignored his question. \"We need you, Peter. The Web of Life and Destiny needs you.\"\n\n\"I don't-\" Peter paused for a moment before saying what he really meant.  \"I belong here.\"\n\n\"Spider-Man belongs everywhere,\" Spider-Zero responded, cryptically. \"Come with me and I'll show you.\"\n\nPeter didn't want to go through the portal. Something told him it would be hard to get back, for any number of possible reasons, and he couldn't take the chance. So instead, Spider-Zero showed him the Web of Life and Destiny through the rift. The night sky beyond it blazed with portals and stars. The city below it-so, so far below it- was a dark splendor of neon-lit towers and shadow, extending to the horizon in every direction.\n\n\"See, Peter? This is your destiny.\" Spider-Zero said. \"Our destiny. If the Web fails, all Spider-People will disappear. Including you. And not too long after that, reality comes a part. The Web is what holds it all together.\"\n\nHis gut told him to leap into action and save the universe, but in his heart, Peter knew that he had to say no. At least for now, His city needed him more.\n\n\"If things get worse, you know where to find me,\" he said. \"I'll try to come and help, but New York is my home. I belong here.\"\n\nSpider-Zero didn't press him further, but she did say she would be coming back. Peter didn't argue.\n\nAs the portal faded away, Peter started thinking that the Web might be like the model of the universe Tony Stark had talked about, with dimensions wrapped up in tight strings that vibrated through space-time and intersected, well, like a web. Peter knew a little about string theory, but the way Tony talked about space-time when he and Reed were working out the math for the TRD? That was just a bit beyond Peter's reach. He could see what it was the same way he could see what Arthur Douglas was doing on the saxophone. Actually doing it himself was a whole other level. Peter was a bit crestfallen at having to admit this to himself, but hey, at least he still streets to patrol and citizens to save from vampires and other creatures of the night.\n\nCould be worse.\n\n“There you are!” a more familiar voice called out, snapping Peter back into reality. He glanced up to see Johnny Storm - the Human Torch -rapidly approaching, fully flame-on.\n\n”No more sitting here and moping about how much you miss Aunt May’s wheatcakes, Petey,” Johnny said. “We’ve got work to do!”\n\n”Didn’t we just defeat a Deviant Mutate together, like, an hour ago?” Peter asked. The two heroes had long been best friends and had enjoyed countless team-ups over the years, but the frequency of their joint missions together had increased exponentially since the city had fallen under the curse never-ending night.\n\n“That’s already old news,” Johnny laughed. “I’ve incinerated at least a dozen more vamps since then all on my lonesome. But Reed just sent me some juicy new intel that’s gonna blow your mind!”\n\n”Please don’t let it be a vampire Galactus…” Peter muttered nervously under his breath.\n\n”Way better,” Johnny said with a confident smile. “Blade finally showed up!”\n\n”Blade?!” Peter said with genuine surprise. The vampire hunter had been mysteriously missing-in-action ever since Dracula’s hordes first descended upon the island of Manhattan. Peter breathed a sigh of relief, knowing that Blade’s expertise in battling vampires could really help the heroes turn the tied back in their favor. It was almost too good to be true!\n\n“Squirrel Girl’s crew claims to have seen him in Central Park twenty minutes ago,” Johnny continued, beginning to fly toward the center of the city. “We have to find him… before you-know-who does!”\n\nPeter immediately leapt from his perch, spinning a strand of webbing and swinging after the Human Torch. Johnny was moving fast, but Peter could easily follow the trail of flame that his friend left in the air behind him.\n\nAs the duo descended to the southeast corner of Central Park, they couldn’t believe their eyes. There he was: a half-man, half-vampire warrior clad in all black, grinning as he furiously swung his swords at a group of oncoming vampires. His sharp fangs glinted in the light of the Blood Moon. There was no doubt about it. This was Blade, the legendary Daywalker. And, suddenly, both Peter and Johnny felt a lot more hope.\n\n”You just gonna stand there starin’, boys?” Blade asked, not even looking from his foes. “Or are you gonna help me take down these damn fangers?”\n\n”Oh, yeah! Sorry!” Peter said, leaping into action, rapidly shooting a barrage of webs at the feet of the vampire horde. “I just don’t think either of us expected to see you here.”\n\n“You and me both,” Blade mused. “Been on a secret recon mission tryin’ to figure out how the hell Dracula made New York his new turf.”\n\n”Any luck?” Johnny asked.\n\n”Found a few leads,” Blade said, his tone instantly becoming much more serious, “But they all sounded a bit hard to believe.”\n\n”Says the guy currently in a sword fight with vampires,” Spidey jested. Blade didn’t even crack a smile. But, to be fair, he didn’t have much reason to.\n\nAs much as Blade hated vampires, vampires has always hated Blade right back. Not only because he was constantly hunting them down and ending their immortality early, but also because they were extremely jealous of him. Blade had something that no other vampire had - the ability to survive in the sunlight. Peter worried that fact alone would make his friend Dracula’s Most Wanted.\n\nSee, even though the city was shrouded  in darkness for the moment, Dracula had to know that his little ploy wouldn’t last forever. If he could use this opportunity to find a more permanent solution to his brood’s limitations, however - a solution that was likely to be found in Blade’s hybrid blood - then he wouldn’t need to rely on a Empire of Eternal Night anymore. No matter the time of day, vampire would rule the city… and, eventually, the world…\n\nAs Peter pondered the chilling possibilities, he continued to web shut fang-filled mouths as swiftly as he could. Meanwhile, Johnny and Blade were busy using more lethal methods to eliminate their undead attackers. Johnny unleashed powerful bursts of superheated plasma to incinerate the vampire soldiers, while Blade effortlessly sliced his foes into bits with his swords. Peter tried not to throw up in his mask, both from the sight and the smell. Soon, the chaos subsided and the three heroes were the only men left standing.\n\n”Was that it?” Peter asked, well aware of the mistake he had just made the second words left his lips. His spider-sense immediately let him know that even greater danger lurked nearby. Classic Parker luck.\n\n”Calm before the storm,” Blade said knowingly.\n\n”Indeed”, a sinister voice responded as Dracula himself stepped out of the shadows, his blood red cape gently swaying in the breeze.\n\n”Dracula?” Johnny exclaimed, almost excited. The lord of the vampires had rarely left his castle since this nightmare began. “Big mistake showing your pastry face in public, pal!”\n\nThe Human Torch released an enormous burst of flames in Dracula’s direction, but the vampire king dodged out of the way uncanny speed. Peter unloaded burst after burst of webbing toward Dracula as well, but fared no better when it came to hitting his target. Their foe was far too fast.\n\n“Takes a vamp to beat a vamp,” Blade said, raising both of his swords as he pushed between his new allies and lunged at Dracula.\n\"You speak true,\" Dracula responded as he unsheathed his two ornate swords and met Blade in combat. \"And since you are only half a vampire, it is clear who shall claim victory.\"\n\nSparks flew as metal clashed. For every thrust of Blade's weapons, Dracula had a perfect counterattack that left the vampire hunter growling with frustration. Despite Blade's undeniable combat skill, Spidey could see that the Daywalker was out-matched. The hunter was about to become the prey if Peter didn't do something fast.\n\n\"Get ready to light it up, Johnny,\" Peter said. His fantastic friend nodded, knowing what to do next.\n\nAs Peter launched another bombardment of web blasts from his wristbands, Johnny produced a wall of flame directly in their path. As the dense balls of webbing passed through the flames, they instantly ignited. The burning projectiles impacted Dracula, setting his cape ablaze and distracting him for a mere moment - a moment Blade eagerly took advantage of.\n\n\"Nice steel you've got there, Vlad,\" Blade said, kicking the legendary Sword of Dracula from his foe's hand. \"Think I'll add 'em to my collection.\" Blade quickly wrenched the smaller yet equally legendary blade from this undead king's claws.\n\n\"And I shall add your hand tom mine!\" Dracula snarled back. Even though he had been disarmed, Dracula still managed to dodge Blade's frenzy of attacks.\n\nWhile the two vampires  clashed, Peter released a heavy spray of webbing at Dracula's feet, stopping him in his tracks for a moment. But just as Spidey swung in to deliver a swift kick to Dracula's pointy teeth, the vampiric villain turned himself into a black mist, freeing himself from the webs and sending Spidey soaring straight through him.\n\n\"Hey, Blade,\" Johnny yelled, \"let's show this jerk how we like our stakes!\"\n\nBlade grabbed a pair of sharp wooden spikes from his bandolier and hurled them through the air, straight at Dracula's heart. Johnny lit up the sharp stakes with two quick bursts of flame as they hurled toward their deadly destination.\n\n\"Well, done,\" Dracula said as he used his lightning - fast reflexes to bat the burning stakes out of the sky split seconds before they could pierce his undead flesh. \"But I prefer my meat bloody.\"\n\nDracula suddenly turned his attention back to Peter, leaping through the air and clutching the hero by the throat.\n\n\"And you will make the perfect appetizer,\" Dracula growled, lifting Peter into the air with one hand. Peter squirmed to break free from the vampire's grip, but to no avail. Peter could feel Dracula's fingers tightening around his larynx. For once, the Amazing Spider-Man was truly speechless. His vision began to cloud with darkness as he gasped for air. Dracula leaned in, his fangs ready to sink into the sinew of Peter's neck.\n\n\"You don't want him,\" Blade said, slicing Dracula from behind with his sword. Dracula loosened his hold and Peter slumped to the ground, gasping. \"It's me you're after.\"\n\nEverything that happened after that was a blur. Peter tried to get to back on his feet and back in the game, but he quickly realized that he never stood a chance against Dracula, even with Blade and the Human Torch on his side.\n\nThe lord of the vampires attacked Peter's friends ferociously, turning himself a giant dragon-like bat and using a flap of his massive wings to extinguish the Human Torch's flames, knocking Johnny unconscious in the process.\n\nAll Peter could do was watch helplessly as Dracula's monstrous form swooped down and grabbed Blade in his claws, lifting the vampire hunter into the air. Despite his efforts, Blade couldn't manage to break free from Dracula's grip. The hideous creature passed in front of the Blood Moon as he dragged his prey back to his castle... and the unspeakable horrors that waited within.\n\nAs everything faded to black, Peter Parker wondered if maybe he should have gone through that portal after all...",
         "status": null
       },
       {
         "title": "Liberation of New York",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
       },
       {
         "title": "Spiders are not Insects",
-        "content": null,
-        "status": "Coming soon. Stay Tuned!"
+        "content": "Coming soon. Stay Tuned!",
+        "status": null
       }
     ],
     "balance_changes": [
@@ -325,8 +325,8 @@
         ]
       }
     ],
-    "official_quote": "Anybody has a chance to be a hero. I believe that.",
-    "official_description": "Spider-Man is a Duelist hero in Marvel Rivals, and is the 4th hero introduced to the game's roster.\nHe has team-up abilities that work in conjunction with Squirrel Girl, Peni Parker, and Venom."
+    "official_quote": "\"Anybody has a chance to be a hero. I believe that.\"",
+    "official_description": "Spider-Man is a Duelist hero in Marvel Rivals, and is the 4th hero introduced to the game's roster. He has team-up abilities that work in conjunction with Squirrel Girl, Peni Parker, and Venom."
   },
   "background": {
     "real_name": "Peter Benjamin Parker",
@@ -367,12 +367,12 @@
   },
   "meta_stats": {
     "tier": "B",
-    "win_rate": "48.41%",
-    "wr_change": "-0.31%",
-    "pick_rate": "17.74%",
-    "pr_change": "+1.66%",
-    "ban_rate": "30.12%",
-    "matches": "264,691"
+    "win_rate": "47.64%",
+    "wr_change": "-1.08%",
+    "pick_rate": "16.10%",
+    "pr_change": "+0.03%",
+    "ban_rate": "26.32%",
+    "matches": "239,855"
   },
   "data_sources": {
     "wiki": [],

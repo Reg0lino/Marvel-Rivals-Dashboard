@@ -97,6 +97,8 @@ MVP
 Emotes
 Sprays
 Nameplates
+KO Prompts
+Avatars
 01
 Costume Catalog
 MANTIS
@@ -141,17 +143,13 @@ Power of Empathy
 Guardians of the Galaxy, Vol. 3
 Celestial Harmony
 Galactic Wings
-See
-:
-List of Emotes
+01
+EMOTES
 DEFAULT
-Mantis
+BRAIN BLAST
 Jade Melody
-Jade Maiden
 Feel Like Dancing
-Guardians of the Galaxy Vol. 3
 Life Energy
-Galactic Wings
 See
 :
 List of Sprays
@@ -166,6 +164,16 @@ Mantis
 Jade Maiden
 Guardians of the Galaxy Vol. 3
 Galactic Wings
+See
+:
+List of KO Prompts
+Deluxe KO Prompt 1
+Deluxe KO Prompt 2
+See
+:
+List of Avatars
+Default
+Deluxe Avatar
 Abilities
 Normal Attack
 LIFE ENERGY BLAST
@@ -173,7 +181,7 @@ Fire an energy thorn and regain one Life Orb after a critical hit.
 CASTING -
 Single-cast projectile with delayed impact
 DAMAGE -
-50 per round
+55 per round
 AMMO -
 20
 FIRE RATE -
@@ -501,3 +509,7 @@ Guardians of the Galaxy
 "Guardians of the Galaxy Vol. 3" costume in
 Guardians of the Galaxy Vol. 3
 (2023)
+Trivia
+Mantis' first appearance was in
+"Avengers" (1963) #112
+.
