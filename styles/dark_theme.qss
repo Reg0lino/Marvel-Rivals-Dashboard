@@ -1,9 +1,11 @@
 /* Stylesheet for Marvel Rivals Dashboard - Fixed Sizes */
 
+/* --- Global Font --- */
 QMainWindow, QWidget {
     background-color: #282828;
     color: #E5E5E5;
-    font-size: 11pt; /* base_font_size */
+    font-family: "Refrigerator Deluxe";
+    font-size: 12pt; /* INCREASED BASE FONT SIZE */
 }
 
 QDialog#InfoPopupDialog {
@@ -125,7 +127,8 @@ CollapsibleGroupBox[hasToggleButton="true"]::title { left: 28px; top: 0px; }
 
 QLabel {
     color: #E5E5E5; background-color: transparent; border: none; padding: 1px;
-    font-size: 11pt; /* base_font_size */
+    /* font-size: 12pt;  Inherits from QWidget */
+    /* No need to set font-family again if set globally */
 }
 QLabel#CharacterNameLabel {
     margin-bottom: 6px;
@@ -137,6 +140,23 @@ QLabel#RoleLabel, QLabel.StatLabel {
 }
 QLabel#ImageNotFoundLabel { font-style: italic; }
 
+QLabel#DataForgeTitleLabel {
+    font-size: 24pt;
+    font-weight: bold;
+}
+QLabel#CharacterNameDisplayLabel {
+    font-size: 22pt;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* Form Labels */
+QFormLayout QLabel {
+    font-size: 12pt;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
 #StaticInfoLabel a, #JumpBarLabel a { color: #77C4FF; text-decoration: none; }
 #StaticInfoLabel a:hover, #JumpBarLabel a:hover { color: #AADDFF; text-decoration: underline; }
 
@@ -144,12 +164,27 @@ QGroupBox ZoomableTextWidget, CollapsibleGroupBox ZoomableTextWidget {
     color: #E0E0E0; background-color: rgba(0,0,0,0.15); border: none; padding: 4px; border-radius: 3px; margin-bottom: 3px;
 }
 
-QLineEdit { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #555555; border-radius: 4px; padding: 3px 6px; }
-QComboBox { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #555555; border-radius: 4px; padding: 3px 6px; }
+QLineEdit, QTextEdit, QSpinBox, QDoubleSpinBox, QComboBox {
+    background-color: #3F3F3F;
+    color: #E0E0E0;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 11pt;
+}
 QComboBox::drop-down { border: none; width: 18px; }
 QComboBox QAbstractItemView { background-color: #3F3F3F; color: #E0E0E0; border: 1px solid #666666; selection-background-color: #5A5A5A; }
 
-QPushButton { background-color: #505050; color: #E0E0E0; border: 1px solid #656565; padding: 4px 8px; border-radius: 4px; min-height: 18px; }
+QPushButton {
+    background-color: #505050;
+    color: #E0E0E0;
+    border: 1px solid #656565;
+    padding: 8px 12px;
+    border-radius: 4px;
+    min-height: 28px;
+    font-weight: bold;
+    font-size: 11pt;
+}
 QPushButton:hover { background-color: #606060; border: 1px solid #757575; }
 QPushButton:pressed { background-color: #454545; }
 QPushButton#InfoButton {
@@ -175,19 +210,19 @@ QGroupBox#JumpBarGroupBox > QWidget { background-color: transparent; border: non
 QTabBar::tab {
     color: #DDDDDD;
     background-color: #353535;
-    padding: 8px 15px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border: 1px solid #222222;
     border-bottom: none;
     margin-right: 2px;
+    font-weight: bold;
+    font-size: 11pt;
 }
 
 QTabBar::tab:selected {
     color: #FFFFFF;
     background-color: #4A4A4A;
-    border: 1px solid #555555;
-    border-bottom: 1px solid #4A4A4A;
 }
 
 QTabBar::tab:hover {

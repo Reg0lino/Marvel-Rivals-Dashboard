@@ -113,3 +113,7 @@ release/MR_Dash_App/launcher.exe
 
 config/dashboard_ready.flag
 scraper/debug_parsed_teamups_raw.json
+characters/Magik.json.bak
+characters/Winter_Soldier.json.bak
+config/data_editor_update.flag
+

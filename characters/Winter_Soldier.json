@@ -6,7 +6,11 @@
     "speed": "6 m/s",
     "difficulty": null,
     "color_theme": "#FBBF2C",
-    "color_theme_secondary": "#DC2626"
+    "color_theme_secondary": "#DC2626",
+    "armor": 0,
+    "shields_regenerating": 0,
+    "speed_mps": 6.0,
+    "difficulty_rating": null
   },
   "abilities": [
     {
@@ -161,7 +165,7 @@
   },
   "lore_details": {
     "ingame_bio_quote": "\"I'm not anyone's sidekick, what I do best is done alone.\"",
-    "ingame_bio_text": "Terrifying experiments turned him into a brainwashed assassin, but now James Buchanan \"Bucky\" Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!",
+    "ingame_bio_text": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Refrigerator Deluxe'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Terrifying experiments turned him into a brainwashed assassin, but now James Buchanan &quot;Bucky&quot; Barnes is in control of his own fate once again. With his enhanced mechanical arm, the Winter Soldier is primed to deliver earth-shattering blows to any foe in his path!</p></body></html>",
     "ingame_story_intro": null,
     "hero_stories": [
       {
@@ -278,7 +282,14 @@
       }
     ],
     "official_quote": "\"I was rebuilt to be a weapon, but now I'm the one who pulls the trigger.\"",
-    "official_description": "Winter Soldier is a Duelist hero in Marvel Rivals, and is the 24th hero introduced to the game's roster. He has a team-up ability that work in conjunction with Captain America."
+    "official_description": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Refrigerator Deluxe'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Winter Soldier is a Duelist hero in Marvel Rivals, and is the 24th hero introduced to the game's roster. He has a team-up ability that work in conjunction with Captain America.</p></body></html>",
+    "real_name": null,
+    "aliases": [],
+    "birthplace": null,
+    "gender": null,
+    "eye_color": null,
+    "hair_color": null,
+    "affiliation": []
   },
   "background": {
     "real_name": "James Buchanan \"Bucky\" Barnes",
@@ -323,5 +334,8 @@
     "wiki": [],
     "tracker": [],
     "comic_wiki": []
-  }
+  },
+  "release_version": "",
+  "ingame_bio_quote": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Refrigerator Deluxe'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">AGAIN!</p></body></html>",
+  "official_quote": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</style></head><body style=\" font-family:'Refrigerator Deluxe'; font-size:14pt; font-weight:400; font-style:normal;\">\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"
 }
